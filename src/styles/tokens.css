@@ -1,0 +1,94 @@
+/*
+ * MADAMOON V8 — tokens du design system (Tailwind CSS 4, @theme).
+ * Source de vérité : docs/DESIGN-SYSTEM.md. Les composants n'écrivent jamais
+ * une couleur, une durée ou une taille en dur : ils nomment un token.
+ */
+@theme {
+  /* — couleurs (voir DIRECTION-ARTISTIQUE.md § Palette) — */
+  --color-porcelaine: #fbf9f5;
+  --color-ivoire: #f3eee5;
+  --color-lin: #e8e0d3;
+  --color-sable: #cbbba3;
+  --color-encre: #1a1714;
+  --color-graphite: #554e47;
+  --color-brume: #948b80;
+  --color-grenat: #910000;   /* action — marque MADAMOON */
+  --color-rouge: #ce0a2c;    /* ponctuation — marque MADAMOON, une fois par page */
+  --color-blanc: #ffffff;
+  --color-voile: rgb(251 249 245 / 0.86); /* en-tête au défilement */
+
+  /* — typographie — */
+  --font-affiche: var(--police-bodoni), "Bodoni Moda", "Didot", "Times New Roman", serif;
+  --font-texte: var(--police-instrument), "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --text-affiche: clamp(3rem, 9.5vw, 10.5rem);
+  --text-affiche--line-height: 0.92;
+  --text-affiche--letter-spacing: -0.02em;
+  --text-titre-1: clamp(2.5rem, 5.5vw, 5.5rem);
+  --text-titre-1--line-height: 0.98;
+  --text-titre-1--letter-spacing: -0.015em;
+  --text-titre-2: clamp(1.75rem, 3.2vw, 3rem);
+  --text-titre-2--line-height: 1.05;
+  --text-titre-3: clamp(1.375rem, 2vw, 1.875rem);
+  --text-titre-3--line-height: 1.15;
+  --text-phrase: clamp(1.25rem, 1.8vw, 1.75rem);
+  --text-phrase--line-height: 1.35;
+  --text-texte: clamp(1rem, 1.05vw, 1.125rem);
+  --text-texte--line-height: 1.65;
+  --text-legende: 0.8125rem;
+  --text-legende--line-height: 1.4;
+  --text-legende--letter-spacing: 0.02em;
+  --text-mention: 0.6875rem;
+  --text-mention--line-height: 1.3;
+  --text-mention--letter-spacing: 0.18em;
+
+  /* — espace — */
+  --spacing-gouttiere: clamp(1.25rem, 4vw, 4.5rem);
+  --spacing-section: clamp(6rem, 12vw, 11rem);
+  --spacing-section-courte: clamp(3.5rem, 7vw, 6.5rem);
+  --spacing-entete: 4rem;
+  --container-site: 105rem; /* 1 680 px */
+  --container-mesure: 62ch;
+  --container-mesure-courte: 38ch;
+
+  /* — ratios d'image — */
+  --aspect-robe: 3 / 4;
+  --aspect-detail: 4 / 5;
+  --aspect-scene: 16 / 9;
+  --aspect-film: 21 / 9;
+
+  /* — mouvement — */
+  --ease-sortie: cubic-bezier(0.16, 1, 0.3, 1);   /* ligne, fondu monté */
+  --ease-rideau: cubic-bezier(0.76, 0, 0.24, 1);  /* masques, passage */
+  --ease-doux: cubic-bezier(0.22, 1, 0.36, 1);    /* survols */
+  --duration-court: 300ms;
+  --duration-moyen: 900ms;
+  --duration-rideau: 1200ms;
+  --duration-passage: 700ms;
+  --decalage-ligne: 90ms;
+  --contre-echelle: 1.08;
+  --derive: 6%;
+
+  /* — rayons et filets — */
+  --radius-aucun: 0px;
+  --filet: 1px solid var(--color-lin);
+
+  /* — plans — */
+  --z-grain: 60;
+  --z-entete: 40;
+  --z-menu: 50;
+  --z-passage: 70;
+}
+
+/* Le mouvement se coupe entièrement si la personne le demande. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-court: 0ms;
+    --duration-moyen: 0ms;
+    --duration-rideau: 0ms;
+    --duration-passage: 0ms;
+    --decalage-ligne: 0ms;
+    --contre-echelle: 1;
+    --derive: 0%;
+  }
+}

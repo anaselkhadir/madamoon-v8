@@ -1,0 +1,55 @@
+URL FR;URL EN;Titre de travail;Type;Cluster;Priorité;Statut;Priorité sitemap;Fréquence;Nb d'URL
+/;/en/;Accueil — Robes de mariée à Paris;accueil;Boutique robe de mariée Paris;P0;existante;1.0;weekly;1
+/robes/;/en/dresses/;Toutes les robes de mariée;catalogue;Robe de mariée (générique);P0;existante;0.9;weekly;1
+/robes/[slug]/;/en/dresses/[slug]/;Fiche robe (67 robes);fiche;Longue traîne par robe;P0;existantes;0.7;monthly;67
+/coupes/;/en/silhouettes/;Les coupes de robes de mariée;hub;Robe de mariée (générique);P1;existante;0.8;monthly;1
+/coupes/sirene/;/en/silhouettes/mermaid/;Robe de mariée sirène;coupe;Coupe sirène;P0;existante;0.8;monthly;1
+/coupes/princesse/;/en/silhouettes/ball-gown/;Robe de mariée princesse;coupe;Coupe princesse;P0;existante;0.8;monthly;1
+/coupes/fluide/;/en/silhouettes/sheath/;Robe de mariée fluide;coupe;Coupe fluide;P1;existante;0.8;monthly;1
+/coupes/trapeze/;/en/silhouettes/a-line/;Robe de mariée trapèze;coupe;Coupe trapèze;P1;existante;0.8;monthly;1
+/coupes/deux-en-un/;/en/silhouettes/two-in-one/;Robe de mariée deux-en-un;coupe;Coupe deux-en-un;P1;existante;0.8;monthly;1
+/coupes/courte/;;Robe de mariée courte;coupe;Robe courte;P2;à vérifier avec la maison (stock de robes courtes);0.7;monthly;1
+/styles/boheme/;;Robe de mariée bohème;style;Style bohème;P0;à créer;0.8;monthly;1
+/styles/minimaliste/;;Robe de mariée minimaliste et simple;style;Style minimaliste;P1;à créer;0.8;monthly;1
+/styles/romantique/;;Robe de mariée romantique;style;Style romantique;P3;à créer si volume confirmé;0.6;monthly;1
+/styles/mariage-civil/;;Robe pour un mariage civil;style;Mariage civil;P2;à vérifier avec la maison;0.7;monthly;1
+/matieres/dentelle/;;Robe de mariée en dentelle;matière;Matière dentelle;P1;à créer;0.8;monthly;1
+/matieres/satin/;;Robe de mariée en satin, crêpe et mikado;matière;Matière satin / soie;P2;à créer;0.7;monthly;1
+/details/manches-longues/;;Robe de mariée à manches longues;détail;Détails : manches;P1;à créer;0.8;monthly;1
+/details/bustier/;;Robe de mariée bustier et décolletés;détail;Détails : bustier / décolleté;P2;à créer;0.7;monthly;1
+/details/dos-nu/;;Robe de mariée dos nu;détail;Style sexy / dos nu;P2;à créer;0.7;monthly;1
+/morphologies/;/en/body-shapes/;Quelle robe de mariée pour ma morphologie;hub;Morphologie;P1;existante;0.8;monthly;1
+/morphologies/o/;/en/body-shapes/o/;Robe de mariée morphologie en O;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/a/;/en/body-shapes/a/;Robe de mariée morphologie en A;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/v/;/en/body-shapes/v/;Robe de mariée morphologie en V;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/h/;/en/body-shapes/h/;Robe de mariée morphologie en H;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/8/;/en/body-shapes/8/;Robe de mariée morphologie en 8;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/x/;/en/body-shapes/x/;Robe de mariée morphologie en X;morphologie;Morphologie;P1;existante;0.7;monthly;1
+/morphologies/grande-taille/;;Robe de mariée grande taille;morphologie;Grande taille;P2;à vérifier avec la maison (tailles proposées);0.7;monthly;1
+/createurs/;/en/designers/;Les maisons et créateurs;hub;Sur mesure / créateur;P1;à créer (hub absent de madamoon.fr);0.8;monthly;1
+/createurs/watters-designs/;/en/designers/watters-designs/;Watters Designs à Paris;créateur;Créateurs MADAMOON;P1;existante;0.7;monthly;1
+/createurs/casablanca-bridal/;/en/designers/casablanca-bridal/;Casablanca Bridal à Paris;créateur;Créateurs MADAMOON;P1;existante;0.7;monthly;1
+/createurs/olya-mak/;/en/designers/olya-mak/;Olya Mak à Paris;créateur;Créateurs MADAMOON;P1;existante;0.7;monthly;1
+/createurs/monica-loretti/;/en/designers/monica-loretti/;Monica Loretti à Paris;créateur;Créateurs MADAMOON;P1;existante;0.7;monthly;1
+/createurs/autres-createurs/;/en/designers/autres-createurs/;Autres créateurs;créateur;Créateurs MADAMOON;P2;existante (à nommer si la maison confirme Angeola Biarritz);0.5;monthly;1
+/showroom/;/en/showroom/;Le showroom, Paris 10e;conversion;Boutique robe de mariée Paris;P0;existante;0.9;monthly;1
+/rendez-vous/;/en/appointment/;Prendre rendez-vous pour un essayage;conversion;Boutique robe de mariée Paris;P0;existante;0.9;monthly;1
+/contact/;;Contact;conversion;Boutique robe de mariée Paris;P1;"à créer (demandée ; madamoon.fr renvoie au showroom)";0.5;yearly;1
+/a-propos/;/en/about/;À propos de MADAMOON;institutionnel;Marque MADAMOON;P1;existante;0.6;yearly;1
+/trouver-ma-robe/;/en/find-my-dress/;Trouver ma robe;parcours;Guide / conseils;P2;existante;0.6;monthly;1
+/faq/;/en/faq/;Questions fréquentes;guide;Guide / conseils;P1;existante;0.6;monthly;1
+/guides/;;Guides de la future mariée;hub;Guide / conseils;P1;à créer;0.7;weekly;1
+/guides/prix-robe-de-mariee-paris/;;Prix d'une robe de mariée à Paris;guide;Prix / budget;P1;à créer;0.7;monthly;1
+/guides/quand-acheter-sa-robe-de-mariee/;;Quand acheter sa robe de mariée : délais et étapes;guide;Guide / conseils;P1;à créer;0.7;monthly;1
+/guides/essayage-robe-de-mariee/;;Comment se passe un essayage de robe de mariée;guide;Boutique robe de mariée Paris;P1;à créer;0.7;monthly;1
+/guides/choisir-sa-robe-de-mariee/;;Comment choisir sa robe de mariée;guide;Guide / conseils;P2;à créer;0.6;monthly;1
+/guides/tissus-robe-de-mariee/;;Les tissus d'une robe de mariée;guide;Matière tulle / organza;P2;à créer;0.6;monthly;1
+/guides/robe-de-mariee-enceinte/;;Robe de mariée pour une mariée enceinte;guide;Mariée enceinte;P2;à créer;0.6;monthly;1
+/guides/robe-de-mariee-vintage/;;Robe de mariée vintage et années 20;guide;Style vintage / rétro;P2;à créer si volume confirmé;0.6;monthly;1
+/guides/ivoire-ou-blanc/;;Ivoire ou blanc : quelle couleur de robe;guide;Guide / conseils;P2;à créer;0.6;yearly;1
+/guides/tendances-robe-de-mariee-2026/;;Tendances robe de mariée 2026;guide;Guide / conseils;P3;à créer;0.5;monthly;1
+/guides/acheter-ou-louer-sa-robe-de-mariee/;;Acheter ou louer sa robe de mariée;guide;Location robe de mariée;P3;à vérifier avec la maison (location proposée ou non);0.5;yearly;1
+/guides/robe-de-mariee-couleur/;;Robe de mariée de couleur : ivoire, champagne, blush;guide;Robe colorée / non blanche;P3;à vérifier avec la maison (stock);0.5;yearly;1
+/mentions-legales/;;Mentions légales;légal;;P1;à créer;0.1;yearly;1
+/confidentialite/;;Politique de confidentialité;légal;;P1;à créer;0.1;yearly;1
+/cookies/;;Gestion des cookies;légal;;P1;à créer;0.1;yearly;1

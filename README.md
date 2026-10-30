@@ -13,7 +13,7 @@ génératifs), et une conversion douce vers l'essayage privé sur rendez-vous.
 
 ```bash
 npm install
-npm run dev        # http://localhost:5800
+npm run dev        # http://localhost:5900
 ```
 
 ## Stack

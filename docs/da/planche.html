@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MADAMOON V8 — planche de direction artistique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Instrument+Sans:wght@400;500&display=swap">
+<style>
+  :root{--porcelaine:#fbf9f5;--ivoire:#f3eee5;--lin:#e8e0d3;--sable:#cbbba3;--encre:#1a1714;--graphite:#554e47;--brume:#948b80;--grenat:#910000;--rouge:#ce0a2c;
+  --affiche:clamp(3rem,9.5vw,10.5rem);--t1:clamp(2.5rem,5.5vw,5.5rem);--t2:clamp(1.75rem,3.2vw,3rem);--t3:clamp(1.375rem,2vw,1.875rem);--phrase:clamp(1.25rem,1.8vw,1.75rem);--texte:clamp(1rem,1.05vw,1.125rem);
+  --g:clamp(1.25rem,4vw,4.5rem);--section:clamp(6rem,12vw,11rem);--ease:cubic-bezier(.16,1,.3,1)}
+  *{box-sizing:border-box;margin:0}
+  html{background:var(--porcelaine);color:var(--encre);font-family:"Instrument Sans",system-ui,sans-serif;font-size:16px;-webkit-font-smoothing:antialiased}
+  body{line-height:1.65;font-size:var(--texte)}
+  .grain{position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  .bodoni{font-family:"Bodoni Moda","Didot",serif;font-weight:400;font-variation-settings:"opsz" 96}
+  .mention{font-size:.6875rem;letter-spacing:.18em;text-transform:uppercase;font-weight:500;color:var(--brume)}
+  .legende{font-size:.8125rem;letter-spacing:.02em;color:var(--graphite)}
+  .num{font-family:"Bodoni Moda",serif;color:var(--sable);font-size:.9rem;letter-spacing:.1em}
+  section{padding:var(--section) var(--g);max-width:105rem;margin:0 auto}
+  .grille{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--g);align-items:start}
+  .col-3{grid-column:span 3}.col-4{grid-column:span 4}.col-5{grid-column:span 5}.col-6{grid-column:span 6}.col-7{grid-column:span 7}.col-8{grid-column:span 8}
+  .filet{border-top:1px solid var(--lin)}
+  h1,h2,h3{font-weight:400}
+  em{font-style:italic}
+  .affiche{position:relative;min-height:100dvh;display:grid;align-content:end;padding:0;max-width:none}
+  .affiche img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+  .affiche .voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(251,249,245,0) 40%,rgba(251,249,245,.92) 100%)}
+  .affiche .texte-affiche{position:relative;padding:var(--g);padding-bottom:calc(var(--g) * 1.2)}
+  .affiche h1{font-size:var(--affiche);line-height:.92;letter-spacing:-.02em;max-width:14ch}
+  .entete{position:absolute;top:0;left:0;right:0;height:4rem;display:flex;align-items:center;justify-content:space-between;padding:0 var(--g);font-size:.8125rem;letter-spacing:.04em}
+  .entete .logo{font-family:"Bodoni Moda",serif;font-size:1.25rem;letter-spacing:.22em}
+  .entete nav{display:flex;gap:2.25rem}
+  .bouton{display:inline-block;background:var(--grenat);color:#fff;padding:0 1.5rem;height:48px;line-height:48px;font-weight:500;font-size:.875rem;letter-spacing:.02em;text-decoration:none}
+  .bouton.blanc{background:#fff;color:var(--encre)}
+  .lien{color:var(--encre);text-decoration:none;background:linear-gradient(var(--grenat),var(--grenat)) no-repeat 0 100%/0 1px,linear-gradient(var(--sable),var(--sable)) no-repeat 0 100%/100% 1px;transition:background-size .3s var(--ease)}
+  .lien:hover{background-size:100% 1px,100% 1px}
+  .nuancier{display:grid;grid-template-columns:repeat(9,1fr);gap:1px;background:var(--lin)}
+  .nuancier div{aspect-ratio:3/4;padding:1rem;display:flex;flex-direction:column;justify-content:flex-end;font-size:.75rem;letter-spacing:.04em}
+  .specimen p{margin-top:1.25rem}
+  .t1{font-size:var(--t1);line-height:.98;letter-spacing:-.015em}.t2{font-size:var(--t2);line-height:1.05}.t3{font-size:var(--t3);line-height:1.15}.phrase{font-size:var(--phrase);line-height:1.35}
+  .mesure{max-width:62ch}
+  .rideau{overflow:hidden;clip-path:inset(0 0 100% 0);animation:ouvrir 1.2s var(--ease) .3s forwards}
+  .rideau img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.08);animation:poser 1.2s var(--ease) .3s forwards}
+  @keyframes ouvrir{to{clip-path:inset(0)}}@keyframes poser{to{transform:scale(1)}}
+  .ligne{overflow:hidden;display:block}.ligne span{display:block;transform:translateY(110%);animation:monter .9s var(--ease) forwards}
+  .ligne:nth-child(2) span{animation-delay:.09s}
+  @keyframes monter{to{transform:translateY(0)}}
+  .ratio-robe{aspect-ratio:3/4}.ratio-detail{aspect-ratio:4/5}.ratio-film{aspect-ratio:21/9}
+  img{display:block;max-width:100%}
+  .cover{width:100%;height:100%;object-fit:cover}
+  .liste{list-style:none;padding:0}.liste li{display:grid;grid-template-columns:4rem 1fr auto;gap:var(--g);align-items:baseline;padding:1.25rem 0;border-top:1px solid var(--lin)}
+  .liste li:last-child{border-bottom:1px solid var(--lin)}
+  .lettres{display:flex;justify-content:space-between;font-size:clamp(4rem,14vw,16rem);line-height:1}
+  .lettres span:nth-child(odd){font-style:italic;color:var(--sable)}
+  .edito{columns:2;column-gap:var(--g)}
+  .edito p{margin-bottom:1rem}.edito .cit{column-span:all;font-size:var(--phrase);line-height:1.35;margin:2rem 0;max-width:30ch}
+  .bandeau{background:var(--rouge);color:#fff;padding:var(--section) var(--g);max-width:none;display:grid;grid-template-columns:1fr auto;align-items:end;gap:var(--g)}
+  .bandeau h2{font-size:var(--t1);line-height:.98;max-width:12ch}
+  .pied{padding:3rem var(--g);background:var(--ivoire);font-size:.8125rem;color:var(--graphite);display:flex;justify-content:space-between;max-width:none}
+  .rythme{display:grid;grid-template-columns:repeat(11,1fr);gap:.5rem;align-items:end;height:160px}
+  .rythme div{background:var(--lin);display:flex;align-items:flex-end;padding:.4rem;font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--graphite)}
+  .rythme .plein{background:var(--sable);color:#fff}.rythme .typo{background:var(--ivoire);border:1px solid var(--lin)}
+  @media (max-width:1100px){.grille{grid-template-columns:1fr}.grille>*{grid-column:auto!important}.nuancier{grid-template-columns:repeat(3,1fr)}.edito{columns:1}.entete nav{display:none}.bandeau{grid-template-columns:1fr}.lettres{font-size:3rem;flex-wrap:wrap;gap:1rem}.pied{flex-direction:column;gap:.5rem}}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<section class="affiche">
+  <img src="img/showroom.webp" alt="">
+  <div class="voile"></div>
+  <header class="entete"><span class="logo">MADAMOON</span><nav><span>Robes</span><span>Coupes</span><span>Morphologies</span><span>Créateurs</span><span>Showroom</span></nav><span class="bouton" style="height:40px;line-height:40px">Rendez-vous</span></header>
+  <div class="texte-affiche">
+    <p class="mention" style="margin-bottom:1.5rem">Planche de direction artistique — V8 — 30 octobre 2026</p>
+    <h1 class="bodoni"><span class="ligne"><span>Robes de mariée à Paris,</span></span><span class="ligne"><span>en essayage <em>privé</em>.</span></span></h1>
+    <p class="legende" style="margin-top:1.5rem">234 rue du Faubourg Saint-Martin — Paris 10ᵉ</p>
+  </div>
+</section>
+
+<section>
+  <div class="grille">
+    <div class="col-4"><p class="num">01</p><h2 class="bodoni t2" style="margin-top:.5rem">Le blanc n'est pas une absence</h2></div>
+    <div class="col-7" style="grid-column-start:6"><p class="bodoni phrase mesure">Une pièce blanche, un grain de papier, et dedans une seule chose qui compte : la robe. Le texte est posé comme un titre de magazine, grand, avec un mot en <em>italique</em> qui respire. Rien n'est encadré.</p>
+    <p class="mesure" style="margin-top:1.5rem;color:var(--graphite)">La rencontre d'un magazine de mode imprimé sur beau papier et d'une cabine d'essayage très lumineuse. Les images arrivent comme un rideau qu'on ouvre, les titres montent comme une ligne qu'on lit, et l'on peut s'arrêter n'importe où.</p></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <p class="num">02 — Palette</p>
+  <div class="nuancier" style="margin-top:1.5rem">
+    <div style="background:#fbf9f5"><span>Porcelaine</span><span class="legende">#FBF9F5</span></div>
+    <div style="background:#f3eee5"><span>Ivoire</span><span class="legende">#F3EEE5</span></div>
+    <div style="background:#e8e0d3"><span>Lin</span><span class="legende">#E8E0D3</span></div>
+    <div style="background:#cbbba3;color:#fff"><span>Sable</span><span>#CBBBA3</span></div>
+    <div style="background:#1a1714;color:#fff"><span>Encre</span><span>#1A1714</span></div>
+    <div style="background:#554e47;color:#fff"><span>Graphite</span><span>#554E47</span></div>
+    <div style="background:#948b80;color:#fff"><span>Brume</span><span>#948B80</span></div>
+    <div style="background:#910000;color:#fff"><span>Grenat · action</span><span>#910000</span></div>
+    <div style="background:#ce0a2c;color:#fff"><span>Rouge · point final</span><span>#CE0A2C</span></div>
+  </div>
+  <p class="legende" style="margin-top:1rem;max-width:70ch">Le Grenat agit (boutons, soulignés). Le Rouge ponctue une seule fois par page. Le Sable est la seule « couleur » de la page : un filet, un numéro, un mot. Pas de gris neutre, pas de noir pur, pas de mode sombre.</p>
+</section>
+
+<section class="filet">
+  <div class="grille">
+    <div class="col-5"><p class="num">03 — Typographie</p>
+      <div class="specimen">
+        <p class="bodoni t1" style="margin-top:1rem">Sirène, <em>princesse</em>, fluide.</p>
+        <p class="bodoni t2">Robe de mariée en dentelle</p>
+        <p class="bodoni t3">Santana — Casablanca Bridal</p>
+        <p class="bodoni phrase">« Une heure, le showroom pour vous seule, et la robe qu'on n'attendait pas. »</p>
+        <p class="mesure">Instrument Sans pour le corps : taille fluide 16 à 18 px, interligne 1,65, mesure de 62 caractères. Deux familles, pas trois. Même dessinateur que l'Instrument Serif du site actuel : la continuité est dans la main, pas dans la copie.</p>
+        <p class="legende">Légende — Instrument Sans 13 px, approche 0,02 em, Graphite.</p>
+        <p class="mention">Mention — 11 px capitales, approche 0,18 em, Brume</p>
+      </div>
+    </div>
+    <div class="col-6" style="grid-column-start:7">
+      <div class="rideau ratio-robe"><img src="img/dove.webp" alt=""></div>
+      <p class="mention" style="margin-top:.75rem">Rideau — l'image s'ouvre par le bas et se pose en contre-échelle 1,08 → 1, 1,2 s</p>
+    </div>
+  </div>
+</section>
+
+<section class="filet">
+  <p class="num">04 — Rythme de l'accueil : deux sections consécutives n'ont jamais la même disposition</p>
+  <div class="rythme" style="margin-top:1.5rem">
+    <div class="plein" style="height:100%">01 affiche</div><div class="typo" style="height:70%">02 manifeste</div><div style="height:55%">03 trois portes</div><div class="plein" style="height:85%">04 défilé</div><div class="typo" style="height:90%">05 lettres</div><div style="height:50%">06 maisons</div><div class="plein" style="height:75%">07 showroom</div><div class="typo" style="height:45%">08 paroles</div><div style="height:65%">09 édito</div><div style="height:40%;background:#ce0a2c;color:#fff">10 point final</div><div style="height:20%">pied</div>
+  </div>
+</section>
+
+<section class="filet">
+  <div class="grille">
+    <div class="col-3"><p class="num">05 — Trois portes, pas trois cartes</p></div>
+    <div class="col-8" style="grid-column-start:5">
+      <ul class="liste bodoni">
+        <li><span class="num">01</span><span class="t2">Par la <em>coupe</em></span><span class="mention">sirène · princesse · fluide · trapèze · deux-en-un</span></li>
+        <li><span class="num">02</span><span class="t2">Par la <em>morphologie</em></span><span class="mention">O · A · V · H · 8 · X</span></li>
+        <li><span class="num">03</span><span class="t2">Par la <em>maison</em></span><span class="mention">Watters · Casablanca · Olya Mak · Monica Loretti</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="filet">
+  <p class="num">06 — La morphologie, composée en lettres</p>
+  <div class="lettres bodoni" style="margin-top:1rem"><span>O</span><span>A</span><span>V</span><span>H</span><span>8</span><span>X</span></div>
+  <p class="legende" style="margin-top:1rem;max-width:70ch">Chaque lettre révèle au survol la coupe qu'elle appelle : le texte morphologie est intégré à la composition, pas rangé dans un bloc.</p>
+</section>
+
+<section class="filet">
+  <div class="grille">
+    <div class="col-4 bodoni" style="padding-top:12vw"><p class="num">07 — Le défilé</p><p class="t3" style="margin-top:.5rem"><em>Tessa</em></p><p class="mention">Deux-en-un — Casablanca Bridal</p></div>
+    <div class="col-4 ratio-robe"><img class="cover" src="img/tessa.webp" alt=""></div>
+    <div class="col-4" style="padding-top:18vw"><div class="ratio-detail"><img class="cover" src="img/dos-uma.webp" alt=""></div><p class="mention" style="margin-top:.75rem">Dos dentelle — Uma, Watters Designs</p></div>
+  </div>
+</section>
+
+<section class="filet">
+  <p class="num">08 — L'édito : le texte SEO est une page de magazine</p>
+  <div class="grille" style="margin-top:1.5rem">
+    <div class="col-7 edito">
+      <p>Choisir sa robe de mariée à Paris commence rarement par une robe. Cela commence par une heure : celle où le showroom est fermé pour vous, où l'on n'essaie pas tout, mais ce qu'il faut. Chez MADAMOON, les collections de quatre maisons sont réunies au 234 rue du Faubourg Saint-Martin, dans le 10ᵉ, et la première question n'est pas « quelle robe » mais « quelle coupe vous ressemble ».</p>
+      <p class="bodoni cit">« On n'essaie pas tout. On essaie ce qu'il faut. »</p>
+      <p>Une sirène dessine la taille et les hanches ; une princesse assume le volume ; une robe fluide suit le mouvement ; un trapèze s'ouvre en A, la coupe la plus universelle ; un deux-en-un change d'allure entre la cérémonie et la soirée. Les matières font le reste : dentelle, crêpe, mikado, tulle. Et la morphologie décide souvent avant le goût.</p>
+      <p class="legende">Texte de démonstration pour la planche. Le copywriting définitif est écrit en phase 6 à partir des clusters.</p>
+    </div>
+    <div class="col-4" style="grid-column-start:9;padding-top:4rem"><div class="ratio-detail"><img class="cover" src="img/dentelle.webp" alt=""></div><p class="mention" style="margin-top:.75rem">Légende dans la marge, jamais sous l'image</p></div>
+  </div>
+</section>
+
+<section class="filet">
+  <div class="grille">
+    <div class="col-5"><p class="num">09 — Boutons et liens</p><p style="margin-top:1rem"><span class="bouton">Prendre rendez-vous</span></p><p style="margin-top:1.5rem"><a class="lien" href="#">Toutes les robes sirène</a> — soulignement Sable au repos, Grenat qui se dessine au survol.</p><p class="legende" style="margin-top:1rem">Angles vifs partout. Pas de pilule, pas d'icône, pas d'ombre.</p></div>
+    <div class="col-6" style="grid-column-start:7"><div class="ratio-film"><img class="cover" src="img/salon.webp" alt=""></div><p class="mention" style="margin-top:.75rem">Showroom — film 21:9 en rideau, muet, chargé à l'approche</p></div>
+  </div>
+</section>
+
+<section class="bandeau">
+  <h2 class="bodoni">Poussez la porte.</h2>
+  <div><p style="margin-bottom:1rem;opacity:.85">Essayage privé d'une heure, sur rendez-vous.<br>+33 6 41 24 38 47</p><span class="bouton blanc">Prendre rendez-vous</span></div>
+</section>
+<footer class="pied"><span>MADAMOON — 234 rue du Faubourg Saint-Martin, 75010 Paris</span><span>Lundi 12 h – 21 h · Mardi – samedi 10 h – 19 h · sur rendez-vous</span></footer>
+</body>
+</html>

@@ -7,7 +7,7 @@
   l'API n'est pas possible depuis l'agent sans exposer le jeton.
 - Projets voisins intacts : `~/Desktop/madamoon-v7` (site actuel, Next 15,
   port 5600, dépôt `anaselkhadir/madamoon-v7`), `~/Desktop/madamoon-portes`.
-- Ce projet : `~/Desktop/madamoon-v8`, port **5800**.
+- Ce projet : `~/Desktop/madamoon-v8`, port **5900**.
 
 ## Outils réellement disponibles
 | Famille | Outil | Usage prévu |

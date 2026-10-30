@@ -32,7 +32,7 @@ conventions de fichiers) avant d'écrire une route, un `metadata`, un
 `sitemap.ts` ou un `proxy.ts`.
 
 ## Commandes
-- `npm run dev` — http://localhost:5800
+- `npm run dev` — http://localhost:5900
 - `npm run build` / `npm run typecheck` / `npm run lint`
 
 ## Organisation
