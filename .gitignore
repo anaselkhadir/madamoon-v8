@@ -40,14 +40,29 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# MADAMOON V8
-# Les exports Semrush bruts sont versionnés (seo-research/raw) : ils coûtent des unités API.
-# Les médias lourds non optimisés ne le sont pas.
-/public/**/*.mov
-/public/**/*.psd
-/public/**/*-source.*
-.DS_Store
-tsconfig.tsbuildinfo
+# Fichiers de travail : sauvegardes et rendus intermédiaires.
+/travail
+outils/__pycache__/
 
-# Films du prototype : déjà dans public/film
-/docs/da/img-v2/*.mp4
+# Dossiers de travail d’un autre chantier, déposés ici par erreur.
+.build-*/
+
+# Le relevé de relecture, refait à la demande.
+relecture-anglaise.json
+
+# La présentation : les scripts sont versionnés, pas les images ni le fichier.
+presentation/captures/
+presentation/mockups/
+presentation/images/
+presentation/node_modules/
+presentation/*.pptx
+presentation/ql/
+presentation/travail/
+presentation/.venv/
+
+# L'archive du site WordPress, prise avant la mise en ligne : 538 Mo,
+# qui n'ont rien à faire dans un dépôt.
+madamoon-site.zip
+
+# Fichiers de travail V8
+tsconfig.tsbuildinfo

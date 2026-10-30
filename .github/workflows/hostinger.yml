@@ -1,0 +1,67 @@
+# Met le site en ligne chez Hostinger, par FTP.
+#
+# Déclenchement à la main seulement : le site de la cliente ne doit
+# jamais changer parce qu'une poussée est partie sur main. L'aperçu
+# GitHub Pages, lui, continue de se publier tout seul.
+#
+# Trois secrets à créer dans GitHub avant le premier usage :
+# FTP_SERVEUR, FTP_UTILISATEUR, FTP_MOTDEPASSE (hPanel → Comptes FTP).
+name: Mise en ligne Hostinger
+
+on:
+  workflow_dispatch:
+    inputs:
+      dossier:
+        description: Dossier de destination sur l'hébergement
+        default: /public_html/
+        required: true
+
+concurrency:
+  group: hostinger
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      # L'historique entier : le plan du site date chaque page d'après le
+      # dernier commit qui a touché son contenu, et un clone superficiel
+      # ne connaît qu'un seul commit — toutes les pages auraient porté la
+      # même date, ce que Google repère et ignore.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Les adresses partent de la racine du domaine, et le site est
+      # ouvert aux moteurs : ce n'est plus l'aperçu.
+      - name: Export statique
+        env:
+          PAGES: "1"
+          BASE_PATH: ""
+          APERCU: "0"
+        run: npx next build
+
+      # L'action garde un état sur le serveur : seuls les fichiers
+      # modifiés repartent aux publications suivantes.
+      - name: Envoi FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVEUR }}
+          username: ${{ secrets.FTP_UTILISATEUR }}
+          password: ${{ secrets.FTP_MOTDEPASSE }}
+          # FTP simple envoie le mot de passe en clair sur le réseau, à
+          # chaque publication. « ftps » monte la même connexion sous
+          # TLS ; Hostinger le sert sur le même port. Si le serveur le
+          # refusait, l'envoi échouerait à la connexion — sans toucher
+          # au site.
+          protocol: ftps
+          local-dir: ./out/
+          server-dir: ${{ inputs.dossier }}
+          dangerous-clean-slate: false

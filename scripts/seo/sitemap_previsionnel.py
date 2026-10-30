@@ -2,7 +2,7 @@
 """Sitemap prévisionnel et table de redirections depuis src/content/arborescence.json."""
 import json, csv, os
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-A = json.load(open(os.path.join(ROOT, "src", "content", "arborescence.json"), encoding="utf-8"))
+A = json.load(open(os.path.join(ROOT, "lib", "arborescence.json"), encoding="utf-8"))
 rows = []
 for p in A["pages"]:
     n = 67 if p["url"] == "/robes/[slug]/" else 1

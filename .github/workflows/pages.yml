@@ -1,0 +1,63 @@
+# Publie l'aperçu du site sur GitHub Pages à chaque poussée sur main.
+#
+# Le site est exporté en fichiers statiques (PAGES=1). GitHub Pages le
+# sert depuis /<nom-du-depot>/ : le chemin de base est transmis à la
+# compilation pour que les images et les vidéos pointent au bon endroit.
+name: Aperçu GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Une seule publication à la fois ; la dernière poussée gagne.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Export statique
+        env:
+          PAGES: "1"
+        # Le chemin de base est déduit du nom du dépôt, quel que soit
+        # l'évènement qui déclenche la publication.
+        run: |
+          export BASE_PATH="/${GITHUB_REPOSITORY##*/}"
+          echo "chemin de base : $BASE_PATH"
+          npm run build
+
+      # Sans ce fichier, GitHub ignore le dossier _next (convention Jekyll).
+      - run: touch out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  publier:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deploiement

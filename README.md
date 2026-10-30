@@ -16,31 +16,20 @@ npm install
 npm run dev        # http://localhost:5900
 ```
 
-## Stack
+## Ce que V8 est
 
-| Couche | Choix | Pourquoi |
-|---|---|---|
-| Framework | Next.js 16, App Router | HTML rendu côté serveur et pages statiques pour plusieurs centaines d'URL SEO ; `metadata`, `sitemap`, `robots` natifs |
-| UI | React 19 + TypeScript strict | Composants typés, données de contenu typées |
-| Styles | Tailwind CSS 4 | Design tokens en CSS natif (`@theme`), zéro runtime |
-| Animation | GSAP 3 + ScrollTrigger + SplitText, Lenis | Révélations typographiques, masques, parallaxe pilotés par le scroll ; coût de runtime maîtrisé |
-| Contenu | Modules TypeScript dans `src/content/` | Lisible, versionné, validé à la compilation ; évolutif vers un CMS headless sans changer les pages |
-| Médias | AVIF / WebP multi-largeurs | Core Web Vitals |
+**Le design du site actuel, conservé à l'identique** (décision du 30 octobre
+2026), et par-dessus : l'implantation d'une base de ~5 000 mots-clés, une
+structure de pages refondue (styles, matières, détails, guides, grande
+taille, contact, légal), un maillage interne et des données structurées
+complets, un copywriting SEO/GEO page par page.
 
-Voir [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) et [docs/PHASES.md](docs/PHASES.md).
-
-## Ce qui est construit (phase 4)
-
-- `src/app/page.tsx` — l'accueil en dix sections (`src/components/accueil/`).
-- `src/app/robes/[slug]/page.tsx` — les 67 fiches robes, générées à la compilation.
-- `src/app/robes/page.tsx` — le catalogue par coupe.
-- `src/components/motion/` — les quatre signatures : Rideau, Ligne, Dérive, Fondu.
-- `src/lib/seo/schema.tsx` — ClothingStore, Product, BreadcrumbList ; `app/sitemap.ts`, `app/robots.ts`.
-- `scripts/importer-v7.py` — recopie les données et médias vérifiés du site actuel.
-
-Les liens vers les pages prévues mais non encore construites (coupes,
-morphologies, créateurs, showroom, rendez-vous, guides) répondent 404 jusqu'à
-la phase 5 : ce sont leurs adresses définitives.
+| Dossier | Contenu |
+|---|---|
+| `app/`, `components/`, `lib/`, `public/` | le code du site actuel, recopié depuis madamoon-v7, et ses extensions SEO |
+| `seo-research/` | extraction Semrush, base de mots-clés, clusters, mapping vers les pages |
+| `docs/` | plan d'implantation SEO, maillage, analyse du site, design actuel, phases |
+| `scripts/` | import des données v7, pipeline mots-clés, sitemap prévisionnel |
 
 ## Phases
 
