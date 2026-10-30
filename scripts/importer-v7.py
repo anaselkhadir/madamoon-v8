@@ -13,8 +13,7 @@ os.makedirs(CONTENU, exist_ok=True)
 DATE = datetime.date.today().isoformat()
 ENTETE = f"/* Recopié de madamoon-v7/lib/{{nom}}.ts le {DATE} par scripts/importer-v7.py — ne pas modifier ici : corriger la source. */\n"
 
-MODULES = ["madamoon", "medias", "avis", "films", "coupes", "morphologies", "questions", "francais", "couverture",
-           "coupes-questions", "morphologies-questions"]
+MODULES: list[str] = []  # depuis le pivot du 30/10/2026, lib/ est le code v7 lui-même : rien à recopier
 for nom in MODULES:
     src = os.path.join(V7, "lib", f"{nom}.ts")
     s = open(src, encoding="utf-8").read()
@@ -26,7 +25,7 @@ for nom in MODULES:
     print("données :", nom, f"({s.count(chr(10))} lignes)")
 
 # Médias : photographies, scènes, films, image de partage, marque.
-for d in ["robes", "scenes", "film", "partage", "marque"]:
+for d in ["robes", "scenes", "film", "partage", "marque", "croquis", "catalogues"]:
     src = os.path.join(V7, "public", d) + "/"
     dst = os.path.join(V8, "public", d) + "/"
     os.makedirs(dst, exist_ok=True)
