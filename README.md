@@ -29,6 +29,19 @@ npm run dev        # http://localhost:5900
 
 Voir [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) et [docs/PHASES.md](docs/PHASES.md).
 
+## Ce qui est construit (phase 4)
+
+- `src/app/page.tsx` — l'accueil en dix sections (`src/components/accueil/`).
+- `src/app/robes/[slug]/page.tsx` — les 67 fiches robes, générées à la compilation.
+- `src/app/robes/page.tsx` — le catalogue par coupe.
+- `src/components/motion/` — les quatre signatures : Rideau, Ligne, Dérive, Fondu.
+- `src/lib/seo/schema.tsx` — ClothingStore, Product, BreadcrumbList ; `app/sitemap.ts`, `app/robots.ts`.
+- `scripts/importer-v7.py` — recopie les données et médias vérifiés du site actuel.
+
+Les liens vers les pages prévues mais non encore construites (coupes,
+morphologies, créateurs, showroom, rendez-vous, guides) répondent 404 jusqu'à
+la phase 5 : ce sont leurs adresses définitives.
+
 ## Phases
 
 1. Audit et environnement — **en cours**
