@@ -1,4 +1,15 @@
-# Design system v2 — MADAMOON
+# Design system v3 — MADAMOON
+
+> Révision v3 (Zara × Cartier) : **Cormorant Garamond** 300 pour les titres,
+> en 1,375 / 1,75 / 2,75 rem seulement ; **Hanken Grotesk** 300-500 pour le
+> corps (15-16 px, interligne 1,7) et les étiquettes (11 px, capitales,
+> approche 0,22 em). Plus de monospace, de compteur, de curseur ni de texte
+> en contour. Boutons : rouge, 44 px, étiquette 11 px capitales ; liens :
+> souligné 1 px qui passe au rouge. Images bord à bord, jeu de 4 px dans les
+> grilles. Le détail ci-dessous (v2) est conservé pour les composants qui ne
+> changent pas : masque image, en-tête, menu, pied, principes d'accessibilité.
+
+# (v2) Design system — MADAMOON
 
 Tokens : `src/styles/tokens-v2.css` (à brancher à la place de `tokens.css`
 après validation). Direction artistique : `DIRECTION-ARTISTIQUE.md`.

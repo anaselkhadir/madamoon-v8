@@ -1,4 +1,32 @@
-# Direction artistique v2 — MADAMOON
+# Direction artistique v3 — MADAMOON
+
+> **Révision du 30 octobre 2026 (soir), après le retour d'Anas sur la v2 :**
+> plus de polices classiques en très grand corps. La référence est **Zara et
+> Cartier** : la photographie et la vidéo portent la page, la typographie est
+> petite, précise, espacée ; le texte se lit comme une légende, jamais comme
+> une affiche. **La vidéo du hero est conservée.** Ce qui suit est amendé en
+> conséquence ; les passages barrés mentalement sont ceux de la v2 qui
+> contredisent cette révision (titres immenses, mono, curseur, compteur).
+
+## Ce qui change dans la v3
+
+| v2 (refusée) | v3 |
+|---|---|
+| Fraunces en 11-13 vw, titres qui traversent les photos | **Cormorant Garamond Light** en 1,75 à 2,75 rem, centrée ou alignée à gauche, interligne généreux |
+| Jost + DM Mono | **Hanken Grotesk** 300/400/500 : corps 15-16 px, étiquettes 11 px en capitales espacées 0,22 em. Pas de monospace |
+| Compteur, curseur personnalisé, texte en contour | supprimés : rien ne doit se voir avant la robe |
+| Hero : photographie et titre géant | **Hero : le film de la maison**, plein écran, une étiquette, une ligne en serif, un lien |
+| Chapitres numérotés, bandeau défilant | sections silencieuses : une étiquette, un titre court, une image |
+| Grilles décalées à noms géants | **grille Zara** : images bord à bord, jeu de 4 px, noms en étiquette de 11 px sous l'image |
+| Rouge en traits, numéros, mots | rouge **sur les boutons et les soulignés** seulement ; tout le reste en noir, gris et blanc |
+
+Le reste du présent document (palette blanche, rouge en accent, principes de
+mouvement sobres, neuf sections) reste valable dans l'esprit ; le prototype
+qui fait foi est `docs/da/accueil-v3.html`.
+
+---
+
+# (v2, pour mémoire) Direction artistique — MADAMOON
 
 *Remplace entièrement la v1 (archivée dans `archive-da-v1/`). Rien de la
 mise en scène du site actuel n'est conservé.*

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MADAMOON — proposition d'accueil v3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Hanken+Grotesk:wght@300;400;500&display=swap">
+<style>
+:root{--blanc:#fff;--ivoire:#f7f4ef;--noir:#141210;--gris:#6f6a65;--filet:#e3dfd9;--rouge:#ce0a2c;--grenat:#910000;
+--serif:"Cormorant Garamond",Georgia,serif;--sans:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;--g:clamp(1.25rem,3vw,3.5rem);--out:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--blanc);color:var(--noir);font-family:var(--sans);font-weight:300;-webkit-font-smoothing:antialiased}
+body{font-size:15px;line-height:1.7;overflow-x:clip}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+img,video{display:block;max-width:100%}a{color:inherit;text-decoration:none}ul{list-style:none}h1,h2,h3{font-weight:300}
+.serif{font-family:var(--serif);font-weight:300;letter-spacing:.01em}
+.t-l{font-size:clamp(1.75rem,2.6vw,2.75rem);line-height:1.22}
+.t-m{font-size:clamp(1.375rem,1.9vw,1.75rem);line-height:1.3}
+.t-s{font-size:1.25rem;line-height:1.4}
+.label{font-family:var(--sans);font-weight:400;font-size:11px;letter-spacing:.22em;text-transform:uppercase;line-height:1.5}
+.label.gris{color:var(--gris)}
+.corps{font-size:15px;line-height:1.75;font-weight:300}
+.cadre{padding-inline:var(--g)}
+.centre{text-align:center}
+.mesure{max-width:48ch;margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 26px;background:var(--rouge);color:#fff;font:500 11px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;transition:background .35s var(--out),transform .25s}
+.btn:hover{background:var(--grenat)}.btn:active{transform:scale(.98)}
+.btn.blanc{background:#fff;color:var(--noir)}.btn.blanc:hover{background:var(--ivoire)}
+.lien{font-weight:400;font-size:11px;letter-spacing:.22em;text-transform:uppercase;padding-bottom:4px;background:linear-gradient(var(--rouge),var(--rouge)) no-repeat 0 100%/0 1px,linear-gradient(currentColor,currentColor) no-repeat 0 100%/100% 1px;transition:background-size .4s var(--out)}
+.lien:hover{background-size:100% 1px,100% 1px}
+.lien.blanc{color:#fff}
+.sec{padding-block:clamp(5rem,10vw,9rem)}
+.masque{overflow:hidden;position:relative;clip-path:inset(0 0 100% 0)}
+.masque img{width:100%;height:100%;object-fit:cover;transform:scale(1.05);transition:transform 1.2s var(--out)}
+.statique .masque{clip-path:none}.statique .masque img{transform:none}
+[data-r]{opacity:0;transform:translateY(18px)}.statique [data-r]{opacity:1;transform:none}
+/* entête */
+header{position:fixed;inset-inline:0;top:0;height:64px;z-index:50;display:flex;align-items:center;color:#fff;transition:color .4s,background .4s}
+header.plein{color:var(--noir);background:rgba(255,255,255,.96)}
+header .cadre{width:100%;display:flex;align-items:center;justify-content:space-between}
+header .logo img{height:13px;width:auto;transition:opacity .3s}
+header .logo .enc{display:none}header.plein .logo .enc{display:block}header.plein .logo .bl{display:none}
+header nav{display:flex;gap:2.2rem}header nav a{padding-bottom:3px;background:linear-gradient(currentColor,currentColor) no-repeat 0 100%/0 1px;transition:background-size .35s var(--out)}header nav a:hover{background-size:100% 1px}
+header .droite{display:flex;gap:1.6rem;align-items:center}
+.burger{display:none;width:40px;height:40px;background:none;border:0;position:relative}.burger i{position:absolute;left:10px;right:10px;height:1px;background:currentColor}.burger i:first-child{top:16px}.burger i:last-child{top:23px}
+/* hero */
+#hero{position:relative;height:100dvh;min-height:560px;overflow:hidden;color:#fff;background:#111}
+#hero .media{position:absolute;inset:0}
+#hero .media img,#hero .media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+#hero .media video{opacity:0;transition:opacity 1s}#hero .media video.pret{opacity:1}
+#hero .media.mobile{display:none}
+#hero .voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.12) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.42) 100%)}
+#hero .texte{position:absolute;left:var(--g);right:var(--g);bottom:clamp(2rem,6vh,4rem);display:flex;flex-direction:column;gap:1.25rem;align-items:flex-start}
+#hero h1{font-size:clamp(1.625rem,2.6vw,2.75rem);line-height:1.2;max-width:22ch;letter-spacing:.01em}
+#hero .bas{position:absolute;right:var(--g);bottom:clamp(2rem,6vh,4rem);display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;text-align:right;opacity:.85}
+/* statement */
+#maison{padding-block:clamp(6rem,12vw,11rem)}
+#maison p.t-l{margin:1.5rem auto 2rem}
+/* grille zara */
+#robes .tete{display:flex;justify-content:space-between;align-items:baseline;padding-bottom:1.25rem}
+.grille{display:grid;gap:4px}
+.grille.deux{grid-template-columns:58fr 42fr}
+.grille.trois{grid-template-columns:repeat(3,1fr)}
+.tuile{position:relative;display:block}
+.tuile .masque{aspect-ratio:3/4}
+.tuile:hover .masque img{transform:scale(1.03)}
+.tuile .leg{display:flex;justify-content:space-between;gap:1rem;padding:.9rem .25rem 1.4rem}
+.tuile .leg span:last-child{color:var(--gris)}
+/* coupes : bande */
+#coupes{background:var(--ivoire)}
+#coupes .bande{display:flex;gap:4px;overflow-x:auto;scroll-snap-type:x mandatory;padding-inline:var(--g);scrollbar-width:none;margin-top:3rem}
+#coupes .bande::-webkit-scrollbar{display:none}
+#coupes .bande a{flex:0 0 clamp(220px,22vw,340px);scroll-snap-align:start}
+#coupes .bande .masque{aspect-ratio:3/4}
+#coupes .bande .leg{padding:.9rem .25rem;text-align:center}
+/* morphologies */
+#morpho .deux{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:var(--g)}
+#morpho .masque{aspect-ratio:4/5}
+#morpho .txt{padding:0 clamp(1rem,6vw,6rem)}
+#morpho .lettres{display:flex;gap:1.75rem;margin:2rem 0}
+#morpho .lettres a{font-family:var(--serif);font-size:1.75rem;line-height:1;padding-bottom:6px;border-bottom:1px solid transparent;transition:border-color .3s}
+#morpho .lettres a:hover,#morpho .lettres a.actif{border-color:var(--rouge)}
+/* showroom */
+#showroom .media{position:relative;aspect-ratio:21/9;overflow:hidden}
+#showroom .media img,#showroom .media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#showroom .media video{opacity:0;transition:opacity 1s}#showroom .media video.pret{opacity:1}
+#showroom .txt{padding:clamp(3rem,6vw,5rem) var(--g) 0}
+#showroom .infos{display:flex;justify-content:center;gap:4rem;flex-wrap:wrap;margin-top:2rem}
+/* maisons */
+#maisons .noms{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--filet);border-bottom:1px solid var(--filet);margin-top:2.5rem}
+#maisons .noms a{padding:2.2rem 1rem;text-align:center;border-left:1px solid var(--filet);transition:background .4s}
+#maisons .noms a:first-child{border-left:0}#maisons .noms a:hover{background:var(--ivoire)}
+#maisons .noms .serif{display:block;font-size:1.5rem;line-height:1.2;margin-bottom:.4rem;text-transform:none;letter-spacing:.01em}
+/* avis */
+#avis{background:var(--ivoire)}
+#avis blockquote{max-width:56ch;margin:1.75rem auto 0}
+#avis blockquote p{font-style:italic;font-size:clamp(1.25rem,1.8vw,1.625rem);line-height:1.45}
+/* édito */
+#edito .colonnes{columns:2;column-gap:calc(var(--g) * 1.5);max-width:1100px;margin:2.5rem auto 0}
+#edito .colonnes p{margin-bottom:1.1em;break-inside:avoid;color:#2a2724}
+#edito .colonnes a{border-bottom:1px solid var(--rouge)}
+/* fin */
+#fin{padding-block:clamp(6rem,12vw,11rem)}
+#fin .act{display:flex;justify-content:center;gap:2rem;align-items:center;margin-top:2rem;flex-wrap:wrap}
+footer{border-top:1px solid var(--filet);padding:3rem var(--g) 2.5rem}
+footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--g)}
+footer .cols ul li{margin-bottom:.6rem}
+footer .bas{margin-top:3rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--gris)}
+@media (max-width:900px){
+  header nav{display:none}.burger{display:block}
+  #hero .media.mobile{display:block}#hero .media.desktop{display:none}#hero .bas{display:none}
+  .grille.deux,.grille.trois{grid-template-columns:1fr 1fr}
+  #morpho .deux{grid-template-columns:1fr}#morpho .txt{padding:2rem 0 0}
+  #maisons .noms{grid-template-columns:1fr 1fr}#maisons .noms a:nth-child(3){border-left:0}#maisons .noms a:nth-child(n+3){border-top:1px solid var(--filet)}
+  #edito .colonnes{columns:1}
+  footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (prefers-reduced-motion:reduce){.masque img,.btn,.lien{transition:none}}
+</style>
+</head>
+<body>
+<header id="entete">
+  <div class="cadre">
+    <a class="logo" href="#hero" aria-label="MADAMOON, accueil"><img class="bl" src="img-v2/logo-blanc.png" alt=""><img class="enc" src="img-v2/logo.png" alt=""></a>
+    <nav class="label" aria-label="Navigation principale"><a href="#robes">Robes</a><a href="#coupes">Coupes</a><a href="#morpho">Morphologies</a><a href="#maisons">Maisons</a><a href="#showroom">Showroom</a></nav>
+    <div class="droite"><a class="lien" href="#fin">Rendez-vous</a><button class="burger" aria-label="Menu"><i></i><i></i></button></div>
+  </div>
+</header>
+
+<main>
+<!-- Hero : le film de la maison -->
+<section id="hero" aria-label="Ouverture">
+  <div class="media desktop"><img src="img-v2/hero-affiche.webp" alt="" fetchpriority="high"><video muted loop playsinline preload="none" data-src="img-v2/hero-desktop.mp4" aria-hidden="true"></video></div>
+  <div class="media mobile"><img src="img-v2/hero-affiche-mobile.webp" alt=""><video muted loop playsinline preload="none" data-src="img-v2/hero-mobile.mp4" aria-hidden="true"></video></div>
+  <div class="voile" aria-hidden="true"></div>
+  <div class="texte">
+    <p class="label" data-r>Robes de mariée — Paris 10ᵉ</p>
+    <h1 class="serif" data-r>Un essayage privé, une heure, rien que pour vous.</h1>
+    <a class="lien blanc" href="#fin" data-r>Prendre rendez-vous</a>
+  </div>
+  <div class="bas label" data-r><span>234 rue du Faubourg Saint-Martin</span><span>Lun 12h—21h · Mar—Sam 10h—19h</span></div>
+</section>
+
+<!-- La maison -->
+<section id="maison" class="cadre centre" aria-labelledby="t-maison">
+  <p class="label gris" id="t-maison" data-r>La maison</p>
+  <p class="serif t-l mesure" data-r>MADAMOON réunit à Paris les collections de cinq maisons. Une boutique, pas un atelier : la robe que vous choisissez est ensuite confectionnée à vos mesures, retouches comprises.</p>
+  <a class="lien" href="#showroom" data-r>Découvrir le showroom</a>
+</section>
+
+<!-- Les robes : grille -->
+<section id="robes" class="cadre" aria-labelledby="t-robes" style="padding-bottom:clamp(4rem,8vw,7rem)">
+  <div class="tete"><p class="label" id="t-robes" data-r>Nouveautés — Casablanca Bridal</p><a class="lien" href="#" data-r>Toutes les robes</a></div>
+  <div class="grille deux">
+    <a class="tuile" href="#"><div class="masque"><img src="img-v2/meredith.webp" alt=""></div><p class="leg label"><span>Meredith</span><span>Sirène</span></p></a>
+    <a class="tuile" href="#"><div class="masque"><img src="img-v2/guinevere.webp" alt=""></div><p class="leg label"><span>Guinevere</span><span>Princesse</span></p></a>
+  </div>
+  <div class="grille trois">
+    <a class="tuile" href="#"><div class="masque"><img src="img-v2/oksana.webp" alt=""></div><p class="leg label"><span>Oksana</span><span>Sirène</span></p></a>
+    <a class="tuile" href="#"><div class="masque"><img src="img-v2/sheridan.webp" alt=""></div><p class="leg label"><span>Sheridan</span><span>Sirène</span></p></a>
+    <a class="tuile" href="#"><div class="masque"><img src="img-v2/bondi.webp" alt=""></div><p class="leg label"><span>Bondi</span><span>Sirène</span></p></a>
+  </div>
+</section>
+
+<!-- Les coupes : bande -->
+<section id="coupes" class="sec" aria-labelledby="t-coupes">
+  <div class="cadre centre">
+    <p class="label gris" data-r>Entrer par la coupe</p>
+    <h2 id="t-coupes" class="serif t-l mesure" style="margin-top:1rem" data-r>Cinq coupes. Une seule vous va comme personne.</h2>
+  </div>
+  <div class="bande">
+    <a href="#"><div class="masque"><img src="img-v2/enid-800.webp" alt=""></div><p class="leg label">Sirène</p></a>
+    <a href="#"><div class="masque"><img src="img-v2/seraphina.webp" alt=""></div><p class="leg label">Princesse</p></a>
+    <a href="#"><div class="masque"><img src="img-v2/dove.webp" alt=""></div><p class="leg label">Fluide</p></a>
+    <a href="#"><div class="masque"><img src="img-v2/solana.webp" alt=""></div><p class="leg label">Trapèze</p></a>
+    <a href="#"><div class="masque"><img src="img-v2/tessa.webp" alt=""></div><p class="leg label">Deux-en-un</p></a>
+  </div>
+</section>
+
+<!-- Morphologies -->
+<section id="morpho" class="sec cadre" aria-labelledby="t-morpho">
+  <div class="deux">
+    <div class="masque"><img src="img-v2/uma.webp" alt=""></div>
+    <div class="txt">
+      <p class="label gris" data-r>Entrer par la morphologie</p>
+      <h2 id="t-morpho" class="serif t-l" style="margin-top:1rem;max-width:18ch" data-r>Votre silhouette dit déjà quelle coupe essayer d'abord.</h2>
+      <div class="lettres serif" data-r><a href="#" class="actif">O</a><a href="#">A</a><a href="#">V</a><a href="#">H</a><a href="#">8</a><a href="#">X</a></div>
+      <p class="corps" style="max-width:40ch;color:var(--gris)" data-r id="morpho-txt">Morphologie en O : les tombés fluides et les trapèzes allongent la ligne ; un décolleté en V met la poitrine en valeur.</p>
+      <p style="margin-top:1.5rem" data-r><a class="lien" href="#">Trouver ma coupe</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- Showroom -->
+<section id="showroom" aria-labelledby="t-showroom" style="padding-top:clamp(3rem,6vw,5rem);padding-bottom:clamp(5rem,10vw,9rem)">
+  <div class="media masque"><img src="img-v2/escalier-affiche.webp" alt=""><video muted loop playsinline preload="none" data-src="img-v2/escalier.mp4" aria-hidden="true"></video></div>
+  <div class="txt centre">
+    <p class="label gris" data-r>Le showroom</p>
+    <h2 id="t-showroom" class="serif t-l mesure" style="margin-top:1rem" data-r>Le showroom est privatisé pour vous, une heure, sur rendez-vous. Venez accompagnée.</h2>
+    <div class="infos label" data-r><span>234 rue du Faubourg Saint-Martin, 75010 Paris</span><span>Lun 12h—21h · Mar—Sam 10h—19h</span></div>
+    <p style="margin-top:2.5rem" data-r><a class="btn" href="#fin">Prendre rendez-vous</a></p>
+  </div>
+</section>
+
+<!-- Maisons -->
+<section id="maisons" class="sec cadre centre" aria-labelledby="t-maisons" style="padding-top:0">
+  <p class="label gris" id="t-maisons" data-r>Les maisons</p>
+  <div class="noms label" data-r>
+    <a href="#"><span class="serif">Watters Designs</span><span class="gris">Dallas</span></a>
+    <a href="#"><span class="serif">Casablanca Bridal</span><span class="gris">Newport Beach</span></a>
+    <a href="#"><span class="serif">Olya Mak</span><span class="gris">Lviv</span></a>
+    <a href="#"><span class="serif">Monica Loretti</span><span class="gris">Rome</span></a>
+  </div>
+</section>
+
+<!-- Avis -->
+<section id="avis" class="sec cadre centre" aria-labelledby="t-avis">
+  <p class="label gris" id="t-avis" data-r>Elles l'ont vécu — fiche Google de la maison, 5,0 sur 200 avis</p>
+  <blockquote data-r>
+    <p class="serif" id="avis-txt">« J'ai visité deux autres magasins avant celui-ci et j'ai vu une vraie différence dans la qualité des tissus et le rendu général des robes. Loin des robes lourdes, ce sont des robes qu'on n'a pas envie d'enlever. »</p>
+    <footer class="label gris" style="margin-top:1.5rem" id="avis-auteur">Éloïse M. — mai 2026</footer>
+  </blockquote>
+</section>
+
+<!-- Édito -->
+<section id="edito" class="sec cadre" aria-labelledby="t-edito">
+  <div class="centre">
+    <p class="label gris" data-r>L'édito</p>
+    <h2 id="t-edito" class="serif t-l mesure" style="margin-top:1rem" data-r>Choisir sa robe de mariée à Paris</h2>
+  </div>
+  <div class="colonnes corps" data-r>
+    <p>Chercher une robe de mariée à Paris commence rarement par une robe. Cela commence par une heure : celle où le showroom du 234 rue du Faubourg Saint-Martin, dans le 10ᵉ, est fermé pour vous. On n'y essaie pas tout ; on y essaie ce qu'il faut, en commençant par la <a href="#">coupe</a> qui vous ressemble, puis par la <a href="#">maison</a> qui la fait le mieux.</p>
+    <p>MADAMOON est une boutique, pas une maison de couture : les soixante-sept modèles viennent de cinq créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de 1 500 €, retouches comprises.</p>
+    <p>Une sirène dessine la taille et les hanches ; une princesse assume le volume ; une robe fluide suit le mouvement ; un trapèze s'ouvre en A, la coupe la plus universelle ; une deux-en-un change d'allure entre la cérémonie et la soirée. Avant le goût, la <a href="#">morphologie</a> décide souvent : c'est par elle que l'on vous conseille. Le premier rendez-vous se prend idéalement huit à neuf mois avant le mariage ; avec moins de temps, on trouve presque toujours une solution.</p>
+  </div>
+</section>
+
+<!-- Fin -->
+<section id="fin" class="cadre centre" aria-labelledby="t-fin">
+  <p class="label gris" data-r>Rendez-vous</p>
+  <h2 id="t-fin" class="serif t-l mesure" style="margin-top:1rem" data-r>Réserver un essayage privé.</h2>
+  <div class="act" data-r><a class="btn" href="#">Choisir un créneau</a><a class="lien" href="tel:+33641243847">+33 6 41 24 38 47</a></div>
+</section>
+<footer>
+  <div class="cols label">
+    <div><img src="img-v2/logo.png" alt="MADAMOON" style="height:13px;width:auto;margin-bottom:1.2rem"><p class="gris" style="text-transform:none;letter-spacing:.02em;font-size:13px;line-height:1.6">234 rue du Faubourg Saint-Martin<br>75010 Paris<br>Lun 12h—21h · Mar—Sam 10h—19h<br>Sur rendez-vous</p></div>
+    <ul><li>Robes</li><li>Coupes</li><li>Morphologies</li><li>Maisons</li><li>Showroom</li></ul>
+    <ul><li>Guides</li><li>Questions fréquentes</li><li>À propos</li><li>Contact</li></ul>
+    <ul><li>Instagram</li><li>TikTok</li><li>Facebook</li></ul>
+  </div>
+  <div class="bas label"><span>© 2026 MADAMOON — boutique de robes de mariée à Paris</span><span>Mentions légales · Confidentialité</span></div>
+</footer>
+</main>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script>
+(() => {
+  const reduit = matchMedia("(prefers-reduced-motion: reduce)").matches || document.visibilityState === "hidden";
+  const html = document.documentElement;
+  if (reduit) html.classList.add("statique");
+  gsap.registerPlugin(ScrollTrigger);
+  let lenis = null;
+  if (!reduit) { lenis = new Lenis({ lerp: 0.09, smoothWheel: true }); lenis.on("scroll", ScrollTrigger.update); gsap.ticker.add((t) => lenis.raf(t * 1000)); gsap.ticker.lagSmoothing(0); }
+
+  /* en-tête : blanc dès que l'on quitte le film */
+  const entete = document.getElementById("entete");
+  const lire = () => entete.classList.toggle("plein", scrollY > innerHeight - 80);
+  addEventListener("scroll", lire, { passive: true }); lire();
+
+  /* films : demandés à l'approche, jamais sous mouvement réduit */
+  document.querySelectorAll("video[data-src]").forEach((v) => {
+    if (reduit) return;
+    new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { if (!v.src) { v.src = v.dataset.src; v.load(); } v.play().then(() => v.classList.add("pret")).catch(() => {}); } else v.pause(); }), { rootMargin: "25% 0px" }).observe(v);
+  });
+
+  if (!reduit) {
+    /* hero : texte en fondu monté, discret */
+    gsap.to("#hero [data-r]", { opacity: 1, y: 0, duration: 1.2, ease: "expo.out", stagger: 0.12, delay: 0.3 });
+    /* le film s'éloigne doucement au défilement */
+    gsap.to("#hero .media", { yPercent: 12, ease: "none", scrollTrigger: { trigger: "#hero", start: "top top", end: "bottom top", scrub: true } });
+    /* textes : fondu monté au premier passage */
+    document.querySelectorAll("[data-r]").forEach((el) => { if (el.closest("#hero")) return; gsap.to(el, { opacity: 1, y: 0, duration: 1, ease: "expo.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } }); });
+    /* images : masque qui s'ouvre, contre-échelle */
+    document.querySelectorAll(".masque").forEach((el) => { const img = el.querySelector("img"); const tl = gsap.timeline({ scrollTrigger: { trigger: el, start: "top 85%", once: true } }); tl.to(el, { clipPath: "inset(0 0 0% 0)", duration: 1.1, ease: "expo.out" }, 0); if (img) tl.to(img, { scale: 1, duration: 1.4, ease: "expo.out", clearProps: "transform" }, 0); });
+    /* grille : léger décalage entre les tuiles */
+    gsap.utils.toArray(".grille").forEach((g) => { gsap.from(g.querySelectorAll(".tuile"), { y: 24, duration: 1, ease: "expo.out", stagger: 0.08, scrollTrigger: { trigger: g, start: "top 85%", once: true } }); });
+  }
+
+  /* morphologies */
+  const M = ["Morphologie en O : les tombés fluides et les trapèzes allongent la ligne ; un décolleté en V met la poitrine en valeur.", "Morphologie en A : des hanches plus larges que les épaules. Le trapèze équilibre, la princesse structure le buste.", "Morphologie en V : des épaules plus larges que les hanches. Le volume en bas rééquilibre, la sirène affirme.", "Morphologie en H : épaules, taille et hanches alignées. La fluide suit, la sirène dessine une taille.", "Morphologie en 8 : une taille marquée, des courbes équilibrées. La sirène est faite pour elle.", "Morphologie en X : une taille fine, des épaules et des hanches alignées. Presque tout va ; la sirène et le trapèze d'abord."];
+  const lettres = [...document.querySelectorAll("#morpho .lettres a")];
+  lettres.forEach((a, i) => { const act = (e) => { e.preventDefault(); lettres.forEach((x) => x.classList.remove("actif")); a.classList.add("actif"); const t = document.getElementById("morpho-txt"); gsap.fromTo(t, { opacity: 0 }, { opacity: 1, duration: .6 }); t.textContent = M[i]; }; a.addEventListener("pointerenter", act); a.addEventListener("click", act); });
+
+  /* avis : rotation lente */
+  const AV = [["« J'ai visité deux autres magasins avant celui-ci et j'ai vu une vraie différence dans la qualité des tissus et le rendu général des robes. Loin des robes lourdes, ce sont des robes qu'on n'a pas envie d'enlever. »", "Éloïse M. — mai 2026"], ["« Les essayages étant privés, je n'ai pas eu l'impression, comme dans d'autres boutiques, d'être dans une usine à robes. Mouna sait ce qu'elle fait, et ce qu'elle propose tombe juste. »", "Avis Google — 2026"], ["« Elle a tout de suite compris ce que je recherchais et m'a proposé une robe élégante, unique et parfaitement adaptée à mes envies. J'ai beaucoup apprécié l'expérience privée et personnalisée. »", "Maissa G. — août 2026"]];
+  let ai = 0; if (!reduit) setInterval(() => { ai = (ai + 1) % AV.length; const t = document.getElementById("avis-txt"), a = document.getElementById("avis-auteur"); gsap.to([t, a], { opacity: 0, duration: .5, onComplete: () => { t.textContent = AV[ai][0]; a.textContent = AV[ai][1]; gsap.to([t, a], { opacity: 1, duration: .8 }); } }); }, 8000);
+
+  /* ancres */
+  document.querySelectorAll('a[href^="#"]').forEach((a) => a.addEventListener("click", (e) => { const id = a.getAttribute("href"); if (id.length < 2) { e.preventDefault(); return; } const c = document.querySelector(id); if (!c) return; e.preventDefault(); lenis ? lenis.scrollTo(c, { offset: -64, duration: 1.3 }) : c.scrollIntoView(); }));
+})();
+</script>
+</body>
+</html>

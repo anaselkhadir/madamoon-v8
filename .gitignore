@@ -48,3 +48,6 @@ next-env.d.ts
 /public/**/*-source.*
 .DS_Store
 tsconfig.tsbuildinfo
+
+# Films du prototype : déjà dans public/film
+/docs/da/img-v2/*.mp4
