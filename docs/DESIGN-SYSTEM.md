@@ -1,97 +1,71 @@
-# Design system — MADAMOON V8
+# Design system v2 — MADAMOON
 
-Tokens : `src/styles/tokens.css` (Tailwind 4 `@theme`). Direction artistique :
-`docs/DIRECTION-ARTISTIQUE.md`. Ce document fixe les règles d'emploi.
+Tokens : `src/styles/tokens-v2.css` (à brancher à la place de `tokens.css`
+après validation). Direction artistique : `DIRECTION-ARTISTIQUE.md`.
 
-## 1. Fondations
+## Fondations
 
-### Couleurs
-Neuf couleurs, nommées en français, et c'est tout. Les surfaces : Porcelaine
-(page), Ivoire (changement de rythme), Lin (filets, repos). La matière :
-Sable, une fois par écran. Le texte : Encre, Graphite, Brume. La marque :
-Grenat pour l'action (texte, filet, fond de bouton), Rouge pour le point final
-(une surface par page). Aucune autre valeur n'est admise dans un composant ;
-pas de gris neutre, pas de noir pur, pas de mode sombre.
+**Couleurs.** Sept valeurs, toutes nommées : Blanc, Ivoire, Noir doux, Gris,
+Gris clair, Rouge MADAMOON, Grenat. Pas de dégradés, pas de transparence
+colorée ; le seul voile est blanc à 92 % (en-tête au défilement, passage).
 
-### Typographie
-| Style | Famille | Taille | Interligne | Emploi |
+**Typographie.**
+| Style | Famille | Taille | Interligne | Notes |
 |---|---|---|---|---|
-| `affiche` | Bodoni Moda 400 | clamp(3rem, 9.5vw, 10.5rem) | 0.92 | titre du premier écran, une ligne ou deux, un mot en italique |
-| `titre-1` | Bodoni Moda 400 | clamp(2.5rem, 5.5vw, 5.5rem) | 0.98 | H1 des pages intérieures |
-| `titre-2` | Bodoni Moda 400 | clamp(1.75rem, 3.2vw, 3rem) | 1.05 | H2 de section |
-| `titre-3` | Bodoni Moda 400 | clamp(1.375rem, 2vw, 1.875rem) | 1.15 | H3, noms de robes en liste |
-| `phrase` | Bodoni Moda 400 italique possible | clamp(1.25rem, 1.8vw, 1.75rem) | 1.35 | phrase éditoriale, citation tirée |
-| `texte` | Instrument Sans 400 | clamp(1rem, 1.05vw, 1.125rem) | 1.65 | corps, mesure 62ch |
-| `legende` | Instrument Sans 400 | 0.8125rem | 1.4 | légendes, méta, fil d'Ariane |
-| `mention` | Instrument Sans 500, capitales | 0.6875rem | 1.3, approche 0.18em | numéros de section, étiquettes, lieu |
+| `affiche` | Fraunces 300, opsz 144, SOFT 60 | clamp(3.5rem, 11vw, 13rem) | 0.88 | approche −0.03em ; un mot en italique rouge |
+| `chapitre` | Fraunces 300 | clamp(2.5rem, 7vw, 8rem) | 0.92 | titres H2 |
+| `grand` | Fraunces 300 | clamp(1.75rem, 3.6vw, 3.5rem) | 1.05 | noms de robes, noms de maisons, H3 |
+| `citation` | Fraunces 300 italique | clamp(1.5rem, 3vw, 2.75rem) | 1.2 | paroles, citations tirées |
+| `corps` | Jost 300 | clamp(1.0625rem, 1.1vw, 1.1875rem) | 1.6 | mesure 60ch |
+| `ui` | Jost 500, capitales | 0.75rem | 1 | approche 0.14em : boutons, navigation |
+| `mono` | DM Mono 400, capitales | 0.6875rem | 1.4 | approche 0.08em : numéros, index, méta, horaires |
+| `lettrine` | Fraunces 300 rouge | 5.5em flottante | — | édito seulement |
 
-Chargement : `next/font/google` (auto-hébergé à la compilation), `display:
-swap`, métriques de repli ajustées (`adjustFontFallback`) ; sous-ensemble
-latin + latin-ext ; Bodoni Moda chargée en variable (axe `opsz`), Instrument
-Sans en 400 et 500 seulement.
+**Grille.** 12 colonnes, gouttière `clamp(1.25rem, 3.4vw, 4rem)`, conteneur
+1 760 px. Chapitres : `clamp(7rem, 14vw, 14rem)` entre eux. Une seule
+colonne sous 768 px, gouttière 20 px.
 
-### Espace et grille
-Grille 12 colonnes, `gap` égal à la gouttière, conteneur 1 680 px centré.
-Sections espacées de `section` (6 à 11 rem) ; `section-courte` pour les
-blocs de liaison. Échelle interne : 0.25 / 0.5 / 1 / 1.5 / 2 / 3 / 5 / 8 rem.
-Asymétrie : texte 5 colonnes, image 6 ou 7, décalage d'une colonne entre
-deux sections ; sur mobile tout passe en 1 colonne, gouttière 20 px.
+**Formes.** Rayon 0. Filet 1 px Gris clair, horizontal seulement. Trait
+signature 2 px Rouge. Aucune ombre.
 
-### Points de rupture
-`sm` 640, `md` 768, `lg` 1024, `xl` 1280, `2xl` 1680. Le design se pense à
-390 (mobile), 1024 (tablette paysage) et 1440 (desktop), puis s'étire.
-
-### Formes
-Rayon zéro partout. Filets 1 px Lin, horizontaux uniquement (séparateurs de
-liste), jamais autour d'un bloc. Pas d'ombre portée : la profondeur vient du
-chevauchement et de la dérive, pas du flou.
-
-## 2. Composants
+## Composants
 
 | Composant | Règle |
 |---|---|
-| **Entête** | barre 64 px fixe ; transparente sur l'affiche, Voile (Porcelaine 86 % + flou 12 px, seul emploi du flou) au défilement ; logo, 5 entrées, bouton Rendez-vous Grenat |
-| **Menu plein écran** | fond Porcelaine, entrées en `titre-1` révélées en Ligne, colonne droite image + adresse + téléphone |
-| **Bouton** | rectangle Grenat texte blanc, ou texte Encre souligné d'un filet qui se dessine ; hauteur 48 px, padding 0 1.5rem, Instrument Sans 500 ; état focus : contour 2 px Encre décalé 3 px ; jamais d'icône dans le bouton |
-| **Lien éditorial** | Encre, soulignement 1 px Sable au repos, Grenat au survol (dessiné de gauche à droite en 300 ms) |
-| **Rideau** (`<Rideau>`) | enveloppe d'image : clip-path + contre-échelle ; attribut `data-rideau` ; ratio imposé par token |
-| **Ligne** (`<Ligne>`) | enveloppe de titre : SplitText par ligne, masque `overflow: hidden`, montée 110 % |
-| **Dérive** (`<Derive>`) | parallaxe ±6 % via ScrollTrigger scrub, désactivée sous 768 px et sous reduced-motion |
-| **Passage** | voile Ivoire au changement de route, logo centré, 700 ms |
-| **Fil d'Ariane** | `legende` Brume, séparateur « › », BreadcrumbList JSON-LD |
-| **Numéro de section** | `mention` Sable « 01 », aligné sur la gouttière |
-| **Liste typographique** | lignes séparées par un filet Lin, titre `titre-3`, méta `mention`, image d'accompagnement qui change au survol |
-| **Bande de robes** | défilement horizontal épinglé (desktop) / natif avec `scroll-snap` (mobile), tuiles 3:4 sans cadre, nom Bodoni italique + maison en mention |
-| **Édito** | deux colonnes `texte` avec une citation tirée `phrase` à cheval ; 350 à 1 400 mots selon la page |
-| **Bandeau rendez-vous** | pleine largeur Rouge, texte blanc Bodoni, bouton blanc texte Encre, téléphone ; une occurrence par page, toujours en avant-dernier |
-| **Formulaire** | champs sans bordure, filet bas Lin → Encre au focus, étiquette flottante en `mention` ; erreurs Grenat en `legende` ; jamais de placeholder seul |
-| **Légende d'image** | `mention` Brume dans la marge gauche (desktop) ou sous l'image (mobile), alt complet distinct de la légende |
-| **FAQ** | `<details>` natifs stylés, question en `titre-3`, ouverture animée en hauteur via grid-template-rows, FAQPage JSON-LD |
-| **Pied** | Ivoire, quatre colonnes inégales (5/2/2/3), `legende` ; adresse en `address` |
+| **Bouton** (`.btn`) | fond Rouge, texte Blanc `ui`, hauteur 52 px, padding 0 28 px, flèche « → » à 12 px du texte ; survol : vague Grenat qui monte (pseudo-élément scaleY), flèche +4 px ; actif : échelle 0,98 ; focus : contour 2 px Noir décalé 3 px. Variante `.btn-blanc` (sur vidéo) : fond Blanc, texte Noir, survol Ivoire. Variante `.btn-trait` : texte Noir + trait rouge dessous qui se dessine |
+| **Lien** | Noir, trait Rouge 1 px dessiné de gauche à droite au survol (background-size) |
+| **Eyebrow** | `mono` : « N° 03 — Les coupes », le numéro en Rouge |
+| **Trait** | `<i class="trait">` 2 px Rouge, largeur 0 → 100 % à l'entrée (scaleX, origine gauche) |
+| **Masque image** (`.masque`) | overflow hidden ; l'image s'ouvre par clip-path depuis la gauche (hero) ou le bas (chapitres), contre-échelle 1,06 ; `aspect-ratio` imposé |
+| **Index** (`.index`) | `mono` « 02 / 07 » posé dans le coin haut-gauche de l'image, à 12 px |
+| **Nom à cheval** | `grand` italique, positionné à −0,5em sous le bord bas de l'image, dans la colonne de gauche |
+| **Liste typographique** (`.index-typo`) | lignes en `chapitre`, filet entre elles, numéro mono rouge à gauche, image flottante à droite (sticky) |
+| **Lettres en contour** | `-webkit-text-stroke: 1px Noir`, remplissage transparent ; active : remplissage Rouge |
+| **Bandeau défilant** | Fraunces italique `grand`, séparateur « — », vitesse liée au défilement, pause au survol |
+| **Citation géante** | guillemet ouvrant Fraunces 8vw Rouge en marge, texte `citation`, auteur `mono` |
+| **Édito** | lettrine Rouge, deux colonnes `corps` avec `column-gap` gouttière, citation tirée en `citation` à cheval sur les deux colonnes |
+| **En-tête** | 72 px, transparent, logo PNG de la maison à gauche (hauteur 14 px), navigation `mono` au centre droit avec point rouge sur l'actif, bouton `.btn` compact (44 px) ; devient Blanc 92 % + flou 10 px au défilement |
+| **Menu plein écran** | Blanc, entrées en `chapitre`, numéros mono, image à droite (desktop), adresse et téléphone en pied |
+| **Curseur** | point Rouge 10 px ; cercle 72 px avec « Voir » sur `[data-cursor]` ; masqué sous `(hover: none)` |
+| **Chargement** | voile Blanc, compteur `mono` 00 → 100 en bas à gauche en 5vw, trait Rouge en haut qui traverse, voile qui remonte (clip-path) ; sauté après la première visite (sessionStorage) et sous reduced-motion |
+| **Pied** | Blanc, trait Rouge au-dessus, trois colonnes mono (adresse/horaires, navigation, réseaux et légal), logo en masthead de fin sur toute la largeur |
+| **Fil d'Ariane** | `mono`, séparateur « / » |
+| **Fiche robe** (principe) | couverture : photographie plein cadre à gauche sur 60 %, titre `chapitre` qui déborde sur l'image ; index mono « vue 01 / 07 » ; galerie en mosaïque éditoriale (deux colonnes décalées) ; détails en liste typographique ; même coupe / même maison en bande horizontale |
+| **Pages SEO** (principe) | ouverture typographique (eyebrow mono + titre `chapitre` + une phrase `citation`) ; corps en double page avec lettrine ; une image débordante tous les deux écrans ; FAQ en liste typographique ; jamais un bloc de texte continu de plus de 60 lignes |
 
-## 3. États et accessibilité
-- Contrastes AA minimum sur tout texte < 18 px (Brume interdite sous 18 px
-  pour du texte informatif).
-- Focus visible partout (contour 2 px Encre, décalé), ordre de tabulation
-  naturel, menu plein écran piégeant le focus et fermant à Échap.
-- Toutes les animations respectent `prefers-reduced-motion` via les tokens de
-  durée à 0 ms ; aucun contenu n'est masqué sans JavaScript (les classes de
-  révélation sont ajoutées par le script, l'état par défaut est visible).
-- Cibles tactiles ≥ 44 px ; pas de survol porteur d'information seule (le
-  changement d'image au survol a toujours son équivalent au focus et au tap).
-- Langue déclarée, titres hiérarchisés (un seul H1), `alt` descriptifs
-  rédigés pour chaque photographie à partir des faits de la robe.
+## Mouvement (tokens)
+`--ease-out: cubic-bezier(0.16, 1, 0.3, 1)` (sorties, révélations) ;
+`--ease-io: cubic-bezier(0.76, 0, 0.24, 1)` (masques, voiles) ;
+`--d-court 300ms` (survols), `--d-moyen 900ms` (titres), `--d-long 1300ms`
+(masques), `--d-voile 700ms` ; décalage mots 60 ms ; dérive 4-8 %.
+Tous à 0 sous `prefers-reduced-motion` ; aucune animation si l'onglet est
+caché au chargement.
 
-## 4. Médias
-Pipeline (`scripts/medias.py`, phase 5) : sources de la maison → AVIF et
-WebP en 480, 768, 1200, 1700, 2400 px ; aperçu flouté 20 px inline ;
-manifeste typé (`src/content/medias.ts`) avec dimensions intrinsèques.
-Composant `<Photo>` : `sizes` explicites, `loading="lazy"` sauf l'affiche
-(`fetchpriority="high"`), `decoding="async"`. Films : MP4 H.264 + WebM,
-≤ 2,5 Mo pour 8 s, affiche AVIF, `preload="none"`, lecture à l'approche.
-
-## 5. Performance (budget par page)
-HTML ≤ 60 ko, CSS ≤ 40 ko, JavaScript initial ≤ 90 ko (GSAP chargé par
-morceaux, uniquement sur les pages qui en ont besoin), LCP < 2 s, CLS < 0,05,
-INP < 150 ms, Lighthouse ≥ 95 sur mobile hors « Best practices » liées aux
-tiers.
+## Accessibilité et performance
+Contrastes AA partout ; focus visible ; menu piégeant le focus ; curseur
+personnalisé jamais obligatoire ; texte en contour doublé d'un `aria-label`
+lisible ; vidéos muettes avec affiche ; `prefers-reduced-motion` respecté ;
+polices sous-ensemble latin + latin-ext en `swap` ; JavaScript initial
+< 95 ko (GSAP par morceaux, Lenis) ; LCP < 2 s (photographie du hero en
+`fetchpriority=high`, pas de vidéo au-dessus de la ligne de flottaison sur
+mobile).

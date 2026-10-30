@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MADAMOON — Le Numéro — proposition d'accueil v2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&family=Jost:wght@300;400;500&family=DM+Mono:wght@400&display=swap">
+<style>
+:root{--blanc:#fff;--ivoire:#f6f2ec;--noir:#161412;--gris:#6b6661;--gris-clair:#d9d4cd;--rouge:#ce0a2c;--grenat:#910000;
+--display:"Fraunces",Georgia,serif;--texte:"Jost","Futura",sans-serif;--mono:"DM Mono",ui-monospace,monospace;
+--g:clamp(1.25rem,3.4vw,4rem);--chap:clamp(7rem,14vw,14rem);--out:cubic-bezier(.16,1,.3,1);--io:cubic-bezier(.76,0,.24,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--blanc);color:var(--noir);font-family:var(--texte);font-weight:300;-webkit-font-smoothing:antialiased}
+body{font-size:clamp(1.0625rem,1.1vw,1.1875rem);line-height:1.6;overflow-x:clip}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+img,video{display:block;max-width:100%}a{color:inherit;text-decoration:none}ul{list-style:none}
+h1,h2,h3{font-weight:300}
+.display{font-family:var(--display);font-weight:300;font-variation-settings:"opsz" 144,"SOFT" 60,"WONK" 0;letter-spacing:-.02em}
+em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 70,"WONK" 1}
+.affiche{font-size:clamp(3.5rem,11vw,13rem);line-height:.88;letter-spacing:-.03em}
+.chapitre{font-size:clamp(2.5rem,7vw,8rem);line-height:.92}
+.grand{font-size:clamp(1.75rem,3.6vw,3.5rem);line-height:1.05}
+.citation{font-size:clamp(1.5rem,3vw,2.75rem);line-height:1.2;font-style:italic}
+.corps{font-size:clamp(1.0625rem,1.1vw,1.1875rem);line-height:1.6;max-width:60ch}
+.ui{font-family:var(--texte);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
+.mono{font-family:var(--mono);font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;line-height:1.4;color:var(--gris)}
+.mono b{color:var(--rouge);font-weight:400}
+.rouge{color:var(--rouge)}
+.cadre{max-width:110rem;margin-inline:auto;padding-inline:var(--g)}
+.grille{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--g)}
+.eyebrow{display:flex;align-items:center;gap:.75rem}
+.eyebrow::before{content:"";width:2rem;height:2px;background:var(--rouge)}
+.trait{display:block;height:2px;background:var(--rouge);transform-origin:left;transform:scaleX(0)}
+.statique .trait{transform:none}
+.filet{border-top:1px solid var(--gris-clair)}
+/* bouton */
+.btn{position:relative;display:inline-flex;align-items:center;gap:.9rem;height:52px;padding:0 28px;background:var(--rouge);color:var(--blanc);font:500 .75rem/1 var(--texte);letter-spacing:.14em;text-transform:uppercase;overflow:hidden;isolation:isolate;transition:transform .3s var(--out)}
+.btn::before{content:"";position:absolute;inset:0;background:var(--grenat);transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--io);z-index:-1}
+.btn:hover::before{transform:scaleY(1)}.btn:active{transform:scale(.98)}
+.btn .fl{display:inline-block;transition:transform .35s var(--out)}.btn:hover .fl{transform:translateX(4px)}
+.btn.blanc{background:var(--blanc);color:var(--noir)}.btn.blanc::before{background:var(--ivoire)}
+.lien{background:linear-gradient(var(--rouge),var(--rouge)) no-repeat 0 100%/0 1px,linear-gradient(var(--gris-clair),var(--gris-clair)) no-repeat 0 100%/100% 1px;padding-bottom:3px;transition:background-size .35s var(--out)}
+.lien:hover{background-size:100% 1px,100% 1px}
+/* masque image */
+.masque{overflow:hidden;position:relative;clip-path:inset(0 100% 0 0)}
+.masque.bas{clip-path:inset(0 0 100% 0)}
+.masque img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);will-change:transform}
+.statique .masque{clip-path:none}.statique .masque img{transform:none}
+.statique #defile .scene{height:auto;overflow-x:auto;padding-bottom:4rem}
+/* mots */
+.mots .mot{display:inline-block;overflow:hidden;vertical-align:top}.mots .mot>span{display:inline-block;transform:translateY(110%)}
+.statique .mots .mot>span{transform:none}
+/* chargement */
+#chargement{position:fixed;inset:0;z-index:100;background:var(--blanc);display:flex;align-items:flex-end;justify-content:space-between;padding:var(--g)}
+#chargement .cpt{font-family:var(--mono);font-size:clamp(3rem,8vw,9rem);line-height:1;letter-spacing:-.04em;color:var(--noir)}
+#chargement .cpt small{font-size:.35em;vertical-align:top;color:var(--rouge);letter-spacing:0}
+#chargement .trait{position:absolute;top:0;left:0;right:0}
+#chargement .lg{height:14px;opacity:0}
+.statique #chargement{display:none}
+/* curseur */
+#curseur{position:fixed;top:0;left:0;width:10px;height:10px;border-radius:50%;background:var(--rouge);pointer-events:none;z-index:90;transform:translate(-50%,-50%);transition:width .35s var(--out),height .35s var(--out),background .35s;display:none;mix-blend-mode:normal}
+#curseur span{position:absolute;inset:0;display:grid;place-items:center;font:500 .625rem var(--texte);letter-spacing:.14em;text-transform:uppercase;color:var(--blanc);opacity:0;transition:opacity .25s}
+#curseur.voir{width:76px;height:76px;background:var(--rouge)}#curseur.voir span{opacity:1}
+@media (hover:hover) and (pointer:fine){#curseur{display:block}}
+/* entête */
+header{position:fixed;inset-inline:0;top:0;height:72px;z-index:50;display:flex;align-items:center;transition:background .4s,backdrop-filter .4s}
+header.defile{background:rgba(255,255,255,.92);backdrop-filter:blur(10px)}
+header .cadre{width:100%;display:flex;align-items:center;justify-content:space-between}
+header .logo img{height:14px;width:auto}
+header nav{display:flex;gap:2.4rem}
+header nav a{position:relative;padding-left:14px}
+header nav a::before{content:"";position:absolute;left:0;top:50%;width:6px;height:6px;border-radius:50%;background:var(--rouge);transform:translateY(-50%) scale(0);transition:transform .3s var(--out)}
+header nav a:hover::before,header nav a.actif::before{transform:translateY(-50%) scale(1)}
+header .btn{height:44px;padding:0 20px}
+.burger{display:none;width:44px;height:44px;position:relative;background:none;border:0}
+.burger i{position:absolute;left:12px;right:12px;height:1px;background:var(--noir)}.burger i:first-child{top:18px}.burger i:last-child{top:26px}
+/* hero */
+#hero{position:relative;min-height:100dvh;padding-top:72px}
+#hero .cadre{position:relative;min-height:calc(100dvh - 72px);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--g);align-content:start;padding-top:6vh}
+#hero .eyebrow{grid-column:1/6;grid-row:1}
+#hero h1{grid-column:1/13;grid-row:2;margin-top:4vh;position:relative;z-index:2;mix-blend-mode:difference;color:#fff;font-size:clamp(3.5rem,12.4vw,15rem);max-width:none}
+#hero .photo{grid-column:7/13;grid-row:1/5;align-self:start;margin-top:-2vh;aspect-ratio:3/4;max-height:86vh;z-index:1}
+#hero .photo img{object-position:60% 20%}
+#hero .bas{grid-column:1/6;grid-row:3;margin-top:5vh;display:flex;flex-direction:column;gap:1.6rem;align-items:flex-start;z-index:2}
+#hero .bas .corps{max-width:34ch;color:var(--gris)}
+#hero .cue{grid-column:1/3;grid-row:4;align-self:end;display:flex;align-items:center;gap:1rem;padding-bottom:3vh;z-index:2}
+#hero .cue i{display:block;width:1px;height:56px;background:var(--gris-clair);position:relative;overflow:hidden}
+#hero .cue i::after{content:"";position:absolute;inset:0;background:var(--rouge);transform:translateY(-100%);animation:cue 2.2s var(--io) infinite}
+@keyframes cue{0%{transform:translateY(-100%)}55%{transform:translateY(0)}100%{transform:translateY(100%)}}
+.statique #hero .cue i::after{animation:none}
+/* manifeste */
+#manifeste{padding-block:var(--chap)}
+#manifeste h2{max-width:22ch}
+#manifeste .eyebrow{margin-bottom:3rem}
+.bandeau{margin-top:var(--chap);padding-block:2rem;border-block:1px solid var(--gris-clair);overflow:hidden;white-space:nowrap}
+.bandeau .piste{display:inline-flex;gap:0;will-change:transform}
+.bandeau .piste span{font-family:var(--display);font-style:italic;font-weight:300;font-size:clamp(2rem,4.5vw,4.5rem);line-height:1;padding-right:1.2em;font-variation-settings:"opsz" 144,"SOFT" 70,"WONK" 1}
+.bandeau .piste span::after{content:"—";color:var(--rouge);padding-left:1.2em;font-style:normal}
+/* défilé */
+#defile{position:relative;background:var(--blanc)}
+#defile .tete{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--g);padding-top:var(--chap);padding-bottom:3rem}
+#defile .scene{height:100dvh;overflow:hidden;display:flex;align-items:center}
+#defile .piste{display:flex;align-items:flex-start;gap:var(--g);padding-inline:var(--g);will-change:transform}
+.panneau{position:relative;flex:0 0 auto;width:var(--w);margin-top:var(--mt,0)}
+.panneau .masque{aspect-ratio:var(--ar,3/4)}
+.panneau .index{position:absolute;top:12px;left:12px;color:var(--blanc);mix-blend-mode:difference;z-index:2}
+.panneau .nom{position:absolute;left:-.1em;bottom:-.55em;font-size:clamp(2rem,4.2vw,4.2rem);line-height:1;font-style:italic;z-index:2;white-space:nowrap}
+.panneau .nom small{display:block;font:400 .6875rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--gris);font-style:normal;margin-top:.9em;margin-left:.1em}
+#defile .prog{height:2px;background:var(--gris-clair);margin:0 var(--g) var(--chap)}#defile .prog i{display:block;height:100%;background:var(--rouge);transform-origin:left;transform:scaleX(0)}
+/* coupes */
+#coupes{padding-block:var(--chap);background:var(--ivoire)}
+#coupes .grille{align-items:start}
+#coupes .liste{grid-column:1/8}
+#coupes .liste li{border-top:1px solid var(--gris-clair)}#coupes .liste li:last-child{border-bottom:1px solid var(--gris-clair)}
+#coupes .liste a{display:grid;grid-template-columns:3.5rem 1fr auto;align-items:baseline;gap:var(--g);padding:1.4rem 0;transition:padding-left .4s var(--out)}
+#coupes .liste a:hover{padding-left:1rem}
+#coupes .liste .n{font:400 .75rem var(--mono);color:var(--rouge);letter-spacing:.08em}
+#coupes .liste .t{font-size:clamp(2.25rem,6vw,6.5rem);line-height:1;transition:font-style .2s}
+#coupes .liste li.actif .t{font-style:italic}
+#coupes .liste .d{color:var(--gris);font-size:.9rem;max-width:22ch;text-align:right}
+#coupes .visuel{grid-column:9/13;position:sticky;top:12vh;aspect-ratio:3/4}
+#coupes .visuel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s var(--out)}
+#coupes .visuel img.actif{opacity:1}
+/* lettres */
+#morpho{padding-block:var(--chap)}
+#morpho .lettres{display:flex;justify-content:space-between;align-items:baseline;margin-top:3rem}
+#morpho .lettres a{font-family:var(--display);font-weight:300;font-size:clamp(4rem,15vw,17rem);line-height:1;color:transparent;-webkit-text-stroke:1px var(--noir);transition:color .5s var(--out),-webkit-text-stroke-color .5s}
+#morpho .lettres a.actif,#morpho .lettres a:hover{color:var(--rouge);-webkit-text-stroke-color:var(--rouge)}
+#morpho .detail{margin-top:3rem;display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g)}
+#morpho .detail .citation{grid-column:1/8;font-style:normal}
+#morpho .detail .corps{grid-column:9/13;color:var(--gris)}
+/* showroom */
+#showroom{position:relative;height:100dvh;overflow:hidden;color:var(--blanc)}
+#showroom .media{position:absolute;inset:-8% 0;will-change:transform}
+#showroom .media img,#showroom .media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#showroom .media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,20,18,.1),rgba(22,20,18,.55))}
+#showroom .cadre{position:relative;z-index:2;height:100%;display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g);align-content:end;padding-bottom:7vh}
+#showroom h2{grid-column:1/10;color:#fff}#showroom .meta{grid-column:1/5;margin-top:2rem;color:rgba(255,255,255,.85)}
+#showroom .act{grid-column:9/13;align-self:end;justify-self:end;display:flex;gap:2rem;align-items:center}
+#showroom .mono{color:rgba(255,255,255,.7)}#showroom .mono b{color:#fff}
+/* maisons */
+#maisons{padding-block:var(--chap)}
+#maisons .grille{align-items:start}
+#maisons .liste{grid-column:1/7}
+#maisons .liste li{border-top:1px solid var(--gris-clair)}#maisons .liste li:last-child{border-bottom:1px solid var(--gris-clair)}
+#maisons .liste a{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:1.6rem 0}
+#maisons .liste .t{font-size:clamp(1.75rem,4vw,4rem);line-height:1}
+#maisons .liste li.actif .t{font-style:italic;color:var(--rouge)}
+#maisons .pile{grid-column:8/13;position:sticky;top:10vh;aspect-ratio:3/4;margin-top:-6rem}
+#maisons .pile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);transition:opacity .7s var(--out),transform .9s var(--out)}
+#maisons .pile img.actif{opacity:1;transform:none}
+#maisons .note{grid-column:1/6;margin-top:2rem;color:var(--gris)}
+/* paroles */
+#paroles{padding-block:var(--chap);background:var(--ivoire)}
+#paroles .q{position:relative;display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g);min-height:40vh}
+#paroles .guil{grid-column:1/3;font-family:var(--display);font-size:clamp(5rem,12vw,14rem);line-height:.6;color:var(--rouge);margin-top:.1em}
+#paroles blockquote{grid-column:3/12;position:relative}
+#paroles blockquote p{position:absolute;inset:0;opacity:0;transition:opacity .9s var(--out)}#paroles blockquote p.actif{opacity:1;position:relative}
+#paroles .auteur{margin-top:2rem}
+#paroles .pts{grid-column:3/12;display:flex;gap:1rem;margin-top:2rem}#paroles .pts i{width:2.5rem;height:2px;background:var(--gris-clair);overflow:hidden}#paroles .pts i::after{content:"";display:block;height:100%;background:var(--rouge);transform:scaleX(0);transform-origin:left}#paroles .pts i.actif::after{animation:pt 7s linear forwards}
+@keyframes pt{to{transform:scaleX(1)}}
+/* édito */
+#edito{padding-block:var(--chap)}
+#edito .tete{display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g);align-items:end;margin-bottom:4rem}
+#edito .tete h2{grid-column:1/9}#edito .tete .mono{grid-column:10/13}
+#edito .page{display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g)}
+#edito .texte{grid-column:1/9;columns:2;column-gap:var(--g)}
+#edito .texte p{margin-bottom:1.2em;break-inside:avoid}
+#edito .texte p:first-of-type::first-letter{font-family:var(--display);font-weight:300;font-size:5.2em;line-height:.8;float:left;margin:.08em .12em 0 0;color:var(--rouge)}
+#edito .tire{column-span:all;margin:1.5em 0 1.5em;max-width:28ch;font-style:italic}
+#edito .img{grid-column:10/13;margin-top:4rem}
+#edito .img .masque{aspect-ratio:4/5}
+/* fin */
+#fin{padding-top:var(--chap);background:var(--blanc)}
+#fin h2{max-width:11ch}
+#fin .act{display:flex;flex-wrap:wrap;gap:2rem;align-items:center;margin-top:3rem}
+#fin .masthead{margin-top:var(--chap);padding-bottom:2rem}
+#fin .masthead img{width:100%;height:auto}
+footer{border-top:2px solid var(--rouge);padding:2rem 0 2.5rem}
+footer .cadre{display:grid;grid-template-columns:repeat(12,1fr);column-gap:var(--g);row-gap:1.5rem}
+footer .col{grid-column:span 3}footer .col:first-child{grid-column:span 4}
+footer .mono{color:var(--gris)}footer a:hover{color:var(--rouge)}
+/* mobile */
+@media (max-width:900px){
+  header nav{display:none}.burger{display:block}
+  #hero .cadre{display:flex;flex-direction:column;padding-top:3vh;min-height:auto}
+  #hero .photo{order:2;width:88%;margin:2rem 0 0 auto;max-height:none;aspect-ratio:3/4}
+  #hero h1{order:1;margin-top:1.2rem;mix-blend-mode:normal;color:var(--noir)}
+  #hero .bas{order:3;margin-top:2rem}#hero .cue{display:none}
+  #defile .scene{height:auto;overflow:visible;display:block}#defile .piste{flex-direction:column;gap:5rem;padding-inline:var(--g)}
+  .panneau{width:var(--wm,100%)!important;margin-top:0!important}.panneau.droite{margin-left:auto}
+  #coupes .liste{grid-column:1/-1}#coupes .visuel{display:none}#coupes .liste .d{display:none}
+  #morpho .lettres{flex-wrap:wrap;gap:0 1.5rem}#morpho .detail .citation,#morpho .detail .corps{grid-column:1/-1}
+  #showroom .cadre{display:flex;flex-direction:column;justify-content:flex-end;gap:1.2rem}#showroom .act{justify-self:start}
+  #maisons .liste,#maisons .note{grid-column:1/-1}#maisons .pile{grid-column:1/-1;position:relative;top:auto;margin-top:2rem;aspect-ratio:4/5}
+  #paroles .guil{grid-column:1/-1;line-height:.5;margin-bottom:.5rem}#paroles blockquote,#paroles .pts{grid-column:1/-1}
+  #edito .tete h2,#edito .tete .mono,#edito .texte,#edito .img{grid-column:1/-1}#edito .texte{columns:1}#edito .img{margin-top:2rem}
+  footer .col,footer .col:first-child{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:reduce){.btn,.lien,#curseur{transition:none}}
+</style>
+</head>
+<body>
+<div id="chargement" aria-hidden="true"><i class="trait"></i><div class="cpt"><small>N°</small> <span id="cpt">00</span></div><img class="lg" src="img-v2/logo.png" alt=""></div>
+<div id="curseur" aria-hidden="true"><span>Voir</span></div>
+
+<header id="entete">
+  <div class="cadre">
+    <a class="logo" href="#hero" aria-label="MADAMOON, accueil"><img src="img-v2/logo.png" alt=""></a>
+    <nav class="mono" aria-label="Navigation principale"><a class="actif" href="#defile">Robes</a><a href="#coupes">Coupes</a><a href="#morpho">Morphologies</a><a href="#maisons">Maisons</a><a href="#showroom">Showroom</a></nav>
+    <div style="display:flex;gap:.75rem;align-items:center"><a class="btn" href="#fin">Réserver <span class="fl">→</span></a><button class="burger" aria-label="Menu"><i></i><i></i></button></div>
+  </div>
+</header>
+
+<main>
+<!-- 01 Couverture -->
+<section id="hero" aria-label="Couverture">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 01</b> &nbsp;Robes de mariée — Paris 10ᵉ</p>
+    <h1 class="display affiche mots" data-mots><span class="l">Celle qui</span><br><span class="l">vous <em>attendait</em>.</span></h1>
+    <div class="photo masque" id="hero-photo" data-cursor="Voir"><img src="img-v2/enid.webp" alt="Enid, robe de mariée sirène en crêpe, Casablanca Bridal" fetchpriority="high"></div>
+    <div class="bas">
+      <p class="corps" data-fondu>Les collections de cinq maisons, réunies dans un showroom privatisé pour vous. Une heure, une robe, et personne d'autre.</p>
+      <a class="btn" href="#fin" data-fondu>Réserver un essayage <span class="fl">→</span></a>
+      <p class="mono" data-fondu>Lun 12h—21h · Mar—Sam 10h—19h · <b>sur rendez-vous</b></p>
+    </div>
+    <div class="cue"><i></i><span class="mono">Défiler</span></div>
+  </div>
+</section>
+
+<!-- 02 Manifeste -->
+<section id="manifeste" aria-labelledby="t-manifeste">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 02</b> &nbsp;Manifeste</p>
+    <h2 id="t-manifeste" class="display chapitre mots" data-mots>Une boutique, pas une maison de couture. Cinq maisons, soixante-sept robes, et une heure où le showroom n'est <em>qu'à vous</em>.</h2>
+    <i class="trait" style="margin-top:3rem" data-trait></i>
+  </div>
+  <div class="bandeau" aria-hidden="true"><div class="piste" id="piste-bandeau"><span>Sirène</span><span>Princesse</span><span>Fluide</span><span>Trapèze</span><span>Deux-en-un</span><span>Sirène</span><span>Princesse</span><span>Fluide</span><span>Trapèze</span><span>Deux-en-un</span></div></div>
+</section>
+
+<!-- 03 Le défilé -->
+<section id="defile" aria-labelledby="t-defile">
+  <div class="cadre tete">
+    <div><p class="mono eyebrow"><b>N° 03</b> &nbsp;Le défilé</p><h2 id="t-defile" class="display chapitre mots" data-mots style="margin-top:1.5rem">Sept robes, <em>pour commencer</em></h2></div>
+    <a class="lien ui" href="#" style="padding-bottom:6px">Toutes les robes</a>
+  </div>
+  <div class="scene" id="scene-defile">
+    <div class="piste" id="piste-defile">
+      <article class="panneau" style="--w:32vw;--ar:3/4" data-cursor="Voir"><div class="masque bas"><img src="img-v2/meredith.webp" alt=""></div><span class="index mono">01 / 07</span><p class="nom display">Meredith<small>Sirène — Casablanca Bridal</small></p></article>
+      <article class="panneau droite" style="--w:22vw;--ar:3/4;--mt:18vh;--wm:72%" data-cursor="Voir"><div class="masque bas"><img src="img-v2/guinevere.webp" alt=""></div><span class="index mono">02 / 07</span><p class="nom display">Guinevere<small>Princesse — Casablanca Bridal</small></p></article>
+      <article class="panneau" style="--w:40vw;--ar:4/5" data-cursor="Voir"><div class="masque bas"><img src="img-v2/oksana.webp" alt=""></div><span class="index mono">03 / 07</span><p class="nom display">Oksana<small>Sirène — Casablanca Bridal</small></p></article>
+      <article class="panneau droite" style="--w:20vw;--ar:3/4;--mt:26vh;--wm:64%" data-cursor="Voir"><div class="masque bas"><img src="img-v2/uma.webp" alt=""></div><span class="index mono">04 / 07</span><p class="nom display">Uma<small>Sirène — Watters Designs</small></p></article>
+      <article class="panneau" style="--w:30vw;--ar:3/4;--mt:6vh" data-cursor="Voir"><div class="masque bas"><img src="img-v2/venus.webp" alt=""></div><span class="index mono">05 / 07</span><p class="nom display">Venus<small>Sirène — Casablanca Bridal</small></p></article>
+      <article class="panneau droite" style="--w:24vw;--ar:3/4;--mt:14vh;--wm:78%" data-cursor="Voir"><div class="masque bas"><img src="img-v2/seraphina.webp" alt=""></div><span class="index mono">06 / 07</span><p class="nom display">Seraphina<small>Princesse — Olya Mak</small></p></article>
+      <article class="panneau" style="--w:34vw;--ar:3/4" data-cursor="Voir"><div class="masque bas"><img src="img-v2/tessa.webp" alt=""></div><span class="index mono">07 / 07</span><p class="nom display">Tessa<small>Deux-en-un — Casablanca Bridal</small></p></article>
+      <div class="panneau" style="--w:28vw;display:flex;align-items:center;justify-content:center;min-height:40vh"><a class="btn" href="#">Les 67 robes <span class="fl">→</span></a></div>
+    </div>
+  </div>
+  <div class="prog"><i id="prog-defile"></i></div>
+</section>
+
+<!-- 04 Les coupes -->
+<section id="coupes" aria-labelledby="t-coupes">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 04</b> &nbsp;Entrer par la coupe</p>
+    <h2 id="t-coupes" class="display grand" style="margin:1.5rem 0 3rem;max-width:26ch">La coupe décide avant le goût. Cinq familles, <em>une seule</em> vous va comme personne.</h2>
+    <div class="grille">
+      <ul class="liste display" id="liste-coupes">
+        <li class="actif" data-img="oksana"><a href="#"><span class="n">01</span><span class="t">Sirène</span><span class="d" style="font-family:var(--texte)">Ajustée jusqu'aux cuisses, puis évasée</span></a></li>
+        <li data-img="guinevere"><a href="#"><span class="n">02</span><span class="t">Princesse</span><span class="d" style="font-family:var(--texte)">Un corset travaillé, un volume assumé</span></a></li>
+        <li data-img="dove"><a href="#"><span class="n">03</span><span class="t">Fluide</span><span class="d" style="font-family:var(--texte)">Un tombé souple qui suit le mouvement</span></a></li>
+        <li data-img="solana"><a href="#"><span class="n">04</span><span class="t">Trapèze</span><span class="d" style="font-family:var(--texte)">Un buste ajusté, une jupe en A</span></a></li>
+        <li data-img="tessa"><a href="#"><span class="n">05</span><span class="t">Deux-en-un</span><span class="d" style="font-family:var(--texte)">Une robe, deux allures</span></a></li>
+      </ul>
+      <div class="visuel masque bas" id="visuel-coupes" data-cursor="Voir">
+        <img class="actif" data-k="oksana" src="img-v2/oksana.webp" alt=""><img data-k="guinevere" src="img-v2/guinevere.webp" alt=""><img data-k="dove" src="img-v2/dove.webp" alt=""><img data-k="solana" src="img-v2/solana.webp" alt=""><img data-k="tessa" src="img-v2/tessa.webp" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 Les morphologies -->
+<section id="morpho" aria-labelledby="t-morpho">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 05</b> &nbsp;Entrer par la morphologie</p>
+    <h2 id="t-morpho" class="display grand" style="margin-top:1.5rem;max-width:24ch">Six silhouettes. La vôtre dit déjà <em>quelle coupe</em> essayer d'abord.</h2>
+    <div class="lettres display" id="lettres">
+      <a href="#" data-i="0" class="actif" aria-label="Morphologie en O">O</a><a href="#" data-i="1" aria-label="Morphologie en A">A</a><a href="#" data-i="2" aria-label="Morphologie en V">V</a><a href="#" data-i="3" aria-label="Morphologie en H">H</a><a href="#" data-i="4" aria-label="Morphologie en 8">8</a><a href="#" data-i="5" aria-label="Morphologie en X">X</a>
+    </div>
+    <div class="detail">
+      <p class="display citation" id="morpho-txt">Morphologie en O — des courbes généreuses, une poitrine et un ventre marqués. Les tombés fluides et les trapèzes allongent la ligne.</p>
+      <p class="corps" id="morpho-sub">Conseillées d'abord : fluide, trapèze. À essayer ensuite : princesse, sirène. <a class="lien" href="#" style="color:var(--noir)">Trouver ma coupe</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 06 Le showroom -->
+<section id="showroom" aria-labelledby="t-showroom">
+  <div class="media" id="media-showroom"><img src="img-v2/escalier-affiche.webp" alt=""><video muted loop playsinline preload="none" data-src="img-v2/escalier.mp4" aria-hidden="true"></video></div>
+  <div class="cadre">
+    <h2 id="t-showroom" class="display chapitre mots" data-mots>Une heure. Le showroom <em>pour vous</em>.</h2>
+    <p class="meta mono"><b>N° 06</b> &nbsp;234 rue du Faubourg Saint-Martin — 75010 Paris<br>Lun 12h—21h · Mar—Sam 10h—19h · sur rendez-vous</p>
+    <div class="act"><a class="btn blanc" href="#fin">Réserver un essayage <span class="fl">→</span></a><a class="lien" href="#" style="color:#fff;font-size:.9rem">Itinéraire</a></div>
+  </div>
+</section>
+
+<!-- 07 Les maisons -->
+<section id="maisons" aria-labelledby="t-maisons">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 07</b> &nbsp;Entrer par la maison</p>
+    <div class="grille" style="margin-top:1.5rem">
+      <ul class="liste display" id="liste-maisons">
+        <li class="actif" data-img="pendant"><a href="#"><span class="t">Watters Designs</span><span class="mono">Dallas</span></a></li>
+        <li data-img="meredith"><a href="#"><span class="t">Casablanca Bridal</span><span class="mono">Newport Beach</span></a></li>
+        <li data-img="seraphina"><a href="#"><span class="t">Olya Mak</span><span class="mono">Lviv</span></a></li>
+        <li data-img="monica"><a href="#"><span class="t">Monica Loretti</span><span class="mono">Rome</span></a></li>
+      </ul>
+      <div class="pile masque bas" id="pile-maisons" data-cursor="Voir"><img class="actif" data-k="pendant" src="img-v2/pendant.webp" alt=""><img data-k="meredith" src="img-v2/meredith.webp" alt=""><img data-k="seraphina" src="img-v2/seraphina.webp" alt=""><img data-k="monica" src="img-v2/monica.webp" alt=""></div>
+      <p class="corps note" id="note-maisons">Dentelles travaillées, dos illusion, tombés légers. La maison d'Uma et de Pendant.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 08 Paroles -->
+<section id="paroles" aria-labelledby="t-paroles">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 08</b> &nbsp;Paroles de mariées — fiche Google de la maison, 5,0 sur 200 avis</p>
+    <div class="q" style="margin-top:3rem">
+      <div class="guil display" aria-hidden="true">«</div>
+      <blockquote id="quotes">
+        <p class="display citation actif">J'ai visité 2 autres magasins avant celui-ci et j'ai vu une vraie différence dans la qualité des tissus et le rendu général des robes ! Loin des robes lourdes, ce sont des robes qu'on n'a pas envie d'enlever.<span class="auteur mono" style="display:block;font-style:normal">Éloïse M. — mai 2026</span></p>
+        <p class="display citation">Les essayages étant privés, je n'ai pas eu l'impression comme dans d'autres boutiques d'être dans une usine à robe, d'autant que Mouna sait ce qu'elle fait et ce qu'elle propose tombe juste.<span class="auteur mono" style="display:block;font-style:normal">Avis Google — 2026</span></p>
+        <p class="display citation">Elle a tout de suite compris ce que je recherchais et m'a proposé une robe élégante, unique et parfaitement adaptée à mes envies. J'ai également beaucoup apprécié l'expérience privée et personnalisée.<span class="auteur mono" style="display:block;font-style:normal">Maissa G. — août 2026</span></p>
+      </blockquote>
+      <div class="pts" id="pts"><i class="actif"></i><i></i><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 L'édito -->
+<section id="edito" aria-labelledby="t-edito">
+  <div class="cadre">
+    <div class="tete"><h2 id="t-edito" class="display chapitre mots" data-mots>Choisir sa robe de mariée <em>à Paris</em></h2><p class="mono"><b>N° 09</b> &nbsp;L'édito — 3 min de lecture</p></div>
+    <div class="page">
+      <div class="texte corps" style="max-width:none">
+        <p>Chercher une robe de mariée à Paris commence rarement par une robe. Cela commence par une heure : celle où le showroom du 234 rue du Faubourg Saint-Martin, dans le 10ᵉ, est fermé pour vous. On n'y essaie pas tout. On y essaie ce qu'il faut, en commençant par la coupe qui vous ressemble, puis par la maison qui la fait le mieux.</p>
+        <p class="display tire">La coupe d'abord, la maison ensuite, la robe enfin.</p>
+        <p>MADAMOON est une boutique, pas une maison de couture : les soixante-sept modèles viennent de cinq créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de 1 500 €, retouches comprises.</p>
+        <p>Une sirène dessine la taille et les hanches ; une princesse assume le volume ; une robe fluide suit le mouvement ; un trapèze s'ouvre en A, la coupe la plus universelle ; une deux-en-un change d'allure entre la cérémonie et la soirée. Avant le goût, la morphologie décide souvent : c'est par elle que l'on vous conseille. Le premier rendez-vous se prend idéalement huit à neuf mois avant le mariage ; avec moins de temps, on trouve presque toujours une solution.</p>
+      </div>
+      <div class="img"><div class="masque bas" data-cursor="Voir"><img src="img-v2/dos-uma.webp" alt=""></div><p class="mono" style="margin-top:.75rem">Uma — dos en dentelle, Watters Designs</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Dernier mot -->
+<section id="fin" aria-labelledby="t-fin">
+  <div class="cadre">
+    <p class="mono eyebrow"><b>N° 10</b> &nbsp;Le dernier mot</p>
+    <h2 id="t-fin" class="display affiche mots" data-mots style="margin-top:1.5rem">Réserver un <em>essayage</em>.</h2>
+    <div class="act"><a class="btn" href="#">Choisir un créneau <span class="fl">→</span></a><a class="lien" href="tel:+33641243847">+33 6 41 24 38 47</a><span class="mono">Réponse sous 24 h</span></div>
+    <div class="masthead"><img src="img-v2/logo.png" alt="MADAMOON"></div>
+  </div>
+  <footer>
+    <div class="cadre">
+      <div class="col mono">234 rue du Faubourg Saint-Martin<br>75010 Paris<br><br>Lun 12h—21h<br>Mar—Sam 10h—19h<br>Sur rendez-vous</div>
+      <div class="col mono">Robes<br>Coupes<br>Morphologies<br>Maisons<br>Showroom</div>
+      <div class="col mono">Instagram<br>TikTok<br>Facebook</div>
+      <div class="col mono">Mentions légales<br>Confidentialité<br>© 2026 MADAMOON</div>
+    </div>
+  </footer>
+</section>
+</main>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/SplitText.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script>
+(() => {
+  const reduit = matchMedia("(prefers-reduced-motion: reduce)").matches || document.visibilityState === "hidden";
+  const mobile = innerWidth < 900;
+  const html = document.documentElement;
+  if (reduit) { html.classList.add("statique"); }
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+
+  /* ——— défilement lissé ——— */
+  let lenis = null;
+  if (!reduit) { lenis = new Lenis({ lerp: 0.085, smoothWheel: true }); lenis.on("scroll", ScrollTrigger.update); gsap.ticker.add((t) => lenis.raf(t * 1000)); gsap.ticker.lagSmoothing(0); }
+
+  /* ——— en-tête ——— */
+  const entete = document.getElementById("entete");
+  const lireScroll = () => entete.classList.toggle("defile", scrollY > 40);
+  addEventListener("scroll", lireScroll, { passive: true }); lireScroll();
+
+  /* ——— curseur ——— */
+  const cur = document.getElementById("curseur");
+  if (matchMedia("(hover:hover) and (pointer:fine)").matches) {
+    const x = gsap.quickTo(cur, "x", { duration: 0.18, ease: "power3" }), y = gsap.quickTo(cur, "y", { duration: 0.18, ease: "power3" });
+    addEventListener("pointermove", (e) => { x(e.clientX); y(e.clientY); });
+    document.querySelectorAll("[data-cursor]").forEach((el) => { el.addEventListener("pointerenter", () => { cur.querySelector("span").textContent = el.dataset.cursor; cur.classList.add("voir"); }); el.addEventListener("pointerleave", () => cur.classList.remove("voir")); });
+  }
+
+  /* ——— révélations ——— */
+  const motsDe = (el) => { const s = new SplitText(el, { type: "words", wordsClass: "mot" }); s.words.forEach((w) => { const i = document.createElement("span"); i.textContent = w.textContent; w.textContent = ""; w.appendChild(i); }); return s.words.map((w) => w.firstChild); };
+  const revealMots = (el, opts = {}) => { const spans = motsDe(el); return gsap.to(spans, { y: 0, duration: 1.1, ease: "expo.out", stagger: 0.06, ...opts }); };
+  const revealMasque = (el, depuis = "bas", opts = {}) => { const img = el.querySelector("img"); const tl = gsap.timeline(opts); tl.to(el, { clipPath: "inset(0 0% 0 0)", duration: 1.3, ease: "expo.out" }, 0); if (img) tl.to(img, { scale: 1, duration: 1.6, ease: "expo.out" }, 0); return tl; };
+
+  const intro = () => {
+    const tl = gsap.timeline();
+    tl.add(revealMots(document.querySelector("#hero h1"), { paused: false }), 0)
+      .add(revealMasque(document.getElementById("hero-photo")), 0.15)
+      .fromTo("#hero [data-fondu]", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.9, ease: "expo.out", stagger: 0.1 }, 0.5)
+      .fromTo("#entete", { y: -10, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: "expo.out" }, 0.4);
+  };
+
+  /* ——— chargement ——— */
+  const charge = document.getElementById("chargement");
+  if (reduit) { charge.remove(); }
+  else {
+    html.classList.add("lenis-stopped"); lenis.stop();
+    const cpt = { n: 0 }; const tl = gsap.timeline({ onComplete: () => { charge.remove(); lenis.start(); intro(); } });
+    tl.to("#chargement .trait", { scaleX: 1, duration: 1.1, ease: "power2.inOut" }, 0)
+      .to(cpt, { n: 100, duration: 1.1, ease: "power2.inOut", onUpdate: () => (document.getElementById("cpt").textContent = String(Math.round(cpt.n)).padStart(2, "0")) }, 0)
+      .to("#chargement .lg", { opacity: 1, duration: 0.5 }, 0.5)
+      .to(charge, { clipPath: "inset(0 0 100% 0)", duration: 0.8, ease: "expo.inOut" }, 1.25);
+  }
+
+  /* ——— titres au défilement ——— */
+  document.querySelectorAll("[data-mots]").forEach((el) => { if (el.closest("#hero")) return; if (reduit) return; const spans = motsDe(el); gsap.to(spans, { y: 0, duration: 1, ease: "expo.out", stagger: 0.05, scrollTrigger: { trigger: el, start: "top 85%", once: true } }); });
+  document.querySelectorAll(".masque").forEach((el) => { if (el.id === "hero-photo" || reduit) return; revealMasque(el, "bas", { scrollTrigger: { trigger: el, start: "top 82%", once: true } }); });
+  document.querySelectorAll("[data-trait]").forEach((el) => { if (reduit) return; gsap.to(el, { scaleX: 1, duration: 1.2, ease: "expo.out", scrollTrigger: { trigger: el, start: "top 90%", once: true } }); });
+
+  /* ——— hero : la photographie s'élargit, le texte s'éloigne ——— */
+  if (!reduit && !mobile) {
+    gsap.to("#hero-photo", { yPercent: -8, scale: 1.04, ease: "none", scrollTrigger: { trigger: "#hero", start: "top top", end: "bottom top", scrub: true } });
+    gsap.to("#hero h1, #hero .bas", { yPercent: 25, opacity: 0.2, ease: "none", scrollTrigger: { trigger: "#hero", start: "40% top", end: "bottom top", scrub: true } });
+  }
+
+  /* ——— bandeau : vitesse liée au défilement ——— */
+  const piste = document.getElementById("piste-bandeau");
+  if (!reduit) { let vit = 1; const loop = gsap.to(piste, { xPercent: -50, duration: 40, ease: "none", repeat: -1 }); ScrollTrigger.create({ onUpdate: (self) => { vit = gsap.utils.clamp(0.4, 4, Math.abs(self.getVelocity()) / 300 + 1); gsap.to(loop, { timeScale: self.direction * vit, duration: 0.5 }); } }); }
+
+  /* ——— défilé horizontal épinglé ——— */
+  if (!reduit && !mobile) {
+    const scene = document.getElementById("scene-defile"), p = document.getElementById("piste-defile");
+    const course = () => p.scrollWidth - innerWidth;
+    gsap.to(p, { x: () => -course(), ease: "none", scrollTrigger: { trigger: scene, start: "top top", end: () => "+=" + course(), pin: true, scrub: 0.7, invalidateOnRefresh: true, onUpdate: (s) => gsap.set("#prog-defile", { scaleX: s.progress }) } });
+  } else { gsap.set("#prog-defile", { scaleX: 1 }); }
+
+  /* ——— index des coupes / maisons ——— */
+  const lier = (listeId, visuelId, noteId, notes) => {
+    const liste = document.getElementById(listeId), visuel = document.getElementById(visuelId);
+    liste.querySelectorAll("li").forEach((li) => { const act = () => { liste.querySelectorAll("li").forEach((x) => x.classList.remove("actif")); li.classList.add("actif"); visuel.querySelectorAll("img").forEach((im) => im.classList.toggle("actif", im.dataset.k === li.dataset.img)); if (noteId) document.getElementById(noteId).textContent = notes[li.dataset.img]; }; li.addEventListener("pointerenter", act); li.querySelector("a").addEventListener("focus", act); li.querySelector("a").addEventListener("click", (e) => e.preventDefault()); });
+    if (!reduit && !mobile) { const dx = gsap.quickTo(visuel, "x", { duration: 0.8, ease: "power3" }), dy = gsap.quickTo(visuel, "y", { duration: 0.8, ease: "power3" }); visuel.closest("section").addEventListener("pointermove", (e) => { const r = visuel.getBoundingClientRect(); dx((e.clientX - (r.left + r.width / 2)) * 0.04); dy((e.clientY - (r.top + r.height / 2)) * 0.04); }); }
+  };
+  lier("liste-coupes", "visuel-coupes");
+  lier("liste-maisons", "pile-maisons", "note-maisons", { pendant: "Dentelles travaillées, dos illusion, tombés légers. La maison d'Uma et de Pendant.", meredith: "Satin de soie, dentelle française… des robes faites pour la lumière.", seraphina: "Le drapé, la transparence, la sensualité retenue. Des robes qui bougent avec celle qui les porte.", monica: "L'école italienne : proportions justes, broderies denses, matières nobles." });
+
+  /* ——— lettres ——— */
+  const MORPHOS = [
+    ["Morphologie en O — des courbes généreuses, une poitrine et un ventre marqués. Les tombés fluides et les trapèzes allongent la ligne.", "Conseillées d'abord : fluide, trapèze. À essayer ensuite : princesse, sirène."],
+    ["Morphologie en A — des hanches plus larges que les épaules. Le trapèze équilibre, la princesse structure le buste.", "Conseillées d'abord : trapèze, princesse. À essayer ensuite : fluide."],
+    ["Morphologie en V — des épaules plus larges que les hanches. Le volume en bas rééquilibre ; la sirène affirme.", "Conseillées d'abord : princesse, trapèze. À essayer ensuite : sirène."],
+    ["Morphologie en H — épaules, taille et hanches alignées. La fluide suit, la sirène dessine une taille.", "Conseillées d'abord : fluide, sirène. À essayer ensuite : trapèze."],
+    ["Morphologie en 8 — une taille marquée, des courbes équilibrées. La sirène est faite pour elle.", "Conseillées d'abord : sirène, trapèze. À essayer ensuite : princesse."],
+    ["Morphologie en X — une taille fine, des épaules et des hanches alignées. Presque tout va ; la sirène et le trapèze d'abord.", "Conseillées d'abord : sirène, trapèze. À essayer ensuite : fluide, princesse."],
+  ];
+  const lettres = [...document.querySelectorAll("#lettres a")]; let li = 0, auto;
+  const poser = (i) => { li = i; lettres.forEach((a, k) => a.classList.toggle("actif", k === i)); const t = document.getElementById("morpho-txt"), s = document.getElementById("morpho-sub"); gsap.fromTo([t, s], { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.6, ease: "expo.out" }); t.textContent = MORPHOS[i][0]; s.firstChild.textContent = MORPHOS[i][1] + " "; };
+  lettres.forEach((a, i) => { a.addEventListener("pointerenter", () => { clearInterval(auto); poser(i); }); a.addEventListener("click", (e) => { e.preventDefault(); poser(i); }); });
+  if (!reduit) ScrollTrigger.create({ trigger: "#morpho", start: "top 60%", once: true, onEnter: () => { auto = setInterval(() => poser((li + 1) % 6), 2600); } });
+
+  /* ——— showroom : parallaxe et film ——— */
+  const media = document.getElementById("media-showroom"), video = media.querySelector("video");
+  if (!reduit) gsap.fromTo(media, { yPercent: -6 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: "#showroom", start: "top bottom", end: "bottom top", scrub: true } });
+  new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting && !reduit) { if (!video.src) video.src = video.dataset.src; video.play().catch(() => {}); } else video.pause(); }), { rootMargin: "30% 0px" }).observe(media);
+
+  /* ——— paroles : rotation ——— */
+  const qs = [...document.querySelectorAll("#quotes p")], pts = [...document.querySelectorAll("#pts i")]; let qi = 0;
+  const tourner = () => { qi = (qi + 1) % qs.length; qs.forEach((q, k) => q.classList.toggle("actif", k === qi)); pts.forEach((p, k) => { p.classList.remove("actif"); void p.offsetWidth; if (k === qi) p.classList.add("actif"); }); };
+  if (!reduit) ScrollTrigger.create({ trigger: "#paroles", start: "top 70%", once: true, onEnter: () => setInterval(tourner, 7000) });
+
+  /* ——— navigation ancrée ——— */
+  document.querySelectorAll('a[href^="#"]').forEach((a) => a.addEventListener("click", (e) => { const id = a.getAttribute("href"); if (id.length < 2) { e.preventDefault(); return; } const cible = document.querySelector(id); if (!cible) return; e.preventDefault(); lenis ? lenis.scrollTo(cible, { offset: -72, duration: 1.4 }) : cible.scrollIntoView(); }));
+})();
+</script>
+</body>
+</html>

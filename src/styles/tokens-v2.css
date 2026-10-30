@@ -1,0 +1,54 @@
+/* MADAMOON — tokens v2 (direction artistique « Le Numéro »). À brancher dans globals.css après validation. */
+@theme {
+  --color-blanc: #ffffff;
+  --color-ivoire: #f6f2ec;
+  --color-noir: #161412;
+  --color-gris: #6b6661;
+  --color-gris-clair: #d9d4cd;
+  --color-rouge: #ce0a2c;
+  --color-grenat: #910000;
+  --color-voile: rgb(255 255 255 / 0.92);
+
+  --font-display: var(--police-fraunces), "Fraunces", Georgia, serif;
+  --font-texte: var(--police-jost), "Jost", "Futura", sans-serif;
+  --font-mono: var(--police-mono), "DM Mono", ui-monospace, monospace;
+
+  --text-affiche: clamp(3.5rem, 11vw, 13rem);
+  --text-affiche--line-height: 0.88;
+  --text-affiche--letter-spacing: -0.03em;
+  --text-chapitre: clamp(2.5rem, 7vw, 8rem);
+  --text-chapitre--line-height: 0.92;
+  --text-chapitre--letter-spacing: -0.02em;
+  --text-grand: clamp(1.75rem, 3.6vw, 3.5rem);
+  --text-grand--line-height: 1.05;
+  --text-citation: clamp(1.5rem, 3vw, 2.75rem);
+  --text-citation--line-height: 1.2;
+  --text-corps: clamp(1.0625rem, 1.1vw, 1.1875rem);
+  --text-corps--line-height: 1.6;
+  --text-ui: 0.75rem;
+  --text-ui--letter-spacing: 0.14em;
+  --text-mono: 0.6875rem;
+  --text-mono--letter-spacing: 0.08em;
+
+  --spacing-gouttiere: clamp(1.25rem, 3.4vw, 4rem);
+  --spacing-chapitre: clamp(7rem, 14vw, 14rem);
+  --spacing-entete: 4.5rem;
+  --container-site: 110rem;
+  --container-mesure: 60ch;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.76, 0, 0.24, 1);
+  --d-court: 300ms;
+  --d-moyen: 900ms;
+  --d-long: 1300ms;
+  --d-voile: 700ms;
+  --decalage-mot: 60ms;
+  --contre-echelle: 1.06;
+
+  --radius-aucun: 0px;
+  --trait: 2px solid var(--color-rouge);
+  --filet: 1px solid var(--color-gris-clair);
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --d-court: 0ms; --d-moyen: 0ms; --d-long: 0ms; --d-voile: 0ms; --decalage-mot: 0ms; --contre-echelle: 1; }
+}

@@ -1,173 +1,128 @@
-# Direction artistique — MADAMOON V8
+# Direction artistique v2 — MADAMOON
 
-## Le concept : « Le blanc n'est pas une absence »
+*Remplace entièrement la v1 (archivée dans `archive-da-v1/`). Rien de la
+mise en scène du site actuel n'est conservé.*
 
-Une robe de mariée se regarde dans la lumière. Le site est une **pièce
-blanche** : porcelaine, ivoire, lin, un grain de papier à peine perceptible,
-et dedans, une seule chose qui compte : la robe. Le texte est posé comme un
-titre de magazine de mode, grand, en Bodoni, avec un mot en italique qui
-respire ; tout le reste est petit, précis, en sans-serif. Rien n'est encadré.
-Les images arrivent comme un rideau qu'on ouvre, les titres montent comme une
-ligne qu'on lit, et l'on peut s'arrêter n'importe où : le défilement n'est
-jamais pris en otage.
+## Le concept : « Le Numéro »
 
-Ce que cela donne en une phrase : **la rencontre d'un magazine de mode
-imprimé sur beau papier et d'une cabine d'essayage très lumineuse.**
+MADAMOON ne se présente plus comme une boutique qui montre ses robes, mais
+comme **une publication** : un numéro de campagne, édité à Paris, dont chaque
+page d'accueil est la couverture et chaque section un chapitre numéroté.
+Le blanc du papier est le fond ; la typographie est le décor ; la photographie
+est la seule couleur ; le rouge MADAMOON est l'encre du titre, de la
+signature et de l'action.
 
-## Ce que le site refuse
+Ce que cela produit : une expérience qui se lit comme un magazine de mode et
+se manipule comme une interface contemporaine — grandes compositions
+typographiques, images qui débordent des colonnes, chapitres qui défilent
+horizontalement, chiffres et métadonnées en monospace, curseur qui réagit,
+compteur à l'ouverture, texte en contour, superpositions titre/photo. Et
+toujours : une robe, une mariée, une heure pour elle. La douceur est dans
+les photographies, les italiques et les courbes de la Fraunces ; la précision
+est dans la grille, le mono et le rouge.
 
-Reprises des anti-références de la maison (v7) et du cahier des charges V8 :
-pas de cartes ni de bordures, pas de sections empilées comme des blocs, pas de
-grille de trois colonnes identiques, pas de catalogue à vignettes alignées,
-pas de fond noir dominant, pas de mode sombre, pas d'animation gadget, pas de
-boutons-pilules ni de verre dépoli, pas d'icônes de bibliothèque, pas de
-carrousel d'avis à étoiles, pas de « Découvrez notre collection ».
+## Trois registres, une seule voix
 
-Les archétypes « bento », « glass » et « double bezel » des skills de design
-disponibles ont été examinés et **écartés** : ils signent le SaaS, pas la
-mode. Nous en gardons seulement les principes de rythme (espaces doublés,
-révélations au scroll avec masse, courbes personnalisées, mobile en colonne).
+| Registre | Ce qu'il apporte | Où |
+|---|---|---|
+| **Éditorial mode** | titres immenses, italiques, lettrines, colonnes, numéros de chapitre, légendes dans la marge | titres, édito, fiches |
+| **Luxe digital** | blanc absolu, espaces doubles, photographie plein cadre, transitions cinématiques, rien d'inutile | hero, showroom, transitions |
+| **Web nouvelle génération** | monospace, compteur, curseur personnalisé, texte en contour, trait rouge qui se dessine, défilement horizontal épinglé, parallaxe en profondeur | métadonnées, navigation, interactions |
 
 ## Palette
 
 | Rôle | Nom | Valeur | Emploi |
 |---|---|---|---|
-| Fond principal | Porcelaine | `#FBF9F5` | la page |
-| Fond secondaire | Ivoire | `#F3EEE5` | changements de rythme, bandeaux éditoriaux |
-| Fond appuyé | Lin | `#E8E0D3` | filets, surfaces de repos, légendes sur image claire |
-| Matière | Sable | `#CBBBA3` | une seule présence par écran : filet, numéro de section, trait sous un mot |
-| Texte | Encre | `#1A1714` | titres, corps |
-| Texte secondaire | Graphite | `#554E47` | légendes, méta, navigation |
-| Texte tertiaire | Brume | `#948B80` | mentions, numéros |
-| Action (marque) | Grenat MADAMOON | `#910000` | boutons rendez-vous, liens actifs, soulignés : jamais une surface |
-| Ponctuation (marque) | Rouge MADAMOON | `#CE0A2C` | une seule occurrence par page, en point final (le bandeau rendez-vous) |
+| Fond | Blanc | `#FFFFFF` | la page, dominant |
+| Variation | Ivoire | `#F6F2EC` | un chapitre sur quatre, jamais deux de suite |
+| Texte | Noir doux | `#161412` | titres, corps |
+| Texte second | Gris | `#6B6661` | méta, légendes |
+| Filet | Gris clair | `#D9D4CD` | traits de 1 px |
+| **Accent** | **Rouge MADAMOON** | **`#CE0A2C`** | boutons, curseur, trait signature, numéros, un mot par titre, états de survol |
+| Accent pressé | Grenat | `#910000` | bouton actif / survol |
 
-Contrastes vérifiés : Encre sur Porcelaine 16,4:1 ; Graphite sur Porcelaine
-8,3:1 ; Brume sur Porcelaine 3,5:1 (réservé aux textes ≥ 18 px ou décoratifs) ;
-Grenat sur Porcelaine 9,6:1 ; blanc sur Grenat 9,3:1.
+Le rouge est partout en petites quantités (un trait, un point, un mot, un
+bouton) et nulle part en grande surface. Contrastes : Noir sur Blanc 17:1,
+Gris sur Blanc 5,4:1, Blanc sur Rouge 5,9:1 (AA sur tous les corps).
 
-Un **grain** de papier (bruit SVG, opacité 3 %) est posé en calque fixe,
-désactivé sous `prefers-reduced-motion` et sur les écrans à faible
-performance (`navigator.deviceMemory < 4`).
+## Typographie : trois familles, trois rôles
 
-## Typographie
+| Famille | Rôle | Réglage | Pourquoi elle |
+|---|---|---|---|
+| **Fraunces** (variable : opsz, SOFT, WONK, italique) | affiche, titres, noms de robes, citations | `opsz` 144, `SOFT` 60, graisse 300-400, italique pour le mot qui compte | une serif à l'ancienne mais vivante : les empattements souples, le « a » italique, les courbes douces disent le mariage sans tomber dans le Bodoni de couverture que tout le monde utilise |
+| **Jost** | corps, navigation, boutons | 300 pour le corps long, 400 courant, 500 boutons et capitales espacées | une géométrique parisienne des années 1920 : la mode, Vogue, les enseignes — nette, élégante, jamais technique |
+| **DM Mono** | numéros de chapitre, index, horaires, adresse, métadonnées, compteur | 400, capitales, approche 0,08 em | la couche « nouvelle génération » : la précision d'une fiche technique, et le contrepoint de la Fraunces |
 
-- **Bodoni Moda** (variable, axe optique 6-96) pour l'affiche, les titres,
-  les noms de robes et les phrases éditoriales. Haut contraste, empattements
-  fins : le dessin des grands magazines de mode. L'**italique** marque le mot
-  qui respire dans une ligne (« La robe, *avant tout*. »). Jamais en capitales
-  au-delà de 24 px : les capitales Bodoni crient.
-- **Instrument Sans** pour le corps, la navigation, les légendes et les
-  petites capitales espacées. Même dessinateur que l'Instrument Serif du site
-  actuel : la continuité est dans la main, pas dans la copie.
-- Deux familles, pas trois. Pas d'anglaise, pas de manuscrite.
+Échelle : affiche `clamp(3.5rem, 11vw, 13rem)` interligne 0,88 ; titre de
+chapitre `clamp(2.5rem, 7vw, 8rem)` ; sous-titre `clamp(1.5rem, 3vw, 2.75rem)` ;
+corps 17-19 px interligne 1,6 ; mono 11-12 px.
 
-Échelle fluide (voir `DESIGN-SYSTEM.md`) : affiche jusqu'à 10,5 rem sur grand
-écran, 3 rem sur mobile ; corps 1 à 1,125 rem, interligne 1,65 ; mesure de
-lecture 58 à 64 caractères.
+## Les signes graphiques (l'identité, au-delà des couleurs)
 
-## Image
-
-- Photographies de la maison uniquement, en AVIF/WebP, ratios 3:4 (robe en
-  pied), 4:5 (détail), 16:9 et 21:9 (showroom, films). Toujours des
-  dimensions explicites, jamais de recadrage automatique sur un visage.
-- Les images **ne sont jamais encadrées** : elles touchent la gouttière ou
-  débordent du cadre de texte d'une à deux colonnes (asymétrie).
-- Une image arrive par **rideau** : masque qui s'ouvre (clip-path) pendant
-  que l'image se pose en contre-échelle (1,08 → 1). Une seule image par
-  écran en mouvement à la fois.
-- Films muets, boucles de 6 à 12 s, affiche en AVIF, chargés à l'approche,
-  jamais sous `prefers-reduced-motion` ni `Save-Data`.
-- Légendes en petites capitales Brume, posées dans la marge, pas sous l'image.
+1. **Le trait rouge** : une ligne de 2 px qui se dessine de gauche à droite à
+   l'ouverture de chaque chapitre, et qui sert de progression (défilé,
+   paroles, chargement).
+2. **Le numéro** : chaque chapitre porte son numéro en mono rouge
+   (« N° 03 — Les coupes »), et chaque robe son index (« 02 / 07 »).
+3. **Le mot rouge** : un seul mot par titre, en Fraunces italique rouge.
+4. **Le contour** : les mots-objets (lettres de morphologie, mot-clé en fond)
+   sont dessinés au trait ; l'actif se remplit de rouge.
+5. **Le curseur** : un point rouge qui devient un cercle « Voir » sur les
+   photographies, un trait sur les liens (souris seulement).
+6. **Le compteur** : 00 → 100 en mono à l'ouverture, 1,2 s, une fois par
+   visite.
+7. **La superposition** : le titre traverse la photographie, en inversion
+   (différence) là où il la recouvre.
 
 ## Mise en page
 
-- Grille de 12 colonnes fluide, largeur maximale 1 680 px, gouttière
-  `clamp(1.25rem, 4vw, 4.5rem)`.
-- **Asymétrie réglée** : texte sur 5 colonnes, image sur 6 ou 7, décalage
-  d'une colonne entre deux sections consécutives ; un élément par section
-  sort du cadre.
-- **Rythme** : les sections alternent plein-écran image, pleine largeur
-  typographique, composition éditoriale en deux colonnes, et respiration
-  vide. Deux sections consécutives n'ont jamais la même disposition.
-- Espacement vertical des sections `clamp(6rem, 12vw, 11rem)`.
-- Aucun rayon de courbure : angles vifs partout (boutons, images, champs).
-  Les filets font 1 px en Lin, jamais en gris neutre, jamais autour d'un bloc.
-- En-tête : barre fine fixe (logo à gauche, menu au centre, rendez-vous à
-  droite), transparente sur l'affiche puis Porcelaine au défilement, 64 px.
-  Pas de pilule flottante.
+- Grille 12 colonnes, gouttière `clamp(1.25rem, 3.4vw, 4rem)`, largeur
+  maximale 1 760 px ; les photographies débordent toujours d'une colonne ou
+  touchent le bord de l'écran ; les titres chevauchent les images.
+- Chaque chapitre a **une disposition qui n'existe nulle part ailleurs sur la
+  page** : masthead, bande horizontale, index typographique avec image
+  flottante, lettres en contour, plein cadre vidéo, pile d'images collante,
+  citation géante, double page de magazine, dernier mot.
+- Angles vifs. Aucun cadre, aucune ombre, aucun fond de carte. La profondeur
+  vient des superpositions et des vitesses de parallaxe différentes.
+- Espacement vertical des chapitres `clamp(7rem, 14vw, 14rem)`.
 
-## Grammaire du mouvement
+## Mouvement
 
-Quatre signatures, chacune avec un rôle. Rien d'autre.
+| Moment | Ce qui se passe |
+|---|---|
+| Ouverture | blanc, compteur mono, trait rouge qui traverse l'écran, voile qui remonte ; le titre monte ligne par ligne, la photographie se dévoile par un masque horizontal, le curseur apparaît |
+| Hero → chapitre 01 | au défilement, la photographie s'élargit jusqu'au bord de l'écran et passe sous le texte (épinglage court, vitesse scrub) |
+| Titres | révélation mot à mot (SplitText), 60 ms de décalage, courbe expo |
+| Images | masque qui s'ouvre (clip-path) + contre-échelle 1,06 → 1 ; dérive verticale de 4-8 % selon le plan (profondeur) |
+| Défilé | chapitre épinglé, bande horizontale pilotée par le défilement, trait rouge de progression, légendes qui glissent |
+| Index des coupes | l'image flottante suit légèrement le curseur et change selon la ligne survolée |
+| Lettres | le contour se remplit de rouge ; cycle automatique lent quand personne ne touche |
+| Bandeau défilant | Fraunces italique, vitesse et sens liés au défilement |
+| Boutons | fond rouge, au survol une vague grenat monte du bas, la flèche avance de 4 px ; pressé : échelle 0,98 |
+| Liens | trait rouge dessiné de gauche à droite |
+| Changement de page | voile blanc + trait rouge, 600 ms |
 
-| Signature | Rôle | Mécanique | Durée |
+Tout est coupé sous `prefers-reduced-motion` et dans un onglet caché ; le
+contenu est alors posé, visible, sans états intermédiaires. Mobile : pas de
+curseur, pas d'épinglage horizontal (bande en défilement natif), masques et
+mots conservés, durées raccourcies de 30 %.
+
+## La page d'accueil : neuf chapitres
+
+| N° | Chapitre | Disposition | Rôle |
 |---|---|---|---|
-| **Rideau** | arrivée d'une photographie | `clip-path: inset(0 0 100% 0)` → `inset(0)`, image en contre-échelle 1,08 → 1 | 1,2 s, `cubic-bezier(0.16, 1, 0.3, 1)` |
-| **Ligne** | arrivée d'un titre | SplitText par ligne, chaque ligne monte de 110 % derrière un masque, décalage 90 ms | 0,9 s |
-| **Dérive** | profondeur au défilement | translation verticale ±6 % de la hauteur de l'image, ScrollTrigger scrub | continue |
-| **Passage** | changement de page | voile Ivoire qui balaie de bas en haut, logo au centre 300 ms, View Transitions quand disponible | 0,7 s |
+| — | Ouverture | compteur, trait rouge, voile | première impression |
+| 01 | Couverture | masthead : eyebrow mono, titre immense « Celle qui vous *attendait*. », photographie portrait à droite traversée par le titre, bouton rouge, horaires mono, repère de défilement | campagne |
+| 02 | Manifeste | trois lignes géantes, mot à mot ; bandeau défilant des coupes | qui est MADAMOON |
+| 03 | Le défilé | bande horizontale épinglée, sept robes de hauteurs différentes, noms italiques à cheval sur l'image, index mono, trait de progression | les robes |
+| 04 | Les coupes | index typographique (cinq coupes en 7vw), image flottante qui change, numéros rouges | entrer par la coupe |
+| 05 | Les morphologies | six lettres en contour, la lettre active en rouge, conseil en une phrase | entrer par la morphologie |
+| 06 | Le showroom | vidéo plein cadre, titre blanc qui déborde, adresse mono, bouton | conversion |
+| 07 | Les maisons | liste à gauche, pile d'images collante à droite | entrer par la maison |
+| 08 | Paroles | une citation géante à la fois, guillemet rouge, rotation lente | réassurance réelle |
+| 09 | L'édito | double page : lettrine rouge, deux colonnes, citation tirée, petite image | texte SEO comme une page de magazine |
+| — | Le dernier mot | « Réserver un *essayage* » immense, bouton, logo en masthead de fin, pied mono | conversion |
 
-Au chargement de l'accueil : fond Porcelaine, logo qui apparaît en Ligne,
-puis Rideau sur l'affiche, puis Ligne sur le titre (deux lignes) et la
-mention de lieu. Total 2,2 s, interruptible par le défilement.
-
-Le corps de texte ne s'anime pas. Les paragraphes éditoriaux longs se
-révèlent par un simple fondu monté de 24 px au premier passage. Les
-interactions (survol de lien) : soulignement qui se dessine de gauche à
-droite, 300 ms ; images de liste qui s'échangent par fondu croisé.
-
-Tout se coupe sous `prefers-reduced-motion : reduce` : les éléments sont
-visibles immédiatement, les films remplacés par leur affiche.
-
-## Storyboard de l'accueil
-
-1. **L'affiche.** Plein écran, photographie ou film du showroom, en-tête
-   transparent. Titre sur deux lignes : « Robes de mariée à Paris, / en
-   essayage *privé*. » Mention : « 234 rue du Faubourg Saint-Martin — 10ᵉ ».
-   Un seul lien : « Prendre rendez-vous ».
-2. **Le manifeste.** Fond Ivoire, trois lignes Bodoni très grandes qui
-   montent une à une : ce que MADAMOON est (une boutique, plusieurs maisons,
-   une heure pour vous). Une petite photographie de détail décalée à droite,
-   qui dérive.
-3. **Trois portes.** Pas trois cartes : une séquence éditoriale numérotée
-   01 / 02 / 03 (par la coupe, par la morphologie, par la maison), chaque
-   porte occupe toute la largeur avec son image qui change au survol et un
-   mot en italique.
-4. **Le défilé.** Huit robes en bande horizontale épinglée au défilement
-   (desktop) ; colonne verticale à rythme alterné sur mobile. Noms en Bodoni
-   italique, maison en petites capitales, pas de prix.
-5. **La morphologie.** Les six lettres O A V H 8 X composées très grandes en
-   Bodoni, chacune révélant au survol la coupe qu'elle appelle : le texte
-   SEO morphologie est ici, intégré à la composition.
-6. **Les maisons.** Liste typographique des quatre maisons avec leur
-   origine ; une image change à droite au survol de chaque nom.
-7. **Le showroom.** Film 21:9 en rideau, adresse, horaires, « une heure, rien
-   que pour vous ». Lien plan.
-8. **Paroles.** Deux ou trois avis réels de la maison, en Bodoni, signés d'un
-   prénom ; pas d'étoiles, pas de carrousel. (Les avis à publier sont fournis
-   par MADAMOON ; aucun n'est inventé.)
-9. **L'édito.** « Choisir sa robe de mariée à Paris » : 350 à 450 mots en
-   deux colonnes, une citation tirée en Bodoni, liens vers coupes, styles,
-   prix, morphologies. Le texte SEO est une page de magazine, pas un bloc.
-10. **Le point final.** Bandeau Rouge MADAMOON, la seule grande surface de
-    couleur du site : « Poussez la porte. » + rendez-vous + téléphone.
-11. **Pied** minimal.
-
-## Storyboard de la fiche robe
-
-Hero en deux colonnes inégales : photographie 3:4 à gauche (7 colonnes),
-texte collant à droite (4 colonnes) : nom en Bodoni, maison, coupe, matière,
-dos, traîne, « à partir de » si la maison l'autorise, bouton rendez-vous.
-Puis la galerie en colonne, chaque vue en rideau, légendes dans la marge.
-« Les détails » : liste typographique révélée ligne par ligne. « Dans la même
-coupe » et « De la même maison » : deux bandes de trois robes. Fil d'Ariane
-en haut, bandeau rendez-vous en bas, Product + Offer + BreadcrumbList.
-
-## Mobile
-
-Une colonne, gouttière 20 px, titres ≥ 2,75 rem, images pleine largeur qui
-gardent le rideau (plus court : 0,9 s), bande des robes en défilement
-horizontal natif avec accroche, numéro de téléphone cliquable dans le menu et
-dans le bandeau final, bouton rendez-vous fixe en bas d'écran sur les fiches
-(apparaît après le premier écran, disparaît au pied).
+La proposition visuelle animée est `docs/da/accueil-v2.html` (servie sur
+http://localhost:5901/accueil-v2).
