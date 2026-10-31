@@ -1310,84 +1310,6 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     },
 
     /* ——————————————————————————————————————— la bohème ————— */
-    {
-      /* La page de la fluide qui vise « robe de mariée bohème » : son
-       * adresse et son titre portent l'expression, la question reste
-       * celle de la rangée. Mise en page de style (PageStyle).
-       * Mots-clés et volumes : docs/seo/. */
-      slug: "robe-de-mariee-boheme-paris",
-      titre: "Robe de mariée bohème à Paris",
-      q: "Une robe fluide convient-elle à un mariage bohème ?",
-      r: "Oui, c'est même la coupe la plus naturelle pour un mariage bohème. Une jupe en mousseline, de la dentelle florale, des manches légères : Hélène est pensée, d'après sa fiche, pour la mariée « qui préfère dire OUI dans un look bohème chic ».",
-      description:
-        "Robe de mariée bohème à Paris : mousseline, dentelle florale, manches légères. Hélène, Murielle, Ryle, et Tessa pour une touche vintage, au showroom MADAMOON.",
-      chapo:
-        "Une robe de mariée bohème se reconnaît à ce qu'elle laisse respirer : une jupe en mousseline qui bouge, de la dentelle florale, des manches légères ou transparentes. C'est la coupe fluide qui porte le mieux cet esprit, et chez MADAMOON, elle s'essaie dans notre showroom du 10ᵉ, à Paris.",
-      style: {
-        voirLaCoupe: "Voir les robes fluides",
-        robes: {
-          titre: "Nos robes bohèmes",
-          liste: [
-            {
-              slug: "helene",
-              texte:
-                "Un corset en dentelle ornée de petites perles et de fleurs en relief, une jupe en mousseline délicate et légère : un look bohème chic.",
-            },
-            {
-              slug: "murielle",
-              texte: "Dentelle florale et mousseline, décolleté en V, manches illusion et fente haute.",
-            },
-            { slug: "ryle", texte: "Des manches ballon et un décolleté en V profond, en charmeuse." },
-          ],
-        },
-        colonnes: [
-          {
-            titre: "Ce qui fait le bohème",
-            texte:
-              "Le bohème aime ce qui bouge et ce qui respire : la dentelle florale, les manches légères ou transparentes, une traîne courte ou absente, une coiffure souple. La robe doit pouvoir marcher dans l'herbe et danser pieds nus.",
-          },
-          {
-            titre: "Bohème, mais pas négligé",
-            texte:
-              "Une fluide bohème reste une robe de mariée : un corsage travaillé, comme celui d'Hélène, lui donne sa tenue et son éclat. Le bohème est un style, pas une absence de finition.",
-          },
-        ],
-        echo: {
-          titre: "Une touche vintage",
-          texte:
-            "Pour un bohème aux accents vintage, Tessa, de Casablanca Bridal, a d'après sa fiche un « charme vintage-chic » : une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles. Elle est rangée avec les deux-en-un, et s'essaie volontiers à côté des robes bohèmes.",
-          robe: "tessa",
-          voir: "Voir Tessa",
-        },
-        pourQui: {
-          titre: "À qui elle va",
-          texte:
-            "La fluide est conseillée en premier aux morphologies en O, en V, en H, en 8 et en X, et vaut l'essai pour une morphologie en A. Hélène et Murielle sont indiquées, sur leurs fiches, pour les six morphologies ; Ryle pour toutes, sauf la morphologie en O.",
-          toutes: "Toutes les morphologies",
-        },
-        questions: {
-          titre: "Les questions",
-          liste: [
-            {
-              q: "Une robe fluide convient-elle à un mariage bohème ?",
-              r: "Oui, c'est même la coupe la plus naturelle pour un mariage bohème. Une jupe en mousseline, de la dentelle florale, des manches légères : Hélène est pensée, d'après sa fiche, pour la mariée « qui préfère dire OUI dans un look bohème chic ».",
-            },
-            {
-              q: "Où essayer une robe de mariée bohème à Paris ?",
-              r: `Au showroom MADAMOON, ${MAISON.adresse}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer plusieurs fluides et de comparer les matières.`,
-            },
-          ],
-          toutes: "Toutes les questions sur la fluide",
-        },
-        fin: {
-          titre: "Essayer une robe bohème en showroom",
-          texte: `${MAISON.adresse}, Paris 10ᵉ, sur rendez-vous.`,
-        },
-      },
-      sections: [],
-      aRetenir: [],
-      liens: [],
-    },
 
     /* ——————————————————————————————————————— l'été ————— */
     {
@@ -2745,3 +2667,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     },
   ],
 };
+
+/* Les questions ajoutées pour le référencement viennent après celles de
+ * la maison, à la fin de chaque liste : les pages anglaises se repèrent
+ * par le rang, et ne les ont pas. */
+import { QUESTIONS_COUPES_SEO } from "@/lib/coupes-questions-seo";
+for (const [ancre, liste] of Object.entries(QUESTIONS_COUPES_SEO)) {
+  QUESTIONS_COUPES[ancre] = [...(QUESTIONS_COUPES[ancre] ?? []), ...liste];
+}

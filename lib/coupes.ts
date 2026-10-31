@@ -58,7 +58,7 @@ export const COUPES: Coupe[] = [
     vue: 1,
     intro:
       "La robe de mariée fluide suit le mouvement plutôt que de le contraindre : mousseline, charmeuse, satin mat. C'est la coupe la plus naturelle pour un mariage bohème, et elle se porte tout aussi bien en satin pour une cérémonie plus classique. De l'élégance minimaliste d'Adularia au look bohème chic d'Hélène, en passant par le satin mat de Dove, chaque modèle en montre une facette.",
-    introLien: { href: "/coupes/fluide/robe-de-mariee-boheme-paris", label: "Robe de mariée bohème à Paris" },
+    introLien: { href: "/styles/boheme", label: "Robe de mariée bohème à Paris" },
   },
   {
     nom: "Trapèze",

@@ -4,6 +4,7 @@ import PageQuestionCoupe from "@/components/pages/PageQuestionCoupe";
 import { COUPES } from "@/lib/coupes";
 import { COUPES_EN } from "@/lib/langue";
 import { QUESTIONS_COUPES } from "@/lib/coupes-questions";
+import { QUESTIONS_COUPES_EN } from "@/lib/en/coupes-questions";
 import { partage } from "@/lib/meta";
 
 /* Une page par question de coupe, sous l'adresse de la coupe :
@@ -28,10 +29,13 @@ export async function generateMetadata({
   if (!x) return {};
   const fr = `/coupes/${coupe}/${question}/`;
   const en = `/en/silhouettes/${COUPES_EN[coupe] ?? coupe}/${question}/`;
+  /* Les questions ajoutées pour le référencement n'existent qu'en
+   * français : pas de « hreflang » vers une page anglaise absente. */
+  const enExiste = (QUESTIONS_COUPES_EN[coupe] ?? []).some((q) => q.slug === question);
   return {
     title: x.titre ?? x.q,
     description: x.description,
-    alternates: { canonical: fr, languages: { fr, en, "x-default": fr } },
+    alternates: { canonical: fr, languages: enExiste ? { fr, en, "x-default": fr } : { fr, "x-default": fr } },
     openGraph: partage(fr),
   };
 }

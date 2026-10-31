@@ -9,6 +9,9 @@ import { t } from "@/lib/textes";
 import { robeLigne } from "@/lib/contenu";
 import { couverture } from "@/lib/couverture";
 import FilDAriane from "@/components/FilDAriane";
+import Link from "@/components/Lien";
+import { COUPES } from "@/lib/coupes";
+import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 
 /*
  * Le catalogue.
@@ -57,6 +60,31 @@ export default function PageRobes({ langue }: { langue: Langue }) {
           lien={{ href: "/rendez-vous", label: L.raccourcis.prendreRendezvous }}
         />
       </div>
+
+      {/* L'introduction, en français : ce que le catalogue contient, dit
+        * avec les mots qu'une mariée tape — robe de mariée, les coupes, les
+        * styles et les matières — et les pages qui y mènent. Une seule
+        * phrase de plus, à la mesure du site ; rien n'est caché pour les
+        * moteurs. */}
+      {langue === "fr" && (
+        <div className="gouttiere pb-[clamp(2rem,4vw,3.5rem)]">
+          <p className="phrase est-moyenne mesure-l">
+            {ROBES.length} robes de mariée de plusieurs maisons — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti et quelques ateliers indépendants —, à essayer en showroom à Paris 10ᵉ et confectionnées à vos mesures. Toutes les coupes y sont : sirène, princesse, fluide, trapèze, deux-en-un ; et toutes les matières, de la dentelle de Chantilly au crêpe le plus simple.
+          </p>
+          <ul className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
+            {[
+              ...COUPES.map((c) => ({ href: `/coupes/${c.ancre}`, label: `Robes ${c.nom.toLowerCase()}` })),
+              ...PAGES_FAMILLES.map((p) => ({ href: adresseFamille(p), label: p.titre.replace(" à Paris", "") })),
+            ].map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="lien-nav souligne text-action">
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* Toutes les robes, d'un seul tenant. Le classement par coupe a sa
         * rubrique propre — les pages de coupe et l'onglet du menu — : ici,

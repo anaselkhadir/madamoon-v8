@@ -7,6 +7,8 @@ import { COUPES } from "@/lib/coupes";
 import { MORPHOLOGIES } from "@/lib/madamoon";
 import { coupeNom, faq, morphoNom, questionsCoupe, questionsMorpho } from "@/lib/contenu";
 import { SLUGS_QUESTIONS } from "@/lib/questions";
+import { GUIDES } from "@/lib/guides";
+import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 import { t } from "@/lib/textes";
 import type { Langue } from "@/lib/langue";
 
@@ -121,7 +123,30 @@ export default function PageGuides({ langue }: { langue: Langue }) {
     ...GROUPES.map((g) => ({ titre: F.groupes[g.cle], liens: versFaq(g.rangs) })),
   ];
 
+  /* Les guides et les pages de style, de matière et de détail : écrits en
+   * français pour l'instant, ils n'apparaissent que sur la page française. */
+  const guides: Groupe[] =
+    langue === "fr"
+      ? [
+          { titre: "Les guides", liens: GUIDES.map((g) => ({ href: `/guides/${g.slug}`, q: g.titre })) },
+          {
+            titre: "Styles, matières et détails",
+            liens: PAGES_FAMILLES.map((p) => ({ href: adresseFamille(p), q: p.titre })),
+          },
+        ]
+      : [];
+
   const themes = [
+    ...(guides.length
+      ? [
+          {
+            id: "guides",
+            titre: "Choisir sa robe",
+            texte: "Le prix, les styles, les matières et les détails : des pages qui répondent à ce que l'on cherche avant d'avoir choisi une coupe.",
+            groupes: guides,
+          },
+        ]
+      : []),
     { id: "coupes", titre: L.coupes, texte: L.coupesTexte, groupes: coupes },
     { id: "morphologies", titre: L.morphologies, texte: L.morphologiesTexte, groupes: morphologies },
     { id: "essayage", titre: L.essayage, texte: L.essayageTexte, groupes: essayage },

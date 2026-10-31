@@ -1,12 +1,11 @@
 import type { Langue } from "@/lib/langue";
+import { PAGES_FAMILLES, adresseFamille, robesDePage } from "@/lib/familles";
 
 /*
- * Les pages de style, et les robes qui y figurent.
- *
- * Un style n'est pas une coupe : il traverse le catalogue. Sa page vit
- * sous la coupe qui le porte le mieux — le bohème sous la fluide —, et
- * les fiches des robes qu'elle montre y renvoient. Une robe n'est
- * rangée ici que si la page la nomme.
+ * Les pages transversales qui nomment une robe, pour le lien depuis sa
+ * fiche. La liste n'est plus écrite ici : elle se lit dans
+ * « lib/familles.ts », où chaque page nomme ses robes. Une robe n'est
+ * rangée dans une page que si la page la montre.
  */
 
 export type Style = {
@@ -15,12 +14,16 @@ export type Style = {
   robes: string[];
 };
 
-export const STYLES: Style[] = [
-  {
-    href: "/coupes/fluide/robe-de-mariee-boheme-paris",
-    label: { fr: "Robe de mariée bohème à Paris", en: "Boho wedding dress in Paris" },
-    robes: ["helene", "murielle", "ryle", "tessa"],
-  },
-];
+const LABELS_EN: Record<string, string> = {
+  "/styles/boheme": "Boho wedding dress in Paris",
+  "/styles/minimaliste": "Simple, minimalist wedding dress in Paris",
+  "/matieres/dentelle": "Lace wedding dress in Paris",
+  "/details/manches-longues": "Long-sleeve wedding dress in Paris",
+};
+
+export const STYLES: Style[] = PAGES_FAMILLES.map((p) => {
+  const href = adresseFamille(p);
+  return { href, label: { fr: p.titre, en: LABELS_EN[href] ?? p.titre }, robes: robesDePage(p) };
+});
 
 export const stylesDe = (slug: string) => STYLES.filter((s) => s.robes.includes(slug));

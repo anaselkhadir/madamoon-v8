@@ -1242,77 +1242,6 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
     },
     {
       slug: fr("fluide", 4),
-      titre: "Boho wedding dress in Paris",
-      q: "Does a sheath dress suit a boho wedding?",
-      r: "Yes, it is even the most natural silhouette for a boho wedding. A chiffon skirt, floral lace, light sleeves: according to its page, Hélène is designed for the bride \"who prefers to say YES in a boho-chic look\".",
-      description:
-        "Boho wedding dress in Paris: chiffon, floral lace, light sleeves. Hélène, Murielle, Ryle, and Tessa for a vintage touch, at the MADAMOON showroom.",
-      chapo:
-        "A boho wedding dress is recognised by what it lets breathe: a chiffon skirt that moves, floral lace, light or sheer sleeves. The sheath is the silhouette that carries this spirit best, and at MADAMOON you try it on in our showroom in Paris's 10th arrondissement.",
-      style: {
-        voirLaCoupe: "See the sheath dresses",
-        robes: {
-          titre: "Our boho dresses",
-          liste: [
-            {
-              slug: "helene",
-              texte:
-                "A lace corset adorned with tiny beads and raised flowers, a delicate and light chiffon skirt: a boho-chic look.",
-            },
-            { slug: "murielle", texte: "Floral lace and chiffon, a V neckline, illusion sleeves and a high slit." },
-            { slug: "ryle", texte: "Balloon sleeves and a deep V neckline, in charmeuse." },
-          ],
-        },
-        colonnes: [
-          {
-            titre: "What makes it boho",
-            texte:
-              "Boho loves what moves and what breathes: floral lace, light or sheer sleeves, a short train or none, a soft hairstyle. The dress should be able to walk on grass and dance barefoot.",
-          },
-          {
-            titre: "Boho, but not casual",
-            texte:
-              "A boho sheath is still a wedding dress: a crafted bodice, like Hélène's, gives it its hold and its radiance. Boho is a style, not an absence of finish.",
-          },
-        ],
-        echo: {
-          titre: "A vintage touch",
-          texte:
-            "For boho with a vintage accent, Tessa, by Casablanca Bridal, has according to its page a \"vintage-chic charm\": a mermaid with a structured corset, a detachable overskirt and removable straps. It is filed with the two-in-one dresses, and is well worth trying next to the boho dresses.",
-          robe: "tessa",
-          voir: "See Tessa",
-        },
-        pourQui: {
-          titre: "Who it suits",
-          texte:
-            "The sheath is recommended first for the O, V, H, 8 and X body shapes, and is worth trying for an A. Hélène and Murielle are listed, on their pages, for all six body shapes; Ryle for all but the O.",
-          toutes: "All body shapes",
-        },
-        questions: {
-          titre: "Questions",
-          liste: [
-            {
-              q: "Does a sheath dress suit a boho wedding?",
-              r: "Yes, it is even the most natural silhouette for a boho wedding. A chiffon skirt, floral lace, light sleeves: according to its page, Hélène is designed for the bride \"who prefers to say YES in a boho-chic look\".",
-            },
-            {
-              q: "Where to try on a boho wedding dress in Paris?",
-              r: `At the MADAMOON showroom, ${MAISON.adresse}, in the 10th arrondissement, by appointment. The showroom is reserved for you for an hour: time to try several sheath dresses and compare the fabrics.`,
-            },
-          ],
-          toutes: "All questions on the sheath",
-        },
-        fin: {
-          titre: "Try on a boho dress in the showroom",
-          texte: `${MAISON.adresse}, Paris 10th, by appointment.`,
-        },
-      },
-      sections: [],
-      aRetenir: [],
-      liens: [],
-    },
-    {
-      slug: fr("fluide", 5),
       q: "Is a sheath dress suitable for a summer wedding?",
       r: "Yes, it is one of the most pleasant to wear in the heat. A light fabric such as chiffon lets you breathe, and bare shoulders, an open back or a slit lighten the dress further. Simply plan to cover your shoulders for the ceremony if the venue asks for it.",
       description:
@@ -1355,7 +1284,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 6),
+      slug: fr("fluide", 5),
       q: "How do you choose a sheath dress that holds its shape beautifully?",
       r: "By looking at three things: a fabric with weight, such as matte satin or charmeuse; a bodice that holds, sometimes built as a corset; and a precise fit. A well-chosen sheath falls straight, without floating or clinging.",
       description:
@@ -1394,7 +1323,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 7),
+      slug: fr("fluide", 6),
       q: "Can a sheath dress be elegant for a formal wedding?",
       r: "Yes. In matte satin or charmeuse, with a train and a clean line, the sheath has all the formality of a grand ceremony. Dove, with its open back and buttons running to the end of the train, is the example.",
       description:
@@ -1436,7 +1365,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 8),
+      slug: fr("fluide", 7),
       q: "What shoes should you wear with a sheath dress?",
       r: "Shoes you can stand in all day, chosen before the alterations: the length of the dress is set to them. With a slit, they show and deserve careful choice; for an outdoor wedding, prefer a block heel or flat sandals.",
       description:
@@ -1478,7 +1407,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 9),
+      slug: fr("fluide", 8),
       q: "Which veil or accessory goes with a sheath dress?",
       r: "A light veil, in soft tulle, that moves with the dress; a jewelled belt to mark the waist; a hair piece or earrings. A sheath is pared back: one well-chosen accessory is enough to sign it.",
       description:
@@ -1517,7 +1446,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 10),
+      slug: fr("fluide", 9),
       q: "Does a sheath dress suit petite brides?",
       r: "Yes, very well: with no volume to widen it, the sheath lengthens the line. A V neckline, a slightly high waist and a length set to your shoes heighten the effect. Just avoid excess fabric, which can overwhelm.",
       description:
@@ -1559,7 +1488,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       ],
     },
     {
-      slug: fr("fluide", 11),
+      slug: fr("fluide", 10),
       q: "How do you choose a sheath dress for your body shape?",
       r: "By choosing the details rather than the silhouette: the neckline, the waist and the sleeves. A V for an O or V body shape, a defined waist for an H or 8, a crafted bodice for an A. The sheath does the rest.",
       description:

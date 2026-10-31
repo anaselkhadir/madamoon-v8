@@ -105,8 +105,8 @@ informationnelles de leur cluster mère, listées dans
 
 | Vague | Pages | Pourquoi |
 |---|---|---|
-| **A** | `/styles/boheme/` (migration de la page v7 + enrichissement), `/styles/minimaliste/`, `/matieres/dentelle/`, `/details/manches-longues/`, `/guides/prix-robe-de-mariee-paris/` | les cinq plus gros clusters sans page, tous à faible difficulté |
-| **B** | accueil (H1, intro, édito, liens), `/robes/`, les 5 pages de coupe (questions ajoutées), fiches robes (H1, liens, alt) | protéger et renforcer les positions existantes |
+| **A — faite le 31/10/2026** | `/styles/boheme/` (migration de la page v7 + enrichissement), `/styles/minimaliste/`, `/matieres/dentelle/`, `/details/manches-longues/`, `/guides/prix-robe-de-mariee-paris/` | les cinq plus gros clusters sans page, tous à faible difficulté |
+| **B — faite le 31/10/2026** | accueil (H1 sémantique, édito « Choisir sa robe de mariée à Paris », liens), `/robes/` (introduction et liens), les 5 pages de coupe (10 questions ajoutées : sirène dentelle, fourreau, dos nu/bustier, princesse dentelle, volumineuse, mousseline, trapèze chic, surjupe), fiches robes (H1 « Robe de mariée Prénom », liens vers les pages de style) | protéger et renforcer les positions existantes |
 | **C** | `/matieres/satin/`, `/details/bustier/`, `/details/dos-nu/`, `/morphologies/grande-taille/`, guides délais / essayage / choisir / tissus / enceinte / vintage / ivoire-ou-blanc, hub créateurs et pages maisons enrichies | compléter la couverture |
 | **D** | contact, légal, cookies ; sitemap et redirections ; JSON-LD de toutes les nouvelles familles ; versions anglaises des pages qui le justifient | SEO technique et conformité |
 | **E (sous réserve de la maison)** | `/coupes/courte/`, `/styles/mariage-civil/`, `/guides/acheter-ou-louer…`, `/guides/robe-de-mariee-couleur/`, `/styles/romantique/` | attendent une réponse (stock, location, tailles) ou le complément Semrush |

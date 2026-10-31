@@ -8,8 +8,11 @@ import { COUPES } from "@/lib/coupes";
 import { SLUGS_QUESTIONS } from "@/lib/questions";
 import { QUESTIONS_MORPHO } from "@/lib/morphologies-questions";
 import { QUESTIONS_COUPES } from "@/lib/coupes-questions";
+import { QUESTIONS_COUPES_EN } from "@/lib/en/coupes-questions";
 import { versLangue } from "@/lib/langue";
 import { execFileSync } from "node:child_process";
+import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
+import { GUIDES } from "@/lib/guides";
 
 /*
  * Le plan du site, dans les deux langues.
@@ -88,7 +91,11 @@ const SOURCES: [string, string][] = [
   ["/coupes", "lib/coupes.ts"],
   ["/morphologies", "lib/morphologies.ts"],
   /* Le sommaire des guides change quand une question s'ajoute. */
+  ["/guides/", "lib/guides.ts"],
   ["/guides", "lib/coupes-questions.ts"],
+  ["/styles", "lib/familles.ts"],
+  ["/matieres", "lib/familles.ts"],
+  ["/details", "lib/familles.ts"],
 ];
 
 function dateDe(adresseFr: string): Date | undefined {
@@ -130,13 +137,30 @@ function entree(adresseFr: string, priority: number) {
   ];
 }
 
+/* Une page qui n'existe qu'en français : une seule entrée, sans
+ * « hreflang » vers un anglais qui n'est pas écrit. */
+function entreeFr(adresseFr: string, priority: number) {
+  return {
+    url: `${SITE_URL}${adresseFr}/`,
+    lastModified: dateDe(adresseFr),
+    changeFrequency: "monthly" as const,
+    priority,
+  };
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
+    ...PAGES_FAMILLES.map((p) => entreeFr(adresseFamille(p), 0.8)),
+    ...GUIDES.map((g) => entreeFr(`/guides/${g.slug}`, 0.7)),
     ...PAGES.flatMap((p) => entree(p, p === "" ? 1 : 0.8)),
     ...CREATEURS.flatMap((c) => entree(`/createurs/${c.slug}`, 0.7)),
     ...COUPES.flatMap((s) => entree(`/coupes/${s.ancre}`, 0.7)),
     ...COUPES.flatMap((s) =>
-      (QUESTIONS_COUPES[s.ancre] ?? []).flatMap((x) => entree(`/coupes/${s.ancre}/${x.slug}`, 0.6)),
+      (QUESTIONS_COUPES[s.ancre] ?? []).flatMap((x) =>
+        (QUESTIONS_COUPES_EN[s.ancre] ?? []).some((q) => q.slug === x.slug)
+          ? entree(`/coupes/${s.ancre}/${x.slug}`, 0.6)
+          : [entreeFr(`/coupes/${s.ancre}/${x.slug}`, 0.6)],
+      ),
     ),
     ...MORPHOLOGIES.flatMap((m) => entree(`/morphologies/${m.lettre.toLowerCase()}`, 0.7)),
     ...ROBES.flatMap((r) => entree(`/robes/${r.slug}`, 0.6)),

@@ -320,7 +320,16 @@ export default async function PageRobe({
                 </>
               )}
             </p>
-            <h1 className="affiche mt-3 text-sur-image">{robe.nom}</h1>
+            <h1 className="affiche mt-3 text-sur-image">
+              {/* Dans la lettre du titre, au tiers de sa taille, comme sur
+                * les pages de coupe : le prénom reste ce qu'on voit, le H1
+                * dit enfin « Robe de mariée Santana ». Les prénoms seuls
+                * attiraient des recherches qui n'avaient rien à voir. */}
+              <span className="block" style={{ fontSize: "0.34em", marginBottom: "0.4em" }}>
+                {L.pied.robeDeMariee}
+              </span>{" "}
+              {robe.nom}
+            </h1>
             <p className="accroche mt-5 text-sur-image">
               {robeLigne(robe, langue)}
             </p>
