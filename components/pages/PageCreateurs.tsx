@@ -8,6 +8,7 @@ import { altRobe } from "@/lib/alt";
 import { createurNom, createurNote, createurOrigine } from "@/lib/contenu";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
+import { CREATEURS_EDITO } from "@/lib/maisons-edito";
 
 /*
  * Les créateurs.
@@ -84,6 +85,32 @@ export default function PageCreateurs({ langue }: { langue: Langue }) {
           ))}
         </dl>
       </section>
+
+      {/* ———————————————————————————————————— créateur, à Paris —————
+        * Ce que l'expression veut dire ici : une boutique qui choisit chez
+        * des maisons, puis fait confectionner à vos mesures. En français
+        * seulement, comme les guides. */}
+      {langue === "fr" && (
+        <section aria-labelledby="createur-paris" className="pb-[clamp(3rem,6vw,5rem)]">
+          <TitreSection id="createur-paris" titre={CREATEURS_EDITO.titre} />
+          <div className="gouttiere">
+            {CREATEURS_EDITO.paragraphes.map((p) => (
+              <p key={p} className="texte mesure-l pb-5">
+                {p}
+              </p>
+            ))}
+            <ul className="flex flex-wrap gap-x-8 gap-y-3 pt-2">
+              {CREATEURS_EDITO.liens.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="lien-nav souligne text-action">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
     </div>
   );
 }

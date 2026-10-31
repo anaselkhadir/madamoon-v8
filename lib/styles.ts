@@ -19,9 +19,15 @@ const LABELS_EN: Record<string, string> = {
   "/styles/minimaliste": "Simple, minimalist wedding dress in Paris",
   "/matieres/dentelle": "Lace wedding dress in Paris",
   "/details/manches-longues": "Long-sleeve wedding dress in Paris",
+  "/matieres/satin": "Satin wedding dress in Paris",
+  "/details/bustier": "Strapless wedding dress in Paris",
+  "/details/dos-nu": "Backless wedding dress in Paris",
 };
 
-export const STYLES: Style[] = PAGES_FAMILLES.map((p) => {
+/* La grande taille n'est pas un style : une fiche ne dit pas « robe grande
+ * taille », elle dit la coupe, la matière et les morphologies. La page
+ * reste liée depuis les morphologies et les guides, pas depuis les fiches. */
+export const STYLES: Style[] = PAGES_FAMILLES.filter((p) => p.famille !== "morphologies").map((p) => {
   const href = adresseFamille(p);
   return { href, label: { fr: p.titre, en: LABELS_EN[href] ?? p.titre }, robes: robesDePage(p) };
 });

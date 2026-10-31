@@ -70,7 +70,7 @@ export default function PageFamille({ page, langue }: { page: Page; langue: Lang
       <FilDAriane
         langue={langue}
         rangs={[
-          { nom: T.barre.robes, adresse: "/robes" },
+          page.ariane ?? { nom: T.barre.robes, adresse: "/robes" },
           { nom: page.titre, adresse },
         ]}
       />

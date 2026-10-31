@@ -130,7 +130,7 @@ export default function PageGuides({ langue }: { langue: Langue }) {
       ? [
           { titre: "Les guides", liens: GUIDES.map((g) => ({ href: `/guides/${g.slug}`, q: g.titre })) },
           {
-            titre: "Styles, matières et détails",
+            titre: "Styles, matières, détails et grande taille",
             liens: PAGES_FAMILLES.map((p) => ({ href: adresseFamille(p), q: p.titre })),
           },
         ]

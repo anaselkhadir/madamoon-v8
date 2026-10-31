@@ -22,6 +22,8 @@ import { versLangue, type Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
 import { couverture } from "@/lib/couverture";
 import FilDAriane from "@/components/FilDAriane";
+import { MAISONS_EDITO } from "@/lib/maisons-edito";
+import { coupeNom } from "@/lib/contenu";
 
 /*
  * La page d'une maison.
@@ -61,6 +63,7 @@ export default async function PageMaison({
   const trouver = collective ? t(langue).raccourcis.trouverMaRobe : L.trouverMaRobeDe(nomMaison);
   const robes = robesDe(createur.nom);
   const coupes = coupesDe(createur.nom);
+  const edito = MAISONS_EDITO[createur.slug];
 
   const donnees = {
     "@context": "https://schema.org",
@@ -144,6 +147,28 @@ export default async function PageMaison({
         * trame se termine — moins qu'en bas d'une page de coupe, où la
         * page s'arrête vraiment. */}
       <div className="py-[clamp(1rem,1.9vw,1.75rem)]" />
+
+      {/* ——————————————————————————————— la maison, en clair —————
+        * Ce que ses fiches disent — matières, détails —, puis le compte
+        * des robes et des coupes, lu dans le catalogue, et ce que la
+        * boutique en fait. En français seulement. */}
+      {langue === "fr" && edito && (
+        <section aria-labelledby="la-maison" className="pb-[clamp(3rem,6vw,5rem)]">
+          <TitreSection id="la-maison" titre={edito.titre} />
+          <div className="gouttiere">
+            {edito.paragraphes.map((p) => (
+              <p key={p} className="texte mesure-l pb-5">
+                {p}
+              </p>
+            ))}
+            <p className="texte mesure-l">
+              Au catalogue, {robes.length} robe{robes.length > 1 ? "s" : ""} {nomMaison} :{" "}
+              {coupes.map((c) => coupeNom(c, langue).toLowerCase()).join(", ")}. Chacune a sa fiche, ses
+              vues et ses morphologies.
+            </p>
+          </div>
+        </section>
+      )}
 
       <Showroom langue={langue} />
     </>

@@ -54,6 +54,18 @@ export default function PageMorphologies({ langue }: { langue: Langue }) {
           ))}
         </ul>
 
+        {/* La grande taille n'est pas une septième silhouette : une page à
+          * part, écrite en français, qui dit que la robe se fait à vos
+          * mesures. Sous la liste, où l'on la cherche. */}
+        {langue === "fr" && (
+          <p className="texte mesure-l pt-8">
+            Vous cherchez une robe de mariée grande taille ? Il n'y a pas de rayon : chaque robe est confectionnée à vos mesures.{" "}
+            <Link href="/morphologies/grande-taille" className="souligne text-action">
+              Robe de mariée grande taille à Paris
+            </Link>
+            .
+          </p>
+        )}
         <div className="pb-[clamp(3rem,5vw,5rem)] pt-10">
           <p className="texte mesure pb-6">{L.guide}</p>
           <AppelElise className="bouton">{t(langue).hero.trouverMaRobe}</AppelElise>
