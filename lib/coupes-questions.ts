@@ -111,6 +111,8 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     /* ——————————————————————————————————————— le fourreau ————— */
     {
       slug: "difference-robe-sirene-robe-fourreau",
+      /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
+      titre: "Robe de mariée fourreau ou sirène",
       q: "Quelle différence entre une robe sirène et une robe fourreau ?",
       r: "Les deux sont ajustées et suivent le corps. La sirène s'évase sous les cuisses, en une jupe qui s'ouvre jusqu'au sol ; le fourreau descend droit, ou presque, sans s'évaser. Au catalogue, les fourreaux sont rangés avec les sirènes.",
       description:
@@ -407,6 +409,8 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     /* ——————————————————————————————————————— la dentelle ————— */
     {
       slug: "robe-sirene-dentelle",
+      /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
+      titre: "Robe de mariée sirène en dentelle",
       q: "Comment choisir une robe sirène avec de la dentelle ?",
       r: "Regardez trois choses : la dentelle elle-même — Chantilly, Alençon, en relief —, l'endroit où elle est posée — toute la robe, le corsage, le dos ou la traîne —, et la façon dont elle s'arrête, souvent en feston au bas de la jupe.",
       description:
@@ -1050,6 +1054,8 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     /* ——————————————————————————————————————— les matières ————— */
     {
       slug: "robe-princesse-satin-ou-dentelle",
+      /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
+      titre: "Robe de mariée princesse en dentelle ou en satin",
       q: "Peut-on choisir une robe princesse en satin ou en dentelle ?",
       r: "Oui, les deux. Le satin donne une princesse lisse et lumineuse, comme Addison en satin de soie ; la dentelle, une princesse romantique, comme Clover en dentelle Caterina ou Seraphina, brodée à la main. Le catalogue a aussi du mikado, du jacquard et du Dupioni.",
       description:
@@ -2105,6 +2111,8 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     /* ——————————————————————————————————————— l'A-line et l'évasée ————— */
     {
       slug: "difference-coupe-a-line-coupe-evasee",
+      /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
+      titre: "Robe de mariée évasée, trapèze ou A-line",
       q: "Quelle différence entre une coupe A-line et une coupe évasée classique ?",
       r: "« Évasée » désigne toute jupe qui s'élargit vers le bas ; l'A-line en est une forme précise. Elle s'ouvre dès la taille, en ligne droite et régulière. D'autres évasées s'ouvrent plus bas — la sirène, sous les cuisses — ou avec plus d'ampleur — la princesse.",
       description:
@@ -2238,6 +2246,8 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     /* ——————————————————————————————————————— la surjupe ————— */
     {
       slug: "difference-robe-deux-en-un-robe-surjupe",
+      /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
+      titre: "Robe de mariée à surjupe",
       q: "Quelle différence entre une robe deux-en-un et une robe avec surjupe ?",
       r: "La surjupe est l'une des façons de faire une deux-en-un : une jupe portée par-dessus la robe, qu'on retire. Mais une deux-en-un peut aussi reposer sur une jupe amovible ou une traîne qui se détache. Et une surjupe qui ne se retire pas n'offre qu'une seule allure.",
       description:

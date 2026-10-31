@@ -15,7 +15,7 @@ import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 export default function Edito() {
   return (
     <section aria-labelledby="edito" className="relative z-10 bg-blanc">
-      <TitreSection niveau={2} titre="Choisir sa robe de mariée à Paris" />
+      <TitreSection id="edito" niveau={2} titre="Choisir sa robe de mariée à Paris" />
       <div className="gouttiere grid gap-x-[clamp(2rem,6vw,6rem)] gap-y-8 pb-[clamp(3rem,6vw,5.5rem)] md:grid-cols-12">
         <div className="texte md:col-span-7">
           <p>
