@@ -17,7 +17,8 @@ import { mouvementReduit, surDefilement } from "@/lib/mouvement";
  * va et découvre la suivante ; il se mesure au bord bas.
  *
  * Une parabole dessinée dans un SVG étiré ; le défilement ne fait varier
- * qu'une échelle verticale. Mouvement réduit : pas d'arc.
+ * qu'une échelle verticale. Sur ordinateur seulement ; au doigt et en
+ * mouvement réduit, pas d'arc.
  */
 
 export default function Arc({
@@ -32,12 +33,15 @@ export default function Arc({
   useEffect(() => {
     const el = arc.current;
     if (!el || mouvementReduit()) return;
+    /* Sur ordinateur seulement : au doigt, l'accueil reste ce qu'il était. */
+    const large = window.matchMedia("(min-width: 1024px)");
     const section = el.parentElement;
     if (!section) return;
 
     let demande = 0;
     const poser = () => {
       demande = 0;
+      if (!large.matches) return;
       const b = section.getBoundingClientRect();
       const bord = sens === "haut" ? b.top : b.bottom;
       /* 0 quand le bord entre par le bas de l'écran, 1 quand il touche
@@ -65,7 +69,7 @@ export default function Arc({
     <div
       ref={arc}
       aria-hidden="true"
-      className={`pointer-events-none absolute inset-x-0 h-[clamp(3rem,min(20svh,18vw),12rem)] motion-reduce:hidden ${
+      className={`pointer-events-none absolute inset-x-0 h-[clamp(3rem,min(20svh,18vw),12rem)] max-lg:hidden motion-reduce:hidden ${
         haut ? "bottom-full origin-bottom" : "top-full origin-top"
       }`}
       style={{ transform: "scaleY(0)" }}

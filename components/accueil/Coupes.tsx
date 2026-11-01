@@ -3,6 +3,7 @@
 import Link from "@/components/Lien";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Photo from "@/components/media/Photo";
+import Tuile from "@/components/Tuile";
 import { COUPES } from "@/lib/coupes";
 import { ROBES } from "@/lib/madamoon";
 import { vues } from "@/lib/medias";
@@ -30,9 +31,9 @@ import { coupeNom, coupeNote, coupePluriel } from "@/lib/contenu";
  * déborde son panneau de chaque côté, de quoi remplir la courbe quand
  * elle sort du cadre.
  *
- * Au doigt, l'accordéon se dresse : les panneaux s'empilent, les bandes
- * portent le nom de leur coupe, un premier toucher ouvre, le second mène
- * à la page. Le survol n'existe pas au doigt ; rien n'en dépend.
+ * Sur ordinateur seulement, à partir de mille vingt-quatre pixels. Au
+ * doigt, la section reste ce qu'elle était — les coupes en trame à deux
+ * colonnes, chacune vers sa page —, à la demande de la maison.
  *
  * Mouvement réduit : les panneaux changent de taille sans courbe ni
  * glissement.
@@ -119,7 +120,9 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
 
     const image = (maintenant: number) => {
       M.demande = 0;
-      const vertical = etroit.matches;
+      /* Au doigt, l'accordéon n'est pas affiché : rien à calculer. */
+      if (etroit.matches) return;
+      const vertical = false;
       const b = ul.getBoundingClientRect();
       const longueurTotale = vertical ? b.height : b.width;
       const epaisseur = vertical ? b.width : b.height;
@@ -195,10 +198,10 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
   if (n === 0) return null;
 
   return (
-    <section aria-labelledby="coupes" className="bg-blanc py-[clamp(3.5rem,7vw,6rem)]">
+    <section aria-labelledby="coupes" className="relative bg-blanc lg:py-[clamp(3.5rem,7vw,6rem)]">
       {/* Le titre en haut de la section, l'accordéon centré dessous : les
         * photographies sont debout, il ne prend pas toute la largeur. */}
-      <div className="gouttiere flex flex-col gap-[clamp(1.75rem,3.5vw,2.75rem)]">
+      <div className="gouttiere flex flex-col gap-[clamp(1.75rem,3.5vw,2.75rem)] max-lg:hidden">
         <div>
           <p className="legende">{L.coupes.legende}</p>
           <span data-ligne className="mt-4 block">
@@ -355,6 +358,41 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
       <span className="sr-only" aria-live="polite">
         {L.coupes.presentee} : {coupeNom(familles[actif].c, langue)}
       </span>
+
+      {/* —————————————————————————— au doigt ——————————————————————————
+        *
+        * Celle d'avant l'accordéon, inchangée : les coupes se lisent
+        * empilées dans la trame à deux colonnes du site, celle des robes
+        * et des maisons, chacune entière et vers sa page. */}
+      <div className="lg:hidden">
+        <div className="gouttiere pt-[clamp(3rem,8vw,4rem)]">
+          <p className="legende">{L.coupes.legende}</p>
+          <span data-ligne className="mt-4 block">
+            <p className="phrase">{L.coupes.titre}</p>
+          </span>
+          <p className="texte mt-4">{L.coupes.texte}</p>
+        </div>
+        <div className="gouttiere mt-8">
+          <div className="trame-tuiles grid-cols-2">
+            {familles.map(({ c, media }, i) => (
+              <Tuile
+                key={c.ancre}
+                retard={(i % 2) * 70}
+                href={`/coupes/${c.ancre}`}
+                media={media}
+                dossier="robes"
+                alt={altCoupe(c.nom, langue)}
+                nom={coupeNom(c, langue)}
+                note={coupeNote(c, langue)}
+                sizes="46vw"
+              />
+            ))}
+          </div>
+          <Link href="/coupes" className="lien-nav souligne mt-8 inline-block text-action">
+            {L.coupes.lien}
+          </Link>
+        </div>
+      </div>
     </section>
   );
 }

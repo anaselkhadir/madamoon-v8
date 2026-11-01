@@ -116,10 +116,11 @@ export default function Hero({ langue = "fr" }: { langue?: Langue }) {
    * maison a demandé ensuite la transition en arc de sa référence Osmo :
    * le bord qui monte se bombe puis s'aplatit (components/accueil/Arc.tsx).
    * Le hero n'est collé que dans son enveloppe (app/(fr)/page.tsx), le
-   * temps que la suite le recouvre. Mouvement réduit : il défile.
+   * temps que la suite le recouvre. Sur ordinateur seulement : au doigt,
+   * et en mouvement réduit, il défile comme avant.
    */
   return (
-    <section className="relative z-0 h-[calc(100svh-var(--barre))] motion-safe:sticky motion-safe:top-[var(--barre)] min-h-[34rem] w-full overflow-hidden bg-craie">
+    <section className="relative z-0 h-[calc(100svh-var(--barre))] motion-safe:lg:sticky motion-safe:lg:top-[var(--barre)] min-h-[34rem] w-full overflow-hidden bg-craie">
       <picture>
         <source
           type="image/avif"
