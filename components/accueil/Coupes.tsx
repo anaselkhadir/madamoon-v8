@@ -68,6 +68,11 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
     return robe && media ? { c, media } : null;
   }).filter(Boolean) as Famille[];
   const n = familles.length;
+  /* La largeur sur la hauteur de chaque photographie : le panneau ouvert
+   * la prend telle quelle, et la photographie s'y voit entière. */
+  const rapports = familles.map((f) => f.media.w / f.media.h);
+  const rapportsCourants = useRef(rapports);
+  rapportsCourants.current = rapports;
 
   const [actif, setActif] = useState(0);
   /* Le geste en cours : la souris prévisualise au survol, le doigt
@@ -76,12 +81,17 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
    * était déjà ouvert quand le doigt s'est posé. */
   const geste = useRef<{ type: string; etaitOuvert: boolean }>({ type: "mouse", etaitOuvert: false });
   const actifCourant = useRef(0);
+  /* Le point où la souris a ouvert un panneau. Quand les panneaux
+   * bougent sous un curseur immobile, le navigateur émet un nouveau
+   * survol au même point : on l'ignore, sinon l'accordéon s'ouvrirait en
+   * cascade d'un panneau à l'autre. */
+  const pointOuverture = useRef<{ x: number; y: number } | null>(null);
   const cadre = useRef<HTMLUListElement>(null);
   const panneaux = useRef<(HTMLLIElement | null)[]>([]);
   /* Le moteur : poids courants, frontières, courbes. Hors de React, pour
    * ne rien rendre à chaque image. */
   const moteur = useRef({
-    poids: [] as number[],
+    tailles: [] as number[],
     frontieres: [] as number[],
     courbes: [] as number[],
     cible: 0,
@@ -103,7 +113,7 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
     const M = moteur.current;
     const etroit = window.matchMedia("(max-width: 1023px)");
     const reduit = mouvementReduit();
-    M.poids = Array.from({ length: n }, (_, i) => (i === M.cible ? 6 : 1));
+    M.tailles = [];
     M.courbes = Array(Math.max(n - 1, 0)).fill(0);
     M.frontieres = [];
 
@@ -115,23 +125,32 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
       const epaisseur = vertical ? b.width : b.height;
       const ecart = parseFloat(getComputedStyle(ul).columnGap || getComputedStyle(ul).gap) || 0;
       const libre = longueurTotale - ecart * (n - 1);
-      /* La bande fermée : sa taille est fixe, l'ouverte prend le reste. */
-      const bande = vertical ? 64 : Math.min(Math.max(window.innerWidth * 0.07, 56), 104);
-      const grand = Math.max(libre / bande - (n - 1), 1.5);
+      /* Le panneau ouvert prend les proportions de sa photographie ; les
+       * bandes se partagent le reste. Le cadre est taillé (globals.css,
+       * « .accordeon-coupes ») pour la plus large d'entre elles. */
+      const cibles = (() => {
+        const r = rapportsCourants.current[M.cible] ?? 0.667;
+        const ouvert = Math.min(vertical ? epaisseur / r : epaisseur * r, libre - (n - 1) * 24);
+        const bande = (libre - ouvert) / Math.max(n - 1, 1);
+        return Array.from({ length: n }, (_, i) => (i === M.cible ? ouvert : bande));
+      })();
 
       const dt = M.dernier ? Math.min(maintenant - M.dernier, 64) : 16.7;
       M.dernier = maintenant;
-      const k = reduit ? 1 : 1 - Math.pow(1 - 0.11, dt / 16.7);
+      const premiere = M.tailles.length !== n;
+      const k = reduit || premiere ? 1 : 1 - Math.pow(1 - 0.11, dt / 16.7);
 
       let bouge = false;
-      M.poids = M.poids.map((p, i) => {
-        const cible = i === M.cible ? grand : 1;
-        const suivant = p + (cible - p) * k;
-        if (Math.abs(cible - suivant) > 0.002) bouge = true;
-        return Math.abs(cible - suivant) > 0.002 ? suivant : cible;
+      M.tailles = cibles.map((cible, i) => {
+        const avant = premiere ? cible : M.tailles[i];
+        const suivant = avant + (cible - avant) * k;
+        if (Math.abs(cible - suivant) > 0.3) {
+          bouge = true;
+          return suivant;
+        }
+        return cible;
       });
-      const somme = M.poids.reduce((a, x) => a + x, 0);
-      const tailles = M.poids.map((p) => (libre * p) / somme);
+      const tailles = M.tailles;
 
       /* Les frontières, et leur vitesse en pixels par image. */
       let x = 0;
@@ -148,7 +167,7 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
 
       panneaux.current.forEach((el, i) => {
         if (!el) return;
-        el.style.flexGrow = String(M.poids[i]);
+        el.style.flex = `0 0 ${tailles[i]}px`;
         const debut = i > 0 ? M.courbes[i - 1] : 0;
         const fin = i < n - 1 ? M.courbes[i] : 0;
         el.style.clipPath = decoupe(tailles[i], epaisseur, debut, fin, vertical);
@@ -177,7 +196,10 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
 
   return (
     <section aria-labelledby="coupes" className="bg-blanc py-[clamp(3.5rem,7vw,6rem)]">
-      <div className="gouttiere flex flex-wrap items-end justify-between gap-x-8 gap-y-5">
+      {/* Sur grand écran, le titre à gauche et l'accordéon à droite : les
+        * photographies sont debout, l'accordéon ne prend pas toute la
+        * largeur. En deçà, le titre passe au-dessus. */}
+      <div className="gouttiere grid gap-x-[clamp(2rem,5vw,5rem)] gap-y-[clamp(1.75rem,3.5vw,2.75rem)] xl:grid-cols-[minmax(0,1fr)_auto] xl:items-end">
         <div>
           <p className="legende">{L.coupes.legende}</p>
           <span data-ligne className="mt-4 block">
@@ -186,19 +208,24 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
             </h2>
           </span>
           <p className="texte mesure mt-3">{L.coupes.texte}</p>
+          <Link href="/coupes" className="lien-nav souligne mt-5 inline-block text-action">
+            {L.coupes.lien}
+          </Link>
         </div>
-        <Link href="/coupes" className="lien-nav souligne text-action">
-          {L.coupes.lien}
-        </Link>
-      </div>
 
-      <div className="gouttiere mt-[clamp(1.75rem,3.5vw,2.75rem)]">
         <ul
           ref={cadre}
           /* « overflow-hidden » : les photographies débordent leur panneau,
            * et celles des deux extrémités sortiraient de la page. Les bords
            * extérieurs ne bougent jamais, rien n'y est coupé. */
-          className="flex h-[calc(64px*4+62svh+2rem)] flex-col gap-2 overflow-hidden lg:h-[clamp(24rem,calc(100svh-22rem),40rem)] lg:flex-row"
+          className="accordeon-coupes max-xl:mx-auto"
+          style={
+            {
+              "--rmax": Math.max(...rapports),
+              "--rmin": Math.min(...rapports),
+              "--n1": n - 1,
+            } as React.CSSProperties
+          }
         >
           {familles.map(({ c, media }, i) => {
             const ouvert = i === actif;
@@ -209,9 +236,11 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
                 ref={(el) => {
                   panneaux.current[i] = el;
                 }}
-                className="relative min-h-0 min-w-0 basis-0"
+                className="relative min-h-0 min-w-0"
                 style={{
-                  flexGrow: i === 0 ? 6 : 1,
+                  /* Avant le moteur : l'ouvert s'étire, les bandes ont leur
+                   * taille. Le moteur pose ensuite des tailles exactes. */
+                  flex: i === actif ? "1 1 0" : "0 0 var(--b)",
                   clipPath: `inset(0 round ${ANGLE}px)`,
                 }}
               >
@@ -220,7 +249,11 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
                   aria-label={`${nom}. ${coupeNote(c, langue)}`}
                   aria-current={ouvert ? "true" : undefined}
                   onPointerEnter={(e) => {
-                    if (e.pointerType === "mouse") ouvrir(i);
+                    if (e.pointerType !== "mouse") return;
+                    const p = pointOuverture.current;
+                    if (p && p.x === e.clientX && p.y === e.clientY) return;
+                    pointOuverture.current = { x: e.clientX, y: e.clientY };
+                    ouvrir(i);
                   }}
                   onPointerDown={(e) => {
                     geste.current = { type: e.pointerType, etaitOuvert: actifCourant.current === i };
@@ -236,19 +269,23 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
                   }}
                   className="group absolute inset-0 block focus-visible:outline-none"
                 >
-                  {/* La photographie déborde le panneau des deux côtés de
-                    * l'axe : la courbe a de quoi se remplir. */}
+                  {/* Le fond des courbes : la photographie floutée, qui
+                    * déborde le panneau des deux côtés de l'axe. Elle ne
+                    * se voit que dans la courbe, le temps du mouvement. */}
                   <span
                     aria-hidden="true"
                     className="absolute inset-y-0 -left-[72px] -right-[72px] max-lg:inset-x-0 max-lg:-bottom-[72px] max-lg:-top-[72px]"
-                  >
+                    style={{ backgroundImage: `url(${media.blur})`, backgroundSize: "100% 100%" }}
+                  />
+                  {/* La photographie, au panneau exact : ouvert, il a ses
+                    * proportions, et elle s'y voit entière. */}
+                  <span aria-hidden="true" className="absolute inset-0">
                     <Photo
                       media={media}
                       dossier="robes"
                       alt=""
-                      sizes="(max-width: 1024px) 96vw, 64vw"
+                      sizes="(max-width: 1024px) 96vw, 40vw"
                       priorite={i === 0}
-                      position="center 30%"
                       className="absolute inset-0 h-full w-full object-cover"
                     />
                   </span>
