@@ -3,3 +3,5 @@ De;Vers;Code;Motif
 /prise-de-rendez-vous/;/rendez-vous/;301;URL de réservation de l'ancien site, encore référencée dans les données v7
 https://www.madamoon.fr/*;https://madamoon.fr/*;301;www indexé séparément (Semrush : https://www.madamoon.fr/ positionné à part)
 /robes/clover-perles/;/robes/clover-perles/;200;conservée — à renommer seulement si la maison donne un nom court (voir A-VERIFIER v7)
+/votre-morphologie/;/morphologies/;301;page de l'ancien WordPress, redirigée depuis la v7 (public/.htaccess)
+/wp-admin, /wp-content, /product, /cart, /checkout…;/;301;restes du WordPress, renvoyés à l'accueil (public/.htaccess)

@@ -64,3 +64,19 @@ Les quatre plus petites : Seraphina (321 px), River (356 px), Elin
 (370 px), Siddalee (405 px).
 
 Il faudrait les photographies d'origine des fournisseurs.
+
+## 6. Mentions légales et confidentialité — à fournir avant la mise en ligne
+
+Relevé le 1er novembre 2026. Les trois pages (`/mentions-legales/`,
+`/confidentialite/`, `/cookies/`) sont écrites à partir de ce que le site
+sait de lui-même ; `lib/legal.ts` reçoit ce qui manque. madamoon.fr n'a
+aujourd'hui aucune de ces pages.
+
+| À fournir | Pourquoi | Où l'écrire |
+|---|---|---|
+| Forme juridique, raison sociale, numéro SIREN/SIRET, numéro de TVA, capital le cas échéant | la loi pour la confiance dans l'économie numérique (art. 6-III) les impose à tout éditeur professionnel ; rien n'a été inventé | `EDITEUR` dans `lib/legal.ts` |
+| Nom complet de la directrice de la publication | la page dit « Mouna, fondatrice de MADAMOON », comme la page À propos ; la loi demande le nom | `EDITEUR.publication` |
+| Confirmation de l'entité Hostinger du contrat (Hostinger International Ltd, Larnaca, écrite d'après l'usage courant) | l'hébergeur doit être exact | `HEBERGEUR` |
+| Durée réelle de conservation des dossiers clientes (rendez-vous, mesures, retouches) | la politique dit « le temps de l'accompagnement puis les obligations comptables » ; une durée chiffrée vaut mieux | `confidentialite`, bloc « Combien de temps » |
+| Quel service d'IA la fonction d'Élise (Supabase) appelle, et s'il conserve les conversations | la politique nomme Supabase et « un modèle de langage », sans plus | `confidentialite`, bloc « Ce que le site collecte » |
+| Le conteneur Google Tag Manager (GTM-T5FMK7CX) | relevé le 1er novembre 2026 en développement, consentement accepté : il charge Google Analytics 4 (G-TBKRRXMH9R), Google Ads (AW-16466463653) **et le script CookieYes de l'ancien site** (cdn-cookieyes.com, client da13ffe4…), qui lève une erreur « website URL has changed » sur toute adresse autre que l'ancienne. Sur le nouveau site, cette balise ferait doublon avec le bandeau du site (ou planterait) : **à retirer du conteneur** avant la mise en ligne. La page cookies nomme GA4 et Google Ads ; elle ne nomme pas CookieYes, qui ne doit pas rester | interface Tag Manager de la maison |

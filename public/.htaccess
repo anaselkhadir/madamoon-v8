@@ -1,0 +1,125 @@
+# MADAMOON — réglages Apache pour l'hébergement Hostinger.
+#
+# Le site est un export statique : chaque page est un dossier qui porte
+# son index.html. Apache les sert tels quels ; ce fichier n'ajoute que
+# ce qu'il ne devine pas — le HTTPS, les types des images modernes, la
+# durée de cache et la page 404 du site.
+
+# ————————————————————————————————— HTTPS, une seule adresse —————
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Une seule forme du domaine : sans « www ». Les deux mèneraient au même
+# site mais compteraient comme deux adresses pour Google.
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# ————————————————————————————————— l'ancien site —————
+#
+# madamoon.fr portait un WordPress de cinq pages. Le nouveau site ne
+# garde aucune de ses adresses : sans ces redirections, les liens que la
+# maison a semés depuis des années — Instagram, annuaires, Google —
+# tomberaient tous sur une page introuvable le jour du basculement, et
+# l'ancienneté acquise par ces adresses serait perdue.
+#
+# En 301, permanent : c'est ce qui transmet le classement à la nouvelle
+# adresse. Posées avant la règle 404, et avant tout le reste, pour que
+# rien d'autre ne les devance.
+#
+#   ancienne adresse            nouvelle
+#   /votre-morphologie/     →   /morphologies/
+#   /catalogue-des-robes/   →   /robes/
+#   /prise-de-rendez-vous/  →   /rendez-vous/
+#
+# Les trois sont reprises de la v7 et consignées dans
+# docs/REDIRECTIONS.csv et lib/arborescence.json. Le fichier n'était pas
+# arrivé dans la V8 avec le reste de « public/ » : les fichiers cachés
+# avaient échappé à la copie.
+#
+# La racine ne bouge pas, elle reste la racine.
+#
+# « /faq/ » ne redirige pas : la page existe. L'ancien site en avait une,
+# elle était indexée, et le nouveau la reprend à la même adresse avec
+# les sept questions de la maison — délais, essayages, étapes du
+# sur-mesure, paiement, prix, accompagnement, adresse. Une redirection
+# aurait fait perdre à Google une adresse qu'il connaissait déjà.
+RedirectMatch 301 ^/votre-morphologie/?$ https://madamoon.fr/morphologies/
+RedirectMatch 301 ^/catalogue-des-robes/?$ https://madamoon.fr/robes/
+RedirectMatch 301 ^/prise-de-rendez-vous/?$ https://madamoon.fr/rendez-vous/
+
+# Les restes du WordPress : son administration, ses dossiers internes et
+# les adresses de son greffon de boutique. Elles n'existeront plus, mais
+# les robots les demanderont encore longtemps. On les renvoie à
+# l'accueil plutôt que de laisser quatre cents pages d'erreur s'accumuler
+# dans la Search Console.
+RedirectMatch 301 ^/(wp-admin|wp-login\.php|wp-content|wp-includes|product|cart|checkout)(/.*)?$ https://madamoon.fr/
+
+# ————————————————————————————————— l'index du dossier —————
+#
+# Le domaine portait un WordPress. Si un « index.php » traîne encore
+# dans « public_html » le jour du basculement, Apache le sert avant
+# notre « index.html » — l'ancien site resterait à l'écran et personne
+# ne comprendrait pourquoi.
+#
+# Cette ligne met le nôtre en tête. Elle ne dispense pas de vider le
+# dossier : elle évite seulement que l'oubli d'un fichier fasse croire
+# à une mise en ligne ratée.
+DirectoryIndex index.html index.php
+
+# ————————————————————————————————— la page introuvable —————
+ErrorDocument 404 /404.html
+
+# ————————————————————————————————— les types de fichiers —————
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType image/webp .webp
+  AddType video/mp4 .mp4
+  AddType font/woff2 .woff2
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+# ————————————————————————————————— la durée de cache —————
+# Les redirections ne sont pas des fichiers.
+#
+# « mod_expires » ne sait borner que ce qui a un nom de fichier : une 301
+# part sans « Cache-Control », et un cache en déduit ce qu'il veut. Celui
+# de Hostinger en a déduit l'éternité — la redirection de /faq/ vers
+# /a-propos/, retirée du site, a continué d'être servie quatre-vingt-sept
+# minutes après que la vraie page fut en ligne. Les visiteurs et Google
+# recevaient l'ancienne réponse ; seule une purge l'a délogée.
+#
+# Dix minutes, donc, comme pour le HTML : une redirection qu'on retire
+# disparaît alors d'elle-même dans le quart d'heure.
+<IfModule mod_headers.c>
+  Header always set Cache-Control "public, max-age=600" "expr=%{REQUEST_STATUS} >= 300 && %{REQUEST_STATUS} < 400"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Les fichiers de Next portent leur empreinte dans leur nom : ils ne
+  # changent jamais sans changer d'adresse.
+  <FilesMatch "\.(js|css|woff2)$">
+    ExpiresDefault "access plus 1 year"
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(avif|webp|jpe?g|png|svg|mp4|pdf)$">
+    ExpiresDefault "access plus 30 days"
+  </FilesMatch>
+  # Le HTML, lui, doit pouvoir changer le jour d'une mise à jour.
+  <FilesMatch "\.html$">
+    ExpiresDefault "access plus 10 minutes"
+  </FilesMatch>
+</IfModule>
+
+# ————————————————————————————————— la compression —————
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# ————————————————————————————————— quelques garde-fous —————
+Options -Indexes
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

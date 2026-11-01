@@ -13,6 +13,7 @@ import { versLangue } from "@/lib/langue";
 import { execFileSync } from "node:child_process";
 import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 import { GUIDES } from "@/lib/guides";
+import { PAGES_LEGALES, adresseLegale } from "@/lib/legal";
 
 /*
  * Le plan du site, dans les deux langues.
@@ -44,6 +45,7 @@ const PAGES = [
   "/faq",
   "/guides",
   "/createurs",
+  "/contact",
 ];
 
 /*
@@ -96,6 +98,9 @@ const SOURCES: [string, string][] = [
   ["/styles", "lib/familles.ts"],
   ["/matieres", "lib/familles.ts"],
   ["/details", "lib/familles.ts"],
+  ["/mentions-legales", "lib/legal.ts"],
+  ["/confidentialite", "lib/legal.ts"],
+  ["/cookies", "lib/legal.ts"],
 ];
 
 function dateDe(adresseFr: string): Date | undefined {
@@ -152,6 +157,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...PAGES_FAMILLES.map((p) => entreeFr(adresseFamille(p), 0.8)),
     ...GUIDES.map((g) => entreeFr(`/guides/${g.slug}`, 0.7)),
+    /* Les pages légales : présentes, mais au plus bas — elles ne
+     * répondent à aucune recherche. */
+    ...PAGES_LEGALES.map((p) => entreeFr(adresseLegale(p), 0.1)),
     ...PAGES.flatMap((p) => entree(p, p === "" ? 1 : 0.8)),
     ...CREATEURS.flatMap((c) => entree(`/createurs/${c.slug}`, 0.7)),
     ...COUPES.flatMap((s) => entree(`/coupes/${s.ancre}`, 0.7)),

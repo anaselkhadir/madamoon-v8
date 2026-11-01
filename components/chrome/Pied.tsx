@@ -169,6 +169,22 @@ export default function Pied() {
           {L.pied.gererCookies}
         </button>
       </div>
+
+      {/* Les pages de la maison qui ne vendent rien : le contact et les
+        * trois pages que la loi demande. Une ligne de liens fins, sous
+        * tout le reste — elles doivent être trouvables, pas visibles. */}
+      <nav aria-label={L.pied.mentions} className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+        {[
+          { href: "/contact", label: L.pied.contact },
+          { href: "/mentions-legales", label: L.pied.mentionsLegales },
+          { href: "/confidentialite", label: L.pied.confidentialite },
+          { href: "/cookies", label: L.pied.cookiesPage },
+        ].map((x) => (
+          <Link key={x.href} href={x.href} className="mention souligne text-plomb hover:text-encre">
+            {x.label}
+          </Link>
+        ))}
+      </nav>
     </footer>
   );
 }

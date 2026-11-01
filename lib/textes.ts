@@ -58,6 +58,7 @@ const FR = {
    * de recherche ne doit pas nommer les rubriques autrement que le
    * site. */
   ariane: {
+    contact: "Contact",
     accueil: "Accueil",
     createurs: "Créateurs",
   },
@@ -363,6 +364,31 @@ const FR = {
       "Je préfère vous répondre précisément plutôt que de m’avancer. Le mieux est d’en parler de vive voix avec la boutique — ou je peux vous guider ici sur votre morphologie, les coupes qui vous iront et la prise de rendez-vous.",
   },
   pages: {
+    contact: {
+      titre: "Contacter MADAMOON",
+      intro:
+        "Une boutique, un showroom, et quelqu'un qui répond. Pour tout ce qui touche à une robe, le mieux reste de venir l'essayer : le rendez-vous se prend en ligne, en quelques clics, ou par téléphone.",
+      showroom: "Le showroom",
+      voirPlan: "Ouvrir le plan",
+      joindre: "Nous joindre",
+      telephone: "Par téléphone",
+      telephoneNote: "Aux heures d'ouverture du showroom.",
+      courriel: "Par courriel",
+      courrielNote: "Pour une question sur une robe, un délai, une retouche.",
+      horaires: "Les horaires",
+      reseaux: "Sur les réseaux",
+      rendezvous: "Prendre rendez-vous",
+      rendezvousNote:
+        "Une heure, le showroom privatisé pour vous. L'essayage est gratuit pour la mariée et deux accompagnants.",
+      avantDeVenir: "Avant de venir",
+      liens: [
+        { href: "/showroom", label: "Découvrir le showroom" },
+        { href: "/guides/essayage-robe-de-mariee", label: "Comment se passe un essayage" },
+        { href: "/guides/quand-acheter-sa-robe-de-mariee", label: "Quand acheter sa robe de mariée" },
+        { href: "/faq", label: "Les questions que l'on nous pose" },
+      ],
+      altScene: "L'entrée du showroom MADAMOON, rue du Faubourg Saint-Martin",
+    },
     coupes: {
       titre: "Les coupes",
       intro:
@@ -740,6 +766,11 @@ const FR = {
     fichier: (intitule: string) => `MADAMOON — Catalogue ${intitule}.pdf`,
   },
   pied: {
+    contact: "Contact",
+    mentionsLegales: "Mentions légales",
+    confidentialite: "Confidentialité",
+    cookiesPage: "Cookies",
+    mentions: "Mentions",
     coupes: "Coupes",
     createurs: "Créateurs",
     showroom: "Le showroom",
@@ -843,6 +874,7 @@ const EN: Textes = {
     prendreRendezvous: "Book an appointment",
   },
   ariane: {
+    contact: "Contact",
     accueil: "Home",
     createurs: "Designers",
   },
@@ -1083,6 +1115,31 @@ const EN: Textes = {
       "I would rather answer you precisely than guess. The best is to speak with the boutique directly — or I can guide you here on your figure, the cuts that will suit you, and booking an appointment.",
   },
   pages: {
+    contact: {
+      titre: "Contact MADAMOON",
+      intro:
+        "A boutique, a showroom, and someone who answers. For anything to do with a dress, the best thing is to come and try it on: appointments are booked online in a few clicks, or by phone.",
+      showroom: "The showroom",
+      voirPlan: "Open the map",
+      joindre: "Get in touch",
+      telephone: "By phone",
+      telephoneNote: "During showroom opening hours.",
+      courriel: "By email",
+      courrielNote: "For a question about a dress, a lead time, an alteration.",
+      horaires: "Opening hours",
+      reseaux: "On social media",
+      rendezvous: "Book an appointment",
+      rendezvousNote:
+        "One hour, the showroom yours alone. The fitting is free for the bride and two guests.",
+      avantDeVenir: "Before you come",
+      liens: [
+        { href: "/showroom", label: "Discover the showroom" },
+        { href: "/faq", label: "The questions we are asked" },
+        { href: "/coupes", label: "The silhouettes" },
+        { href: "/morphologies", label: "The body shapes" },
+      ],
+      altScene: "The entrance of the MADAMOON showroom, rue du Faubourg Saint-Martin",
+    },
     coupes: {
       titre: "The silhouettes",
       intro:
@@ -1421,6 +1478,11 @@ const EN: Textes = {
     fichier: (intitule: string) => `MADAMOON — ${intitule} catalogue.pdf`,
   },
   pied: {
+    contact: "Contact",
+    mentionsLegales: "Legal notice",
+    confidentialite: "Privacy",
+    cookiesPage: "Cookies",
+    mentions: "Legal",
     coupes: "Silhouettes",
     createurs: "Designers",
     showroom: "The showroom",

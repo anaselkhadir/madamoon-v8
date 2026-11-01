@@ -4,7 +4,8 @@ import { COUPES } from "@/lib/coupes";
 import { vues } from "@/lib/medias";
 import { altCoupe, altRobe } from "@/lib/alt";
 import { coupeNom, coupeNote } from "@/lib/contenu";
-import type { Langue } from "@/lib/langue";
+import { versLangue, type Langue } from "@/lib/langue";
+import { collection } from "@/lib/schema";
 import { t } from "@/lib/textes";
 import FilDAriane from "@/components/FilDAriane";
 
@@ -21,8 +22,22 @@ import FilDAriane from "@/components/FilDAriane";
 
 export default function PageCoupes({ langue }: { langue: Langue }) {
   const L = t(langue).pages.coupes;
+  const liste = collection({
+    adresse: versLangue("/coupes", langue),
+    nom: L.titre,
+    description: L.intro,
+    langue,
+    elements: COUPES.map((s) => ({
+      nom: coupeNom(s, langue),
+      adresse: versLangue(`/coupes/${s.ancre}`, langue),
+    })),
+  });
   return (
     <div className="pt-[var(--entete)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(liste) }}
+      />
       <FilDAriane langue={langue} rangs={[{ nom: t(langue).barre.coupes, adresse: "/coupes" }]} />
       <TitreSection niveau={1} titre={L.titre} />
       <div className="gouttiere">

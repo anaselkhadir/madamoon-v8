@@ -309,3 +309,43 @@ export function filDAriane(rangs: { nom: string; adresse: string }[]) {
     })),
   };
 }
+
+/*
+ * Une page de rubrique et ce qu'elle range.
+ *
+ * Les hubs — créateurs, coupes, morphologies, guides — ne faisaient que
+ * lier : le moteur voyait des liens, pas une liste. « CollectionPage »
+ * avec une « ItemList » dit que ces pages forment un ensemble, dans cet
+ * ordre, sous ce nom, et les rattache au site et à la maison par leurs
+ * identités.
+ */
+export function collection(o: {
+  adresse: string;
+  nom: string;
+  description?: string;
+  langue?: "fr" | "en";
+  elements: { nom: string; adresse: string }[];
+}) {
+  const url = `${SITE_URL}${o.adresse}/`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${url}#page`,
+    url,
+    name: o.nom,
+    ...(o.description && { description: o.description }),
+    inLanguage: o.langue === "en" ? "en" : "fr-FR",
+    isPartOf: { "@id": `${SITE_URL}/#site` },
+    about: { "@id": ID_MAISON },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: o.elements.length,
+      itemListElement: o.elements.map((e, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: e.nom,
+        url: `${SITE_URL}${e.adresse}/`,
+      })),
+    },
+  };
+}

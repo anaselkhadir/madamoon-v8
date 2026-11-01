@@ -6,7 +6,8 @@ import { CREATEURS, ROBES } from "@/lib/madamoon";
 import { VIGNETTES_CREATEURS, vues } from "@/lib/medias";
 import { altRobe } from "@/lib/alt";
 import { createurNom, createurNote, createurOrigine } from "@/lib/contenu";
-import type { Langue } from "@/lib/langue";
+import { versLangue, type Langue } from "@/lib/langue";
+import { collection } from "@/lib/schema";
 import { t } from "@/lib/textes";
 import { CREATEURS_EDITO } from "@/lib/maisons-edito";
 
@@ -38,8 +39,24 @@ function image(c: (typeof CREATEURS)[number]) {
 export default function PageCreateurs({ langue }: { langue: Langue }) {
   const T = t(langue);
   const L = T.pages.createurs;
+  /* La liste des maisons, pour le moteur : la page est un ensemble, pas
+   * une suite de liens. */
+  const liste = collection({
+    adresse: versLangue("/createurs", langue),
+    nom: L.titre,
+    description: L.intro,
+    langue,
+    elements: CREATEURS.map((c) => ({
+      nom: createurNom(c, langue),
+      adresse: versLangue(`/createurs/${c.slug}`, langue),
+    })),
+  });
   return (
     <div className="pt-[var(--entete)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(liste) }}
+      />
       <FilDAriane langue={langue} rangs={[{ nom: T.ariane.createurs, adresse: "/createurs" }]} />
       <TitreSection niveau={1} titre={L.titre} />
       <div className="gouttiere">

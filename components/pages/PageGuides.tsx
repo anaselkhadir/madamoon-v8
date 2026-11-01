@@ -10,7 +10,8 @@ import { SLUGS_QUESTIONS } from "@/lib/questions";
 import { GUIDES } from "@/lib/guides";
 import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 import { t } from "@/lib/textes";
-import type { Langue } from "@/lib/langue";
+import { versLangue, type Langue } from "@/lib/langue";
+import { collection } from "@/lib/schema";
 
 /*
  * Les guides.
@@ -152,8 +153,25 @@ export default function PageGuides({ langue }: { langue: Langue }) {
     { id: "essayage", titre: L.essayage, texte: L.essayageTexte, groupes: essayage },
   ];
 
+  /* Pour le moteur : les guides et les pages transversales, qui ne
+   * vivent que dans ce sommaire ; les questions de coupe, de morphologie
+   * et de FAQ sont déjà listées par leurs propres rubriques. */
+  const liste = collection({
+    adresse: versLangue("/guides", langue),
+    nom: L.titre,
+    description: L.accroche,
+    langue,
+    elements: guides.flatMap((g) => g.liens.map((x) => ({ nom: x.q, adresse: x.href }))),
+  });
+
   return (
     <>
+      {liste.mainEntity.numberOfItems > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(liste) }}
+        />
+      )}
       <FilDAriane langue={langue} rangs={[{ nom: T.raccourcis.lesGuides, adresse: "/guides" }]} />
 
       <header className="gouttiere pb-[clamp(2rem,4vw,3.5rem)] pt-[calc(var(--entete)+clamp(2.5rem,5.5vw,5rem))]">

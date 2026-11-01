@@ -4,7 +4,8 @@ import TitreSection from "@/components/TitreSection";
 import { MORPHOLOGIES } from "@/lib/madamoon";
 import { coupeNom, morphoNom, morphoSilhouette } from "@/lib/contenu";
 import { t } from "@/lib/textes";
-import type { Langue } from "@/lib/langue";
+import { versLangue, type Langue } from "@/lib/langue";
+import { collection } from "@/lib/schema";
 import FilDAriane from "@/components/FilDAriane";
 
 /*
@@ -18,8 +19,22 @@ import FilDAriane from "@/components/FilDAriane";
 
 export default function PageMorphologies({ langue }: { langue: Langue }) {
   const L = t(langue).pages.morphologies;
+  const liste = collection({
+    adresse: versLangue("/morphologies", langue),
+    nom: L.titre,
+    description: L.intro,
+    langue,
+    elements: MORPHOLOGIES.map((m) => ({
+      nom: morphoNom(m, langue),
+      adresse: versLangue(`/morphologies/${m.lettre.toLowerCase()}`, langue),
+    })),
+  });
   return (
     <div className="pt-[var(--entete)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(liste) }}
+      />
       <FilDAriane
         langue={langue}
         rangs={[{ nom: t(langue).barre.morphologies, adresse: "/morphologies" }]}

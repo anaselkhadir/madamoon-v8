@@ -30,7 +30,8 @@ export const SEGMENTS: Record<string, string> = {
   "rendez-vous": "appointment",
   "trouver-ma-robe": "find-my-dress",
   "coups-de-coeur": "favourites",
-  /* « faq » se dit dans les deux langues. */
+  /* « contact » et « faq » se disent dans les deux langues. */
+  contact: "contact",
   faq: "faq",
   /* « guides » aussi. */
   guides: "guides",
@@ -138,6 +139,7 @@ export const TRADUITES = new Set<string>([
   "/faq",
   "/guides",
   "/createurs",
+  "/contact",
 ]);
 
 /* Les familles d'adresses entièrement traduites : toutes les fiches

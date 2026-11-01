@@ -37,7 +37,7 @@
     {"url": "/createurs/autres-createurs/", "en": "/en/designers/autres-createurs/", "titre": "Autres créateurs", "type": "créateur", "cluster": "Créateurs MADAMOON", "priorite": "P2", "statut": "existante (à nommer si la maison confirme Angeola Biarritz)", "sitemap": 0.5, "freq": "monthly"},
     {"url": "/showroom/", "en": "/en/showroom/", "titre": "Le showroom, Paris 10e", "type": "conversion", "cluster": "Boutique robe de mariée Paris", "priorite": "P0", "statut": "existante", "sitemap": 0.9, "freq": "monthly"},
     {"url": "/rendez-vous/", "en": "/en/appointment/", "titre": "Prendre rendez-vous pour un essayage", "type": "conversion", "cluster": "Boutique robe de mariée Paris", "priorite": "P0", "statut": "existante", "sitemap": 0.9, "freq": "monthly"},
-    {"url": "/contact/", "titre": "Contact", "type": "conversion", "cluster": "Boutique robe de mariée Paris", "priorite": "P1", "statut": "à créer (demandée ; madamoon.fr renvoie au showroom)", "sitemap": 0.5, "freq": "yearly"},
+    {"url": "/contact/", "en": "/en/contact/", "titre": "Contact", "type": "conversion", "cluster": "Boutique robe de mariée Paris", "priorite": "P1", "statut": "créée (vague D, 01/11/2026 ; FR + EN)", "sitemap": 0.5, "freq": "yearly"},
     {"url": "/a-propos/", "en": "/en/about/", "titre": "À propos de MADAMOON", "type": "institutionnel", "cluster": "Marque MADAMOON", "priorite": "P1", "statut": "existante", "sitemap": 0.6, "freq": "yearly"},
     {"url": "/trouver-ma-robe/", "en": "/en/find-my-dress/", "titre": "Trouver ma robe", "type": "parcours", "cluster": "Guide / conseils", "priorite": "P2", "statut": "existante", "sitemap": 0.6, "freq": "monthly"},
     {"url": "/faq/", "en": "/en/faq/", "titre": "Questions fréquentes", "type": "guide", "cluster": "Guide / conseils", "priorite": "P1", "statut": "existante", "sitemap": 0.6, "freq": "monthly"},
@@ -53,11 +53,12 @@
     {"url": "/guides/tendances-robe-de-mariee-2026/", "titre": "Tendances robe de mariée 2026", "type": "guide", "cluster": "Guide / conseils", "priorite": "P3", "statut": "à créer", "sitemap": 0.5, "freq": "monthly"},
     {"url": "/guides/acheter-ou-louer-sa-robe-de-mariee/", "titre": "Acheter ou louer sa robe de mariée", "type": "guide", "cluster": "Location robe de mariée", "priorite": "P3", "statut": "à vérifier avec la maison (location proposée ou non)", "sitemap": 0.5, "freq": "yearly"},
     {"url": "/guides/robe-de-mariee-couleur/", "titre": "Robe de mariée de couleur : ivoire, champagne, blush", "type": "guide", "cluster": "Robe colorée / non blanche", "priorite": "P3", "statut": "à vérifier avec la maison (stock)", "sitemap": 0.5, "freq": "yearly"},
-    {"url": "/mentions-legales/", "titre": "Mentions légales", "type": "légal", "cluster": "", "priorite": "P1", "statut": "à créer", "sitemap": 0.1, "freq": "yearly"},
-    {"url": "/confidentialite/", "titre": "Politique de confidentialité", "type": "légal", "cluster": "", "priorite": "P1", "statut": "à créer", "sitemap": 0.1, "freq": "yearly"},
-    {"url": "/cookies/", "titre": "Gestion des cookies", "type": "légal", "cluster": "", "priorite": "P1", "statut": "à créer", "sitemap": 0.1, "freq": "yearly"}
+    {"url": "/mentions-legales/", "titre": "Mentions légales", "type": "légal", "cluster": "", "priorite": "P1", "statut": "créée (vague D, 01/11/2026 ; FR seul ; immatriculation à fournir par la maison)", "sitemap": 0.1, "freq": "yearly"},
+    {"url": "/confidentialite/", "titre": "Politique de confidentialité", "type": "légal", "cluster": "", "priorite": "P1", "statut": "créée (vague D, 01/11/2026 ; FR seul)", "sitemap": 0.1, "freq": "yearly"},
+    {"url": "/cookies/", "titre": "Gestion des cookies", "type": "légal", "cluster": "", "priorite": "P1", "statut": "créée (vague D, 01/11/2026 ; FR seul)", "sitemap": 0.1, "freq": "yearly"}
   ],
   "redirections": [
+    {"de": "/votre-morphologie/", "vers": "/morphologies/", "code": 301, "motif": "page de l'ancien WordPress, redirigée depuis la v7 (public/.htaccess)"},
     {"de": "/catalogue-des-robes/", "vers": "/robes/", "code": 301, "motif": "ancienne URL encore indexée (Semrush, position 63 sur « mado mariage »)"},
     {"de": "/prise-de-rendez-vous/", "vers": "/rendez-vous/", "code": 301, "motif": "URL de réservation de l'ancien site, encore référencée dans les données v7"},
     {"de": "https://www.madamoon.fr/*", "vers": "https://madamoon.fr/*", "code": 301, "motif": "www indexé séparément (Semrush : https://www.madamoon.fr/ positionné à part)"},
