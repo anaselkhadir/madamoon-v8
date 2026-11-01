@@ -118,7 +118,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "La fluide est conseillée en premier aux morphologies en O, en V, en H, en 8 et en X, et vaut l'essai pour une morphologie en A. Hélène et Murielle sont indiquées, sur leurs fiches, pour les six morphologies ; Ryle pour toutes, sauf la morphologie en O. Une robe bohème grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "La fluide est conseillée en premier aux morphologies en O, en V, en H, en 8 et en X, et vaut l'essai pour une morphologie en A. Hélène et Murielle sont indiquées, sur leurs fiches, pour toutes les morphologies ; Ryle pour toutes, sauf la morphologie en O. Une robe bohème grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -249,7 +249,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Les sirènes en crêpe, Milan et Amaryllis, sont indiquées sur leurs fiches pour les morphologies en H, en 8 et en X ; Maribel, Dove, Fortune, Addison et Adularia pour les six morphologies. Une robe minimaliste ne cache rien : elle se choisit avec la coupe qui vous va, et s'ajuste à vos mesures.",
+          "Les sirènes en crêpe, Milan et Amaryllis, sont indiquées sur leurs fiches pour les morphologies en H, en 8 et en X ; Maribel, Dove, Fortune, Addison et Adularia pour toutes les morphologies. Une robe minimaliste ne cache rien : elle se choisit avec la coupe qui vous va, et s'ajuste à vos mesures.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -344,7 +344,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "La dentelle ne choisit pas de morphologie : c'est la coupe qui le fait. Pendant, Aster, Charlotte, Murielle et Seraphina sont indiquées sur leurs fiches pour les six morphologies ; les sirènes en dentelle, Uma, Summer et Montana, d'abord pour les morphologies en V, en H, en 8 et en X.",
+          "La dentelle ne choisit pas de morphologie : c'est la coupe qui le fait. Pendant, Aster, Charlotte, Murielle et Seraphina sont indiquées sur leurs fiches pour toutes les morphologies ; les sirènes en dentelle, Uma, Summer et Montana, d'abord pour les morphologies en V, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -440,7 +440,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Pendant, Chastity, Seraphina et Aster sont indiquées sur leurs fiches pour les six morphologies ; Montana pour les morphologies en A, en H, en 8 et en X. Les manches ne changent pas la coupe : elles s'ajoutent à celle qui vous va.",
+          "Pendant, Chastity, Seraphina et Aster sont indiquées sur leurs fiches pour toutes les morphologies ; Montana pour les morphologies en A, en H, en 8 et en X. Les manches ne changent pas la coupe : elles s'ajoutent à celle qui vous va.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -570,7 +570,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "D'après leurs fiches, Dove, Addison, Hera et Finell sont indiquées pour les six morphologies ; Venus pour les morphologies en H, en 8 et en X, Montana pour celles en A, en H, en 8 et en X, Charlize pour celles en V, en H, en 8 et en X. Le satin dessine la silhouette telle qu'elle est : c'est l'essayage, et la confection à vos mesures, qui font le reste.",
+          "D'après leurs fiches, Dove, Addison, Hera et Finell sont indiquées pour toutes les morphologies ; Venus pour les morphologies en H, en 8 et en X, Montana pour celles en A, en H, en 8 et en X, Charlize pour celles en V, en H, en 8 et en X. Le satin dessine la silhouette telle qu'elle est : c'est l'essayage, et la confection à vos mesures, qui font le reste.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -701,7 +701,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Le bustier met le buste et les épaules en avant : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse qui équilibre. D'après leurs fiches, Finell, Fortune, Charlotte et Sienna sont indiquées pour les six morphologies, Meredith pour celles en V, en H, en 8 et en X. Pour une forte poitrine, on regarde le maintien du corsage à l'essayage, et des bretelles amovibles rassurent.",
+          "Le bustier met le buste et les épaules en avant : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse qui équilibre. D'après leurs fiches, Finell, Fortune, Charlotte et Sienna sont indiquées pour toutes les morphologies, Meredith pour celles en V, en H, en 8 et en X. Pour une forte poitrine, on regarde le maintien du corsage à l'essayage, et des bretelles amovibles rassurent.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -836,7 +836,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Le dos nu allonge le dos et dégage la nuque : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A, en particulier avec un dos en V sur une jupe fluide ou trapèze. D'après leurs fiches, Seraphina, Agnessa, Murielle, Dove et Emerald sont indiquées pour les six morphologies ; Uma pour celles en V, en H, en 8 et en X ; Venus pour celles en H, en 8 et en X ; Montana pour celles en A, en H, en 8 et en X.",
+          "Le dos nu allonge le dos et dégage la nuque : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A, en particulier avec un dos en V sur une jupe fluide ou trapèze. D'après leurs fiches, Seraphina, Agnessa, Murielle, Dove et Emerald sont indiquées pour toutes les morphologies ; Uma pour celles en V, en H, en 8 et en X ; Venus pour celles en H, en 8 et en X ; Montana pour celles en A, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -885,7 +885,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée grande taille à Paris : pas de rayon, chaque robe est confectionnée à vos mesures, retouches comprises. Showroom MADAMOON, Paris 10e.",
     note: "Faite à vos mesures, pas à une taille",
     chapo:
-      "Il n'y a pas de rayon grande taille chez MADAMOON, parce qu'il n'y a pas de rayon : chaque robe du catalogue est confectionnée à l'atelier selon vos mensurations, prises au showroom après l'essayage, et les retouches sont comprises. Les robes montrées ici sont celles dont la fiche indique les six morphologies et dont le corsage structuré assure le maintien. Les tailles proposées par chaque maison se confirment au showroom, modèle par modèle, dans le 10ᵉ, à Paris.",
+      "Il n'y a pas de rayon grande taille chez MADAMOON, parce qu'il n'y a pas de rayon : chaque robe du catalogue est confectionnée à l'atelier selon vos mensurations, prises au showroom après l'essayage, et les retouches sont comprises. Les robes montrées ici sont celles dont la fiche indique toutes les morphologies et dont le corsage structuré assure le maintien. Les tailles proposées par chaque maison se confirment au showroom, modèle par modèle, dans le 10ᵉ, à Paris.",
     coupe: { ancre: "trapeze", label: "Voir les robes trapèze" },
     ariane: { nom: "Morphologies", adresse: "/morphologies" },
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
@@ -897,7 +897,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "pendant",
             texte:
-              "Un trapèze en dentelle aux manches longues et aux épaules dénudées, indiqué sur sa fiche pour les six morphologies.",
+              "Un trapèze en dentelle aux manches longues et aux épaules dénudées, indiqué sur sa fiche pour toutes les morphologies.",
           },
           {
             slug: "charlotte",
@@ -966,14 +966,14 @@ export const PAGES_FAMILLES: PageFamille[] = [
       echo: {
         titre: "Princesse ou trapèze, selon le jour",
         texte:
-          "Sienna, de Casablanca Bridal, se porte princesse ou trapèze : un bustier au décolleté en cœur subtilement revisité, et une jupe ample en dentelle qui apporte un volume généreux. Indiquée sur sa fiche pour les six morphologies, elle s'essaie volontiers à côté des robes montrées ici.",
+          "Sienna, de Casablanca Bridal, se porte princesse ou trapèze : un bustier au décolleté en cœur subtilement revisité, et une jupe ample en dentelle qui apporte un volume généreux. Indiquée sur sa fiche pour toutes les morphologies, elle s'essaie volontiers à côté des robes montrées ici.",
         robe: "sienna",
         voir: "Voir Sienna",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Toutes les robes montrées sur cette page sont indiquées, sur leur fiche, pour les six morphologies — en O, en A, en V, en H, en 8 et en X. La grande taille n'est pas une morphologie : une silhouette en O et une silhouette en 8 ne cherchent pas la même coupe. Partez de la vôtre, puis venez essayer.",
+          "Toutes les robes montrées sur cette page sont indiquées, sur leur fiche, pour toutes les morphologies — en O, en A, en V, en H, en 8 et en X. La grande taille n'est pas une morphologie : une silhouette en O et une silhouette en 8 ne cherchent pas la même coupe. Partez de la vôtre, puis venez essayer.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1113,7 +1113,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Seraphina, Charlotte, Calla, Carrie, Hélène, Alicia et Hera sont indiquées, sur leurs fiches, pour les six morphologies ; Summer pour les morphologies en V, en 8 et en X. Santana n'a pas encore de morphologies relevées : elle s'essaie. Une robe romantique grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Seraphina, Charlotte, Calla, Carrie, Hélène, Alicia et Hera sont indiquées, sur leurs fiches, pour toutes les morphologies ; Summer pour les morphologies en V, en 8 et en X. Santana n'a pas encore de morphologies relevées : elle s'essaie. Une robe romantique grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1252,7 +1252,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Elin, River, Clover, Gabriel, Maribel et Marie sont indiquées, sur leurs fiches, pour les six morphologies ; Milan pour les morphologies en H, en 8 et en X. Bondi et Adularia n'ont pas encore de morphologies relevées : elles s'essaient. Une robe de mariage civil grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Elin, River, Clover, Gabriel, Maribel et Marie sont indiquées, sur leurs fiches, pour toutes les morphologies ; Milan pour les morphologies en H, en 8 et en X. Bondi et Adularia n'ont pas encore de morphologies relevées : elles s'essaient. Une robe de mariage civil grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1304,7 +1304,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée courte à Paris : Elin en crêpe, River au décolleté carré, Clover et Gabriel qui se rallongent d'une surjupe. Au showroom MADAMOON, Paris 10e.",
     note: "Au genou, légère, libre",
     chapo:
-      "Une robe de mariée courte n'est pas une robe de moins : c'est une robe qui se voit en entier, jambes comprises, et qui bouge avec vous. Le catalogue MADAMOON en compte quatre — Elin, River, Clover et Gabriel —, chacune confectionnée à vos mesures, et toutes s'essaient au showroom du 10ᵉ, à Paris, à côté des longues pour comparer.",
+      "Une robe de mariée courte n'est pas une robe de moins : c'est une robe qui se voit en entier, jambes comprises, et qui bouge avec vous. Le catalogue MADAMOON en propose — Elin, River, Clover et Gabriel —, chacune confectionnée à vos mesures, et toutes s'essaient au showroom du 10ᵉ, à Paris, à côté des longues pour comparer.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -1358,14 +1358,14 @@ export const PAGES_FAMILLES: PageFamille[] = [
       echo: {
         titre: "Si c'est finalement la longue",
         texte:
-          "Beaucoup de mariées venues pour une robe courte repartent avec une longue simple, et l'inverse. Milan, de Monica Loretti, est la longue qui joue le même rôle qu'une courte : crêpe léger, drapé au buste, fente sur le côté, « pour la mariée qui recherche un style raffiné et minimaliste ». Elle s'essaie à côté des quatre courtes.",
+          "Beaucoup de mariées venues pour une robe courte repartent avec une longue simple, et l'inverse. Milan, de Monica Loretti, est la longue qui joue le même rôle qu'une courte : crêpe léger, drapé au buste, fente sur le côté, « pour la mariée qui recherche un style raffiné et minimaliste ». Elle s'essaie à côté des courtes.",
         robe: "milan",
         voir: "Voir Milan",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Elin, River, Clover et Gabriel sont indiquées, sur leurs fiches, pour les six morphologies : une robe courte dessine la jambe et laisse le buste libre, ce qui convient à toutes. Une robe de mariée courte grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Elin, River, Clover et Gabriel sont indiquées, sur leurs fiches, pour toutes les morphologies : une robe courte dessine la jambe et laisse le buste libre, ce qui convient à toutes. Une robe de mariée courte grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1385,11 +1385,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Où essayer une robe de mariée courte à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer les quatre courtes, et une longue pour comparer.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer les courtes, et une longue pour comparer.`,
           },
           {
             q: "Robe de mariée courte en dentelle, à manches, ou courte devant et longue derrière ?",
-            r: "Le catalogue n'a pas de robe courte devant et longue derrière, ni de robe midi : ses quatre courtes s'arrêtent au genou. En dentelle, en tulle ou perlée, avec ou sans manches, bustier ou bretelles : Gabriel est perlée sous sa jupe transparente, Clover brodée de fleurs, River à larges bretelles, Elin en crêpe sans manche. Une courte bohème, une courte blanche pour l'hiver avec une veste : c'est l'essayage qui le dit, et la robe se fait aux mesures de chaque femme. Courte moderne ou vintage années 50, élégante avec un voile court, dos nu ou corset, en satin, à paillettes, jupe bouffante ou droite, pour une femme ronde ou une mariée senior : les quatre courtes s'essaient avec tout cela ; un nœud ou une ceinture, c'est de l'accessoire, pas du catalogue.",
+            r: "Le catalogue n'a pas de robe courte devant et longue derrière, ni de robe midi : ses courtes s'arrêtent au genou. En dentelle, en tulle ou perlée, avec ou sans manches, bustier ou bretelles : Gabriel est perlée sous sa jupe transparente, Clover brodée de fleurs, River à larges bretelles, Elin en crêpe sans manche. Une courte bohème, une courte blanche pour l'hiver avec une veste : c'est l'essayage qui le dit, et la robe se fait aux mesures de chaque femme. Courte moderne ou vintage années 50, élégante avec un voile court, dos nu ou corset, en satin, à paillettes, jupe bouffante ou droite, pour une femme ronde ou une mariée senior : les courtes s'essaient avec tout cela ; un nœud ou une ceinture, c'est de l'accessoire, pas du catalogue.",
           },
         ],
         toutes: "Tous les guides",

@@ -118,7 +118,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/o", label: "La morphologie en O" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/trouver-ma-robe", label: "Trouver ma robe avec Élise" },
       ],
     },
@@ -236,7 +236,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Chez MADAMOON",
           texte: [
-            "Le catalogue de la boutique se range en cinq coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus : un tombé d'un seul tenant, qui ne serre nulle part.",
+            "Le catalogue de la boutique se range en coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus : un tombé d'un seul tenant, qui ne serre nulle part.",
             "Si c'est cette ligne que vous cherchez, dites-le en prenant rendez-vous : la boutique vous proposera les modèles qui s'en approchent.",
           ],
         },
@@ -647,7 +647,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/a", label: "La morphologie en A" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/trouver-ma-robe", label: "Trouver ma robe avec Élise" },
       ],
     },
@@ -1167,7 +1167,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/h", label: "La morphologie en H" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/trouver-ma-robe", label: "Trouver ma robe avec Élise" },
       ],
     },
@@ -1367,7 +1367,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Chez MADAMOON",
           texte: [
-            "Le catalogue se range en cinq coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus. Si c'est cette ligne que vous cherchez, dites-le en prenant rendez-vous.",
+            "Le catalogue se range en coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus. Si c'est cette ligne que vous cherchez, dites-le en prenant rendez-vous.",
           ],
         },
       ],
@@ -1964,7 +1964,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       liens: [
         { href: "/morphologies/8", label: "La morphologie en 8" },
         { href: "/morphologies/x", label: "La morphologie en X" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
       ],
     },
 
@@ -2181,7 +2181,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/x", label: "La morphologie en X" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/trouver-ma-robe", label: "Trouver ma robe avec Élise" },
       ],
     },

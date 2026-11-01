@@ -94,7 +94,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/o", label: "The O body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/trouver-ma-robe", label: "Find my dress with Élise" },
       ],
     },
@@ -206,7 +206,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "At MADAMOON",
           texte: [
-            "The boutique's catalogue is arranged in five silhouettes — mermaid, ball gown, sheath, A-line, two-in-one — and no dress is classed as \"empire\". Sheath dresses come closest: a fall in one piece that squeezes nowhere.",
+            "The boutique's catalogue is arranged in silhouettes — mermaid, ball gown, sheath, A-line, two-in-one — and no dress is classed as \"empire\". Sheath dresses come closest: a fall in one piece that squeezes nowhere.",
             "If that is the line you are looking for, say so when you book: the boutique will suggest the models that come closest.",
           ],
         },
@@ -600,7 +600,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/a", label: "The A body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/trouver-ma-robe", label: "Find my dress with Élise" },
       ],
     },
@@ -1097,7 +1097,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/h", label: "The H body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/trouver-ma-robe", label: "Find my dress with Élise" },
       ],
     },
@@ -1287,7 +1287,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "At MADAMOON",
           texte: [
-            "The catalogue is arranged in five silhouettes — mermaid, ball gown, sheath, A-line, two-in-one — and no dress is classed as \"empire\". Sheath dresses come closest. If that is the line you are looking for, say so when you book.",
+            "The catalogue is arranged in silhouettes — mermaid, ball gown, sheath, A-line, two-in-one — and no dress is classed as \"empire\". Sheath dresses come closest. If that is the line you are looking for, say so when you book.",
           ],
         },
       ],
@@ -1857,7 +1857,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
       liens: [
         { href: "/morphologies/8", label: "The 8 body shape" },
         { href: "/morphologies/x", label: "The X body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
       ],
     },
     {
@@ -2065,7 +2065,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
       ],
       liens: [
         { href: "/morphologies/x", label: "The X body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/trouver-ma-robe", label: "Find my dress with Élise" },
       ],
     },

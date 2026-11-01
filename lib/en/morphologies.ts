@@ -1,5 +1,5 @@
 /*
- * Les six morphologies, en anglais.
+ * Les morphologies, en anglais.
  *
  * Les lettres restent. C'est le système de la maison — elles se lisent
  * en gros serif sur les photographies de l'accueil — et les traduire en

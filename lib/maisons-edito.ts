@@ -37,7 +37,7 @@ export const MAISONS_EDITO: Record<string, EditoMaison> = {
   "olya-mak": {
     titre: "Olya Mak, de Lviv au showroom",
     paragraphes: [
-      "Quatre robes, deux registres. Le court : Elin, en crêpe, pensée pour un mariage civil, et River, courte au décolleté carré et aux larges bretelles. Le long : Chastity, en dentelle à manches longues et col montant, rangée avec les deux-en-un, et Seraphina, princesse en dentelle brodée, dos nu et manches longues.",
+      "Deux registres. Le court : Elin, en crêpe, pensée pour un mariage civil, et River, courte au décolleté carré et aux larges bretelles. Le long : Chastity, en dentelle à manches longues et col montant, rangée avec les deux-en-un, et Seraphina, princesse en dentelle brodée, dos nu et manches longues.",
       "Les robes Olya Mak sont confectionnées à vos mesures après l'essayage, retouches comprises. Elles s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris, sur rendez-vous.",
     ],
   },

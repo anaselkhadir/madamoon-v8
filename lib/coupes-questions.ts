@@ -104,7 +104,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       liens: [
         { href: "/morphologies/h/robe-sirene-morphologie-h", label: "La sirène et la morphologie en H" },
         { href: "/morphologies/o/robe-sirene-morphologie-o", label: "La sirène et la morphologie en O" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
       ],
     },
 
@@ -606,7 +606,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Au catalogue",
           texte: [
-            "Plusieurs princesses de la boutique — Addison, Clover, Ember, Kensington, Livia, Seraphina — sont indiquées, sur leurs fiches, pour les six morphologies. C'est l'essayage qui tranche.",
+            "Plusieurs princesses de la boutique — Addison, Clover, Ember, Kensington, Livia, Seraphina — sont indiquées, sur leurs fiches, pour toutes les morphologies. C'est l'essayage qui tranche.",
           ],
         },
       ],
@@ -618,7 +618,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       liens: [
         { href: "/morphologies/a/robe-princesse-morphologie-a", label: "La princesse et la morphologie en A" },
         { href: "/morphologies/8/robe-princesse-morphologie-8", label: "La princesse et la morphologie en 8" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
       ],
     },
 
@@ -1192,7 +1192,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Robe de mariée fluide : à quelles morphologies convient-elle ? En premier pour O, V, H, 8 et X, à essayer pour A. Les conseils de la boutique MADAMOON, Paris.",
       chapo:
-        "Parmi les cinq coupes, c'est celle que la boutique conseille en premier au plus grand nombre de silhouettes. Voici pourquoi.",
+        "Parmi les coupes, c'est celle que la boutique conseille en premier au plus grand nombre de silhouettes. Voici pourquoi.",
       sections: [
         {
           titre: "Les morphologies pour qui elle vient en premier",
@@ -1213,7 +1213,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Au catalogue",
           texte: [
-            "Sur leurs fiches, presque toutes les fluides de la boutique sont indiquées pour les six morphologies ; Ryle l'est pour toutes, sauf la morphologie en O. C'est l'essayage qui tranche.",
+            "Sur leurs fiches, presque toutes les fluides de la boutique sont indiquées pour toutes les morphologies ; Ryle l'est pour toutes, sauf la morphologie en O. C'est l'essayage qui tranche.",
           ],
         },
       ],
@@ -1606,7 +1606,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Au catalogue",
           texte: [
-            "Presque toutes les fluides de la boutique sont indiquées, sur leurs fiches, pour les six morphologies. L'essayage montre laquelle est la vôtre.",
+            "Presque toutes les fluides de la boutique sont indiquées, sur leurs fiches, pour toutes les morphologies. L'essayage montre laquelle est la vôtre.",
           ],
         },
       ],
@@ -1616,7 +1616,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         "L'essayage tranche.",
       ],
       liens: [
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/morphologies/x/robe-fluide-silhouette-equilibree", label: "La fluide et une silhouette équilibrée" },
         { href: "/robes/agnessa", label: "Agnessa" },
       ],
@@ -1712,7 +1712,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-trapeze-quelle-morphologie",
       q: "À quelle morphologie la robe trapèze convient-elle ?",
-      r: "Elle fait partie des premières coupes à essayer pour les morphologies en O, en A, en 8 et en X. Pour une morphologie en V ou en H, elle vient en second, et vaut l'essai. Toutes les trapèzes du catalogue sont indiquées, sur leurs fiches, pour les six morphologies.",
+      r: "Elle fait partie des premières coupes à essayer pour les morphologies en O, en A, en 8 et en X. Pour une morphologie en V ou en H, elle vient en second, et vaut l'essai. Toutes les trapèzes du catalogue sont indiquées, sur leurs fiches, pour toutes les morphologies.",
       description:
         "Robe de mariée trapèze : à quelles morphologies convient-elle ? En premier pour O, A, 8 et X, à essayer pour V et H. Les conseils de la boutique MADAMOON.",
       chapo:
@@ -1736,19 +1736,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Au catalogue",
           texte: [
-            "Les dix-neuf trapèzes de la boutique sont indiquées, sur leurs fiches, pour les six morphologies : c'est la coupe la plus facile à porter. L'essayage choisit entre elles.",
+            "Les trapèzes de la boutique sont indiquées, sur leurs fiches, pour toutes les morphologies : c'est la coupe la plus facile à porter. L'essayage choisit entre elles.",
           ],
         },
       ],
       aRetenir: [
         "En premier pour O, A, 8 et X.",
         "À essayer pour V et H.",
-        "Toutes les trapèzes vont aux six morphologies.",
+        "Toutes les trapèzes vont à toutes les morphologies.",
       ],
       liens: [
         { href: "/morphologies/a/robe-trapeze-morphologie-a", label: "La trapèze et la morphologie en A" },
         { href: "/morphologies/o/robe-trapeze-morphologie-o", label: "La trapèze et la morphologie en O" },
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
       ],
     },
 
@@ -2508,7 +2508,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-deux-en-un-quelle-morphologie",
       q: "Quelle morphologie peut porter une robe deux-en-un ?",
-      r: "Toutes, à condition de regarder les deux versions : une deux-en-un a la ligne de sa robe de base. La boutique la conseille en premier aux morphologies en 8 et en X, en second aux morphologies en A et en V. Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour les six morphologies.",
+      r: "Toutes, à condition de regarder les deux versions : une deux-en-un a la ligne de sa robe de base. La boutique la conseille en premier aux morphologies en 8 et en X, en second aux morphologies en A et en V. Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour toutes les morphologies.",
       description:
         "Robe de mariée deux-en-un : quelles morphologies ? En premier pour 8 et X, à essayer pour A et V ; Clover, Gabriel et Chastity pour toutes. Conseils MADAMOON.",
       chapo:
@@ -2525,7 +2525,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Robe par robe",
           texte: [
-            "Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour les six morphologies. Tessa, qui est une sirène, l'est pour les morphologies en V, en H, en 8 et en X — comme Mira.",
+            "Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour toutes les morphologies. Tessa, qui est une sirène, l'est pour les morphologies en V, en H, en 8 et en X — comme Mira.",
           ],
         },
         {
@@ -2541,7 +2541,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         "La robe de base décide.",
       ],
       liens: [
-        { href: "/morphologies", label: "Les six morphologies" },
+        { href: "/morphologies", label: "Les morphologies" },
         { href: "/robes/clover", label: "Clover" },
         { href: "/robes/chastity", label: "Chastity" },
       ],

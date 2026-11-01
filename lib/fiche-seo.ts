@@ -219,10 +219,10 @@ export function ficheSeo(robe: Robe, langue: Langue): FicheSeo {
   const p3 = servies.length
     ? fr
       ? toutes
-        ? `D'après sa fiche, ${nom} va aux six morphologies — ${lettresDites(servies, langue)}. C'est rare, et c'est ce qui en fait une valeur sûre à l'essayage : elle ouvre des pistes sans en fermer aucune.`
+        ? `D'après sa fiche, ${nom} va à toutes les morphologies — ${lettresDites(servies, langue)}. C'est rare, et c'est ce qui en fait une valeur sûre à l'essayage : elle ouvre des pistes sans en fermer aucune.`
         : `D'après sa fiche, ${nom} est d'abord conseillée aux morphologies ${lettresDites(servies, langue)}. Une morphologie ouvre des pistes, elle n'en ferme aucune : rien n'empêche de l'essayer autrement.`
       : toutes
-        ? `According to its sheet, ${nom} suits all six body shapes — ${lettresDites(servies, langue)}. That is rare, and what makes it a safe bet at a fitting.`
+        ? `According to its sheet, ${nom} suits every body shape — ${lettresDites(servies, langue)}. That is rare, and what makes it a safe bet at a fitting.`
         : `According to its sheet, ${nom} is first recommended for the ${lettresDites(servies, langue)} shapes. A body shape opens paths, it closes none: nothing stops you trying it otherwise.`
     : fr
       ? `Sa fiche ne précise pas encore les morphologies ${/^[aeiouyhàâäéèêëîïôöùûüAEIOUYHÀÂÄÉÈÊËÎÏÔÖÙÛÜ]/.test(nom) ? `qu’${nom}` : `que ${nom}`} sert en premier : elle s'essaie, et Élise, notre conseillère, vous guide en trois questions depuis votre silhouette.`
@@ -270,7 +270,7 @@ export function ficheSeo(robe: Robe, langue: Langue): FicheSeo {
     ? [
         { q: `Quelle est la coupe de la robe ${nom} ?`, r: `${nom} est une robe de mariée ${coupeBas} — ${familleTxt} Sa ligne, telle que la maison l'écrit : ${ligneBasse}.` },
         servies.length
-          ? { q: `À quelles morphologies va ${nom} ?`, r: toutes ? `D'après sa fiche, aux six morphologies, en O, en A, en V, en H, en 8 et en X. Elle est confectionnée à vos mesures, quelle que soit votre taille.` : `D'après sa fiche, d'abord aux morphologies ${lettresDites(servies, langue)} ; elle s'essaie aussi autrement, et se fait à vos mesures, quelle que soit votre taille.` }
+          ? { q: `À quelles morphologies va ${nom} ?`, r: toutes ? `D'après sa fiche, à toutes les morphologies, en O, en A, en V, en H, en 8 et en X. Elle est confectionnée à vos mesures, quelle que soit votre taille.` : `D'après sa fiche, d'abord aux morphologies ${lettresDites(servies, langue)} ; elle s'essaie aussi autrement, et se fait à vos mesures, quelle que soit votre taille.` }
           : { q: `Comment savoir si ${nom} me va ?`, r: `En l'essayant : le showroom est privatisé pour vous pendant une heure, et Élise, notre conseillère, vous oriente depuis votre morphologie en trois questions.` },
         { q: `Quel est le prix de la robe ${nom} ?`, r: `Le site n'affiche pas de prix par modèle. Les robes ${semi ? "en semi-mesure" : "sur mesure"} commencent à ${MAISON.prixDepart}, retouches comprises ; le prix ${deNom} vous est donné au showroom selon le modèle et la matière.` },
         { q: `Où essayer ${nom} à Paris ?`, r: `Au showroom MADAMOON, ${lieu}, sur rendez-vous. Le rendez-vous se prend en ligne ou par téléphone, et l'essayage est gratuit pour la mariée et deux accompagnants.` },
@@ -278,7 +278,7 @@ export function ficheSeo(robe: Robe, langue: Langue): FicheSeo {
     : [
         { q: `What silhouette is the ${nom} dress?`, r: `${nom} is a ${coupeBas} wedding dress — ${familleTxt} Its line, as the house writes it: ${ligneBasse}.` },
         servies.length
-          ? { q: `Which body shapes does ${nom} suit?`, r: toutes ? `According to its sheet, all six body shapes — O, A, V, H, 8 and X. It is made to your measurements, whatever your size.` : `According to its sheet, first the ${lettresDites(servies, langue)} shapes; it can be tried otherwise, and is made to your measurements, whatever your size.` }
+          ? { q: `Which body shapes does ${nom} suit?`, r: toutes ? `According to its sheet, every body shape — O, A, V, H, 8 and X. It is made to your measurements, whatever your size.` : `According to its sheet, first the ${lettresDites(servies, langue)} shapes; it can be tried otherwise, and is made to your measurements, whatever your size.` }
           : { q: `How do I know if ${nom} suits me?`, r: `By trying it on: the showroom is yours alone for an hour, and Élise, our adviser, guides you from your body shape in three questions.` },
         { q: `How much does the ${nom} dress cost?`, r: `The site shows no price per model. ${semi ? "Semi-bespoke" : "Made-to-measure"} dresses start at €1,500, alterations included; the price of ${nom} is given in the showroom, for the model and fabric chosen.` },
         { q: `Where can I try on ${nom} in Paris?`, r: `At the MADAMOON showroom, ${lieu}, by appointment. Appointments are booked online or by phone, and the fitting is free for the bride and two guests.` },

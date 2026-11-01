@@ -4,7 +4,7 @@ Base : 13013 expressions  dont 6176 ciblées sur 37 pages (30 construites). Volu
 
 | Mesure | Expressions | Part | Volume |
 |---|---:|---:|---:|
-| Verbatim sur la page cible | 170 | 3% | 118 120 |
+| Verbatim sur la page cible | 171 | 3% | 118 210 |
 | Verbatim quelque part sur le site | 272 | 4% | 148 480 |
 | Vocabulaire complet sur la page cible | 4121 | 67% | 405 020 |
 | **Couvertes (verbatim ou vocabulaire)** | **4122** | **67%** | **405 410** |
@@ -13,7 +13,7 @@ Base : 13013 expressions  dont 6176 ciblées sur 37 pages (30 construites). Volu
 
 | Page | Existe | Expressions | Verbatim | Vocabulaire | Couvertes | Volume |
 |---|---|---:|---:|---:|---:|---:|
-| `/robes/` | oui | 1087 | 17 | 337 | 337 | 120 420 |
+| `/robes/` | oui | 1087 | 18 | 337 | 337 | 120 420 |
 | `/` | oui | 433 | 15 | 268 | 268 | 54 130 |
 | `/styles/boheme/` | oui | 368 | 19 | 318 | 318 | 44 340 |
 | `/details/courte/` | oui | 245 | 11 | 186 | 186 | 27 350 |

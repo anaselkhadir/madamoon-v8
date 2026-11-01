@@ -100,12 +100,12 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
       q: "Quelles robes de mariée en mousseline propose le showroom ?",
       r: "Hélène, au corset perlé à fleurs en relief et à la jupe fluide en mousseline ; Maribel, fluide minimaliste en mousseline stretch au corsage brodé à la main ; Murielle, dentelle florale et mousseline. La mousseline est la matière des robes fluides bohèmes : légère, elle bouge et laisse respirer.",
       description:
-        "Robe de mariée en mousseline : Hélène, Maribel, Murielle, trois fluides légères à essayer au showroom MADAMOON, Paris 10e. La matière des mariages d'été.",
+        "Robe de mariée en mousseline : Hélène, Maribel, Murielle, des fluides légères à essayer au showroom MADAMOON, Paris 10e. La matière des mariages d'été.",
       chapo:
-        "La robe mariée mousseline est la plus légère du catalogue. Voici les trois fluides qui en sont faites, et à quoi elle sert.",
+        "La robe mariée mousseline est la plus légère du catalogue. Voici les fluides qui en sont faites, et à quoi elle sert.",
       sections: [
         {
-          titre: "Les trois robes en mousseline",
+          titre: "Les robes en mousseline",
           texte: [
             "Hélène : un corset lumineux en dentelle ornée de petites perles et de fleurs en relief, une jupe en mousseline délicate et légère — « un maximum de confort », dit sa fiche. Maribel : une fluide minimaliste en mousseline stretch, décolleté en V, corsage brodé et perlé à la main, fente et traîne légère. Murielle : dentelle florale et mousseline, décolleté plongeant, manches illusion et fente.",
           ],

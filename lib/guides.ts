@@ -235,7 +235,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Choisir la coupe",
         texte: [
-          "Cinq coupes font le catalogue : la sirène, qui épouse le corps jusqu'aux genoux ; la princesse, au corsage ajusté et à la jupe ample ; le trapèze, qui s'évase doucement depuis la taille ; la fluide, qui tombe et bouge ; et les deux-en-un, à surjupe détachable, qui changent d'allure entre la cérémonie et la fête. Quelques robes courtes — Elin, River, Clover — se rangent dans ces coupes, pour la mairie.",
+          "Les coupes du catalogue : la sirène, qui épouse le corps jusqu'aux genoux ; la princesse, au corsage ajusté et à la jupe ample ; le trapèze, qui s'évase doucement depuis la taille ; la fluide, qui tombe et bouge ; et les deux-en-un, à surjupe détachable, qui changent d'allure entre la cérémonie et la fête. Quelques robes courtes — Elin, River, Clover — se rangent dans ces coupes, pour la mairie.",
         ],
       },
       {
@@ -371,7 +371,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Mathilda, pensée pour la femme enceinte",
         texte: [
-          "Mathilda, de Monica Loretti, est d'après sa fiche une robe de mariée fluide et romantique spécialement pensée pour la femme enceinte : elle permet de célébrer le mariage avec confort et style, pour une silhouette douce, élégante et intemporelle. Elle est indiquée pour les six morphologies et rangée avec les fluides.",
+          "Mathilda, de Monica Loretti, est d'après sa fiche une robe de mariée fluide et romantique spécialement pensée pour la femme enceinte : elle permet de célébrer le mariage avec confort et style, pour une silhouette douce, élégante et intemporelle. Elle est indiquée pour toutes les morphologies et rangée avec les fluides.",
         ],
       },
       {

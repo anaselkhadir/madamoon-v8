@@ -1,6 +1,6 @@
 import Link from "@/components/Lien";
 import TitreSection from "@/components/TitreSection";
-import { MAISON, ROBES } from "@/lib/madamoon";
+import { MAISON } from "@/lib/madamoon";
 import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 
 /*
@@ -22,7 +22,7 @@ export default function Edito() {
             Chercher une boutique de robe de mariée à Paris — un magasin de robes de mariée, un showroom, les mots changent et le besoin reste — commence rarement par une robe. Cela commence par une heure : celle où le showroom MADAMOON, {MAISON.adresse}, dans le 10ᵉ arrondissement, est privatisé pour vous. On n'y essaie pas tout ; on y essaie ce qu'il faut, en partant de la coupe qui vous ressemble, puis de la maison qui la fait le mieux. Où acheter sa robe de mariée, où l'essayer « autour de moi » quand on cherche à Paris : ici, et nulle part ailleurs en France. Pas de liste de magasins, pas de robe pas cher : une adresse, et une heure pour vous. Meilleure boutique de robe de mariée à Paris, la mieux notée, dans quel quartier ? Lisez les avis de la maison et venez voir : en Île-de-France comme à Paris, un seul showroom, dans le 10ᵉ, sur rdv, et aucune location de robe.
           </p>
           <p className="mt-5">
-            MADAMOON est une boutique, pas une maison de couture : ses {ROBES.length} robes de mariée viennent de plusieurs créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de {MAISON.prixDepart}, retouches comprises.
+            MADAMOON est une boutique, pas une maison de couture : ses robes de mariée viennent de plusieurs créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de {MAISON.prixDepart}, retouches comprises.
           </p>
           <p className="mt-5">
             Une <Link href="/coupes/sirene" className="souligne">robe de mariée sirène</Link> dessine la taille et les hanches ; une <Link href="/coupes/princesse" className="souligne">princesse</Link> assume le volume ; une <Link href="/coupes/fluide" className="souligne">robe fluide</Link> suit le mouvement ; un <Link href="/coupes/trapeze" className="souligne">trapèze</Link> s'ouvre en A ; une <Link href="/coupes/deux-en-un" className="souligne">deux-en-un</Link> change d'allure entre la cérémonie et la soirée. Avant le goût, la <Link href="/morphologies" className="souligne">morphologie</Link> décide souvent : c'est par elle que l'on vous conseille.

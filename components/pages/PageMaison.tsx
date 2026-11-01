@@ -162,7 +162,7 @@ export default async function PageMaison({
               </p>
             ))}
             <p className="texte mesure-l">
-              Au catalogue, {robes.length} robe{robes.length > 1 ? "s" : ""} {nomMaison} :{" "}
+              Au catalogue, les robes {nomMaison} se déclinent ainsi :{" "}
               {coupes.map((c) => coupeNom(c, langue).toLowerCase()).join(", ")}. Chacune a sa fiche, ses
               vues et ses morphologies.
             </p>

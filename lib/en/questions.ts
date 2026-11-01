@@ -381,7 +381,7 @@ export const ARTICLES_EN: Article[] = [
       "These are pointers: the fitting decides.",
     ],
     liens: [
-      { href: "/morphologies", label: "The six body shapes" },
+      { href: "/morphologies", label: "The body shapes" },
       { href: "/trouver-ma-robe", label: "Find my dress with Élise" },
       { href: "/coupes", label: "Silhouettes" },
     ],
@@ -881,14 +881,14 @@ export const ARTICLES_EN: Article[] = [
       {
         titre: "The dresses",
         texte: [
-          "Those of four houses — Casablanca Bridal, Watters Designs, Monica Loretti and Olya Mak — in five silhouettes: mermaid, ball gown, sheath, A-line and two-in-one. The dresses are then made in the atelier, to your measurements, alterations included.",
+          "Those of several houses — Casablanca Bridal, Watters Designs, Monica Loretti and Olya Mak — in every silhouette: mermaid, ball gown, sheath, A-line and two-in-one. The dresses are then made in the atelier, to your measurements, alterations included.",
         ],
       },
     ],
     aRetenir: [
       ADDRESS,
       "By appointment, the showroom reserved for an hour.",
-      "Four houses, five silhouettes.",
+      "Several houses, every silhouette.",
     ],
     liens: [
       { href: "/showroom", label: "Discover the showroom" },
@@ -955,7 +955,7 @@ export const ARTICLES_EN: Article[] = [
         ],
       },
       {
-        titre: "The five silhouettes",
+        titre: "The silhouettes",
         texte: [],
         liste: [
           "Mermaid — fitted to the thighs, then flared.",
@@ -978,7 +978,7 @@ export const ARTICLES_EN: Article[] = [
       "Try your dream silhouette, then its opposite.",
     ],
     liens: [
-      { href: "/coupes", label: "The five silhouettes" },
+      { href: "/coupes", label: "The silhouettes" },
       { href: `/faq/${SLUGS_QUESTIONS[15]}`, label: "How many dresses to try" },
       { href: "/morphologies", label: "Body shapes" },
     ],

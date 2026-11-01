@@ -434,7 +434,7 @@ export const ARTICLES: Article[] = [
       "Il n'y a pas de robe interdite : il y a des coupes qui servent mieux certaines silhouettes. Voici les pistes que la boutique donne, morphologie par morphologie.",
     sections: [
       {
-        titre: "Six silhouettes, six points de départ",
+        titre: "Une silhouette, un point de départ",
         texte: ["Les coupes à essayer en premier, selon votre morphologie :"],
         liste: [
           "En O — des courbes généreuses : les coupes fluides et trapèze allongent la ligne ; un décolleté en V ou en cœur met la poitrine en valeur.",
@@ -466,7 +466,7 @@ export const ARTICLES: Article[] = [
       "Ce sont des pistes : l'essayage tranche.",
     ],
     liens: [
-      { href: "/morphologies", label: "Les six morphologies" },
+      { href: "/morphologies", label: "Les morphologies" },
       { href: "/trouver-ma-robe", label: "Trouver ma robe avec Élise" },
       { href: "/coupes", label: "Les coupes" },
     ],
@@ -968,14 +968,14 @@ export const ARTICLES: Article[] = [
       {
         titre: "Les robes",
         texte: [
-          "Celles de quatre maisons — Casablanca Bridal, Watters Designs, Monica Loretti et Olya Mak —, dans cinq coupes : sirène, princesse, fluide, trapèze et deux-en-un. Les robes sont ensuite confectionnées à l'atelier, à vos mesures, retouches incluses.",
+          "Celles de plusieurs maisons — Casablanca Bridal, Watters Designs, Monica Loretti et Olya Mak —, dans toutes les coupes : sirène, princesse, fluide, trapèze et deux-en-un. Les robes sont ensuite confectionnées à l'atelier, à vos mesures, retouches incluses.",
         ],
       },
     ],
     aRetenir: [
       ADRESSE,
       "Sur rendez-vous, showroom privatisé pendant une heure.",
-      "Quatre maisons, cinq coupes.",
+      "Plusieurs maisons, toutes les coupes.",
     ],
     liens: [
       { href: "/showroom", label: "Découvrir le showroom" },
@@ -1042,7 +1042,7 @@ export const ARTICLES: Article[] = [
         ],
       },
       {
-        titre: "Les cinq coupes",
+        titre: "Les coupes",
         texte: [],
         liste: [
           "La sirène — ajustée jusqu'aux cuisses, puis évasée.",
@@ -1065,7 +1065,7 @@ export const ARTICLES: Article[] = [
       "Essayez la coupe rêvée, puis son contraire.",
     ],
     liens: [
-      { href: "/coupes", label: "Les cinq coupes" },
+      { href: "/coupes", label: "Les coupes" },
       { href: `/faq/${SLUGS_QUESTIONS[15]}`, label: "Combien de robes essayer" },
       { href: "/morphologies", label: "Les morphologies" },
     ],

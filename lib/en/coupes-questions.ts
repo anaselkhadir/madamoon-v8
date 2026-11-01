@@ -90,7 +90,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       liens: [
         { href: "/morphologies/h/robe-sirene-morphologie-h", label: "The mermaid and the H body shape" },
         { href: "/morphologies/o/robe-sirene-morphologie-o", label: "The mermaid and the O body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
       ],
     },
     {
@@ -565,7 +565,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         {
           titre: "In the catalogue",
           texte: [
-            "Several of the boutique's ball gowns — Addison, Clover, Ember, Kensington, Livia, Seraphina — are listed, on their pages, for all six body shapes. The fitting decides.",
+            "Several of the boutique's ball gowns — Addison, Clover, Ember, Kensington, Livia, Seraphina — are listed, on their pages, for every body shape. The fitting decides.",
           ],
         },
       ],
@@ -577,7 +577,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       liens: [
         { href: "/morphologies/a/robe-princesse-morphologie-a", label: "The ball gown and the A body shape" },
         { href: "/morphologies/8/robe-princesse-morphologie-8", label: "The ball gown and the 8 body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
       ],
     },
     {
@@ -1122,7 +1122,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       description:
         "Sheath wedding dress: which body shapes does it suit? First for O, V, H, 8 and X, worth trying for A. Advice from the MADAMOON boutique, Paris.",
       chapo:
-        "Of the five silhouettes, it is the one the boutique recommends first to the most figures. Here is why.",
+        "Of the silhouettes, it is the one the boutique recommends first to the most figures. Here is why.",
       sections: [
         {
           titre: "The body shapes it comes first for",
@@ -1143,7 +1143,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         {
           titre: "In the catalogue",
           texte: [
-            "On their pages, almost all the boutique's sheath dresses are listed for all six body shapes; Ryle is listed for all but the O. The fitting decides.",
+            "On their pages, almost all the boutique's sheath dresses are listed for every body shape; Ryle is listed for all but the O. The fitting decides.",
           ],
         },
       ],
@@ -1516,7 +1516,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         {
           titre: "In the catalogue",
           texte: [
-            "Almost all the boutique's sheath dresses are listed, on their pages, for all six body shapes. The fitting shows which one is yours.",
+            "Almost all the boutique's sheath dresses are listed, on their pages, for every body shape. The fitting shows which one is yours.",
           ],
         },
       ],
@@ -1526,7 +1526,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         "The fitting decides.",
       ],
       liens: [
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/morphologies/x/robe-fluide-silhouette-equilibree", label: "The sheath and a balanced figure" },
         { href: "/robes/agnessa", label: "Agnessa" },
       ],
@@ -1617,7 +1617,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
     {
       slug: fr("trapeze", 2),
       q: "Which body shape does an A-line dress suit?",
-      r: "It is one of the first silhouettes to try for the O, A, 8 and X body shapes. For a V or H body shape, it comes second, and is worth trying. Every A-line dress in the catalogue is listed, on its page, for all six body shapes.",
+      r: "It is one of the first silhouettes to try for the O, A, 8 and X body shapes. For a V or H body shape, it comes second, and is worth trying. Every A-line dress in the catalogue is listed, on its page, for every body shape.",
       description:
         "A-line wedding dress: which body shapes does it suit? First for O, A, 8 and X, worth trying for V and H. Advice from the MADAMOON boutique.",
       chapo:
@@ -1641,19 +1641,19 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         {
           titre: "In the catalogue",
           texte: [
-            "All nineteen of the boutique's A-line dresses are listed, on their pages, for all six body shapes: it is the easiest silhouette to wear. The fitting chooses between them.",
+            "All the boutique's A-line dresses are listed, on their pages, for every body shape: it is the easiest silhouette to wear. The fitting chooses between them.",
           ],
         },
       ],
       aRetenir: [
         "First for O, A, 8 and X.",
         "Worth trying for V and H.",
-        "Every A-line suits all six body shapes.",
+        "Every A-line suits every body shape.",
       ],
       liens: [
         { href: "/morphologies/a/robe-trapeze-morphologie-a", label: "The A-line and the A body shape" },
         { href: "/morphologies/o/robe-trapeze-morphologie-o", label: "The A-line and the O body shape" },
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
       ],
     },
     {
@@ -2374,7 +2374,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
     {
       slug: fr("deux-en-un", 8),
       q: "Which body shape can wear a two-in-one dress?",
-      r: "All of them, provided you look at both versions: a two-in-one has the line of its base dress. The boutique recommends it first for the 8 and X body shapes, second for the A and V. Clover, Gabriel and Chastity are listed, on their pages, for all six body shapes.",
+      r: "All of them, provided you look at both versions: a two-in-one has the line of its base dress. The boutique recommends it first for the 8 and X body shapes, second for the A and V. Clover, Gabriel and Chastity are listed, on their pages, for every body shape.",
       description:
         "Two-in-one wedding dress: which body shapes? First for 8 and X, worth trying for A and V; Clover, Gabriel and Chastity for all. Advice from MADAMOON.",
       chapo:
@@ -2391,7 +2391,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         {
           titre: "Dress by dress",
           texte: [
-            "Clover, Gabriel and Chastity are listed, on their pages, for all six body shapes. Tessa, a mermaid, is listed for the V, H, 8 and X body shapes — as is Mira.",
+            "Clover, Gabriel and Chastity are listed, on their pages, for every body shape. Tessa, a mermaid, is listed for the V, H, 8 and X body shapes — as is Mira.",
           ],
         },
         {
@@ -2407,7 +2407,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
         "The base dress decides.",
       ],
       liens: [
-        { href: "/morphologies", label: "The six body shapes" },
+        { href: "/morphologies", label: "The body shapes" },
         { href: "/robes/clover", label: "Clover" },
         { href: "/robes/chastity", label: "Chastity" },
       ],
