@@ -964,6 +964,273 @@ export const PAGES_FAMILLES: PageFamille[] = [
       },
     },
   },
+
+  /* ————————————————————————————————————————————— romantique —————
+   *
+   * Vague E. Le romantique n'est pas une coupe : Santana est une
+   * princesse, Charlotte un trapèze, Summer une sirène. Ce qui les
+   * range ensemble, ce sont les mots de leurs fiches — « romantique »,
+   * « féerique », « conte de fées », la dentelle florale, le tulle. */
+  {
+    famille: "styles",
+    slug: "romantique",
+    titre: "Robe de mariée romantique à Paris",
+    description:
+      "Robe de mariée romantique à Paris : dentelle florale, tulle, corsage perlé. Santana, Seraphina, Charlotte, Calla, Carrie… au showroom MADAMOON, Paris 10e.",
+    note: "Dentelle, tulle, fleurs",
+    chapo:
+      "Une robe de mariée romantique se reconnaît à ses matières plus qu'à sa coupe : de la dentelle florale, du tulle qui respire, un corsage brodé de fleurs ou de perles, un décolleté en cœur. Chez MADAMOON, ces robes viennent de Casablanca Bridal, Watters Designs, Olya Mak et Monica Loretti, et s'essaient au showroom du 10ᵉ, à Paris, princesse, trapèze ou sirène côte à côte.",
+    morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
+    style: {
+      voirLaCoupe: "Toutes les robes",
+      robes: {
+        titre: "Nos robes de mariée romantiques",
+        liste: [
+          {
+            slug: "santana",
+            texte:
+              "Une princesse « inspirée des contes de fées », d'après sa fiche : corsage transparent en dentelle florale, jupe volumineuse en tulle et organza à motifs floraux, ourlet festonné. Romantique, aérienne, féerique.",
+          },
+          {
+            slug: "seraphina",
+            texte:
+              "Une princesse en dentelle richement brodée à la main, manches longues, dos nu : chaque application florale est posée à la main, et c'est elle qui donne à la robe sa dimension romantique.",
+          },
+          {
+            slug: "charlotte",
+            texte:
+              "Un bustier au décolleté en cœur, un corset en taille basque et la dentelle Caterina : « le rêve de la mariée romantique et élégante », dit sa fiche. Elle existe aussi en version plus couvrante.",
+          },
+          {
+            slug: "calla",
+            texte:
+              "Tulle très souple et dentelle Highclare, décolleté arrondi, corsage façon corset : une allure douce et aérienne, légère et naturelle.",
+          },
+          {
+            slug: "carrie",
+            texte:
+              "« Un rêve de conte de fées » : un corsage brodé de perles en feuilles et lianes, de fines doubles bretelles, et plusieurs couches de tulle pailleté. Le romantique qui scintille.",
+          },
+          {
+            slug: "summer",
+            texte:
+              "Une sirène évasée en dentelle d'Alençon, décolleté en V et longue traîne : la dentelle française pour une allure « à la fois romantique et glamour ».",
+          },
+          {
+            slug: "helene",
+            texte:
+              "Un corset en dentelle ornée de petites perles et de fleurs en relief, une jupe fluide en mousseline : le romantique qui bouge, à la frontière du bohème.",
+          },
+          {
+            slug: "alicia",
+            texte:
+              "Dentelle et tulle, épaules dégagées et fente, en trapèze ou en volume princesse : « un look féerique et mémorable », d'après sa fiche.",
+          },
+          {
+            slug: "hera",
+            texte:
+              "Un trapèze en satin au décolleté Bardot, une fente sur le devant qui contraste avec « le volume romantique de la jupe » : romantique, moderne et intemporelle.",
+          },
+        ],
+      },
+      colonnes: [
+        {
+          titre: "Ce qui fait le romantique",
+          texte:
+            "La dentelle florale, en premier : brodée à la main chez Seraphina, Caterina chez Charlotte, d'Alençon chez Summer, Highclare chez Calla. Puis le tulle, qui donne du volume sans peser, et les fleurs — en relief sur le corset d'Hélène, en perles sur celui de Carrie. Un décolleté en cœur, enfin, que Charlotte et Santana portent chacune à sa façon.",
+        },
+        {
+          titre: "Romantique ou féerique ?",
+          texte:
+            "Le féerique est le romantique en plus grand : du volume, du tulle en couches, un peu d'éclat. Santana, Carrie et Alicia sont décrites ainsi sur leurs fiches — contes de fées, tulle pailleté, « look féerique ». Le romantique peut aussi rester près du corps : Summer et Seraphina le prouvent, chacune dans sa coupe.",
+        },
+        {
+          titre: "Princesse, trapèze ou sirène",
+          texte:
+            "Le romantique traverse les coupes. En princesse, Santana et Seraphina déploient la jupe ; en trapèze, Charlotte, Calla, Carrie et Hera gardent une ligne plus simple ; en sirène, Summer dessine le corps. Au showroom, on les essaie dans cet ordre, ou dans l'autre : la coupe se choisit sur vous, le style est déjà là.",
+        },
+        {
+          titre: "Romantique, pas chargé",
+          texte:
+            "Une robe romantique réussie tient à un détail dominant, rarement à trois : la dentelle, ou les fleurs, ou l'éclat. C'est ce qui sépare Calla, toute en douceur, de Carrie, toute en lumière. Chaque robe est ensuite confectionnée à vos mesures, retouches comprises — un corsage qui tombe juste fait plus pour le romantique qu'un volant de plus.",
+        },
+      ],
+      echo: {
+        titre: "Le romantisme couvert",
+        texte:
+          "Pour un romantique plus traditionnel, Chastity, d'Olya Mak, recouvre entièrement le corsage et les manches longues d'une dentelle fine, avec un col montant et une longue traîne : « élégance, romantisme et charme traditionnel », d'après sa fiche. Elle est rangée avec les deux-en-un, et s'essaie à côté des robes romantiques.",
+        robe: "chastity",
+        voir: "Voir Chastity",
+      },
+      pourQui: {
+        titre: "À qui elle va",
+        texte:
+          "Seraphina, Charlotte, Calla, Carrie, Hélène, Alicia et Hera sont indiquées, sur leurs fiches, pour les six morphologies ; Summer pour les morphologies en V, en 8 et en X. Santana n'a pas encore de morphologies relevées : elle s'essaie. Une robe romantique grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+        toutes: "Toutes les morphologies",
+      },
+      questions: {
+        titre: "Les questions",
+        liste: [
+          {
+            q: "Quelle coupe pour une robe de mariée romantique ?",
+            r: "Toutes, à condition de garder les matières du romantique. La princesse en est l'image la plus attendue — Santana, Seraphina — ; le trapèze la rend plus légère — Charlotte, Calla, Carrie — ; la sirène la rend plus près du corps — Summer. Le style est dans la dentelle et le tulle, pas dans la coupe.",
+          },
+          {
+            q: "Qu'est-ce qu'une robe de mariée féerique ?",
+            r: "Une robe romantique qui prend de l'ampleur et de l'éclat : plusieurs couches de tulle, un corsage perlé ou brodé, parfois un peu de paillettes. Santana est « inspirée des contes de fées », Carrie est « un rêve de conte de fées », Alicia promet « un look féerique » : ce sont les mots de leurs fiches.",
+          },
+          {
+            q: "Romantique ou bohème, quelle différence ?",
+            r: "Le bohème cherche la légèreté et le naturel — mousseline, manches transparentes, pas de longue traîne. Le romantique accepte le volume, la traîne et le corsage travaillé. Hélène est à la frontière des deux : son corset perlé à fleurs est romantique, sa jupe en mousseline est bohème. Les deux pages se lisent ensemble.",
+          },
+          {
+            q: "Où essayer une robe de mariée romantique à Paris ?",
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer une princesse en tulle, un trapèze en dentelle et une sirène, côte à côte.`,
+          },
+        ],
+        toutes: "Tous les guides",
+      },
+      fin: {
+        titre: "Essayer une robe romantique en showroom",
+        texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
+      },
+    },
+  },
+
+  /* ————————————————————————————————————————————— mariage civil —————
+   *
+   * Vague E. Pas de rayon « mairie » au catalogue, et aucune
+   * combinaison : la page le dit. Ce qu'elle montre, ce sont les robes
+   * courtes — Elin, dont la fiche parle d'une cérémonie civile, River,
+   * Clover, Gabriel — et les robes simples en crêpe ou en charmeuse,
+   * qui jouent le même rôle. La page ne prétend pas que la maison
+   * s'adresse d'abord aux mariages civils : elle dit ce qui, dans son
+   * catalogue, convient à la mairie. */
+  {
+    famille: "styles",
+    slug: "mariage-civil",
+    titre: "Robe de mariée pour un mariage civil à Paris",
+    description:
+      "Robe pour un mariage civil à Paris : courtes en crêpe, deux-en-un à surjupe, robes simples. Elin, River, Clover, Gabriel, Milan… showroom MADAMOON, Paris 10e.",
+    note: "Courte, simple, mairie",
+    chapo:
+      "Une robe de mariage civil se choisit pour une cérémonie courte, souvent en ville, parfois quelques semaines avant la grande fête : une robe courte, ou une robe simple en crêpe, facile à porter et à photographier sur les marches de la mairie. Chez MADAMOON, ce sont Elin, River, Clover et Gabriel pour le court, Milan, Bondi, Adularia et Maribel pour le simple — toutes à essayer au showroom du 10ᵉ, à Paris.",
+    morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
+    style: {
+      voirLaCoupe: "Toutes les robes",
+      robes: {
+        titre: "Nos robes pour un mariage civil",
+        liste: [
+          {
+            slug: "elin",
+            texte:
+              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile », d'après sa fiche, pensée pour marquer le contraste entre vos différentes cérémonies.",
+          },
+          {
+            slug: "river",
+            texte:
+              "Une robe courte au décolleté carré et aux larges bretelles, silhouette épurée et sculpturale, finitions à la main : la mairie, version couture.",
+          },
+          {
+            slug: "clover",
+            texte:
+              "Une robe courte brodée de fleurs de couleur, et une surjupe longue à volonté : courte pour le civil, longue pour la suite.",
+          },
+          {
+            slug: "gabriel",
+            texte:
+              "Une robe courte délicatement perlée, avec une jupe transparente amovible par-dessus : deux tenues en une.",
+          },
+          {
+            slug: "milan",
+            texte:
+              "Une sirène en crêpe léger, drapé au buste et fente sur le côté : raffinée et minimaliste, longue mais sans rien qui gêne à la mairie.",
+          },
+          {
+            slug: "bondi",
+            texte:
+              "Une sirène minimaliste en crêpe, épaules dégagées, fente haute et rangée de boutons dans le dos : la robe simple pour une mairie en ville.",
+          },
+          {
+            slug: "adularia",
+            texte:
+              "Une fluide en charmeuse, « l'élégance minimaliste avec une allure résolument moderne » : rien à retenir, rien à porter.",
+          },
+          {
+            slug: "maribel",
+            texte:
+              "Une fluide en mousseline stretch, corsage brodé à la main, fente et traîne légère : simple sans être nue.",
+          },
+          {
+            slug: "marie",
+            texte:
+              "Une fluide à la ligne intemporelle, chez Monica Loretti : la robe longue et calme pour une cérémonie civile qui sera la seule.",
+          },
+        ],
+      },
+      colonnes: [
+        {
+          titre: "Ce qui fait la robe de mariage civil",
+          texte:
+            "Une cérémonie civile dure peu, se passe debout, et se photographie dehors : la robe doit se porter sans aide, se tenir assise et marcher dans l'escalier de la mairie. D'où le crêpe et la charmeuse, les longueurs courtes, les fentes qui libèrent le pas, et l'absence de longue traîne — Elin, River et Milan résument cela.",
+        },
+        {
+          titre: "Courte ou longue ?",
+          texte:
+            "Courte, si le civil précède une autre cérémonie : le contraste fait partie du plaisir, et c'est exactement ce que la fiche d'Elin décrit. Longue, si la mairie est la seule cérémonie : une robe simple comme Bondi, Adularia ou Marie fait alors toute la journée. Au showroom, on essaie les deux longueurs le même jour.",
+        },
+        {
+          titre: "Et la combinaison de mariée ?",
+          texte:
+            "Le catalogue MADAMOON ne propose pas de combinaison. Ce que l'on cherche dans une combinaison de mariée — la ligne nette, l'aisance, l'esprit tailleur — se retrouve dans River, au décolleté carré et aux larges bretelles, ou dans Bondi et Milan, en crêpe près du corps. À essayer avant de trancher.",
+        },
+        {
+          titre: "Une robe pour deux cérémonies",
+          texte:
+            "Les deux-en-un font la mairie et la fête avec une seule robe : Clover et Gabriel se portent courtes, puis gagnent une surjupe ou une jupe transparente ; Tessa change de look en retirant ses bretelles. Chaque robe est confectionnée à vos mesures, retouches comprises, surjupe comprise.",
+        },
+      ],
+      echo: {
+        titre: "Une robe, deux looks",
+        texte:
+          "Tessa, de Casablanca Bridal, est une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles « pour un autre look », d'après sa fiche. Longue, elle n'est pas une robe de mairie à proprement parler ; mais pour qui veut une seule robe du civil à la soirée, elle est la deux-en-un à essayer en premier.",
+        robe: "tessa",
+        voir: "Voir Tessa",
+      },
+      pourQui: {
+        titre: "À qui elle va",
+        texte:
+          "Elin, River, Clover, Gabriel, Maribel et Marie sont indiquées, sur leurs fiches, pour les six morphologies ; Milan pour les morphologies en H, en 8 et en X. Bondi et Adularia n'ont pas encore de morphologies relevées : elles s'essaient. Une robe de mariage civil grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+        toutes: "Toutes les morphologies",
+      },
+      questions: {
+        titre: "Les questions",
+        liste: [
+          {
+            q: "Quelle robe pour un mariage civil à Paris ?",
+            r: "Une robe courte en crêpe comme Elin, pensée pour une cérémonie civile d'après sa fiche, ou une robe courte plus habillée comme River. Si la mairie est votre seule cérémonie, une longue simple — Bondi, Milan, Adularia, Marie — fait la journée entière. Toutes s'essaient au showroom MADAMOON, Paris 10ᵉ.",
+          },
+          {
+            q: "Une robe de mariée courte convient-elle à la mairie ?",
+            r: "C'est même là qu'elle est le plus à sa place : une cérémonie courte, debout, en ville. Elin, River, Clover et Gabriel sont les robes courtes du catalogue ; Clover et Gabriel se rallongent ensuite d'une surjupe ou d'une jupe transparente pour la suite de la journée.",
+          },
+          {
+            q: "Peut-on porter la même robe au civil et à la fête ?",
+            r: "Oui, avec une deux-en-un : Clover, Gabriel et Tessa changent de silhouette en une minute, courte puis longue, ou avec et sans bretelles. Sinon, deux robes : une courte pour la mairie, et la robe de la fête — le contraste est souvent recherché.",
+          },
+          {
+            q: "Où essayer une robe de mariage civil à Paris ?",
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer une courte, une longue simple et une deux-en-un, et de décider.`,
+          },
+        ],
+        toutes: "Tous les guides",
+      },
+      fin: {
+        titre: "Essayer une robe de mariage civil en showroom",
+        texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
+      },
+    },
+  },
 ];
 
 export const pagesDe = (famille: Famille) => PAGES_FAMILLES.filter((p) => p.famille === famille);
