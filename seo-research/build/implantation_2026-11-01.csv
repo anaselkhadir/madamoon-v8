@@ -1545,7 +1545,7 @@ page_cible;keyword;volume;volume_verifie;kd;intention;cluster;groupe;page_existe
 /details/courte/;mariage en robe courte;1300;oui (Semrush);11.0;informationnel;Robe courte;robe courte mariage;True;False;False;True;
 /details/courte/;robe de mariage courte;1300;oui (Semrush);16.0;informationnel;Robe courte;robe courte mariage;True;False;False;True;
 /details/courte/;robe court mariage;1300;oui (Semrush);22.0;informationnel;Robe courte;robe court mariage;True;False;False;True;
-/details/courte/;mariée robe courte;880;oui (Semrush);9.0;informationnel;Robe courte;robe de mariee courte;True;False;False;True;
+/details/courte/;mariée robe courte;880;oui (Semrush);9.0;informationnel;Robe courte;robe de mariee courte;True;False;True;True;
 /details/courte/;robes courtes de mariée;480;oui (Semrush);10.0;informationnel;Robe courte;robe de mariee courte;True;False;False;True;
 /details/courte/;robe de mariée courte originale;480;oui (Semrush);11.0;informationnel;Robe courte;robe de mariée courte originale;True;True;True;True;
 /details/courte/;robe mariage courte;480;oui (Semrush);13.0;informationnel;Robe courte;robe courte mariage;True;False;False;True;
@@ -3505,7 +3505,7 @@ page_cible;keyword;volume;volume_verifie;kd;intention;cluster;groupe;page_existe
 /guides/traine-robe-de-mariee/;robe de mariée avec noeud dans le dos;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariée avec noeud dans le dos;True;False;False;True;
 /guides/traine-robe-de-mariee/;robe de mariée avec gros noeud dans le dos;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariée avec gros noeud dans le dos;True;False;False;False;gro
 /guides/traine-robe-de-mariee/;robe de mariée traîne cathédrale;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariée traîne cathédrale;True;False;False;True;
-/guides/traine-robe-de-mariee/;robe de mariée traîne;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariee a traine;True;False;False;True;
+/guides/traine-robe-de-mariee/;robe de mariée traîne;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariee a traine;True;False;True;True;
 /guides/traine-robe-de-mariee/;robe de mariée traine royale;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariée traine royale;True;False;False;True;
 /guides/traine-robe-de-mariee/;robe de mariee traine longue;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariee traine longue;True;False;False;True;
 /guides/traine-robe-de-mariee/;robe de mariée avec traîne et voile;0;non (autocomplétion);0.0;inconnue;Détails : traîne / cape / jupe;robe de mariée avec traîne et voile;True;False;False;True;
@@ -4243,7 +4243,7 @@ page_cible;keyword;volume;volume_verifie;kd;intention;cluster;groupe;page_existe
 /robes/;robe de mariée élégante;390;oui (Semrush);10.0;commercial;Style chic / élégant / luxe;robe de mariée élégante;True;False;True;True;
 /robes/;robe de mariée luxe;390;oui (Semrush);7.0;commercial / informationnel;Style chic / élégant / luxe;robe de mariee de luxe;True;False;False;True;
 /robes/;robe de mariée site;390;oui (Semrush);19.0;commercial;Robe de mariée (générique);robe de mariée site;True;False;False;True;
-/robes/;mariée robe;390;oui (Semrush);31.0;transactionnel;Robe de mariée (générique);robe de mariée;True;False;False;True;
+/robes/;mariée robe;390;oui (Semrush);31.0;transactionnel;Robe de mariée (générique);robe de mariée;True;False;True;True;
 /robes/;robes mariée;390;oui (Semrush);34.0;commercial;Robe de mariée (générique);robe de mariée;True;False;False;True;
 /robes/;site de robe de mariée;390;oui (Semrush);37.0;commercial;Robe de mariée (générique);robe de mariée site;True;False;False;True;
 /robes/;robe de mariage de luxe;390;oui (Semrush);12.0;informationnel;Style chic / élégant / luxe;robe de mariage de luxe;True;False;False;True;

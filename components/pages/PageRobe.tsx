@@ -26,7 +26,8 @@ import { CoeurFiche } from "@/components/parcours/Coeur";
 import { epingleRobe, offreRobe } from "@/lib/schema";
 
 import type { Langue } from "@/lib/langue";
-import { versLangue } from "@/lib/langue";
+import { estTraduite, versLangue } from "@/lib/langue";
+import NextLink from "next/link";
 import { t } from "@/lib/textes";
 import {
   bas,
@@ -42,6 +43,7 @@ import {
 } from "@/lib/contenu";
 import { couverture } from "@/lib/couverture";
 import FilDAriane from "@/components/FilDAriane";
+import { ficheSeo } from "@/lib/fiche-seo";
 
 /*
  * La fiche d'une robe, dans les deux langues.
@@ -125,6 +127,19 @@ export default async function PageRobe({
      * est désigné par l'identité déclarée dans le gabarit : c'est ce qui
      * relie chaque modèle au showroom du dixième. */
     offers: offreRobe(robe.slug, versLangue(`/robes/${robe.slug}`, langue)),
+  };
+
+  /* Ce que la fiche dit aux moteurs : quatre sections et quatre
+   * questions composées depuis ses données (lib/fiche-seo.ts). */
+  const seo = ficheSeo(robe, langue);
+  const faq = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: seo.questions.map((x) => ({
+      "@type": "Question",
+      name: x.q,
+      acceptedAnswer: { "@type": "Answer", text: x.r },
+    })),
   };
 
   const epingle = epingleRobe({
@@ -516,6 +531,75 @@ export default async function PageRobe({
        * photographies et les robes voisines. Le numéro se lit dans le
        * bandeau et au pied de page.
        */}
+
+      {/* ————————————————————————————— ce que la fiche dit —————
+        * Quatre sections et quatre questions, composées depuis les
+        * données de la robe : la coupe, les matières et la maison, les
+        * morphologies, l'essayage. Même typographie que les pages de
+        * famille ; rien d'inventé, rien de caché. */}
+      <section aria-labelledby="fiche-seo" className="gouttiere pb-[clamp(3rem,6vw,6rem)]">
+        <h2 id="fiche-seo" className="sr-only">
+          {langue === "fr" ? `${robe.nom} en détail` : `${robe.nom} in detail`}
+        </h2>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }}
+        />
+        <div className="grid gap-x-[clamp(2rem,5vw,5rem)] gap-y-10 md:grid-cols-2">
+          {seo.sections.map((x) => (
+            <section key={x.id} aria-labelledby={`fiche-${x.id}`}>
+              <h3 id={`fiche-${x.id}`} className="titre-section">
+                {x.titre}
+              </h3>
+              {x.paragraphes.map((t) => (
+                <p key={t} className="texte mesure-l mt-4">
+                  {t}
+                </p>
+              ))}
+              {x.liens.length > 0 && (
+                <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+                  {x.liens.map((l) =>
+                    /* Une page qui n'existe qu'en français garde son
+                     * adresse française depuis la page anglaise : le lien
+                     * traduit mènerait à une page absente. */
+                    estTraduite(l.href) ? (
+                      <li key={l.href}>
+                        <Link href={l.href} className="lien-nav souligne text-action">
+                          {l.label}
+                        </Link>
+                      </li>
+                    ) : (
+                      <li key={l.href}>
+                        <NextLink href={l.href} hrefLang="fr" className="lien-nav souligne text-action">
+                          {l.label}
+                        </NextLink>
+                      </li>
+                    ),
+                  )}
+                </ul>
+              )}
+            </section>
+          ))}
+        </div>
+
+        <dl className="mt-12 max-w-[52rem] border-t border-fil">
+          {seo.questions.map((x) => (
+            <div key={x.q} className="border-b border-fil py-6">
+              <dt
+                style={{
+                  fontFamily: "var(--font-serif)",
+                  fontSize: "clamp(1.125rem, 1.6vw, 1.375rem)",
+                  lineHeight: 1.35,
+                  color: "var(--color-encre)",
+                }}
+              >
+                {x.q}
+              </dt>
+              <dd className="texte mesure-l mt-3">{x.r}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
 
       {/* ————————————————————————————— les voisines ————— */}
       {voisines.length > 0 && (

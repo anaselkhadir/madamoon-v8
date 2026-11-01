@@ -17,6 +17,7 @@ import { CoeurFiche } from "@/components/parcours/Coeur";
 import { epingleRobe } from "@/lib/schema";
 
 import PageRobe from "@/components/pages/PageRobe";
+import { ficheSeo } from "@/lib/fiche-seo";
 import { coupeNom, robeLigne } from "@/lib/contenu";
 import { couverture } from "@/lib/couverture";
 
@@ -39,6 +40,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const robe = ROBES.find((r) => r.slug === slug);
   if (!robe) return {};
+  const seo = ficheSeo(robe, "en");
 
   const epingle = epingleRobe({
     slug: robe.slug,
@@ -57,8 +59,11 @@ export async function generateMetadata({
     /* Court, pour la même raison que la fiche française : le résultat de
      * recherche montre une soixantaine de caractères de titre et cent
      * soixante de description, et coupait l'adresse du showroom. */
-    title: `${robe.nom} wedding dress — ${coupeNom(robe.categorie, "en").toLowerCase()}`,
-    description: `${robe.nom}: ${ligneBasse}. To try on by appointment at the MADAMOON showroom, Paris 10e.`,
+    /* Composés depuis les données de la robe (lib/fiche-seo.ts) : la
+     * coupe, la matière lue dans la ligne, la maison ; sans le suffixe du
+     * gabarit, le titre dit déjà la maison. */
+    title: { absolute: seo.titre },
+    description: seo.description,
     alternates: {
       canonical: `/en/dresses/${robe.slug}/`,
       languages: {

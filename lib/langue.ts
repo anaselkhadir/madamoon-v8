@@ -147,8 +147,14 @@ export const TRADUITES = new Set<string>([
 const PREFIXES_TRADUITS = ["/robes/", "/coupes/", "/morphologies/", "/createurs/", "/faq/"];
 
 /** Vrai si la page a sa version anglaise. */
+/* Les pages françaises sous une rubrique traduite, mais sans version
+ * anglaise : la grande taille vit sous /morphologies/, dont toutes les
+ * lettres sont traduites, elle non. */
+const NON_TRADUITES = new Set<string>(["/morphologies/grande-taille"]);
+
 export function estTraduite(adresseFr: string): boolean {
   const chemin = adresseFr.split(/(?=[?#])/, 2)[0].replace(/\/+$/, "") || "/";
+  if (NON_TRADUITES.has(chemin)) return false;
   return (
     TRADUITES.has(chemin) || PREFIXES_TRADUITS.some((p) => chemin.startsWith(p))
   );

@@ -5,7 +5,7 @@ Base : 13013 expressions  dont 6176 ciblées sur 37 pages (30 construites). Volu
 | Mesure | Expressions | Part | Volume |
 |---|---:|---:|---:|
 | Verbatim sur la page cible | 170 | 3% | 118 120 |
-| Verbatim quelque part sur le site | 269 | 4% | 147 210 |
+| Verbatim quelque part sur le site | 272 | 4% | 148 480 |
 | Vocabulaire complet sur la page cible | 4121 | 67% | 405 020 |
 | **Couvertes (verbatim ou vocabulaire)** | **4122** | **67%** | **405 410** |
 

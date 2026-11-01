@@ -18,6 +18,7 @@ import { CoeurFiche } from "@/components/parcours/Coeur";
 import { epingleRobe } from "@/lib/schema";
 
 import PageRobe from "@/components/pages/PageRobe";
+import { ficheSeo } from "@/lib/fiche-seo";
 import { couverture } from "@/lib/couverture";
 
 /*
@@ -39,6 +40,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const robe = ROBES.find((r) => r.slug === slug);
   if (!robe) return {};
+  const seo = ficheSeo(robe, "fr");
 
   const epingle = epingleRobe({
     slug: robe.slug,
@@ -68,8 +70,11 @@ export async function generateMetadata({
      * Le titre ne garde donc que le nom et la coupe, la description la
      * ligne et le rendez-vous. Le regard reste sur la page, où il se lit.
      */
-    title: `Robe de mariée ${robe.nom} — ${coupeNom(robe.categorie, "fr").toLowerCase()}`,
-    description: `${robe.nom} : ${ligneBasse}. À essayer sur rendez-vous au showroom MADAMOON, Paris 10e.`,
+    /* Composés depuis les données de la robe (lib/fiche-seo.ts) : la
+     * coupe, la matière lue dans la ligne, la maison ; sans le suffixe du
+     * gabarit, le titre dit déjà la maison. */
+    title: { absolute: seo.titre },
+    description: seo.description,
     alternates: {
       canonical: `/robes/${robe.slug}/`,
       languages: {
