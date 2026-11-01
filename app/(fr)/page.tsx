@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Ouverture from "@/components/accueil/Ouverture";
 import Hero from "@/components/accueil/Hero";
-import Arc from "@/components/accueil/Arc";
 import Maison from "@/components/accueil/Maison";
 import Robes from "@/components/accueil/Robes";
 import Morphologies from "@/components/accueil/Morphologies";
@@ -46,17 +45,18 @@ export default function Accueil() {
   return (
     <>
       <Ouverture />
-      {/* Le hero, et ce qui monte par-dessus en arc : l'enveloppe borne
-        * son collant, la suite le recouvre entièrement avant qu'elle
-        * finisse. */}
+      {/* Le hero, et l'introduction qui monte par-dessus en arc :
+        * l'enveloppe borne son collant, l'introduction (au moins un écran)
+        * le recouvre entièrement avant qu'elle finisse. */}
       <div>
         <Hero langue="fr" />
-        <div className="relative z-10 bg-blanc">
-          <Arc />
+        {/* Au-dessus des Robes (z-10 elles aussi) : l'arc de sortie pend
+          * sur elles. */}
+        <div className="relative z-20">
           <Maison langue="fr" />
-          <Robes langue="fr" />
         </div>
       </div>
+      <Robes langue="fr" />
       <Morphologies langue="fr" />
       <Coupes langue="fr" />
       <Createurs langue="fr" />

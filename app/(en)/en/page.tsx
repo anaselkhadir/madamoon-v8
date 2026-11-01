@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Hero from "@/components/accueil/Hero";
-import Arc from "@/components/accueil/Arc";
 import Maison from "@/components/accueil/Maison";
 import Robes from "@/components/accueil/Robes";
 import Morphologies from "@/components/accueil/Morphologies";
@@ -37,17 +36,18 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      {/* Le hero, et ce qui monte par-dessus en arc : l'enveloppe borne
-        * son collant, la suite le recouvre entièrement avant qu'elle
-        * finisse. */}
+      {/* Le hero, et l'introduction qui monte par-dessus en arc :
+        * l'enveloppe borne son collant, l'introduction (au moins un écran)
+        * le recouvre entièrement avant qu'elle finisse. */}
       <div>
         <Hero langue="en" />
-        <div className="relative z-10 bg-blanc">
-          <Arc />
+        {/* Au-dessus des Robes (z-10 elles aussi) : l'arc de sortie pend
+          * sur elles. */}
+        <div className="relative z-20">
           <Maison langue="en" />
-          <Robes langue="en" />
         </div>
       </div>
+      <Robes langue="en" />
       <Morphologies langue="en" />
       <Coupes langue="en" />
       <Createurs langue="en" />

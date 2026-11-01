@@ -1545,3 +1545,18 @@ html[data-ouverture]::before {
     max-width: 100%;
   }
 }
+
+/*
+ * La lecture au défilement, dans l'introduction de l'accueil.
+ *
+ * Chaque lettre porte son rang (« --i »), le bloc porte le rang atteint
+ * (« --p ») : une lettre passe du gris pâle à sa couleur sur la largeur
+ * d'un fondu de quatorze lettres. Sans script, « --p » reste immense et
+ * tout le texte est lisible — l'effet ne retire jamais le texte.
+ */
+.lecture-defilement {
+  --p: 100000;
+}
+.lecture-defilement .lettre-lue {
+  opacity: clamp(0.18, calc((var(--p) - var(--i)) / 14), 1);
+}
