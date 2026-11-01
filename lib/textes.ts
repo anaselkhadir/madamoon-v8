@@ -41,6 +41,15 @@ const FR = {
     filtrerParCreateur: "Filtrer par créateur",
     voirLaMaison: (nom: string) => `Voir la page ${nom}`,
   },
+  /* Le menu en tiroirs, sur ordinateur. */
+  tiroir: {
+    retour: (vers: string) => `Retour : ${vers}`,
+    aussi: "À voir aussi",
+    lesCreateurs: "Les créateurs",
+    bohemeParis: "Robe de mariée bohème à Paris",
+    essayage: "Votre essayage privé",
+    essayageTexte: "Sur rendez-vous, au showroom du 10ᵉ.",
+  },
   raccourcis: {
     toutesRobes: "Toutes les robes",
     lesCoupes: "Les coupes",
@@ -861,6 +870,14 @@ const EN: Textes = {
     sixMorphologies: "Body shapes",
     filtrerParCreateur: "Filter by designer",
     voirLaMaison: (nom: string) => `View the ${nom} page`,
+  },
+  tiroir: {
+    retour: (vers: string) => `Back: ${vers}`,
+    aussi: "See also",
+    lesCreateurs: "The designers",
+    bohemeParis: "Boho wedding dress in Paris",
+    essayage: "Your private fitting",
+    essayageTexte: "By appointment, at our 10th-arrondissement showroom.",
   },
   raccourcis: {
     toutesRobes: "All dresses",

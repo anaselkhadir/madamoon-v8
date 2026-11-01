@@ -13,6 +13,7 @@ import Commutateur from "@/components/chrome/Langue";
 import Theme from "@/components/chrome/Theme";
 import Reseaux from "@/components/chrome/Reseaux";
 import Logo from "@/components/chrome/Logo";
+import MenuTiroirs from "@/components/chrome/MenuTiroirs";
 import { langueDe, versFrancais, type Langue } from "@/lib/langue";
 import { coupeNom, coupeNote, createurNom, createurOrigine, morphoNom, morphoObjectif } from "@/lib/contenu";
 import { t } from "@/lib/textes";
@@ -547,7 +548,9 @@ export default function Entete() {
       <div
         id="menu-principal"
         hidden={!ouvert}
-        className="fixed inset-0 z-[60] flex flex-col bg-blanc"
+        /* Au doigt seulement : sur ordinateur, le menu est en tiroirs
+          * (MenuTiroirs). */
+        className="fixed inset-0 z-[60] flex flex-col bg-blanc lg:hidden"
       >
         <div className="gouttiere flex h-[var(--entete)] shrink-0 items-center justify-between md:h-[calc(var(--barre)+var(--entete))]">
           <Logo className="h-[0.9rem] w-auto md:h-[1.05rem]" />
@@ -868,6 +871,9 @@ export default function Entete() {
           </div>
         </div>
       </div>
+
+      {/* Sur ordinateur, le menu en tiroirs, ouvert à gauche. */}
+      <MenuTiroirs ouvert={ouvert} fermer={() => setOuvert(false)} langue={l} />
     </>
   );
 }
