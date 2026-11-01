@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Ouverture from "@/components/accueil/Ouverture";
 import Hero from "@/components/accueil/Hero";
+import Arc from "@/components/accueil/Arc";
 import Maison from "@/components/accueil/Maison";
 import Robes from "@/components/accueil/Robes";
 import Morphologies from "@/components/accueil/Morphologies";
@@ -24,11 +25,10 @@ import { partage } from "@/lib/meta";
  * maison, ce qui vaut mieux qu'une vitrine de plus. L'accueil présente
  * des façons de chercher, pas un catalogue.
  *
- * Le hero défile comme le reste. Il est resté un temps collé, la
- * silhouette remontant par-dessus ; la maison n'a pas aimé cette
- * transition, et elle avait raison — le hero y restait figé pendant huit
- * cents pixels, coupé par une ligne blanche franche. Une image qui s'en
- * va vers le haut se passe d'effet.
+ * Le hero reste en place et la suite monte par-dessus, son bord haut
+ * en arc (components/accueil/Arc.tsx), d'après la référence Osmo de la
+ * maison. Un premier collant, coupé d'une ligne franche, avait été
+ * retiré ; l'arc en est la réponse.
  */
 
 export const metadata: Metadata = {
@@ -46,9 +46,17 @@ export default function Accueil() {
   return (
     <>
       <Ouverture />
-      <Hero langue="fr" />
-      <Maison langue="fr" />
-      <Robes langue="fr" />
+      {/* Le hero, et ce qui monte par-dessus en arc : l'enveloppe borne
+        * son collant, la suite le recouvre entièrement avant qu'elle
+        * finisse. */}
+      <div>
+        <Hero langue="fr" />
+        <div className="relative z-10 bg-blanc">
+          <Arc />
+          <Maison langue="fr" />
+          <Robes langue="fr" />
+        </div>
+      </div>
       <Morphologies langue="fr" />
       <Coupes langue="fr" />
       <Createurs langue="fr" />

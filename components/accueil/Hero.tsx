@@ -109,20 +109,17 @@ export default function Hero({ langue = "fr" }: { langue?: Langue }) {
   };
 
   /*
-   * Le hero défile avec la page.
+   * Le hero reste en place, et la suite monte par-dessus en arc.
    *
-   * Il est resté un temps collé sous le bandeau, la section suivante
-   * remontant par-dessus. L'effet a été retiré : le hero ne bougeait pas
-   * d'un pixel pendant huit cent soixante pixels de défilement, et le
-   * bloc blanc le coupait à l'horizontale d'une ligne franche, sans
-   * fondu — un store qui descend sur une image, plutôt qu'une page qui
-   * avance.
-   *
-   * Une image qui s'en va vers le haut n'a besoin d'aucun effet. C'est
-   * aussi le seul comportement que personne n'a à comprendre.
+   * Un premier essai, collé de la même façon, avait été retiré : le bloc
+   * blanc coupait l'image d'une ligne franche, un store qui descend. La
+   * maison a demandé ensuite la transition en arc de sa référence Osmo :
+   * le bord qui monte se bombe puis s'aplatit (components/accueil/Arc.tsx).
+   * Le hero n'est collé que dans son enveloppe (app/(fr)/page.tsx), le
+   * temps que la suite le recouvre. Mouvement réduit : il défile.
    */
   return (
-    <section className="relative z-0 h-[calc(100svh-var(--barre))] min-h-[34rem] w-full overflow-hidden bg-craie">
+    <section className="relative z-0 h-[calc(100svh-var(--barre))] motion-safe:sticky motion-safe:top-[var(--barre)] min-h-[34rem] w-full overflow-hidden bg-craie">
       <picture>
         <source
           type="image/avif"
