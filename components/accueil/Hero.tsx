@@ -7,7 +7,6 @@ import { media as chemin } from "@/lib/chemin";
 import Link from "@/components/Lien";
 import Bandeau from "@/components/accueil/Bandeau";
 import AppelRendezvous from "@/components/parcours/AppelRendezvous";
-import AppelElise from "@/components/AppelElise";
 import { altScene } from "@/lib/alt";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
@@ -230,30 +229,35 @@ export default function Hero({ langue = "fr" }: { langue?: Langue }) {
           {/* Grand écran : côte à côte, calés sur la gouttière.
             *
             * Rouge plein sur la photographie : la cliente veut l'action
-            * franche plutôt que le bouton blanc de la référence. Il
-            * n'emmène nulle part — il ouvre Élise, qui part de la
-            * silhouette. Sans maison ici : l'accueil ne filtre rien.
+            * franche plutôt que le bouton blanc de la référence. Il mène
+            * à toutes les robes — il ouvrait Élise, « Trouver ma robe » ;
+            * la maison a préféré le catalogue.
             *
             * Le second geste, en blanc : celle qui sait déjà ce qu'elle
             * vient chercher n'a pas à passer par Élise. Même adresse que
             * la navigation et que le bas de page — le site n'a qu'une
             * porte pour le rendez-vous. */}
           <div className="mt-6 hidden flex-wrap items-center gap-3 md:flex">
-            <AppelElise className="bouton">{L.hero.trouverMaRobe}</AppelElise>
+            <Link href="/robes" className="bouton">
+              {L.raccourcis.toutesRobes}
+            </Link>
             <AppelRendezvous className="bouton-clair">{L.hero.prendreRendezvous}</AppelRendezvous>
           </div>
 
           {/* Téléphone : l'un sous l'autre, au centre, et l'ordre inversé.
             * Sous le pouce le rendez-vous passe devant — c'est ce que la
-            * cliente vend. Élise reste juste dessous, en toutes lettres
+            * cliente vend. Toutes les robes reste juste dessous, en lettres
             * soulignées : un second bouton ferait deux actions de même
             * poids. Le souligné est en dur, pas au survol — il n'y a pas
             * de survol sous le pouce. */}
           <div className="mt-8 flex flex-col items-center gap-5 md:hidden">
             <AppelRendezvous className="bouton">{L.hero.prendreRendezvous}</AppelRendezvous>
-            <AppelElise className="accroche text-sur-image underline decoration-1 underline-offset-[6px]">
-              {L.hero.trouverMaRobe}
-            </AppelElise>
+            <Link
+              href="/robes"
+              className="accroche text-sur-image underline decoration-1 underline-offset-[6px]"
+            >
+              {L.raccourcis.toutesRobes}
+            </Link>
           </div>
         </div>
       </div>
