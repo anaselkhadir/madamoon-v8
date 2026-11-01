@@ -1,5 +1,6 @@
 import TitreSection from "@/components/TitreSection";
 import Tuile from "@/components/Tuile";
+import FileApparition from "@/components/FileApparition";
 import { ROBES, SITE_URL } from "@/lib/madamoon";
 import { altRobe } from "@/lib/alt";
 
@@ -90,7 +91,9 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         * rubrique propre — les pages de coupe et l'onglet du menu — : ici,
         * on parcourt le catalogue sans rien avoir à choisir. */}
       <div className="gouttiere">
-        <div className="trame-tuiles grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {/* Sur ordinateur, les tuiles paraissent en file et prennent
+          * l'angle de la maison (FileApparition, « .grille-file »). */}
+        <FileApparition className="trame-tuiles grille-file grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {ROBES.map((r, i) => {
             const media = couverture(r);
             if (!media) return null;
@@ -110,7 +113,7 @@ export default function PageRobes({ langue }: { langue: Langue }) {
               />
             );
           })}
-        </div>
+        </FileApparition>
       </div>
 
       <div className="gouttiere py-[clamp(3rem,5.5vw,5rem)]" />

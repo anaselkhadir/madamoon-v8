@@ -1584,3 +1584,18 @@ html[data-ouverture]::before {
     animation: none;
   }
 }
+
+/*
+ * La trame de « Toutes les robes », sur ordinateur : l'angle de la
+ * maison (celui des boutons) et un écart qui le laisse voir — à un pixel
+ * et demi, deux angles arrondis se touchaient presque. L'apparition en
+ * file est dans FileApparition.tsx.
+ */
+@media (min-width: 1024px) {
+  .trame-tuiles.grille-file {
+    gap: clamp(0.625rem, 0.9vw, 0.875rem);
+  }
+  .grille-file .tuile {
+    border-radius: 4px;
+  }
+}
