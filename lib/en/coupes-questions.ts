@@ -1081,7 +1081,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       q: "What is a sheath wedding dress?",
       r: "A dress with a soft, flowing drape that naturally follows movement. It does not build the figure through volume: it glides over the body, in a light fabric such as chiffon, charmeuse or matte satin. It is the softest, lightest silhouette in the catalogue.",
       description:
-        "What is a sheath wedding dress? A soft drape that follows movement, in chiffon, charmeuse or matte satin. Definition, and the sheath dresses at MADAMOON, Paris.",
+        "What is a sheath wedding dress? A soft drape that follows movement, in chiffon, charmeuse or matte satin. Definition, and the sheath dresses at MADAMOON.",
       chapo:
         "Soft and light: the sheath is the dress that moves with you. Here is what defines it.",
       sections: [
@@ -1202,7 +1202,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       q: "Which fabric should you choose for a sheath wedding dress?",
       r: "The one that gives the drape you want. Chiffon is the lightest and airiest; charmeuse, luminous, follows the body closely; matte satin has more hold. A stretch version adds ease.",
       description:
-        "Fabric for a sheath wedding dress: light chiffon, luminous charmeuse, matte satin that holds, tulle. The MADAMOON sheath dresses — Maribel, Adularia, Dove — in Paris.",
+        "Fabric for a sheath wedding dress: light chiffon, luminous charmeuse, matte satin that holds, tulle. The MADAMOON sheath dresses — Maribel, Adularia, Dove.",
       chapo:
         "In a sheath, the fabric makes the dress. Each one falls in its own way.",
       sections: [
@@ -2456,7 +2456,7 @@ export const QUESTIONS_COUPES_EN: Record<string, QuestionCoupe[]> = {
       q: "Does a short dress with an overskirt suit a civil wedding?",
       r: "Yes, it is even one of the most practical. Short, it belongs at the town hall; with its overskirt, it becomes long for a religious ceremony or a reception. Clover and Gabriel are short dresses of this kind.",
       description:
-        "Short wedding dress with overskirt for a civil wedding: short at the town hall, long for the reception. Clover and Gabriel, the MADAMOON two-in-one dresses in Paris.",
+        "Short wedding dress with overskirt for a civil wedding: short at the town hall, long for the reception. Clover and Gabriel, MADAMOON two-in-one dresses.",
       chapo:
         "The town hall calls for a light dress, the party for a long one. The short dress with overskirt does both.",
       sections: [

@@ -948,7 +948,7 @@ export const ARTICLES: Article[] = [
   /* ——————————————————————————————————— où essayer à Paris ————— */
   {
     slug: SLUGS_QUESTIONS[20],
-    description: `Où essayer une robe de mariée à Paris ? Au showroom MADAMOON, ${MAISON.adresse}, Paris 10e : sur rendez-vous, privatisé pour vous pendant une heure.`,
+    description: `Où essayer une robe de mariée à Paris ? Au showroom MADAMOON, ${MAISON.adresse}, Paris 10e : sur rendez-vous, privatisé pour vous une heure.`,
     chapo:
       "Pour essayer une robe de mariée à Paris, il faut un lieu, du temps et des robes. Voici ce que le showroom MADAMOON vous réserve.",
     sections: [
@@ -988,7 +988,7 @@ export const ARTICLES: Article[] = [
   {
     slug: SLUGS_QUESTIONS[21],
     description:
-      "Que faut-il apporter à son premier essayage de robe de mariée ? Venir sans maquillage, avec ses proches, des chaussures, une lingerie adaptée et quelques images.",
+      "Que faut-il apporter à son premier essayage de robe de mariée ? Sans maquillage, avec ses proches, des chaussures, une lingerie adaptée, quelques images.",
     chapo:
       "Le premier essayage se prépare un peu. Voici ce qu'il faut avoir avec soi — et ce qu'il vaut mieux laisser à la maison.",
     sections: [
@@ -1115,7 +1115,7 @@ export const ARTICLES: Article[] = [
   {
     slug: SLUGS_QUESTIONS[24],
     description:
-      "Hésiter entre plusieurs robes de mariée après l'essayage : comparer, écarter, réessayer ses finalistes, sans perdre de vue le calendrier. Les conseils MADAMOON.",
+      "Hésiter entre plusieurs robes de mariée après l'essayage : comparer, écarter, réessayer ses finalistes, sans perdre de vue le calendrier. Conseils MADAMOON.",
     chapo:
       "Hésiter est normal : c'est souvent le signe que plusieurs robes vous vont. Voici comment trancher sereinement.",
     sections: [

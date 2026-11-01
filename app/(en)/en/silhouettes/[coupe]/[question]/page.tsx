@@ -4,7 +4,7 @@ import PageQuestionCoupe from "@/components/pages/PageQuestionCoupe";
 import { COUPES } from "@/lib/coupes";
 import { COUPES_EN } from "@/lib/langue";
 import { QUESTIONS_COUPES_EN } from "@/lib/en/coupes-questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /*
  * The page of a silhouette question, in English.
@@ -40,7 +40,7 @@ export async function generateMetadata({
   const fr = `/coupes/${ancre}/${question}/`;
   const en = `/en/silhouettes/${coupe}/${question}/`;
   return {
-    title: x.titre ?? x.q,
+    title: titre(x.titre ?? x.q),
     description: x.description,
     alternates: { canonical: en, languages: { fr, en, "x-default": fr } },
     openGraph: partage(en, "en"),

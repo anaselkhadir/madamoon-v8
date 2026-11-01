@@ -8,7 +8,7 @@ import { partage } from "@/lib/meta";
 export const metadata: Metadata = {
   title: "Robes de mariée de créateurs à Paris",
   description:
-    "Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti : les robes de mariée de créateurs à essayer à Paris, au showroom MADAMOON du 10e, sur rendez-vous.",
+    "Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti : les robes de mariée de créateurs à essayer à Paris, au showroom MADAMOON du 10e.",
   alternates: {
     canonical: "/createurs/",
     languages: { fr: "/createurs/", en: "/en/designers/", "x-default": "/createurs/" },

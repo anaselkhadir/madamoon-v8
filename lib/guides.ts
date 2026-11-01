@@ -24,7 +24,7 @@ export const GUIDES: Guide[] = [
     q: "Combien coûte une robe de mariée à Paris ?",
     r: `Chez MADAMOON, les prix commencent à partir de ${MAISON.prixDepart} pour une confection sur mesure, retouches comprises. Le prix d'une robe de mariée dépend de la maison, de la matière et du travail de confection ; il est donné en showroom, modèle par modèle.`,
     description:
-      "Prix d'une robe de mariée à Paris : à partir de 1 500 € sur mesure, retouches comprises, chez MADAMOON. Ce que le prix comprend, ce qui le fait varier, comment on paie.",
+      "Prix d'une robe de mariée à Paris : à partir de 1 500 € sur mesure, retouches comprises, chez MADAMOON. Ce que le prix comprend, et ce qui le fait varier.",
     chapo:
       "« Combien coûte une robe de mariée ? » est la première question que l'on nous pose, et elle mérite une réponse claire plutôt qu'une promesse de robe pas chère. Voici ce que comprend le prix chez MADAMOON, ce qui le fait varier d'un modèle à l'autre, et comment se passe le paiement.",
     sections: [

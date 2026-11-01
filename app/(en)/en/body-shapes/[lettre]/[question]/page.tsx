@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import PageQuestionMorpho from "@/components/pages/PageQuestionMorpho";
 import { MORPHOLOGIES, morphologieParSlug } from "@/lib/madamoon";
 import { QUESTIONS_MORPHO_EN } from "@/lib/en/morphologies-questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /* The page of a body-shape question, in English: same address as the
  * French one, under /en/body-shapes. */
@@ -33,7 +33,7 @@ export async function generateMetadata({
   const fr = `/morphologies/${lettre}/${question}/`;
   const en = `/en/body-shapes/${lettre}/${question}/`;
   return {
-    title: x.q,
+    title: titre(x.q),
     description: x.description,
     alternates: { canonical: en, languages: { fr, en, "x-default": fr } },
     openGraph: partage(en, "en"),

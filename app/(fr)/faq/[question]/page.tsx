@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import PageQuestion from "@/components/pages/PageQuestion";
 import { faq } from "@/lib/contenu";
 import { ARTICLES, questionParSlug } from "@/lib/questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /* Une page par question de la FAQ, sous /faq/. L'adresse est la même
  * dans les deux langues : seul le préfixe /en change. */
@@ -24,7 +24,7 @@ export async function generateMetadata({
   return {
     /* La question elle-même : c'est ce qu'une mariée tape. Le gabarit
      * ajoute le nom de la maison. */
-    title: faq("fr")[trouve.rang]?.q,
+    title: titre(faq("fr")[trouve.rang]?.q ?? ""),
     description: trouve.article.description,
     alternates: {
       canonical: adresse,

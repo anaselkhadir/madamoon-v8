@@ -23,7 +23,7 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
       q: "Quelles sirènes du catalogue sont dos nu, ou bustier ?",
       r: "Dos nu : Bella, en satin perlé avec manches longues. Dos illusion : Uma et Montana. Dos en dentelle : Venus, avec sa traîne majestueuse. Bustier : Sheridan, sans bretelles au décolleté cœur, Enid qui se porte en bustier ou en col bardot, et Oksana au corset basque en pointe.",
       description:
-        "Robe de mariée sirène dos nu ou bustier : Bella, Uma, Montana, Venus pour le dos ; Sheridan, Enid, Oksana pour le bustier. À essayer au showroom MADAMOON, Paris 10e.",
+        "Robe de mariée sirène dos nu ou bustier : Bella, Uma, Montana, Venus pour le dos ; Sheridan, Enid, Oksana pour le bustier. Showroom MADAMOON, Paris 10e.",
       chapo:
         "Sur une sirène, le dos et le décolleté sont ce qu'on regarde en premier. Voici les modèles du catalogue classés par ce qu'ils montrent, et ce que leurs fiches en disent.",
       sections: [
@@ -58,7 +58,7 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
       q: "Quelle princesse pour une robe de mariée volumineuse, de luxe, avec une longue traîne ?",
       r: "Santana : une jupe volumineuse en tulle et organza, ornée de motifs floraux, qui se prolonge jusqu'à une spectaculaire traîne et un ourlet festonné. C'est la robe de mariée princesse la plus ample du catalogue. Pour une robe moins meringue, Hayes et Addison gardent le volume en satin.",
       description:
-        "Robe de mariée princesse volumineuse à longue traîne : Santana en tulle et organza, Hayes et Addison en satin. Le volume d'une princesse, à essayer au showroom MADAMOON, Paris 10e.",
+        "Robe de mariée princesse volumineuse à longue traîne : Santana en tulle et organza, Hayes et Addison en satin. À essayer au showroom MADAMOON, Paris 10e.",
       chapo:
         "La robe de mariée princesse de luxe, c'est d'abord une question de volume et de traîne. Voici ce que le catalogue propose, du plus ample au plus tenu.",
       sections: [
@@ -100,7 +100,7 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
       q: "Quelles robes de mariée en mousseline propose le showroom ?",
       r: "Hélène, au corset perlé à fleurs en relief et à la jupe fluide en mousseline ; Maribel, fluide minimaliste en mousseline stretch au corsage brodé à la main ; Murielle, dentelle florale et mousseline. La mousseline est la matière des robes fluides bohèmes : légère, elle bouge et laisse respirer.",
       description:
-        "Robe de mariée en mousseline : Hélène, Maribel, Murielle, trois fluides légères à essayer au showroom MADAMOON, Paris 10e. La matière des mariages bohèmes et d'été.",
+        "Robe de mariée en mousseline : Hélène, Maribel, Murielle, trois fluides légères à essayer au showroom MADAMOON, Paris 10e. La matière des mariages d'été.",
       chapo:
         "La robe mariée mousseline est la plus légère du catalogue. Voici les trois fluides qui en sont faites, et à quoi elle sert.",
       sections: [

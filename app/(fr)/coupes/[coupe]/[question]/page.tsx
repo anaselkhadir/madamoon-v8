@@ -5,7 +5,7 @@ import { COUPES } from "@/lib/coupes";
 import { COUPES_EN } from "@/lib/langue";
 import { QUESTIONS_COUPES } from "@/lib/coupes-questions";
 import { QUESTIONS_COUPES_EN } from "@/lib/en/coupes-questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /* Une page par question de coupe, sous l'adresse de la coupe :
  * /coupes/sirene/qu-est-ce-qu-une-robe-de-mariee-sirene/. */
@@ -33,7 +33,7 @@ export async function generateMetadata({
    * français : pas de « hreflang » vers une page anglaise absente. */
   const enExiste = (QUESTIONS_COUPES_EN[coupe] ?? []).some((q) => q.slug === question);
   return {
-    title: x.titre ?? x.q,
+    title: titre(x.titre ?? x.q),
     description: x.description,
     alternates: { canonical: fr, languages: enExiste ? { fr, en, "x-default": fr } : { fr, "x-default": fr } },
     openGraph: partage(fr),

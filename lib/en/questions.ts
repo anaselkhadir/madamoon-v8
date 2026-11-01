@@ -861,7 +861,7 @@ export const ARTICLES_EN: Article[] = [
   /* ——————————————————————————————————— where to try in Paris ————— */
   {
     slug: SLUGS_QUESTIONS[20],
-    description: `Where to try on a wedding dress in Paris? At the MADAMOON showroom, ${MAISON.adresse}, Paris 10th: by appointment, reserved for you for an hour.`,
+    description: `Where to try on a wedding dress in Paris? At the MADAMOON showroom, ${MAISON.adresse}, Paris 10th: by appointment, yours for an hour.`,
     chapo:
       "To try on a wedding dress in Paris, you need a place, time and dresses. Here is what the MADAMOON showroom keeps for you.",
     sections: [

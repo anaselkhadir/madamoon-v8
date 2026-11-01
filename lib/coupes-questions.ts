@@ -1013,7 +1013,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment accessoiriser une robe princesse sans surcharger la silhouette ?",
       r: "En choisissant un point fort et en laissant le reste discret. Une princesse porte déjà du volume : un corsage brodé appelle peu de bijoux, un corsage épuré peut accueillir un collier ou des gants. Voile, bijoux et coiffure se choisissent ensemble.",
       description:
-        "Accessoiriser une robe de mariée princesse sans surcharge : un seul point fort, des bijoux mesurés, un voile accordé. Les conseils et modèles de MADAMOON, Paris.",
+        "Accessoiriser une robe de mariée princesse sans surcharge : un seul point fort, des bijoux mesurés, un voile accordé. Les conseils de MADAMOON, Paris.",
       chapo:
         "La princesse est déjà une déclaration. L'accessoire la prolonge, à condition de ne pas lui faire concurrence.",
       sections: [
@@ -1059,7 +1059,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Peut-on choisir une robe princesse en satin ou en dentelle ?",
       r: "Oui, les deux. Le satin donne une princesse lisse et lumineuse, comme Addison en satin de soie ; la dentelle, une princesse romantique, comme Clover en dentelle Caterina ou Seraphina, brodée à la main. Le catalogue a aussi du mikado, du jacquard et du Dupioni.",
       description:
-        "Robe de mariée princesse en satin ou en dentelle : Addison en satin de soie, Clover et Seraphina en dentelle, et aussi le mikado. Les princesses MADAMOON, Paris.",
+        "Robe de mariée princesse en satin ou en dentelle : Addison en satin de soie, Clover et Seraphina en dentelle, et le mikado. Les princesses MADAMOON, Paris.",
       chapo:
         "La princesse se décline dans toutes les matières nobles. Chacune lui donne un caractère différent.",
       sections: [
@@ -1104,7 +1104,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment se déplacer facilement avec une robe de mariée volumineuse ?",
       r: "En vous entraînant avant le jour J, avec vos chaussures. Un pas un peu plus court, la jupe avancée du bout du pied, le devant relevé dans les escaliers, la traîne relevée pour la soirée. Et une personne de confiance pour vous aider à la manœuvrer.",
       description:
-        "Se déplacer avec une robe de mariée volumineuse : marcher, monter un escalier, s'asseoir, gérer la traîne. Les conseils pratiques de la boutique MADAMOON, Paris.",
+        "Se déplacer avec une robe de mariée volumineuse : marcher, monter un escalier, s'asseoir, gérer la traîne. Les conseils pratiques de MADAMOON, Paris.",
       chapo:
         "Une princesse se porte toute la journée. Quelques gestes simples la rendent facile.",
       sections: [
@@ -1235,7 +1235,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Quelle différence entre une robe fluide et une robe empire ?",
       r: "La fluide se définit par sa matière et son tombé ; l'empire, par sa coupe : une couture placée juste sous la poitrine, d'où la jupe tombe librement. Une robe empire est souvent fluide, mais une fluide n'est pas forcément empire. La boutique ne classe pas ses robes en « empire » : ses fluides en sont les plus proches.",
       description:
-        "Robe fluide ou robe empire : l'une se définit par son tombé, l'autre par une couture sous la poitrine. La différence expliquée, et les fluides MADAMOON à Paris.",
+        "Robe fluide ou robe empire : l'une se définit par son tombé, l'autre par une couture sous la poitrine. La différence, et les fluides MADAMOON à Paris.",
       chapo:
         "Les deux mots se croisent souvent. L'un parle de la matière, l'autre de l'endroit où la robe se resserre.",
       sections: [
@@ -1276,7 +1276,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Quelle matière choisir pour une robe de mariée fluide ?",
       r: "Celle qui donne le tombé que vous cherchez. La mousseline est la plus légère et la plus aérienne ; la charmeuse, lumineuse, suit le corps de près ; le satin mat a plus de tenue. Une version stretch ajoute de l'aisance.",
       description:
-        "Matière d'une robe de mariée fluide : mousseline légère, charmeuse lumineuse, satin mat qui tient, tulle. Les fluides MADAMOON — Maribel, Adularia, Dove — à Paris.",
+        "Matière d'une robe de mariée fluide : mousseline légère, charmeuse lumineuse, satin mat, tulle. Les fluides MADAMOON — Maribel, Adularia, Dove — à Paris.",
       chapo:
         "Dans une fluide, la matière fait la robe. Chacune tombe à sa manière.",
       sections: [
@@ -1323,7 +1323,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Une robe fluide est-elle adaptée à un mariage en été ?",
       r: "Oui, c'est l'une des plus agréables à porter par la chaleur. Une matière légère comme la mousseline laisse respirer, et des épaules dégagées, un dos ouvert ou une fente allègent encore la robe. Prévoyez simplement une épaule couverte pour la cérémonie si le lieu le demande.",
       description:
-        "Robe de mariée fluide pour un mariage en été : mousseline légère, épaules dégagées, dos ouvert, fente. Les fluides MADAMOON — Dove, Maribel, Murielle — à Paris.",
+        "Robe de mariée fluide pour un mariage en été : mousseline légère, épaules dégagées, dos ouvert, fente. Les fluides MADAMOON — Dove, Maribel, Murielle.",
       chapo:
         "Quand il fait chaud, la légèreté n'est plus un style : c'est un confort. La fluide l'a par nature.",
       sections: [
@@ -1453,7 +1453,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Quel type de chaussures porter avec une robe fluide ?",
       r: "Des chaussures dans lesquelles vous tiendrez toute la journée, choisies avant les retouches : la longueur de la robe se règle sur elles. Avec une fente, elles se voient et méritent d'être choisies avec soin ; pour un mariage en plein air, préférez un talon large ou des sandales plates.",
       description:
-        "Quelles chaussures avec une robe de mariée fluide ? Choisies avant les retouches, confortables, soignées si la robe a une fente. Les conseils de MADAMOON, Paris.",
+        "Quelles chaussures avec une robe de mariée fluide ? Choisies avant les retouches, confortables, soignées si la robe a une fente. Les conseils de MADAMOON.",
       chapo:
         "Avec une fluide, la chaussure se voit plus qu'on ne le croit : à chaque pas, la jupe bouge.",
       sections: [
@@ -1629,7 +1629,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Qu'est-ce qu'une robe de mariée trapèze ou A-line ?",
       r: "Une robe au buste ajusté, dont la jupe s'ouvre en A depuis la taille jusqu'au sol, comme la lettre. « Trapèze » en français, « A-line » en anglais : c'est la même coupe. La boutique la tient pour la plus universelle, juste et intemporelle.",
       description:
-        "Qu'est-ce qu'une robe de mariée trapèze ou A-line ? Un buste ajusté, une jupe qui s'ouvre en A. Définition de la coupe la plus universelle, et trapèzes MADAMOON.",
+        "Qu'est-ce qu'une robe de mariée trapèze ou A-line ? Un buste ajusté, une jupe qui s'ouvre en A. La coupe la plus universelle, et les trapèzes MADAMOON.",
       chapo:
         "Juste et intemporelle : la trapèze est la coupe que la boutique dit la plus universelle. Voici ce qui la définit.",
       sections: [
@@ -2161,7 +2161,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Qu'est-ce qu'une robe de mariée deux-en-un ?",
       r: "Une robe, deux allures : une robe de base, et une surjupe, une jupe ou une traîne qui s'ajoute ou se détache. On passe ainsi d'une silhouette à une autre — d'une robe longue de cérémonie à une robe courte ou ajustée pour la soirée — sans changer de robe.",
       description:
-        "Qu'est-ce qu'une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une traîne qui se détache : deux allures, une robe. Les deux-en-un MADAMOON, Paris.",
+        "Qu'est-ce qu'une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une traîne qui se détache : deux allures, une robe. Les deux-en-un MADAMOON.",
       chapo:
         "Deux allures, une robe : la deux-en-un change de silhouette en cours de journée. Voici ce qui la définit.",
       sections: [
@@ -2206,7 +2206,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment fonctionne une robe de mariée deux-en-un ?",
       r: "Elle se compose d'une robe de base, qui se porte seule, et d'une pièce qui s'y ajoute : une surjupe, une jupe ou une traîne, attachée à la taille. On la porte pour la cérémonie, on la retire pour la soirée. Le système d'attache dépend de la robe et se montre à l'essayage.",
       description:
-        "Comment fonctionne une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une jupe qui s'attache à la taille, à retirer pour la soirée. Explications MADAMOON.",
+        "Comment fonctionne une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une jupe attachée à la taille, retirée pour la soirée. MADAMOON, Paris.",
       chapo:
         "Une deux-en-un n'a rien de compliqué. Elle repose sur deux pièces pensées pour aller ensemble.",
       sections: [
@@ -2337,7 +2337,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment choisir une robe deux-en-un pour la cérémonie et la soirée ?",
       r: "En partant des deux moments. La version longue doit répondre à la cérémonie — solennité, lieu, épaules couvertes si besoin ; la robe de base, à la soirée — danser, circuler, se sentir libre. Essayez toujours les deux versions, et la transformation elle-même.",
       description:
-        "Choisir une robe de mariée deux-en-un pour la cérémonie et la soirée : une version longue pour l'une, une robe de base libre pour l'autre. Les conseils de MADAMOON.",
+        "Choisir une robe de mariée deux-en-un pour la cérémonie et la soirée : une version longue pour l'une, une robe de base libre pour l'autre. Conseils MADAMOON.",
       chapo:
         "Une deux-en-un se choisit deux fois : pour la cérémonie, et pour la soirée.",
       sections: [
@@ -2419,7 +2419,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Quels éléments peuvent être amovibles sur une robe de mariée ?",
       r: "La surjupe, la jupe ou la traîne, pour changer de silhouette ; mais aussi les manches, les bretelles, une veste, une cape, et certains ornements. Au catalogue, Riviera a des manches amovibles, Solana une veste, Oksana des chaînes de perles, Tessa et Ariel des bretelles.",
       description:
-        "Quels éléments amovibles sur une robe de mariée ? Surjupe, jupe, traîne, manches, bretelles, veste, ornements. Les pièces amovibles des robes MADAMOON à Paris.",
+        "Quels éléments amovibles sur une robe de mariée ? Surjupe, jupe, traîne, manches, bretelles, veste, ornements. Les pièces amovibles des robes MADAMOON, Paris.",
       chapo:
         "Une robe peut changer par une grande pièce ou par un détail. Voici ce qui se retire, robe par robe.",
       sections: [
@@ -2466,7 +2466,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment s'assurer que la transformation de la robe est facile ?",
       r: "En la faisant en cabine, avant de choisir. Faites-vous montrer l'attache, retirez puis remettez la pièce vous-même, chronométrez-vous, et venez avec la personne qui vous aidera le jour J. Prévoyez aussi une housse pour ranger la pièce retirée.",
       description:
-        "Une transformation facile pour une robe de mariée deux-en-un : l'essayer en cabine, la chronométrer, préparer qui aidera et où ranger la surjupe. Conseils MADAMOON.",
+        "Une transformation facile pour une robe de mariée deux-en-un : l'essayer en cabine, la chronométrer, préparer qui aidera et où ranger la surjupe. MADAMOON.",
       chapo:
         "Le changement de robe doit prendre quelques minutes, pas une demi-heure. Cela se vérifie avant le jour J.",
       sections: [
@@ -2510,7 +2510,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Quelle morphologie peut porter une robe deux-en-un ?",
       r: "Toutes, à condition de regarder les deux versions : une deux-en-un a la ligne de sa robe de base. La boutique la conseille en premier aux morphologies en 8 et en X, en second aux morphologies en A et en V. Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour les six morphologies.",
       description:
-        "Robe de mariée deux-en-un : quelles morphologies ? En premier pour 8 et X, à essayer pour A et V ; Clover, Gabriel et Chastity pour toutes. Les conseils MADAMOON.",
+        "Robe de mariée deux-en-un : quelles morphologies ? En premier pour 8 et X, à essayer pour A et V ; Clover, Gabriel et Chastity pour toutes. Conseils MADAMOON.",
       chapo:
         "Une deux-en-un, ce sont deux silhouettes. La morphologie se pense pour chacune.",
       sections: [
@@ -2553,7 +2553,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       q: "Comment accessoiriser les deux versions d'une robe deux-en-un ?",
       r: "En gardant ce qui sert aux deux et en changeant le reste. Les bijoux restent ; le voile accompagne la version longue et se retire avec elle ; les chaussures se choisissent pour la version courte, qui les montre. Un accessoire de soirée — une boucle plus marquée, une ceinture — signe le second look.",
       description:
-        "Accessoiriser une robe de mariée deux-en-un : bijoux pour les deux versions, voile pour la cérémonie, chaussures pour la version courte. Conseils MADAMOON, Paris.",
+        "Accessoiriser une robe de mariée deux-en-un : bijoux pour les deux versions, voile pour la cérémonie, chaussures pour la version courte. Conseils MADAMOON.",
       chapo:
         "Deux allures, mais une seule mariée. Les accessoires font le lien entre les deux.",
       sections: [

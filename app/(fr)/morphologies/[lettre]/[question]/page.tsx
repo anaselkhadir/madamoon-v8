@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import PageQuestionMorpho from "@/components/pages/PageQuestionMorpho";
 import { MORPHOLOGIES, morphologieParSlug } from "@/lib/madamoon";
 import { QUESTIONS_MORPHO } from "@/lib/morphologies-questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /* Une page par question de morphologie, sous l'adresse de la
  * morphologie : /morphologies/o/quelle-robe-de-mariee-morphologie-o/. */
@@ -32,7 +32,7 @@ export async function generateMetadata({
   if (!x) return {};
   const adresse = `/morphologies/${lettre}/${question}/`;
   return {
-    title: x.q,
+    title: titre(x.q),
     description: x.description,
     alternates: {
       canonical: adresse,

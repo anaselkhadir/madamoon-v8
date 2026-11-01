@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import PageQuestion from "@/components/pages/PageQuestion";
 import { faq } from "@/lib/contenu";
 import { ARTICLES_EN } from "@/lib/en/questions";
-import { partage } from "@/lib/meta";
+import { partage, titre } from "@/lib/meta";
 
 /* The page of a question, in English. Same address as the French one,
  * under /en. */
@@ -22,7 +22,7 @@ export async function generateMetadata({
   if (rang < 0) return {};
   const adresse = `/faq/${question}/`;
   return {
-    title: faq("en")[rang]?.q,
+    title: titre(faq("en")[rang]?.q ?? ""),
     description: ARTICLES_EN[rang].description,
     alternates: {
       canonical: `/en${adresse}`,

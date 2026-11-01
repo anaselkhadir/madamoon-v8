@@ -82,3 +82,16 @@ export function partage(url: string, langue: "fr" | "en" = "fr") {
     ],
   };
 }
+
+/*
+ * Le titre d'une page de question.
+ *
+ * Le gabarit ajoute « — MADAMOON » (onze signes) à chaque titre. Une
+ * question tient rarement en quarante-neuf signes : au-delà, Google
+ * coupait le suffixe, et parfois la fin de la question. Un titre trop
+ * long perd donc son suffixe plutôt que sa fin : la question entière,
+ * et rien d'autre.
+ */
+export function titre(texte: string): string | { absolute: string } {
+  return texte.length + " — MADAMOON".length > 60 ? { absolute: texte } : texte;
+}
