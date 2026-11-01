@@ -377,6 +377,26 @@ body {
 }
 
 /*
+ * Les pastilles de la fiche d'une robe — catalogue et coup de cœur —
+ * gardent leur cercle à toutes les largeurs, à la demande de la maison.
+ * Les mêmes règles qu'au doigt, sans la limite de largeur.
+ */
+.pastille.toujours {
+  width: 2.5rem;
+  padding-inline: 0;
+  border-radius: 999px;
+}
+.pastille.toujours .intitule {
+  display: none;
+}
+.pastille.toujours[aria-pressed="true"] .trace {
+  color: var(--color-action);
+}
+.pastille.toujours:hover .trace {
+  color: inherit;
+}
+
+/*
  * L'action principale, quand elle partage sa ligne avec des pastilles.
  *
  * Sous le pouce, le rang doit tenir sur une seule ligne : deux cercles

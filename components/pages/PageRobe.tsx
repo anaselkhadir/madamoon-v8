@@ -356,10 +356,10 @@ export default async function PageRobe({
               <AppelRendezvous robe={robe.slug} className="bouton-clair essentiel">
                 {L.fiche.essayer}
               </AppelRendezvous>
-              <Catalogue intitule={robe.nom} contexte={`robe:${robe.slug}`} langue={langue} pastille />
+              <Catalogue intitule={robe.nom} contexte={`robe:${robe.slug}`} langue={langue} pastille toujours />
               {/* Le coup de cœur, au même rang : c'est le geste que l'on
                * fait avant de savoir si l'on prendra rendez-vous. */}
-              <CoeurFiche slug={robe.slug} nom={robe.nom} pastille />
+              <CoeurFiche slug={robe.slug} nom={robe.nom} pastille toujours />
             </div>
           </div>
         </div>

@@ -67,12 +67,15 @@ export function CoeurFiche({
   slug,
   nom,
   pastille = false,
+  toujours = false,
 }: {
   slug: string;
   nom: string;
   /* Sur petit écran, le cœur se passe de son intitulé : la
    * photographie de la robe vaut mieux que trois bandes blanches. */
   pastille?: boolean;
+  /* L'icône seule à toutes les largeurs (la fiche d'une robe). */
+  toujours?: boolean;
 }) {
   const L = t(langueDe(usePathname() ?? "/")).panier;
   const aime = useEstAime(slug);
@@ -82,8 +85,8 @@ export function CoeurFiche({
       onClick={() => basculer(slug)}
       aria-pressed={aime}
       aria-label={aime ? L.retirer(nom) : L.ajouter(nom)}
-      className={pastille ? "bouton-clair pastille gap-2" : "bouton-clair gap-2"}
-      title={aime ? L.dedans(nom) : undefined}
+      className={pastille ? `bouton-clair pastille gap-2${toujours ? " toujours" : ""}` : "bouton-clair gap-2"}
+      title={aime ? L.dedans(nom) : toujours ? L.coupDeCoeur : undefined}
     >
       <Dessin plein={aime} classe="trace h-[0.95rem] w-[0.95rem]" />
       <span className="intitule">{aime ? L.dansLesVotres : L.coupDeCoeur}</span>

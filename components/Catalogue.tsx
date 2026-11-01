@@ -39,6 +39,10 @@ type Props = {
    * entier au-delà. Ailleurs, le catalogue est la seule action
    * secondaire — son intitulé y sert encore. */
   pastille?: boolean;
+  /* L'icône seule à toutes les largeurs : la fiche d'une robe, à la
+   * demande de la maison. L'intitulé reste le nom accessible et
+   * l'infobulle. */
+  toujours?: boolean;
 };
 
 export default function Catalogue({
@@ -47,6 +51,7 @@ export default function Catalogue({
   className = "bouton-clair",
   langue,
   pastille = false,
+  toujours = false,
 }: Props) {
   const L = t(langue).catalogue;
   if (!CATALOGUES_DISPONIBLES) return null;
@@ -60,7 +65,8 @@ export default function Catalogue({
        * qu'il sera retrouvé dans trois semaines, entre deux devis. */
       download={L.fichier(intitule)}
       aria-label={nom}
-      className={pastille ? `${className} pastille gap-2` : className}
+      title={toujours ? nom : undefined}
+      className={pastille ? `${className} pastille gap-2${toujours ? " toujours" : ""}` : className}
     >
       {pastille && (
         /* Une flèche qui descend dans une corbeille : le geste, pas
@@ -69,7 +75,7 @@ export default function Catalogue({
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"
-          className="trace h-[1.05rem] w-[1.05rem] md:hidden"
+          className={`trace h-[1.05rem] w-[1.05rem] ${toujours ? "" : "md:hidden"}`}
           fill="none"
           stroke="currentColor"
           strokeWidth="1.4"
