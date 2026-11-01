@@ -200,9 +200,13 @@ export default function MenuTiroirs({
         }`}
         style={{ width: `calc(${LARGEUR} + ${profondeur * BANDE}px)` }}
       >
-        {/* « Fermer », là où était « Menu » : au-dessus des tiroirs, le
-          * même à tous les niveaux. */}
-        <div className="gouttiere pointer-events-none absolute inset-x-0 top-[var(--barre)] z-50 flex h-[var(--entete)] items-center">
+        {/* « Fermer » : en haut à droite du tiroir, comme « Close » dans
+          * la référence, à la hauteur du bouton « Menu » et à la marge du
+          * texte. Au-dessus des tiroirs, le même à tous les niveaux. */}
+        <div
+          className="pointer-events-none absolute left-0 top-[var(--barre)] z-50 flex h-[var(--entete)] items-center justify-end px-[clamp(1.5rem,2.2vw,2.25rem)]"
+          style={{ width: LARGEUR }}
+        >
           <button
             ref={fermerBouton}
             type="button"
