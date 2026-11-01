@@ -1560,3 +1560,27 @@ html[data-ouverture]::before {
 .lecture-defilement .lettre-lue {
   opacity: clamp(0.18, calc((var(--p) - var(--i)) / 14), 1);
 }
+
+/*
+ * Le menu en tiroirs : les entrées d'un tiroir montent l'une après
+ * l'autre à son ouverture (le retard est posé sur chacune). Mouvement
+ * réduit : elles sont là d'emblée.
+ */
+@keyframes tiroir-monte {
+  from {
+    opacity: 0;
+    transform: translateX(-0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.tiroir-monte {
+  animation: tiroir-monte 0.55s var(--ease-doux) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tiroir-monte {
+    animation: none;
+  }
+}
