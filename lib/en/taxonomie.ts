@@ -143,4 +143,14 @@ export const COUPE_INTRO: Record<string, { texte: string; lien?: string }> = {
       "The sheath wedding dress follows movement rather than restraining it: chiffon, charmeuse, matte satin. It is the most natural silhouette for a boho wedding, and it is just as at home in satin for a more classic ceremony. From Adularia's minimalist elegance to Hélène's boho-chic look, by way of Dove's matte satin, each design shows a different side of it.",
     lien: "Boho wedding dress in Paris",
   },
+  trapeze: {
+    texte:
+      "The A-line wedding dress opens from the waist without a ball gown's volume or a mermaid's fit: right and timeless, it is the silhouette brides try first to find their bearings. Chic for a city wedding — Charlotte in Caterina lace, Hera in satin —, boho — Pendant, in lace with long sleeves —, or short — River, with its square neckline: according to their sheets, it suits every body shape. In our showroom in Paris's 10th arrondissement, every A-line dress is tried on by appointment.",
+    lien: "Short wedding dress in Paris",
+  },
+  "deux-en-un": {
+    texte:
+      "The two-in-one wedding dress changes its look in a minute: an overskirt for the ceremony, removed for the party; detachable straps; a sheer skirt over a short dress. Overskirt, sheer skirt, detachable straps or jacket: Tessa, Clover, Gabriel and Solana each show a version. In our showroom in Paris's 10th arrondissement, both looks are tried one after the other — and brides often leave with the two-in-one rather than two dresses.",
+    lien: "Civil wedding dress in Paris",
+  },
 };

@@ -1,0 +1,1475 @@
+page_cible,keyword,volume,kd,intention,groupe,page_existe,verbatim_page_cible,verbatim_site,tous_les_mots_sur_la_page
+/,robe de mariée paris,2400,15.0,informationnel,robe de mariée paris,True,False,False,True
+/,boutique de robe de mariée,2400,50.0,commercial,boutique de robe de mariée,True,False,False,True
+/,boutique robe de mariée,2400,54.0,informationnel,boutique de robe de mariée,True,False,False,True
+/,magasin de robe de mariée,1900,26.0,transactionnel,magasin de robe de mariée,True,False,False,False
+/,paris robe de mariée,1600,37.0,commercial,robe de mariée paris,True,False,True,True
+/,robe de mariee paris,1600,29.0,commercial,robe de mariée paris,True,False,False,True
+/,robe de mariée boutique,1600,52.0,commercial,boutique de robe de mariée,True,False,False,True
+/,robes de mariee paris,1300,38.0,commercial,robe de mariée paris,True,False,False,True
+/,robe de mariée magasin,1300,56.0,commercial,magasin de robe de mariée,True,False,False,False
+/,robe de mariée sur paris,1000,23.0,commercial,robe de mariée paris,True,False,False,True
+/,robe de mariée de paris,720,22.0,commercial,robe de mariée paris,True,False,False,True
+/,boutique mariage paris,720,53.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique robe de mariée paris,720,34.0,informationnel,boutique robe de mariée paris,True,False,False,True
+/,boutique mariée,720,34.0,commercial,boutique mariée,True,False,False,True
+/,magasins de robe de mariée,720,44.0,commercial,magasin de robe de mariée,True,False,False,False
+/,magasin de mariage,720,48.0,commercial,magasin de mariage,True,False,False,False
+/,la mariée,720,38.0,informationnel,la mariée,True,False,True,True
+/,robes de mariée paris,590,11.0,commercial,robe de mariée paris,True,False,False,True
+/,paris boutique mariage,590,29.0,commercial,boutique mariage paris,True,False,False,True
+/,paris mariage boutique,590,50.0,commercial,boutique mariage paris,True,False,False,True
+/,mariage boutique paris,590,50.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique du mariage,590,46.0,commercial,boutique du mariage,True,False,False,True
+/,boutique de robe de mariee,590,48.0,commercial,boutique de robe de mariée,True,False,False,True
+/,bridal shops,590,56.0,commercial,bridal shops,True,False,False,False
+/,robe de mariage paris,480,47.0,commercial,robe de mariage paris,True,False,False,True
+/,robe mariee paris,480,52.0,commercial,robe de mariée paris,True,False,False,True
+/,magasin de robes de mariée,480,31.0,commercial,magasin de robe de mariée,True,False,False,False
+/,boutique robe de marié,480,31.0,commercial,boutique de robe de mariée,True,False,False,True
+/,robe de mariee magasin,480,48.0,commercial,magasin de robe de mariée,True,False,False,False
+/,mariées,480,31.0,informationnel,la mariée,True,False,True,True
+/,magasin robe de mariée paris,390,40.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,magasin mariage paris,390,50.0,commercial,magasin mariage paris,True,False,False,False
+/,boutique du mariage paris,390,48.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique qui rachète les robes de mariées,390,10.0,commercial,boutique qui rachète les robes de mariées,True,False,False,False
+/,chaussur de mariage,390,19.0,informationnel / transactionnel,chaussur de mariage,True,False,False,False
+/,magasin robe de marie,390,51.0,commercial,magasin de robe de mariée,True,False,False,False
+/,boutique robe de mariee,390,46.0,commercial,boutique de robe de mariée,True,False,False,True
+/,paris robe mariée,320,20.0,commercial,robe de mariée paris,True,False,False,True
+/,robe de mariée magasin paris,320,33.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,boutique de robe de mariée à paris,320,33.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,robe mariée paris,320,40.0,commercial,robe de mariée paris,True,False,False,True
+/,magasin robe de mariee paris,320,44.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,robe mariage paris,320,45.0,commercial,robe de mariage paris,True,False,False,True
+/,magasin de robe de mariée paris,320,42.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,paris mariage robe,320,49.0,commercial,robe de mariage paris,True,False,False,True
+/,boutique robe de mariée à paris,320,31.0,informationnel,boutique robe de mariée paris,True,False,False,True
+/,boutique paris mariage,320,49.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique robe de mariage,320,23.0,commercial,boutique robe de mariage,True,False,False,True
+/,boutique robe mariée,320,31.0,commercial,boutique de robe de mariée,True,False,False,True
+/,barbesse magasin mariage,320,34.0,commercial,barbesse magasin mariage,True,False,False,False
+/,magasin de robes de mariee,320,35.0,commercial,magasin de robe de mariée,True,False,False,False
+/,magasin de robe de mariage,320,47.0,commercial,magasin de robe de mariage,True,False,False,False
+/,boutique robe mariage,320,54.0,commercial,boutique robe de mariage,True,False,False,True
+/,boutique de robes de mariées,320,51.0,commercial,boutique de robe de mariée,True,False,False,True
+/,madamoon,320,41.0,navigationnel,madamoon,True,True,True,True
+/,paris bridal gowns,260,22.0,commercial,paris bridal gowns,True,False,False,False
+/,bridal places near me,260,21.0,commercial,bridal places near me,True,False,False,False
+/,bridal gown shops near me,260,16.0,commercial,bridal gown shops near me,True,False,False,False
+/,boutique mariée paris,260,35.0,commercial,boutique mariée paris,True,False,False,True
+/,wedding gown shops near me,260,19.0,commercial,wedding gown shops near me,True,False,False,False
+/,paris wedding gowns,260,26.0,commercial,paris wedding gowns,True,False,False,False
+/,wedding shops in paris france,260,26.0,commercial,wedding shops in paris france,True,False,False,False
+/,magasin paris robe de mariée,260,47.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,magasin robe mariage,260,27.0,commercial,magasin de robe de mariage,True,False,False,False
+/,robe mariée boutique,260,43.0,commercial,boutique de robe de mariée,True,False,False,True
+/,mariage boutique,260,38.0,commercial,boutique du mariage,True,False,False,True
+/,magasin pour robe de mariage,260,45.0,commercial,magasin de robe de mariage,True,False,False,False
+/,boutique robe mariee,260,53.0,commercial,boutique de robe de mariée,True,False,False,True
+/,robe mariage magasin,260,55.0,commercial,magasin de robe de mariage,True,False,False,False
+/,robe de marie paris,210,18.0,commercial / informationnel,robe de mariée paris,True,False,False,True
+/,quartier robe de mariée paris,210,19.0,commercial,quartier robe de mariée paris,True,False,False,False
+/,paris robe de mariage,210,31.0,commercial,robe de mariage paris,True,False,False,True
+/,wedding stores near me,210,14.0,commercial,wedding stores near me,True,False,False,False
+/,boutique robe de mariee paris,210,32.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,robe de marié paris,210,30.0,commercial,robe de mariée paris,True,False,False,True
+/,robes mariées paris,210,31.0,commercial,robe de mariée paris,True,False,False,True
+/,boutiques mariage paris,210,38.0,commercial,boutique mariage paris,True,False,False,True
+/,wedding dress paris,210,45.0,commercial,wedding dress paris,True,False,False,False
+/,magasin de robe de mariée pas cher,210,11.0,commercial,magasin de robe de mariée pas cher,True,False,False,False
+/,magasin robe de mariée pas cher,210,11.0,commercial,magasin de robe de mariée pas cher,True,False,False,False
+/,magasin robes de mariée,210,25.0,commercial,magasin de robe de mariée,True,False,False,False
+/,essayage de robe de mariée,210,13.0,informationnel,essayage de robe de mariée,True,True,True,True
+/,magasin de robe de mariee,210,40.0,commercial,magasin de robe de mariée,True,False,False,False
+/,boutique robe marié,210,51.0,commercial,boutique de robe de mariée,True,False,False,True
+/,bridal shop,210,46.0,commercial,bridal shops,True,False,False,False
+/,liste pour organiser un mariage,210,24.0,informationnel,liste pour organiser un mariage,True,False,False,False
+/,magasin de robe mariage,210,50.0,commercial,magasin de robe de mariage,True,False,False,False
+/,zaz mariée avec qui,210,25.0,informationnel,zaz mariée avec qui,True,False,False,False
+/,mariage magasin,210,56.0,commercial,magasin de mariage,True,False,False,False
+/,mariee capricieuse,210,35.0,informationnel / navigationnel,mariee capricieuse,True,False,False,False
+/,magasin robe de mariée paris pas cher,170,7.0,commercial,magasin robe de mariée paris pas cher,True,False,False,False
+/,magasin pour mariage paris,170,10.0,commercial,magasin mariage paris,True,False,False,False
+/,magasin robe de mariée à paris,170,42.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,boutiques robes de mariée paris,170,31.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,wedding dress stores near me,170,16.0,commercial,wedding dress stores near me,True,False,False,False
+/,wedding dresses in paris france,170,23.0,commercial,wedding dresses in paris france,True,False,False,False
+/,wedding gown stores near me,170,24.0,commercial,wedding gown stores near me,True,False,False,False
+/,bridal dress paris,170,27.0,commercial,bridal dress paris,True,False,False,False
+/,mariage magasin paris,170,50.0,commercial,magasin mariage paris,True,False,False,False
+/,bridal shops near me,170,13.0,informationnel,bridal shops near me,True,False,False,False
+/,magasin paris mariage,170,48.0,commercial,magasin mariage paris,True,False,False,False
+/,magasins robes de mariée,170,19.0,commercial,magasin de robe de mariée,True,False,False,False
+/,bridal gallery paris,170,32.0,navigationnel,bridal gallery paris,True,False,False,False
+/,boutiques robes de mariée,170,31.0,commercial,boutique de robe de mariée,True,False,False,True
+/,boutiques robe de mariée,170,46.0,commercial,boutique de robe de mariée,True,False,False,True
+/,boutique de robe de marie,170,49.0,commercial,boutique de robe de mariée,True,False,False,True
+/,boutique robes de mariée,170,52.0,commercial,boutique de robe de mariée,True,False,False,True
+/,margaux mariage,170,34.0,navigationnel,margaux mariage,True,False,False,False
+/,essayage robe de mariée paris,140,15.0,commercial,essayage robe de mariée paris,True,False,False,True
+/,robe de mariée boutique paris,140,32.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,robes de mariées paris,140,32.0,commercial,robe de mariée paris,True,False,False,True
+/,boutique de mariage paris,140,45.0,commercial,boutique mariage paris,True,False,False,True
+/,magasin robes de mariée paris,140,46.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,boutique mariage à paris,140,54.0,commercial,boutique mariage paris,True,False,False,True
+/,robe de mariee pas chere magasin,140,12.0,commercial,robe de mariee pas chere magasin,True,False,False,False
+/,ribe mariee,140,33.0,commercial,ribe de mariee,True,False,False,False
+/,magasin mariée,140,34.0,commercial,magasin mariée,True,False,False,False
+/,rob de mariée,140,42.0,commercial,rob de mariée,True,False,False,False
+/,ribe de mariee,140,41.0,commercial,ribe de mariee,True,False,False,False
+/,tu es mariée,140,23.0,informationnel,tu es mariée,True,False,False,False
+/,eva mariage,140,25.0,informationnel,eva mariage,True,False,False,False
+/,la-mariee.fr,140,33.0,informationnel / navigationnel,la-mariee.fr,True,False,False,False
+/,l atelier de la mariee,140,32.0,informationnel,l atelier de la mariee,True,False,False,True
+/,magasin de robe de mariée pas cher paris,110,6.0,commercial,magasin robe de mariée paris pas cher,True,False,False,False
+/,boutique robes de mariée paris,110,31.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,boutique robe mariée paris,110,32.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,wedding dresses paris,110,22.0,commercial,wedding dress paris,True,False,False,False
+/,paris bridal shops,110,22.0,commercial,bridal shops paris,True,False,False,False
+/,boutique mariage pas cher paris,110,29.0,commercial,boutique mariage paris pas cher,True,False,False,False
+/,bridal shops paris,110,26.0,commercial,bridal shops paris,True,False,False,False
+/,robes de mariée boutique paris,110,46.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,robe de mariée seconde main paris,110,31.0,commercial,robe de mariée seconde main paris,True,False,False,False
+/,showroom robe de mariée paris,110,43.0,commercial,showroom robe de mariée paris,True,False,False,True
+/,boutique de mariage à paris,110,46.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique de mariage sur paris,110,45.0,commercial,boutique mariage paris,True,False,False,True
+/,boutique de robe de mariée pas cher,110,6.0,commercial,boutique de robe de mariée pas cher,True,False,False,False
+/,boutique mariage paris pas cher,110,46.0,commercial,boutique mariage paris pas cher,True,False,False,False
+/,boutique robe de mariée pas cher,110,10.0,commercial,boutique de robe de mariée pas cher,True,False,False,False
+/,robe de mariée pas cher boutique,110,11.0,commercial,boutique de robe de mariée pas cher,True,False,False,False
+/,ou acheter robe pour un mariage,110,14.0,transactionnel,ou acheter robe mariage,True,False,False,False
+/,top bridal paris,110,20.0,navigationnel,top bridal paris,True,False,False,False
+/,plume mariage,110,25.0,informationnel / transactionnel,plume mariage,True,False,False,False
+/,boutique pour mariage,110,31.0,commercial,boutique du mariage,True,False,False,True
+/,espace mariame mariage,110,31.0,informationnel / transactionnel,espace mariame mariage,True,False,False,False
+/,shop bridal,110,31.0,commercial,bridal shops,True,False,False,False
+/,ou acheter robe pour mariage,110,27.0,transactionnel,ou acheter robe mariage,True,False,False,False
+/,ou acheter robe mariage,110,29.0,transactionnel,ou acheter robe mariage,True,False,False,False
+/,chek liste mariage,110,8.0,informationnel,chek liste mariage,True,False,False,False
+/,boutiques mariage,110,35.0,commercial,boutique du mariage,True,False,False,True
+/,boutique robe de marie,110,43.0,commercial,boutique de robe de mariée,True,False,False,True
+/,boutique mariee,110,47.0,commercial,boutique mariée,True,False,False,True
+/,liste préparation mariage,110,23.0,informationnel,liste préparation mariage,True,False,False,False
+/,preparation mariage liste,110,23.0,informationnel,liste préparation mariage,True,False,False,False
+/,liste pour préparer un mariage,110,24.0,informationnel,liste pour préparer un mariage,True,False,False,False
+/,aurélie casse mariée,110,26.0,informationnel,aurélie casse mariée,True,False,False,False
+/,bridal mariage,110,42.0,informationnel,bridal mariage,True,False,False,True
+/,rob marie,110,37.0,informationnel,rob de mariée,True,False,False,False
+/,hella mariage,110,100.0,informationnel / transactionnel,hella mariage,True,False,False,False
+/,les mariées d'alice,110,31.0,navigationnel,les mariées d'alice,True,False,False,False
+/,wedding els,110,38.0,navigationnel,wedding els,True,False,False,False
+/,a2 mariage,110,44.0,navigationnel,a2 mariage,True,False,False,False
+/,magasin robe de mariée pas cher paris,90,19.0,commercial,magasin robe de mariée paris pas cher,True,False,False,False
+/,magasin de robe de mariée à paris,90,31.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,robe de mariée à paris,90,33.0,commercial,robe de mariée paris,True,True,True,True
+/,robe mariée seconde main paris,90,22.0,commercial,robe de mariée seconde main paris,True,False,False,False
+/,boutique robe mariage paris,90,24.0,commercial,boutique de robe de mariage paris,True,False,False,True
+/,wedding shops paris,90,19.0,commercial,wedding shop paris,True,False,False,False
+/,wedding shops in paris,90,20.0,commercial,wedding shop paris,True,False,False,False
+/,wedding shop paris,90,27.0,commercial,wedding shop paris,True,False,False,False
+/,au petit paris robes de mariée béziers,90,22.0,informationnel / transactionnel,au petit paris robes de mariée béziers,True,False,False,False
+/,boutique de robe de mariage paris,90,33.0,commercial,boutique de robe de mariage paris,True,False,False,True
+/,bridal dresses paris,90,37.0,commercial,bridal dress paris,True,False,False,False
+/,meilleur site robe de mariée,90,8.0,commercial,meilleur site robe de mariée,True,False,False,False
+/,le plus grand magasin de robe de mariée île-de-france,90,18.0,informationnel,le plus grand magasin de robe de mariée île-de-france,True,False,False,False
+/,robes mariees paris,90,44.0,commercial,robe de mariée paris,True,False,False,True
+/,de mariée,90,20.0,commercial,la mariée,True,True,True,True
+/,madame mariée,90,6.0,informationnel,madame mariée,True,False,False,False
+/,la mariée de corail,90,16.0,informationnel / transactionnel,la mariée de corail,True,False,False,False
+/,magasin de robe de mariée sur paris,90,38.0,informationnel,magasin robe de mariée paris,True,False,False,False
+/,magasin de robe de mariée 77,90,20.0,commercial,magasin de robe de mariée 77,True,False,False,False
+/,la mariee sans voix,90,22.0,informationnel / transactionnel,la mariee sans voix,True,False,False,False
+/,mariage jour j,90,4.0,informationnel,mariage jour j,True,False,False,False
+/,mariage plume,90,31.0,informationnel / transactionnel,plume mariage,True,False,False,False
+/,boutique de mariee,90,40.0,commercial,boutique mariée,True,False,False,True
+/,uni paris mariage,90,26.0,navigationnel,uni paris mariage,True,False,False,False
+/,showroom robe de mariée,90,47.0,commercial,showroom robe de mariée,True,False,True,True
+/,mariée hot,90,10.0,informationnel,mariée hot,True,False,False,False
+/,magasin robes de mariee,90,48.0,commercial,magasin de robe de mariée,True,False,False,False
+/,dr cath est elle mariée,90,19.0,informationnel,dr cath est elle mariée,True,False,False,False
+/,maylis de kerangal mariée,90,22.0,informationnel,maylis de kerangal mariée,True,False,False,False
+/,magasins mariage,90,48.0,commercial,magasin de mariage,True,False,False,False
+/,tl mariage,90,25.0,informationnel,tl mariage,True,False,False,False
+/,robe de mariage magasin,90,52.0,commercial,magasin de robe de mariage,True,False,False,False
+/,j mariage,90,27.0,informationnel,j mariage,True,False,False,True
+/,boutique mariage 77,90,28.0,informationnel,boutique mariage 77,True,False,False,False
+/,magasin mariage la croix blanche,90,29.0,navigationnel,magasin mariage la croix blanche,True,False,False,False
+/,robe de mariée depot vente paris,70,18.0,commercial,robe de mariée depot vente paris,True,False,False,False
+/,paris wedding dresses,70,20.0,commercial,wedding dress paris,True,False,False,False
+/,meilleur magasin robe de mariée paris,70,17.0,commercial,meilleur magasin robe de mariée paris,True,False,False,False
+/,boutique robe mariee paris,70,30.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,boutique de mariée paris,70,31.0,commercial,boutique mariée paris,True,False,False,True
+/,robe de mariage à paris,70,19.0,commercial,robe de mariage paris,True,False,False,True
+/,boutique de robe de mariée paris,70,31.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,magasin robe mariée paris,70,33.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,robe mariage paris boutique,70,37.0,commercial,boutique de robe de mariage paris,True,False,False,True
+/,magasin mariee paris,70,26.0,commercial,magasin mariee paris,True,False,False,False
+/,robe mariée paris boutique,70,41.0,commercial,boutique robe de mariée paris,True,False,False,True
+/,magasin robe pour mariage invité paris,70,15.0,informationnel,magasin robe pour mariage invité paris,True,False,False,False
+/,bridal shop paris,70,47.0,commercial,bridal shops paris,True,False,False,False
+/,atelier robe de mariée paris,70,47.0,commercial,atelier robe de mariée paris,True,False,False,True
+/,et paris mariage,70,16.0,navigationnel,et paris mariage,True,False,False,True
+/,magasin robe de mariée valence,70,16.0,commercial,magasin de robe de mariée valence,True,False,False,False
+/,magasin de robe de mariée valence,70,19.0,commercial,magasin de robe de mariée valence,True,False,False,False
+/,magasin tenue mariage,70,19.0,commercial,magasin tenue mariage,True,False,False,False
+/,elysée mariage,70,21.0,informationnel / transactionnel,elysée mariage,True,False,False,False
+/,magasin mariée paris,70,43.0,informationnel,magasin mariee paris,True,False,False,False
+/,magasin robe de mariée 77,70,27.0,commercial,magasin de robe de mariée 77,True,False,False,False
+/,boutique de robes de mariée,70,37.0,commercial,boutique de robe de mariée,True,True,True,True
+/,boutique de robe de mariage,70,43.0,commercial,boutique robe de mariage,True,False,False,True
+/,wedding plannet,70,32.0,commercial,wedding plannet,True,False,False,False
+/,magasin robes de mariées,70,40.0,commercial,magasin de robe de mariée,True,False,False,False
+/,rob de mariage,70,39.0,informationnel / transactionnel,rob de mariage,True,False,False,False
+/,maries boutique,70,48.0,commercial,maries boutique,True,False,False,True
+/,magasin robes mariees,70,54.0,commercial,magasin de robe de mariée,True,False,False,False
+/,luxury bridal wear,70,36.0,informationnel,luxury bridal wear,True,False,False,False
+/,mariée boutique,70,42.0,informationnel,boutique mariée,True,False,False,True
+/,les mariees,70,33.0,navigationnel,la mariée,True,False,True,True
+/,secret de mariées,70,36.0,navigationnel,secret de mariées,True,False,False,False
+/,mariage .fr,70,69.0,navigationnel,mariage .fr,True,False,False,False
+/,bridal gown store near me,50,12.0,commercial,bridal gown store near me,True,False,False,False
+/,bridal dresses near me,50,15.0,commercial,bridal dresses near me,True,False,False,False
+/,robe de mariage sur paris,50,33.0,commercial,robe de mariage paris,True,False,False,True
+/,showroom robe de mariee paris,50,22.0,commercial,showroom robe de mariée paris,True,False,False,True
+/,robe de mariée prêt à porter paris,50,30.0,commercial,robe de mariée prêt à porter paris,True,False,False,False
+/,wedding gowns near me,50,19.0,commercial,wedding gowns near me,True,False,False,False
+/,magasin de robes de mariée paris,50,45.0,commercial,magasin robe de mariée paris,True,False,False,False
+/,robe marie paris,50,46.0,commercial,robe de mariée paris,True,False,False,True
+/,paris robe mariage,50,52.0,commercial,robe de mariage paris,True,False,False,True
+/,boutiques mariages paris,50,47.0,commercial,boutique mariage paris,True,False,False,True
+/,wedding shop,50,13.0,commercial,wedding shop,True,False,False,False
+/,coffret mariee,50,23.0,commercial / informationnel,coffret mariee,True,False,False,False
+/,magasin de robe mariée,50,31.0,commercial,magasin de robe de mariée,True,False,False,False
+/,tobe de mariee,50,39.0,commercial,tobe de mariee,True,False,False,False
+/,boutique robe de marier,50,42.0,commercial,boutique robe de marier,True,False,False,False
+/,ribe de marie,50,45.0,commercial,ribe de mariee,True,False,False,False
+/,boutique tenue mariage,50,46.0,commercial,boutique tenue mariage,True,False,False,False
+/,ribe de mariage,50,46.0,commercial,ribe de mariage,True,False,False,False
+/,magasin mariee,50,46.0,commercial,magasin mariée,True,False,False,False
+/,magasin robes mariée,50,48.0,commercial,magasin de robe de mariée,True,False,False,False
+/,showroom robe de mariee,50,51.0,commercial,showroom robe de mariée,True,False,True,True
+/,liste des choses à faire mariage,50,23.0,informationnel,liste des choses à faire mariage,True,False,False,False
+/,magasin vêtements mariage,50,51.0,commercial,magasin vêtements mariage,True,False,False,False
+/,showroom mariage,50,27.0,navigationnel,showroom mariage,True,False,False,True
+/,online wedding clothes,50,46.0,informationnel,online wedding clothes,True,False,False,False
+/,l'appartement de la mariee,50,31.0,navigationnel,l'appartement de la mariee,True,False,False,False
+/coupes/courte/,robe de mariee courte,2900,14.0,informationnel,robe de mariee courte,False,False,True,False
+/coupes/courte/,robe courte mariage,2400,16.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robe mariée courte,2400,18.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe courte de mariée,1900,16.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,mariage robe courte,1600,8.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robes courtes mariage,1300,23.0,commercial,robe courte mariage,False,False,False,False
+/coupes/courte/,courte robe de mariage,1300,14.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,mariage en robe courte,1300,11.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robe de mariage courte,1300,16.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robe court mariage,1300,22.0,informationnel,robe court mariage,False,False,False,False
+/coupes/courte/,mariée robe courte,880,9.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robes courtes de mariée,480,10.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée courte originale,480,11.0,informationnel,robe de mariée courte originale,False,False,False,False
+/coupes/courte/,robe mariage courte,480,13.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robe mariée courte chic,390,11.0,informationnel / transactionnel,robe mariée courte chic,False,False,False,False
+/coupes/courte/,robes courtes de mariage,390,11.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robes mariee courte,390,16.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée courte et originale,390,17.0,informationnel,robe de mariée courte originale,False,False,False,False
+/coupes/courte/,robe de mariée originale courte,320,14.0,informationnel,robe de mariée courte originale,False,False,False,False
+/coupes/courte/,robes courtes de mariee,320,18.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robes de mariées courtes et originales,260,18.0,informationnel,robe de mariée courte originale,False,False,False,False
+/coupes/courte/,robe de marie courte,210,20.0,commercial,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée courte moderne,210,16.0,informationnel,robe de mariée courte moderne,False,False,False,False
+/coupes/courte/,robe de mariee manche courte,210,11.0,informationnel,robe de mariee manche courte,False,False,False,False
+/coupes/courte/,robes de mariée courtes,210,14.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robes de mariée courte devant,210,17.0,informationnel,robes de mariée courte devant,False,False,False,False
+/coupes/courte/,robe courte mariee,170,8.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée moderne courte,170,13.0,informationnel,robe de mariée courte moderne,False,False,False,False
+/coupes/courte/,robe courte de mariage,170,9.0,informationnel,robe courte mariage,False,False,False,False
+/coupes/courte/,robe mariée courtes,170,16.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée manche courte,140,11.0,informationnel,robe de mariee manche courte,False,False,False,False
+/coupes/courte/,robes de mariée courte,140,7.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe courte de mariee,140,7.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariée courte devant,140,10.0,informationnel,robes de mariée courte devant,False,False,False,False
+/coupes/courte/,robe de mariée courte paris,110,16.0,commercial,robe de mariée courte paris,False,False,False,False
+/coupes/courte/,robe de mariée courte simple,110,11.0,informationnel,robe de mariée courte simple,False,False,False,False
+/coupes/courte/,robe de mariée courte dentelle,110,6.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe de mariée simple courte,110,6.0,informationnel,robe de mariée courte simple,False,False,False,False
+/coupes/courte/,robe mariage dentelle courte,110,7.0,informationnel,robe dentelle mariage courte,False,False,False,False
+/coupes/courte/,robe de mariage court,110,9.0,informationnel,robe court mariage,False,False,False,False
+/coupes/courte/,robe de mariée midi,110,10.0,informationnel,robe de mariée midi,False,False,False,False
+/coupes/courte/,robes de mariee courtes,110,11.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe dentelle mariage courte,110,28.0,informationnel,robe dentelle mariage courte,False,False,False,False
+/coupes/courte/,robes de mariée courte dentelle,90,9.0,informationnel / transactionnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe de mariée pas cher courte,90,17.0,commercial,robe de mariée courte pas cher,False,False,False,False
+/coupes/courte/,robe de mariée simple et courte,90,16.0,commercial,robe de mariée courte simple,False,False,False,False
+/coupes/courte/,robe de mariée courte pas cher,90,18.0,commercial,robe de mariée courte pas cher,False,False,False,False
+/coupes/courte/,robe mariée courte dentelle,90,6.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe mariée dentelle courte,90,7.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe de mariée courte vintage,90,7.0,informationnel,robe de mariée courte vintage,False,False,False,False
+/coupes/courte/,robe de mariée courte en dentelle,90,6.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe de mariée boheme courte,90,11.0,informationnel,robe de mariée boheme courte,False,False,False,False
+/coupes/courte/,robe de mariée dentelle courte,90,11.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe de mariée vintage courte,70,6.0,informationnel / transactionnel,robe de mariée courte vintage,False,False,False,False
+/coupes/courte/,robe de mariée courte et chic,70,15.0,commercial,robe mariée courte chic,False,False,False,False
+/coupes/courte/,robe courte de mariée pas cher,70,15.0,commercial,robe de mariée courte pas cher,False,False,False,False
+/coupes/courte/,robe de mariée courte pas chere,70,17.0,commercial,robe de mariee courte pas chere,False,False,False,False
+/coupes/courte/,robe de mariée pas chere courte,70,20.0,commercial,robe de mariee courte pas chere,False,False,False,False
+/coupes/courte/,robe de mariée courte chic,70,9.0,informationnel,robe mariée courte chic,False,False,False,False
+/coupes/courte/,robe mariée courte bustier,70,6.0,informationnel,robe mariée bustier courte,False,False,False,False
+/coupes/courte/,robe de mariee courte en dentelle,70,6.0,informationnel,robe de mariée courte dentelle,False,False,False,False
+/coupes/courte/,robe bustier courte mariage,70,8.0,informationnel,robe bustier courte mariage,False,False,False,False
+/coupes/courte/,robe mariée bustier courte,70,10.0,informationnel,robe mariée bustier courte,False,False,False,False
+/coupes/courte/,robes de mariées courtes,70,10.0,informationnel,robe de mariee courte,False,False,False,False
+/coupes/courte/,robe de mariee courte pas chere,70,16.0,informationnel,robe de mariee courte pas chere,False,False,False,False
+/coupes/courte/,robe mariée courte bohème,50,0.0,informationnel / transactionnel,robe de mariée boheme courte,False,False,False,False
+/coupes/courte/,robe de mariee courte pas cher,50,18.0,commercial,robe de mariée courte pas cher,False,False,False,False
+/coupes/courte/,robe de mariage courte pas cher,50,16.0,commercial,robe de mariage courte pas cher,False,False,False,False
+/coupes/courte/,robe mariée manche courte,50,7.0,informationnel,robe de mariee manche courte,False,False,False,False
+/coupes/courte/,robe courte mariage hiver,50,13.0,informationnel,robe courte mariage hiver,False,False,False,False
+/coupes/deux-en-un/,surjupe mariage,110,14.0,informationnel,surjupe mariage,True,False,False,True
+/coupes/deux-en-un/,surjupe mariée,70,8.0,informationnel,surjupe mariée,True,False,False,True
+/coupes/deux-en-un/,surjupe robe de mariée,70,13.0,informationnel,surjupe robe de mariée,True,False,False,True
+/coupes/fluide/,robe de mariée fluide,720,10.0,informationnel,robe de mariée fluide,True,True,True,True
+/coupes/fluide/,robe pour mariage fluide,590,13.0,informationnel,robe fluide mariage,True,False,False,True
+/coupes/fluide/,robe fluide mariage,590,14.0,informationnel,robe fluide mariage,True,False,False,True
+/coupes/fluide/,robe fluide pour mariage,590,30.0,informationnel,robe fluide mariage,True,False,False,True
+/coupes/fluide/,robe fluide mariee,480,8.0,informationnel,robe de mariée fluide,True,False,False,True
+/coupes/fluide/,robe fluide mariée,390,10.0,informationnel,robe de mariée fluide,True,False,False,True
+/coupes/fluide/,robe mariee fluide,390,10.0,informationnel,robe de mariée fluide,True,False,False,True
+/coupes/fluide/,robe mousseline mariage,390,16.0,informationnel,robe mousseline mariage,True,False,False,True
+/coupes/fluide/,robe mariee mousseline,320,8.0,informationnel,robe mariee mousseline,True,False,True,True
+/coupes/fluide/,robe de mariée bohème fluide,320,8.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe mariée mousseline,320,8.0,informationnel,robe mariee mousseline,True,False,True,True
+/coupes/fluide/,robe de mariée mousseline,260,8.0,informationnel,robe mariee mousseline,True,False,False,True
+/coupes/fluide/,robe de mariée simple et fluide,260,9.0,informationnel,robe de mariée simple et fluide,True,False,True,False
+/coupes/fluide/,robe mariee empire,260,11.0,informationnel,robe mariee empire,True,False,False,True
+/coupes/fluide/,robe de mariée satin fluide,210,8.0,informationnel,robe de mariée satin fluide,True,False,False,True
+/coupes/fluide/,robe de mariee en mousseline,210,6.0,informationnel,robe mariee mousseline,True,False,True,True
+/coupes/fluide/,robes de mariée mousseline,210,7.0,informationnel,robe mariee mousseline,True,False,False,True
+/coupes/fluide/,robes de mariée fluide,210,9.0,informationnel,robe de mariée fluide,True,False,True,True
+/coupes/fluide/,robes de mariée fluide et simple,170,8.0,informationnel,robe de mariée simple et fluide,True,False,False,False
+/coupes/fluide/,robe mariage fluide,170,9.0,informationnel,robe fluide mariage,True,False,False,True
+/coupes/fluide/,robe de mariee fluide,170,9.0,informationnel,robe de mariée fluide,True,True,True,True
+/coupes/fluide/,robe mariée fluide,170,9.0,informationnel,robe de mariée fluide,True,False,False,True
+/coupes/fluide/,robe de mariée fluide boheme,140,7.0,commercial,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe de mariee fluide dentelle,140,8.0,informationnel,robe de mariee fluide dentelle,True,False,False,False
+/coupes/fluide/,robes de mariée fluide dentelle,140,11.0,informationnel,robe de mariee fluide dentelle,True,False,False,False
+/coupes/fluide/,robe de mariée fluide et dentelle,140,9.0,inconnue,robe de mariee fluide dentelle,True,False,False,False
+/coupes/fluide/,robe de mariée fluide bohème,110,7.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe en mousseline pour mariage,110,14.0,informationnel,robe mousseline mariage,True,False,False,True
+/coupes/fluide/,robe mariée fluide bohème,90,7.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe de mariee fluide boheme,90,10.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe de mariée style empire boheme,90,6.0,informationnel,robe de mariée style empire boheme,True,False,False,True
+/coupes/fluide/,robe de mariage fluide,90,8.0,informationnel,robe fluide mariage,True,False,False,True
+/coupes/fluide/,robe de mariée simple fluide,90,8.0,inconnue,robe de mariée simple et fluide,True,False,False,False
+/coupes/fluide/,robe de mariee fluide et dentelle,70,7.0,informationnel,robe de mariee fluide dentelle,True,False,False,False
+/coupes/fluide/,robe mariee fluide boheme,70,8.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/fluide/,robe de mariée manche longue fluide,70,9.0,informationnel,robe de mariée manche longue fluide,True,False,False,False
+/coupes/fluide/,fluide robe de mariée bohème,50,6.0,informationnel,robe de mariée bohème fluide,True,False,False,True
+/coupes/princesse/,robe pour mariage princesse,3600,21.0,informationnel / transactionnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe mariee princesse,1600,20.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,mariage robe princesse,1000,24.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de princesse mariage,880,19.0,informationnel / transactionnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe princesse pour mariage,880,17.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de mariée de princesse,720,13.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robes de mariée princesse,720,19.0,informationnel,robe mariee princesse,True,False,True,True
+/coupes/princesse/,robe de mariee princesse,720,14.0,informationnel,robe mariee princesse,True,True,True,True
+/coupes/princesse/,princesse robes de mariée,590,20.0,informationnel / transactionnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de princesse mariée,590,19.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée en princesse,590,21.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariage princesse,590,19.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de mariee de princesse,590,19.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe princesse de mariage,480,18.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de mariée princess,390,10.0,informationnel,robe de mariée princess,True,True,True,False
+/coupes/princesse/,robe princesse mariee,390,16.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée princesse volumineuse,320,12.0,informationnel / transactionnel,robe de mariée princesse volumineuse,True,False,True,True
+/coupes/princesse/,robe de mariee princesse paillette,320,5.0,informationnel,robe de mariee princesse paillette,True,False,False,False
+/coupes/princesse/,robes de mariage princesse,320,19.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de mariée princesse luxe,320,17.0,informationnel,robe de mariée princesse luxe,True,False,False,False
+/coupes/princesse/,robe de princesse de mariage,320,19.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe princesse de mariée,320,19.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de princesse pour mariage,320,23.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe mariée de princesse,260,16.0,informationnel / transactionnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe mariée princesse luxe,260,15.0,informationnel,robe de mariée princesse luxe,True,False,False,False
+/coupes/princesse/,robe de mariée bustier princesse,210,12.0,informationnel,robe de mariée bustier princesse,True,False,False,True
+/coupes/princesse/,princesse magnifique robe de mariée luxe,210,12.0,informationnel,princesse magnifique robe de mariée luxe,True,False,False,False
+/coupes/princesse/,robe de princesse mariee,210,18.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée de princesse de luxe,210,14.0,informationnel,robe de mariée princesse luxe,True,False,False,False
+/coupes/princesse/,robe de mariée meringue,210,16.0,informationnel,robe de mariée meringue,True,False,True,False
+/coupes/princesse/,robe de mariée princesse paris,170,18.0,commercial,robe de mariée princesse paris,True,False,False,True
+/coupes/princesse/,robe de marier princesse,170,19.0,informationnel / transactionnel,robe de marier princesse,True,False,False,False
+/coupes/princesse/,robes de mariee princesse,170,16.0,informationnel,robe mariee princesse,True,False,True,True
+/coupes/princesse/,robe marie princesse,170,13.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée princesse dentelle,170,15.0,informationnel,robe de mariée princesse dentelle,True,False,False,True
+/coupes/princesse/,princesse mariée robe de mariage,170,18.0,informationnel,princesse mariée robe de mariage,True,False,False,True
+/coupes/princesse/,robe meringue mariée,170,21.0,informationnel,robe de mariée meringue,True,False,False,False
+/coupes/princesse/,robe de mariée pas cher princesse,140,19.0,commercial,robe de mariée de princesse pas cher,True,False,False,False
+/coupes/princesse/,robe de mariée de princesse pas cher,140,18.0,transactionnel,robe de mariée de princesse pas cher,True,False,False,False
+/coupes/princesse/,luxe robe de mariée princesse longue traine,140,5.0,informationnel,luxe robe de mariée princesse longue traine,True,False,False,False
+/coupes/princesse/,robe de mariée dentelle princesse,140,18.0,informationnel,robe de mariée princesse dentelle,True,False,False,True
+/coupes/princesse/,robe de mariée princesse de luxe,140,15.0,informationnel,robe de mariée princesse luxe,True,False,True,False
+/coupes/princesse/,robes de mariées princesse,140,17.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée bohème princesse,110,6.0,informationnel,robe de mariée bohème princesse,True,False,False,False
+/coupes/princesse/,robe de mariée grande taille princesse,110,7.0,informationnel,robe de mariée grande taille princesse,True,False,False,False
+/coupes/princesse/,wedding dress luxueuse robe de mariée de princesse de luxe,110,13.0,informationnel,wedding dress luxueuse robe de mariée de princesse de luxe,True,False,False,False
+/coupes/princesse/,robe mariée dentelle princesse,110,15.0,informationnel,robe de mariée princesse dentelle,True,False,False,True
+/coupes/princesse/,robe mariée princesse dentelle,110,16.0,informationnel,robe de mariée princesse dentelle,True,False,False,True
+/coupes/princesse/,robe de mariée princesse en dentelle,110,16.0,informationnel,robe de mariée princesse dentelle,True,False,True,True
+/coupes/princesse/,robe mariée princesse bustier,110,16.0,informationnel,robe de mariée bustier princesse,True,False,False,True
+/coupes/princesse/,robes de mariée princesse longue traine,90,6.0,informationnel,robes de mariée princesse longue traine,True,False,False,True
+/coupes/princesse/,robe mariée princesse strass,90,9.0,informationnel,robe mariée princesse strass,True,False,False,False
+/coupes/princesse/,robe de mariée princesse satin,90,13.0,informationnel,robe de mariée princesse satin,True,False,False,True
+/coupes/princesse/,robe de marié princesse,90,13.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,princesse mariée,90,19.0,informationnel,princesse mariée,True,False,False,True
+/coupes/princesse/,princesse mariage,90,16.0,informationnel,princesse mariage,True,False,False,True
+/coupes/princesse/,robe de mariage de princesse,90,17.0,informationnel,robe pour mariage princesse,True,False,False,True
+/coupes/princesse/,robe de mariée volumineuse,70,8.0,informationnel,robe de mariée volumineuse,True,True,True,True
+/coupes/princesse/,robe de mariee princesse satin,70,11.0,informationnel,robe de mariée princesse satin,True,False,False,True
+/coupes/princesse/,robe de mariée princesse a strass,70,6.0,informationnel,robe mariée princesse strass,True,False,False,False
+/coupes/princesse/,robes de mariée volumineuse,70,8.0,informationnel,robe de mariée volumineuse,True,False,False,True
+/coupes/princesse/,robe princesse mariée,70,18.0,informationnel,robe mariee princesse,True,False,False,True
+/coupes/princesse/,robe de mariée princesse prix,50,14.0,transactionnel,robe de mariée princesse prix,True,False,False,False
+/coupes/sirene/,robe mariage sirene,2400,19.0,informationnel,robe mariage sirene,True,False,False,True
+/coupes/sirene/,robe de mariage sirene,1600,10.0,informationnel,robe mariage sirene,True,False,False,True
+/coupes/sirene/,robe mariee sirene,1600,12.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robe sirène mariage,1300,12.0,informationnel,robe mariage sirene,True,False,False,True
+/coupes/sirene/,robe de marier sirene,1300,13.0,informationnel,robe de marier sirene,True,False,False,False
+/coupes/sirene/,robe marie sirene,1300,13.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robe de mariee sirene,720,13.0,informationnel,robe mariee sirene,True,True,True,True
+/coupes/sirene/,robe de mariée en sirène,480,12.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robes de mariée sirène,480,9.0,informationnel,robe mariee sirene,True,False,True,True
+/coupes/sirene/,robe de mariée sirènes,480,12.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robe de mariée fourreau,390,7.0,informationnel,robe de mariée fourreau,True,False,True,True
+/coupes/sirene/,robe mariée sirene,390,8.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robe de mariée droite,390,10.0,inconnue,robe de mariée droite,True,False,False,False
+/coupes/sirene/,robe de mariée sirene dentelle,320,8.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de marie sirene,320,10.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robes de mariée fourreau,320,7.0,informationnel,robe de mariée fourreau,True,False,False,True
+/coupes/sirene/,robe sirène de mariée,320,12.0,informationnel,robe mariee sirene,True,False,False,True
+/coupes/sirene/,robes de mariée sirène dentelle,260,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariee dentelle sirene,260,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariée près du corps,260,7.0,informationnel,robe de mariée près du corps,True,False,True,False
+/coupes/sirene/,robe de mariée sirène en dentelle,260,13.0,informationnel,robe de mariée sirene dentelle,True,False,True,True
+/coupes/sirene/,robe de mariée dentelle sirène,260,8.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariée dentelle sirene,260,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe mariée sirene dentelle,260,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariée sirène princesse,260,10.0,informationnel,robe de mariée sirène princesse,True,False,False,True
+/coupes/sirene/,robe mariee dentelle sirene,210,9.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariée sirène dentelle,210,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariee droite,210,7.0,informationnel,robe de mariée droite,True,False,False,False
+/coupes/sirene/,robes de mariée près du corps,210,17.0,informationnel,robe de mariée près du corps,True,False,False,False
+/coupes/sirene/,robe de mariée sirène de luxe,170,9.0,informationnel,robe de mariée sirène de luxe,True,False,False,False
+/coupes/sirene/,robe de mariée sirène dos nu,170,5.0,informationnel,robe de mariée sirène dos nu,True,False,True,False
+/coupes/sirene/,robe de mariee sirène,170,10.0,informationnel,robe mariee sirene,True,True,True,True
+/coupes/sirene/,robe de mariée sirène paris,140,15.0,commercial,robe de mariée sirène paris,True,False,False,True
+/coupes/sirene/,robe mariée dentelle sirene,140,10.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariée moulante,140,10.0,informationnel,robe de mariée moulante,True,False,False,False
+/coupes/sirene/,robe fourreau mariee,140,7.0,informationnel,robe de mariée fourreau,True,False,False,True
+/coupes/sirene/,robe de mariée dos nu sirene,140,9.0,informationnel,robe de mariée sirène dos nu,True,False,False,False
+/coupes/sirene/,robe de mariee bustier sirene,110,8.0,informationnel,robe de mariee bustier sirene,True,False,True,True
+/coupes/sirene/,robe de mariée sirène bustier,110,8.0,informationnel,robe de mariee bustier sirene,True,False,False,True
+/coupes/sirene/,robe sirene dentelle mariage,110,9.0,informationnel,robe sirene dentelle mariage,True,False,False,True
+/coupes/sirene/,robe de mariée sirene de luxe,110,12.0,informationnel,robe de mariée sirène de luxe,True,False,False,False
+/coupes/sirene/,robe mariage sirène,110,14.0,informationnel,robe mariage sirene,True,False,False,True
+/coupes/sirene/,robe de mariee sirene bustier,90,10.0,informationnel / transactionnel,robe de mariee bustier sirene,True,False,False,True
+/coupes/sirene/,robe de mariée coupe sirène,90,10.0,informationnel / transactionnel,robe de mariée coupe sirène,True,False,True,True
+/coupes/sirene/,sirene luxe robe de mariée,90,6.0,informationnel,robe de mariée sirène de luxe,True,False,False,False
+/coupes/sirene/,robe de mariée bustier sirene,90,8.0,informationnel,robe de mariee bustier sirene,True,False,True,True
+/coupes/sirene/,robe de mariée sirène simple,90,10.0,informationnel,robe de mariée sirène simple,True,False,False,False
+/coupes/sirene/,robe mariée droite,90,9.0,informationnel,robe de mariée droite,True,False,False,False
+/coupes/sirene/,mermaid wedding dresses,90,20.0,informationnel,mermaid wedding dresses,True,False,False,False
+/coupes/sirene/,robe mariee droite,70,6.0,informationnel,robe de mariée droite,True,False,False,False
+/coupes/sirene/,robes de mariée moulante,70,7.0,informationnel,robe de mariée moulante,True,False,False,False
+/coupes/sirene/,robe de mariée sirène luxe,70,7.0,informationnel,robe de mariée sirène de luxe,True,False,False,False
+/coupes/sirene/,robe mariée sirene dos nu,70,8.0,informationnel,robe de mariée sirène dos nu,True,False,False,False
+/coupes/sirene/,robe de mariée sirène avec manche,70,9.0,informationnel,robe de mariée sirène avec manche,True,False,False,True
+/coupes/sirene/,robe de mariée sirene simple,70,9.0,informationnel,robe de mariée sirène simple,True,False,False,False
+/coupes/sirene/,robes de mariee sirene,70,10.0,informationnel,robe mariee sirene,True,False,True,True
+/coupes/sirene/,robe de mariee sirene dentelle,50,8.0,informationnel,robe de mariée sirene dentelle,True,False,False,True
+/coupes/sirene/,robe de mariee pres du corps,50,4.0,informationnel,robe de mariée près du corps,True,False,True,False
+/coupes/sirene/,robe de mariée pres du corps,50,6.0,informationnel,robe de mariée près du corps,True,False,True,False
+/coupes/sirene/,robe mariage sirene dentelle,50,6.0,informationnel,robe sirene dentelle mariage,True,False,False,True
+/coupes/sirene/,robe de mariée sirene avec traine,50,6.0,informationnel,robe de mariée sirene avec traine,True,False,False,False
+/coupes/sirene/,robe mariée pres du corps,50,7.0,informationnel,robe de mariée près du corps,True,False,False,False
+/coupes/sirene/,robes de mariée sirene,50,12.0,informationnel,robe mariee sirene,True,False,True,True
+/coupes/sirene/,robe de mariée sirene satin,50,13.0,informationnel,robe de mariée sirene satin,True,False,False,True
+/coupes/trapeze/,robe de mariée trapèze,720,9.0,informationnel,robe de mariée trapèze,True,True,True,True
+/coupes/trapeze/,robe trapeze mariage,590,6.0,informationnel,robe trapeze mariage,True,False,False,True
+/coupes/trapeze/,robe trapèze mariage,590,7.0,informationnel,robe trapeze mariage,True,False,False,True
+/coupes/trapeze/,robe de mariee trapeze,480,10.0,informationnel,robe de mariée trapèze,True,True,True,True
+/coupes/trapeze/,robe trapeze pour mariage,480,12.0,informationnel,robe trapeze mariage,True,False,False,True
+/coupes/trapeze/,robe trapèze chic pour mariage,390,7.0,informationnel,robe trapèze chic pour mariage,True,False,False,False
+/coupes/trapeze/,robe trapeze chic pour mariage,260,10.0,informationnel,robe trapèze chic pour mariage,True,False,False,False
+/coupes/trapeze/,robes de mariée trapèze,140,6.0,informationnel,robe de mariée trapèze,True,False,True,True
+/coupes/trapeze/,robe de mariée évasée,110,7.0,informationnel,robe de mariée évasée,True,False,True,True
+/coupes/trapeze/,robe de mariée trapeze,90,8.0,informationnel,robe de mariée trapèze,True,True,True,True
+/coupes/trapeze/,robe trapèze femme mariage,70,5.0,informationnel,robe trapèze femme mariage,True,False,False,False
+/coupes/trapeze/,robe a line mariage,70,9.0,informationnel,robe a line mariage,True,False,False,True
+/coupes/trapeze/,robe mariee trapeze,50,5.0,informationnel,robe de mariée trapèze,True,False,False,True
+/coupes/trapeze/,robe de mariee evasee,50,4.0,informationnel,robe de mariée évasée,True,False,True,True
+/coupes/trapeze/,robe mariage trapeze,50,6.0,informationnel,robe trapeze mariage,True,False,False,True
+/coupes/trapeze/,robe de mariée a line,50,9.0,informationnel,robe de mariée a line,True,False,False,True
+/coupes/trapeze/,robe de mariée trapèze bohème,50,12.0,informationnel,robe de mariée trapèze bohème,True,False,False,False
+/createurs/,créateur robes de mariée,480,32.0,informationnel,créateur robes de mariée,True,False,False,True
+/createurs/,robe de createur mariage,390,20.0,commercial,robe de createur mariage,True,False,False,False
+/createurs/,créateur robe de mariée,390,55.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,robe de mariée créateur,320,26.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,createur robe de mariee,320,47.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,créatrice robe de mariée paris,260,35.0,commercial,créatrice robe de mariée paris,True,False,False,True
+/createurs/,créateur robe de mariée paris,260,44.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robe de mariée de créateur,260,19.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,robe de mariee sur mesure,260,22.0,commercial,robe de mariee sur mesure,True,False,True,True
+/createurs/,robe de mariée paris créateur,210,34.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robe de mariee createur,210,41.0,informationnel / transactionnel,créateur robes de mariée,True,False,False,True
+/createurs/,créatrice robe de mariée,210,36.0,commercial,créatrice robe de mariée,True,False,False,True
+/createurs/,créateur de robes de mariée,210,45.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,creatrice robe mariee paris,170,33.0,commercial,créatrice robe de mariée paris,True,False,False,True
+/createurs/,createur robe de mariee paris,170,37.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robes de mariee createur paris,170,32.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,créateur de robe de mariée paris,170,38.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robes de mariée créatrice,170,16.0,commercial,créatrice robe de mariée,True,False,False,True
+/createurs/,robe de mariee de createur,170,14.0,informationnel,créateur robes de mariée,True,False,False,True
+/createurs/,robe de mariée sur mesure paris,140,10.0,commercial,robe de mariée sur mesure paris,True,False,False,True
+/createurs/,robes de mariée créateur paris,140,37.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robe de mariée créateur paris,140,44.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,creatrice robe de mariee,140,51.0,commercial,créatrice robe de mariée,True,False,False,True
+/createurs/,robes mariee createurs,110,19.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,créatrice de robe de mariée paris,110,40.0,informationnel,créatrice robe de mariée paris,True,False,False,True
+/createurs/,creatrice robe mariee,110,52.0,commercial,créatrice robe de mariée,True,False,False,True
+/createurs/,createur robe mariee,110,45.0,transactionnel,créateur robes de mariée,True,False,False,True
+/createurs/,robes de mariée sur mesure paris,90,13.0,commercial,robe de mariée sur mesure paris,True,False,False,True
+/createurs/,creatrice robe de mariee paris,90,38.0,commercial,créatrice robe de mariée paris,True,False,False,True
+/createurs/,robe de mariée de createur,90,18.0,transactionnel,créateur robes de mariée,True,False,False,True
+/createurs/,robe mariée créateur,90,35.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,créatrice de robes de mariée,90,13.0,informationnel,créatrice robe de mariée,True,False,False,True
+/createurs/,robe de mariée createur,90,50.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,robe createur mariage,90,39.0,informationnel,robe de createur mariage,True,False,False,False
+/createurs/,createur robe mariee paris,70,36.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,robe de mariée créateur français,70,12.0,informationnel,robe de mariée créateur français,True,False,False,False
+/createurs/,créateur robe mariée,70,53.0,commercial,créateur robes de mariée,True,False,False,True
+/createurs/,robe mariée paris créateur,50,37.0,commercial,créateur robe de mariée paris,True,False,False,True
+/createurs/,créatrice robes de mariée,50,17.0,commercial,créatrice robe de mariée,True,False,False,True
+/createurs/,robe mariee sur mesure,50,27.0,commercial,robe de mariee sur mesure,True,False,False,True
+/createurs/[maison]/,watters & watters,390,25.0,navigationnel,watters & watters,False,False,True,False
+/createurs/[maison]/,watters and watters,320,24.0,navigationnel / transactionnel,watters and watters,False,False,False,False
+/createurs/[maison]/,watters,90,13.0,navigationnel,watters & watters,False,False,True,False
+/details/bustier/,robe bustier mariage,880,13.0,informationnel,robe bustier mariage,True,False,False,False
+/details/bustier/,robe mariee bustier,590,13.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe de mariée col bateau,480,9.0,informationnel,robe de mariée col bateau,True,False,False,False
+/details/bustier/,bustier robe mariée,390,12.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe de mariée corset,320,10.0,informationnel,robe de mariée corset,True,True,True,True
+/details/bustier/,bustier robe de mariée,260,11.0,informationnel,robe mariee bustier,True,False,True,True
+/details/bustier/,robe mariée bustier,260,11.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robes de mariées bustier,260,12.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe mariée corset,210,9.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,robe de mariee bustier,210,11.0,informationnel,robe mariee bustier,True,True,True,True
+/details/bustier/,robe de mariage corset,210,12.0,informationnel,robe de mariage corset,True,False,False,False
+/details/bustier/,robe de mariée col carré,210,8.0,informationnel,robe de mariée col carré,True,False,False,True
+/details/bustier/,corset mariage,210,19.0,informationnel,corset mariage,True,False,False,False
+/details/bustier/,robe de mariée décolleté,210,9.0,inconnue,robe de mariée décolleté,True,False,False,True
+/details/bustier/,robe de mariée col montant,170,7.0,informationnel,robe de mariée col montant,True,False,False,True
+/details/bustier/,bustier pour mariée,170,8.0,informationnel,bustier pour mariée,True,False,False,True
+/details/bustier/,bustier de robe de mariée,170,10.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe bustier de mariée,170,11.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe bustier de mariage,170,11.0,informationnel,robe bustier mariage,True,False,False,False
+/details/bustier/,bustier mariage,170,12.0,informationnel,bustier mariage,True,False,False,False
+/details/bustier/,robe de mariée décolleté bateau paris,140,5.0,informationnel,robe de mariée décolleté bateau paris,True,False,False,False
+/details/bustier/,robe de mariée col bateau paris,140,7.0,informationnel,robe de mariée col bateau paris,True,False,False,False
+/details/bustier/,robe de mariée bustier corset,140,10.0,informationnel,robe de mariée bustier corset,True,False,False,True
+/details/bustier/,bustier pour mariage,140,10.0,informationnel,bustier mariage,True,False,False,False
+/details/bustier/,corset pour mariage,140,10.0,informationnel,corset mariage,True,False,False,False
+/details/bustier/,robe mariee corset,140,11.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,robes de mariée bustier,110,8.0,informationnel,robe mariee bustier,True,True,True,True
+/details/bustier/,décolleté robe de mariée,110,8.0,informationnel,robe de mariée décolleté,True,False,False,True
+/details/bustier/,robe de mariee decollete,110,9.0,informationnel,robe de mariée décolleté,True,False,False,True
+/details/bustier/,bustier mariée,110,9.0,informationnel,bustier pour mariée,True,False,False,True
+/details/bustier/,corset pour robe de mariée,110,9.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,robe mariage corset,110,12.0,informationnel,robe de mariage corset,True,False,False,False
+/details/bustier/,robe de mariee corset,90,11.0,informationnel,robe de mariée corset,True,True,True,True
+/details/bustier/,robe bustier mariee,90,11.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,corset blanc mariage,90,10.0,informationnel,corset blanc mariage,True,False,False,False
+/details/bustier/,bustier blanc mariage,90,15.0,informationnel,bustier blanc mariage,True,False,False,False
+/details/bustier/,robe col bardot mariage,90,16.0,informationnel,robe col bardot mariage,True,False,False,False
+/details/bustier/,robe de marie bustier,70,10.0,informationnel,robe mariee bustier,True,False,False,True
+/details/bustier/,robe mariage col bateau,70,7.0,informationnel,robe mariage col bateau,True,False,False,False
+/details/bustier/,robe mariée col américain,70,8.0,informationnel,robe mariée col américain,True,False,False,False
+/details/bustier/,corset robe de mariée,70,9.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,bustier robe de mariee,50,10.0,informationnel,robe mariee bustier,True,False,True,True
+/details/bustier/,bustier femme mariage,50,6.0,informationnel,bustier femme mariage,True,False,False,False
+/details/bustier/,robe de mariee avec corset,50,7.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,robe bustier femme mariage,50,8.0,informationnel,robe bustier femme mariage,True,False,False,False
+/details/bustier/,robe de mariée avec corset,50,9.0,informationnel,robe de mariée corset,True,False,False,True
+/details/bustier/,robe de mariée sans decollete,50,9.0,informationnel,robe de mariée sans decollete,True,False,False,True
+/details/dos-nu/,robe de mariée dos nu,720,20.0,informationnel,robe de mariée dos nu,True,True,True,True
+/details/dos-nu/,robe mariée dos nu,390,19.0,informationnel,robe de mariée dos nu,True,False,False,True
+/details/dos-nu/,robe de mariee dos nu,320,8.0,informationnel,robe de mariée dos nu,True,True,True,True
+/details/dos-nu/,robe de mariage dos nu,320,12.0,informationnel,robe de mariage dos nu,True,False,False,True
+/details/dos-nu/,robe marie sexy,260,10.0,informationnel,robe marie sexy,True,False,False,True
+/details/dos-nu/,robe mariee sexy,260,10.0,informationnel,robe marie sexy,True,False,False,True
+/details/dos-nu/,dos-nu robe de mariée,210,10.0,informationnel,robe de mariée dos nu,True,False,True,True
+/details/dos-nu/,robe de mariee sexy,210,7.0,informationnel,robe marie sexy,True,True,True,True
+/details/dos-nu/,sexy robe de mariage,210,9.0,informationnel,robe sexy de mariage,True,False,False,True
+/details/dos-nu/,robe sexy de mariage,210,9.0,informationnel,robe sexy de mariage,True,False,False,True
+/details/dos-nu/,robe mariage dos nu,210,10.0,inconnue,robe de mariage dos nu,True,False,False,True
+/details/dos-nu/,robe mariee dos nu,170,10.0,informationnel,robe de mariée dos nu,True,False,False,True
+/details/dos-nu/,robes de mariée dos nu dentelle,140,6.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robes de mariée dentelle dos nu,140,6.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robe de mariée dos nu en dentelle,140,8.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robe de mariée dos nu dentelle,110,6.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robe de mariée dos nu et dentelle,110,6.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robes de mariée dos nu,110,9.0,informationnel,robe de mariée dos nu,True,True,True,True
+/details/dos-nu/,robe mariée sexy,110,7.0,informationnel,robe marie sexy,True,False,False,True
+/details/dos-nu/,robe de mariée dos nu plongeant,110,9.0,informationnel,robe de mariée dos nu plongeant,True,False,False,False
+/details/dos-nu/,robe sexy pour un mariage,90,12.0,informationnel,robe sexy de mariage,True,False,False,True
+/details/dos-nu/,robe sexy mariage,90,12.0,informationnel,robe sexy de mariage,True,False,False,True
+/details/dos-nu/,robe de mariee dos nus dentelle,70,6.0,informationnel,robe de mariee dos nus dentelle,True,False,False,True
+/details/dos-nu/,robe mariée dentelle dos nu,70,8.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,robe mariée dos nu dentelle,70,8.0,informationnel,robe de mariée dos nu en dentelle,True,False,False,True
+/details/dos-nu/,dos nu robe de mariée,70,8.0,informationnel,robe de mariée dos nu,True,False,True,True
+/details/dos-nu/,robe sexy pour mariage,70,16.0,informationnel,robe sexy de mariage,True,False,False,True
+/details/dos-nu/,robe mariée dos nu plongeant,70,8.0,inconnue,robe de mariée dos nu plongeant,True,False,False,False
+/details/dos-nu/,robe mariée dos nu plongeant dentelle,50,5.0,informationnel,robe mariée dos nu plongeant dentelle,True,False,False,False
+/details/dos-nu/,robe de mariee dos nus,50,6.0,informationnel,robe de mariee dos nus,True,False,False,True
+/details/dos-nu/,robe de marie dos nu,50,7.0,informationnel,robe de mariée dos nu,True,False,False,True
+/details/manches-longues/,robe de mariée manche longue,1300,21.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe de mariée longue manche,880,19.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe mariée manche longue,480,18.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe mariee manche longue,480,21.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe mariage manche longue,480,18.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe mariée manches longues,390,12.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe manche longue mariee,390,19.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe manche longue pour mariage,390,19.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe pour mariage manches longues,390,15.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe mariée longue manche,390,19.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe mariee manche longues,390,19.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe manche longue mariage,390,19.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe de mariée manches longues,390,19.0,informationnel,robe de mariée manche longue,True,True,True,True
+/details/manches-longues/,robe de mariee avec manche,320,11.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe de mariee manche longue,320,19.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe de mariée avec des manches,260,10.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,manches robe de mariée,260,9.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,manche robe de mariee,260,14.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe mariage manches longues,210,17.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,manches robes de mariée,170,14.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe de mariee avec des manches,170,12.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe mariee manches longues,140,11.0,informationnel,robe de mariée manche longue,True,False,False,True
+/details/manches-longues/,robe de mariée manche,140,13.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe de mariee manches longues,140,11.0,informationnel,robe de mariée manche longue,True,True,True,True
+/details/manches-longues/,robe de mariée manches,110,11.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe de mariée hiver manches longues,110,7.0,informationnel,robe de mariée hiver manches longues,True,False,False,True
+/details/manches-longues/,robe de mariage manche longue,110,20.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe longue manche longue mariage,110,16.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe de mariee avec manches,90,8.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe de mariee manche,90,12.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe mariée manche,90,13.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe de mariée une bretelle,90,8.0,informationnel,robe de mariée bretelle,True,False,False,True
+/details/manches-longues/,robe de mariée bretelle,90,9.0,informationnel,robe de mariée bretelle,True,False,False,True
+/details/manches-longues/,manche robe de mariée,90,11.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe mariage manche bouffante,90,12.0,informationnel,robe mariage manche bouffante,True,False,False,True
+/details/manches-longues/,robe mariée avec manche,90,19.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe manches longues mariage,90,19.0,informationnel,robe mariage manche longue,True,False,False,True
+/details/manches-longues/,robe de mariee bretelle,70,6.0,informationnel,robe de mariée bretelle,True,False,False,True
+/details/manches-longues/,robe mariee manches,70,7.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe mariée bretelle,70,8.0,informationnel,robe de mariée bretelle,True,False,False,True
+/details/manches-longues/,robe de mariée à bretelles,70,9.0,informationnel,robe de mariée bretelle,True,True,True,True
+/details/manches-longues/,robe mariee avec manches,70,11.0,informationnel,robe de mariee avec manche,True,False,False,True
+/details/manches-longues/,robe de mariée à manche,50,21.0,commercial,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe mariage civil manche longue,50,11.0,informationnel,robe mariage civil manche longue,True,False,False,True
+/details/manches-longues/,robe de mariée avec manches,50,12.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robe de mariée à manches,50,16.0,informationnel,robe de mariee avec manche,True,True,True,True
+/details/manches-longues/,robes de mariée manche longue,50,17.0,informationnel,robe de mariée manche longue,True,False,False,True
+/guides/,robe de mariée modele,210,20.0,informationnel,robe de mariée modele,True,False,False,False
+/guides/,robe mariée 2026,170,14.0,informationnel,robe de mariee 2026,True,False,False,True
+/guides/,robe de mariée modèle,170,17.0,informationnel,robe de mariée modele,True,False,False,False
+/guides/,robe de mariee 2026,170,18.0,informationnel,robe de mariee 2026,True,False,False,True
+/guides/,robe mariee 2026,140,11.0,informationnel,robe de mariee 2026,True,False,False,True
+/guides/,robe de mariée photos,140,26.0,informationnel,robe de mariée photos,True,False,False,False
+/guides/,robes mariage 2026,110,15.0,informationnel,robe mariage 2026,True,False,False,True
+/guides/,robe mariage 2026,110,15.0,informationnel,robe mariage 2026,True,False,False,True
+/guides/,robes de mariees 2026,110,16.0,informationnel,robe de mariee 2026,True,False,False,True
+/guides/,catalogue robe de mariée,90,21.0,informationnel,catalogue robe de mariée,True,False,False,True
+/guides/,collection mariée,90,23.0,informationnel,collection mariée,True,False,False,False
+/guides/,robes de mariées 2026,70,13.0,informationnel,robe de mariee 2026,True,False,False,True
+/guides/,idee robe de mariee,70,22.0,informationnel,idee robe de mariee,True,False,False,False
+/guides/,photos de robe de mariée,70,22.0,informationnel,robe de mariée photos,True,False,False,False
+/guides/,photos robe de mariage,70,26.0,informationnel,photos robe de mariage,True,False,False,False
+/guides/,image mariée,70,30.0,informationnel,image mariée,True,False,False,False
+/guides/,robe de mariée 2027,50,7.0,informationnel,robe de mariée 2027,True,False,False,False
+/guides/,robe de mariée collection 2026,50,8.0,informationnel,robe de mariée collection 2026,True,False,False,False
+/guides/,bridal collection,50,11.0,informationnel,bridal collection,True,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe de mariage,1000,19.0,transactionnel,location robe de mariage,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe de mariée paris,390,30.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location de robe de mariée paris,320,21.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe de mariee paris,320,28.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe de mariée location paris,320,33.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe de mariage location paris,320,36.0,commercial,robe de mariage location paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe de mariée en location paris,260,32.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,louer une robe de mariée,260,12.0,commercial,louer une robe de mariée,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe de mariee location paris,210,21.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe mariage location,210,19.0,transactionnel,location robe de mariage,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe mariage location paris,140,43.0,commercial,robe de mariage location paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe mariage paris,110,31.0,commercial,robe de mariage location paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe mariee paris,110,32.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe mariée paris,110,39.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,robe mariée location paris,90,35.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location robe de mariage paris,70,12.0,commercial,robe de mariage location paris,False,False,False,False
+/guides/acheter-ou-louer-sa-robe-de-mariee/,location de robes de mariée paris,70,30.0,commercial,location robe de mariée paris,False,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariee pas chere,2400,15.0,commercial,robe de mariee pas chere,True,True,True,True
+/guides/prix-robe-de-mariee-paris/,prix robe de mariée,1300,9.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée prix,880,8.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,prix d une robe de mariage,720,11.0,transactionnel,prix d une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,prix des robes de mariée,590,7.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robes de mariées prix,590,9.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée et prix,590,13.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,site robe de mariage pas cher,590,22.0,transactionnel,site robe de mariage pas cher,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robes mariees pas cheres,480,14.0,transactionnel,robe de mariee pas chere,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée pas cher paris,390,12.0,transactionnel,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robes de mariée destockage,390,11.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage de robe de mariée,390,6.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage robe de mariée,390,9.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,prix robes de mariée,390,10.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée pas cher site fiable,320,15.0,commercial,robe de mariée pas cher site fiable,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée sur paris pas cher,260,7.0,transactionnel,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée paris pas cher,260,8.0,transactionnel,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,paris robe de mariée pas cher,260,11.0,commercial,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robes de mariées pas cher paris,260,11.0,commercial,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée destockage,260,6.0,informationnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,déstockage robe de mariée en ligne,210,4.0,commercial,déstockage robe de mariée en ligne,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robes de mariée soldes,210,6.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,prix robe de mariage,210,7.0,transactionnel,prix d une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,soldes robes de mariee,210,14.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage robes de mariée,210,10.0,commercial,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariage prix,210,12.0,transactionnel,prix d une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robes de mariée en soldes,170,10.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée pas cher à proximité,170,12.0,commercial,robe de mariée pas cher à proximité,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée bon prix,170,12.0,transactionnel,robe de mariée bon prix,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée solde,170,13.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,solde robe de mariée,170,15.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,combien coute une robe de mariée,170,6.0,informationnel,combien coute une robe de mariée,True,True,True,True
+/guides/prix-robe-de-mariee-paris/,robe de mariee pas cher paris,140,11.0,commercial,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robes de mariée pas cher paris,140,19.0,commercial,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée outlet,140,11.0,transactionnel,outlet robe de mariée,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariage solde,140,6.0,transactionnel,robe de mariage solde,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,outlet robe de mariée,140,5.0,transactionnel,outlet robe de mariée,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,prix robe de mariee,140,9.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariage paris pas cher,110,18.0,commercial,robe mariage paris pas cher,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe mariee pas chere paris,110,16.0,transactionnel,robe mariee pas chere paris,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariee prix,110,6.0,transactionnel,prix robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,combien coute une robe de mariage,110,6.0,commercial,combien coute une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,déstockage robes de mariée,110,6.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariage prix,110,6.0,transactionnel,prix d une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,location robe de mariée prix,110,7.0,transactionnel,location de robe de mariée prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,combien coûte une robe de mariée,110,6.0,informationnel,combien coute une robe de mariée,True,True,True,True
+/guides/prix-robe-de-mariee-paris/,location de robe de mariée prix,110,6.0,inconnue,location de robe de mariée prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe mariée paris pas cher,90,10.0,commercial,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,destockage robe de mariée paris,90,10.0,commercial,destockage robe de mariée paris,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariée pas cher paris,90,11.0,transactionnel,robe de mariée pas cher paris,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée destockage paris,90,11.0,commercial,destockage robe de mariée paris,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariage pas cher paris,90,16.0,commercial,robe mariage paris pas cher,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée pas cher paris barbès,90,30.0,commercial,robe de mariée pas cher paris barbès,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée outlet en ligne,90,4.0,transactionnel,robe de mariée outlet en ligne,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robes de mariée petit prix,90,9.0,transactionnel,robe de mariée petit prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée location prix,90,7.0,transactionnel,location de robe de mariée prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée petit prix,90,7.0,transactionnel,robe de mariée petit prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariee paris pas chere,70,6.0,transactionnel,robe mariee pas chere paris,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée pas chere paris,70,6.0,transactionnel,robe mariee pas chere paris,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage robe de mariee,70,4.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robes de mariage prix,70,8.0,transactionnel,prix d une robe de mariage,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage robe mariee,70,9.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe mariée destockage,70,9.0,transactionnel,destockage de robe de mariée,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robes de marié pas cher,70,11.0,commercial,robes de marié pas cher,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,soldes robe de mariée,70,14.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,les sœurs joubert robe de mariée prix,70,19.0,transactionnel,les sœurs joubert robe de mariée prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,tarif robe de mariée,70,6.0,informationnel,robe de mariée tarif,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée tarif,70,9.0,informationnel,robe de mariée tarif,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe de mariée soldes,50,9.0,transactionnel,robes de mariée soldes,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,destockage robe de mariée en ligne,50,6.0,transactionnel,déstockage robe de mariée en ligne,True,False,False,True
+/guides/prix-robe-de-mariee-paris/,robe de mariée sur mesure pas cher,50,16.0,transactionnel,robe de mariée sur mesure pas cher,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,catalogue robe de mariée avec prix,50,17.0,transactionnel,catalogue robe de mariée avec prix,True,False,False,False
+/guides/prix-robe-de-mariee-paris/,robe mariage bon prix,50,19.0,navigationnel / transactionnel,robe mariage bon prix,True,False,False,True
+/guides/robe-de-mariee-couleur/,robe de mariée blanche et rouge,260,24.0,informationnel,robe de mariée blanche et rouge,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe mariee ivoire,210,10.0,informationnel / transactionnel,robe mariee ivoire,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe de mariée champagne,210,14.0,informationnel,robe de mariée champagne,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe mariage civil couleur,170,9.0,informationnel,robe mariage civil couleur,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe mariee blanche et noir,170,11.0,informationnel,robe mariee blanche et noir,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe rouge mariée,140,14.0,informationnel,robe rouge mariée,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe mariee rose,110,6.0,informationnel,robe mariee rose,False,False,False,False
+/guides/robe-de-mariee-couleur/,robe de mariée argentée,90,8.0,informationnel,robe de mariée argentée,False,False,False,False
+/guides/robe-de-mariee-enceinte/,robe de mariée femme enceinte,320,15.0,informationnel,robe de mariée femme enceinte,True,False,True,True
+/guides/robe-de-mariee-enceinte/,robe de mariée enceinte,260,11.0,commercial / informationnel,robe de mariée enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe mariée pour femme enceinte,260,6.0,informationnel,robe de mariée femme enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariée grossesse,260,12.0,informationnel,robe de mariée grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariée de grossesse,210,12.0,informationnel,robe de mariée grossesse,True,True,True,True
+/guides/robe-de-mariee-enceinte/,robe mariee enceinte,210,13.0,informationnel,robe de mariée enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariee de grossesse,210,14.0,informationnel,robe de mariée grossesse,True,True,True,True
+/guides/robe-de-mariee-enceinte/,robe mariee femme enceinte,170,12.0,informationnel,robe de mariée femme enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de grossesse mariée,170,14.0,informationnel,robe de mariée grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariee femme enceinte,140,10.0,informationnel,robe de mariée femme enceinte,True,False,True,True
+/guides/robe-de-mariee-enceinte/,robe de mariee grossesse,140,11.0,informationnel,robe de mariée grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe mariée grossesse,140,15.0,informationnel,robe de mariée grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe grossesse mariée,110,12.0,informationnel,robe de mariée grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariage grossesse,90,9.0,commercial,robe de mariage grossesse,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariée pour femme enceinte,90,13.0,informationnel,robe de mariée femme enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robe de mariee enceinte,70,11.0,informationnel,robe de mariée enceinte,True,False,False,True
+/guides/robe-de-mariee-enceinte/,robes de mariée femme enceinte,70,13.0,informationnel,robe de mariée femme enceinte,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée vintage des années 90,390,13.0,informationnel,robe de mariée vintage des années 90,True,True,True,True
+/guides/robe-de-mariee-vintage/,robe mariée vintage,320,10.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes de mariées vintage,260,16.0,transactionnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariee vintage,260,8.0,informationnel,robe mariée vintage,True,True,True,True
+/guides/robe-de-mariee-vintage/,robe année 20 pour mariage,260,7.0,informationnel,robe année 20 pour mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe vintage mariage,260,14.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariee annee 20,260,14.0,informationnel,robe de mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée année 20,260,17.0,informationnel,robe de mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,vintage wedding shop,210,20.0,commercial,vintage wedding shop,True,False,False,False
+/guides/robe-de-mariee-vintage/,mariage vintage robe,210,17.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée année 30,210,20.0,informationnel,robe de mariée année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes de mariée vintage,170,10.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes de mariee vintage,170,14.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe pour mariage vintage,170,9.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,vintage robe de mariée,170,10.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe charleston mariage,170,12.0,informationnel,robe charleston mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée année 60,170,12.0,informationnel,robe de mariée année 60,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe vintage pour mariage,170,18.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariee annees 30,140,8.0,informationnel,robe de mariée année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariée année 30,140,12.0,informationnel,robe de mariée année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée année 70,140,13.0,informationnel,robe de mariée année 70,True,False,False,False
+/guides/robe-de-mariee-vintage/,robe mariage annee 20,140,10.0,informationnel,robe année 20 pour mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariee annee 20,140,10.0,informationnel,robe de mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée rétro,140,10.0,informationnel,robe de mariée rétro,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe retro mariage,140,16.0,informationnel,robe retro mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,mariage année 20,140,16.0,informationnel,mariage année 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes mariée vintage,110,8.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de marié vintage,110,10.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariee annee 30,110,12.0,informationnel,robe de mariée année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariee vintage,110,12.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariage retro,110,14.0,informationnel,robe retro mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariée vintage années 50,110,9.0,informationnel,robe mariée vintage années 50,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes de mariée année 50,110,9.0,informationnel,robes de mariée année 50,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée année 20 30,110,15.0,informationnel,robe de mariée année 20 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariee annees 20,110,10.0,informationnel,robe de mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,mariee annee 20,110,14.0,informationnel,mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariee annee 30,110,14.0,informationnel,robe de mariée année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariee charleston,110,15.0,informationnel,robe de mariee charleston,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe pour mariage retro,110,16.0,informationnel,robe retro mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe retro pour mariage,90,15.0,commercial,robe retro mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,ancienne robe de mariée,90,8.0,informationnel,ancienne robe de mariée,True,False,False,True
+/guides/robe-de-mariee-vintage/,robes mariage vintage,90,9.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariee annee 70,90,12.0,informationnel,robe de mariée année 70,True,False,False,False
+/guides/robe-de-mariee-vintage/,robe de mariée vintage année 70,90,9.0,informationnel,robe de mariée vintage année 70,True,False,False,False
+/guides/robe-de-mariee-vintage/,robe de mariée ancienne,90,10.0,informationnel,ancienne robe de mariée,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée victorienne,90,11.0,informationnel,robe de mariée victorienne,True,False,False,False
+/guides/robe-de-mariee-vintage/,robe de mariee retro,90,11.0,informationnel,robe de mariée rétro,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée annee 70,90,12.0,informationnel,robe de mariée année 70,True,False,False,False
+/guides/robe-de-mariee-vintage/,tenue mariage année 20,90,14.0,informationnel,tenue mariage année 20,True,False,False,False
+/guides/robe-de-mariee-vintage/,robes de mariée anciennes,70,8.0,informationnel,ancienne robe de mariée,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée vintage année 30,70,8.0,informationnel,robe de mariée vintage année 30,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée vintage année 60,70,12.0,informationnel,robe de mariée vintage année 60,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée annee 60,70,7.0,informationnel,robe de mariée année 60,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariage vintage,70,13.0,informationnel,robe vintage mariage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe de mariée vintage année 50,70,8.0,informationnel,robe mariée vintage années 50,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariée année 20,70,9.0,informationnel,robe de mariee annee 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,mariage annee 20,70,11.0,informationnel,mariage année 20,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariée victorienne,70,19.0,informationnel,robe de mariée victorienne,True,False,False,False
+/guides/robe-de-mariee-vintage/,robe marié vintage,50,6.0,informationnel,robe mariée vintage,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariée retro,50,13.0,informationnel,robe de mariée rétro,True,False,False,True
+/guides/robe-de-mariee-vintage/,robe mariage année 20,50,17.0,informationnel,robe année 20 pour mariage,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe de mariée tulle,320,19.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe de mariee tulle,260,21.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe de mariée en tulle,210,8.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe tulle mariee,210,9.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe de mariee en tulle,210,11.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe tulle mariage,210,13.0,informationnel,robe tulle mariage,True,False,False,False
+/guides/tissus-robe-de-mariee/,robe de mariée tulles,210,19.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,organza mariage,170,25.0,informationnel / transactionnel,organza mariage,True,False,False,False
+/guides/tissus-robe-de-mariee/,robe mariee tulle,170,19.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe mariée en tulle,170,21.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe mariage tulle,140,14.0,informationnel,robe tulle mariage,True,False,False,False
+/guides/tissus-robe-de-mariee/,organza robe de mariée,90,8.0,informationnel,organza robe de mariée,True,False,False,True
+/guides/tissus-robe-de-mariee/,robe de mariée en organza,90,8.0,informationnel,organza robe de mariée,True,False,False,True
+/guides/tissus-robe-de-mariee/,tulle robe de mariée,90,12.0,informationnel,robe de mariée tulle,True,False,False,True
+/guides/traine-robe-de-mariee/,cape mariee,320,11.0,informationnel,cape mariee,False,False,False,False
+/guides/traine-robe-de-mariee/,robe cape mariage,210,17.0,informationnel,robe cape mariage,False,False,False,False
+/guides/traine-robe-de-mariee/,traine de mariée,170,16.0,informationnel,traine de mariée,False,False,False,False
+/guides/traine-robe-de-mariee/,robe de mariee drapee,90,7.0,informationnel,robe de mariee drapee,False,False,False,False
+/guides/traine-robe-de-mariee/,robe de mariée drapée,90,8.0,informationnel,robe de mariee drapee,False,False,False,False
+/guides/traine-robe-de-mariee/,ceinture pour robe de mariée,90,10.0,informationnel,ceinture pour robe de mariée,False,False,False,False
+/guides/traine-robe-de-mariee/,robes de mariée drapée,70,6.0,informationnel,robe de mariee drapee,False,False,False,False
+/matieres/dentelle/,robe de mariée dentelle,1900,16.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,mariage robe dentelle,1300,19.0,informationnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée dentelle,1000,9.0,informationnel,robe de mariée dentelle,True,True,True,True
+/matieres/dentelle/,robe mariee dentelle,1000,16.0,informationnel,robe de mariée dentelle,True,True,True,True
+/matieres/dentelle/,robe de mariée en dentelle,1000,15.0,informationnel,robe de mariée dentelle,True,True,True,True
+/matieres/dentelle/,robe dentelle mariage,1000,16.0,informationnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robes de mariée dentelle,880,19.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe en dentelle pour mariage,590,11.0,informationnel / transactionnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robe mariee en dentelle,480,15.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe en dentelle mariage,390,13.0,informationnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariee dentelle,390,15.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée manche longue dentelle,320,16.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée dentelle manche longue,260,9.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robes de mariée en dentelle,260,11.0,informationnel,robe de mariée dentelle,True,True,True,True
+/matieres/dentelle/,robe mariée dentelle manches longues,260,11.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariage dentelle,260,14.0,informationnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robe mariage dentelle,260,15.0,informationnel,mariage robe dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée dentelle manche longue,210,11.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,dentelle robe mariée,210,12.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée longue manche dentelle,170,8.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,cape mariee dentelle,170,6.0,informationnel,cape mariee dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée manche en dentelle,170,8.0,informationnel,robe de mariée manche en dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée dentelle manches longues,170,14.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée manche longue dentelle,170,19.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée bustier dentelle,140,10.0,informationnel,robe de mariée bustier dentelle,True,False,False,True
+/matieres/dentelle/,cape mariée dentelle,140,6.0,informationnel,cape mariee dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée manche longue en dentelle,140,14.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe dentelle mariee,140,14.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée manches dentelle,140,15.0,informationnel,robe de mariée manche en dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée dentelle manche,140,17.0,informationnel,robe de mariée manche en dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée manches longues dentelle,140,18.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée dentelle bustier,110,8.0,informationnel,robe de mariée bustier dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée satin et dentelle,110,8.0,informationnel,robe de mariée satin et dentelle,True,True,True,True
+/matieres/dentelle/,mariee dentelle,110,17.0,informationnel,mariee dentelle,True,True,True,True
+/matieres/dentelle/,wedding dress dentelle,110,14.0,informationnel,wedding dress dentelle,True,False,False,False
+/matieres/dentelle/,mariage dentelle,110,21.0,informationnel,mariage dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée dentelle bustier,90,8.0,informationnel,robe de mariée bustier dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée bustier dentelle,90,6.0,informationnel,robe de mariée bustier dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée satin dentelle,90,6.0,informationnel,robe de mariée satin et dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée dentelle et satin,90,6.0,informationnel,robe de mariée satin et dentelle,True,False,False,True
+/matieres/dentelle/,marie dentelle,90,16.0,informationnel,mariee dentelle,True,False,False,True
+/matieres/dentelle/,robe marie dentelle,90,12.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariee en dentelle,70,12.0,informationnel,robe de mariée dentelle,True,True,True,True
+/matieres/dentelle/,robe mariee bustier dentelle,70,8.0,informationnel,robe de mariée bustier dentelle,True,False,False,True
+/matieres/dentelle/,robe blanche dentelle mariage,70,10.0,informationnel,robe blanche dentelle mariage,True,False,False,False
+/matieres/dentelle/,robe mariee dentelle manches longues,70,7.0,informationnel,robe mariée manche longue dentelle,True,False,False,True
+/matieres/dentelle/,robe de marier dentelle,70,13.0,informationnel,robe de marier dentelle,True,False,False,False
+/matieres/dentelle/,robe dentelle blanche mariage,70,8.0,informationnel,robe blanche dentelle mariage,True,False,False,False
+/matieres/dentelle/,manche dentelle mariage,70,9.0,informationnel,manche dentelle mariage,True,False,False,True
+/matieres/dentelle/,robes de mariee dentelle,70,10.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robes de mariées en dentelle,50,12.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe de mariée avec dentelle,50,12.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/dentelle/,robe mariée manche dentelle,50,8.0,informationnel,robe de mariée manche en dentelle,True,False,False,True
+/matieres/dentelle/,robe de marie dentelle,50,18.0,informationnel,robe de mariée dentelle,True,False,False,True
+/matieres/satin/,robe de mariee satin,880,10.0,informationnel,robe de mariee satin,True,False,True,True
+/matieres/satin/,robe de mariée en satin,880,10.0,informationnel,robe de mariee satin,True,True,True,True
+/matieres/satin/,robe de mariée satin,880,10.0,informationnel,robe de mariee satin,True,False,True,True
+/matieres/satin/,robe mariée satin,480,10.0,informationnel,robe de mariee satin,True,False,False,True
+/matieres/satin/,robe de mariage en satin,390,6.0,informationnel,robe de mariage en satin,True,False,False,True
+/matieres/satin/,robe satin mariage,390,12.0,informationnel,robe de mariage en satin,True,False,False,True
+/matieres/satin/,robe mariee satin,260,7.0,informationnel,robe de mariee satin,True,False,False,True
+/matieres/satin/,robe satin mariée,260,8.0,informationnel,robe de mariee satin,True,False,False,True
+/matieres/satin/,robes de mariée en satin,170,8.0,informationnel,robe de mariee satin,True,True,True,True
+/matieres/satin/,robe de mariée mikado,170,8.0,informationnel,robe de mariée mikado,True,False,False,True
+/matieres/satin/,robe de mariée soie,170,8.0,informationnel,robe de mariée soie,True,False,False,True
+/matieres/satin/,robe de mariée en satin duchesse,110,8.0,informationnel,robe de mariée en satin duchesse,True,False,False,True
+/matieres/satin/,robe de mariee satin bustier,90,5.0,informationnel,robe de mariee satin bustier,True,False,False,True
+/matieres/satin/,robe mariage satin,90,6.0,informationnel,robe de mariage en satin,True,False,False,True
+/matieres/satin/,robe de mariée bustier satin,90,8.0,informationnel,robe de mariee satin bustier,True,False,False,True
+/matieres/satin/,robe de mariée satin duchesse,90,4.0,informationnel,robe de mariée en satin duchesse,True,False,False,True
+/matieres/satin/,robe marie satin,90,11.0,informationnel,robe de mariee satin,True,False,False,True
+/matieres/satin/,robe de mariee en satin,70,7.0,informationnel,robe de mariee satin,True,True,True,True
+/matieres/satin/,robe de mariée en satin de soie,70,11.0,informationnel,robe de mariée en satin de soie,True,False,False,True
+/matieres/satin/,robe mariée satin manche longue,50,9.0,informationnel / transactionnel,robe mariée satin manche longue,True,False,False,True
+/morphologies/,morphologie h robe,390,16.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,robe morphologie h,390,17.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,robe pour morphologie h,320,15.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,morphologie en h robe,260,18.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,morphologie h quelle robe,260,18.0,informationnel,morphologie h quelle robe,True,False,False,False
+/morphologies/,robe pour morpho h,260,19.0,informationnel,robe pour morpho h,True,False,False,False
+/morphologies/,robes morphologie h,170,15.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,robe de mariée morphologie,140,8.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/,robes pour morphologie en h,140,11.0,informationnel,morphologie h robe,True,False,False,True
+/morphologies/,robe de mariee morphologie,90,7.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/,quelle robe pour morphologie en h,90,14.0,informationnel,morphologie h quelle robe,True,False,False,False
+/morphologies/,quelle robe morphologie h,90,18.0,informationnel,morphologie h quelle robe,True,False,False,False
+/morphologies/,morphologie en o quelle robe,70,8.0,informationnel,morphologie en o quelle robe,True,False,True,False
+/morphologies/,morphologie en o robe,70,9.0,informationnel,morphologie en o robe,True,False,False,True
+/morphologies/,robe morphologie en o,70,9.0,informationnel,morphologie en o robe,True,False,False,True
+/morphologies/,morphologie et robe de mariée,70,10.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/,robe pour morphologie en x,70,10.0,informationnel,robe morphologie en x,True,False,False,True
+/morphologies/,morphologie pour robe de mariée,70,10.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/,robe morphologie en x,70,10.0,informationnel,robe morphologie en x,True,False,False,True
+/morphologies/,robe pour morphologie o,70,10.0,informationnel,morphologie en o robe,True,False,False,True
+/morphologies/,robe de mariée et morphologie,70,10.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/,morphologie robe de mariee,50,7.0,informationnel,robe de mariée morphologie,True,False,False,True
+/morphologies/grande-taille/,robe de mariée grande taille,1900,16.0,commercial / informationnel,robe de mariée grande taille,True,True,True,True
+/morphologies/grande-taille/,robe mariee grande taille,590,11.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe de mariee grande taille,590,14.0,commercial / informationnel,robe de mariée grande taille,True,True,True,True
+/morphologies/grande-taille/,robe de mariée grande taille pas cher,320,9.0,commercial / informationnel,robe de mariée grande taille pas cher,True,True,True,False
+/morphologies/grande-taille/,robe de mariée pas cher grande taille,210,11.0,commercial / informationnel,robe de mariée grande taille pas cher,True,False,False,False
+/morphologies/grande-taille/,robes de mariée grande taille,110,8.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robes de mariée grandes tailles,110,9.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe de marie grande taille,110,8.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,magasin robe de mariée grande taille,110,11.0,commercial,magasin robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robes de mariées grandes tailles,110,12.0,commercial,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe de mariée grandes tailles,110,15.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe de mariée de grande taille,110,7.0,informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robes de mariage grande taille,110,19.0,informationnel,robes de mariage grande taille,True,False,False,False
+/morphologies/grande-taille/,robe de mariée grande taille paris,90,18.0,commercial,robe de mariée grande taille paris,True,False,False,True
+/morphologies/grande-taille/,robes de mariées grande taille,90,8.0,commercial / informationnel,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,grande taille robe de mariée,90,9.0,commercial / informationnel,robe de mariée grande taille,True,False,True,True
+/morphologies/grande-taille/,robe de mariée pour grande taille,90,10.0,commercial,robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe de mariée grande taille magasin,90,14.0,commercial,magasin robe de mariée grande taille,True,False,False,True
+/morphologies/grande-taille/,robe mariage civil grande taille,90,9.0,informationnel,robe mariage civil grande taille,True,False,False,False
+/morphologies/grande-taille/,robe de mariee grande taille pas chere,70,15.0,commercial,robe de mariee grande taille pas chere,True,True,True,True
+/morphologies/grande-taille/,robe de mariée pas chere grande taille,70,19.0,commercial,robe de mariee grande taille pas chere,True,False,False,True
+/morphologies/grande-taille/,robe de mariée forte poitrine,70,6.0,informationnel,robe de mariée forte poitrine,True,False,False,True
+/morphologies/grande-taille/,robe mariée ronde,50,8.0,informationnel,robe mariée ronde,True,False,False,False
+/robes/,robe de mariée,49500,49.0,informationnel,robe de mariée,True,True,True,True
+/robes/,robe de mariee,8100,40.0,commercial,robe de mariée,True,True,True,True
+/robes/,robe mariée,6600,19.0,commercial,robe de mariée,True,False,True,True
+/robes/,robe mariee,4400,37.0,commercial,robe de mariée,True,False,True,True
+/robes/,robe des mariées,4400,45.0,transactionnel,robe de mariée,True,False,False,True
+/robes/,robes de mariée,3600,34.0,commercial,robe de mariée,True,True,True,True
+/robes/,robe de mariage et de soirée,3600,27.0,informationnel / transactionnel,robe de mariage et de soirée,True,False,False,False
+/robes/,robe de marié,2900,35.0,commercial,robe de mariée,True,True,True,True
+/robes/,robe de marier,2400,36.0,commercial,robe de marier,True,False,False,False
+/robes/,robe de marie,2400,35.0,informationnel,robe de mariée,True,True,True,True
+/robes/,wedding gown dress,2400,57.0,informationnel / transactionnel,wedding gown dress,True,False,False,False
+/robes/,wedding dress,2400,48.0,informationnel,wedding dress,True,False,False,False
+/robes/,robes de mariage,1000,24.0,commercial,robes de mariage,True,False,False,True
+/robes/,robe pour mariée,1000,24.0,transactionnel,robe de mariée,True,False,False,True
+/robes/,robe mariee chic,1000,13.0,informationnel,robe mariee chic,True,False,False,False
+/robes/,robe marie,1000,41.0,commercial,robe de mariée,True,False,True,True
+/robes/,robes de mariee,880,39.0,commercial,robe de mariée,True,True,True,True
+/robes/,robes de mariees,880,35.0,commercial,robe de mariée,True,False,False,True
+/robes/,robe marier,880,43.0,commercial,robe de marier,True,False,False,False
+/robes/,robe mariée cocktail,720,13.0,commercial,robe mariée cocktail,True,False,False,False
+/robes/,robe marié,720,35.0,transactionnel,robe de mariée,True,False,True,True
+/robes/,robe de mariée chic,590,13.0,commercial,robe mariee chic,True,False,True,False
+/robes/,robes mariee,590,39.0,commercial,robe de mariée,True,False,False,True
+/robes/,robes de mariées,590,46.0,commercial,robe de mariée,True,False,False,True
+/robes/,robes de mariée marques,480,19.0,commercial / informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe de mariée cérémonie,480,28.0,transactionnel,robe de mariée cérémonie,True,False,False,False
+/robes/,magnifique robe de mariée,480,30.0,informationnel / transactionnel,magnifique robe de mariée,True,False,True,False
+/robes/,tissus de robe de mariée,480,13.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,tissus robes de mariée,480,14.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,tissu robe de mariée,480,16.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,site pour robe de mariage,480,20.0,informationnel,site de robe de mariage,True,False,False,True
+/robes/,robe de mariee de marque,480,29.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,marque robe de mariée,480,34.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,site de robe de mariage,480,31.0,informationnel,site de robe de mariage,True,False,False,True
+/robes/,robe de mariée élégante,390,10.0,commercial,robe de mariée élégante,True,False,True,False
+/robes/,robe de mariée luxe,390,7.0,commercial / informationnel,robe de mariee de luxe,True,False,False,False
+/robes/,robe de mariée site,390,19.0,commercial,robe de mariée site,True,False,False,True
+/robes/,mariée robe,390,31.0,transactionnel,robe de mariée,True,False,False,True
+/robes/,robes mariée,390,34.0,commercial,robe de mariée,True,False,False,True
+/robes/,site de robe de mariée,390,37.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robe de mariage de luxe,390,12.0,informationnel,robe de mariage de luxe,True,False,False,False
+/robes/,robe de mariee dos nue,390,7.0,informationnel,robe de mariee dos nue,True,False,False,False
+/robes/,housse de robe de mariée,390,8.0,informationnel,housse de robe de mariée,True,False,False,False
+/robes/,tissu de robe de mariée,390,9.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,marques robes de mariée,390,19.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,tissu pour robe de mariage,390,14.0,informationnel,tissu pour robe de mariage,True,False,False,False
+/robes/,robe de mariee de luxe,390,18.0,informationnel,robe de mariee de luxe,True,False,False,False
+/robes/,marque de robe de mariée,390,20.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,site de robe mariage,320,25.0,commercial,site de robe de mariage,True,False,False,True
+/robes/,robes mariées,320,39.0,commercial,robe de mariée,True,False,False,True
+/robes/,marque robe de mariee,320,36.0,commercial,marque robe de mariée,True,False,False,False
+/robes/,robe de mariee marque,320,9.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe de mariage chic,320,12.0,informationnel,robe de mariage chic,True,False,False,False
+/robes/,robe de mariée marque,320,20.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe de mariée tissu,320,15.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,robe de mariee magnifique,320,26.0,informationnel,magnifique robe de mariée,True,False,False,False
+/robes/,tissu pour robe de mariée,320,13.0,inconnue,tissu robe de mariée,True,False,False,False
+/robes/,ceremony day robe de mariee,320,25.0,navigationnel,ceremony day robe de mariee,True,False,False,False
+/robes/,robe de mariée en ligne fiable,260,8.0,commercial,robe de mariée en ligne fiable,True,False,False,False
+/robes/,robe de mariée femme,260,19.0,commercial,robe de mariée femme,True,False,True,False
+/robes/,robes mariees,260,34.0,commercial,robe de mariée,True,False,False,True
+/robes/,marque de robes de mariée,260,11.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,site robe de marie,260,38.0,commercial,robe de mariée site,True,False,False,True
+/robes/,tissus pour robes de mariée,260,9.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,robes de mariages,260,40.0,commercial,robes de mariage,True,False,False,True
+/robes/,robes de marié,260,41.0,commercial,robe de mariée,True,True,True,True
+/robes/,site robe de mariage,260,31.0,informationnel,site de robe de mariage,True,False,False,True
+/robes/,marque de robe de marie,210,19.0,commercial,marque robe de mariée,True,False,False,False
+/robes/,robe de mariés,210,20.0,commercial,robe de mariés,True,False,False,True
+/robes/,robe de mariée créateur de luxe,210,19.0,commercial,robe de mariée créateur de luxe,True,False,False,False
+/robes/,robes de marier,210,31.0,commercial,robe de marier,True,False,False,False
+/robes/,site pour robe de mariée,210,26.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robes de marie,210,31.0,commercial,robe de mariée,True,True,True,True
+/robes/,tissus robe de mariée,210,10.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,robe de mariée chretienne,210,12.0,informationnel,robe de mariée chretienne,True,False,False,False
+/robes/,robe de mariée pret a porter,210,13.0,informationnel,robe de mariée pret a porter,True,False,False,False
+/robes/,robe de mariée voile,210,14.0,informationnel,robe de mariée voile,True,False,False,False
+/robes/,robes de mariée musulmane,210,19.0,informationnel,robes de mariée musulmane,True,False,False,False
+/robes/,robe de mariée style,210,19.0,informationnel,robe de mariée style,True,False,False,False
+/robes/,robe de mariée grosse,210,22.0,informationnel,robe de mariée grosse,True,False,False,False
+/robes/,robes de mariée les plus belles,210,28.0,informationnel,robes de mariée les plus belles,True,False,False,False
+/robes/,wedding gowns,210,44.0,informationnel,wedding gowns,True,False,False,False
+/robes/,site robe de marié,170,21.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robe de mariée en plume,170,10.0,informationnel / transactionnel,plume robe de mariée,True,False,False,False
+/robes/,plume robe de mariée,170,18.0,informationnel / transactionnel,plume robe de mariée,True,False,False,False
+/robes/,robe de mariée barbès,170,13.0,commercial,robe de mariée barbès,True,False,False,False
+/robes/,robe de mariée plume,170,19.0,informationnel / transactionnel,plume robe de mariée,True,False,False,False
+/robes/,robe de mariée vente,170,20.0,commercial,robe de mariée en vente,True,False,False,False
+/robes/,robe de mariée couture,170,32.0,commercial,robe de mariée couture,True,False,True,False
+/robes/,robe de mariée en vente,170,30.0,commercial,robe de mariée en vente,True,False,False,False
+/robes/,robe de mariée à barbes,170,30.0,commercial,robe de mariée barbès,True,False,False,False
+/robes/,robe de mariée moderne et chic,170,11.0,informationnel,robe de mariée moderne et chic,True,False,False,False
+/robes/,grosse robe de mariée,170,14.0,informationnel,robe de mariée grosse,True,False,False,False
+/robes/,rêver de robe de mariée,170,9.0,informationnel,rêver de robe de mariée,True,False,False,False
+/robes/,robe de mariee pour grosse,170,11.0,informationnel,robe de mariée grosse,True,False,False,False
+/robes/,robe de mariee de couturier,170,11.0,informationnel,robe de mariee de couturier,True,False,False,False
+/robes/,robe de mariée et accessoire,170,37.0,commercial,robe de mariée et accessoire,True,False,False,False
+/robes/,robe de mariée et voile,170,17.0,informationnel,robe de mariée voile,True,False,False,False
+/robes/,dessin de robe de mariée,170,27.0,informationnel,dessin de robe de mariée,True,False,False,False
+/robes/,robe mariée chic,140,14.0,commercial / informationnel,robe mariee chic,True,False,False,False
+/robes/,robe de mariée chic et élégante,140,10.0,commercial,robe de mariée chic et élégante,True,False,False,False
+/robes/,site fiable pour robe de mariée,140,11.0,commercial,site fiable pour robe de mariée,True,False,False,False
+/robes/,plume robes de mariée,140,15.0,informationnel / transactionnel,plume robe de mariée,True,False,False,False
+/robes/,créateur robe de mariée luxe,140,16.0,commercial / informationnel,robe de mariée créateur de luxe,True,False,False,False
+/robes/,robe de mariée couturier,140,19.0,commercial,robe de mariee de couturier,True,False,False,False
+/robes/,robes de maries,140,26.0,commercial,robe de mariés,True,False,False,True
+/robes/,robe de mariée française,140,23.0,transactionnel,robe de mariée française,True,False,False,False
+/robes/,robes de mariée couture,140,24.0,commercial,robe de mariée couture,True,False,False,False
+/robes/,robes de mariage robe mariee,140,27.0,commercial,robes de mariage robe mariee,True,False,False,True
+/robes/,robe de mariée france,140,43.0,commercial,robe de mariée de france,True,False,False,False
+/robes/,robe mariee luxe,140,7.0,informationnel,robe de mariee de luxe,True,False,False,False
+/robes/,robe de mariée élégante et chic,140,10.0,informationnel,robe de mariée chic et élégante,True,False,False,False
+/robes/,robe de la mariee,140,37.0,commercial,robe de mariée,True,False,False,True
+/robes/,tissu pour robe de mariee,140,13.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,robe de mariée classe,140,13.0,informationnel,robe de mariée classe,True,False,False,False
+/robes/,robe de mariée année 80,140,14.0,informationnel,robe de mariee annee 80,True,False,False,False
+/robes/,robe de.mariee,140,48.0,commercial,robe de mariée,True,False,False,False
+/robes/,robe de mariee grosse,140,19.0,informationnel,robe de mariée grosse,True,False,False,False
+/robes/,robe de mariee annee 80,140,20.0,informationnel,robe de mariee annee 80,True,False,False,False
+/robes/,les robes de mariée,140,30.0,informationnel,robe de mariée,True,False,True,True
+/robes/,robe de mariée de france,140,19.0,navigationnel,robe de mariée de france,True,False,False,False
+/robes/,robe de mariee elegante,110,10.0,commercial,robe de mariée élégante,True,False,True,False
+/robes/,site robe de mariée fiable,110,8.0,commercial / informationnel,site fiable pour robe de mariée,True,False,False,False
+/robes/,robe de mariee en ligne,110,13.0,commercial,robe de marie en ligne,True,False,False,False
+/robes/,robe mariee haute couture,110,16.0,commercial,robe mariee haute couture,True,False,False,False
+/robes/,robe de mariéé,110,24.0,commercial,robe de mariée,True,True,True,True
+/robes/,robe de marie en ligne,110,19.0,commercial,robe de marie en ligne,True,False,False,False
+/robes/,robe de mariées,110,42.0,commercial,robe de mariée,True,False,False,True
+/robes/,forme de robe de mariée,110,6.0,informationnel,forme de robe de mariée,True,False,False,False
+/robes/,site fiable robe de mariée,110,6.0,informationnel,site fiable pour robe de mariée,True,False,False,False
+/robes/,reve de robe de mariée,110,8.0,informationnel,reve de robe de mariée,True,False,False,False
+/robes/,robes de mariée lilian west,110,8.0,informationnel,robes de mariée lilian west,True,False,False,False
+/robes/,robes de mariée classique,110,8.0,informationnel,robes de mariée classique,True,False,False,False
+/robes/,tissu robe de mariee,110,9.0,informationnel,tissu robe de mariée,True,False,False,False
+/robes/,robes de mariée française,110,41.0,commercial,robe de mariée française,True,False,False,False
+/robes/,robe de mariée rock chic,110,11.0,informationnel,robe de mariée rock chic,True,False,False,False
+/robes/,robe de mariée 2020,110,12.0,informationnel,robe de mariée 2020,True,False,False,False
+/robes/,site de robe de mariée fiable,110,15.0,informationnel,site fiable pour robe de mariée,True,False,False,False
+/robes/,robe mariée longue,110,15.0,informationnel,robe mariée longue,True,False,False,True
+/robes/,robe de mariée en lin,110,17.0,informationnel,robe de mariée en lin,True,False,False,False
+/robes/,robe de mariage soiree,110,17.0,informationnel,robe de mariage et de soirée,True,False,False,False
+/robes/,robe de mariée en france,110,44.0,commercial,robe de mariée de france,True,False,False,False
+/robes/,best wedding dress shops nearby,110,19.0,informationnel,best wedding dress shops nearby,True,False,False,False
+/robes/,robe de mariée plumes,110,19.0,informationnel,plume robe de mariée,True,False,False,False
+/robes/,belle robe de mariée,110,22.0,informationnel,belle robe de mariée,True,False,False,False
+/robes/,la robe de la mariée,110,32.0,informationnel,robe de mariée,True,False,False,True
+/robes/,robe de mariée elegante,90,11.0,commercial,robe de mariée élégante,True,False,True,False
+/robes/,robe de mariée valence,90,17.0,commercial,robe de mariée valence,True,False,False,False
+/robes/,jolie robe mariée,90,18.0,commercial,jolie robe mariée,True,False,False,False
+/robes/,site robe mariee,90,32.0,commercial,robe de mariée site,True,False,False,True
+/robes/,des robes de mariée,90,40.0,commercial,robe de mariée,True,False,True,True
+/robes/,white wedding gowns,90,24.0,commercial,white wedding gowns,True,False,False,False
+/robes/,robes de mariée les mariées fox,90,6.0,informationnel,robes de mariée les mariées fox,True,False,False,False
+/robes/,robe mariage mariée,90,28.0,commercial,robes de mariage robe mariee,True,False,False,True
+/robes/,robe d mariee,90,32.0,transactionnel,robe de mariée,True,False,False,True
+/robes/,robe de mariée vulgaire,90,7.0,informationnel,robe de mariée vulgaire,True,False,False,False
+/robes/,robe de mariée marquise,90,8.0,informationnel,robe de mariée marquise,True,False,False,False
+/robes/,dress wedding,90,34.0,transactionnel,wedding dress,True,False,False,False
+/robes/,robe mariee pret a porter,90,20.0,informationnel,robe de mariée pret a porter,True,False,False,False
+/robes/,robe de mariee moche,90,19.0,informationnel,robe de mariee moche,True,False,False,False
+/robes/,couture nuptiale paris,90,38.0,navigationnel,couture nuptiale paris,True,False,False,False
+/robes/,salon robe de mariée,90,47.0,commercial,salon de robe de mariée,True,False,False,False
+/robes/,robe de mariee eglantine,90,16.0,informationnel,robe de mariee eglantine,True,False,False,False
+/robes/,robe mariée marque,90,23.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe mariéé,90,43.0,transactionnel,robe de mariée,True,False,True,True
+/robes/,robe de mariée 1920,90,19.0,informationnel,robe de mariée 1920,True,False,False,False
+/robes/,robe de mariee femme,90,25.0,informationnel,robe de mariée femme,True,False,True,False
+/robes/,robe mariage pret a porter,90,21.0,informationnel,robe mariage pret a porter,True,False,False,False
+/robes/,robe pret a porter mariage,90,23.0,informationnel,robe mariage pret a porter,True,False,False,False
+/robes/,salon de robe de mariée,90,49.0,commercial,salon de robe de mariée,True,False,False,False
+/robes/,robes de mariée miquel suay,90,24.0,informationnel,robes de mariée miquel suay,True,False,False,False
+/robes/,les robes de mariage,90,27.0,informationnel,robes de mariage,True,False,False,True
+/robes/,luxury wedding gowns,90,31.0,informationnel,luxury wedding gowns,True,False,False,False
+/robes/,les robes de mariages,90,31.0,informationnel,robes de mariage,True,False,False,True
+/robes/,robe mariee france,90,44.0,informationnel,robe de mariée de france,True,False,False,False
+/robes/,robe mariage france,90,44.0,informationnel,robe mariage france,True,False,False,False
+/robes/,robe mariée pret a porter,90,48.0,informationnel,robe de mariée pret a porter,True,False,False,False
+/robes/,galatée couture robes de mariée sur mesure,90,31.0,navigationnel,galatée couture robes de mariée sur mesure,True,False,False,False
+/robes/,wedding dresses for women,90,66.0,informationnel,wedding dresses for women,True,False,False,False
+/robes/,robe mariee plumes,70,8.0,informationnel / transactionnel,plume robe de mariée,True,False,False,False
+/robes/,site de robe de mariee,70,21.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robes de mariée jolies,70,20.0,commercial,jolie robe mariée,True,False,False,False
+/robes/,robes de mariée cala,70,6.0,informationnel,robes de mariée cala,True,False,False,False
+/robes/,robe de la mariée,70,26.0,commercial,robe de mariée,True,False,False,True
+/robes/,robes de mariée valence,70,16.0,commercial,robe de mariée valence,True,False,False,False
+/robes/,robe plume mariage,70,17.0,informationnel / transactionnel,robe plume mariage,True,False,False,False
+/robes/,robe de mariée marque de luxe,70,17.0,commercial / informationnel,robe de mariée marque de luxe,True,False,False,False
+/robes/,robe mariee marque,70,18.0,commercial,marque robe de mariée,True,False,False,False
+/robes/,achat robe de mariée,70,24.0,transactionnel,achat de robe de mariée,True,False,False,False
+/robes/,robe de mari,70,24.0,commercial,robe de mariée,True,True,True,False
+/robes/,robes de mariée style by me,70,1.0,informationnel,robes de mariée style by me,True,False,False,False
+/robes/,robe de mariée achat,70,27.0,transactionnel,achat de robe de mariée,True,False,False,False
+/robes/,marque robe mariee,70,28.0,commercial / informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe de mariage luxe,70,9.0,informationnel,robe de mariage de luxe,True,False,False,False
+/robes/,asos robe mariee,70,30.0,informationnel / transactionnel,asos robe mariee,True,False,False,False
+/robes/,couturier robe de mariée,70,30.0,commercial,robe de mariee de couturier,True,False,False,False
+/robes/,robe de mariée cintrée,70,6.0,informationnel,robe de mariée cintrée,True,False,False,False
+/robes/,tenue de mariée en pantalon,70,7.0,informationnel,tenue de mariée en pantalon,True,False,False,False
+/robes/,vente robe de mariee,70,33.0,commercial,robe de mariée en vente,True,False,False,False
+/robes/,achat de robe de mariée,70,34.0,transactionnel,achat de robe de mariée,True,False,False,False
+/robes/,robe de mariée catholique,70,10.0,informationnel,robe de mariée catholique,True,False,False,False
+/robes/,robes de mariée point mariage,70,10.0,informationnel,robes de mariée point mariage,True,False,False,False
+/robes/,creation robe mariée,70,39.0,commercial,creation robe mariée,True,False,False,False
+/robes/,robe mariage mariee,70,40.0,commercial,robes de mariage robe mariee,True,False,False,True
+/robes/,long sleeve wedding gown,70,19.0,informationnel,long sleeve wedding gown,True,False,False,False
+/robes/,milano robe mariee,70,19.0,informationnel,milano robe mariee,True,False,False,False
+/robes/,plus belle robe de marier,70,23.0,informationnel,plus belle robe de marier,True,False,False,False
+/robes/,robe mariée france,70,51.0,commercial,robe de mariée de france,True,False,False,False
+/robes/,plus belle robe de mariée,70,27.0,informationnel,robes de mariée les plus belles,True,False,False,False
+/robes/,bridal dresses luxury,70,28.0,informationnel,bridal dresses luxury,True,False,False,False
+/robes/,robe mariee francaise,70,28.0,informationnel,robe de mariée française,True,False,False,False
+/robes/,weddings gowns,70,55.0,commercial,wedding gowns,True,False,False,False
+/robes/,womens bridal gowns,70,66.0,commercial,womens bridal gowns,True,False,False,False
+/robes/,bridal dress women,70,44.0,informationnel,bridal dress women,True,False,False,False
+/robes/,wedding gowns online,70,51.0,informationnel,wedding gowns online,True,False,False,False
+/robes/,haut de robe de mariée,50,7.0,commercial,haut de robe de mariée,True,False,False,False
+/robes/,robe de mariée 95,50,13.0,commercial,robe de mariée 95,True,False,False,False
+/robes/,robe de mariée 77,50,14.0,commercial,robe de mariée 77,True,False,False,False
+/robes/,robe mariee femme,50,21.0,commercial,robe de mariée femme,True,False,False,False
+/robes/,sites robes de mariée,50,22.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robes marie,50,36.0,commercial,robe de mariée,True,False,True,True
+/robes/,robe de mariée hippy chic,50,5.0,informationnel,robe de mariée hippy chic,True,False,False,False
+/robes/,site robe de mariee,50,31.0,commercial,robe de mariée site,True,False,False,True
+/robes/,robe de mariée dos nue,50,6.0,informationnel,robe de mariee dos nue,True,False,False,False
+/robes/,robe mariée couture,50,26.0,commercial,robe de mariée couture,True,False,False,False
+/robes/,achat robe de mariee,50,34.0,transactionnel,achat de robe de mariée,True,False,False,False
+/robes/,création robe mariée,50,31.0,commercial,creation robe mariée,True,False,False,False
+/robes/,vente privée robe de mariée,50,11.0,informationnel,vente privée robe de mariée,True,False,False,False
+/robes/,création robe de mariée,50,38.0,commercial,creation robe mariée,True,False,False,False
+/robes/,robe de mariée marques,50,19.0,informationnel,marque robe de mariée,True,False,False,False
+/robes/,robe de maries,50,45.0,commercial,robe de mariés,True,False,False,True
+/robes/,robe sequin mariage,50,16.0,informationnel,robe sequin mariage,True,False,False,False
+/robes/,robe de mariees,50,42.0,commercial,robe de mariée,True,False,False,True
+/robes/,belle robe de mariage,50,19.0,informationnel,belle robe de mariage,True,False,False,False
+/robes/,luxury bridal dresses,50,21.0,informationnel,bridal dresses luxury,True,False,False,False
+/robes/,wedding dress luxury,50,27.0,informationnel,luxury wedding dresses,True,False,False,False
+/robes/,white wedding dress,50,30.0,informationnel,white wedding dress,True,False,False,False
+/robes/,bridal dresses for women,50,62.0,transactionnel,bridal dresses for women,True,False,False,False
+/robes/,luxury wedding dresses,50,55.0,informationnel,luxury wedding dresses,True,False,False,False
+/styles/boheme/,robe bohème mariage,1900,20.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robe de mariée champetre,1900,23.0,inconnue,robe de mariée champetre,True,True,True,True
+/styles/boheme/,robe mariee boheme,1600,14.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe mariage boheme,1600,15.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robe pour mariage champêtre,1300,17.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe pour mariage champetre,1300,17.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robes champêtres mariage,1300,21.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de mariee boheme,1000,10.0,informationnel,robe mariee boheme,True,True,True,True
+/styles/boheme/,robe de mariée bohème chic,1000,14.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe de marie boheme,1000,10.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe mariee champetre,1000,11.0,informationnel,robe de mariée champetre,True,False,False,True
+/styles/boheme/,mariage champetre robe,1000,13.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe mariee boheme chic,1000,13.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe mariée bohème chic,1000,14.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe mariage champetre,1000,20.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de mariée champêtre,1000,22.0,informationnel,robe de mariée champetre,True,True,True,True
+/styles/boheme/,robes mariage boheme chic,1000,9.0,inconnue,robes mariage boheme chic,True,False,False,True
+/styles/boheme/,robes de mariée bohème chic,880,13.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,mariage boheme robe,880,14.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robes de mariee boheme chic,880,15.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe champetre pour mariage,880,16.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe mariée champetre,880,19.0,informationnel,robe de mariée champetre,True,False,False,True
+/styles/boheme/,robe champêtre pour un mariage,880,21.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de marié boheme,720,10.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe mariée boheme,720,11.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe de mariée bohémienne chic,590,11.0,informationnel,robe de mariée bohème chic,True,False,False,False
+/styles/boheme/,robe boheme mariee,480,16.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robes de mariée boheme,480,23.0,informationnel,robe mariee boheme,True,True,True,True
+/styles/boheme/,robes de mariée bohème,390,9.0,informationnel,robe mariee boheme,True,True,True,True
+/styles/boheme/,robe de mariée bohème romantique,390,12.0,informationnel,robe de mariée bohème romantique,True,False,False,False
+/styles/boheme/,robe de mariée bohème dentelle,320,7.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe de mariée bohème vintage,320,9.0,informationnel,robe de mariée bohème vintage,True,False,False,True
+/styles/boheme/,robe mariage civil boheme,320,10.0,informationnel,robe mariage civil boheme,True,False,False,True
+/styles/boheme/,robe de mariée chic et champetre,320,11.0,informationnel,robe de mariée chic et champetre,True,False,False,True
+/styles/boheme/,robes mariage boheme,320,13.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robes champetres mariage,320,29.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,mariee boheme chic,260,19.0,informationnel / transactionnel,mariee boheme chic,True,False,False,True
+/styles/boheme/,robe mariage bohème chic,260,11.0,informationnel,robes mariage boheme chic,True,False,False,True
+/styles/boheme/,robe de mariée boheme dos nu,260,6.0,informationnel,robe de mariée boheme dos nu,True,False,False,False
+/styles/boheme/,robes de mariee boheme,260,15.0,informationnel,robe mariee boheme,True,True,True,True
+/styles/boheme/,robe de mariee champetre chic,260,16.0,informationnel,robe de mariée chic et champetre,True,False,False,True
+/styles/boheme/,robe de mariee champetre,260,17.0,informationnel,robe de mariée champetre,True,True,True,True
+/styles/boheme/,mariage champêtre robe,260,27.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de mariée champetre chic,260,27.0,informationnel,robe de mariée chic et champetre,True,False,False,True
+/styles/boheme/,robes champêtre pour mariage,260,30.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de mariée bohème paris,210,19.0,commercial,robe de mariée bohème paris,True,False,False,True
+/styles/boheme/,robe de mariee boheme pas chere,210,14.0,commercial,robe de mariee boheme pas chere,True,False,False,False
+/styles/boheme/,boheme robe de mariée hippie chic,210,7.0,informationnel,boheme robe de mariée hippie chic,True,False,False,True
+/styles/boheme/,robe mariée dentelle bohème,210,6.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe mariage bohème,210,12.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robe de mariée dos nu bohème,210,9.0,informationnel,robe de mariée boheme dos nu,True,False,True,False
+/styles/boheme/,robe champetre mariage,210,10.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de marie boheme chic,210,16.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robes de mariée romantique boheme,210,12.0,informationnel,robe de mariée bohème romantique,True,False,False,False
+/styles/boheme/,robes de mariée champetre chic,210,13.0,informationnel,robe de mariée chic et champetre,True,False,False,True
+/styles/boheme/,mariée bohème,210,18.0,informationnel,mariée bohème,True,True,True,True
+/styles/boheme/,robe mariee boheme champetre,210,23.0,informationnel,robe mariee boheme champetre,True,False,False,True
+/styles/boheme/,robes de mariée bohème pas cher,170,15.0,commercial,robes de mariée bohème pas cher,True,False,False,False
+/styles/boheme/,robe de mariée romantique bohème,170,6.0,informationnel,robe de mariée bohème romantique,True,False,False,False
+/styles/boheme/,robe de mariee bohème,170,11.0,informationnel,robe mariee boheme,True,True,True,True
+/styles/boheme/,robe bohème mariée,170,12.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe de mariage champetre,170,13.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robes mariee champetre,170,26.0,informationnel,robe de mariée champetre,True,False,False,True
+/styles/boheme/,robe de mariée champetre pas cher,140,18.0,transactionnel,robe de mariée champetre pas cher,True,False,False,False
+/styles/boheme/,robe de mariée bohème chic pas cher,140,3.0,informationnel,robe de mariée bohème chic pas cher,True,False,False,False
+/styles/boheme/,robe de mariée style boheme,140,8.0,informationnel,robe de mariée style boheme,True,False,False,False
+/styles/boheme/,robe de mariée boheme dentelle,140,5.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe mariage dentelle boheme,140,7.0,informationnel,robe mariage dentelle boheme,True,False,False,True
+/styles/boheme/,robe bohème mariage civil,140,8.0,informationnel,robe mariage civil boheme,True,False,False,True
+/styles/boheme/,robe de mariée boheme chic,140,10.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robes de mariées bohème,140,13.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe de mariee boheme chic,140,14.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe de marie champetre,140,20.0,informationnel,robe de mariée champetre,True,False,False,True
+/styles/boheme/,robe mariage champêtre,140,29.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe de mariée grande taille boheme,110,7.0,commercial / informationnel,robe de mariée grande taille boheme,True,False,False,True
+/styles/boheme/,robe mariée bohème pas cher,110,10.0,commercial,robes de mariée bohème pas cher,True,False,False,False
+/styles/boheme/,robe mariage boheme dentelle,110,6.0,informationnel,robe mariage dentelle boheme,True,False,False,True
+/styles/boheme/,robe mariee dentelle boheme,110,6.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe pour mariage hippie chic,110,7.0,informationnel,robe hippie chic mariage,True,False,False,True
+/styles/boheme/,mariee bohème,110,13.0,informationnel,mariée bohème,True,True,True,True
+/styles/boheme/,robe mariée boheme dentelle,110,8.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe de mariée hippie,110,15.0,informationnel,hippie robe de mariée,True,False,False,True
+/styles/boheme/,robe mariage civil bohème,110,10.0,informationnel,robe mariage civil boheme,True,False,False,True
+/styles/boheme/,robe marié boheme,110,16.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robes bohemes mariage,110,11.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,hippie robe de mariée,110,12.0,informationnel,hippie robe de mariée,True,False,False,True
+/styles/boheme/,robe longue boheme pour mariage,110,12.0,informationnel,robe longue boheme pour mariage,True,False,False,True
+/styles/boheme/,robe hippie chic mariage,110,14.0,informationnel,robe hippie chic mariage,True,False,False,True
+/styles/boheme/,robe de mariée champetre boheme,110,21.0,informationnel,robe mariee boheme champetre,True,False,False,True
+/styles/boheme/,robe de mariée bohème grande taille,90,7.0,commercial / informationnel,robe de mariée grande taille boheme,True,False,False,True
+/styles/boheme/,robe mariee boheme fleurie,90,8.0,informationnel / transactionnel,robe mariee boheme fleurie,True,False,False,False
+/styles/boheme/,bohème robe de mariée,90,7.0,informationnel,robe mariee boheme,True,False,True,True
+/styles/boheme/,robe de mariée grande taille bohème,90,4.0,informationnel,robe de mariée grande taille boheme,True,False,False,True
+/styles/boheme/,robe de mariée bohémienne,90,12.0,informationnel,robe mariee boheme,True,False,False,False
+/styles/boheme/,robe de mariée bohème simple,90,7.0,informationnel,robe de mariée bohème simple,True,False,False,False
+/styles/boheme/,robes de mariée champetre,90,7.0,informationnel,robe de mariée champetre,True,False,False,True
+/styles/boheme/,robe de mariée theme champetre,90,8.0,informationnel,robe de mariée theme champetre,True,False,False,False
+/styles/boheme/,robe de marier boheme,90,8.0,informationnel,robe de marier boheme,True,False,False,False
+/styles/boheme/,robe de mariée boho,90,12.0,informationnel,robe de mariée boho,True,False,False,False
+/styles/boheme/,robe de mariage boheme chic,90,13.0,informationnel,robes mariage boheme chic,True,False,False,True
+/styles/boheme/,robe mariée simple boheme,90,14.0,informationnel,robe de mariée bohème simple,True,False,False,False
+/styles/boheme/,robes champetre chic pour mariage,90,20.0,informationnel,robes champetre chic pour mariage,True,False,False,True
+/styles/boheme/,robe de mariee pas chere boheme,70,11.0,commercial,robe de mariee boheme pas chere,True,False,False,False
+/styles/boheme/,robe de mariée chic et bohème,70,6.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe de mariée rock bohème,70,2.0,informationnel,robe de mariée rock bohème,True,False,False,False
+/styles/boheme/,hippie robe de mariée bohème,70,8.0,informationnel,hippie robe de mariée bohème,True,False,False,True
+/styles/boheme/,robe mariee bohème,70,10.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe boheme blanche mariage,70,5.0,informationnel,robe boheme blanche mariage,True,False,False,False
+/styles/boheme/,robe mariée boheme chic,70,11.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe bohème pour mariage,70,6.0,informationnel,robe bohème mariage,True,False,False,True
+/styles/boheme/,robes de mariée hippie chic,70,6.0,informationnel,robes de mariée hippie chic,True,False,False,True
+/styles/boheme/,robe mariage theme champetre,70,8.0,informationnel,robe mariage theme champetre,True,False,False,False
+/styles/boheme/,robe de mariée boheme simple,70,8.0,informationnel,robe de mariée bohème simple,True,False,False,False
+/styles/boheme/,robe de mariee style boheme,70,9.0,informationnel,robe de mariée style boheme,True,False,False,False
+/styles/boheme/,robe bohème blanche mariage,70,11.0,informationnel,robe boheme blanche mariage,True,False,False,False
+/styles/boheme/,robe mariée bohème champêtre,70,11.0,informationnel,robe mariee boheme champetre,True,False,False,True
+/styles/boheme/,robe mariage pastel bohème,70,11.0,informationnel,robe mariage pastel bohème,True,False,False,False
+/styles/boheme/,robe champetre chic mariage,70,11.0,informationnel,robes champetre chic pour mariage,True,False,False,True
+/styles/boheme/,robe champêtre pour mariage,70,12.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robe mariée style boheme,70,15.0,informationnel,robe de mariée style boheme,True,False,False,False
+/styles/boheme/,robe champetre pour un mariage,70,18.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robes boheme chic mariage,70,19.0,informationnel,robes mariage boheme chic,True,False,False,True
+/styles/boheme/,robe de mariée dentelle boheme,70,4.0,inconnue,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robe mariage champetre chic,70,23.0,informationnel,robes champetre chic pour mariage,True,False,False,True
+/styles/boheme/,robe de mariée pas cher boheme,50,0.0,commercial,robes de mariée bohème pas cher,True,False,False,False
+/styles/boheme/,robe de mariée pas chère bohème,50,11.0,transactionnel,robe de mariee boheme pas chere,True,False,False,False
+/styles/boheme/,robe de mariée style bohème,50,7.0,informationnel,robe de mariée style boheme,True,False,False,False
+/styles/boheme/,robes mariée bohème,50,8.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robes mariee boheme chic,50,9.0,informationnel,robe de mariée bohème chic,True,False,False,True
+/styles/boheme/,robe de mariée boheme grande taille,50,4.0,informationnel,robe de mariée grande taille boheme,True,False,False,True
+/styles/boheme/,robe de mariees boheme,50,11.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe de mariee bustier boheme,50,11.0,informationnel,robe de mariee bustier boheme,True,False,False,False
+/styles/boheme/,robe de mariée mi longue bohème,50,6.0,informationnel,robe de mariée mi longue bohème,True,False,False,False
+/styles/boheme/,robe de mariée dentelle bohème,50,6.0,informationnel,robe de mariée bohème dentelle,True,False,False,True
+/styles/boheme/,robes bohème chic mariage,50,7.0,informationnel,robes mariage boheme chic,True,False,False,True
+/styles/boheme/,robe boheme mariée,50,14.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe de marié bohème,50,9.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/boheme/,robe hippie mariage,50,9.0,informationnel,robe hippie mariage,True,False,False,True
+/styles/boheme/,robe de mariage champêtre,50,11.0,informationnel,robe pour mariage champetre,True,False,False,True
+/styles/boheme/,robes mariee boheme,50,18.0,informationnel,robe mariee boheme,True,False,False,True
+/styles/mariage-civil/,combinaison mariee,320,10.0,inconnue,combinaison mariee,True,False,False,True
+/styles/mariage-civil/,robe mariage civil paris,170,37.0,commercial,robe mariage civil paris,True,False,False,True
+/styles/mariage-civil/,robe mariage civil 2026,70,7.0,informationnel,robe mariage civil 2026,True,False,False,True
+/styles/minimaliste/,robe de mariée simple,2900,16.0,informationnel,robe de mariée simple,True,True,True,True
+/styles/minimaliste/,robe de mariee simple,1300,16.0,commercial,robe de mariée simple,True,True,True,True
+/styles/minimaliste/,robe mariee simple,1000,15.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe mariée simple,1000,15.0,informationnel,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe de mariée originale,880,19.0,commercial,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robes mariées simples,480,14.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe simple mariage,480,14.0,commercial,robe mariage simple,True,False,False,True
+/styles/minimaliste/,robes mariée simple,480,14.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe mariage simple,480,14.0,commercial,robe mariage simple,True,False,False,True
+/styles/minimaliste/,mariage robe simple,390,14.0,commercial,robe mariage simple,True,False,False,True
+/styles/minimaliste/,robe de mariage simple,390,19.0,transactionnel,robe mariage simple,True,False,False,True
+/styles/minimaliste/,robe mariée originale,390,13.0,informationnel,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robe de mariée chic et simple,390,12.0,informationnel,robe de mariée chic et simple,True,True,True,True
+/styles/minimaliste/,robe de mariee chic et simple,320,10.0,commercial,robe de mariée chic et simple,True,True,True,True
+/styles/minimaliste/,robe simple mariée,320,15.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe de mariée élégante et simple,260,11.0,commercial,robe de mariée élégante et simple,True,False,False,False
+/styles/minimaliste/,robe de mariée minimaliste,260,9.0,informationnel,robe de mariée minimaliste,True,True,True,True
+/styles/minimaliste/,robe de mariee simple et elegante,210,10.0,commercial,robe de mariée élégante et simple,True,True,True,False
+/styles/minimaliste/,robe de mariée simple et elegante,210,11.0,commercial,robe de mariée élégante et simple,True,True,True,False
+/styles/minimaliste/,robe de mariée originales,210,12.0,commercial,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robes mariage simple,210,15.0,informationnel / transactionnel,robe mariage simple,True,False,False,True
+/styles/minimaliste/,robe originale mariage,210,14.0,informationnel,robe originale mariage,True,False,False,False
+/styles/minimaliste/,robe de mariée classe et sobre,170,8.0,informationnel,robe de mariée classe et sobre,True,False,False,False
+/styles/minimaliste/,robe de mariée tendance 2026,170,10.0,informationnel,robe de mariée tendance 2026,True,False,False,False
+/styles/minimaliste/,robe blanche mariée simple,170,12.0,informationnel,robe blanche mariée simple,True,False,False,False
+/styles/minimaliste/,robe blanche mariage simple,170,16.0,informationnel,robe blanche mariage simple,True,False,False,False
+/styles/minimaliste/,robe de mariée simple pas cher,140,6.0,commercial,robe de mariée simple pas cher,True,False,False,False
+/styles/minimaliste/,robe de marié simple,140,12.0,informationnel / transactionnel,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe simple mariee,140,13.0,transactionnel,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe mariee moderne,140,17.0,informationnel,robe de mariee moderne,True,False,False,True
+/styles/minimaliste/,robe de mariée originale et simple,140,6.0,informationnel,robe de mariée originale et simple,True,False,False,False
+/styles/minimaliste/,robe mariee originale,140,12.0,informationnel,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robe mariée moderne,140,9.0,informationnel,robe de mariee moderne,True,False,False,True
+/styles/minimaliste/,robe mariage originale,140,16.0,informationnel,robe originale mariage,True,False,False,False
+/styles/minimaliste/,robe de mariée contemporaine,140,11.0,informationnel,robe de mariée contemporaine,True,False,False,True
+/styles/minimaliste/,robe de mariée simple et originale,140,13.0,informationnel,robe de mariée originale et simple,True,False,False,False
+/styles/minimaliste/,robe de mariee moderne,140,17.0,informationnel,robe de mariee moderne,True,True,True,True
+/styles/minimaliste/,robe de mariée pas cher et simple,110,7.0,transactionnel,robe de mariée simple pas cher,True,False,False,False
+/styles/minimaliste/,robes de mariée simple et pas cher,110,11.0,commercial,robe de mariée simple pas cher,True,False,False,False
+/styles/minimaliste/,robe de mariée pas cher simple,110,19.0,transactionnel,robe de mariée simple pas cher,True,False,False,False
+/styles/minimaliste/,robe mariée minimaliste,110,6.0,informationnel,robe de mariée minimaliste,True,False,False,True
+/styles/minimaliste/,robe de mariée design,110,12.0,informationnel,robe de mariée design,True,False,False,True
+/styles/minimaliste/,robe de mariee originale,110,16.0,informationnel,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robe de mariée manche longue simple,110,12.0,informationnel,robe de mariée manche longue simple,True,False,False,False
+/styles/minimaliste/,robes de mariée simple et originale,110,13.0,informationnel,robe de mariée originale et simple,True,False,False,False
+/styles/minimaliste/,robe de mariée voilée moderne,110,15.0,informationnel,robe de mariée voilée moderne,True,False,False,False
+/styles/minimaliste/,tenue mariée simple,110,15.0,informationnel,tenue mariée simple,True,False,False,False
+/styles/minimaliste/,robe de mariée simple et pas cher,90,6.0,transactionnel,robe de mariée simple pas cher,True,False,False,False
+/styles/minimaliste/,robe de marie simple,90,6.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe simple de mariage,90,12.0,transactionnel,robe mariage simple,True,False,False,True
+/styles/minimaliste/,robe simple de mariee,90,12.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe de mariée sobre,90,8.0,informationnel,robe de mariée sobre,True,False,False,True
+/styles/minimaliste/,robe de mariée dentelle simple,90,9.0,informationnel,robe de mariée dentelle simple,True,False,False,False
+/styles/minimaliste/,robes mariee originale,90,12.0,informationnel,robe de mariée originale,True,False,False,False
+/styles/minimaliste/,robe de mariée satin simple,90,7.0,informationnel,robe de mariée satin simple,True,False,False,True
+/styles/minimaliste/,robe de mariée bustier simple,90,9.0,informationnel,robe de mariée bustier simple,True,False,False,True
+/styles/minimaliste/,robe de mariée 2026 tendance,90,9.0,informationnel,robe de mariée tendance 2026,True,False,False,False
+/styles/minimaliste/,robe simple de mariée,90,11.0,informationnel,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robes de mariée simple,70,16.0,informationnel / transactionnel,robe de mariée simple,True,True,True,True
+/styles/minimaliste/,robe mariage moderne,70,10.0,informationnel,robe mariage moderne,True,False,False,True
+/styles/minimaliste/,robe mariee simple et chic,70,8.0,informationnel,robe de mariée chic et simple,True,False,False,True
+/styles/minimaliste/,robe de mariée simple chic,70,9.0,informationnel,robe de mariée chic et simple,True,False,False,True
+/styles/minimaliste/,robe de mariée tres simple,70,9.0,informationnel,robe de mariée tres simple,True,False,False,False
+/styles/minimaliste/,robe de mariée dos nu simple,70,10.0,informationnel,robe de mariée dos nu simple,True,False,False,False
+/styles/minimaliste/,tenue de mariée originale,70,13.0,informationnel,tenue de mariée originale,True,False,False,False
+/styles/minimaliste/,robe de mariée atypique,70,13.0,informationnel,robe de mariée atypique,True,False,False,False
+/styles/minimaliste/,robe de mariée simple en dentelle,70,15.0,informationnel,robe de mariée dentelle simple,True,False,False,False
+/styles/minimaliste/,design bride,70,21.0,informationnel,design bride,True,False,False,False
+/styles/minimaliste/,robe mariee simple elegante,50,6.0,commercial,robe de mariée élégante et simple,True,False,False,False
+/styles/minimaliste/,robe marie simple,50,12.0,commercial,robe de mariée simple,True,False,False,True
+/styles/minimaliste/,robe de mariee simple pas chere,50,14.0,commercial,robe de mariee simple pas chere,True,False,False,True
+/styles/minimaliste/,robes de mariées modernes,50,8.0,informationnel,robe de mariee moderne,True,False,False,True
+/styles/minimaliste/,robe mariee tendance 2026,50,10.0,informationnel,robe de mariée tendance 2026,True,False,False,False
+/styles/minimaliste/,robe de mariee simple chic,50,11.0,informationnel,robe de mariée chic et simple,True,False,False,True
+/styles/minimaliste/,robes de mariée moderne et originale,50,14.0,informationnel,robe de mariée moderne et originale,True,False,False,False
+/styles/minimaliste/,robe de mariée moderne et originale,50,15.0,informationnel,robe de mariée moderne et originale,True,False,False,False
+/styles/minimaliste/,robe de mariée très simple,50,16.0,informationnel,robe de mariée tres simple,True,False,False,False
+/styles/romantique/,robe de mariée romantique,480,13.0,informationnel,robe de mariée romantique,True,True,True,True
+/styles/romantique/,robe de mariée feerique,140,2.0,informationnel,robe de mariée feerique,True,True,True,True
+/styles/romantique/,robe de mariée féerique,110,6.0,informationnel,robe de mariée feerique,True,True,True,True

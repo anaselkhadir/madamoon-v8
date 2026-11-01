@@ -98,11 +98,38 @@ MARQUES_TIERCES = [
     "sublime mariage", "formidable mariage", "divine mariee", "isabelle saporta", "caroline takvorian",
     "la ravanne", "vo boutik", "le boutik", "paradise", "les maries d amelie", "mariee d amelie", "mariees d amelie",
     "elsa gary", "yolanda", "nelsia", "lilar", "cymbeline", "harpe", "margaux tardits", "rime arodaky",
+    # ajoutées le 01/11/2026 avec l'autocomplétion : luxe, prêt-à-porter, célébrités, autres maisons
+    "chanel", "dior", "givenchy", "jimmy choo", "valentino", "elie saab", "zuhair murad", "galia lahav",
+    "oscar de la renta", "monique lhuillier", "maggie sottero", "essense", "stella york", "allure bridals",
+    "mori lee", "morilee", "paolo sebastian", "lambert creation", "lambert creations", "ana torres", "max mara",
+    "yves saint laurent", "saint laurent", "balenciaga", "armani", "versace", "dolce", "gucci", "prada", "celine",
+    "hermes", "chloe", "sandro", "maje", "ba sh", "sezane", "rouje", "jacquemus", "claudie pierlot", "the kooples",
+    "kiabi", "gemo", "la redoute", "jennyfer", "naf naf", "etam", "primark", "c a", "camaieu", "promod", "bonobo",
+    "cache cache", "pimkie", "morgan", "boohoo", "pretty little thing", "ever pretty", "jj s house", "jjshouse",
+    "milanoo", "light in the box", "lightinthebox", "wish", "cdiscount", "vinted", "leboncoin", "le bon coin",
+    "kim kardashian", "taylor swift", "zendaya", "meghan markle", "kate middleton", "grace kelly", "lady di",
+    "sabrina carpenter", "hailey bieber", "beyonce", "rihanna", "jlo", "jennifer lopez", "selena gomez",
+    "madame est couturiere", "au premier regard", "mariés au premier regard", "4 mariages", "quatre mariages",
+    "jesse watters", "watters world", "casa blanca bridal", "cymbeline", "point mariage", "tati mariage",
+    "complicite", "declaration mariage", "empire du mariage", "eglantine", "bella sposa", "robe marie", "shein", "temu", "naumy",
+    "vivienne westwood", "westwood", "zalando", "bonprix", "tati", "asos", "gitane", "barbe", "paul", "hayward", "kinshasa",
+    "joseph", "harlow", "reko", "creek", "torrean", "veronica", "kitt", "avery", "verity", "veridiana", "willa", "june",
+    "soeurs joubert", "sœurs joubert", "joubert", "herve paris", "milla nova", "lady diana", "diana", "negafa", "ronde des rubans",
+    "alina marti", "delphine manivet", "manivet", "douces mesures", "zaz", "mariee capricieuse", "barbesse", "ceremony day",
+    "erdem", "vogue", "marie antoinette", "kreation", "magenta", "uni", "monde", "kosovo", "usine", "amazon", "aliexpress",
+    "aliexpres", "la mariee aux pieds nus", "pieds nus", "cymbeline", "harpe", "laure de sagazan", "sagazan", "rime arodaky",
+    "zara", "azazie", "etsy", "vive les maries", "margaux mariage", "eva mariage", "bridal gallery", "gilles zimmer", "zimmer",
+    "anais", "roll", "design bride", "alexandra", "plume", "kabyle", "chretienne", "tu es mariee", "frere",
 ]
 CREATEURS_MADAMOON = {
     "watters": "Watters Designs", "wtoo": "Watters Designs", "casablanca bridal": "Casablanca Bridal",
-    "casablanca": "Casablanca Bridal", "olya mak": "Olya Mak", "monica loretti": "Monica Loretti",
+    "olya mak": "Olya Mak", "monica loretti": "Monica Loretti",
 }
+# Un nom de maison ne vaut que dans le contexte d'une robe : « jesse watters »
+# ou « casablanca airport » n'ont rien à faire ici.
+CONTEXTE_MAISON = re.compile(r"\b(robe|robes|dress|dresses|gown|gowns|bridal|mariee|mariage|wedding|collection|"
+                             r"prix|price|paris|revendeur|stockist|essayage|boutique|avis|review|reviews|2025|2026|"
+                             r"dentelle|lace|sirene|mermaid|princesse|satin|tulle|catalogue|lookbook|france)\b")
 PARASITES_FORTS = re.compile(r"\b(porn|pornhub|hentai|sex|sexe|sissy|sissies|sissygasm|chastity|xxx|"
                              r"nude|onlyfans|la mariee etait en noir)\b")
 PARASITES_NOMS = re.compile(r"\b(nue|tiktok|pokemon|font|mots fleches|solana|amaryllis|oksana|charlize|theron|"
@@ -112,16 +139,76 @@ PARASITES_NOMS = re.compile(r"\b(nue|tiktok|pokemon|font|mots fleches|solana|ama
                             r"melania trump|frankie faison|elie yaffa|seydou yaffa|dalma|hieke|doan|bellazaza|"
                             r"lainie kazan|metal flaque|eliza dushku|amarynth|galfi|alysa liu|mavie|sascha|"
                             r"olivier sinic|cheri|guapo|sampa|umi roanne|flor de jamaica|marley aliah|luna park|"
-                            r"damaris lewis|pena des copains|ilse|cagliari|anela denisova|assurance|trump)\b")
-HORS_PARIS = re.compile(r"\b(annecy|nogent|perpignan|lyon|marseille|toulouse|bordeaux|lille|nantes|nice|"
-                        r"strasbourg|montpellier|rennes|grenoble|rouen|reims|dijon|angers|tours|metz|nancy|"
+                            r"damaris lewis|pena des copains|ilse|cagliari|anela denisova|assurance|trump|"
+                            r"joseph marie jacquard|rue joseph|jacquard biographie|old coach|castleblayney|"
+                            r"login|customer service|phone number|flagship|coupon|promo code|discount code|"
+                            r"gisele|michael|justine|paulina|hadley|le126|boston|australia|santa maria)\b")
+HORS_PARIS = re.compile(r"\b(annecy|nogent|perpignan|lyon|marseille|toulouse|bordeaux|lille|nantes|"
+                        r"strasbourg|montpellier|rennes|grenoble|rouen|reims|dijon|tours|metz|nancy|"
                         r"orleans|caen|brest|le havre|amiens|limoges|clermont|besancon|poitiers|pau|bayonne|"
-                        r"biarritz|avignon|aix|cannes|antibes|monaco|geneve|bruxelles|lausanne|chambery|"
+                        r"biarritz|avignon|aix|antibes|monaco|geneve|bruxelles|lausanne|chambery|"
                         r"annemasse|haute savoie|savoie|normandie|bretagne|alsace|provence|belgique|suisse|"
                         r"luxembourg|maroc|tunisie|algerie|casablanca maroc|montreal|quebec|londres|london|"
-                        r"espagne|espagnol|espagnole|italie|italienne|turque|turquie|liban|libanaise|marne|"
+                        r"espagne|espagnol|espagnole|italie|italienne|turque|turquie|liban|libanaise|"
                         r"versailles|saint germain|boulogne|neuilly|vincennes|creteil|evry|cergy|meaux|"
-                        r"melun|pontoise|argenteuil|nanterre|montreuil|saint denis|ivry|levallois|courbevoie)\b")
+                        r"melun|pontoise|argenteuil|nanterre|montreuil|saint denis|ivry|levallois|courbevoie|"
+                        # ajoutées le 01/11/2026 : préfectures, grandes communes, départements, régions, pays
+                        r"cannes|antibes|nice|haguenau|thionville|albi|mulhouse|narbonne|vichy|barentin|fleury|valenciennes|angouleme|"
+                        r"montauban|quimper|liege|longueau|finistere|chignac|colmar|troyes|auxerre|nevers|bourges|"
+                        r"chartres|evreux|alencon|laval|le mans|cholet|niort|la rochelle|rochefort|saintes|"
+                        r"perigueux|bergerac|agen|auch|tarbes|lourdes|montpellier|nimes|beziers|sete|ales|carcassonne|"
+                        r"toulon|hyeres|frejus|draguignan|digne|manosque|arles|istres|martigues|aubagne|"
+                        r"la ciotat|bastia|ajaccio|corse|chambery|annecy|thonon|valence|romans|montelimar|"
+                        r"aurillac|rodez|millau|cahors|mende|saint etienne|roanne|villeurbanne|bourg en bresse|"
+                        r"macon|chalon|le creusot|beaune|lons|dole|vesoul|belfort|montbeliard|epinal|saint die|"
+                        r"verdun|chaumont|langres|sedan|charleville|laon|soissons|saint quentin|compiegne|"
+                        r"beauvais|creil|senlis|arras|lens|bethune|douai|cambrai|maubeuge|dunkerque|calais|boulogne sur mer|"
+                        r"abbeville|saint omer|tourcoing|roubaix|wattrelos|armentieres|hazebrouck|lorient|vannes|"
+                        r"saint brieuc|saint malo|dinan|lannion|morlaix|concarneau|cherbourg|saint lo|coutances|"
+                        r"bayeux|lisieux|honfleur|deauville|dieppe|fecamp|le havre|elbeuf|louviers|vernon|dreux|"
+                        r"blois|vendome|vierzon|chateauroux|montlucon|moulins|gueret|limoges|brive|ussel|"
+                        r"perpignan|foix|pamiers|castres|mazamet|saint gaudens|dax|mont de marsan|bayonne|anglet|"
+                        r"saint jean de luz|pau|oloron|orthez|libourne|arcachon|merignac|pessac|talence|royan|cognac|"
+                        r"poitiers|chatellerault|tours|amboise|orleans|montargis|gien|pithiviers|meaux|coulommiers|"
+                        r"provins|fontainebleau|etampes|rambouillet|mantes|poissy|saint germain en laye|sartrouville|"
+                        r"houilles|chatou|rueil|suresnes|puteaux|clichy|asnieres|colombes|gennevilliers|saint ouen|"
+                        r"aubervilliers|pantin|bobigny|bondy|villemomble|chelles|"
+                        r"marne la vallee|champigny|saint maur|maisons alfort|vitry|orly|thiais|rungis|"
+                        r"antony|massy|palaiseau|orsay|les ulis|evry|corbeil|savigny|juvisy|draveil|"
+                        r"versailles|velizy|saint cloud|sevres|meudon|issy|vanves|malakoff|montrouge|bagneux|"
+                        r"fontenay|sceaux|le plessis|cachan|arcueil|gentilly|charenton|nogent sur marne|"
+                        r"le perreux|joinville|saint mande|vincennes|montreuil|bagnolet|les lilas|romainville|"
+                        r"sarcelles|goussainville|roissy|villiers le bel|franconville|"
+                        r"conflans|cergy|saint ouen l aumone|l isle adam|"
+                        r"rive nord|rive sud|quebec|montreal|laval quebec|gatineau|sherbrooke|belgique|bruxelles|"
+                        r"liege|namur|charleroi|mons|tournai|anvers|gand|bruges|suisse|geneve|lausanne|fribourg|"
+                        r"neuchatel|luxembourg|monaco|andorre|maroc|rabat|marrakech|tanger|fes|agadir|"
+                        r"tunisie|tunis|sfax|sousse|algerie|alger|oran|constantine|senegal|dakar|cote d ivoire|"
+                        r"abidjan|cameroun|douala|yaounde|madagascar|antananarivo|reunion|saint denis reunion|"
+                        r"martinique|fort de france|guadeloupe|pointe a pitre|guyane|cayenne|tahiti|polynesie|"
+                        r"nouvelle caledonie|noumea|mayotte|vietnam|hanoi|saigon|thailande|bangkok|liban|beyrouth|"
+                        r"dubai|turquie|istanbul|italie|milan italie|rome|florence|venise|naples|espagne|madrid|"
+                        r"barcelone|seville|valence espagne|portugal|lisbonne|porto|allemagne|berlin|munich|"
+                        r"angleterre|londres|royaume uni|irlande|dublin|pays bas|amsterdam|etats unis|new york|"
+                        r"los angeles|miami|chicago|dallas|houston|canada|toronto|vancouver|australie|sydney|"
+                        r"melbourne|japon|tokyo|chine|pekin|shanghai|coree|seoul|inde|mumbai|delhi|bresil|"
+                        r"sao paulo|mexique|argentine|chili|colombie|perou|grece|athenes|croatie|pologne|varsovie|"
+                        r"republique tcheque|prague|autriche|hongrie|budapest|roumanie|bucarest|bulgarie|"
+                        r"ukraine|kiev|lviv ukraine|russie|moscou|israel|tel aviv|egypte|le caire|afrique|europe|"
+                        r"bretagne|normandie|picardie|lorraine|champagne ardenne|bourgogne|"
+                        r"franche comte|auvergne|rhone alpes|paca|languedoc|roussillon|midi pyrenees|occitanie|"
+                        r"aquitaine|nouvelle aquitaine|limousin|poitou|charente|vendee|pays de la loire|"
+                        r"centre val de loire|grand est|hauts de france|nord pas de calais|dom tom|outre mer|"
+                        r"ardeche|ardennes|ariege|aveyron|calvados|cantal|charente maritime|"
+                        r"correze|cotes d armor|dordogne|drome|eure et loir|haute garonne|"
+                        r"gironde|herault|ille et vilaine|indre et loire|isere|landes|loir et cher|"
+                        r"haute loire|loire atlantique|loiret|lot et garonne|lozere|maine et loire|"
+                        r"haute marne|mayenne|meurthe et moselle|meuse|morbihan|moselle|"
+                        r"pas de calais|puy de dome|pyrenees|hautes pyrenees|pyrenees orientales|bas rhin|haut rhin|"
+                        r"haute saone|saone et loire|haute savoie|seine maritime|seine et marne|"
+                        r"yvelines|deux sevres|tarn et garonne|vaucluse|haute vienne|vosges|"
+                        r"territoire de belfort|essonne|val d oise|seine saint denis|val de marne|hauts de seine|"
+                        r"\d{5})\b")
 ADJACENT = re.compile(r"\b(gant|gants|chale|echarpe|talon|talons|haut mariee|planning|organisation|listing|"
                       r"check liste|liste to do|to do|barbie|tissu pour mariage|tissu mariage|tissu mariee|tissus mariage|"
                       r"chignon|coiffure|coiffeur|henne|caftan|takchita|ongle|pyjama|basket|fleur|bouquet|"
@@ -135,6 +222,28 @@ ADJACENT = re.compile(r"\b(gant|gants|chale|echarpe|talon|talons|haut mariee|pla
                       r"occasion|seconde main|vinted|leboncoin|patron|couture patron|tissu au metre|"
                       r"grossiste|fournisseur|fabricant|usine|chine|aliexpress|amazon|shein|temu|zara|"
                       r"mango|asos|kiabi|h m|tati|cocktail)\b")
+# Hors de l'offre de la maison, même quand la requête dit « robe de mariée » :
+# l'occasion, la grande distribution, les tenues d'invitée ou d'enfant, les
+# cérémonies traditionnelles qu'elle ne couvre pas, l'entretien, la couture.
+HORS_OFFRE = re.compile(r"\b(occasion|d occasion|seconde main|second hand|pas cher a moins|moins de 100|moins de 150|"
+                        r"moins de 200|moins de 300|moins de 500|a moins de|invitee|invitees|invite|invites|petite fille|"
+                        r"fillette|fille|enfant|enfants|bebe|garcon|homme|hommes|costume|temoin|demoiselle|cortege|"
+                        r"mere de la mariee|mere du marie|belle mere|maman|grand mere|anniversaire de mariage|"
+                        r"ans de mariage|noces d or|noces d argent|renouvellement|musulmane|musulman|islamique|"
+                        r"hijab|voilee|juive|chinoise|indienne|pakistanaise|orientale|marocaine|algerienne|tunisienne|"
+                        r"turque|africaine|caftan|takchita|sari|kimono|gothique|gothic|medievale|elfique|"
+                        r"disney|barbie|deguisement|halloween|coudre|couture facile|patron|tuto|diy|faire soi meme|"
+                        r"nettoyage|nettoyer|laver|lavage|detacher|repasser|conserver|conservation|garder|stockage|"
+                        r"encadrement|encadrer|vitrine|mannequin|cintre|housse|rangement|teindre|teinture|"
+                        r"retractation|remboursement|revendre|revente|rachat|louer sa|vendre sa|dupe|dupes|"
+                        r"pinterest|instagram|tiktok|film|serie|chanson|paroles|dessin|coloriage|image|images|photo|"
+                        r"photos|wallpaper|fond d ecran|gif|meme|emoji|jeu|jeux|poupee|lego|playmobil|"
+                        r"robe de soiree|robe de cocktail|robe de ceremonie|robe de gala|robe de bal|tenue de ville|"
+                        r"signification|reve|rever|islam|interpretation|histoire de la|inventeur|inventee|origine|"
+                        r"mother of|used|usagee|usage|formation|apprendre|ecole|careers|career|logo|realty|tuxedo|"
+                        r"international|headquarters|wholesale|grossiste|western|country|marilyn|20(0[0-9]|1[0-9]|2[0-4])|"
+                        r"estrade|tabouret|podium|vitrine|cocktail|soiree|chaussur|chaussure|rachete|rachat|organiser|"
+                        r"organisation|liste de mariage|fiable|site fiable|avec qui|capricieuse|test|quiz)\b")
 TRANSAC_LOC = re.compile(r"\b(location|louer|loue)\b")
 MARIAGE = re.compile(r"\b(mariee|mariage|wedding|bridal|bride|nuptial|nuptiale|noce|fiancee|epouse|"
                      r"marier|marie|civil|civile|mairie|essayage|showroom)\b")
@@ -223,6 +332,10 @@ CLUSTERS = [
                          r"astuce|astuces|erreur|erreurs|checklist|liste|etapes|preparer|preparation|"
                          r"combien de temps|delai|delais|essayages|photos|photo|image|images|modele|modeles|"
                          r"catalogue|collection|nouvelle collection|nouveautes|lookbook)\b"),
+    ("Anglais local (site EN)", r"\b(bridal|wedding) (shop|shops|store|stores|places|boutique|boutiques|showroom|"
+                                 r"showrooms|salon|salons|atelier)\b|\bnear me\b|\bin paris\b"),
+    ("Anglais (site EN)", r"\b(wedding dress|wedding dresses|bridal gown|bridal gowns|bridal dress|bridal shop|"
+                           r"bridal boutique|wedding gown|wedding gowns|bridal store|bride dress)\b"),
     ("Robe de mariée (générique)", r"\b(robe|robes|dress|dresses|gown|gowns|tenue|tenue de mariee)\b"),
     ("Mariage (générique)", r"\b(mariage|mariee|wedding|bridal|bride|noces|nuptial|nuptiale)\b"),
 ]
@@ -237,7 +350,7 @@ PAGES = {
     "Coupe deux-en-un": ("/coupes/deux-en-un/", "Page coupe", "existante"),
     "Coupe empire": ("/coupes/fluide/", "Page coupe (section)", "à intégrer à la page fluide"),
     "Coupe droite / colonne": ("/coupes/sirene/", "Page coupe (section)", "à intégrer à la page sirène ou page dédiée si volume"),
-    "Robe courte": ("/coupes/courte/", "Page éditoriale", "à créer si des robes courtes existent en boutique"),
+    "Robe courte": ("/details/courte/", "Page détail", "créée le 01/11/2026 sous /details/ (quatre robes courtes) ; /coupes/courte/ si la maison en fait une coupe"),
     "Style bohème": ("/styles/boheme/", "Page style", "à créer"),
     "Style minimaliste": ("/styles/minimaliste/", "Page style", "à créer"),
     "Style romantique": ("/styles/romantique/", "Page style", "à créer"),
@@ -245,20 +358,20 @@ PAGES = {
     "Style chic / élégant / luxe": ("/robes/", "Page catalogue (angle éditorial)", "existante (madamoon.fr/robes)"),
     "Style moderne / originale": ("/styles/minimaliste/", "Page style (section)", "à intégrer"),
     "Style sexy / dos nu": ("/details/dos-nu/", "Page détail", "à créer"),
-    "Robe colorée / non blanche": ("/guides/robe-de-mariee-couleur/", "Guide", "à créer seulement si le stock le justifie"),
+    "Robe colorée / non blanche": ("/guides/ivoire-ou-blanc/", "Guide (section « Et les robes de couleur ? »)", "existante ; /guides/robe-de-mariee-couleur/ si la maison confirme des coloris"),
     "Matière dentelle": ("/matieres/dentelle/", "Page matière", "à créer"),
     "Matière satin / soie": ("/matieres/satin/", "Page matière", "à créer"),
     "Matière tulle / organza": ("/guides/tissus-robe-de-mariee/", "Guide", "à créer"),
     "Détails : manches": ("/details/manches-longues/", "Page détail", "à créer"),
     "Détails : bustier / décolleté": ("/details/bustier/", "Page détail", "à créer"),
     "Détails : traîne / cape / jupe": ("/guides/traine-robe-de-mariee/", "Guide", "à créer si volume suffisant"),
-    "Détails : perles / paillettes": ("/robes/", "Page catalogue (filtre)", "pas de page dédiée"),
+    "Détails : perles / paillettes": ("/styles/romantique/", "Page style (section féerique : Carrie, Agnessa, Hélène)", "existante"),
     "Morphologie": ("/morphologies/", "Hub morphologies + 6 pages", "existantes (madamoon.fr/morphologies)"),
     "Grande taille": ("/morphologies/grande-taille/", "Page éditoriale", "à créer (vérifier les tailles disponibles)"),
     "Mariée enceinte": ("/guides/robe-de-mariee-enceinte/", "Guide", "à créer"),
-    "Âge / mariée mature": ("/guides/robe-de-mariee-apres-40-ans/", "Guide", "à créer si volume suffisant"),
+    "Âge / mariée mature": ("/guides/robe-de-mariee-apres-40-ans/", "Guide", "créée le 01/11/2026 (conseil, sans produit spécifique)"),
     "Mariage civil": ("/styles/mariage-civil/", "Page éditoriale", "à créer"),
-    "Saison / destination": ("/guides/", "Guides saisonniers", "à créer au cas par cas"),
+    "Saison / destination": ("/guides/tissus-robe-de-mariee/", "Guide (section « Quel tissu pour quelle saison ? »)", "existante"),
     "Boutique robe de mariée Paris": ("/", "Accueil + /showroom/", "existantes"),
     "Prix / budget": ("/guides/prix-robe-de-mariee-paris/", "Guide", "à créer (à partir de 1 500 € : rester factuel)"),
     "Location robe de mariée": ("/guides/acheter-ou-louer-sa-robe-de-mariee/", "Guide", "à créer SEULEMENT si la maison confirme ne pas louer : réponse honnête"),
@@ -269,6 +382,8 @@ PAGES = {
     "Créateurs MADAMOON": ("/createurs/[maison]/", "Pages créateurs", "existantes"),
     "Marque MADAMOON": ("/", "Accueil (requêtes de marque)", "existante"),
     "Local Paris": ("/showroom/", "Showroom", "existante v7"),
+    "Anglais (site EN)": ("/en/dresses/", "Catalogue anglais", "existante (site bilingue)"),
+    "Anglais local (site EN)": ("/en/", "Accueil anglais", "existante (site bilingue)"),
 }
 
 
@@ -300,6 +415,24 @@ def charger():
     return lignes, fichiers
 
 
+AUTO = os.path.join(ROOT, "seo-research", "raw", "autocompletion")
+
+
+def charger_autocompletion():
+    """Suggestions Google / Bing (scripts/seo/autocompletion.py) : des requêtes
+    réellement tapées, SANS volume ni difficulté. Elles complètent la base là
+    où Semrush s'est arrêté, et restent marquées « volume non vérifié »."""
+    sugg = collections.defaultdict(set)
+    for f in sorted(glob.glob(os.path.join(AUTO, "*_fr_*.csv"))):
+        moteur = os.path.basename(f).split("_fr_")[0]
+        with open(f, encoding="utf-8") as fh:
+            for r in csv.DictReader(fh, delimiter=";"):
+                kw = r["suggestion"].strip().lower()
+                if kw:
+                    sugg[kw].add(moteur)
+    return sugg
+
+
 def intention(code):
     codes = [c for c in code.split(",") if c]
     if not codes:
@@ -320,19 +453,25 @@ def classer(kw):
     if PARASITES_NOMS.search(nn) and not mariage:
         return "parasite", None
     for m in sorted(CREATEURS_MADAMOON, key=len, reverse=True):
-        if m in n:
-            return "pertinent", "Créateurs MADAMOON"
+        if re.search(r"\b" + re.escape(m) + r"\b", n):
+            if CONTEXTE_MAISON.search(nn) and not re.search(r"\b(jesse|airport|maroc|morocco)\b", nn):
+                return "pertinent", "Créateurs MADAMOON"
+            return "hors sujet", None
     for m in MARQUES_TIERCES:
         if re.search(r"\b" + re.escape(m) + r"\b", nn):
             return "marque tierce", None
     if HORS_PARIS.search(nn):
         return "local hors Paris", None
+    if HORS_OFFRE.search(nn):
+        return "adjacent", None
     if ADJACENT.search(nn) and not re.search(r"\b(robe de mariee|robe mariee|robe de mariage|robe mariage|"
                                              r"wedding dress|bridal gown|bridal dress)\b", nn):
         return "adjacent", None
     if not PERTINENT.search(nn):
         return "hors sujet", None
-    if not mariage and not MORPHO.search(nn):
+    # L'intention de mariage est obligatoire : une « robe femme enceinte bleu
+    # ciel » ou une « robe grande taille vert sauge » ne cherche pas de mariée.
+    if not mariage and not re.search(r"\bmorpho", nn):
         return "mode générique (sans intention mariage)", None
     return "pertinent", None
 
@@ -340,6 +479,9 @@ def classer(kw):
 def cluster_de(kw):
     n = norm(kw) + " || " + " ".join(tokens(kw))
     trouves = [nom for nom, rx in CLUSTERS_RE if rx.search(n)]
+    # « manche courte » parle des manches, pas d'une robe courte
+    if re.search(r"\bmanches? courtes?\b", n) and "Détails : manches" in trouves:
+        trouves = ["Détails : manches"] + [t for t in trouves if t != "Détails : manches"]
     local = bool(PARIS.search(n))
     if not trouves:
         principal = "Local Paris" if local else "Mariage (générique)"
@@ -375,9 +517,51 @@ def construire():
     for l in lignes:
         par_kw[l["keyword"]].append(l)
 
+    sugg = charger_autocompletion()
+    # une suggestion déjà présente dans Semrush n'ajoute qu'une source ;
+    # les autres entrent sans volume
+    semrush_norm = {norm(k): k for k in par_kw}
+    ajoutees = 0
+    for kw, moteurs in sugg.items():
+        if norm(kw) in semrush_norm:
+            continue
+        semrush_norm[norm(kw)] = kw
+        par_kw[kw] = [{"domaine": "", "tranche": "", "fichier": "autocompletion:" + "+".join(sorted(moteurs)),
+                       "keyword": kw, "position": 0, "position_prec": 0, "volume": 0, "cpc": 0.0, "url": "",
+                       "trafic": 0, "part_trafic": 0.0, "kd": 0.0, "intents": "", "competition": 0.0, "trend": "",
+                       "autocompletion": True}]
+        ajoutees += 1
+    for kw, moteurs in sugg.items():
+        k = semrush_norm.get(norm(kw))
+        if k in par_kw and not any(l.get("autocompletion") for l in par_kw[k]):
+            par_kw[k].append({**par_kw[k][0], "fichier": "autocompletion:" + "+".join(sorted(moteurs)),
+                              "autocompletion": True, "domaine": "", "position": 0})
+    print("suggestions d'autocomplétion distinctes:", len(sugg), "| nouvelles (absentes de Semrush):", ajoutees)
+
+    # Le vocabulaire sûr : les mots des mots-clés Semrush jugés pertinents.
+    # Derrière « boutique », « magasin », « showroom », « atelier » ou
+    # « couturière », un mot qui n'en fait pas partie est presque toujours
+    # une ville — et la maison ne vend qu'à Paris.
+    VOCAB = set()
+    for kw, ls in par_kw.items():
+        if any(not l.get("autocompletion") for l in ls) and classer(kw)[0] == "pertinent":
+            VOCAB.update(tokens(kw))
+    VOCAB.update("""paris parisien parisienne idf ile france avis prix tarif cher chere mesure luxe rdv rendez vous
+        sans gratuit essayage essayer meilleur meilleure ouvert dimanche lundi samedi ligne site adresse horaires
+        telephone contact madamoon showroom boutique magasin atelier couturiere createur creatrice marque marques
+        multimarque multimarques collection nouvelle nouveautes arrivage promotion promo solde soldes degriffe
+        destockage outlet petit budget haut gamme prestige couture semi confection retouche retouches delai delais
+        rapide urgent derniere minute grande taille ronde enceinte civil civile mairie courte simple boheme
+        dentelle satin sirene princesse fluide trapeze bustier manche manches dos nu romantique vintage chic
+        elegante moderne originale ivoire blanche couleur 10e 10eme arrondissement gare nord est republique
+        canal saint martin faubourg metro proche pres cote quartier centre ville rive gauche droite""".split())
+    LOCAL_PATTERN = re.compile(r"\b(boutique|magasin|magasins|boutiques|showroom|atelier|couturiere|createur|createurs|"
+                               r"creatrice|essayage|ou trouver|ou acheter)\b")
+
     base = []
     for kw, ls in par_kw.items():
         volume = max(l["volume"] for l in ls)
+        verifie = any(not l.get("autocompletion") for l in ls)
         kd = max(l["kd"] for l in ls)
         cpc = max(l["cpc"] for l in ls)
         intents = next((l["intents"] for l in ls if l["intents"]), "")
@@ -386,10 +570,16 @@ def construire():
         urls = {}
         for l in ls:
             d = l["domaine"]
+            if not d or l.get("autocompletion"):
+                continue
             if d not in positions or l["position"] < positions[d]:
                 positions[d] = l["position"]
                 urls[d] = l["url"]
         statut, forcé = classer(kw)
+        if statut == "pertinent" and not verifie and LOCAL_PATTERN.search(norm(kw)):
+            inconnus = [t for t in tokens(kw) if t not in VOCAB and not t.isdigit()]
+            if inconnus and not PARIS.search(norm(kw)):
+                statut = "local hors Paris"
         principal, secondaires, local = cluster_de(kw)
         if forcé:
             principal = forcé
@@ -417,10 +607,21 @@ def construire():
             gap = ""
         inten = intention(intents)
         page, type_page, statut_page = PAGES.get(principal, ("", "", ""))
+        if principal == "Créateurs MADAMOON":
+            n_ = norm(kw)
+            slug = ("watters-designs" if "watters" in n_ or "wtoo" in n_ else "casablanca-bridal" if "casablanca" in n_
+                    else "olya-mak" if "olya" in n_ else "monica-loretti")
+            anglais = bool(re.search(r"\b(dress|dresses|gown|gowns|price|prices|review|reviews|stockist|near me|"
+                                     r"wedding|bridal|collection|style|overskirt|sleeves|formal|size|photos)\b", n_)) \
+                and not re.search(r"\b(robe|robes|mariee|mariage|prix|avis|boutique|essayage|paris|revendeur)\b", n_)
+            page = f"/en/designers/{slug}/" if anglais else f"/createurs/{slug}/"
+            type_page = "Page maison" + (" (anglais)" if anglais else "")
         if statut != "pertinent":
             page, type_page, statut_page = ("— aucune (non ciblé)", "", "")
         base.append({
             "keyword": kw, "cle_variante": cle_variante(kw), "volume": volume, "kd": kd, "cpc": cpc,
+            "volume_verifie": "oui (Semrush)" if verifie else "non (autocomplétion)",
+            "source_type": "semrush" if verifie else "autocompletion",
             "intention": inten, "intents_code": intents, "trend": trend,
             "statut": statut, "cluster": principal, "clusters_secondaires": " | ".join(secondaires),
             "local_paris": "oui" if local else "",
@@ -459,7 +660,12 @@ def construire():
     st = collections.Counter(b["statut"] for b in base)
     pert = [b for b in base if b["statut"] == "pertinent"]
     cl = collections.Counter(b["cluster"] for b in pert)
-    print("lignes brutes:", len(lignes), "| mots-clés uniques:", len(base))
+    print("lignes brutes Semrush:", len(lignes), "| mots-clés uniques:", len(base),
+          "| dont volume vérifié:", sum(1 for b in base if b["source_type"] == "semrush"),
+          "| dont autocomplétion seule:", sum(1 for b in base if b["source_type"] == "autocompletion"))
+    pert_auto = sum(1 for b in base if b["statut"] == "pertinent" and b["source_type"] == "autocompletion")
+    print("pertinents par source : semrush", sum(1 for b in base if b["statut"] == "pertinent" and b["source_type"] == "semrush"),
+          "| autocomplétion", pert_auto)
     print("statuts:", dict(st))
     print("pertinents:", len(pert), "| groupes de variantes:", len({b['cle_variante'] for b in pert}))
     print("volume cumulé pertinents:", sum(b["volume"] for b in pert))

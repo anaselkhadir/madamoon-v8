@@ -78,6 +78,59 @@ et `python3 scripts/seo/livrables_xlsx.py`.
 Alternative sans unités API : exports CSV depuis l'interface web Semrush
 (Organic Research → Positions ; Keyword Gap) déposés dans `raw/semrush-ui/`.
 
+## État au 1er novembre 2026 — base portée à 6 176 expressions, dont 1 399 vérifiées
+
+Le solde d'unités Semrush est toujours à zéro (ERROR 132 revérifié le 1er
+novembre). Pour tenir l'objectif de 5 000 expressions sans inventer de
+données, une seconde source a été ajoutée : **l'autocomplétion Google et
+Bing** (France, français), c'est-à-dire des requêtes réellement proposées
+par les moteurs — mais **sans volume ni difficulté**.
+
+| Source | Lignes brutes | Mots-clés uniques | Pertinents (ciblés) | Volume |
+|---|---:|---:|---:|---|
+| Semrush (30 oct.) | 3 837 | 2 511 | **1 399** | vérifié |
+| Autocomplétion (1er nov.) | 209 261 | 10 502 (absents de Semrush) | **4 777** | **non vérifié** |
+| **Total** | | 13 013 | **6 176** (4 043 groupes de variantes, 37 pages cibles) | |
+
+Méthode (`scripts/seo/autocompletion.py`) : 117 graines (têtes de cluster,
+coupes, styles, matières, détails, morphologies, maisons, questions) ×
+(graine seule + 26 lettres + 8 mots interrogatifs) sur Google et Bing, puis
+un second niveau sur les 400 suggestions les plus fréquentes (Bing seul :
+Google a bloqué — page « Sorry » — après environ 8 000 requêtes). Exports
+bruts datés dans `raw/autocompletion/` (`google_fr_2026-11-01.csv`,
+`bing_fr_2026-11-01.csv`).
+
+Le même script de base (`base_mots_cles.py`) classe les deux sources avec
+des règles resserrées le même jour : noms de maisons seulement en contexte
+robe (« jesse watters », « casablanca » la ville sont écartés), liste de
+villes et territoires hors Paris, règle « mot inconnu du vocabulaire Semrush
+derrière boutique/magasin = ville », requêtes sans intention de mariage
+écartées, hors offre (occasion, invitée, enfant, entretien, couture…),
+marques de luxe et de prêt-à-porter, requêtes anglaises routées vers le site
+anglais. Chaque ligne porte `volume_verifie` (« oui (Semrush) » / « non
+(autocomplétion) ») et `source_type`.
+
+**Ce que cela ne remplace pas** : les tranches Semrush manquantes et la
+validation en volume des 4 777 requêtes d'autocomplétion (`phrase_these`,
+`phrase_kdi` par lots de 100, environ 48 appels). Tant qu'elle n'est pas
+faite, une expression d'autocomplétion compte pour un volume de 0 dans les
+classeurs et les priorités.
+
+### Implantation dans le site (mesurée, `scripts/seo/implantation.py`)
+
+Mesure sur le site construit (`out/`, 519 routes) le 1er novembre 2026 :
+
+| Mesure | Expressions | Part | Volume vérifié |
+|---|---:|---:|---:|
+| Mot pour mot sur la page cible | 170 | 3 % | 118 120 |
+| Tous les mots de l'expression sur la page cible (mariée = mariage = marier) | 4 121 | 67 % | 405 020 |
+| Couvertes | **4 122 / 6 176** | **67 %** | **94 % du volume** |
+
+Les 2 054 expressions restantes sont surtout de la longue traîne
+d'autocomplétion à un mot près (couleurs, villes résiduelles, marques,
+fautes de frappe), concentrées sur `/robes/` (cluster générique). Le détail
+par page est dans `build/implantation_2026-11-01.md` et `.csv`.
+
 ## Limites connues
 
 - L'API Semrush renvoie au plus 100 positions par mot-clé et ne liste pas
@@ -102,7 +155,6 @@ Alternative sans unités API : exports CSV depuis l'interface web Semrush
 | `seo-opportunities.md` | lecture des données, opportunités, limites |
 | `seo-strategy.md` | principes, architecture priorisée, maillage, plan vers 5 000, GEO, questions à la maison |
 
-Scripts : `scripts/seo/base_mots_cles.py` (base, clusters, gap, expansion) et
-`scripts/seo/livrables_xlsx.py` (classeurs). Intermédiaires dans `build/`.
+Scripts : `scripts/seo/autocompletion.py` (collecte Google/Bing), `scripts/seo/base_mots_cles.py` (base, clusters, gap, expansion), `scripts/seo/livrables_xlsx.py` (classeurs) et `scripts/seo/implantation.py` (couverture mesurée sur `out/`). Intermédiaires dans `build/`.
 Les classeurs ne contiennent pas de formules (LibreOffice absent du poste pour
 la vérification) : les agrégats sont calculés par le script et datés.

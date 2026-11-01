@@ -137,6 +137,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Oui, et d'autant mieux qu'elle est légère. Pour la mairie, on regarde aussi les robes courtes en crêpe comme Elin, pensée d'après sa fiche pour une cérémonie civile, puis la robe bohème pour la fête.",
           },
           {
+            q: "Quelle robe pour un mariage champêtre, et à quel prix ?",
+            r: "Une robe pour mariage champêtre est une robe légère : mousseline, dentelle, pas de traîne — Hélène, Murielle, Ryle. Le style bohème se marie au romantique, avec les fleurs en relief d'Hélène, ou au simple, avec Adularia en charmeuse pour une bohémienne qui veut du net. Une robe bohème pas chère n'existe pas ici au sens du prêt-à-porter : chaque robe est confectionnée à vos mesures, à partir de 1 500 €, retouches comprises. Pour un mariage sur le thème bohème ou nature, en hiver comme en été, la robe reste blanche ou ivoire — le vert sauge et les couleurs se jouent dans le bouquet, pas sur la robe —, dos nu ou manches selon la saison, et confectionnée sur mesure pour chaque femme. Bohème fleurie, bustier ou col en V, mi-longue — non, toutes longues —, rock ou romantique, pour une femme ronde ou enceinte — Mathilda, chez Monica Loretti, est pensée pour la grossesse — : une belle robe bohème originale, mais toujours blanche ou ivoire, jamais rose.",
+          },
+          {
             q: "Où essayer une robe de mariée bohème à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer plusieurs fluides et de comparer les matières.`,
           },
@@ -267,6 +271,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
             q: "Robe simple en dentelle, en satin ou en crêpe ?",
             r: "Le crêpe (Bondi, Milan) et la charmeuse (Adularia) donnent la ligne la plus pure ; le satin mat de Dove apporte de la lumière ; une touche de dentelle, comme la jupe en crêpe et le corsage en Chantilly de Shiloh, garde la simplicité en y ajoutant une matière.",
           },
+          {
+            q: "Une robe de mariée simple peut-elle être originale ?",
+            r: "Oui : l'originale n'est pas la chargée. Une robe de mariée originale et simple joue sur un détail — la fente de Bondi, l'infinité de boutons d'Enid, le décolleté carré de River — plutôt que sur la dentelle. Simple, chic et tendance sans être à la mode d'une saison, blanche ou ivoire : c'est la robe élégante et épurée que l'on regarde encore en photo dix ans après. Et une robe simple n'est pas une robe pas chère : moins de dentelle, mais le même travail de coupe, à partir de 1 500 €. Longue ou courte, avec ou sans manches, sans dentelle ou avec une touche de dentelle, rock ou classique, tendance ou classe : la robe simple reste blanche ou ivoire — pas de couleur au catalogue hors les fleurs de Clover — et élégante par sa coupe, pour chaque femme à ses mesures. Tenue de mariée simple pour l'hiver, très simple ou atypique, dos nu, grande taille ou femme ronde : les modèles existent — Bondi, Milan, Adularia, Dove —, en blanc ou ivoire, jamais colorés, à l'achat seulement, pas en location.",
+          },
         ],
         toutes: "Tous les guides",
       },
@@ -355,8 +363,16 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "La dentelle habille et dessine ; le satin tient et éclaire. Beaucoup de robes font les deux : Charlize, Sheridan et Montana associent satin mat et dentelle. L'essayage tranche, pas la règle.",
           },
           {
+            q: "Robe de mariée en dentelle blanche ou ivoire ?",
+            r: "Les deux existent, et la dentelle change de caractère avec la couleur : plus graphique en blanc, plus douce en ivoire. Les coloris de chaque modèle se voient au showroom, en lumière du jour — c'est là qu'on décide de se marier en blanc ou en ivoire, pas sur un écran.",
+          },
+          {
             q: "Où essayer une robe de mariée en dentelle à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous, pendant une heure privatisée. Chaque robe choisie est ensuite confectionnée à vos mesures.`,
+          },
+          {
+            q: "Dentelle brodée, broderie anglaise, dentelle sur tulle ou sur soie : quelle différence ?",
+            r: "La broderie — un fil posé sur un tulle ou un tissu — se voit sur Seraphina, brodée à la main, et sur le haut de Maribel ; la broderie anglaise, ajourée, n'est pas au catalogue. La dentelle se pose sur un tulle couleur chair pour l'illusion, sur un satin ou une soie pour la tenue ; avec des paillettes, c'est Fancy, « dentelle florale scintillante ». Pour un mariage civil, une dentelle légère à bretelles fines ; et le prix suit la dentelle, à partir de 1 500 € — pas cher n'existe pas pour une fleur brodée main, mais le sur-mesure est compris. Dentelle sur les bras — les manches longues de Pendant, Montana, Seraphina —, transparente, brillante ou à strass — Fancy —, classique ou classe ; le crochet et le col bateau ne sont pas au catalogue ; les fiches ne nomment pas Calais-Caudry mais Chantilly, Alençon, Caterina et Highclare.",
           },
         ],
         toutes: "Tous les guides",
@@ -445,6 +461,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             q: "Où essayer une robe de mariée à manches longues à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous. L'essayage est privé, pendant une heure, et la robe est ensuite confectionnée à vos mesures, manches comprises.`,
+          },
+          {
+            q: "Manches longues avec bustier, col bateau, grande taille ou petite : quelles robes ?",
+            r: "Un bustier à manches n'existe pas : les manches tiennent au corsage, comme chez Montana, Pendant ou Seraphina, et Chastity monte jusqu'au col. Le col bateau et le col carré à manches ne sont pas au catalogue ; Hera et Enid se portent épaules dénudées, sans manche. Grande taille, petite taille, femme ronde ou mince : chaque robe est faite à vos mesures, et des manches mi-longues, courtes ou plus amples se discutent aux retouches, comprises. Manches longues simples ou classiques, pailletées ou fines, avec un voile : oui ; des épaulettes, non.",
           },
         ],
         toutes: "Tous les guides",
@@ -572,6 +592,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
             q: "Où essayer une robe de mariée en satin à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un satin mat, un satin de soie et un mikado, sur plusieurs coupes.`,
           },
+          {
+            q: "Satin pour un mariage civil, col bateau, blanc ou ivoire : quel tissu exactement ?",
+            r: "Le satin est un tissu lisse et lumineux ; le satin mat — Dove, Montana — l'est moins ; le satin de soie — Addison — davantage ; la charmeuse — Adularia — est un satin léger. Pour un mariage civil, Adularia. Le col bateau n'existe pas au catalogue, Hera se porte épaules dénudées. Blanche ou ivoire, vert ou champagne ? Les coloris se voient au showroom ; le prix dépend du tissu, à partir de 1 500 € — un satin de soie n'est pas pas cher —, et chaque robe est faite à vos mesures, toutes tailles.",
+          },
         ],
         toutes: "Tous les guides",
       },
@@ -696,8 +720,16 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Le bustier décrit la robe — sans bretelles ; le corset décrit le corsage — structuré, baleiné, parfois lacé. Une robe corset peut avoir des bretelles, comme Lovia ou Carrie ; une robe bustier a toujours un corsage qui tient.",
           },
           {
+            q: "Quelle robe bustier pour un mariage, et quel décolleté ?",
+            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau et le décolleté américain n'existent pas au catalogue ; Enid et Hera se portent en col bardot, épaules dénudées, ce qui en est l'esprit. Une robe bustier blanche ou ivoire : les coloris de chaque modèle se voient au showroom.",
+          },
+          {
             q: "Où essayer une robe de mariée bustier à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un décolleté cœur, un décolleté droit et un col carré.`,
+          },
+          {
+            q: "Bustier pour un mariage civil, en cœur, rond ou asymétrique ?",
+            r: "Pour un mariage civil, un bustier simple — Enid, en bustier ou en col bardot — ou une courte à larges bretelles comme River. Le décolleté en cœur est le plus fréquent, Sheridan et Charlotte ; le décolleté rond, Calla ; le bénitier et l'asymétrique ne sont pas au catalogue. Grande taille ou petite, femme ronde ou mince, un bustier tient par sa coupe à vos mesures ; strass et paillettes, c'est Carrie ; le haut en dentelle, Fancy ; blanc ou ivoire, au showroom. Encolure américaine, col mao, col roulé, col officier, cache-cœur croisé : pas au catalogue — un bustier n'a pas de col. Bustier drapé — Milan, drapée au buste —, brodé — Maribel —, brillant ou fleuri, avec un voile : à essayer.",
           },
         ],
         toutes: "Tous les guides",
@@ -823,8 +855,16 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Le dos nu si vous aimez la peau libre et une robe qui tient par le corsage ; le dos illusion si vous voulez l'effet du dos découvert avec plus de maintien et de la dentelle posée sur le tulle. Uma et Montana montrent le second, Bella et Seraphina le premier.",
           },
           {
+            q: "Dos nu et décolleté plongeant vont-ils ensemble ?",
+            r: "Souvent, pas toujours. Murielle associe un décolleté plongeant et un dos ouvert ; Bella, Venus et Montana gardent le devant plus couvert et montrent le dos — nu, en dentelle ou en illusion. Pour une robe de mariée dos nu sans décolleté plongeant, c'est vers ces trois-là qu'on regarde d'abord.",
+          },
+          {
             q: "Où essayer une robe de mariée dos nu à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure, avec un miroir pour se voir de dos.`,
+          },
+          {
+            q: "Robe de mariée fendue, transparente, dos nu : et le soutien-gorge ?",
+            r: "La fente et le dos nu vont souvent ensemble : Murielle a une fente et un dos ouvert ; Bondi et Milan, fendues, ont le dos boutonné ou couvert ; la transparence est celle du tulle illusion de Venus, d'Uma et de Montana. Pour le soutien-gorge, la question se règle à l'essayage : les corsages sont souvent assez structurés pour s'en passer, et les retouches, comprises, ajoutent un maintien quand il le faut. Col montant, col carré, bustier ; en soie ou en satin ; rose ou orange — non : au catalogue, le dos nu reste blanc ou ivoire, et c'est le corsage qui décide. Collier dans le dos, coiffure relevée, body ou gaine invisible : des accessoires et des réglages d'essayage, pas des robes ; la robe dos nu cintrée, c'est Bella.",
           },
         ],
         toutes: "Tous les guides",
@@ -952,8 +992,16 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Il n'y a pas une coupe, il y a votre silhouette. Les trapèzes et les princesses équilibrent une morphologie en A ; les fluides allongent une morphologie en O ; une sirène légère dessine des courbes sur une morphologie en H. Le corsage structuré, lui, aide dans tous les cas.",
           },
           {
+            q: "Robe de mariée ronde ou grande taille : quelle différence à l'essayage ?",
+            r: "Aucune : une mariée ronde, comme toute mariée, essaie la robe de son choix et la fait confectionner à ses mesures, pour un mariage civil ou religieux. Pas de rayon « pas cher » ni de surcoût : le prix dépend de la robe, à partir de 1 500 €, retouches comprises.",
+          },
+          {
             q: "Où essayer une robe de mariée grande taille à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure, et vous pouvez venir accompagnée.`,
+          },
+          {
+            q: "Femme ronde, petite, curvy, taille 46 ou XXL : quand prendre rendez-vous, et quelle robe ?",
+            r: "Quand : huit à neuf mois avant le mariage, comme toute mariée, été comme hiver. Quelle robe : celle qu'on aime, car tout est confectionné aux mesures de la femme qui la porte — petite ou grande, ronde ou curvy, taille 46, XL ou XXL, ces mots ne servent qu'à la recherche sur un écran. Au showroom, à Paris, en France, il n'y a que vos mesures et un style. Tenue de mariage pour femme forte « à proximité » ou « autour de moi » : en Île-de-France, c'est Paris 10ᵉ ; le soutien-gorge se règle à l'essayage, l'achat se décide après, à 50 ans comme à 25, blanche ou ivoire, pas colorée.",
           },
         ],
         toutes: "Tous les guides",
@@ -1087,6 +1135,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
             q: "Où essayer une robe de mariée romantique à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer une princesse en tulle, un trapèze en dentelle et une sirène, côte à côte.`,
           },
+          {
+            q: "Robe de mariée romantique à paillettes, fleurie, pour un mariage civil ?",
+            r: "Paillettes et strass : Carrie, en tulle pailleté ; Fancy, en dentelle scintillante ; Aleida, en tulle scintillant. Fleurie : Santana et ses motifs floraux, Zina et ses fleurs 3D, Clover et ses fleurs de couleur — la seule robe colorée du catalogue, les autres sont blanches ou ivoire. Pour un mariage civil romantique, une courte fleurie comme Clover, ou Calla, douce et légère ; pour un esprit féerie ou vintage, Carrie ou Bella.",
+          },
         ],
         toutes: "Tous les guides",
       },
@@ -1182,7 +1234,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Et la combinaison de mariée ?",
           texte:
-            "Le catalogue MADAMOON ne propose pas de combinaison. Ce que l'on cherche dans une combinaison de mariée — la ligne nette, l'aisance, l'esprit tailleur — se retrouve dans River, au décolleté carré et aux larges bretelles, ou dans Bondi et Milan, en crêpe près du corps. À essayer avant de trancher.",
+            "Le catalogue MADAMOON ne propose pas de combinaison mariée, ni de tailleur. Ce que l'on cherche dans une combinaison de mariée — la ligne nette, l'aisance, l'esprit tailleur — se retrouve dans River, au décolleté carré et aux larges bretelles, ou dans Bondi et Milan, en crêpe près du corps. À essayer avant de trancher.",
         },
         {
           titre: "Une robe pour deux cérémonies",
@@ -1208,7 +1260,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle robe pour un mariage civil à Paris ?",
-            r: "Une robe courte en crêpe comme Elin, pensée pour une cérémonie civile d'après sa fiche, ou une robe courte plus habillée comme River. Si la mairie est votre seule cérémonie, une longue simple — Bondi, Milan, Adularia, Marie — fait la journée entière. Toutes s'essaient au showroom MADAMOON, Paris 10ᵉ.",
+            r: "Pour une robe mariage civil Paris, le choix se fait au showroom du 10ᵉ : une robe courte en crêpe comme Elin, pensée pour une cérémonie civile d'après sa fiche, ou une robe courte plus habillée comme River. Si la mairie est votre seule cérémonie, une longue simple — Bondi, Milan, Adularia, Marie — fait la journée entière. Toutes s'essaient au showroom MADAMOON, Paris 10ᵉ.",
           },
           {
             q: "Une robe de mariée courte convient-elle à la mairie ?",
@@ -1222,11 +1274,128 @@ export const PAGES_FAMILLES: PageFamille[] = [
             q: "Où essayer une robe de mariage civil à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer une courte, une longue simple et une deux-en-un, et de décider.`,
           },
+          {
+            q: "Robe de mariage civil en hiver ou en été, blanche, de marque, pas chère ?",
+            r: "En hiver, une longue simple à manches — Montana — ou une courte avec une veste ; en été, Elin ou River. Blanche ou ivoire, selon la carnation. De marque : Olya Mak pour Elin et River, Casablanca Bridal pour Clover, Watters Designs pour Gabriel — des maisons, pas des enseignes en ligne. Pas chère au sens d'un site de prêt-à-porter, non : chaque robe est faite à vos mesures, à partir de 1 500 €, retouches comprises, même courte. Où acheter : au showroom, le seul magasin, pour une femme qui se marie en octobre comme en juin ; mi-longue, non — courte ou longue ; style tailleur ou jacquard — Monica, trapèze en jacquard floral, en tient lieu ; petit prix, non — sur mesure.",
+          },
         ],
         toutes: "Tous les guides",
       },
       fin: {
         titre: "Essayer une robe de mariage civil en showroom",
+        texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
+      },
+    },
+  },
+
+  /* ————————————————————————————————————————————— courte —————
+   *
+   * « Robe de mariée courte » est la plus grosse famille de recherches
+   * sans page (27 750 par mois, base Semrush). Le catalogue a quatre
+   * robes courtes, et c'est ce que la page montre — sous /details/ et
+   * non sous /coupes/ : la maison n'a pas tranché si « courte » devient
+   * une coupe du site (A-VERIFIER § 4). Si elle le fait, /coupes/courte/
+   * reprendra cette page, avec une redirection. */
+  {
+    famille: "details",
+    slug: "courte",
+    titre: "Robe de mariée courte à Paris",
+    description:
+      "Robe de mariée courte à Paris : Elin en crêpe, River au décolleté carré, Clover et Gabriel qui se rallongent d'une surjupe. Au showroom MADAMOON, Paris 10e.",
+    note: "Au genou, légère, libre",
+    chapo:
+      "Une robe de mariée courte n'est pas une robe de moins : c'est une robe qui se voit en entier, jambes comprises, et qui bouge avec vous. Le catalogue MADAMOON en compte quatre — Elin, River, Clover et Gabriel —, chacune confectionnée à vos mesures, et toutes s'essaient au showroom du 10ᵉ, à Paris, à côté des longues pour comparer.",
+    morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
+    style: {
+      voirLaCoupe: "Toutes les robes",
+      robes: {
+        titre: "Nos robes de mariée courtes",
+        liste: [
+          {
+            slug: "elin",
+            texte:
+              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile », d'après sa fiche. La robe courte de mariée la plus simple du catalogue, chez Olya Mak.",
+          },
+          {
+            slug: "river",
+            texte:
+              "Une robe courte au décolleté carré et aux larges bretelles, silhouette sculpturale, finitions à la main : la robe de mariée courte chic, « pour celles qui souhaitent sortir des codes traditionnels ».",
+          },
+          {
+            slug: "clover",
+            texte:
+              "Une robe courte brodée de fleurs de couleur, avec une surjupe longue à volonté : la robe de mariée courte originale, qui devient longue quand on le décide.",
+          },
+          {
+            slug: "gabriel",
+            texte:
+              "Une robe courte délicatement perlée, et une jupe transparente amovible par-dessus : courte à la mairie, longue à la fête, chez Watters Designs.",
+          },
+        ],
+      },
+      colonnes: [
+        {
+          titre: "Ce qui fait une robe courte",
+          texte:
+            "La longueur, d'abord : au genou ou juste au-dessus, ce qui libère le pas et montre les chaussures. Puis la matière, qui doit tenir sans traîne pour l'alourdir — le crêpe d'Elin, le tissu sculptural de River. Une robe courte se juge debout et en marchant : au showroom, on la fait marcher avant de la faire tourner.",
+        },
+        {
+          titre: "Courte chic ou courte originale ?",
+          texte:
+            "Chic : River, au décolleté carré, dont la fiche parle d'« un véritable travail de coupe » sous une simplicité apparente. Originale : Clover, brodée de fleurs de couleur — la seule robe du catalogue qui ne soit pas tout en blanc ou ivoire —, et Gabriel, perlée sous sa jupe transparente. Elin, en crêpe, reste la plus sobre des quatre.",
+        },
+        {
+          titre: "Pour quelle cérémonie ?",
+          texte:
+            "Le mariage civil, en premier : Elin est pensée pour lui. La réception ou le deuxième look de la soirée : River, d'après sa fiche, est « parfaite pour un deuxième look de mariée, une réception ou une cérémonie moins conventionnelle ». Et le mariage entier, quand on veut une robe dans laquelle on danse.",
+        },
+        {
+          titre: "Courte, puis longue",
+          texte:
+            "Clover et Gabriel sont des deux-en-un : courtes le matin, longues le soir, par une surjupe ou une jupe transparente qui s'attache et se retire. Une robe pour deux cérémonies, confectionnée à vos mesures, retouches comprises — la surjupe aussi.",
+        },
+      ],
+      echo: {
+        titre: "Si c'est finalement la longue",
+        texte:
+          "Beaucoup de mariées venues pour une robe courte repartent avec une longue simple, et l'inverse. Milan, de Monica Loretti, est la longue qui joue le même rôle qu'une courte : crêpe léger, drapé au buste, fente sur le côté, « pour la mariée qui recherche un style raffiné et minimaliste ». Elle s'essaie à côté des quatre courtes.",
+        robe: "milan",
+        voir: "Voir Milan",
+      },
+      pourQui: {
+        titre: "À qui elle va",
+        texte:
+          "Elin, River, Clover et Gabriel sont indiquées, sur leurs fiches, pour les six morphologies : une robe courte dessine la jambe et laisse le buste libre, ce qui convient à toutes. Une robe de mariée courte grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+        toutes: "Toutes les morphologies",
+      },
+      questions: {
+        titre: "Les questions",
+        liste: [
+          {
+            q: "Peut-on se marier en robe courte ?",
+            r: "Oui, et de plus en plus de mariées le font, à la mairie comme à la fête. Une robe courte de mariée reste une robe de mariée : Elin, River, Clover et Gabriel sont confectionnées à vos mesures, comme les longues, et s'essaient au même showroom.",
+          },
+          {
+            q: "Quelle robe de mariée courte pour un mariage civil ?",
+            r: "Elin, dont la fiche dit « parfaite pour une cérémonie civile », pour la sobriété ; River pour une mairie plus habillée. Si une autre cérémonie suit, Clover et Gabriel font les deux avec leur surjupe. La page du mariage civil détaille les robes longues simples qui conviennent aussi.",
+          },
+          {
+            q: "Une robe de mariée courte coûte-t-elle moins cher ?",
+            r: "Pas nécessairement : le prix tient à la maison, à la matière et au travail du corsage, pas à la longueur. Comme toutes les robes du catalogue, les courtes sont confectionnées à vos mesures, retouches comprises, à partir de 1 500 € ; le prix de chacune se confirme au showroom.",
+          },
+          {
+            q: "Où essayer une robe de mariée courte à Paris ?",
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer les quatre courtes, et une longue pour comparer.`,
+          },
+          {
+            q: "Robe de mariée courte en dentelle, à manches, ou courte devant et longue derrière ?",
+            r: "Le catalogue n'a pas de robe courte devant et longue derrière, ni de robe midi : ses quatre courtes s'arrêtent au genou. En dentelle, en tulle ou perlée, avec ou sans manches, bustier ou bretelles : Gabriel est perlée sous sa jupe transparente, Clover brodée de fleurs, River à larges bretelles, Elin en crêpe sans manche. Une courte bohème, une courte blanche pour l'hiver avec une veste : c'est l'essayage qui le dit, et la robe se fait aux mesures de chaque femme. Courte moderne ou vintage années 50, élégante avec un voile court, dos nu ou corset, en satin, à paillettes, jupe bouffante ou droite, pour une femme ronde ou une mariée senior : les quatre courtes s'essaient avec tout cela ; un nœud ou une ceinture, c'est de l'accessoire, pas du catalogue.",
+          },
+        ],
+        toutes: "Tous les guides",
+      },
+      fin: {
+        titre: "Essayer une robe courte en showroom",
         texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
       },
     },

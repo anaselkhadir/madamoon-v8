@@ -406,7 +406,7 @@ const FR = {
       titre: "Les morphologies",
       toutesLesCoupes: "Toutes les coupes",
       intro:
-        "Une morphologie n’exclut jamais une robe : elle ouvre des pistes. Rien n’est « à éviter » — c’est un conseil de style, pas une règle, et au showroom on essaie aussi ce qui n’était pas prévu.",
+        "Une morphologie n’exclut jamais une robe : elle ouvre des pistes. Rien n’est « à éviter » — c’est un conseil de style, pas une règle, et au showroom on essaie aussi ce qui n’était pas prévu. Quelle robe de mariée pour une morphologie en H, en A, en V, en O, en 8 ou en X ? Chaque lettre a sa page, et chaque morpho se vérifie devant un miroir. Petite femme — 1m50 ou moins —, grande, mince ou ronde, forte poitrine ou petit buste : choisir sa robe de mariage en fonction de sa morphologie est le premier tri, et quand on hésite entre deux types ou deux styles, on essaie les deux.",
       guide: "Vous ne savez pas laquelle est la vôtre ? Élise vous guide en trois questions.",
     },
     coupe: {
@@ -651,7 +651,7 @@ const FR = {
     guides: {
       titre: "Guides",
       accroche:
-        "Tout ce que la boutique a écrit pour vous aider à choisir : la coupe, la silhouette, l'essayage. Une question, une page.",
+        "Tout ce que la boutique a écrit pour vous aider à choisir : la coupe, la silhouette, l'essayage, le prix, les matières — avec les modèles du catalogue en photo, et des idées pour chaque style ou collection. Pourquoi la robe de mariée est-elle blanche, comment bien la choisir, quelle longueur, quelle forme : les réponses sont ici. Une question, une page.",
       sommaire: "Au sommaire",
       coupes: "Les coupes",
       coupesTexte: "Ce qui définit chaque coupe, à qui elle va, comment la porter et l'accessoiriser.",

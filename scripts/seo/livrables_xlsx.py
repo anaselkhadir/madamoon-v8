@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SR = os.path.join(ROOT, "seo-research")
 RAW = os.path.join(SR, "raw", "semrush")
 BUILD = os.path.join(SR, "build")
-DATE = "30 octobre 2026"
+DATE = "1er novembre 2026 (exports Semrush du 30 octobre 2026, autocomplétion Google et Bing du 1er novembre 2026)"
 NOUS = "madamoon.fr"
 CONC = ["oscarlett.com", "marieeparisienne.com", "plumeparis.fr", "white-boutik.com"]
 DOMS = [NOUS] + CONC
@@ -224,17 +224,23 @@ def classeur_clusters(base, exp):
     wb = Workbook()
     pert = [b for b in base if b["statut"] == "pertinent"]
     lisez_moi(wb, "keyword-clusters — base sémantique MADAMOON V8", [
-        f"Base : {len(base)} mots-clés uniques extraits de Semrush (5 domaines), dont {len(pert)} pertinents pour MADAMOON, regroupés en {len({b['cle_variante'] for b in pert})} groupes de variantes proches et {len({b['cluster'] for b in pert})} clusters thématiques. {len(exp)} requêtes d'expansion sémantique (non vérifiées) sont listées à part.",
+        f"Base : {len(base)} mots-clés uniques — {sum(1 for b in base if b.get('source_type') == 'semrush')} extraits de Semrush (5 domaines, volumes vérifiés) et {sum(1 for b in base if b.get('source_type') == 'autocompletion')} relevés par autocomplétion Google et Bing (volume NON vérifié) —, dont {len(pert)} pertinents pour MADAMOON ({sum(1 for b in pert if b.get('source_type') == 'semrush')} vérifiés, {sum(1 for b in pert if b.get('source_type') == 'autocompletion')} non vérifiés), regroupés en {len({b['cle_variante'] for b in pert})} groupes de variantes proches et {len({b['cluster'] for b in pert})} clusters thématiques. {len(exp)} requêtes d'expansion sémantique (non vérifiées) sont listées à part.",
+        "Colonne « Volume vérifié » : « oui (Semrush) » = la ligne vient d'un export Semrush daté, avec volume, KD et intention ; « non (autocomplétion) » = la requête est réellement suggérée par Google ou Bing en France mais son volume est inconnu (0 dans le classeur) tant que Semrush n'est pas réalimenté (phrase_these / phrase_kdi par lots de 100).",
         "Groupe de variantes : mots-clés qui partagent les mêmes mots pleins (accents, pluriels, ordre et mots de liaison ignorés). Le représentant est la variante au plus fort volume. Une page cible un groupe entier, jamais une variante isolée.",
         "Cluster : thème principal attribué par règles lexicales (coupe, style, matière, détail, morphologie, local, prix, créateur, guide…). Les clusters secondaires signalent les croisements (ex. « sirène » × « dentelle »).",
         "Priorité (0-100) : volume (log), difficulté inversée, intention commerciale/transactionnelle, dimension locale Paris, nombre de concurrents positionnés (marché prouvé), quick win si madamoon est déjà en positions 4-30.",
         "Statut : « pertinent » = cœur de cible (robe de mariée, boutique, Paris, morphologie, créateurs distribués). Les autres statuts (marque tierce, adjacent, mode générique, local hors Paris, parasite, hors sujet) sont conservés pour traçabilité mais ne génèrent aucune page.",
-        "Objectif de 5 000 expressions : la base vérifiée compte aujourd'hui 1 474 expressions pertinentes ; l'objectif se complète par les tranches Semrush manquantes (≈ 5 700 lignes), les rapports phrase_related / phrase_questions par cluster, puis la validation en volume des 482 requêtes d'expansion. Voir seo-strategy.md.",
+        f"Objectif de 5 000 expressions : atteint en nombre le 1er novembre 2026 ({len(pert)} pertinentes), mais pas en volumes vérifiés — le solde d'unités API Semrush est resté à zéro (ERROR 132). Les tranches Semrush manquantes (≈ 5 700 lignes), les rapports phrase_related / phrase_questions et la validation phrase_these / phrase_kdi des expressions d'autocomplétion restent à faire. Voir seo-research/README.md.",
     ])
-    cols = ["Mot-clé", "Groupe de variantes (représentant)", "Nb variantes", "Volume", "Volume du groupe", "KD", "CPC (USD)", "Intention", "Cluster principal", "Clusters secondaires", "Local Paris", "Gap", "Nb concurrents", "Pos. madamoon", "Page cible V8", "Type de page", "Statut de la page", "Priorité", "Tendance 12 mois", "Source"]
+    cols = ["Mot-clé", "Volume vérifié", "Groupe de variantes (représentant)", "Nb variantes", "Volume", "Volume du groupe", "KD", "CPC (USD)", "Intention", "Cluster principal", "Clusters secondaires", "Local Paris", "Gap", "Nb concurrents", "Pos. madamoon", "Page cible V8", "Type de page", "Statut de la page", "Priorité", "Tendance 12 mois", "Source"]
     def row(b):
-        return [b["keyword"], b["groupe_variantes"], b["nb_variantes"], b["volume"], b["volume_groupe"], b["kd"], b["cpc"], b["intention"], b["cluster"], b["clusters_secondaires"], b["local_paris"], b["gap"], b["nb_concurrents"], b["pos_madamoon"] or None, b["page_cible"], b["type_page"], b["statut_page"], b["priorite"], b["trend"], b["sources"]]
-    feuille(wb, "Base pertinente", cols, [row(b) for b in pert], largeurs={1: 42, 2: 36, 9: 30, 10: 40, 15: 36, 17: 40, 19: 40, 20: 50}, formats={7: "0.00"})
+        return [b["keyword"], b.get("volume_verifie", "oui (Semrush)"), b["groupe_variantes"], b["nb_variantes"], b["volume"], b["volume_groupe"], b["kd"], b["cpc"], b["intention"], b["cluster"], b["clusters_secondaires"], b["local_paris"], b["gap"], b["nb_concurrents"], b["pos_madamoon"] or None, b["page_cible"], b["type_page"], b["statut_page"], b["priorite"], b["trend"], b["sources"]]
+    feuille(wb, "Base pertinente", cols, [row(b) for b in pert], largeurs={1: 42, 2: 20, 3: 36, 10: 30, 11: 40, 16: 36, 18: 40, 20: 40, 21: 50}, formats={8: "0.00"})
+    auto = [b for b in pert if b.get("source_type") == "autocompletion"]
+    feuille(wb, "Autocomplétion (non vérifiée)", ["Requête suggérée", "Moteur(s)", "Cluster principal", "Clusters secondaires", "Local Paris", "Page cible V8", "Groupe de variantes"],
+            [[b["keyword"], b["sources"].replace("autocompletion:", ""), b["cluster"], b["clusters_secondaires"], b["local_paris"], b["page_cible"], b["groupe_variantes"]] for b in auto],
+            largeurs={1: 48, 3: 30, 4: 40, 6: 36, 7: 40},
+            note="Requêtes réellement suggérées par Google et Bing (France, français) autour de 117 graines, deux niveaux (scripts/seo/autocompletion.py). Pas de volume : à valider dans Semrush (phrase_these) quand le compte est réalimenté.")
     cl = collections.defaultdict(list)
     for b in pert:
         cl[b["cluster"]].append(b)
