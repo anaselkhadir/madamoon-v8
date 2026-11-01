@@ -196,10 +196,9 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
 
   return (
     <section aria-labelledby="coupes" className="bg-blanc py-[clamp(3.5rem,7vw,6rem)]">
-      {/* Sur grand écran, le titre à gauche et l'accordéon à droite : les
-        * photographies sont debout, l'accordéon ne prend pas toute la
-        * largeur. En deçà, le titre passe au-dessus. */}
-      <div className="gouttiere grid gap-x-[clamp(2rem,5vw,5rem)] gap-y-[clamp(1.75rem,3.5vw,2.75rem)] xl:grid-cols-[minmax(0,1fr)_auto] xl:items-end">
+      {/* Le titre en haut de la section, l'accordéon centré dessous : les
+        * photographies sont debout, il ne prend pas toute la largeur. */}
+      <div className="gouttiere flex flex-col gap-[clamp(1.75rem,3.5vw,2.75rem)]">
         <div>
           <p className="legende">{L.coupes.legende}</p>
           <span data-ligne className="mt-4 block">
@@ -218,7 +217,7 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
           /* « overflow-hidden » : les photographies débordent leur panneau,
            * et celles des deux extrémités sortiraient de la page. Les bords
            * extérieurs ne bougent jamais, rien n'y est coupé. */
-          className="accordeon-coupes max-xl:mx-auto"
+          className="accordeon-coupes mx-auto"
           style={
             {
               "--rmax": Math.max(...rapports),

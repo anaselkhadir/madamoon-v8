@@ -1533,7 +1533,9 @@ html[data-ouverture]::before {
 @media (min-width: 1024px) {
   .accordeon-coupes {
     --b: clamp(56px, 6vw, 96px);
-    --h: clamp(28rem, calc(100svh - 12rem), 46rem);
+    /* Le titre est au-dessus : la hauteur lui laisse sa place, pour que
+     * titre et photographies tiennent ensemble dans l'écran. */
+    --h: clamp(26rem, calc(100svh - 19rem), 46rem);
     flex-direction: row;
     height: var(--h);
     /* Une largeur fixe, bornée par « max-width » : un « min(100%, …) »
