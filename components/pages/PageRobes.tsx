@@ -12,7 +12,7 @@ import { couverture } from "@/lib/couverture";
 import FilDAriane from "@/components/FilDAriane";
 import Link from "@/components/Lien";
 import { COUPES } from "@/lib/coupes";
-import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
+import { adresseFamille, pagesDe, type PageFamille } from "@/lib/familles";
 
 /*
  * Le catalogue.
@@ -41,6 +41,14 @@ const liste = (langue: Langue) => ({
   })),
 });
 
+/* Le libellé court d'une page de famille dans une colonne : « Robe de
+ * mariée bohème à Paris » y devient « Bohème » — la colonne dit déjà de
+ * quoi il s'agit, et le titre entier est sur la page d'arrivée. */
+const lienFamille = (p: PageFamille) => {
+  const court = p.titre.replace(/^Robe de mariée /, "").replace(/ à Paris$/, "").replace(/^pour un /, "");
+  return { href: adresseFamille(p), label: court.charAt(0).toUpperCase() + court.slice(1) };
+};
+
 export default function PageRobes({ langue }: { langue: Langue }) {
   const L = t(langue);
   const LISTE = liste(langue);
@@ -62,28 +70,56 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         />
       </div>
 
-      {/* L'introduction, en français : ce que le catalogue contient, dit
-        * avec les mots qu'une mariée tape — robe de mariée, les coupes, les
-        * styles et les matières — et les pages qui y mènent. Une seule
-        * phrase de plus, à la mesure du site ; rien n'est caché pour les
-        * moteurs. */}
+      {/* L'introduction, en français.
+        *
+        * Une phrase à la voix des titres, puis le détail en corps de texte,
+        * sur deux colonnes : un texte de cinq phrases au corps d'un titre
+        * faisait un mur. Les pages du catalogue viennent ensuite, rangées
+        * par ce qu'elles classent — la coupe, le style, la matière, le
+        * détail —, en quatre colonnes de liens fins, comme au pied de page.
+        * Une rangée de seize liens soulignés était une liste sans forme.
+        * Rien n'est caché pour les moteurs : les mêmes mots, mieux rangés. */}
       {langue === "fr" && (
-        <div className="gouttiere pb-[clamp(2rem,4vw,3.5rem)]">
+        <div className="gouttiere pb-[clamp(2.5rem,5vw,4.5rem)]">
           <p className="phrase est-moyenne mesure-l">
-            Des robes de mariée de plusieurs maisons — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti et quelques ateliers indépendants —, à essayer en showroom à Paris 10ᵉ et confectionnées à vos mesures. Toutes les coupes y sont : sirène, princesse, fluide, trapèze, deux-en-un ; et toutes les matières, de la dentelle de Chantilly au crêpe le plus simple. Robe de mariée chic ou de luxe, esprit couture ou toute simple, élégante ou audacieuse : chaque fiche nomme la marque et le tissu, et chaque robe est ajustée sur place, à Paris, retouches comprises. Robe de mariée traditionnelle ou moderne, blanche ou ivoire, de style bohème, romantique ou minimaliste, en tissu simple ou de luxe : rien ne se vend en ligne, et ce n'est pas de la haute couture au sens des maisons parisiennes — c'est du sur-mesure, pour une femme et une seule, dans une boutique française, à Paris. Belle ou magnifique robe de mariée, classique, glamour ou moderne, d'une pièce ou deux pièces, pour la cérémonie et la fête : l'achat se décide au showroom, après l'essayage — pas de vente en ligne, pas de prêt-à-porter — et chaque création est celle d'une maison nommée sur sa fiche.
+            Des robes de mariée de plusieurs maisons — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti et quelques ateliers indépendants —, à essayer en showroom à Paris 10ᵉ et confectionnées à vos mesures.
           </p>
-          <ul className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
+          <div className="mt-6 grid gap-x-[clamp(2rem,5vw,5rem)] gap-y-4 md:grid-cols-2">
+            <p className="texte mesure">
+              Toutes les coupes y sont, sirène, princesse, fluide, trapèze, deux-en-un, et toutes les matières, de la dentelle de Chantilly au crêpe le plus simple. Chic ou de luxe, esprit couture ou toute simple, élégante ou audacieuse, classique ou glamour : chaque fiche nomme la marque et le tissu, et chaque robe est ajustée sur place, retouches comprises.
+            </p>
+            <p className="texte mesure">
+              Traditionnelle ou moderne, blanche ou ivoire, bohème, romantique ou minimaliste, d'une pièce ou deux pièces : pas de vente en ligne ni de prêt-à-porter. Ce n'est pas de la haute couture au sens des maisons parisiennes, c'est du sur-mesure, pour une femme et une seule, dans une boutique française. L'achat se décide au showroom, après l'essayage, et chaque création est celle d'une maison nommée sur sa fiche.
+            </p>
+          </div>
+
+          <nav
+            aria-label="Parcourir les robes par coupe, style, matière ou détail"
+            className="mt-10 grid grid-cols-2 gap-x-[clamp(1.5rem,4vw,4rem)] gap-y-8 border-t border-fil pt-8 md:grid-cols-4"
+          >
             {[
-              ...COUPES.map((c) => ({ href: `/coupes/${c.ancre}`, label: `Robes ${c.nom.toLowerCase()}` })),
-              ...PAGES_FAMILLES.map((p) => ({ href: adresseFamille(p), label: p.titre.replace(" à Paris", "") })),
-            ].map((l) => (
-              <li key={l.href}>
-                <Link href={l.href} className="lien-nav souligne text-action">
-                  {l.label}
-                </Link>
-              </li>
+              { titre: "Par coupe", liens: COUPES.map((c) => ({ href: `/coupes/${c.ancre}`, label: c.nom })) },
+              { titre: "Par style", liens: pagesDe("styles").map(lienFamille) },
+              { titre: "Par matière", liens: pagesDe("matieres").map(lienFamille) },
+              {
+                titre: "Par détail",
+                liens: [...pagesDe("details"), ...pagesDe("morphologies")].map(lienFamille),
+              },
+            ].map((g) => (
+              <div key={g.titre}>
+                <h2 className="legende">{g.titre}</h2>
+                <ul className="mt-4 flex flex-col gap-2">
+                  {g.liens.map((l) => (
+                    <li key={l.href}>
+                      <Link href={l.href} className="texte souligne">
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </ul>
+          </nav>
         </div>
       )}
 
