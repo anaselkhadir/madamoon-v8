@@ -21,7 +21,7 @@ Trois différences avec l'aperçu GitHub Pages :
 
 | | Aperçu GitHub Pages | Hostinger |
 |---|---|---|
-| Adresses | `/madamoon-v7/robes/` | `/robes/` |
+| Adresses | `/madamoon-v8/robes/` | `/robes/` |
 | Moteurs de recherche | interdits (`robots.txt` ferme tout) | autorisés, avec le plan du site |
 | Commande | `npm run build:pages` | `npm run build:hostinger` |
 
