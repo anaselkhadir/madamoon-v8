@@ -28,6 +28,10 @@ import { t } from "@/lib/textes";
  *
  * Le film se rapproche très lentement, quarante secondes pour six pour
  * cent. Par-dessus, un dégradé tient le texte lisible dans son coin.
+ *
+ * Il est présenté en carte, à la demande de la maison : posé dans la
+ * gouttière, sur le blanc de la page, à l'angle de 4 px. Le texte reste
+ * dans la carte, en bas à gauche.
  */
 
 export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
@@ -36,44 +40,59 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
   return (
     <section
       aria-labelledby="showroom"
-      className="relative h-[92svh] min-h-[32rem] overflow-hidden"
+      className="gouttiere bg-blanc pb-[clamp(1.5rem,3vw,3rem)] pt-[clamp(1rem,1.9vw,1.75rem)]"
     >
-      <div className="absolute inset-0 respire">
-        <Film
-          src="/film/showroom.mp4"
-          srcMobile="/film/showroom-mobile.mp4"
-          affiche={SCENES["showroom-film"]}
-          alt={altScene(L.showroom.alt, langue)}
-          className="h-full w-full"
+      {/* « isolate » : sans lui, Safari laisse le film qui respire
+       * déborder des coins arrondis. */}
+      <div className="relative isolate h-[88svh] min-h-[32rem] overflow-hidden rounded-[4px]">
+        <div className="absolute inset-0 respire">
+          <Film
+            src="/film/showroom.mp4"
+            srcMobile="/film/showroom-mobile.mp4"
+            affiche={SCENES["showroom-film"]}
+            alt={altScene(L.showroom.alt, langue)}
+            className="h-full w-full"
+          />
+        </div>
+
+        {/*
+         * Plus de verre sombre : il calmait les couleurs saturées de la
+         * photographie (point 132). Le film est en noir et blanc, et déjà
+         * sombre ; le verre l'aurait éteint. Le dégradé reste : il tient
+         * le texte lisible dans son coin — un peu plus soutenu qu'avec le
+         * verre : les plans de dentelle du film sont très clairs.
+         */}
+        <span
+          aria-hidden="true"
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(10deg, rgba(0,0,0,0.58) 0%, rgba(0,0,0,0.26) 42%, rgba(0,0,0,0) 76%)",
+          }}
         />
-      </div>
 
-      {/*
-        * Plus de verre sombre : il calmait les couleurs saturées de la
-        * photographie (point 132). Le film est en noir et blanc, et déjà
-        * sombre ; le verre l'aurait éteint. Le dégradé reste : il tient
-        * le texte lisible dans son coin.
-        */}
-      <span
-        aria-hidden="true"
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(10deg, rgba(0,0,0,0.42) 0%, rgba(0,0,0,0.16) 42%, rgba(0,0,0,0) 76%)",
-        }}
-      />
-
-      <div className="gouttiere absolute inset-x-0 bottom-0 pb-[clamp(3rem,7vw,6rem)]">
-        <p className="legende text-sur-image/70">{L.showroom.legende}<sup>e</sup></p>
-        <span data-ligne className="mt-4 block">
-          <h2 id="showroom" className="affiche max-w-[18ch] text-sur-image">
-            {L.showroom.titre}
-          </h2>
-        </span>
-        <p className="accroche mesure-l mt-5 text-sur-image">{L.showroom.texte}</p>
-        <Link href="/showroom" className="bouton-clair mt-7">
-          {L.showroom.lien}
-        </Link>
+        <div className="absolute inset-x-0 bottom-0 px-[clamp(1.25rem,4vw,4rem)] pb-[clamp(2rem,5vw,4.5rem)]">
+          {/* La couleur en style : « .legende » l'emporte sur l'utilitaire,
+            * et la légende restait brun-gris sur le film. */}
+          <p
+            className="legende"
+            style={{ color: "color-mix(in srgb, var(--color-sur-image) 78%, transparent)" }}
+          >
+            {L.showroom.legende}
+            <sup>e</sup>
+          </p>
+          <span data-ligne className="mt-4 block">
+            <h2 id="showroom" className="affiche max-w-[18ch] text-sur-image">
+              {L.showroom.titre}
+            </h2>
+          </span>
+          <p className="accroche mesure-l mt-5 text-sur-image">
+            {L.showroom.texte}
+          </p>
+          <Link href="/showroom" className="bouton-clair mt-7">
+            {L.showroom.lien}
+          </Link>
+        </div>
       </div>
     </section>
   );
