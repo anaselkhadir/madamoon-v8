@@ -25,6 +25,14 @@ export type Avis = {
   texte: string;
   extrait?: string;
   note: 1 | 2 | 3 | 4 | 5;
+  /* Le portrait de la cliente, dans `public/avis/`, ex. « /avis/julia-jf.jpg ».
+   *
+   * Uniquement avec son accord écrit, et la photo qu'elle a elle-même
+   * envoyée à la maison. On ne recopie jamais la photo de son profil
+   * Google : c'est son image (droit à l'image, RGPD), et les conditions
+   * de Google interdisent de la reprendre. Sans portrait, la carte
+   * montre l'initiale. Format carré, 160 × 160 pixels au moins. */
+  photo?: string;
 };
 
 export const AVIS: Avis[] = [

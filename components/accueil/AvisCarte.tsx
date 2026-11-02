@@ -3,6 +3,7 @@
 import { useState, type CSSProperties, type PointerEvent } from "react";
 import Etoiles from "@/components/accueil/Etoiles";
 import type { Avis } from "@/lib/avis";
+import { media } from "@/lib/chemin";
 import { typographie } from "@/lib/francais";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
@@ -62,17 +63,31 @@ export default function AvisCarte({ voix, langue }: { voix: Avis[]; langue: Lang
               inert={etat !== "actif"}
               className="avis-diapo flex flex-col"
             >
-              {/* La ligne du haut, dans son masque : l'initiale, pas un
-                * portrait — la maison n'a pas les photographies de ses
-                * clientes, et on n'en invente pas. */}
+              {/* La ligne du haut, dans son masque : le portrait de la
+                * cliente quand elle l'a confié à la maison, son initiale
+                * sinon — on n'invente pas un visage, et on ne recopie pas
+                * celui de son profil Google (lib/avis.ts). */}
               <span className="avis-masque block overflow-hidden">
                 <span className="avis-marque flex items-center gap-2.5">
-                  <span
-                    aria-hidden="true"
-                    className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-encre font-serif text-[0.875rem] leading-none text-blanc"
-                  >
-                    {a.auteur.charAt(0)}
-                  </span>
+                  {a.photo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={media(a.photo)}
+                      alt=""
+                      width={32}
+                      height={32}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-8 w-8 shrink-0 rounded-full bg-gris-appuye object-cover"
+                    />
+                  ) : (
+                    <span
+                      aria-hidden="true"
+                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-encre font-serif text-[0.9375rem] leading-none text-blanc"
+                    >
+                      {a.auteur.charAt(0)}
+                    </span>
+                  )}
                   <span
                     style={{
                       fontFamily: "var(--font-sans)",
