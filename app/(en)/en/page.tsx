@@ -36,13 +36,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      {/* Le hero, et l'introduction qui monte par-dessus en arc :
-        * l'enveloppe borne son collant, l'introduction (au moins un écran)
-        * le recouvre entièrement avant qu'elle finisse. */}
       <div>
         <Hero langue="en" />
-        {/* Au-dessus des Robes (z-10 elles aussi) : l'arc de sortie pend
-          * sur elles. */}
         <div className="relative z-20">
           <Maison langue="en" />
         </div>

@@ -141,6 +141,11 @@ const FR = {
       ],
     ],
     lien: "Découvrir notre histoire",
+    /* La photographie du salon, à côté du texte. La légende est écrite à
+     * l'anglaise ; la description dit ce que l'on voit, rien de plus. */
+    salon: "Le salon du showroom",
+    altSalon:
+      "Le salon du showroom : un piano ancien, des vitraux, deux fauteuils de velours bleu et des robes de mariée",
   },
   /* La rangée de robes de l'accueil. La sélection elle-même est dans le
    * composant : ce sont des identifiants, pas des mots. */
@@ -948,6 +953,9 @@ const EN: Textes = {
       ],
     ],
     lien: "Discover our story",
+    salon: "The showroom salon",
+    altSalon:
+      "The showroom salon: an antique piano, stained-glass windows, two blue velvet armchairs and wedding dresses",
   },
   robesAccueil: {
     legende: "The dresses",

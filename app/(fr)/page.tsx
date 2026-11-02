@@ -24,10 +24,8 @@ import { partage } from "@/lib/meta";
  * maison, ce qui vaut mieux qu'une vitrine de plus. L'accueil présente
  * des façons de chercher, pas un catalogue.
  *
- * Le hero reste en place et la suite monte par-dessus, son bord haut
- * en arc (components/accueil/Arc.tsx), d'après la référence Osmo de la
- * maison. Un premier collant, coupé d'une ligne franche, avait été
- * retiré ; l'arc en est la réponse.
+ * Le hero défile normalement : la suite montait par-dessus en arc,
+ * retiré depuis à la demande de la maison (voir Hero.tsx).
  */
 
 export const metadata: Metadata = {
@@ -45,13 +43,8 @@ export default function Accueil() {
   return (
     <>
       <Ouverture />
-      {/* Le hero, et l'introduction qui monte par-dessus en arc :
-        * l'enveloppe borne son collant, l'introduction (au moins un écran)
-        * le recouvre entièrement avant qu'elle finisse. */}
       <div>
         <Hero langue="fr" />
-        {/* Au-dessus des Robes (z-10 elles aussi) : l'arc de sortie pend
-          * sur elles. */}
         <div className="relative z-20">
           <Maison langue="fr" />
         </div>

@@ -108,18 +108,16 @@ export default function Hero({ langue = "fr" }: { langue?: Langue }) {
   };
 
   /*
-   * Le hero reste en place, et la suite monte par-dessus en arc.
+   * Le hero défile comme le reste de la page.
    *
-   * Un premier essai, collé de la même façon, avait été retiré : le bloc
-   * blanc coupait l'image d'une ligne franche, un store qui descend. La
-   * maison a demandé ensuite la transition en arc de sa référence Osmo :
-   * le bord qui monte se bombe puis s'aplatit (components/accueil/Arc.tsx).
-   * Le hero n'est collé que dans son enveloppe (app/(fr)/page.tsx), le
-   * temps que la suite le recouvre. Sur ordinateur seulement : au doigt,
-   * et en mouvement réduit, il défile comme avant.
+   * Il est resté un temps collé, la suite montant par-dessus en arc
+   * (référence Osmo de la maison). La maison a retiré l'arc pour poser la
+   * photographie du salon à côté de l'introduction ; sans lui, la suite
+   * qui recouvre l'image redevenait le store qui descend, déjà refusé une
+   * première fois. Le hero ne colle donc plus.
    */
   return (
-    <section className="relative z-0 h-[calc(100svh-var(--barre))] motion-safe:lg:sticky motion-safe:lg:top-[var(--barre)] min-h-[34rem] w-full overflow-hidden bg-craie">
+    <section className="relative z-0 h-[calc(100svh-var(--barre))] min-h-[34rem] w-full overflow-hidden bg-craie">
       <picture>
         <source
           type="image/avif"

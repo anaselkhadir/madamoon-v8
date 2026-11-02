@@ -2,8 +2,10 @@
 
 import { Fragment, useEffect, useRef, type ReactNode } from "react";
 import Link from "@/components/Lien";
-import Arc from "@/components/accueil/Arc";
+import Photo from "@/components/media/Photo";
+import { altScene } from "@/lib/alt";
 import { typographie } from "@/lib/francais";
+import { SCENES } from "@/lib/medias";
 import { mouvementReduit, surDefilement } from "@/lib/mouvement";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
@@ -28,27 +30,38 @@ type Morceau = {
  * en exergue sont ceux qu'elle avait soulignés sur son document — mis
  * en italique et en rouge plutôt que soulignés, à sa demande.
  *
- * Centrée, contrairement aux sections qui suivent, toutes calées à
- * gauche : c'est une adresse à la visiteuse et non une rubrique du site.
- * Elle garde la mesure du reste — quarante-huit caractères — sans quoi
- * un texte centré devient une bannière.
+ * Centrée au doigt, comme avant : c'est une adresse à la visiteuse et
+ * non une rubrique du site. Elle garde la mesure du reste — quarante-huit
+ * caractères — sans quoi un texte centré devient une bannière.
  *
- * Sa traversée, d'après trois références Osmo envoyées par la maison :
+ * À côté du texte, la photographie du salon, à la demande de la maison,
+ * traitée en photographie ancienne — ce sont les détails du salon qui
+ * la dessinent :
  *
- * 1. Elle monte sur le hero, coiffée d'un arc (« Arc », sens haut).
- * 2. Centrée, elle s'arrête : le défilement allume alors le texte, de
- *    « Chez MADAMOON » jusqu'au point final, lettre après lettre, d'un
- *    gris pâle à sa couleur (« highlight text on scroll »).
- * 3. Le texte allumé, elle repart, et son bord bas pend en arc inversé
- *    sur la section suivante, qu'il découvre en s'aplatissant.
+ * - un cadre en arche, celle du miroir doré et des vitraux de la photo ;
+ * - un filet fin autour, à quelques millimètres, le bord d'un vieux
+ *   cadre ;
+ * - des couleurs adoucies vers le sépia, et un léger vignettage. La
+ *   maison trouvait déjà le velours bleu trop vif (point 132) ;
+ * - une légende à l'anglaise, l'écriture du nom de la maison.
  *
- * Elle porte le gris doux de la maison : blanche sur des robes posées sur
- * du blanc, ses arcs ne se seraient pas vus.
+ * Sur ordinateur, elle est à gauche et le texte à droite, calé à gauche.
+ * Au doigt, elle passe au-dessus du texte.
  *
- * Tout cela sur ordinateur seulement, au delà de mille vingt-quatre
- * pixels. Au doigt, la section reste ce qu'elle était, à la demande de
- * la maison : blanche, sans arc, ses paragraphes montant à l'écran comme
- * le reste du site. Mouvement réduit : ni arrêt, ni arc, texte entier.
+ * Sa traversée, d'après la référence Osmo « highlight text on scroll » :
+ * la section s'arrête, et le défilement allume le texte, de « Chez
+ * MADAMOON » jusqu'au point final, lettre après lettre, d'un gris pâle à
+ * sa couleur. Pendant cette lecture, la photographie se développe, d'un
+ * sépia ancien à ses couleurs adoucies : les deux avancent ensemble.
+ *
+ * L'arc qui la faisait monter sur le hero, puis pendre sur la suite, a
+ * été retiré à la demande de la maison (voir Hero.tsx).
+ *
+ * Elle porte le gris doux de la maison, sur lequel se détache le filet.
+ * L'arrêt et la lecture se font sur ordinateur seulement, au delà de
+ * mille vingt-quatre pixels ; au doigt, les paragraphes montent à l'écran
+ * comme le reste du site. Mouvement réduit : ni arrêt, texte entier,
+ * photographie développée.
  */
 
 /* La largeur du dégradé, en lettres : entre la dernière lettre allumée et
@@ -115,6 +128,9 @@ export default function Maison({ langue = "fr" }: { langue?: Langue }) {
     const bloc = lecture.current;
     const p = piste.current;
     if (!bloc || !p) return;
+    /* La section porte « --avance » (de 0 à 1) : la photographie se
+     * développe avec la lecture. Sans elle, elle est développée. */
+    const section = p.closest("section");
     if (mouvementReduit()) {
       bloc.style.setProperty("--p", String(total + FONDU));
       return;
@@ -135,6 +151,7 @@ export default function Maison({ langue = "fr" }: { langue?: Langue }) {
       let avance = course > 0 ? -b.top / (course * 0.8) : 1;
       avance = Math.min(Math.max(avance, 0), 1);
       bloc.style.setProperty("--p", (avance * (total + FONDU)).toFixed(1));
+      section?.style.setProperty("--avance", avance.toFixed(3));
     };
     const surScroll = () => {
       if (!demande) demande = requestAnimationFrame(poser);
@@ -150,22 +167,54 @@ export default function Maison({ langue = "fr" }: { langue?: Langue }) {
       window.removeEventListener("scroll", surScroll);
       window.removeEventListener("resize", surScroll);
       large.removeEventListener("change", surScroll);
+      section?.style.removeProperty("--avance");
     };
   }, [total]);
+
+  const salon = SCENES["showroom"];
 
   return (
     <section
       aria-labelledby="la-maison"
-      className="relative bg-blanc pt-[clamp(3rem,8vw,7rem)] lg:bg-gris lg:pt-0"
+      className="relative bg-blanc py-[clamp(3rem,8vw,7rem)] lg:bg-gris lg:py-0"
     >
-      <Arc sens="haut" couleur="var(--color-gris)" />
-
       {/* La piste : un écran pour l'arrêt, plus la course de la lecture.
         * Au doigt, ni piste ni arrêt. */}
       <div ref={piste} className="motion-safe:lg:h-[220svh]">
-        <div className="flex items-center lg:py-[clamp(4rem,10vw,7rem)] motion-safe:lg:sticky motion-safe:lg:top-0 motion-safe:lg:h-[100svh] motion-safe:lg:pb-0 motion-safe:lg:pt-[calc(var(--barre)+var(--entete))]">
+        <div className="flex items-center lg:py-[clamp(4rem,10vw,7rem)] motion-safe:lg:sticky motion-safe:lg:top-0 motion-safe:lg:h-[100svh] motion-safe:lg:pb-[clamp(1.5rem,3vh,2.5rem)] motion-safe:lg:pt-[calc(var(--barre)+var(--entete)+clamp(1.5rem,3vh,2.5rem))]">
           <div className="gouttiere w-full">
-            <div className="mesure-l mx-auto text-center">
+            <div className="mx-auto grid items-center gap-[clamp(2.75rem,6vw,6.5rem)] lg:grid-cols-[auto_minmax(0,34rem)] lg:justify-center">
+            {/* La photographie du salon, en photographie ancienne. Deux
+              * états superposés : développée dessous, sépia dessus, qui
+              * s'efface à mesure que le texte s'allume. Seule l'opacité
+              * bouge ; les filtres, eux, ne changent jamais. */}
+            <figure data-lever className="salon mx-auto w-full max-w-[19rem] lg:mx-0 lg:w-auto lg:max-w-none">
+              <div className="salon-cadre">
+                <div className="salon-image">
+                  <Photo
+                    media={salon}
+                    dossier="scenes"
+                    alt={altScene(L.altSalon, langue)}
+                    sizes="(min-width: 1024px) 30rem, 19rem"
+                    position="50% 62%"
+                    className="salon-developpee h-full w-full object-cover"
+                  />
+                  <span aria-hidden="true" className="salon-ancienne">
+                    <Photo
+                      media={salon}
+                      dossier="scenes"
+                      alt=""
+                      sizes="(min-width: 1024px) 30rem, 19rem"
+                      position="50% 62%"
+                      className="h-full w-full object-cover"
+                    />
+                  </span>
+                </div>
+              </div>
+              <figcaption className="salon-legende">{L.salon}</figcaption>
+            </figure>
+
+            <div className="mesure-l mx-auto text-center lg:mx-0 lg:text-left">
               <span data-ligne className="block">
                 <h2 id="la-maison" className="phrase">
                   {L.titreAvant}
@@ -242,11 +291,10 @@ export default function Maison({ langue = "fr" }: { langue?: Langue }) {
                 </Link>
               </div>
             </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <Arc sens="bas" couleur="var(--color-gris)" />
     </section>
   );
 }
