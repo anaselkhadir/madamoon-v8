@@ -26,11 +26,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # « enablement » active Pages sur un dépôt neuf, sans passer par les
-      # réglages : la première poussée suffit à publier l'aperçu.
+      # Pages est activé une fois pour toutes sur le dépôt (réglages ou API) :
+      # le jeton du workflow n'a pas le droit de l'activer lui-même.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/setup-node@v4
         with:
