@@ -1619,3 +1619,39 @@ html[data-ouverture]::before {
     border-radius: 4px;
   }
 }
+
+/*
+ * Le panneau en cartes de la barre (MegaCartes) : il descend en se
+ * dévoilant, puis les cartes montent l'une après l'autre. Mouvement
+ * réduit : tout est là d'emblée.
+ */
+@keyframes mega-descend {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes mega-carte {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.mega-descend {
+  animation: mega-descend 0.45s var(--ease-doux) both;
+}
+.mega-carte {
+  animation: mega-carte 0.55s var(--ease-doux) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mega-descend,
+  .mega-carte {
+    animation: none;
+  }
+}

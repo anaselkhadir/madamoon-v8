@@ -14,6 +14,7 @@ import Theme from "@/components/chrome/Theme";
 import Reseaux from "@/components/chrome/Reseaux";
 import Logo from "@/components/chrome/Logo";
 import MenuTiroirs from "@/components/chrome/MenuTiroirs";
+import MegaCartes from "@/components/chrome/MegaCartes";
 import { langueDe, versFrancais, type Langue } from "@/lib/langue";
 import { coupeNom, coupeNote, createurNom, createurOrigine, morphoNom, morphoObjectif } from "@/lib/contenu";
 import { t } from "@/lib/textes";
@@ -55,6 +56,8 @@ type Groupes = Record<
 const tableGroupes = (l: Langue): Groupes => {
   const L = t(l);
   return {
+    /* « Robes de mariée » déplie les maisons — les créateurs — en cartes
+     * (MegaCartes) ; un clic sur l'entrée mène à toutes les robes. */
     "/robes": {
       intitule: L.barre.parMaison,
       colonnes: 3,
@@ -386,7 +389,7 @@ export default function Entete() {
                 {L.barre.menu}
               </button>
 
-              <ul className="ml-auto hidden items-center gap-8 lg:flex">
+              <ul className="ml-auto hidden items-center gap-1 lg:flex">
                 {GCH.map((l) => {
                   const groupe = GRP[l.href];
                   /* La puce est une boîte flex centrée, et le lien
@@ -408,15 +411,36 @@ export default function Entete() {
                       onMouseEnter={() => setMega(groupe ? l.href : null)}
                       className="flex items-center"
                     >
+                      {/* L'entrée survolée prend une pastille grise et son
+                        * chevron se retourne, comme dans la référence Osmo
+                        * du panneau en cartes. */}
                       <Link
                         href={l.href}
                         data-actif={cheminFr === l.href}
                         onFocus={() => setMega(groupe ? l.href : null)}
                         aria-expanded={groupe ? mega === l.href : undefined}
                         aria-controls={groupe ? "mega-navigation" : undefined}
-                        className="lien-nav souligne pt-[3px]"
+                        className={`lien-nav flex items-center gap-1.5 whitespace-nowrap rounded-full px-2 py-1.5 transition-colors duration-300 xl:px-3 ${
+                          mega === l.href ? "bg-gris" : ""
+                        }`}
                       >
                         {l.label}
+                        {groupe && (
+                          <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            /* Le chevron ne paraît qu'au delà de 1 280 px : à 1 024, la
+                              * barre n'a pas sa place. */
+                            className={`hidden h-2.5 w-2.5 transition-transform duration-300 xl:block ${mega === l.href ? "rotate-180" : ""}`}
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M6 9l6 6 6-6" />
+                          </svg>
+                        )}
                       </Link>
                     </li>
                   );
@@ -439,7 +463,7 @@ export default function Entete() {
 
             {/* ————— à droite : les entrées, puis le rendez-vous ————— */}
             <div className="flex min-w-0 items-center justify-end gap-6">
-              <ul className="hidden items-center gap-8 lg:flex">
+              <ul className="hidden items-center gap-1 lg:flex">
                 {DRT.map((l) => {
                   const groupe = GRP[l.href];
                   /* La puce est une boîte flex centrée, et le lien
@@ -467,9 +491,27 @@ export default function Entete() {
                         onFocus={() => setMega(groupe ? l.href : null)}
                         aria-expanded={groupe ? mega === l.href : undefined}
                         aria-controls={groupe ? "mega-navigation" : undefined}
-                        className="lien-nav souligne pt-[3px]"
+                        className={`lien-nav flex items-center gap-1.5 whitespace-nowrap rounded-full px-2 py-1.5 transition-colors duration-300 xl:px-3 ${
+                          mega === l.href ? "bg-gris" : ""
+                        }`}
                       >
                         {l.label}
+                        {groupe && (
+                          <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                            /* Le chevron ne paraît qu'au delà de 1 280 px : à 1 024, la
+                              * barre n'a pas sa place. */
+                            className={`hidden h-2.5 w-2.5 transition-transform duration-300 xl:block ${mega === l.href ? "rotate-180" : ""}`}
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M6 9l6 6 6-6" />
+                          </svg>
+                        )}
                       </Link>
                     </li>
                   );
@@ -509,30 +551,19 @@ export default function Entete() {
           </nav>
         </div>
 
-        {/* ————————————————————————————— le panneau ————— */}
-        {mega && GRP[mega] && (
-          <div
-            id="mega-navigation"
-            className="hidden border-b border-fil bg-blanc text-encre lg:block"
-          >
-            <div className="gouttiere py-[clamp(1.75rem,3vw,2.75rem)]">
-              <p className="legende">{GRP[mega].intitule}</p>
-              <ul className="mt-6 grid gap-x-[clamp(1.5rem,3vw,3rem)] gap-y-5 md:grid-cols-3">
-                {GRP[mega].liens.map((x) => (
-                  <li key={x.href}>
-                    <Link href={x.href} className="group block">
-                      <span className="block font-serif text-[1.375rem] leading-tight text-encre transition-colors duration-500 group-hover:text-action">
-                        {x.nom}
-                      </span>
-                      {x.note && <span className="texte mt-1 block text-plomb">{x.note}</span>}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        )}
+        {/* ————————————————————————————— le panneau —————
+          * Des cartes, au survol de Coupes, Morphologies et Créateurs. */}
+        {mega && GRP[mega] && <MegaCartes groupe={mega} langue={l} />}
       </header>
+
+      {/* La page s'assombrit sous le panneau ouvert. */}
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none fixed inset-0 z-40 transition-opacity duration-500 [transition-timing-function:var(--ease-doux)] max-lg:hidden ${
+          mega && GRP[mega] ? "opacity-100" : "opacity-0"
+        }`}
+        style={{ background: "rgba(20,16,12,0.3)" }}
+      />
 
       {/*
         * Le menu : une page blanche, quelques lignes, rien d'autre.
