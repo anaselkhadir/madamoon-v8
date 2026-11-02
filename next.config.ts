@@ -20,7 +20,7 @@ import type { NextConfig } from "next";
  */
 
 const pages = process.env.PAGES === "1";
-const base = process.env.BASE_PATH ?? "/madamoon-v7";
+const base = process.env.BASE_PATH ?? "/madamoon-v8";
 /* L'aperçu se ferme aux moteurs ; la mise en ligne chez Hostinger, non.
  * « APERCU=0 » distingue les deux exports statiques. */
 const apercu = pages && process.env.APERCU !== "0";

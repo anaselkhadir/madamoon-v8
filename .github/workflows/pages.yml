@@ -26,7 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # « enablement » active Pages sur un dépôt neuf, sans passer par les
+      # réglages : la première poussée suffit à publier l'aperçu.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/setup-node@v4
         with:
