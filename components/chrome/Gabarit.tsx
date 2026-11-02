@@ -116,6 +116,25 @@ const sans = localFont({
   fallback: ["ui-sans-serif", "system-ui", "sans-serif"],
 });
 
+/*
+ * Cinzel, pour la page du showroom seulement.
+ *
+ * À la demande de la maison, les titres de cette page-là ne sont pas en
+ * Instrument Serif mais en Cinzel, une capitale romaine gravée. La police
+ * est déclarée ici, comme les autres, et servie depuis le dépôt ; elle
+ * n'est appliquée que là où la page le demande (classe « police-cinzel »,
+ * app/globals.css). Variable : une seule graisse déclarée en intervalle,
+ * sans italique — Cinzel n'en a pas.
+ */
+const cinzel = localFont({
+  src: "../../app/polices/cinzel-variable.woff2",
+  weight: "400 900",
+  style: "normal",
+  variable: "--police-cinzel",
+  display: "swap",
+  fallback: ["Times New Roman", "serif"],
+});
+
 export default function Gabarit({
   langue,
   children,
@@ -128,7 +147,7 @@ export default function Gabarit({
 
     /* Lenis pose ses propres classes sur <html> : React ne doit pas s'en
      * inquiéter au moment de l'hydratation. */
-    <html lang={langue} suppressHydrationWarning className={`${serif.variable} ${sans.variable} ${anglaise.variable} ${main.variable}`}>
+    <html lang={langue} suppressHydrationWarning className={`${serif.variable} ${sans.variable} ${anglaise.variable} ${main.variable} ${cinzel.variable}`}>
       <head>
         {/*
           * Le thème, reposé avant la première peinture.

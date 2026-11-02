@@ -61,7 +61,8 @@ export default function PageShowroom({ langue }: { langue: Langue }) {
   const questions = faq(langue);
 
   return (
-    <>
+    /* Cinzel sur cette page seulement : voir Gabarit.tsx et globals.css. */
+    <div className="police-cinzel">
       <FilDAriane
         langue={langue}
         rangs={[{ nom: T.barre.showroom, adresse: "/showroom" }]}
@@ -273,6 +274,6 @@ export default function PageShowroom({ langue }: { langue: Langue }) {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
