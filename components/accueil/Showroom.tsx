@@ -1,5 +1,5 @@
 import Link from "@/components/Lien";
-import Photo from "@/components/media/Photo";
+import Film from "@/components/media/Film";
 import { SCENES } from "@/lib/medias";
 import { altScene } from "@/lib/alt";
 import type { Langue } from "@/lib/langue";
@@ -17,10 +17,17 @@ import { t } from "@/lib/textes";
  * pleine page en ferait un encadré de renseignements, ce qui est
  * exactement le contraire de l'effet recherché.
  *
- * L'image se rapproche très lentement, quarante secondes pour six pour
- * cent. On ne le voit pas ; on sent seulement que l'image n'est pas
- * morte. Par-dessus, un verre sombre la calme (voir plus bas), et un
- * dégradé tient le texte lisible dans son coin.
+ * À la demande de la maison, la photographie a laissé place au film du
+ * showroom, en noir et blanc : dix secondes en boucle, sans son. Son
+ * affiche — la première image — tient la place tant que le film n'est
+ * pas là ; au doigt, une version 720p plus légère (Film.tsx).
+ *
+ * Les bandes noires du premier plan (le film est cadré en 2,35 pendant
+ * ses deux premières secondes) ont été retirées à la source : ce plan a
+ * été agrandi pour remplir l'image.
+ *
+ * Le film se rapproche très lentement, quarante secondes pour six pour
+ * cent. Par-dessus, un dégradé tient le texte lisible dans son coin.
  */
 
 export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
@@ -32,44 +39,21 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
       className="relative h-[92svh] min-h-[32rem] overflow-hidden"
     >
       <div className="absolute inset-0 respire">
-        <Photo
-          media={SCENES["showroom"]}
-          dossier="scenes"
+        <Film
+          src="/film/showroom.mp4"
+          srcMobile="/film/showroom-mobile.mp4"
+          affiche={SCENES["showroom-film"]}
           alt={altScene(L.showroom.alt, langue)}
-          sizes="100vw"
-          position="50% 42%"
-          className="h-full w-full object-cover"
+          className="h-full w-full"
         />
       </div>
 
       {/*
-        * Le verre sombre, posé sur toute la photographie.
-        *
-        * Point 132 de la maison : la photo du showroom, très saturée —
-        * velours bleu électrique, vitraux, dorures —, criait plus fort que
-        * le reste de la page. Le verre la calme sans l'effacer : des
-        * couleurs adoucies — le bleu du velours surtout —, une luminosité
-        * un peu baissée, une teinte d'encre légère.
-        *
-        * Aucun flou : la maison veut voir le showroom net, seulement plus
-        * doux. Et ce verre ne vit que dans ce bloc « Poussez la porte » —
-        * l'accueil, et le bas des pages coupe et morphologie qui le
-        * reprennent. La page du showroom garde ses photos telles quelles.
-        *
-        * L'encre est « sous-image », la seule qui ne s'inverse pas : en
-        * thème sombre, « encre » devient clair, et le verre deviendrait
-        * un voile laiteux sur la photographie.
-        *
-        * Là où le navigateur ignore les filtres d'arrière-plan, la teinte
-        * seule assombrit déjà : la photo reste adoucie.
+        * Plus de verre sombre : il calmait les couleurs saturées de la
+        * photographie (point 132). Le film est en noir et blanc, et déjà
+        * sombre ; le verre l'aurait éteint. Le dégradé reste : il tient
+        * le texte lisible dans son coin.
         */}
-      <span
-        aria-hidden="true"
-        className="absolute inset-0 backdrop-saturate-[.8] backdrop-brightness-[.8]"
-        style={{ background: "color-mix(in srgb, var(--color-sous-image) 30%, transparent)" }}
-      />
-      {/* Le dégradé reste, plus léger : le verre assombrit déjà, il ne
-        * fait plus que tenir le texte lisible dans son coin. */}
       <span
         aria-hidden="true"
         className="absolute inset-0"

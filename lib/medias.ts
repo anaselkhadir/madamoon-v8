@@ -6298,6 +6298,22 @@ export const SCENES = {
       1000
     ]
   },
+  "showroom-film": {
+    "name": "salon-showroom-madamoon-paris-film",
+    "w": 1920,
+    "h": 1080,
+    "widths": [
+      640,
+      1000,
+      1500,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAACwAwCdASoUAAsAPtFUo0uoJKMhsAgBABoJaQAAUnb9MR9kEJvtgAD+rI3GxqvAEmc/ciQPquZxiyOvvEtIRdsCd+8E5NursEBe9s6OfVpjNh1tzIEIAViVzKe5t0mOsPZ/g61nwGrQvC+KE/pPgX8yijPi7b9NpGVlyyKlpwAAAA==",
+    "jpgw": [
+      640,
+      1000
+    ]
+  },
   "hero-affiche": {
     "name": "robe-de-mariee-showroom-madamoon-paris",
     "w": 1600,
