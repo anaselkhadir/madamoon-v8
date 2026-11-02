@@ -70,7 +70,41 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         />
       </div>
 
-      {/* L'introduction, en français.
+      {/* Toutes les robes, d'un seul tenant. Le classement par coupe a sa
+        * rubrique propre — les pages de coupe et l'onglet du menu — : ici,
+        * on parcourt le catalogue sans rien avoir à choisir. */}
+      <div className="gouttiere">
+        {/* Sur ordinateur, les tuiles paraissent en file et prennent
+          * l'angle de la maison (FileApparition, « .grille-file »). */}
+        <FileApparition className="trame-tuiles grille-file grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {ROBES.map((r, i) => {
+            const media = couverture(r);
+            if (!media) return null;
+            return (
+              <Tuile
+                key={r.slug}
+                retard={(i % 3) * 70}
+                href={`/robes/${r.slug}`}
+                coupDeCoeur={r.slug}
+                media={media}
+                dossier="robes"
+                alt={altRobe(r, langue)}
+                nom={r.nom}
+                repere={r.createur ?? L.createurs.autres}
+                priorite={i < 3}
+                sizes="(max-width: 768px) 50vw, 31vw"
+              />
+            );
+          })}
+        </FileApparition>
+      </div>
+
+      {/* Le texte du catalogue, sous les robes.
+        *
+        * La maison veut les robes d'abord : le texte et l'index viennent
+        * après la grille. Pour les moteurs rien ne change — le même HTML,
+        * le H1 en tête, les mêmes liens —, seule la lecture à l'écran
+        * commence par les photographies.
         *
         * Une phrase à la voix des titres, puis le détail en corps de texte,
         * sur deux colonnes : un texte de cinq phrases au corps d'un titre
@@ -80,7 +114,7 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         * Une rangée de seize liens soulignés était une liste sans forme.
         * Rien n'est caché pour les moteurs : les mêmes mots, mieux rangés. */}
       {langue === "fr" && (
-        <div className="gouttiere pb-[clamp(2.5rem,5vw,4.5rem)]">
+        <div className="gouttiere pb-[clamp(2.5rem,5vw,4.5rem)] pt-[clamp(3rem,6vw,5.5rem)]">
           <p className="phrase est-moyenne mesure-l">
             Des robes de mariée de plusieurs maisons — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti et quelques ateliers indépendants —, à essayer en showroom à Paris 10ᵉ et confectionnées à vos mesures.
           </p>
@@ -123,36 +157,7 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         </div>
       )}
 
-      {/* Toutes les robes, d'un seul tenant. Le classement par coupe a sa
-        * rubrique propre — les pages de coupe et l'onglet du menu — : ici,
-        * on parcourt le catalogue sans rien avoir à choisir. */}
-      <div className="gouttiere">
-        {/* Sur ordinateur, les tuiles paraissent en file et prennent
-          * l'angle de la maison (FileApparition, « .grille-file »). */}
-        <FileApparition className="trame-tuiles grille-file grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {ROBES.map((r, i) => {
-            const media = couverture(r);
-            if (!media) return null;
-            return (
-              <Tuile
-                key={r.slug}
-                retard={(i % 3) * 70}
-                href={`/robes/${r.slug}`}
-                coupDeCoeur={r.slug}
-                media={media}
-                dossier="robes"
-                alt={altRobe(r, langue)}
-                nom={r.nom}
-                repere={r.createur ?? L.createurs.autres}
-                priorite={i < 3}
-                sizes="(max-width: 768px) 50vw, 31vw"
-              />
-            );
-          })}
-        </FileApparition>
-      </div>
-
-      <div className="gouttiere py-[clamp(3rem,5.5vw,5rem)]" />
+      <div className="gouttiere py-[clamp(2rem,4vw,3.5rem)]" />
     </>
   );
 }
