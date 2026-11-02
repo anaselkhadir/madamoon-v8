@@ -27,11 +27,13 @@ import { t } from "@/lib/textes";
  * été agrandi pour remplir l'image.
  *
  * Le film se rapproche très lentement, quarante secondes pour six pour
- * cent. Par-dessus, un dégradé tient le texte lisible dans son coin.
+ * cent. Par-dessus, un voile tient le texte lisible.
  *
  * Il est présenté en carte, à la demande de la maison : posé dans la
- * gouttière, sur le blanc de la page, à l'angle de 4 px. Le texte reste
- * dans la carte, en bas à gauche.
+ * gouttière, sur le blanc de la page, à l'angle de 4 px. Le texte et le
+ * bouton sont au centre de la carte. Sur ordinateur, la carte tient en
+ * deux tiers d'écran (la maison la trouvait trop haute) ; au doigt, elle
+ * garde la hauteur d'un écran.
  */
 
 export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
@@ -44,7 +46,7 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
     >
       {/* « isolate » : sans lui, Safari laisse le film qui respire
        * déborder des coins arrondis. */}
-      <div className="relative isolate h-[88svh] min-h-[32rem] overflow-hidden rounded-[4px]">
+      <div className="relative isolate h-[88svh] min-h-[32rem] lg:h-[67svh] lg:min-h-[26rem] overflow-hidden rounded-[4px]">
         <div className="absolute inset-0 respire">
           <Film
             src="/film/showroom.mp4"
@@ -59,19 +61,20 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
          * Plus de verre sombre : il calmait les couleurs saturées de la
          * photographie (point 132). Le film est en noir et blanc, et déjà
          * sombre ; le verre l'aurait éteint. Le dégradé reste : il tient
-         * le texte lisible dans son coin — un peu plus soutenu qu'avec le
-         * verre : les plans de dentelle du film sont très clairs.
+         * le texte lisible — un peu plus soutenu qu'avec le verre : les
+         * plans de dentelle du film sont très clairs. Le texte est au
+         * centre : le voile s'appuie au centre aussi.
          */}
         <span
           aria-hidden="true"
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(10deg, rgba(0,0,0,0.58) 0%, rgba(0,0,0,0.26) 42%, rgba(0,0,0,0) 76%)",
+              "radial-gradient(ellipse 70% 75% at 50% 52%, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.16) 100%)",
           }}
         />
 
-        <div className="absolute inset-x-0 bottom-0 px-[clamp(1.25rem,4vw,4rem)] pb-[clamp(2rem,5vw,4.5rem)]">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-[clamp(1.25rem,4vw,4rem)] text-center">
           {/* La couleur en style : « .legende » l'emporte sur l'utilitaire,
             * et la légende restait brun-gris sur le film. */}
           <p
@@ -82,11 +85,11 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
             <sup>e</sup>
           </p>
           <span data-ligne className="mt-4 block">
-            <h2 id="showroom" className="affiche max-w-[18ch] text-sur-image">
+            <h2 id="showroom" className="affiche mx-auto max-w-[18ch] text-sur-image">
               {L.showroom.titre}
             </h2>
           </span>
-          <p className="accroche mesure-l mt-5 text-sur-image">
+          <p className="accroche mesure-l mx-auto mt-5 text-sur-image">
             {L.showroom.texte}
           </p>
           <Link href="/showroom" className="bouton-clair mt-7">
