@@ -1784,24 +1784,3 @@ html[data-ouverture]::before {
     display: none;
   }
 }
-
-/*
- * La page du showroom en Cinzel.
- *
- * Tout ce qui est composé dans la serif d'affichage — l'affiche, les
- * titres de section, les phrases, les questions — passe en Cinzel sur
- * cette page, et sur elle seule : la variable de police est redéfinie
- * sur son enveloppe, rien d'autre ne change. Cinzel est une capitale
- * romaine : ses bas-de-casse sont des petites capitales, et son œil
- * est plus petit que celui d'Instrument Serif — d'où le léger
- * resserrement d'interlettrage, sans toucher aux corps.
- */
-.police-cinzel {
-  --font-serif: var(--police-cinzel), "Times New Roman", serif;
-  --police-serif: var(--police-cinzel);
-}
-.police-cinzel .affiche,
-.police-cinzel .titre-section,
-.police-cinzel .phrase {
-  letter-spacing: 0.01em;
-}
