@@ -1,6 +1,7 @@
 import type { Langue } from "@/lib/langue";
 import type { Categorie, Createur, Morphologie, Robe } from "@/lib/madamoon";
-import { FAQ, MAISON, SIGNATURES } from "@/lib/madamoon";
+import {
+  PARCOURS, FAQ, MAISON, SIGNATURES } from "@/lib/madamoon";
 import { APPOSITION, PLURIEL, type Coupe } from "@/lib/coupes";
 import {
   COUPE_APPOSITION,
@@ -17,6 +18,7 @@ import {
 } from "@/lib/en/taxonomie";
 import { ROBE_EN } from "@/lib/en/robes";
 import { FAQ_EN } from "@/lib/en/faq";
+import { PARCOURS_EN } from "@/lib/en/parcours";
 import { ARTICLES } from "@/lib/questions";
 import { ARTICLES_EN } from "@/lib/en/questions";
 import { QUESTIONS_MORPHO } from "@/lib/morphologies-questions";
@@ -114,6 +116,10 @@ export const robeLigne = (r: Robe, l: Langue) =>
 
 export const robeRegard = (r: Robe, l: Langue) =>
   l === "fr" ? r.regard : ROBE_EN[r.slug]?.regard ?? r.regard;
+
+/* Les huit étapes du parcours, dans la langue. */
+export const parcours = (l: Langue): readonly { n: string; titre: string; texte: string }[] =>
+  l === "fr" ? PARCOURS : PARCOURS_EN;
 
 /* Les signatures de la maison, dans l'ordre. */
 export const signatures = (l: Langue): { titre: string; texte: string }[] =>

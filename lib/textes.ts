@@ -497,6 +497,15 @@ const FR = {
       laVisite: "La visite",
       uneHeure: "Une heure, le showroom privatisé, et quelqu’un qui connaît chaque robe.",
       venir: "Venir",
+      etapesTitre: "Comment se passe l’essayage",
+      etapesTexte:
+        "Du premier rendez-vous au retrait de la robe, dans l’ordre. Chaque étape a lieu ici, au showroom.",
+      avantDeVenir: "Avant de venir",
+      lireLaReponse: "Lire la réponse",
+      toutesLesQuestions: "Toutes les questions",
+      voirPlan: "Ouvrir le plan",
+      appeler: "Appeler",
+      ecrire: "Nous écrire",
       altScene: "Robes de mariée suspendues dans le showroom",
       /* Trois cadrages d'une même photographie : trois textes, et non
        * trois fois le même. Un lecteur d'écran qui entend « détail d'une
@@ -1260,6 +1269,15 @@ const EN: Textes = {
       laVisite: "The visit",
       uneHeure: "An hour, the showroom to yourself, and someone who knows every dress.",
       venir: "Coming to us",
+      etapesTitre: "How a fitting goes",
+      etapesTexte:
+        "From the first appointment to collecting the dress, in order. Every step takes place here, in the showroom.",
+      avantDeVenir: "Before you come",
+      lireLaReponse: "Read the answer",
+      toutesLesQuestions: "All the questions",
+      voirPlan: "Open the map",
+      appeler: "Call",
+      ecrire: "Write to us",
       altScene: "Wedding dresses hanging in the showroom",
       altDetails: [
         "The piano, the stained glass and the cheval mirror of the MADAMOON showroom",
