@@ -1,4 +1,5 @@
 import type { Langue } from "@/lib/langue";
+import { de } from "@/lib/francais";
 
 /*
  * Les mots de l'interface, dans les deux langues.
@@ -202,6 +203,11 @@ const FR = {
     nom: "Madamoon",
     experience: " n’est pas une simple boutique à visiter, c’est une expérience à vivre.",
     lesAvis: "Voir les avis Google",
+    /* La carte qui change d'avis (AvisCarte.tsx). */
+    source: "Avis Google",
+    carte: "Avis de mariées",
+    /* « d’Alexandra », « de Julia » : le nom décide de l’élision. */
+    point: (nom: string) => `Lire l’avis ${de(nom)}`,
   },
   showroom: {
     legende: "Le showroom — Paris 10",
@@ -986,6 +992,9 @@ const EN: Textes = {
     nom: "Madamoon",
     experience: " is not simply a boutique to visit — it is an experience to live.",
     lesAvis: "See the Google reviews",
+    source: "Google review",
+    carte: "Brides’ reviews",
+    point: (nom: string) => `Read ${nom}’s review`,
   },
   showroom: {
     legende: "The showroom — Paris 10",

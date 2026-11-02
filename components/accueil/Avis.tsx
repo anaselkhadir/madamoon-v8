@@ -1,14 +1,15 @@
 import Link from "@/components/Lien";
+import AvisCarte from "@/components/accueil/AvisCarte";
+import Etoiles from "@/components/accueil/Etoiles";
 import { AVIS, NOTE } from "@/lib/avis";
 import { ID_MAISON } from "@/lib/schema";
-import { typographie } from "@/lib/francais";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
 
 /*
  * Ce qu'elles en disent.
  *
- * La note d'abord, très grande, puis trois voix sur trois cartes.
+ * La note d’abord, très grande, puis les voix, sur une carte.
  *
  * La section a longtemps fait l'inverse : quatre paragraphes de trente-six
  * pixels sur un écran et demi, et les mesures — cinq sur cinq, deux cents
@@ -16,6 +17,11 @@ import { t } from "@/lib/textes";
  * pixels tout en bas. C'était enterrer ce que la maison a de plus rare.
  * Une note parfaite sur deux cents avis ne se glisse pas en note de bas
  * de page : elle s'affiche.
+ *
+ * Depuis, à la demande de la maison (référence Osmo « logo card
+ * testimonials »), les trois cartes n'en font plus qu'une, qui change
+ * d'avis au survol de ses points — voir AvisCarte.tsx. Ce qui suit dit
+ * d'où vient sa forme.
  *
  * Les cartes sont venues ensuite, à la demande de la maison, et ont
  * cherché leur forme en trois temps : un filet sur fond blanc, puis
@@ -36,47 +42,21 @@ import { t } from "@/lib/textes";
  * l'on affiche.
  */
 
-/* Les trois voix retenues. Nommées, jamais réécrites : le texte affiché
+/* Les cinq voix retenues. Nommées, jamais réécrites : le texte affiché
  * vient de `lib/avis.ts`, mot pour mot.
  *
- * Elles disent trois choses différentes — l'essayage privé, l'accueil,
- * la comparaison avec ce qu'on a vu ailleurs. Une quatrième ne dirait
- * rien de plus. */
-const CHOIX = ["Mathilde Pln", "Gwendoline Carrier", "Julia JF"];
-
-/* Les étoiles. Dessinées, et non écrites : le caractère « ★ » n'existe
- * pas dans toutes les polices et retombe sur celle du système.
- *
- * Deux emplois, un seul dessin : petites et rouges sur les cartes,
- * grandes et noires en tête de section, où elles ont remplacé le
- * chiffre. */
-function Etoiles({
-  note,
-  className = "flex gap-[0.15em] text-action",
-  etoile = "h-[0.8rem] w-[0.8rem]",
-}: {
-  note: number;
-  className?: string;
-  etoile?: string;
-}) {
-  return (
-    <span aria-hidden="true" className={className}>
-      {[1, 2, 3, 4, 5].map((i) => (
-        <svg
-          key={i}
-          viewBox="0 0 24 24"
-          className={etoile}
-          fill={i <= note ? "currentColor" : "none"}
-          stroke="currentColor"
-          strokeWidth="1.4"
-          strokeLinejoin="round"
-        >
-          <path d="M12 3.4l2.6 5.5 5.9.8-4.3 4.2 1 6-5.2-2.8-5.2 2.8 1-6-4.3-4.2 5.9-.8Z" />
-        </svg>
-      ))}
-    </span>
-  );
-}
+ * Elles disent cinq choses différentes — l'essayage privé, l'accueil,
+ * la comparaison avec ce qu'on a vu ailleurs, les retouches d'une robe
+ * sur mesure, le conseil selon la morphologie. Trois tenaient sur trois
+ * cartes ; une seule carte qui change d'avis en porte cinq sans
+ * allonger la page. */
+const CHOIX = [
+  "Mathilde Pln",
+  "Gwendoline Carrier",
+  "Julia JF",
+  "Alexandra Gattesco",
+  "Lolo makiadi",
+];
 
 export default function Avis({ langue = "fr" }: { langue?: Langue }) {
   const L = t(langue);
@@ -199,67 +179,9 @@ export default function Avis({ langue = "fr" }: { langue?: Langue }) {
         </p>
       </div>
 
-      {/* Trois voix, sur trois cartes.
-        *
-        * La section n'en portait aucune : le chiffre tenait tout, et le
-        * reste était du texte nu. Elles portent maintenant le gris
-        * doux et l'angle des morphologies, sans cadre : le gris se
-        * détache seul du blanc de la section. */}
-      <div className="mt-[clamp(3rem,6vw,5rem)] grid gap-[clamp(0.875rem,1.6vw,1.25rem)] md:grid-cols-3" data-suite>
-        {voix.map((a) => (
-          <figure
-            key={a.auteur}
-            className="relative flex flex-col overflow-hidden rounded-[4px] bg-gris p-[clamp(1.125rem,1.8vw,1.5rem)]"
-          >
-            {/* Le guillemet, posé dans le coin, très grand et très pâli :
-              * il ponctue, il ne parle pas. En bâton — la paire de
-              * virgules pleines et rondes du modèle montré, que le serif
-              * ne donne pas : il en fait deux apostrophes fines.
-              *
-              * Hors du flux : il déborde volontairement la marge de la
-              * carte, et dans le flux il aurait poussé les étoiles. */}
-            <span
-              aria-hidden="true"
-              className="pointer-events-none absolute right-[0.6rem] top-[0.1rem] select-none font-sans text-[6rem] font-bold leading-[0.8]"
-              style={{ color: "color-mix(in srgb, var(--color-action) 15%, transparent)" }}
-            >
-              &rdquo;
-            </span>
-
-            <div className="relative flex items-start">
-              <Etoiles note={a.note} />
-            </div>
-
-            <blockquote className="texte mt-3 flex-1">
-              {typographie(a.extrait ?? a.texte)}
-              {/* Les crochets disent qu'il en manque : une coupe non
-                * signalée est une citation faussée. */}
-              {a.extrait && <span className="text-brume"> […]</span>}
-            </blockquote>
-
-            <figcaption className="mt-5 flex items-center gap-3 border-t border-fil pt-4">
-              {/* Une initiale, pas un portrait : la maison n'a pas les
-                * photographies de ses clientes, et on n'en invente pas.
-                *
-                * La pastille est d'un gris appuyé, et non de la craie :
-                * la craie et le gris des cartes se ressemblent à un
-                * point près en clair, et sont le même noir en sombre —
-                * la pastille y disparaissait. */}
-              <span
-                aria-hidden="true"
-                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gris-appuye font-serif text-[1rem] leading-none text-encre"
-              >
-                {a.auteur.charAt(0)}
-              </span>
-              <span className="min-w-0">
-                <span className="nom-carte block truncate">{a.auteur}</span>
-                <span className="legende block" style={{ color: "var(--color-brume)" }}>
-                  {a.date}
-                </span>
-              </span>
-            </figcaption>
-          </figure>
-        ))}
+      {/* Les voix, sur une seule carte qui change d'avis (AvisCarte.tsx). */}
+      <div data-lever className="mt-[clamp(3rem,6vw,5rem)]">
+        <AvisCarte voix={voix} langue={langue} />
       </div>
 
       <p className="mt-[clamp(2.5rem,5vw,4rem)] border-t border-fil pt-6">

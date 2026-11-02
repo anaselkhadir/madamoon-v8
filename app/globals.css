@@ -1655,3 +1655,57 @@ html[data-ouverture]::before {
     animation: none;
   }
 }
+
+/*
+ * La carte des avis (AvisCarte.tsx), d'après la référence Osmo « logo
+ * card testimonials ». Tous les avis tiennent dans la même case ; un seul
+ * est « actif ». Celui qu'on quitte est « sortant » : sa ligne du haut
+ * sort par le haut de son masque, son texte s'efface vite. Les autres
+ * sont « au repos », prêts à monter d'en dessous — sans transition, pour
+ * qu'un passage rapide d'un point à l'autre ne laisse rien voir.
+ *
+ * La visibilité tombe une fois la sortie jouée : un avis au repos ne se
+ * lit ni ne se sélectionne.
+ */
+.avis-diapo {
+  grid-area: 1 / 1;
+  visibility: hidden;
+  transition: visibility 0s linear 0.5s;
+}
+.avis-diapo[data-etat="actif"] {
+  visibility: visible;
+  transition: none;
+}
+.avis-marque {
+  transform: translate3d(0, 110%, 0);
+}
+.avis-fondu {
+  opacity: 0;
+}
+.avis-diapo[data-etat="actif"] .avis-marque {
+  transform: none;
+  transition: transform 0.65s var(--ease-doux) 0.18s;
+}
+.avis-diapo[data-etat="actif"] .avis-fondu {
+  opacity: 1;
+  transition: opacity 0.6s var(--ease-doux) calc(0.24s + var(--n, 0) * 0.09s);
+}
+.avis-diapo[data-etat="sortant"] .avis-marque {
+  transform: translate3d(0, -110%, 0);
+  transition: transform 0.45s cubic-bezier(0.55, 0, 0.75, 0.2);
+}
+.avis-diapo[data-etat="sortant"] .avis-fondu {
+  opacity: 0;
+  transition: opacity 0.28s ease-out;
+}
+/* Le masque laisse à l'initiale la place de ses jambages. */
+.avis-masque {
+  padding-block: 0.125rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .avis-diapo,
+  .avis-diapo .avis-marque,
+  .avis-diapo .avis-fondu {
+    transition: none !important;
+  }
+}
