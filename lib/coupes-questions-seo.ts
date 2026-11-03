@@ -136,5 +136,56 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
     },
   ],
   trapeze: [],
-  "deux-en-un": [],
+  /* Vague H (3 nov. 2026) : « robe de mariée 2 en 1 », « modulable 2 en 1 »,
+   * « transformable », « transformer sa robe de mariée en robe de
+   * cocktail » — expressions transmises par la maison. */
+  "deux-en-un": [
+    {
+      slug: "robe-de-mariee-2-en-1-modulable-robe-de-cocktail",
+      titre: "Robe de mariée 2 en 1 : modulable, cocktail",
+      q: "Robe de mariée 2 en 1 ou modulable : comment la transformer en robe de cocktail ?",
+      r: "En retirant la pièce longue. Clover est une robe courte brodée de fleurs sous une surjupe longue « à volonté » ; Gabriel, une robe courte perlée sous une jupe transparente amovible : sans la surjupe, c'est la robe de cocktail de la soirée. Tessa, sirène à surjupe détachable, et Mira, sirène à jupe amovible en tulle, restent longues mais changent d'allure. La transformation se prévoit aux retouches, comprises, et se répète à l'essayage.",
+      description:
+        "Robe de mariée 2 en 1, modulable ou transformable : Clover, Gabriel, Tessa, Mira, et comment elle devient robe de cocktail le soir. MADAMOON, Paris 10e.",
+      chapo:
+        "Robe de mariée 2 en 1, modulable, transformable, convertible : quatre mots pour une même idée, une robe qui change d'allure sans qu'on se change. Voici ce que le catalogue en a, et comment la cérémonie devient la soirée.",
+      sections: [
+        {
+          titre: "Les mots : 2 en 1, modulable, transformable",
+          texte: [
+            "La robe de mariée 2 en 1 est celle qui se porte de deux façons ; modulable, quand une pièce s'ajoute ou se retire — surjupe, jupe, manches, bretelles — ; transformable ou convertible, quand l'allure change réellement, de la longue à la courte. Le catalogue range sous « deux-en-un » les robes dont la fiche décrit une pièce détachable.",
+          ],
+        },
+        {
+          titre: "De la cérémonie à la robe de cocktail",
+          texte: [
+            "Clover : une robe courte brodée de fleurs de couleur, et une surjupe longue « à volonté », dit sa fiche. Longue pour la cérémonie, courte pour danser : c'est la transformation la plus nette du catalogue. Gabriel, de Watters Designs, fait de même avec une robe courte délicatement perlée sous une jupe transparente amovible. Dans les deux cas, la robe de cocktail est déjà là, sous la robe de mariée.",
+          ],
+        },
+        {
+          titre: "Modulable sans devenir courte",
+          texte: [
+            "Tessa est une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles « pour un autre look ». Mira, de Monica Loretti, est une sirène en crêpe et dentelle dont la jupe amovible en tulle se retire pour la soirée. Et plusieurs robes ont des pièces amovibles sans être des deux-en-un : les manches d'Aster et de Riviera, les bretelles d'Addison et d'Oksana.",
+          ],
+        },
+        {
+          titre: "Ce qui se prévoit à l'essayage",
+          texte: [
+            "Les deux versions doivent vous plaire autant, et la transformation doit se faire en un geste : c'est ce que l'on vérifie au showroom, la robe sur soi, et ce que les retouches, comprises, règlent — l'attache de la surjupe, la longueur de la robe courte. Dites au premier rendez-vous ce que vous ferez de la robe le soir.",
+          ],
+        },
+      ],
+      aRetenir: [
+        "Longue puis courte : Clover (surjupe) et Gabriel (jupe transparente amovible).",
+        "Modulable sans devenir courte : Tessa (surjupe détachable), Mira (jupe amovible en tulle).",
+        "La transformation se prévoit aux retouches, comprises.",
+      ],
+      liens: [
+        { href: "/robes/clover", label: "Clover" },
+        { href: "/robes/gabriel", label: "Gabriel" },
+        { href: "/coupes/deux-en-un/avantages-robe-de-mariee-transformable", label: "Les avantages d'une robe transformable" },
+        { href: "/details/courte", label: "Les robes de mariée courtes" },
+      ],
+    },
+  ],
 };

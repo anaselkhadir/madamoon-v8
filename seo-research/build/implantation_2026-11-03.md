@@ -1,13 +1,13 @@
 # Implantation des mots-clés — 2026-11-03
 
-Base : 13022 expressions  dont 6184 ciblées sur 39 pages (32 construites). Volume ciblé : 435 540.
+Base : 13025 expressions  dont 6187 ciblées sur 39 pages (32 construites). Volume ciblé : 436 160.
 
 | Mesure | Expressions | Part | Volume |
 |---|---:|---:|---:|
-| Verbatim sur la page cible | 170 | 3% | 120 830 |
-| Verbatim quelque part sur le site | 279 | 5% | 152 450 |
-| Vocabulaire complet sur la page cible | 4129 | 67% | 407 870 |
-| **Couvertes (verbatim ou vocabulaire)** | **4130** | **67%** | **408 260** |
+| Verbatim sur la page cible | 172 | 3% | 121 200 |
+| Verbatim quelque part sur le site | 280 | 5% | 152 820 |
+| Vocabulaire complet sur la page cible | 4132 | 67% | 408 490 |
+| **Couvertes (verbatim ou vocabulaire)** | **4133** | **67%** | **408 880** |
 
 ## Par page
 
@@ -42,9 +42,9 @@ Base : 13022 expressions  dont 6184 ciblées sur 39 pages (32 construites). Volu
 | `/guides/ivoire-ou-blanc/` | oui | 271 | 6 | 217 | 217 | 1 840 |
 | `/guides/` | oui | 149 | 4 | 80 | 80 | 1 660 |
 | `/guides/traine-robe-de-mariee/` | oui | 84 | 0 | 62 | 62 | 1 040 |
+| `/coupes/deux-en-un/` | oui | 35 | 3 | 32 | 32 | 870 |
 | `/styles/romantique/` | oui | 72 | 3 | 59 | 59 | 730 |
 | `/styles/mariage-civil/` | oui | 139 | 7 | 109 | 109 | 560 |
-| `/coupes/deux-en-un/` | oui | 32 | 1 | 29 | 29 | 250 |
 | `/en/designers/watters-designs/` | non | 59 | 0 | 0 | 0 | 0 |
 | `/en/designers/casablanca-bridal/` | non | 163 | 0 | 0 | 0 | 0 |
 | `/guides/robe-de-mariee-apres-40-ans/` | oui | 74 | 0 | 66 | 66 | 0 |
@@ -519,6 +519,14 @@ Mots manquants les plus fréquents : gro (2), anglai (2), grande (2), petite (2)
 - robe de mariée pantalon traine (0, non vérifié)
 - robe de mariée petite traîne (0, non vérifié)
 
+### `/coupes/deux-en-un/` — 3 non couvertes
+
+Mots manquants les plus fréquents : manche (2), cher (1)
+
+- manche amovible robe de mariée (0, non vérifié)
+- robe de mariée 2 en 1 pas cher (0, non vérifié)
+- robe de mariée manches amovibles (0, non vérifié)
+
 ### `/styles/romantique/` — 13 non couvertes
 
 Mots manquants les plus fréquents : oui (2), avi (2), haut (2), swarovski (1), pri (1), chic (1), brillante (1), mouscron (1), brillant (1), gri (1), femme (1), marron (1)
@@ -556,14 +564,6 @@ Mots manquants les plus fréquents : blanc (2), automne (1), africain (1), casse
 - robe mariage civil location (0, non vérifié)
 - robe mariage civil livraison rapide (0, non vérifié)
 - robe mariage civil novembre (0, non vérifié)
-
-### `/coupes/deux-en-un/` — 3 non couvertes
-
-Mots manquants les plus fréquents : manche (2), cher (1)
-
-- manche amovible robe de mariée (0, non vérifié)
-- robe de mariée 2 en 1 pas cher (0, non vérifié)
-- robe de mariée manches amovibles (0, non vérifié)
 
 ### `/guides/robe-de-mariee-apres-40-ans/` — 8 non couvertes
 

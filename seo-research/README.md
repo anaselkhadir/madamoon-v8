@@ -134,15 +134,15 @@ par page est dans `build/implantation_2026-11-01.md` et `.csv`.
 ## État au 3 novembre 2026 — mots-clés transmis par la maison
 
 Une troisième source : les expressions que la maison lit ailleurs et
-demande d'injecter. Le 3 novembre, deux pages du document « Tendances
+demande d'injecter. Le 3 novembre, trois pages du document « Tendances
 2027 » de mariages.net PRO (Regencycore / Bridgerton, minimalisme / quiet
-luxury) : 11 expressions, dont 9 absentes de Semrush. Elles sont dans
+luxury, deux-en-un) : 15 expressions, dont 12 absentes de Semrush. Elles sont dans
 `raw/client/mouna_mariages-net-tendances-2027_2026-11-03.csv` (volume du
 document, évolution, statut forcé, source, note) et entrent dans la base
 avec `volume_verifie` = « non (transmis par la maison) » et `source_type`
 = « client ». Un volume Semrush, quand il existe, fait foi (« robe de
 mariée simple » : 2 900 chez Semrush, 4 400 dans le document). Base :
-6 184 pertinentes. Pages : `/guides/robe-de-mariee-bridgerton/` et
+6 187 pertinentes. Pages : `/guides/robe-de-mariee-bridgerton/` et
 `/details/corset/` créées, question quiet luxury sur la page minimaliste,
 Cloud Dancer dans le guide ivoire/blanc (`docs/PLAN-SEO-IMPLANTATION.md`,
 § 7).

@@ -269,7 +269,8 @@ CLUSTERS = [
     ("Coupe princesse", r"\b(princesse|princess|ball gown|ballgown|volumineuse|meringue|jupe volume|crinoline)\b"),
     ("Coupe fluide", r"\b(fluide|flowy|legere|vaporeuse|aerienne|mousseline|voilage)\b"),
     ("Coupe trapèze", r"\b(trapeze|a line|coupe a|evasee|evase|forme a)\b"),
-    ("Coupe deux-en-un", r"\b(deux en un|2 en 1|2en1|surjupe|amovible|amovibles|transformable|convertible|detachable)\b"),
+    ("Coupe deux-en-un", r"\b(deux en un|2 en 1|2en1|surjupe|amovible|amovibles|transformable|convertible|detachable|"
+                         r"modulable|modulaire|transformer|cocktail)\b"),
     ("Coupe empire", r"\b(empire|taille haute)\b"),
     ("Coupe droite / colonne", r"\b(droite|colonne|column|sheath|tube)\b"),
     ("Robe courte", r"\b(courte|court|mini|midi|genou|genoux|short)\b"),

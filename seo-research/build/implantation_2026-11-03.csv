@@ -432,11 +432,14 @@ page_cible;keyword;volume;volume_verifie;kd;intention;cluster;groupe;page_existe
 /;photos de madamoon;0;non (autocomplétion);0.0;inconnue;Marque MADAMOON;madamoon photos;True;False;False;False;photo
 /;madamoon photos;0;non (autocomplétion);0.0;inconnue;Marque MADAMOON;madamoon photos;True;False;False;False;photo
 /;madamoon ir;0;non (autocomplétion);0.0;inconnue;Marque MADAMOON;madamoon ir;True;False;False;False;ir
+/coupes/deux-en-un/;robe de mariée 2 en 1;260;non (transmis par la maison);0.0;inconnue;Coupe deux-en-un;robe de mariée 2 en 1;True;True;True;True;
+/coupes/deux-en-un/;robe de mariée modulable 2 en 1;140;non (transmis par la maison);0.0;inconnue;Coupe deux-en-un;robe de mariée modulable 2 en 1;True;False;False;True;
 /coupes/deux-en-un/;surjupe mariage;110;oui (Semrush);14.0;informationnel;Coupe deux-en-un;surjupe mariage;True;False;False;True;
+/coupes/deux-en-un/;robe de mariée transformable;110;non (transmis par la maison);0.0;inconnue;Coupe deux-en-un;robe de mariée transformable;True;True;True;True;
+/coupes/deux-en-un/;transformer sa robe de mariée en robe de cocktail;110;non (transmis par la maison);0.0;inconnue;Coupe deux-en-un;transformer sa robe de mariée en robe de cocktail;True;False;False;True;
 /coupes/deux-en-un/;surjupe mariée;70;oui (Semrush);8.0;informationnel;Coupe deux-en-un;surjupe mariée;True;False;False;True;
 /coupes/deux-en-un/;surjupe robe de mariée;70;oui (Semrush);13.0;informationnel;Coupe deux-en-un;surjupe robe de mariée;True;False;False;True;
 /coupes/deux-en-un/;robe de mariée deux en un;0;non (autocomplétion);0.0;inconnue;Coupe deux-en-un;robe de mariee deux en une;True;True;True;True;
-/coupes/deux-en-un/;robe de mariée 2 en 1;0;non (autocomplétion);0.0;inconnue;Coupe deux-en-un;robe de mariée 2 en 1;True;False;True;True;
 /coupes/deux-en-un/;manche amovible robe de mariée;0;non (autocomplétion);0.0;inconnue;Coupe deux-en-un;manche amovible robe de mariée;True;False;False;False;manche
 /coupes/deux-en-un/;robe de mariée traine amovible;0;non (autocomplétion);0.0;inconnue;Coupe deux-en-un;robe de mariée traine amovible;True;False;False;True;
 /coupes/deux-en-un/;robe de mariée avec surjupe;0;non (autocomplétion);0.0;inconnue;Coupe deux-en-un;surjupe robe de mariée;True;False;False;True;
