@@ -231,6 +231,17 @@ body {
   color: var(--color-plume);
 }
 
+/* Le texte des créateurs, à côté de la carte rouge : un cran plus petit
+ * sur ordinateur, à la demande de la maison, pour ne pas lutter avec la
+ * carte. « .texte » est hors couche : un utilitaire ne l'emporterait
+ * pas, d'où cette classe. */
+@media (min-width: 1024px) {
+  .texte-a-cote {
+    font-size: clamp(0.875rem, 1.04vw, 0.9375rem);
+    line-height: 1.65;
+  }
+}
+
 /* ———————————————————————————————————— boutons ————— */
 
 /* 40 px de haut, 24 px de part et d'autre, 12 px de capitales. */

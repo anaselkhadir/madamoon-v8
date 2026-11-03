@@ -106,12 +106,12 @@ export default function Createurs({ langue = "fr" }: { langue?: Langue }) {
             {L.createurs.titre}
           </h2>
         </span>
-        <p className="texte mesure-l mt-4">{L.createurs.lieux}</p>
+        <p className="texte texte-a-cote mesure-l mt-4">{L.createurs.lieux}</p>
         {/* Le texte de la maison, envoyé le 3 novembre 2026 : d'où
           * viennent les robes, la confection à vos mesures, le prix de
           * départ. Français seulement. */}
         {langue === "fr" && (
-          <div className="texte mesure-l mt-4">
+          <div className="texte texte-a-cote mesure-l mt-4">
             <p>
               Chez MADAMOON, chaque robe est choisie avec une attention particulière, auprès de créateurs reconnus pour leur élégance et leur savoir-faire. Notre sélection réunit les univers de Watters Designs, Casablanca Bridal, Olya Mak et Monica Loretti, ainsi que quelques ateliers indépendants soigneusement sélectionnés.
             </p>
