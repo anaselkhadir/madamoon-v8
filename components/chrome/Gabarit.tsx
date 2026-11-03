@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Entete from "@/components/chrome/Entete";
 import Elise from "@/components/Elise";
 import Pied from "@/components/chrome/Pied";
+import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
 import CarteRendezvous from "@/components/chrome/CarteRendezvous";
 import Cookies from "@/components/chrome/Cookies";
 import Clarity from "@/components/chrome/Clarity";
@@ -206,7 +207,16 @@ setTimeout(function(){d.removeAttribute("data-ouverture")},6000);
         </a>
         <Entete />
         <main id="contenu">{children}</main>
-        <Pied />
+        {/* Les pages par style, matière et détail, calculées ici : le pied
+          * de page est un composant client, et la table des familles est
+          * trop lourde pour voyager avec chaque page. */}
+        <Pied
+          familles={PAGES_FAMILLES.map((f) => ({
+            famille: f.famille,
+            href: adresseFamille(f),
+            label: f.titre.replace(" à Paris", ""),
+          }))}
+        />
         {/* Élise vit au gabarit : le bouton « Trouver ma robe » l'ouvre
           * depuis n'importe quelle page, et elle lit l'adresse courante
           * pour savoir de quelle maison partir. */}

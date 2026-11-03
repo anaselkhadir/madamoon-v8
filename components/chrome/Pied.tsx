@@ -28,7 +28,13 @@ import { coupeNom, createurNom, maison } from "@/lib/contenu";
  * anvslab.com prend la place de l'adresse d'aperçu. */
 const ANVSLAB = "https://anaselkhadir.github.io/anvslab/";
 
-export default function Pied() {
+export type LienFamille = {
+  famille: "styles" | "matieres" | "details" | "morphologies";
+  href: string;
+  label: string;
+};
+
+export default function Pied({ familles = [] }: { familles?: LienFamille[] }) {
   const l = langueDe(usePathname() ?? "/");
   const L = t(l);
   const M = maison(l);
@@ -104,6 +110,48 @@ export default function Pied() {
           </AppelRendezvous>
         </div>
       </div>
+
+      {/*
+        * Par style, par matière, par détail : les pages transversales du
+        * catalogue, déplacées de l'accueil à la demande de la maison
+        * (3 novembre 2026). Sous les coupes, les créateurs et le
+        * showroom, une colonne chacune ; la grande taille se range avec
+        * les détails, le prix sous eux.
+        *
+        * Ordinateur seulement, en français seulement : au doigt, ces
+        * liens restent sous les robes de l'accueil, comme avant ; et ces
+        * pages n'ont pas de version anglaise.
+        */}
+      {l === "fr" && familles.length > 0 && (
+        <div className="mt-12 hidden gap-10 lg:grid lg:grid-cols-4">
+          {(
+            [
+              { titre: L.pied.parStyle, liens: familles.filter((f) => f.famille === "styles") },
+              { titre: L.pied.parMatiere, liens: familles.filter((f) => f.famille === "matieres") },
+              {
+                titre: L.pied.parDetail,
+                liens: [
+                  ...familles.filter((f) => f.famille === "details" || f.famille === "morphologies"),
+                  { famille: "details" as const, href: "/guides/prix-robe-de-mariee-paris", label: L.pied.prix },
+                ],
+              },
+            ] as const
+          ).map((g, i) => (
+            <nav key={g.titre} aria-label={g.titre} className={i === 0 ? "lg:col-start-2" : undefined}>
+              <h2 className="legende">{g.titre}</h2>
+              <ul className="mt-4 flex flex-col gap-2">
+                {g.liens.map((f) => (
+                  <li key={f.href}>
+                    <Link href={f.href} className="texte souligne">
+                      {f.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ))}
+        </div>
+      )}
 
       <div className="filet mt-12" />
       {/* Trois colonnes égales à partir de sept cent soixante-huit pixels :

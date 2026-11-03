@@ -8,7 +8,6 @@ import { robeLigne } from "@/lib/contenu";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
 import { PAGES_FAMILLES, adresseFamille } from "@/lib/familles";
-import StylesFlottants from "@/components/accueil/StylesFlottants";
 
 /*
  * La rangée de robes de l'accueil.
@@ -156,17 +155,30 @@ export default function Robes({ langue = "fr" }: { langue?: Langue }) {
       </ul>
       </div>
 
-      {/* Les robes par style, matière ou détail, et le prix : en pastilles
-        * flottantes autour de l'intitulé sur ordinateur, en colonnes au
-        * doigt (StylesFlottants.tsx). Français seulement. */}
+      {/* Les robes par style, matière ou détail, et le prix : au doigt et
+        * sur tablette seulement, en colonnes comme avant. Sur ordinateur,
+        * ces liens sont dans le pied de page (Pied.tsx), à la demande de
+        * la maison. Français seulement. */}
       {langue === "fr" && (
-        <StylesFlottants
-          titre="Par style, matière ou détail"
-          liens={[
-            ...PAGES_FAMILLES.map((p) => ({ href: adresseFamille(p), label: p.titre.replace(" à Paris", "") })),
-            { href: "/guides/prix-robe-de-mariee-paris", label: "Prix d'une robe de mariée à Paris" },
-          ]}
-        />
+        <nav aria-label="Par style, matière ou détail" className="gouttiere pt-[clamp(2rem,4vw,3.5rem)] lg:hidden">
+          <p className="legende">Par style, matière ou détail</p>
+          <ul className="mt-3 grid grid-cols-1 gap-x-[clamp(1.5rem,3vw,3rem)] border-t border-fil sm:grid-cols-2">
+            {PAGES_FAMILLES.map((p) => (
+              <li key={p.slug} className="border-b border-fil">
+                <Link href={adresseFamille(p)} className="texte flex min-h-11 items-baseline justify-between gap-4 py-3 transition-colors duration-300 hover:text-action">
+                  <span>{p.titre.replace(" à Paris", "")}</span>
+                  <span aria-hidden="true">→</span>
+                </Link>
+              </li>
+            ))}
+            <li className="border-b border-fil">
+              <Link href="/guides/prix-robe-de-mariee-paris" className="texte flex min-h-11 items-baseline justify-between gap-4 py-3 transition-colors duration-300 hover:text-action">
+                <span>Prix d'une robe de mariée à Paris</span>
+                <span aria-hidden="true">→</span>
+              </Link>
+            </li>
+          </ul>
+        </nav>
       )}
     </section>
   );

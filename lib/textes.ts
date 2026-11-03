@@ -828,6 +828,10 @@ const FR = {
     droits: "Boutique de robes de mariée à Paris",
     gererCookies: "Gérer les cookies",
     signature: "Site créé et référencé par",
+    parStyle: "Par style",
+    parMatiere: "Par matière",
+    parDetail: "Par détail",
+    prix: "Prix d'une robe de mariée à Paris",
   },
   /* Le texte du bandeau de consentement de madamoon.fr, repris tel que la
    * maison l'a validé. */
@@ -1582,6 +1586,10 @@ const EN: Textes = {
     droits: "Bridal boutique in Paris",
     gererCookies: "Manage cookies",
     signature: "Site built and optimised by",
+    parStyle: "By style",
+    parMatiere: "By fabric",
+    parDetail: "By detail",
+    prix: "Wedding dress prices in Paris",
   },
   cookies: {
     titre: "We value your privacy",
