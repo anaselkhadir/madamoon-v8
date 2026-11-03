@@ -1905,3 +1905,135 @@ html[data-ouverture]::before {
   }
 }
 
+/*
+ * Par style, matière ou détail (StylesFlottants.tsx).
+ *
+ * Au doigt, la liste en colonnes que dessinent ses utilitaires. Sur
+ * ordinateur, une scène : l'intitulé au milieu, les liens en pastilles
+ * posées par leurs variables (--x, --y, --r), qui entrent en ressort puis
+ * flottent. Ces règles sont hors couche : elles l'emportent sur les
+ * utilitaires du lien, à partir de 1 024 px seulement.
+ */
+@media (min-width: 1024px) {
+  .styles-flottants-scene {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: clamp(34rem, 44vw, 40rem);
+  }
+  .styles-flottants-titre {
+    position: relative;
+    z-index: 1;
+    max-width: 13ch;
+    text-align: center;
+    font-size: clamp(2.5rem, 4.4vw, 4.25rem);
+    line-height: 1.05;
+    text-wrap: balance;
+  }
+  .styles-flottants-scene > ul {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+  }
+  .styles-flottants-item {
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    transform: translate(-50%, -50%) rotate(var(--r));
+  }
+  .styles-flottants-flotte {
+    display: inline-block;
+    animation: styles-flottants-flotte var(--d) ease-in-out infinite;
+  }
+  .styles-flottants-lien {
+    display: inline-flex;
+    align-items: center;
+    min-height: 0;
+    padding: 0.7rem 1.35rem;
+    border-radius: 9999px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.2;
+    white-space: nowrap;
+    box-shadow: 0 6px 14px -8px rgba(20, 16, 12, 0.35);
+    transition:
+      background-color 0.3s var(--ease-doux),
+      color 0.3s var(--ease-doux),
+      transform 0.35s var(--ease-doux);
+  }
+  .styles-flottants-item[data-teinte="rouge"] .styles-flottants-lien {
+    background: var(--color-action);
+    color: var(--color-blanc);
+  }
+  .styles-flottants-item[data-teinte="encre"] .styles-flottants-lien {
+    background: var(--color-encre);
+    color: var(--color-blanc);
+  }
+  .styles-flottants-item[data-teinte="craie"] .styles-flottants-lien {
+    background: var(--color-craie);
+    color: var(--color-encre);
+    box-shadow:
+      inset 0 0 0 1px var(--color-fil),
+      0 6px 14px -8px rgba(20, 16, 12, 0.25);
+  }
+  .styles-flottants-item .styles-flottants-lien:hover,
+  .styles-flottants-item .styles-flottants-lien:focus-visible {
+    background: var(--color-action);
+    color: var(--color-blanc);
+    transform: scale(1.05);
+  }
+  .styles-flottants-item[data-teinte="rouge"] .styles-flottants-lien:hover,
+  .styles-flottants-item[data-teinte="rouge"] .styles-flottants-lien:focus-visible {
+    background: var(--color-encre);
+  }
+  .styles-flottants-lien:focus-visible {
+    outline: 1.5px solid var(--color-action);
+    outline-offset: 3px;
+  }
+  /* Entre 1 024 et 1 280 px, des pastilles un peu plus petites : la
+   * plus longue tient dans la scène. */
+  @media (max-width: 1279px) {
+    .styles-flottants-lien {
+      padding: 0.6rem 1.1rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  /* L'entrée : prêtes mais hors de l'écran, les pastilles attendent ;
+   * à l'écran, elles paraissent en ressort, une à une. */
+  .styles-flottants[data-pret]:not([data-vu]) .styles-flottants-item {
+    opacity: 0;
+  }
+  .styles-flottants[data-vu] .styles-flottants-item {
+    animation: styles-flottants-entree 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    animation-delay: calc(var(--i) * 70ms);
+  }
+}
+@keyframes styles-flottants-entree {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--r)) scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(var(--r)) scale(1);
+  }
+}
+@keyframes styles-flottants-flotte {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(var(--f) * -1));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .styles-flottants .styles-flottants-item,
+  .styles-flottants .styles-flottants-flotte {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
+
