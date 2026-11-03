@@ -199,21 +199,40 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
 
   return (
     <section aria-labelledby="coupes" className="relative bg-blanc lg:py-[clamp(3.5rem,7vw,6rem)]">
-      {/* Le titre en haut de la section, l'accordéon centré dessous : les
-        * photographies sont debout, il ne prend pas toute la largeur. */}
-      <div className="gouttiere flex flex-col gap-[clamp(1.75rem,3.5vw,2.75rem)] max-lg:hidden">
-        <div>
-          <p className="legende">{L.coupes.legende}</p>
-          <span data-ligne className="mt-4 block">
-            <h2 id="coupes" className="phrase">
-              {L.coupes.titre}
-            </h2>
-          </span>
-          <p className="texte mesure mt-3">{L.coupes.texte}</p>
-          <Link href="/coupes" className="lien-nav souligne mt-5 inline-block text-action">
+      {/* L'en-tête, écrit une seule fois pour l'ordinateur et le doigt :
+        * la phrase et ses liens ne sont pas doublés dans la page. En
+        * français, la phrase des coupes, vers la page de chacune (demande
+        * de la maison, 3 novembre 2026) ; en anglais, la ligne d'avant.
+        * Le lien « Toutes les coupes » reste ici sur ordinateur, et sous
+        * la trame au doigt. */}
+      <div className="gouttiere max-lg:pt-[clamp(3rem,8vw,4rem)]">
+        <p className="legende">{L.coupes.legende}</p>
+        <span data-ligne className="mt-4 block">
+          <h2 id="coupes" className="phrase">
+            {L.coupes.titre}
+          </h2>
+        </span>
+        <p className="texte mesure-l mt-4 lg:mt-3">
+          {langue === "fr" ? (
+            <>
+              Une <Link href="/coupes/sirene" className="souligne">robe de mariée sirène</Link> dessine la taille et les hanches ; une <Link href="/coupes/princesse" className="souligne">princesse</Link> assume le volume ; une <Link href="/coupes/fluide" className="souligne">robe fluide</Link> suit le mouvement ; un <Link href="/coupes/trapeze" className="souligne">trapèze</Link> s'ouvre en A ; une <Link href="/coupes/deux-en-un" className="souligne">deux-en-un</Link> change d'allure entre la cérémonie et la soirée.
+            </>
+          ) : (
+            L.coupes.texte
+          )}
+        </p>
+        {/* Masqué au doigt par son conteneur : « .lien-nav » pose son
+          * propre affichage, qui l'emportait sur l'utilitaire. */}
+        <div className="mt-5 max-lg:hidden">
+          <Link href="/coupes" className="lien-nav souligne inline-block text-action">
             {L.coupes.lien}
           </Link>
         </div>
+      </div>
+
+      {/* L'accordéon centré sous le titre : les photographies sont
+        * debout, il ne prend pas toute la largeur. */}
+      <div className="gouttiere mt-[clamp(1.75rem,3.5vw,2.75rem)] flex flex-col gap-[clamp(1.75rem,3.5vw,2.75rem)] max-lg:hidden">
 
         <ul
           ref={cadre}
@@ -365,13 +384,6 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
         * empilées dans la trame à deux colonnes du site, celle des robes
         * et des maisons, chacune entière et vers sa page. */}
       <div className="lg:hidden">
-        <div className="gouttiere pt-[clamp(3rem,8vw,4rem)]">
-          <p className="legende">{L.coupes.legende}</p>
-          <span data-ligne className="mt-4 block">
-            <p className="phrase">{L.coupes.titre}</p>
-          </span>
-          <p className="texte mt-4">{L.coupes.texte}</p>
-        </div>
         <div className="gouttiere mt-8">
           <div className="trame-tuiles grid-cols-2">
             {familles.map(({ c, media }, i) => (
@@ -394,17 +406,6 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
         </div>
       </div>
 
-      {/* Ce que fait chaque coupe, en une phrase et vers sa page. De
-        * l'ancien édito de l'accueil, au mot près ; écrite une seule fois,
-        * sous l'accordéon comme sous la trame, pour ne pas la doubler dans
-        * la page. Français seulement. */}
-      {langue === "fr" && (
-        <p className="gouttiere texte mt-8 max-w-none lg:mt-[clamp(2rem,3.5vw,2.75rem)]">
-          <span className="mesure-l block">
-            Une <Link href="/coupes/sirene" className="souligne">robe de mariée sirène</Link> dessine la taille et les hanches ; une <Link href="/coupes/princesse" className="souligne">princesse</Link> assume le volume ; une <Link href="/coupes/fluide" className="souligne">robe fluide</Link> suit le mouvement ; un <Link href="/coupes/trapeze" className="souligne">trapèze</Link> s'ouvre en A ; une <Link href="/coupes/deux-en-un" className="souligne">deux-en-un</Link> change d'allure entre la cérémonie et la soirée.
-          </span>
-        </p>
-      )}
     </section>
   );
 }
