@@ -63,10 +63,10 @@ export default function Morphologies({ langue = "fr" }: { langue?: Langue }) {
                 {L.silhouette.titre}
               </h2>
             </span>
-            <p className="texte mesure-l mt-4">{L.silhouette.texte}</p>
+            <p className="texte texte-a-cote mesure-l mt-4">{L.silhouette.texte}</p>
             {/* De l'ancien édito de l'accueil, au mot près. */}
             {langue === "fr" && (
-              <p className="texte mesure-l mt-3">
+              <p className="texte texte-a-cote mesure-l mt-3">
                 Avant le goût, la <Link href="/morphologies" className="souligne">morphologie</Link> décide souvent : c'est par elle que l'on vous conseille.
               </p>
             )}
