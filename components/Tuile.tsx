@@ -45,6 +45,9 @@ type Props = {
    * rangées ne s'additionnent pas. Sur quarante tuiles, un décalage par
    * rang aurait fait attendre près de trois secondes à la dernière. */
   retard?: number;
+  /* Des attributs posés sur le lien tel quel — les « data-… » que le
+   * filtre du catalogue interroge. */
+  attributs?: Record<string, string>;
 };
 
 export default function Tuile({
@@ -60,6 +63,7 @@ export default function Tuile({
   position,
   repere,
   coupDeCoeur,
+  attributs,
   ratio,
   retard,
 }: Props) {
@@ -102,7 +106,7 @@ export default function Tuile({
         {dedans}
       </AppelElise>
     ) : (
-      <Link href={href} {...habits}>
+      <Link href={href} {...habits} {...(coupDeCoeur ? {} : attributs)}>
         {dedans}
       </Link>
     );
@@ -116,10 +120,11 @@ export default function Tuile({
    * côté, dans une enveloppe qui épouse la tuile, et superposé.
    *
    * L'enveloppe devient l'élément de la trame ; la tuile garde son
-   * rapport de côtés et lui donne sa hauteur.
+   * rapport de côtés et lui donne sa hauteur. C'est donc elle qui porte
+   * les attributs du filtre : masquer le lien seul laisserait le cœur.
    */
   return (
-    <div className="relative">
+    <div className="relative" {...attributs}>
       {tuile}
       <CoeurTuile slug={coupDeCoeur} nom={nom} />
     </div>

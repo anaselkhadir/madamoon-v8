@@ -73,6 +73,17 @@ const LECTURES: {
   { motif: /fleurs? (3d|en relief|de couleur|brodees?)|floral/, fr: "fleurs", en: "flowers" },
 ];
 
+/* Les matières que la fiche nomme, pour le filtre du catalogue : la clé
+ * est le mot français sans accent, le libellé suit la langue. */
+export function matieresDe(robe: Robe): { cle: string; fr: string; en: string }[] {
+  const texte = sansAccents(`${robe.ligne}. ${robe.regard}`);
+  return LECTURES.filter((l) => l.matiere && l.motif.test(texte)).map((l) => ({
+    cle: sansAccents(l.fr).replace(/\s+/g, "-"),
+    fr: l.fr,
+    en: l.en,
+  }));
+}
+
 const sansAccents = (t: string) =>
   t.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 

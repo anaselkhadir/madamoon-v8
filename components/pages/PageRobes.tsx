@@ -1,13 +1,17 @@
 import TitreSection from "@/components/TitreSection";
 import Tuile from "@/components/Tuile";
 import FileApparition from "@/components/FileApparition";
-import { ROBES, SITE_URL } from "@/lib/madamoon";
+import { ROBES, SITE_URL, MORPHOLOGIES, CREATEURS, createurParNom } from "@/lib/madamoon";
+import { coupe as coupeDe } from "@/lib/coupes";
+import { stylesDe } from "@/lib/styles";
+import { matieresDe } from "@/lib/fiche-seo";
+import FiltresRobes, { type ChampFiltre } from "@/components/robe/FiltresRobes";
 import { altRobe } from "@/lib/alt";
 
 import type { Langue } from "@/lib/langue";
 import { versLangue } from "@/lib/langue";
 import { t } from "@/lib/textes";
-import { robeLigne } from "@/lib/contenu";
+import { coupeNom, createurNom, morphoNom, robeLigne } from "@/lib/contenu";
 import { couverture } from "@/lib/couverture";
 import FilDAriane from "@/components/FilDAriane";
 import Link from "@/components/Lien";
@@ -49,6 +53,44 @@ const lienFamille = (p: PageFamille) => {
   return { href: adresseFamille(p), label: court.charAt(0).toUpperCase() + court.slice(1) };
 };
 
+/* Ce que chaque tuile dit d'elle-même au filtre, et les options que le
+ * filtre propose : calculées au rendu, depuis les données des fiches. */
+function attributsDe(r: (typeof ROBES)[number]) {
+  return {
+    "data-robe": r.slug,
+    "data-coupe": coupeDe(r.categorie).ancre,
+    "data-createur": createurParNom(r.createur)?.slug ?? "autres-createurs",
+    "data-matieres": matieresDe(r).map((m) => m.cle).join(" "),
+    "data-familles": stylesDe(r.slug).map((s) => s.href.replace(/^\//, "").replace("/", "-")).join(" "),
+    "data-morphos": (r.morphos ?? []).map((m) => m.toLowerCase()).join(" "),
+  };
+}
+
+const majuscule = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
+
+function champs(langue: Langue): ChampFiltre[] {
+  const F = t(langue).catalogue.filtres;
+  const matieres = new Map<string, { fr: string; en: string; n: number }>();
+  const familles = new Map<string, { label: string; n: number }>();
+  ROBES.forEach((r) => {
+    matieresDe(r).forEach((m) => matieres.set(m.cle, { fr: m.fr, en: m.en, n: (matieres.get(m.cle)?.n ?? 0) + 1 }));
+    /* Les pages de matière ont leur propre champ : on ne les répète pas ici. */
+    stylesDe(r.slug).filter((s) => !s.href.startsWith("/matieres/")).forEach((s) => {
+      const cle = s.href.replace(/^\//, "").replace("/", "-");
+      const label = s.label[langue].replace(/^Robe de mariée /, "").replace(/ à Paris$/, "").replace(/ wedding dress in Paris$/, "").replace(/ in Paris$/, "").replace(/^pour un /, "");
+      familles.set(cle, { label: majuscule(label), n: (familles.get(cle)?.n ?? 0) + 1 });
+    });
+  });
+  const parFrequence = <T extends { n: number }>(m: Map<string, T>) => [...m.entries()].sort((a, b) => b[1].n - a[1].n);
+  return [
+    { cle: "coupe", label: F.coupe, options: COUPES.map((c) => ({ valeur: c.ancre, label: coupeNom(c, langue) })) },
+    { cle: "createur", label: F.createur, options: CREATEURS.map((c) => ({ valeur: c.slug, label: createurNom(c, langue) })) },
+    { cle: "matiere", label: F.matiere, options: parFrequence(matieres).map(([cle, m]) => ({ valeur: cle, label: majuscule(langue === "fr" ? m.fr : m.en) })) },
+    { cle: "famille", label: F.famille, options: parFrequence(familles).map(([cle, f]) => ({ valeur: cle, label: f.label })) },
+    { cle: "morpho", label: F.morpho, options: MORPHOLOGIES.map((m) => ({ valeur: m.lettre.toLowerCase(), label: morphoNom(m, langue) })) },
+  ];
+}
+
 export default function PageRobes({ langue }: { langue: Langue }) {
   const L = t(langue);
   const LISTE = liste(langue);
@@ -74,6 +116,12 @@ export default function PageRobes({ langue }: { langue: Langue }) {
         * rubrique propre — les pages de coupe et l'onglet du menu — : ici,
         * on parcourt le catalogue sans rien avoir à choisir. */}
       <div className="gouttiere">
+        {/* Les filtres, au-dessus de la grille : cinq listes qui se
+          * combinent, l'adresse qui garde le choix, un état vide quand
+          * rien ne correspond. Les tuiles restent toutes dans la page. */}
+        <FiltresRobes champs={champs(langue)} textes={L.catalogue.filtres} />
+      </div>
+      <div className="gouttiere pt-8">
         {/* Sur ordinateur, les tuiles paraissent en file et prennent
           * l'angle de la maison (FileApparition, « .grille-file »). */}
         <FileApparition className="trame-tuiles grille-file grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -93,6 +141,7 @@ export default function PageRobes({ langue }: { langue: Langue }) {
                 repere={r.createur ?? L.createurs.autres}
                 priorite={i < 3}
                 sizes="(max-width: 768px) 50vw, 31vw"
+                attributs={attributsDe(r)}
               />
             );
           })}

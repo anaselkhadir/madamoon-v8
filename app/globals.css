@@ -1784,3 +1784,43 @@ html[data-ouverture]::before {
     display: none;
   }
 }
+
+/*
+ * Un champ de liste, pour les filtres du catalogue.
+ *
+ * Une liste native habillée aux couleurs du site : un filet dessous, le
+ * chevron de la maison à droite, la hauteur d'un doigt. Le reste — le
+ * menu qui s'ouvre, le clavier, le lecteur d'écran — est au navigateur.
+ */
+.champ {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.5rem 1.75rem 0.5rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--color-fil);
+  border-radius: 0;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2314100c' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.1rem center;
+  background-size: 0.9rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-encre);
+  cursor: pointer;
+  transition: border-color 0.3s var(--ease-doux);
+}
+.champ:hover {
+  border-bottom-color: var(--color-encre);
+}
+.champ:focus-visible {
+  outline: 1.5px solid var(--color-action);
+  outline-offset: 4px;
+}
+[data-theme="sombre"] .champ {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+}
