@@ -274,6 +274,10 @@ CLUSTERS = [
     ("Coupe droite / colonne", r"\b(droite|colonne|column|sheath|tube)\b"),
     ("Robe courte", r"\b(courte|court|mini|midi|genou|genoux|short)\b"),
     # styles
+    # Mots-clés transmis par la maison le 03/11/2026 (mariages.net PRO,
+    # Tendances 2027) : la tendance Regencycore, le quiet luxury.
+    ("Style Bridgerton / Regencycore", r"\b(bridgerton|regencycore|regency|regence|jane austen)\b"),
+    ("Style quiet luxury / luxe discret", r"\b(quiet luxury|luxe discret|luxe tranquille|old money)\b"),
     ("Style bohème", r"\b(boheme|bohemian|boho|champetre|hippie|folk|rustique|campagne|nature|gipsy|gypsy|"
                      r"bohème)\b"),
     ("Style minimaliste", r"\b(simple|minimaliste|minimalist|sobre|epuree|epure|discrete|basique|lisse|"
@@ -290,13 +294,14 @@ CLUSTERS = [
                             r"tattoo|illusion|fendue|fente|echancree)\b"),
     ("Robe colorée / non blanche", r"\b(rouge|rose|noire|noir|bleu|bleue|verte|champagne|blush|nude|doree|"
                                    r"argentee|coloree|couleur|poudre|ivoire|ecru|creme|beige|pastel|bordeaux|"
-                                   r"lavande|lilas)\b"),
+                                   r"lavande|lilas|cloud dancer)\b"),
     # matières et détails
     ("Matière dentelle", r"\b(dentelle|dentelles|lace|guipure|chantilly|calais|broderie|brodee|macrame)\b"),
     ("Matière satin / soie", r"\b(satin|satinee|soie|duchesse|silk|crepe|mikado|taffetas|zibeline)\b"),
     ("Matière tulle / organza", r"\b(tulle|organza|plumetis|pois|point d esprit|mousseline de soie)\b"),
     ("Détails : manches", r"\b(manche|manches|manches longues|manche longue|manches courtes|bouffantes|"
                           r"ballon|3 4|sans manche|bretelle|bretelles|epaules denudees|epaule)\b"),
+    ("Détails : corset", r"\b(corset|corsets|corsetee|lacage|lace dans le dos)\b"),
     ("Détails : bustier / décolleté", r"\b(bustier|corset|corsage|decollete|col|encolure|bateau|coeur|carre|"
                                       r"americain|halter|v|rond|montant|cache coeur)\b"),
     ("Détails : traîne / cape / jupe", r"\b(traine|cape|jupe|surjupe|fendue|asymetrique|volants|volant|"
@@ -353,6 +358,9 @@ PAGES = {
     "Robe courte": ("/details/courte/", "Page détail", "créée le 01/11/2026 sous /details/ (quatre robes courtes) ; /coupes/courte/ si la maison en fait une coupe"),
     "Style bohème": ("/styles/boheme/", "Page style", "à créer"),
     "Style minimaliste": ("/styles/minimaliste/", "Page style", "à créer"),
+    "Style Bridgerton / Regencycore": ("/guides/robe-de-mariee-bridgerton/", "Guide", "créé le 03/11/2026 (mots-clés transmis par la maison, mariages.net PRO Tendances 2027)"),
+    "Style quiet luxury / luxe discret": ("/styles/minimaliste/", "Page style (question)", "existante ; question ajoutée le 03/11/2026"),
+    "Détails : corset": ("/details/corset/", "Page détail", "créée le 03/11/2026 (mot-clé transmis par la maison)"),
     "Style romantique": ("/styles/romantique/", "Page style", "à créer"),
     "Style vintage / rétro": ("/guides/robe-de-mariee-vintage/", "Guide", "à créer si volume suffisant"),
     "Style chic / élégant / luxe": ("/robes/", "Page catalogue (angle éditorial)", "existante (madamoon.fr/robes)"),
@@ -431,6 +439,27 @@ def charger_autocompletion():
                 if kw:
                     sugg[kw].add(moteur)
     return sugg
+
+
+CLIENT = os.path.join(ROOT, "seo-research", "raw", "client")
+
+
+def charger_client():
+    """Mots-clés transmis par la maison (seo-research/raw/client/*.csv) : un
+    volume qu'elle a lu ailleurs — un document mariages.net PRO, par
+    exemple —, PAS vérifié dans Semrush. Ils entrent dans la base marqués
+    comme tels ; un « statut » renseigné dans le fichier force le statut
+    (« adjacent » pour une requête hors offre, la décoration)."""
+    lignes = {}
+    for f in sorted(glob.glob(os.path.join(CLIENT, "*.csv"))):
+        with open(f, encoding="utf-8") as fh:
+            for r in csv.DictReader(fh, delimiter=";"):
+                kw = r["keyword"].strip().lower()
+                if not kw:
+                    continue
+                lignes[kw] = {"volume": int(r.get("volume") or 0), "fichier": "client:" + os.path.basename(f),
+                              "source": r.get("source", ""), "statut": (r.get("statut") or "").strip()}
+    return lignes
 
 
 def intention(code):
@@ -538,13 +567,32 @@ def construire():
                               "autocompletion": True, "domaine": "", "position": 0})
     print("suggestions d'autocomplétion distinctes:", len(sugg), "| nouvelles (absentes de Semrush):", ajoutees)
 
+    # Les mots-clés transmis par la maison : s'ils sont déjà dans Semrush,
+    # ils n'ajoutent qu'une source ; sinon ils entrent avec le volume lu
+    # dans le document, marqué « non vérifié ».
+    client = charger_client()
+    nouveaux_client = 0
+    for kw, c in client.items():
+        k = semrush_norm.get(norm(kw))
+        ligne = {"domaine": "", "tranche": "", "fichier": c["fichier"], "keyword": kw, "position": 0,
+                 "position_prec": 0, "volume": c["volume"], "cpc": 0.0, "url": "", "trafic": 0, "part_trafic": 0.0,
+                 "kd": 0.0, "intents": "", "competition": 0.0, "trend": "", "client": True,
+                 "statut_client": c["statut"]}
+        if k in par_kw:
+            par_kw[k].append({**ligne, "keyword": k})
+        else:
+            semrush_norm[norm(kw)] = kw
+            par_kw[kw] = [ligne]
+            nouveaux_client += 1
+    print("mots-clés transmis par la maison:", len(client), "| nouveaux (absents de Semrush):", nouveaux_client)
+
     # Le vocabulaire sûr : les mots des mots-clés Semrush jugés pertinents.
     # Derrière « boutique », « magasin », « showroom », « atelier » ou
     # « couturière », un mot qui n'en fait pas partie est presque toujours
     # une ville — et la maison ne vend qu'à Paris.
     VOCAB = set()
     for kw, ls in par_kw.items():
-        if any(not l.get("autocompletion") for l in ls) and classer(kw)[0] == "pertinent":
+        if any(not l.get("autocompletion") and not l.get("client") for l in ls) and classer(kw)[0] == "pertinent":
             VOCAB.update(tokens(kw))
     VOCAB.update("""paris parisien parisienne idf ile france avis prix tarif cher chere mesure luxe rdv rendez vous
         sans gratuit essayage essayer meilleur meilleure ouvert dimanche lundi samedi ligne site adresse horaires
@@ -560,8 +608,11 @@ def construire():
 
     base = []
     for kw, ls in par_kw.items():
-        volume = max(l["volume"] for l in ls)
-        verifie = any(not l.get("autocompletion") for l in ls)
+        verifie = any(not l.get("autocompletion") and not l.get("client") for l in ls)
+        # un volume Semrush fait foi ; à défaut, celui que la maison a lu
+        volume = max(l["volume"] for l in ls if not l.get("client")) if verifie else max(l["volume"] for l in ls)
+        de_la_maison = any(l.get("client") for l in ls)
+        statut_client = next((l.get("statut_client") for l in ls if l.get("statut_client")), "")
         kd = max(l["kd"] for l in ls)
         cpc = max(l["cpc"] for l in ls)
         intents = next((l["intents"] for l in ls if l["intents"]), "")
@@ -576,6 +627,8 @@ def construire():
                 positions[d] = l["position"]
                 urls[d] = l["url"]
         statut, forcé = classer(kw)
+        if statut_client:
+            statut = statut_client
         if statut == "pertinent" and not verifie and LOCAL_PATTERN.search(norm(kw)):
             inconnus = [t for t in tokens(kw) if t not in VOCAB and not t.isdigit()]
             if inconnus and not PARIS.search(norm(kw)):
@@ -620,8 +673,8 @@ def construire():
             page, type_page, statut_page = ("— aucune (non ciblé)", "", "")
         base.append({
             "keyword": kw, "cle_variante": cle_variante(kw), "volume": volume, "kd": kd, "cpc": cpc,
-            "volume_verifie": "oui (Semrush)" if verifie else "non (autocomplétion)",
-            "source_type": "semrush" if verifie else "autocompletion",
+            "volume_verifie": "oui (Semrush)" if verifie else "non (transmis par la maison)" if de_la_maison else "non (autocomplétion)",
+            "source_type": "semrush" if verifie else "client" if de_la_maison else "autocompletion",
             "intention": inten, "intents_code": intents, "trend": trend,
             "statut": statut, "cluster": principal, "clusters_secondaires": " | ".join(secondaires),
             "local_paris": "oui" if local else "",

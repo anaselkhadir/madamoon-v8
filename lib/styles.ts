@@ -25,6 +25,7 @@ const LABELS_EN: Record<string, string> = {
   "/styles/romantique": "Romantic wedding dress in Paris",
   "/styles/mariage-civil": "Civil wedding dress in Paris",
   "/details/courte": "Short wedding dress in Paris",
+  "/details/corset": "Corset wedding dress in Paris",
 };
 
 /* La grande taille n'est pas un style : une fiche ne dit pas « robe grande

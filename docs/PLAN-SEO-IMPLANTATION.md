@@ -125,6 +125,7 @@ calculés, JSON-LD, entrée au sitemap, version anglaise ou `hreflang` absent.
 |---|---:|---|
 | Base vérifiée (phase 2, reclassée le 01/11) | 1 399 | pages du tableau ci-dessus |
 | Autocomplétion Google et Bing (01/11, volumes non vérifiés) | 4 777 | mêmes pages, + courte, traîne, 40 ans ; implantées à 67 % en vocabulaire |
+| Mots-clés transmis par la maison (mariages.net PRO, Tendances 2027, 03/11) | 11 (9 nouveaux) | /guides/robe-de-mariee-bridgerton/, /details/corset/, /styles/minimaliste/ (question), /guides/ivoire-ou-blanc/ (Cloud Dancer) |
 | Expansion d'architecture (à valider en volume) | 482 | H2, questions, ancres, alt |
 | Complément Semrush (tranches manquantes, questions, variantes) | ≈ 2 500 à 3 000 pertinentes | mêmes pages ; nouvelles questions |
 | **Total visé** | **≈ 5 000** | **sans page supplémentaire au-delà de ce plan** |
@@ -135,3 +136,25 @@ Robes courtes et civiles ; location ; grandes tailles ; robes de couleur ;
 Sienna et Zina (Angeola Biarritz ou Casablanca Bridal) ; dix robes sans
 fiche fournisseur ; photographies HD de dix-huit robes ; nom court de
 « Clover avec ou sans perles ». Les pages concernées sont en vague E.
+
+## 7. Vague H — les mots-clés transmis par la maison (3 novembre 2026)
+
+Mouna a transmis deux pages du document « Tendances 2027 » de mariages.net
+PRO (captures d'écran). Les volumes sont ceux du document, **non vérifiés
+dans Semrush** (solde à zéro) ; ils entrent dans la base avec la mention
+« non (transmis par la maison) » (`seo-research/raw/client/`). Règle
+inchangée : une expression = une place, et rien n'est inventé sur les robes.
+
+| Expression (volume du document) | Où elle vit | Ce qui a été fait |
+|---|---|---|
+| robe bridgerton (2 900), robe style bridgerton (880), thème bridgerton (260), robe regencycore, style regencycore | `/guides/robe-de-mariee-bridgerton/` | Guide créé : origine du style, ses codes, les robes du catalogue qui en portent un (corset, col carré, manches ballon, gants, perles — d'après leurs fiches), ce que le catalogue n'a pas (taille empire, pastels), le thème, la morphologie. |
+| regencycore decor | aucune | Décoration : hors offre, classée « adjacent ». |
+| robe de mariée corset (320, déjà vérifié Semrush : + robe mariée corset 210, robe de mariage corset 210, corset mariage 210, bustier corset 140…) | `/details/corset/` | Page de détail créée (douze robes dont la fiche dit « corset », quatre colonnes, six questions). Le cluster « Détails : corset » est détaché du bustier ; la question « corset ou bustier » passe du bustier au corset. Libellé anglais ajouté au filtre du catalogue. |
+| robe de mariée simple (4 400 ; Semrush : 2 900) | `/styles/minimaliste/` | Déjà la cible de la page (titre, H1). Rien à ajouter. |
+| quiet luxury style (70), luxe discret (50) | `/styles/minimaliste/` | Question ajoutée : « Robe de mariée simple et quiet luxury : la même chose ? ». |
+| cloud dancer (480, +860 %) | `/guides/ivoire-ou-blanc/` | Une phrase dans « les mots » : le blanc doux de Pantone 2026, rangé avec le blanc cassé. Aucune robe n'est dite de cette teinte. |
+
+À faire vérifier par la maison : les volumes (quand Semrush sera
+réalimenté) ; la liste des robes citées comme portant un code Bridgerton
+— elle vient des fiches, mais c'est elle qui sait lesquelles elle
+montrerait pour ce thème.

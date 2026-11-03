@@ -495,7 +495,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Blanc, blanc cassé, ivoire, champagne : les mots",
         texte: [
-          "Le blanc pur est sans nuance, froid, le plus lumineux. Le blanc cassé est à peine adouci. L'ivoire tire vers le crème, chaud, et c'est la teinte la plus répandue des robes de mariée. Le champagne va plus loin vers le beige doré ; le blush, vers le rosé. D'une maison à l'autre, le même mot ne désigne pas exactement la même teinte : seul l'échantillon fait foi.",
+          "Le blanc pur est sans nuance, froid, le plus lumineux. Le blanc cassé est à peine adouci. L'ivoire tire vers le crème, chaud, et c'est la teinte la plus répandue des robes de mariée. Le champagne va plus loin vers le beige doré ; le blush, vers le rosé. Cloud Dancer, le blanc doux que Pantone a désigné couleur de l'année 2026, est de cette famille : un blanc à peine voilé, ni froid ni crème — ce que l'on nomme blanc cassé. D'une maison à l'autre, le même mot ne désigne pas exactement la même teinte : seul l'échantillon fait foi.",
         ],
       },
       {
@@ -672,6 +672,79 @@ export const GUIDES: Guide[] = [
       { href: "/details/courte", label: "Les robes de mariée courtes" },
       { href: "/guides/ivoire-ou-blanc", label: "Ivoire ou blanc" },
       { href: "/morphologies", label: "Les morphologies" },
+      { href: "/rendez-vous", label: "Prendre rendez-vous" },
+    ],
+  },
+
+  /* ————————————————————————————————————————————— Bridgerton —————
+   * Vague H (3 nov. 2026). Mots-clés transmis par la maison, lus dans
+   * les tendances 2027 des professionnels du mariage : « robe
+   * bridgerton », « robe style bridgerton », « thème bridgerton »,
+   * « regencycore ». Le style est décrit pour ce qu'il est ; les robes
+   * citées le sont pour ce que leurs fiches disent — corset, col carré,
+   * manches ballon, perles, gants — et le guide dit ce que le catalogue
+   * n'a pas : la taille empire, les pastels. */
+  {
+    slug: "robe-de-mariee-bridgerton",
+    titre: "Robe de mariée style Bridgerton : le Regencycore",
+    q: "Quelle robe de mariée pour un mariage style Bridgerton ?",
+    r: "Une robe qui en reprend les codes : un corset qui dessine le buste, une encolure carrée ou un décolleté net, des manches ballon ou de longs gants, de la dentelle, des perles et du tulle. Au catalogue, le corset est partout — Guinevere, Oksana, Zina, Rowan —, le col carré chez Dolores et Clover, les manches ballon chez Ryle, les gants avec Santana. La taille empire et les pastels, eux, n'y sont pas.",
+    description:
+      "Robe de mariée style Bridgerton : les codes du Regencycore (corset, col carré, manches ballon, perles) et les robes qui les portent. MADAMOON, Paris 10e.",
+    chapo:
+      "La série a remis la Régence anglaise au goût du jour : corsets, encolures carrées, manches ballon, gants longs, broderies et bals. Les professionnels du mariage l'annoncent parmi les tendances 2027 sous le nom de Regencycore — une version moderne, plus audacieuse, « une âme profondément cinématographique ». Voici d'où vient ce style, ses codes, et ce que le catalogue en a, robe par robe, sans rien y ajouter.",
+    sections: [
+      {
+        titre: "Bridgerton, Regencycore : d'où vient le style",
+        texte: [
+          "La Régence anglaise, c'est la décennie 1811-1820, celle de Jane Austen : des robes à taille haute, nouée sous la poitrine, en mousseline claire, des encolures carrées, de petites manches bouffantes, de longs gants et des cheveux relevés. La série Bridgerton, depuis 2020, en a fait un décor de bal — pastels, broderies, perles, corsets — et une esthétique que les mariées reprennent : le Regencycore. Sa version 2027 se veut moins costume, plus moderne : les ornements travaillés, les silhouettes fluides et un romantisme assumé, sans cérémonie d'époque.",
+        ],
+      },
+      {
+        titre: "Les codes d'une robe de mariée style Bridgerton",
+        texte: [
+          "Un corset, visible ou structurant, qui dessine le buste et la taille. Une encolure carrée, ou un décolleté net. Des manches courtes et bouffantes — ballon —, ou des bras nus que de longs gants habillent. De la dentelle, des broderies de perles, du tulle. Une jupe qui tombe droit depuis une taille haute dans la version historique ; une jupe de princesse ou de trapèze dans la version mariage. Et des teintes pâles — ivoire, blanc cassé, poudré — plutôt que du blanc optique.",
+        ],
+      },
+      {
+        titre: "Au catalogue : les robes qui en portent les codes",
+        texte: [
+          "Le corset d'abord. Guinevere, princesse en jacquard floral, a un corset bustier à taille basque en pointe et une longue traîne : la plus « bal » du catalogue, d'après sa fiche à l'allure couture. Oksana, sirène en dentelle de Chantilly, a le même corset basque en pointe ; Charlotte, en dentelle Caterina, un corset en taille basque sous un décolleté en cœur. Zina a un corset à laçage ; Rowan et Charlize un corset transparent, qui existe doublé ; Carrie, Hélène et Agnessa un corset perlé à la main.",
+          "L'encolure carrée ensuite. Dolores, trapèze ou princesse en tulle, dentelle et perles, porte un col carré « qui flatte le buste » et un dos transparent en dentelle orné de boutons. Clover avec ou sans perles, en dentelle Caterina, a un décolleté carré et une taille basse sculptée. River, courte, un décolleté carré à larges bretelles : la version mairie.",
+          "Les manches ballon, c'est Ryle, fluide en charmeuse, au décolleté en V profond. Les gants : Santana, princesse à taille basque en organza, tulle et dentelle florale, « peut être accessoirisée avec les gants transparents en tulle de soie, ornés de dentelle florale », disponibles séparément, dit sa fiche. Les broderies et les perles : Fern, en mikado brodé de fleurs de perles ; Maribel, au corsage brodé et perlé à la main ; Emerald, corsage perlé sur une jupe de tulle.",
+        ],
+      },
+      {
+        titre: "Ce que le catalogue n'a pas",
+        texte: [
+          "La taille empire, nouée sous la poitrine : aucune fiche ne la décrit. Les robes fluides du catalogue ont la taille à sa place, et le guide des coupes le dit. Les pastels — bleu poudré, lilas, rose — non plus : les robes sont blanches ou ivoire, et la seule touche de couleur est brodée sur Clover ; les coloris proposés par chaque maison se voient au showroom. Les manches bouffantes courtes, enfin, ne sont pas au catalogue hors les manches ballon de Ryle. Une robe Bridgerton se compose donc ici avec le corset, l'encolure, les perles et les gants, pas avec la silhouette historique.",
+        ],
+      },
+      {
+        titre: "Un mariage à thème Bridgerton : la robe dans le décor",
+        texte: [
+          "Le thème se joue dans le lieu — un salon, un escalier, un jardin à la française —, la décoration, la papeterie, la musique, les tenues des invités. La boutique n'y intervient pas : elle propose des robes, que l'on essaie au showroom. Mais la robe en est la pièce centrale, et c'est à l'essayage qu'on la juge dans l'esprit du thème : un corset qui tient, une encolure qui porte un collier, des gants qui vont avec les manches. Apportez vos images d'inspiration au premier rendez-vous ; l'heure est privatisée.",
+        ],
+      },
+      {
+        titre: "Pour quelle morphologie ?",
+        texte: [
+          "Le corset dessine la taille : d'après leurs fiches, les sirènes à corset — Riviera, Rowan, Charlize — sont indiquées pour les morphologies en V, en H, en 8 et en X ; les trapèzes et princesses à corset — Charlotte, Lovia, Carrie, Dolores, Ember, Calla — pour toutes. Le col carré flatte le buste, dit la fiche de Dolores. Le reste se décide robe sur soi.",
+        ],
+      },
+    ],
+    aRetenir: [
+      "Les codes : corset, encolure carrée, manches ballon ou gants, dentelle, perles, tulle.",
+      "Au catalogue : le corset de Guinevere, Oksana, Zina, Rowan ; le col carré de Dolores et Clover ; les manches ballon de Ryle ; les gants avec Santana.",
+      "Pas de taille empire ni de pastels : les robes sont blanches ou ivoire.",
+      "Le thème est affaire de lieu et de décor ; la robe se juge à l'essayage, au showroom.",
+    ],
+    liens: [
+      { href: "/details/corset", label: "Les robes de mariée corset" },
+      { href: "/robes/dolores", label: "Dolores, le col carré en tulle et dentelle" },
+      { href: "/robes/ryle", label: "Ryle, les manches ballon" },
+      { href: "/robes/santana", label: "Santana, et ses gants en tulle de soie" },
+      { href: "/styles/romantique", label: "Les robes de mariée romantiques" },
       { href: "/rendez-vous", label: "Prendre rendez-vous" },
     ],
   },

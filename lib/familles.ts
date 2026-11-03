@@ -264,6 +264,10 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Pas nécessairement : le prix dépend de la matière, de la maison et du travail de confection, pas du nombre d'ornements. Toutes les robes sont confectionnées à vos mesures à partir de 1 500 €, retouches comprises. Le guide des prix l'explique en détail.",
           },
           {
+            q: "Robe de mariée simple et quiet luxury : la même chose ?",
+            r: "Presque. Le quiet luxury — le luxe discret, annoncé parmi les tendances 2027 — est une robe simple dont la matière fait tout : un crêpe lourd, un satin de soie, une charmeuse qui tombe, aucun ornement qui fasse signe. Au catalogue, Bondi et Milan en crêpe, Dove en satin mat, Addison en satin de soie, Adularia en charmeuse en ont l'esprit ; le style quiet luxury se voit à la confection à vos mesures, pas au décor.",
+          },
+          {
             q: "Quelle robe de mariée simple pour un mariage civil ?",
             r: "Une robe courte en crêpe comme Elin, pensée pour la cérémonie civile, ou une fluide épurée comme Adularia pour une mairie suivie d'un déjeuner.",
           },
@@ -716,8 +720,8 @@ export const PAGES_FAMILLES: PageFamille[] = [
             r: "Un corsage structuré se porte souvent sans soutien-gorge, ou avec un bustier sans bretelles couleur chair, sans coutures. Apportez-le dès le deuxième essayage, pour que la robe s'ajuste avec.",
           },
           {
-            q: "Robe de mariée corset ou bustier : quelle différence ?",
-            r: "Le bustier décrit la robe — sans bretelles ; le corset décrit le corsage — structuré, baleiné, parfois lacé. Une robe corset peut avoir des bretelles, comme Lovia ou Carrie ; une robe bustier a toujours un corsage qui tient.",
+            q: "Une robe bustier a-t-elle toujours un corset ?",
+            r: "Un corsage qui tient, oui — baleiné, doublé, parfois lacé ; on l'appelle corset quand il est structuré au point de se voir, comme sur Guinevere ou Oksana. Les robes dont le corset fait le style — lacé, transparent, perlé, avec ou sans bretelles — ont leur propre page.",
           },
           {
             q: "Quelle robe bustier pour un mariage, et quel décolleté ?",
@@ -736,6 +740,159 @@ export const PAGES_FAMILLES: PageFamille[] = [
       },
       fin: {
         titre: "Essayer une robe de mariée bustier en showroom",
+        texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
+      },
+    },
+  },
+
+  /* ————————————————————————————————————————————— corset —————
+   * Vague H (3 nov. 2026). Mot-clé transmis par la maison, parmi les
+   * tendances 2027 (Regencycore). Une robe n'est ici que si sa fiche dit
+   * « corset » ; le bustier reste la robe sans bretelles, et sa page. */
+  {
+    famille: "details",
+    slug: "corset",
+    titre: "Robe de mariée corset à Paris",
+    description:
+      "Robe de mariée corset à Paris : corset lacé, transparent ou perlé, taille basque en pointe. Guinevere, Oksana, Zina, Rowan… au showroom MADAMOON, Paris 10e.",
+    note: "Le corsage qui tient, et qui se voit",
+    chapo:
+      "Une robe de mariée corset se reconnaît à son corsage : structuré, parfois baleiné ou lacé, il marque la taille et dessine le buste, avec ou sans bretelles. Au catalogue, le corset prend une taille basque en pointe, un laçage dans le dos, une transparence doublée ou non, des perles posées à la main, sur des sirènes, des princesses et des trapèzes. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+    morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
+    style: {
+      voirLaCoupe: "Toutes les robes",
+      robes: {
+        titre: "Nos robes de mariée corset",
+        liste: [
+          {
+            slug: "guinevere",
+            texte:
+              "Princesse bustier en jacquard floral : un corset au décolleté cœur plongeant et pointu, sublimé par une taille basque, sur une jupe volumineuse à longue traîne.",
+          },
+          {
+            slug: "oksana",
+            texte:
+              "Sirène en dentelle de Chantilly, corset basque en pointe : la taille basque structurée sculpte le corps avant la traîne, dit sa fiche.",
+          },
+          {
+            slug: "aleida",
+            texte:
+              "Fines bretelles spaghetti, décolleté plongeant prolongé par un corset à taille basque en pointe : maintien et sensualité, d'après sa fiche.",
+          },
+          {
+            slug: "zina",
+            texte:
+              "Sirène en georgette stretch et satin mat, fleurs 3D faites main, fente et corset à laçage.",
+          },
+          {
+            slug: "charlize",
+            texte:
+              "Un corset transparent — ou doublé, si l'on n'apprécie pas la transparence — et une fente sur une jupe en dentelle de Chantilly.",
+          },
+          {
+            slug: "rowan",
+            texte:
+              "Fourreau en charmeuse au corset transparent orné de perles, sur la dentelle Mori ; le corset existe aussi doublé, pour une version plus couvrante.",
+          },
+          {
+            slug: "ember",
+            texte:
+              "Princesse en Dupioni, dont le corset structure la silhouette : « allure élégante et contemporaine », dit sa fiche.",
+          },
+          {
+            slug: "riviera",
+            texte:
+              "Sirène en charmeuse, corset structuré et manches amovibles, le corsage souligné de regroupements de perles.",
+          },
+          {
+            slug: "carrie",
+            texte:
+              "Trapèze pailletée, fines bretelles et corset perlé à la main : « un rêve de conte de fées », dit sa fiche.",
+          },
+          {
+            slug: "lovia",
+            texte:
+              "Trapèze ou volume princesse en dentelle, corset à encolure en V qui marque bien la taille, bretelles fines perlées et fente.",
+          },
+          {
+            slug: "helene",
+            texte:
+              "Un corset lumineux en dentelle ornée de petites perles et de fleurs en relief, sur une jupe fluide en mousseline.",
+          },
+          {
+            slug: "calla",
+            texte:
+              "Un corsage structuré façon corset, un décolleté arrondi, en tulle souple et dentelle Highclare : romantique et confortable, d'après sa fiche.",
+          },
+        ],
+      },
+      colonnes: [
+        {
+          titre: "Corset, bustier, corsage : les mots",
+          texte:
+            "Le corsage est le haut de la robe ; le corset, un corsage structuré — baleiné, doublé, parfois lacé — qui tient et dessine ; le bustier, la robe sans bretelles. Une robe corset peut avoir des bretelles, Lovia ou Carrie, ou s'en passer, Guinevere ou Charlotte. La taille basque en pointe, qui descend sous la taille, est celle de Guinevere, d'Oksana, d'Aleida et de Charlotte.",
+        },
+        {
+          titre: "Lacé, transparent, perlé, apparent",
+          texte:
+            "Le corset à laçage, c'est Zina, lacé dans le dos. Le corset transparent, Charlize et Rowan, l'un et l'autre proposés aussi doublés. Le corset perlé, Carrie, Rowan, Hélène et Agnessa, perlés à la main. Ariel porte son corset apparent dans le dos, sous des pétales de mousseline ; Dolores le boutonne jusqu'en bas, sous un dos transparent en dentelle.",
+        },
+        {
+          titre: "Le corset marque la taille",
+          texte:
+            "C'est ce que disent les fiches, de Fancy — « marque et affine la taille » — à Finell, Angel et Lovia : le corset dessine une courbe entre la taille et les hanches. Il ne serre pas, il tient ; et comme toutes les robes de la boutique, il est confectionné à vos mesures, retouches comprises, à partir de 1 500 €.",
+        },
+        {
+          titre: "Du Regencycore au quotidien",
+          texte:
+            "Le corset est le premier code de la tendance Bridgerton, ou Regencycore, annoncée pour 2027 : le guide qui lui est consacré dit ce que le catalogue en a — corset, col carré, manches ballon, perles — et ce qu'il n'a pas. Sur une robe de mariée corset moderne, il se porte sur une sirène en charmeuse comme Riviera ou Rowan, autant que sur une princesse comme Ember.",
+        },
+      ],
+      echo: {
+        titre: "Le corset structuré d'une deux-en-un",
+        texte:
+          "Tessa, de Casablanca Bridal, est une sirène au charme vintage-chic, d'après sa fiche : un corset structuré, des bretelles amovibles pour un autre look, et une surjupe détachable. Elle est rangée avec les deux-en-un, et s'essaie volontiers à côté des robes corset.",
+        robe: "tessa",
+        voir: "Voir Tessa",
+      },
+      pourQui: {
+        titre: "À qui elle va",
+        texte:
+          "Le corset dessine la taille : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse. D'après leurs fiches, Charlotte, Finell, Carrie, Lovia, Ember, Calla, Hélène et Agnessa sont indiquées pour toutes les morphologies ; Charlize, Riviera et Rowan pour celles en V, en H, en 8 et en X. Le maintien du corsage se vérifie à l'essayage, bras levés.",
+        toutes: "Toutes les morphologies",
+      },
+      questions: {
+        titre: "Les questions",
+        liste: [
+          {
+            q: "Qu'est-ce qu'une robe de mariée corset ?",
+            r: "Une robe dont le corsage est structuré — baleiné, doublé, parfois lacé — au point de se voir : il tient la robe et dessine la taille. Au catalogue, c'est le corset basque en pointe d'Oksana et de Guinevere, le corset à laçage de Zina, le corset transparent de Charlize et de Rowan, le corset perlé de Carrie et d'Hélène.",
+          },
+          {
+            q: "Robe de mariée corset ou bustier : quelle différence ?",
+            r: "Le bustier décrit la robe — sans bretelles ; le corset décrit le corsage — structuré, parfois lacé. Une robe corset peut avoir des bretelles, comme Lovia ou Carrie ; une robe bustier a toujours un corsage qui tient, qu'on l'appelle corset ou non. Guinevere et Charlotte sont les deux à la fois.",
+          },
+          {
+            q: "Un corset de robe de mariée serre-t-il ?",
+            r: "Il tient, il ne serre pas : il est fait à vos mesures, puis ajusté aux retouches, qui sont comprises. L'essayage final vérifie l'aisance — lever les bras, s'asseoir, danser. Pour un corset lacé comme celui de Zina, le laçage se règle le jour même.",
+          },
+          {
+            q: "Corset en dentelle, en satin, en charmeuse ou transparent ?",
+            r: "En dentelle de Chantilly, Oksana ; en dentelle Caterina, Charlotte ; en charmeuse, Riviera et Rowan ; en Dupioni, Ember ; en satin mat, Sheridan, dont la dentelle florale illumine le corset. Transparents, Charlize et Rowan, l'un et l'autre proposés doublés pour qui n'aime pas la transparence.",
+          },
+          {
+            q: "Où essayer une robe de mariée corset à Paris ?",
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un corset lacé, un corset transparent et une taille basque en pointe, robe sur soi.`,
+          },
+          {
+            q: "Corset de mariage à lacer, corset apparent, bustier corset : ce que l'on cherche",
+            r: "Le corset lacé dans le dos, c'est Zina ; le corset apparent, Ariel, dans le dos sous ses pétales ; le bustier corset, Guinevere et Charlotte, sans bretelles. Un corset seul — un haut, un top, une pièce de lingerie à porter sous ou avec une jupe — n'est pas au catalogue : la boutique propose des robes entières, que l'on essaie au showroom.",
+          },
+        ],
+        toutes: "Tous les guides",
+      },
+      fin: {
+        titre: "Essayer une robe de mariée corset en showroom",
         texte: `${ADRESSE}, Paris 10ᵉ, sur rendez-vous.`,
       },
     },
