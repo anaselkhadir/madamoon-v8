@@ -191,6 +191,10 @@ const FR = {
      * sont les mots de la page du collectif, qui disent la même chose
      * autrement. */
     autresNote: "De petits ateliers indépendants, avec des modèles exclusifs.",
+    /* La carte rouge des maisons, à côté du texte. */
+    carteLegende: "Les maisons MADAMOON",
+    carteListe: "Les maisons, une à une",
+    carteVoir: "Voir la maison",
     precedentes: "Voir les maisons précédentes",
     suivantes: "Voir les maisons suivantes",
   },
@@ -1015,6 +1019,9 @@ const EN: Textes = {
       "Biarritz, Newport Beach, Rome, Dallas, Lviv, Barcelona — the finest dresses of the bridal collections, chosen one by one for you.",
     autres: "Other designers",
     autresNote: "Small independent ateliers, with exclusive designs.",
+    carteLegende: "The MADAMOON houses",
+    carteListe: "The houses, one by one",
+    carteVoir: "See the house",
     precedentes: "See the previous houses",
     suivantes: "See the next houses",
   },
