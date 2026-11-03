@@ -237,8 +237,8 @@ body {
  * pas, d'où cette classe. */
 @media (min-width: 1024px) {
   .texte-a-cote {
-    font-size: clamp(0.875rem, 1.04vw, 0.9375rem);
-    line-height: 1.65;
+    font-size: clamp(0.8125rem, 0.94vw, 0.875rem);
+    line-height: 1.6;
   }
 }
 
