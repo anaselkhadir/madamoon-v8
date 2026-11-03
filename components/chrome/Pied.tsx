@@ -118,12 +118,13 @@ export default function Pied({ familles = [] }: { familles?: LienFamille[] }) {
         * showroom, une colonne chacune ; la grande taille se range avec
         * les détails, le prix sous eux.
         *
-        * Ordinateur seulement, en français seulement : au doigt, ces
-        * liens restent sous les robes de l'accueil, comme avant ; et ces
-        * pages n'ont pas de version anglaise.
+        * Sur ordinateur comme au doigt (demande de la maison) ; en
+        * français seulement : ces pages n'ont pas de version anglaise.
+        * Au doigt, elles s'empilent sous les autres colonnes, deux de
+        * front à partir de six cent quarante pixels.
         */}
       {l === "fr" && familles.length > 0 && (
-        <div className="mt-12 hidden gap-10 lg:grid lg:grid-cols-4">
+        <div className="mt-10 grid gap-10 sm:grid-cols-2 lg:mt-12 lg:grid-cols-4">
           {(
             [
               { titre: L.pied.parStyle, liens: familles.filter((f) => f.famille === "styles") },
