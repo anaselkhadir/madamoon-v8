@@ -64,6 +64,12 @@ export default function Morphologies({ langue = "fr" }: { langue?: Langue }) {
               </h2>
             </span>
             <p className="texte mesure-l mt-4">{L.silhouette.texte}</p>
+            {/* De l'ancien édito de l'accueil, au mot près. */}
+            {langue === "fr" && (
+              <p className="texte mesure-l mt-3">
+                Avant le goût, la <Link href="/morphologies" className="souligne">morphologie</Link> décide souvent : c'est par elle que l'on vous conseille.
+              </p>
+            )}
           </div>
 
           {/* Le rappel des pages de morphologie : une piste, jamais une

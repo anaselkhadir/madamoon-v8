@@ -4,6 +4,7 @@ import { SCENES } from "@/lib/medias";
 import { altScene } from "@/lib/alt";
 import type { Langue } from "@/lib/langue";
 import { t } from "@/lib/textes";
+import { MAISON } from "@/lib/madamoon";
 
 /*
  * Le showroom.
@@ -97,6 +98,20 @@ export default function Showroom({ langue = "fr" }: { langue?: Langue }) {
           </Link>
         </div>
       </div>
+
+      {/* Sous la carte, en français seulement : ce que l'on cherche
+        * quand on cherche une boutique à Paris, et ce que la maison y
+        * répond. Le paragraphe vient de l'ancien édito de l'accueil,
+        * réparti à la demande de la maison dans les sections qui en
+        * parlent ; il est repris au mot près. */}
+      {langue === "fr" && (
+        <div className="grid gap-x-[clamp(2rem,6vw,6rem)] gap-y-4 pt-[clamp(2rem,4vw,3.5rem)] md:grid-cols-12">
+          <h3 className="legende md:col-span-4">Choisir sa robe de mariée à Paris</h3>
+          <p className="texte md:col-span-8">
+            Chercher une boutique de robe de mariée à Paris — un magasin de robes de mariée, un showroom, les mots changent et le besoin reste — commence rarement par une robe. Cela commence par une heure : celle où le showroom MADAMOON, {MAISON.adresse}, dans le 10ᵉ arrondissement, est privatisé pour vous. On n'y essaie pas tout ; on y essaie ce qu'il faut, en partant de la coupe qui vous ressemble, puis de la maison qui la fait le mieux. Où acheter sa robe de mariée, où l'essayer « autour de moi » quand on cherche à Paris : ici, et nulle part ailleurs en France. Pas de liste de magasins, pas de robe pas cher : une adresse, et une heure pour vous. Meilleure boutique de robe de mariée à Paris, la mieux notée, dans quel quartier ? Lisez les avis de la maison et venez voir : en Île-de-France comme à Paris, un seul showroom, dans le 10ᵉ, sur rdv, et aucune location de robe.
+          </p>
+        </div>
+      )}
     </section>
   );
 }

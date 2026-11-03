@@ -2,7 +2,7 @@ import Link from "@/components/Lien";
 import Photo from "@/components/media/Photo";
 import RailFleches from "@/components/accueil/RailFleches";
 import RailSouris from "@/components/accueil/RailSouris";
-import { AUTRES_CREATEURS, CREATEURS, ROBES, estEnVedette } from "@/lib/madamoon";
+import { AUTRES_CREATEURS, CREATEURS, MAISON, ROBES, estEnVedette } from "@/lib/madamoon";
 import { VIGNETTES_CREATEURS, vues } from "@/lib/medias";
 import { altRobe } from "@/lib/alt";
 import type { Langue } from "@/lib/langue";
@@ -85,6 +85,13 @@ export default function Createurs({ langue = "fr" }: { langue?: Langue }) {
           </h2>
         </span>
         <p className="texte mesure-l mt-4">{L.createurs.lieux}</p>
+        {/* De l'ancien édito de l'accueil, au mot près : ce que la
+          * boutique est, et d'où viennent ses robes. Français seulement. */}
+        {langue === "fr" && (
+          <p className="texte mesure-l mt-4">
+            MADAMOON est une boutique, pas une maison de couture : ses robes de mariée viennent de plusieurs créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de {MAISON.prixDepart}, retouches comprises.
+          </p>
+        )}
       </div>
 
       {/* La bande. Elle déborde volontairement à droite : c'est ce débord

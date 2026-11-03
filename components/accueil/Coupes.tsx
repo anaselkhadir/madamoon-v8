@@ -393,6 +393,18 @@ export default function Coupes({ langue = "fr" }: { langue?: Langue }) {
           </Link>
         </div>
       </div>
+
+      {/* Ce que fait chaque coupe, en une phrase et vers sa page. De
+        * l'ancien édito de l'accueil, au mot près ; écrite une seule fois,
+        * sous l'accordéon comme sous la trame, pour ne pas la doubler dans
+        * la page. Français seulement. */}
+      {langue === "fr" && (
+        <p className="gouttiere texte mt-8 max-w-none lg:mt-[clamp(2rem,3.5vw,2.75rem)]">
+          <span className="mesure-l block">
+            Une <Link href="/coupes/sirene" className="souligne">robe de mariée sirène</Link> dessine la taille et les hanches ; une <Link href="/coupes/princesse" className="souligne">princesse</Link> assume le volume ; une <Link href="/coupes/fluide" className="souligne">robe fluide</Link> suit le mouvement ; un <Link href="/coupes/trapeze" className="souligne">trapèze</Link> s'ouvre en A ; une <Link href="/coupes/deux-en-un" className="souligne">deux-en-un</Link> change d'allure entre la cérémonie et la soirée.
+          </span>
+        </p>
+      )}
     </section>
   );
 }

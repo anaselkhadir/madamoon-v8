@@ -8,7 +8,6 @@ import Coupes from "@/components/accueil/Coupes";
 import Createurs from "@/components/accueil/Createurs";
 import Avis from "@/components/accueil/Avis";
 import Showroom from "@/components/accueil/Showroom";
-import Edito from "@/components/accueil/Edito";
 import { partage } from "@/lib/meta";
 
 /*
@@ -54,7 +53,6 @@ export default function Accueil() {
       <Coupes langue="fr" />
       <Createurs langue="fr" />
       <Avis langue="fr" />
-      <Edito />
       <Showroom langue="fr" />
     </>
   );
