@@ -85,12 +85,21 @@ export default function Createurs({ langue = "fr" }: { langue?: Langue }) {
           </h2>
         </span>
         <p className="texte mesure-l mt-4">{L.createurs.lieux}</p>
-        {/* De l'ancien édito de l'accueil, au mot près : ce que la
-          * boutique est, et d'où viennent ses robes. Français seulement. */}
+        {/* Le texte de la maison, envoyé le 3 novembre 2026 : d'où
+          * viennent les robes, la confection à vos mesures, le prix de
+          * départ. Français seulement. */}
         {langue === "fr" && (
-          <p className="texte mesure-l mt-4">
-            MADAMOON est une boutique, pas une maison de couture : ses robes de mariée viennent de plusieurs créateurs choisis un à un — Watters Designs, Casablanca Bridal, Olya Mak, Monica Loretti — et de quelques ateliers indépendants. Chaque robe choisie est ensuite confectionnée à vos mesures, à partir de {MAISON.prixDepart}, retouches comprises.
-          </p>
+          <div className="texte mesure-l mt-4">
+            <p>
+              Chez MADAMOON, chaque robe est choisie avec une attention particulière, auprès de créateurs reconnus pour leur élégance et leur savoir-faire. Notre sélection réunit les univers de Watters Designs, Casablanca Bridal, Olya Mak et Monica Loretti, ainsi que quelques ateliers indépendants soigneusement sélectionnés.
+            </p>
+            <p className="mt-4">
+              Parce que chaque future mariée mérite une robe qui lui ressemble, le modèle que vous aurez choisi est confectionné à vos mesures et délicatement ajusté pour épouser votre silhouette.
+            </p>
+            <p className="mt-4">
+              Nos créations sont proposées à partir de <strong className="font-medium text-encre">{MAISON.prixDepart}</strong>, retouches comprises, pour vous offrir une expérience où chaque détail compte.
+            </p>
+          </div>
         )}
       </div>
 
