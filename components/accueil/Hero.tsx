@@ -215,13 +215,14 @@ export default function Hero({ langue = "fr" }: { langue?: Langue }) {
       <div className="gouttiere absolute inset-0 flex flex-col justify-center">
         <div className="w-full max-md:text-center md:max-w-[53vw] md:min-w-[16rem]">
           {/* Le slogan garde sa taille d'affiche, mais c'est la ligne qui
-            * dit le métier et la ville qui porte le H1 : « Robes de mariée,
-            * essayage privé — Paris 10e » est ce qu'une mariée cherche,
-            * « Vous vous mariez bientôt ? » est ce qu'on lui répond. Rien ne
-            * change à l'écran. */}
+            * dit le métier et la ville qui porte le H1 : « Robe de mariée à
+            * Paris » est ce qu'une mariée cherche (demande de la maison,
+            * 10 novembre 2026 ; elle remplace « Robes de mariée, essayage
+            * privé — Paris 10e »), « Vous vous mariez bientôt ? » est ce
+            * qu'on lui répond. */}
           <p className="affiche text-sur-image" role="presentation">{L.hero.titre}</p>
           <h1 className="accroche mt-6 text-sur-image">
-            {L.hero.accroche}<sup>e</sup>
+            {L.hero.accroche}
           </h1>
 
           {/* Grand écran : côte à côte, calés sur la gouttière.

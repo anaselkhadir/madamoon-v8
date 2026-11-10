@@ -76,7 +76,7 @@ const FR = {
   },
   hero: {
     titre: "Vous vous mariez bientôt ?",
-    accroche: "Robes de mariée, essayage privé — Paris 10",
+    accroche: "Robe de mariée à Paris",
     trouverMaRobe: "Trouver ma robe",
     prendreRendezvous: "Prendre rendez-vous",
     alt: "Une mariée en robe de dentelle",
@@ -943,7 +943,7 @@ const EN: Textes = {
   },
   hero: {
     titre: "Getting married soon?",
-    accroche: "Wedding dresses, private fittings — Paris 10",
+    accroche: "Wedding dress in Paris",
     trouverMaRobe: "Find my dress",
     prendreRendezvous: "Book an appointment",
     alt: "A bride in a lace dress",
