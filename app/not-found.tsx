@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif } from "next/font/google";
+import localFont from "next/font/local";
 import PageIntrouvable from "@/components/pages/PageIntrouvable";
 import "./globals.css";
 
@@ -23,18 +23,25 @@ export const metadata: Metadata = {
   robots: { index: false, follow: true },
 };
 
-const serif = Instrument_Serif({
-  subsets: ["latin"],
+/* Les mêmes fichiers que le gabarit (components/chrome/Gabarit.tsx),
+ * servis depuis le dépôt : plus rien n'est téléchargé chez Google à la
+ * construction, qui échouait quand le service ne répondait pas. */
+const serif = localFont({
+  src: "./polices/instrument-serif-400.woff2",
   weight: "400",
-  display: "swap",
+  style: "normal",
   variable: "--police-serif",
+  display: "swap",
+  fallback: ["Times New Roman", "serif"],
 });
 
-const sans = Inter({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "swap",
+const sans = localFont({
+  src: "./polices/inter-variable.woff2",
+  weight: "100 900",
+  style: "normal",
   variable: "--police-sans",
+  display: "swap",
+  fallback: ["ui-sans-serif", "system-ui", "sans-serif"],
 });
 
 export default function Introuvable() {
