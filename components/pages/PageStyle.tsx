@@ -1,4 +1,5 @@
 import Link from "@/components/Lien";
+import QuestionsAccordeon from "@/components/QuestionsAccordeon";
 import Tuile from "@/components/Tuile";
 import FilDAriane from "@/components/FilDAriane";
 import AppelRendezvous from "@/components/parcours/AppelRendezvous";
@@ -238,23 +239,7 @@ export default function PageStyle({
             {S.questions.toutes}
           </Link>
         </div>
-        <dl className="mt-7 max-w-[52rem] border-t border-fil">
-          {S.questions.liste.map((item) => (
-            <div key={item.q} className="border-b border-fil py-6">
-              <dt
-                style={{
-                  fontFamily: "var(--font-serif)",
-                  fontSize: "clamp(1.125rem, 1.6vw, 1.375rem)",
-                  lineHeight: 1.35,
-                  color: "var(--color-encre)",
-                }}
-              >
-                {item.q}
-              </dt>
-              <dd className="texte mesure-l mt-3">{item.r}</dd>
-            </div>
-          ))}
-        </dl>
+        <QuestionsAccordeon questions={S.questions.liste} />
       </section>
 
       {/* ————————————————————————————————————— le rendez-vous —————

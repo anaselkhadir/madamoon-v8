@@ -1,4 +1,5 @@
 import Link from "@/components/Lien";
+import QuestionsAccordeon from "@/components/QuestionsAccordeon";
 import TitreSection from "@/components/TitreSection";
 import Photo from "@/components/media/Photo";
 import Avis from "@/components/accueil/Avis";
@@ -184,33 +185,26 @@ export default function PageShowroom({ langue }: { langue: Langue }) {
             {L.toutesLesQuestions}
           </Link>
         </div>
-        <dl className="mt-7 max-w-[52rem] border-t border-fil">
-          {AVANT_DE_VENIR.map((rang) => {
+        <QuestionsAccordeon
+          questions={AVANT_DE_VENIR.flatMap((rang) => {
             const q = questions[rang];
             const slug = SLUGS_QUESTIONS[rang];
-            if (!q || !slug) return null;
-            return (
-              <div key={slug} className="border-b border-fil py-6">
-                <dt
-                  style={{
-                    fontFamily: "var(--font-serif)",
-                    fontSize: "clamp(1.125rem, 1.6vw, 1.375rem)",
-                    lineHeight: 1.35,
-                    color: "var(--color-encre)",
-                  }}
-                >
-                  {q.q}
-                </dt>
-                <dd className="texte mesure-l mt-3">
-                  {q.r}{" "}
-                  <Link href={`/faq/${slug}`} className="lien-nav souligne whitespace-nowrap text-action">
-                    {L.lireLaReponse}
-                  </Link>
-                </dd>
-              </div>
-            );
+            if (!q || !slug) return [];
+            return [
+              {
+                q: q.q,
+                r: (
+                  <>
+                    {q.r}{" "}
+                    <Link href={`/faq/${slug}`} className="lien-nav souligne whitespace-nowrap text-action">
+                      {L.lireLaReponse}
+                    </Link>
+                  </>
+                ),
+              },
+            ];
           })}
-        </dl>
+        />
       </section>
 
       {/* ————————————————————————————————————— ce qu'elles en disent —————

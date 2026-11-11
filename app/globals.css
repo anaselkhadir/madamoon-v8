@@ -1940,6 +1940,10 @@ html[data-ouverture]::before {
   color: var(--color-encre);
   text-align: left;
 }
+.questions-acc--court .questions-acc-tete {
+  font-size: 1.125rem;
+  line-height: 1.25;
+}
 .questions-acc-fleche {
   display: none;
 }
@@ -1970,7 +1974,8 @@ html[data-ouverture]::before {
   .questions-acc-item[data-ouverte] {
     background: var(--color-gris-appuye);
   }
-  .questions-acc-tete {
+  .questions-acc-tete,
+  .questions-acc--court .questions-acc-tete {
     display: flex;
     width: 100%;
     align-items: center;

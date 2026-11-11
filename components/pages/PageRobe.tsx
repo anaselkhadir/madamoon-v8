@@ -1,4 +1,5 @@
 import Link from "@/components/Lien";
+import QuestionsAccordeon from "@/components/QuestionsAccordeon";
 import { notFound } from "next/navigation";
 import Photo from "@/components/media/Photo";
 import Galerie from "@/components/robe/Galerie";
@@ -582,23 +583,7 @@ export default async function PageRobe({
           ))}
         </div>
 
-        <dl className="mt-12 max-w-[52rem] border-t border-fil">
-          {seo.questions.map((x) => (
-            <div key={x.q} className="border-b border-fil py-6">
-              <dt
-                style={{
-                  fontFamily: "var(--font-serif)",
-                  fontSize: "clamp(1.125rem, 1.6vw, 1.375rem)",
-                  lineHeight: 1.35,
-                  color: "var(--color-encre)",
-                }}
-              >
-                {x.q}
-              </dt>
-              <dd className="texte mesure-l mt-3">{x.r}</dd>
-            </div>
-          ))}
-        </dl>
+        <QuestionsAccordeon questions={seo.questions} className="mt-12 max-w-[52rem]" />
       </section>
 
       {/* ————————————————————————————— les voisines ————— */}

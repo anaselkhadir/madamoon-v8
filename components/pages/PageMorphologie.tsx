@@ -1,4 +1,5 @@
 import Link from "@/components/Lien";
+import QuestionsAccordeon from "@/components/QuestionsAccordeon";
 import { notFound } from "next/navigation";
 import AppelElise from "@/components/AppelElise";
 import HeroPage from "@/components/HeroPage";
@@ -374,14 +375,7 @@ export default async function PageMorphologie({
           {nouvelles ? (
             <RangeesQuestions base={base} questions={nouvelles} savoirPlus={L.savoirPlus} />
           ) : (
-            <dl className="mesure-l border-t border-fil" data-suite>
-              {lesQuestions.map((x) => (
-                <div key={x.q} className="border-b border-fil py-6">
-                  <dt className="phrase text-[1.125rem] text-encre">{x.q}</dt>
-                  <dd className="texte mt-3">{x.r}</dd>
-                </div>
-              ))}
-            </dl>
+            <QuestionsAccordeon questions={lesQuestions} className="mesure-l" court suite />
           )}
         </div>
       </section>

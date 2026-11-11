@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useEffect, useId, useState, type ReactNode } from "react";
 
 /*
- * Les questions d'une page de style, de matière ou de détail.
+ * Les questions en bas des pages : styles, matières, détails, coupes,
+ * fiches robes, morphologies, showroom (depuis le 11 novembre 2026).
  *
  * Sur ordinateur, un accordéon d'après le motif « CSS accordion » envoyé
  * par Anas le 11 novembre 2026 : des cartes posées les unes sous les
@@ -25,11 +26,25 @@ import { useEffect, useId, useState } from "react";
  * réduit : tout s'ouvre sans glisser.
  */
 
-type Question = { q: string; r: string };
+type Question = { q: string; r: ReactNode };
 
 const ORDI = "(min-width: 1024px)";
 
-export default function QuestionsAccordeon({ questions }: { questions: Question[] }) {
+export default function QuestionsAccordeon({
+  questions,
+  className = "mt-7 max-w-[52rem]",
+  court = false,
+  suite = false,
+}: {
+  questions: Question[];
+  /* La place de la liste dans sa page (marge, largeur). */
+  className?: string;
+  /* Sur téléphone, des questions d'un cran plus petites : celles des
+   * morphologies l'étaient déjà. */
+  court?: boolean;
+  /* Les rangées montent une à une au défilement (« data-suite »). */
+  suite?: boolean;
+}) {
   const id = useId();
   const [ouverte, setOuverte] = useState<number | null>(0);
   /* Vrai au rendu serveur : l'ordinateur reçoit d'emblée ses boutons,
@@ -46,7 +61,7 @@ export default function QuestionsAccordeon({ questions }: { questions: Question[
   }, []);
 
   return (
-    <div className="questions-acc mt-7 max-w-[52rem]">
+    <div className={`questions-acc ${court ? "questions-acc--court" : ""} ${className}`} data-suite={suite || undefined}>
       {questions.map((item, i) => {
         const ok = ouverte === i;
         const tete = `${id}-${i}-q`;
