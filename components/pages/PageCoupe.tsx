@@ -225,6 +225,7 @@ export default async function PageCoupe({
         <section aria-labelledby="questions" className="pb-[clamp(3rem,6vw,5rem)]">
           <TitreSection
             id="questions"
+            className="titre-questions"
             titre={Q.lesQuestions}
             lien={{ href: "/rendez-vous", label: Q.poserLaVotre }}
           />

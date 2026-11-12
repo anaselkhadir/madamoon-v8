@@ -1957,7 +1957,16 @@ html[data-ouverture]::before {
 }
 
 @media (min-width: 1024px) {
-  /* Au centre de la page, à la demande d'Anas (12 nov. 2026). */
+  /* Au centre de la page, à la demande d'Anas (12 nov. 2026). Le titre
+   * de la section (« .titre-questions », sur TitreSection) prend la même
+   * largeur, gouttières comprises, pour s'aligner sur les bords. */
+  .titre-questions {
+    max-width: calc(52rem + 2 * var(--gouttiere));
+    margin-inline: auto;
+  }
+  .questions-acc.mesure-l {
+    max-width: 52rem;
+  }
   .questions-acc {
     margin-inline: auto;
     display: flex;

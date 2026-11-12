@@ -368,6 +368,7 @@ export default async function PageMorphologie({
       <section aria-labelledby="questions" className="pt-[clamp(4rem,8vw,8rem)]">
         <TitreSection
           id="questions"
+          className="titre-questions"
           titre={L.lesQuestions}
           lien={{ href: "/rendez-vous", label: L.poserLaVotre }}
         />
