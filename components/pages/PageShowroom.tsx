@@ -177,7 +177,7 @@ export default function PageShowroom({ langue }: { langue: Langue }) {
         * de chacune pour la suite. Le balisage FAQPage reste sur la page
         * de la FAQ : une même question ne se déclare pas deux fois. */}
       <section aria-labelledby="avant-de-venir" className="gouttiere pt-[clamp(3.5rem,6.5vw,6rem)]">
-        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3 lg:mx-auto lg:max-w-[52rem]">
           <h2 id="avant-de-venir" className="titre-section">
             {L.avantDeVenir}
           </h2>

@@ -1957,7 +1957,9 @@ html[data-ouverture]::before {
 }
 
 @media (min-width: 1024px) {
+  /* Au centre de la page, à la demande d'Anas (12 nov. 2026). */
   .questions-acc {
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;

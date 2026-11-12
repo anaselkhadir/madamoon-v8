@@ -231,7 +231,7 @@ export default function PageStyle({
 
       {/* ————————————————————————————————————— les questions ————— */}
       <section aria-labelledby="questions-style" className="gouttiere py-[clamp(3.5rem,7vw,6rem)]">
-        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3 lg:mx-auto lg:max-w-[52rem]">
           <h2 id="questions-style" className="phrase">
             {S.questions.titre}
           </h2>
