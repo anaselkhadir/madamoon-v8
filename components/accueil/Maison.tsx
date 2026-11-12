@@ -45,6 +45,11 @@ type Morceau = {
  *   maison trouvait déjà le velours bleu trop vif (point 132) ;
  * - une légende à l'anglaise, l'écriture du nom de la maison.
  *
+ * Sur ordinateur, depuis le 12 novembre 2026, plus de traitement ancien :
+ * la photographie envoyée par la maison, telle quelle, sans sépia, sans
+ * vignettage ni développement (CSS « .salon-* », à 1024 px et plus). Le
+ * téléphone garde le traitement.
+ *
  * Sur ordinateur, elle est à gauche et le texte à droite, calé à gauche.
  * Au doigt, elle passe au-dessus du texte.
  *
@@ -171,7 +176,9 @@ export default function Maison({ langue = "fr" }: { langue?: Langue }) {
     };
   }, [total]);
 
-  const salon = SCENES["showroom"];
+  /* La photographie envoyée par la maison le 12 novembre 2026, propre à
+   * cette section : celle du showroom sert encore au menu et à sa page. */
+  const salon = SCENES["salon-accueil"];
 
   return (
     <section

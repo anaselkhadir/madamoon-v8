@@ -6298,6 +6298,21 @@ export const SCENES = {
       1000
     ]
   },
+  "salon-accueil": {
+    "name": "salon-accueil-robes-de-mariee-madamoon-paris-10e",
+    "w": 1448,
+    "h": 1086,
+    "widths": [
+      640,
+      1000,
+      1448
+    ],
+    "blur": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADwBACdASoUAA8APtFUo0uoJKMhsAgBABoJagCdMoRwFfgWP+RWot+83BoEH0z2zIAA/VDUMjFVnyWlc8yf9Vu+3nSSLKWnc8sINtNq5/QbwoH3Y0KXLY0bAZZGOFAHVeTSZivpnPAiWjYrDraQV8ujdkS14R5AmxZ+iaB/8BSIndN30htalkM+3IiikCjv2CIn7QUxUNlg1SyRtHJtJNVRXESzV2Ds9R/M8TfqWu48IVYBHAA=",
+    "jpgw": [
+      640,
+      1000
+    ]
+  },
   "showroom-film": {
     "name": "salon-showroom-madamoon-paris-film",
     "w": 1920,
