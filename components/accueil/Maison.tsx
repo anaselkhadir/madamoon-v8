@@ -45,10 +45,9 @@ type Morceau = {
  *   maison trouvait déjà le velours bleu trop vif (point 132) ;
  * - une légende à l'anglaise, l'écriture du nom de la maison.
  *
- * Sur ordinateur, depuis le 12 novembre 2026, plus de traitement ancien :
- * la photographie envoyée par la maison, telle quelle, sans sépia, sans
- * vignettage ni développement (CSS « .salon-* », à 1024 px et plus). Le
- * téléphone garde le traitement.
+ * Depuis le 12 novembre 2026, plus de traitement ancien, sur ordinateur
+ * comme au doigt : la photographie envoyée par la maison, telle quelle,
+ * sans sépia, sans vignettage ni développement (CSS « .salon-* »).
  *
  * Sur ordinateur, elle est à gauche et le texte à droite, calé à gauche.
  * Au doigt, elle passe au-dessus du texte.

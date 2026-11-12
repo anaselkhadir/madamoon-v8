@@ -1795,16 +1795,15 @@ html[data-ouverture]::before {
     display: none;
   }
 }
-/* Sur ordinateur, la photographie telle quelle, à la demande de la
- * maison (12 nov. 2026) : ni sépia, ni vignettage, ni développement. */
-@media (min-width: 1024px) {
-  .salon-developpee {
-    filter: none;
-  }
-  .salon-image::after,
-  .salon-ancienne {
-    display: none;
-  }
+/* La photographie telle quelle, à la demande de la maison (12 nov.
+ * 2026), sur ordinateur comme au doigt : ni sépia, ni vignettage, ni
+ * développement. Les règles ci-dessus restent pour mémoire. */
+.salon-developpee {
+  filter: none;
+}
+.salon-image::after,
+.salon-ancienne {
+  display: none;
 }
 
 /*
