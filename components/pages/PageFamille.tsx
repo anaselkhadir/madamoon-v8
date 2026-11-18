@@ -3,6 +3,8 @@ import Tuile from "@/components/Tuile";
 import FilDAriane from "@/components/FilDAriane";
 import AppelRendezvous from "@/components/parcours/AppelRendezvous";
 import QuestionsAccordeon from "@/components/QuestionsAccordeon";
+import FondHero from "@/components/FondHero";
+import Bandeau from "@/components/accueil/Bandeau";
 import { ID_MAISON } from "@/lib/schema";
 import { MORPHOLOGIES, ROBES, SITE_URL } from "@/lib/madamoon";
 import { altRobe } from "@/lib/alt";
@@ -34,6 +36,14 @@ export default function PageFamille({ page, langue }: { page: Page; langue: Lang
   const echo = S.echo ? robe(S.echo.robe) : undefined;
   const mediaEcho = echo ? couverture(echo) : undefined;
   const retour = page.coupe ? `/coupes/${page.coupe.ancre}` : "/robes";
+  /* La robe d'ouverture, la première de la page : le fond du premier
+   * écran sur ordinateur. */
+  const ouverture = robe(S.robes.liste[0]?.slug ?? "");
+  /* « Robe de mariée », en petit au-dessus du titre sur ordinateur,
+   * comme sur les coupes. Tous les titres commencent ainsi ; sinon, le
+   * titre reste d'un seul tenant. */
+  const PREFIXE = langue === "fr" ? "Robe de mariée" : "Wedding dress";
+  const prefixe = page.titre.startsWith(`${PREFIXE} `) ? PREFIXE : undefined;
 
   const donnees = {
     "@context": "https://schema.org",
@@ -76,34 +86,34 @@ export default function PageFamille({ page, langue }: { page: Page; langue: Lang
         ]}
       />
 
-      <header className="gouttiere pb-[clamp(2.5rem,5vw,4.5rem)] pt-[calc(var(--entete)+clamp(2rem,4.5vw,4rem))]">
-        <div className="max-w-[56rem]">
-          <p className="legende" style={{ color: "var(--color-action)" }}>
-            {page.note}
-          </p>
-          <h1
-            className="mt-5"
-            style={{
-              fontFamily: "var(--font-serif)",
-              fontWeight: 400,
-              fontSize: "clamp(2.5rem, 5.4vw, 4.5rem)",
-              lineHeight: 1.04,
-              color: "var(--color-encre)",
-              textWrap: "balance",
-            }}
-          >
-            {page.titre}
+      {/* L'ouverture. Sur ordinateur, depuis le 18 novembre 2026, le même
+        * premier écran qu'une coupe ou une robe : la robe d'ouverture en
+        * plein cadre, le titre en affiche, « Robe de mariée » en petit
+        * au-dessus. Au téléphone et à la tablette, l'ouverture sur papier
+        * d'avant. Un seul balisage pour les deux : le titre et la réponse
+        * ne sont écrits qu'une fois (CSS « .ouverture-famille »). */}
+      <header className="ouverture-famille gouttiere pb-[clamp(2.5rem,5vw,4.5rem)] pt-[calc(var(--entete)+clamp(2rem,4.5vw,4rem))]">
+        {ouverture && <FondHero robe={ouverture.slug} alt={altRobe(ouverture, langue)} />}
+        <div className="ouverture-famille-texte max-w-[56rem]">
+          <p className="legende ouverture-famille-note">{page.note}</p>
+          <h1 className="ouverture-famille-titre mt-5">
+            {prefixe ? (
+              <>
+                <span className="ouverture-famille-prefixe">{prefixe}</span> {page.titre.slice(prefixe.length + 1)}
+              </>
+            ) : (
+              page.titre
+            )}
           </h1>
-          <p className="texte mesure-l mt-6" style={{ fontSize: "clamp(1rem, 1.3vw, 1.15rem)" }}>
-            {page.chapo}
-          </p>
+          <p className="texte mesure-l ouverture-famille-chapo mt-6">{page.chapo}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <AppelRendezvous className="bouton">{T.pages.question.prendreRendezvous}</AppelRendezvous>
-            <Link href={retour} className="bouton-trait">
+            <Link href={retour} className="bouton-trait ouverture-famille-second">
               {S.voirLaCoupe}
             </Link>
           </div>
         </div>
+        {ouverture && <Bandeau langue={langue} className="max-lg:hidden" />}
       </header>
 
       <section aria-labelledby="robes" className="gouttiere pb-[clamp(3.5rem,7vw,6rem)]">

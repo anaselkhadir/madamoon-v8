@@ -265,9 +265,26 @@ export default function Entete() {
   const OUVERTURES = ["/robes/", "/coupes/", "/morphologies/", "/createurs/"];
   /* Un seul segment après le préfixe : « /coupes/sirene » s'ouvre sur une
    * photographie, « /coupes/sirene/une-question » sur du papier. */
+  /* Les pages de style, de matière et de détail ne s'ouvrent sur une
+   * photographie qu'à l'ordinateur (depuis le 18 novembre 2026) : au
+   * téléphone, elles commencent sur papier. */
+  const OUVERTURES_ORDI = ["/styles/", "/matieres/", "/details/"];
+  const [ordi, setOrdi] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const suivre = () => setOrdi(mq.matches);
+    suivre();
+    mq.addEventListener("change", suivre);
+    return () => mq.removeEventListener("change", suivre);
+  }, []);
+  const unSegment = (p: string) => cheminFr.startsWith(p) && !cheminFr.slice(p.length).includes("/");
+  /* La grande taille vit sous /morphologies/ mais c'est une page de
+   * famille : sur papier au téléphone, comme les styles. */
+  const GRANDE_TAILLE = cheminFr === "/morphologies/grande-taille";
   const surPhoto =
     cheminFr === "/" ||
-    OUVERTURES.some((p) => cheminFr.startsWith(p) && !cheminFr.slice(p.length).includes("/"));
+    (!GRANDE_TAILLE && OUVERTURES.some(unSegment)) ||
+    (ordi && (GRANDE_TAILLE || OUVERTURES_ORDI.some(unSegment)));
   const surImage = surPhoto && !pose && !ouvert && !mega;
 
   useEffect(() => {
