@@ -93,7 +93,13 @@ export default function PageFamille({ page, langue }: { page: Page; langue: Lang
         * d'avant. Un seul balisage pour les deux : le titre et la réponse
         * ne sont écrits qu'une fois (CSS « .ouverture-famille »). */}
       <header className="ouverture-famille gouttiere pb-[clamp(2.5rem,5vw,4.5rem)] pt-[calc(var(--entete)+clamp(2rem,4.5vw,4rem))]">
-        {ouverture && <FondHero robe={ouverture.slug} alt={altRobe(ouverture, langue)} />}
+        {ouverture && (
+          <FondHero
+            robe={ouverture.slug}
+            film={page.film}
+            alt={page.film ? page.film.alt : altRobe(ouverture, langue)}
+          />
+        )}
         <div className="ouverture-famille-texte max-w-[56rem]">
           <p className="legende ouverture-famille-note">{page.note}</p>
           <h1 className="ouverture-famille-titre mt-5">

@@ -1,3 +1,4 @@
+import type { NomScene } from "@/lib/medias";
 import type { Lettre } from "@/lib/madamoon";
 import { MAISON } from "@/lib/madamoon";
 import type { Style } from "@/lib/questions";
@@ -37,6 +38,11 @@ export type PageFamille = {
   /* Les morphologies, d'après les fiches des robes montrées : en premier,
    * puis à essayer. */
   morphos: { premieres: Lettre[]; secondes: Lettre[] };
+  /* Le film du premier écran, sur ordinateur, quand la page a le sien.
+   * Sans lui, c'est la première robe de la page qui l'ouvre. « alt » dit
+   * ce que montre l'image, sans nommer de robe : ce film n'est pas celui
+   * d'un modèle du catalogue. */
+  film?: { src: string; affiche: NomScene; alt: string };
   style: Style;
 };
 
@@ -300,6 +306,13 @@ export const PAGES_FAMILLES: PageFamille[] = [
     chapo:
       "La dentelle est la matière la plus présente du catalogue MADAMOON : une robe de mariée en dentelle peut être une sirène en Chantilly comme Oksana, une sirène en dentelle d'Alençon comme Summer, un trapèze en dentelle Caterina comme Charlotte, ou une princesse en dentelle brodée comme Seraphina. Toutes s'essaient au showroom du 10ᵉ, à Paris, et se confectionnent à vos mesures.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
+    /* Film envoyé par Anas le 18 novembre 2026, porté de 720p à 1080p
+     * par scripts/film/ameliorer.swift. */
+    film: {
+      src: "/film/dentelle.mp4",
+      affiche: "film-dentelle",
+      alt: "Une mariée en robe de dentelle à fines bretelles, dans un salon clair",
+    },
     style: {
       voirLaCoupe: "Toutes les robes",
       robes: {

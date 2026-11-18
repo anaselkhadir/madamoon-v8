@@ -6447,6 +6447,22 @@ export const SCENES = {
       1000
     ]
   },
+  "film-dentelle": {
+    "name": "robe-de-mariee-dentelle-film-madamoon",
+    "w": 1920,
+    "h": 1080,
+    "widths": [
+      640,
+      1000,
+      1500,
+      1920
+    ],
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUAAsAPtFUo0uoJKMhsAgBABoJZQCdABwsAcXPu+hwVrMEAADCKngaHJScXLM+3WIlHqErHDwnii7Y5nnKD4tB7Ap/2Ha1ywL95a/KliHxJ0EAAAA=",
+    "jpgw": [
+      640,
+      1000
+    ]
+  },
   "film-montana": {
     "name": "robe-de-mariee-sirene-montana-film-madamoon",
     "w": 1280,

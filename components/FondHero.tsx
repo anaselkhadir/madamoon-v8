@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { SCENES, vues, type Media } from "@/lib/medias";
+import { SCENES, vues, type Media, type NomScene } from "@/lib/medias";
 import { FILMS } from "@/lib/films";
 import { mouvementReduit } from "@/lib/mouvement";
 import { media as chemin } from "@/lib/chemin";
@@ -24,12 +24,24 @@ const jeu = (media: Media, ext: string, largeurs: readonly number[], dossier: st
 const ORDI = "(min-width: 1024px)";
 const VIDE = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
 
-export default function FondHero({ robe, vue = 1, alt }: { robe: string; vue?: number; alt: string }) {
+export default function FondHero({
+  robe,
+  vue = 1,
+  alt,
+  film: filmPropre,
+}: {
+  robe: string;
+  vue?: number;
+  alt: string;
+  /* Le film de la page, quand elle a le sien : il passe avant celui de
+   * la robe d'ouverture. */
+  film?: { src: string; affiche: NomScene };
+}) {
   const video = useRef<HTMLVideoElement>(null);
   const [charge, setCharge] = useState(false);
   const [prete, setPrete] = useState(false);
 
-  const film = FILMS[robe];
+  const film = filmPropre ?? FILMS[robe];
   const affiche: Media | undefined = film ? SCENES[film.affiche] : vues(robe)[vue - 1];
   const dossier = film ? "scenes" : "robes";
 
