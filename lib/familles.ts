@@ -67,7 +67,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée bohème à Paris : mousseline, dentelle florale, manches légères. Hélène, Murielle, Ryle, et Tessa pour une touche vintage, au showroom MADAMOON.",
     note: "Souple, légère, champêtre",
     chapo:
-      "Une robe de mariée bohème se reconnaît à ce qu'elle laisse respirer : une jupe en mousseline qui bouge, de la dentelle florale, des manches légères ou transparentes. C'est la coupe fluide qui porte le mieux cet esprit bohème chic, et chez MADAMOON, elle s'essaie dans notre showroom du 10ᵉ, à Paris.",
+      "Une robe de mariée bohème ne se pose pas : elle respire. Une mousseline qui suit vos pas, une dentelle florale, des manches si légères qu'on les devine à peine. Chez MADAMOON, cet esprit bohème chic s'essaie en toute intimité, dans notre showroom du 10ᵉ, à Paris.",
     coupe: { ancre: "fluide", label: "Voir les robes fluides" },
     morphos: { premieres: ["O", "V", "H", "8", "X"], secondes: ["A"] },
     style: {
@@ -78,17 +78,17 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "helene",
             texte:
-              "Un corset en dentelle ornée de petites perles et de fleurs en relief, une jupe en mousseline délicate et légère : la robe bohème chic du catalogue.",
+              "Un corset de dentelle semé de petites perles et de fleurs en relief, puis une jupe en mousseline, délicate et légère. Le bohème chic, dans ce qu'il a de plus lumineux.",
           },
           {
             slug: "murielle",
             texte:
-              "Dentelle florale et mousseline, décolleté en V, manches illusion et fente : une robe de mariée bohème en dentelle, portée par Monica Loretti.",
+              "Dentelle florale et mousseline, décolleté en V, manches illusion, une fente qui libère le pas : la robe de mariée bohème en dentelle, signée Monica Loretti.",
           },
           {
             slug: "ryle",
             texte:
-              "Des manches ballon et un décolleté en V profond, dans une charmeuse au tombé léger : le bohème qui danse.",
+              "Des manches ballon, un décolleté en V profond, une charmeuse au tombé léger. Une robe faite pour danser.",
           },
         ],
       },
@@ -96,35 +96,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Ce qui fait le bohème",
           texte:
-            "Le bohème aime ce qui bouge et ce qui respire : la dentelle florale, les manches légères ou transparentes, une traîne courte ou absente, une coiffure souple. La robe doit pouvoir marcher dans l'herbe et danser pieds nus.",
+            "Tout ce qui bouge, tout ce qui respire : une dentelle florale, des manches légères ou transparentes, une traîne courte — ou pas de traîne du tout —, une coiffure souple. Votre robe doit pouvoir marcher dans l'herbe, et danser pieds nus.",
         },
         {
           titre: "Bohème chic ou champêtre ?",
           texte:
-            "C'est le même esprit, lu à deux distances. Une robe de mariée champêtre va à un mariage à la campagne, dans un jardin ou une grange : mousseline, dentelle, rien qui pèse. La bohème chic y ajoute la tenue d'un corsage travaillé, comme celui d'Hélène, pour une cérémonie en ville.",
+            "Un même esprit, deux décors. Une robe de mariée champêtre accompagne un mariage à la campagne, dans un jardin ou une grange : de la mousseline, de la dentelle, rien qui pèse. Le bohème chic y ajoute la tenue d'un corsage travaillé, comme celui d'Hélène, et se prête aussi bien à une cérémonie en ville.",
         },
         {
           titre: "En dentelle, dos nu, manches légères",
           texte:
-            "Une robe de mariée bohème en dentelle, c'est Murielle, florale et transparente aux manches. Pour le dos, Hélène et Murielle sont montrées de dos sur leurs fiches ; pour les manches, Ryle les porte ballon. Le hippie chic, lui, se joue sur la coiffure et les accessoires plus que sur la robe.",
+            "Vous l'imaginez en dentelle ? Murielle est une robe de mariée bohème en dentelle, florale, transparente aux manches. Vous pensez au dos ? Hélène et Murielle se découvrent aussi de dos, sur leurs pages. Aux manches ? Ryle les porte ballon. Quant à l'allure hippie chic, elle tient à la coiffure et aux accessoires, bien plus qu'à la robe.",
         },
         {
           titre: "Bohème, mais pas négligé",
           texte:
-            "Une fluide bohème reste une robe de mariée : un corsage travaillé lui donne sa tenue et son éclat. Le bohème est un style, pas une absence de finition — et chaque robe est confectionnée à vos mesures, retouches comprises.",
+            "Fluide et bohème, votre robe reste une robe de mariée : c'est son corsage travaillé qui lui donne sa tenue et son éclat. Le bohème est un style, jamais une absence de finition — et comme chacune de nos robes, la vôtre est confectionnée à vos mesures, retouches comprises.",
         },
       ],
       echo: {
         titre: "Une touche vintage",
         texte:
-          "Pour un bohème aux accents vintage, Tessa, de Casablanca Bridal, a d'après sa fiche un « charme vintage-chic » : une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles. Elle est rangée avec les deux-en-un, et s'essaie volontiers à côté des robes bohèmes.",
+          "Envie d'un bohème aux accents vintage ? Tessa, de Casablanca Bridal, cultive un « charme vintage-chic » : une sirène au corset structuré, une surjupe détachable, des bretelles amovibles. Une deux-en-un, à essayer aux côtés de nos robes bohèmes.",
         robe: "tessa",
         voir: "Voir Tessa",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "La fluide est conseillée en premier aux morphologies en O, en V, en H, en 8 et en X, et vaut l'essai pour une morphologie en A. Hélène et Murielle sont indiquées, sur leurs fiches, pour toutes les morphologies ; Ryle pour toutes, sauf la morphologie en O. Une robe bohème grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "La coupe fluide est notre premier conseil pour les morphologies en O, en V, en H, en 8 et en X, et mérite l'essai pour une morphologie en A. Hélène et Murielle vont à toutes les morphologies ; Ryle, à toutes sauf la morphologie en O. Et parce que chaque robe est réalisée à vos mesures, la robe bohème grande taille n'est pas un rayon à part : c'est la vôtre.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -132,23 +132,39 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Une robe fluide convient-elle à un mariage bohème ?",
-            r: "Oui, c'est même la coupe la plus naturelle pour un mariage bohème. Une jupe en mousseline, de la dentelle florale, des manches légères : Hélène est pensée, d'après sa fiche, pour la mariée « qui préfère dire OUI dans un look bohème chic ».",
+            r: "C'est la plus naturelle. Une jupe en mousseline, une dentelle florale, des manches légères : tout y est. Hélène a d'ailleurs été imaginée pour la mariée « qui préfère dire OUI dans un look bohème chic ».",
           },
           {
             q: "Quelle robe de mariée pour un mariage champêtre ?",
-            r: "Une robe qui bouge et qui ne pèse pas : mousseline, dentelle florale, pas de longue traîne. Hélène, Murielle et Ryle répondent à cette idée ; pour un mariage champêtre chic, le corsage perlé d'Hélène fait la différence.",
+            r: "Une robe qui bouge et qui ne pèse rien : mousseline, dentelle florale, pas de longue traîne. Hélène, Murielle et Ryle ont cet esprit ; pour un mariage champêtre chic, le corsage perlé d'Hélène fait toute la différence.",
           },
           {
             q: "Une robe bohème convient-elle à un mariage civil ?",
-            r: "Oui, et d'autant mieux qu'elle est légère. Pour la mairie, on regarde aussi les robes courtes en crêpe comme Elin, pensée d'après sa fiche pour une cérémonie civile, puis la robe bohème pour la fête.",
+            r: "Oui, et d'autant mieux qu'elle est légère. Pour la mairie, pensez aussi à une robe courte en crêpe comme Elin, imaginée pour une cérémonie civile ; la robe bohème, elle, sera celle de la fête.",
           },
           {
             q: "Quelle robe pour un mariage champêtre, et à quel prix ?",
-            r: "Une robe pour mariage champêtre est une robe légère : mousseline, dentelle, pas de traîne — Hélène, Murielle, Ryle. Le style bohème se marie au romantique, avec les fleurs en relief d'Hélène, ou au simple, avec Adularia en charmeuse pour une bohémienne qui veut du net. Une robe bohème pas chère n'existe pas ici au sens du prêt-à-porter : chaque robe est confectionnée à vos mesures, à partir de 1 500 €, retouches comprises. Pour un mariage sur le thème bohème ou nature, en hiver comme en été, la robe reste blanche ou ivoire — le vert sauge et les couleurs se jouent dans le bouquet, pas sur la robe —, dos nu ou manches selon la saison, et confectionnée sur mesure pour chaque femme. Bohème fleurie, bustier ou col en V, mi-longue — non, toutes longues —, rock ou romantique, pour une femme ronde ou enceinte — Mathilda, chez Monica Loretti, est pensée pour la grossesse — : une belle robe bohème originale, mais toujours blanche ou ivoire, jamais rose.",
+            r: "Une robe pour mariage champêtre est d'abord une robe légère : Hélène, Murielle, Ryle. Son prix dépend du modèle choisi : chaque robe est confectionnée à vos mesures, à partir de 1 500 €, retouches comprises. Une robe bohème pas chère, au sens du prêt-à-porter, n'est donc pas ce que nous proposons ; une robe faite pour vous, oui.",
+          },
+          {
+            q: "Bohème romantique ou bohème épuré ?",
+            r: "Le style bohème se marie volontiers au romantique, avec les fleurs en relief d'Hélène, ou au plus simple : Adularia, en charmeuse, pour une bohémienne qui aime les lignes nettes. Rock ou romantique, une belle robe bohème reste originale quand elle vous ressemble.",
+          },
+          {
+            q: "Quelle robe bohème pour un mariage en hiver, ou sur le thème nature ?",
+            r: "En hiver comme en été, pour un mariage sur le thème bohème ou nature, la robe pour un mariage champêtre reste blanche ou ivoire : le vert sauge et les couleurs se glissent dans le bouquet, jamais sur la robe. Selon la saison, vous choisirez un dos nu ou des manches — et, toujours, une robe confectionnée sur mesure, pour chaque femme.",
+          },
+          {
+            q: "Existe-t-il une robe bohème rose, fleurie ou mi-longue ?",
+            r: "Nos robes bohèmes sont toutes longues, et toutes blanches ou ivoire : jamais rose. Fleurie, en revanche, oui, par la dentelle florale et les fleurs en relief. Bustier ou col en V : cela se décide à l'essayage.",
+          },
+          {
+            q: "Enceinte ou ronde, puis-je porter une robe de mariée bohème ?",
+            r: "Bien sûr. Mathilda, chez Monica Loretti, est pensée pour la grossesse. Et pour une femme ronde comme pour toute mariée, la règle est la même : votre robe est réalisée à vos mesures.",
           },
           {
             q: "Où essayer une robe de mariée bohème à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer plusieurs fluides et de comparer les matières.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps d'essayer plusieurs robes fluides, et de comparer les matières du bout des doigts.`,
           },
         ],
         toutes: "Tous les guides",
@@ -169,7 +185,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée minimaliste et simple à Paris : crêpe, satin mat, lignes nettes. Enid, Bondi, Milan, Dove… à essayer au showroom MADAMOON, Paris 10e.",
     note: "Épurée, moderne, chic",
     chapo:
-      "Une robe de mariée simple ne cache rien : une matière unie — crêpe, charmeuse, satin mat —, une coupe nette, un dos qui se boutonne, et c'est tout. Chez MADAMOON, les robes minimalistes viennent de Casablanca Bridal, Watters Designs et Monica Loretti, et s'essaient au showroom du 10ᵉ, à Paris, où la robe simple et chic se juge en une minute : elle tient, ou pas.",
+      "Une robe de mariée simple ne cache rien, et c'est toute sa beauté : une matière unie — crêpe, charmeuse, satin mat —, une coupe nette, un dos qui se boutonne. Signées Casablanca Bridal, Watters Designs et Monica Loretti, nos robes minimalistes s'essaient au showroom du 10ᵉ, à Paris, où une robe simple et chic se juge au premier regard dans le miroir.",
     morphos: { premieres: ["H", "8", "X"], secondes: ["O", "A", "V"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -179,47 +195,47 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "enid",
             texte:
-              "Une sirène en néoprène, décolleté droit, épaules dénudées, et une infinité de boutons dans le dos jusqu'au bout de la traîne. Elle se porte en bustier ou en col bardot : moderne et minimaliste, d'après sa fiche.",
+              "Une sirène en néoprène au décolleté droit, épaules dénudées, et une infinité de boutons qui courent dans le dos jusqu'au bout de la traîne. En bustier ou en col bardot, elle est moderne et minimaliste.",
           },
           {
             slug: "bondi",
             texte:
-              "Une sirène minimaliste en crêpe, épaules dégagées et fente : la création pensée, dit sa fiche, pour la mariée moderne.",
+              "Une sirène minimaliste en crêpe, épaules dégagées, une fente : une création pensée pour la mariée moderne.",
           },
           {
             slug: "milan",
             texte:
-              "Un crêpe léger, un drapé au buste, une fente sur le côté : raffinée et minimaliste à la fois, chez Monica Loretti.",
+              "Un crêpe léger, un drapé au buste, une fente sur le côté. Raffinée et minimaliste à la fois, chez Monica Loretti.",
           },
           {
             slug: "maribel",
             texte:
-              "Une fluide minimaliste en mousseline stretch, au corsage brodé et perlé à la main : la robe simple qui garde un détail.",
+              "Une fluide minimaliste en mousseline stretch, dont le corsage est brodé et perlé à la main : la robe simple qui garde un détail précieux.",
           },
           {
             slug: "dove",
             texte:
-              "Un tombé fluide en satin mat, un décolleté drapé, les épaules dénudées et une ligne infinie de boutons jusqu'à la traîne : élégance intemporelle et confort.",
+              "Un satin mat au tombé fluide, un décolleté drapé, les épaules dénudées et une ligne infinie de boutons jusqu'à la traîne. L'élégance intemporelle, le confort en plus.",
           },
           {
             slug: "adularia",
             texte:
-              "Une fluide en charmeuse, à l'élégance minimaliste et à l'allure résolument moderne.",
+              "Une fluide en charmeuse, d'une élégance minimaliste et d'une allure résolument moderne.",
           },
           {
             slug: "fortune",
             texte:
-              "Un bustier trapèze en crêpe stretch et organza satin : une robe de mariée simple et élégante, dans une coupe qui va à tout le monde.",
+              "Un bustier trapèze en crêpe stretch et organza satin : une robe de mariée simple et élégante, dans une coupe qui va à toutes.",
           },
           {
             slug: "amaryllis",
             texte:
-              "Une coupe droite ou sirène en charmeuse, avec une file de boutons sur le côté et des bretelles qui se portent sur les épaules ou tombantes : moderne et originale.",
+              "Droite ou sirène, en charmeuse, avec une file de boutons sur le côté et des bretelles à porter sur les épaules ou tombantes. Moderne, et originale.",
           },
           {
             slug: "addison",
             texte:
-              "Un satin de soie, une jupe épurée avec des poches, des bretelles tombantes amovibles et des motifs floraux appliqués à la main : la princesse version simple.",
+              "Un satin de soie, une jupe épurée — avec des poches —, des bretelles tombantes amovibles et des motifs floraux appliqués à la main. La princesse, version simple.",
           },
         ],
       },
@@ -227,35 +243,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Ce qui fait une robe simple",
           texte:
-            "Une matière unie qui tient toute seule — le crêpe de Bondi et de Milan, la charmeuse d'Adularia et d'Amaryllis, le satin mat de Dove, le néoprène d'Enid —, une coupe qui dessine sans ornement, et un dos boutonné qui tient lieu de décor.",
+            "Une matière unie qui se suffit à elle-même : le crêpe de Bondi et de Milan, la charmeuse d'Adularia et d'Amaryllis, le satin mat de Dove, le néoprène d'Enid. Une coupe qui dessine sans rien ajouter. Et un dos boutonné, qui tient lieu de parure.",
         },
         {
           titre: "Simple et chic, pas simple et nue",
           texte:
-            "La robe de mariée chic et simple garde un geste : les boutons sur le côté d'Amaryllis, le drapé de Milan, le corsage brodé de Maribel, les poches d'Addison. C'est ce détail unique qui sépare la robe sobre de la robe quelconque.",
+            "La robe de mariée chic et simple garde toujours un geste : les boutons sur le côté d'Amaryllis, le drapé de Milan, le corsage brodé de Maribel, les poches d'Addison. C'est ce détail, unique, qui fait d'une robe sobre une robe que l'on n'oublie pas.",
         },
         {
           titre: "Moderne, originale, contemporaine",
           texte:
-            "Dans la collection reçue en dernier, celle de Casablanca Bridal, la robe de mariée moderne se porte en col bardot comme Enid, les épaules dégagées comme Bondi, ou sans bretelles comme Dove. L'originalité tient à la coupe, pas à l'ajout.",
+            "Dans la dernière collection reçue, celle de Casablanca Bridal, la robe de mariée moderne se porte en col bardot comme Enid, épaules dégagées comme Bondi, ou sans bretelles comme Dove. Ici, l'originalité naît de la coupe, jamais de l'ajout.",
         },
         {
           titre: "Une robe simple se confectionne à vos mesures",
           texte:
-            "Comme toutes les robes de la boutique, une robe simple est réalisée à l'atelier selon vos mensurations, retouches comprises, à partir de 1 500 €. Sur une matière unie, l'ajustement se voit : c'est précisément pour cela qu'on la fait à vos mesures.",
+            "Sur une matière unie, tout se voit — et c'est précisément pour cela que votre robe est réalisée à l'atelier selon vos mensurations, retouches comprises, à partir de 1 500 €. Comme toutes les robes de la boutique.",
         },
       ],
       echo: {
         titre: "Pour un mariage civil",
         texte:
-          "Elin, d'Olya Mak, est une robe courte en crêpe pensée, d'après sa fiche, pour une cérémonie civile : sa légèreté et son aspect épuré marquent le contraste entre la mairie et la fête. C'est la robe de mariée simple des mariages en deux temps.",
+          "Elin, d'Olya Mak, est une robe courte en crêpe pensée pour la cérémonie civile : légère, épurée, elle marque joliment le contraste entre la mairie et la fête. C'est la robe de mariée simple des mariages en deux temps.",
         robe: "elin",
         voir: "Voir Elin",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Les sirènes en crêpe, Milan et Amaryllis, sont indiquées sur leurs fiches pour les morphologies en H, en 8 et en X ; Maribel, Dove, Fortune, Addison et Adularia pour toutes les morphologies. Une robe minimaliste ne cache rien : elle se choisit avec la coupe qui vous va, et s'ajuste à vos mesures.",
+          "Une robe minimaliste ne cache rien : elle se choisit avec la coupe qui vous va, puis s'ajuste à vos mesures. Les sirènes en crêpe, Milan et Amaryllis, vont aux morphologies en H, en 8 et en X ; Maribel, Dove, Fortune, Addison et Adularia, à toutes les morphologies.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -263,27 +279,43 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Qu'est-ce qu'une robe de mariée minimaliste ?",
-            r: "Une robe sans ornement rapporté : la matière, la coupe et le dos font tout. Chez MADAMOON, ce sont Enid, Bondi et Milan en crêpe ou néoprène, Adularia et Amaryllis en charmeuse, Dove en satin mat.",
+            r: "Une robe sans ornement rapporté, où la matière, la coupe et le dos font tout. Chez MADAMOON : Enid, Bondi et Milan, en crêpe ou en néoprène ; Adularia et Amaryllis, en charmeuse ; Dove, en satin mat.",
           },
           {
             q: "Une robe de mariée simple est-elle moins chère ?",
-            r: "Pas nécessairement : le prix dépend de la matière, de la maison et du travail de confection, pas du nombre d'ornements. Toutes les robes sont confectionnées à vos mesures à partir de 1 500 €, retouches comprises. Le guide des prix l'explique en détail.",
+            r: "Pas nécessairement : le prix tient à la matière, à la maison qui la signe et au travail de confection, non au nombre d'ornements. Toutes nos robes sont confectionnées à vos mesures, à partir de 1 500 €, retouches comprises. Notre guide des prix l'explique en détail.",
           },
           {
             q: "Robe de mariée simple et quiet luxury : la même chose ?",
-            r: "Presque. Le quiet luxury — le luxe discret, annoncé parmi les tendances 2027 — est une robe simple dont la matière fait tout : un crêpe lourd, un satin de soie, une charmeuse qui tombe, aucun ornement qui fasse signe. Au catalogue, Bondi et Milan en crêpe, Dove en satin mat, Addison en satin de soie, Adularia en charmeuse en ont l'esprit ; le style quiet luxury se voit à la confection à vos mesures, pas au décor.",
+            r: "Presque. Le quiet luxury — ce luxe discret annoncé parmi les tendances 2027 — est une robe simple dont la matière fait tout : un crêpe lourd, un satin de soie, une charmeuse qui tombe, aucun ornement qui fasse signe. Bondi et Milan en crêpe, Dove en satin mat, Addison en satin de soie, Adularia en charmeuse en ont l'esprit. Le style quiet luxury se reconnaît à la justesse d'une confection à vos mesures, pas au décor.",
           },
           {
             q: "Quelle robe de mariée simple pour un mariage civil ?",
-            r: "Une robe courte en crêpe comme Elin, pensée pour la cérémonie civile, ou une fluide épurée comme Adularia pour une mairie suivie d'un déjeuner.",
+            r: "Une robe courte en crêpe comme Elin, pensée pour la cérémonie civile ; ou une fluide épurée comme Adularia, pour une mairie suivie d'un déjeuner.",
           },
           {
             q: "Robe simple en dentelle, en satin ou en crêpe ?",
-            r: "Le crêpe (Bondi, Milan) et la charmeuse (Adularia) donnent la ligne la plus pure ; le satin mat de Dove apporte de la lumière ; une touche de dentelle, comme la jupe en crêpe et le corsage en Chantilly de Shiloh, garde la simplicité en y ajoutant une matière.",
+            r: "Le crêpe (Bondi, Milan) et la charmeuse (Adularia) offrent la ligne la plus pure ; le satin mat de Dove apporte la lumière. Et pour une touche de dentelle, Shiloh marie une jupe en crêpe à un corsage en Chantilly : la simplicité, une matière en plus.",
           },
           {
             q: "Une robe de mariée simple peut-elle être originale ?",
-            r: "Oui : l'originale n'est pas la chargée. Une robe de mariée originale et simple joue sur un détail — la fente de Bondi, l'infinité de boutons d'Enid, le décolleté carré de River — plutôt que sur la dentelle. Simple, chic et tendance sans être à la mode d'une saison, blanche ou ivoire : c'est la robe élégante et épurée que l'on regarde encore en photo dix ans après. Et une robe simple n'est pas une robe pas chère : moins de dentelle, mais le même travail de coupe, à partir de 1 500 €. Longue ou courte, avec ou sans manches, sans dentelle ou avec une touche de dentelle, rock ou classique, tendance ou classe : la robe simple reste blanche ou ivoire — pas de couleur au catalogue hors les fleurs de Clover — et élégante par sa coupe, pour chaque femme à ses mesures. Tenue de mariée simple pour l'hiver, très simple ou atypique, dos nu, grande taille ou femme ronde : les modèles existent — Bondi, Milan, Adularia, Dove —, en blanc ou ivoire, jamais colorés, à l'achat seulement, pas en location.",
+            r: "Oui : originale ne veut pas dire chargée. Une robe de mariée originale et simple se joue sur un seul détail — la fente de Bondi, l'infinité de boutons d'Enid, le décolleté carré de River — plutôt que sur la dentelle. C'est la robe élégante et épurée que l'on regarde encore en photo, dix ans après.",
+          },
+          {
+            q: "Une robe simple suit-elle la mode ?",
+            r: "Elle la traverse. Simple, chic, tendance sans appartenir à une saison ; rock ou classique, très simple ou plus atypique : elle a de la classe parce qu'elle ne cherche pas à en avoir. Longue ou courte, avec ou sans manches, dos nu, sans dentelle ou avec une simple touche de dentelle — y compris pour une tenue de mariée simple en hiver —, tout cela se décide à l'essayage.",
+          },
+          {
+            q: "Existe-t-il des robes de mariée simples en couleur ?",
+            r: "Nos robes simples sont blanches ou ivoire. Une seule robe ose la couleur : Clover, pour ses fleurs brodées. Les modèles simples — Bondi, Milan, Adularia, Dove — ne sont jamais colorés, et restent élégants par leur seule coupe.",
+          },
+          {
+            q: "Grande taille, femme ronde : la robe simple est-elle pour moi ?",
+            r: "Oui. Grande taille ou non, chaque robe est réalisée aux mesures de la femme qui la porte : c'est même sur une matière unie que le sur-mesure fait la plus belle différence.",
+          },
+          {
+            q: "Peut-on louer une robe de mariée simple ?",
+            r: "Non : nos robes sont proposées à l'achat seulement, pas en location, puisqu'elles sont confectionnées pour vous. Et simple ne veut pas dire pas chère : moins de dentelle, mais le même travail de coupe, à partir de 1 500 €.",
           },
         ],
         toutes: "Tous les guides",
@@ -304,7 +336,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée en dentelle à Paris : Chantilly, Alençon, Caterina. Oksana, Summer, Uma, Seraphina… à essayer au showroom MADAMOON, Paris 10e.",
     note: "Chantilly, Alençon, Caterina",
     chapo:
-      "La dentelle est la matière la plus présente du catalogue MADAMOON : une robe de mariée en dentelle peut être une sirène en Chantilly comme Oksana, une sirène en dentelle d'Alençon comme Summer, un trapèze en dentelle Caterina comme Charlotte, ou une princesse en dentelle brodée comme Seraphina. Toutes s'essaient au showroom du 10ᵉ, à Paris, et se confectionnent à vos mesures.",
+      "De la plus fine Chantilly à la dentelle brodée à la main, aucune matière n'habille autant de nos robes. Votre robe de mariée en dentelle peut être une sirène comme Oksana ou Summer, un trapèze comme Charlotte, une princesse comme Seraphina : toutes s'essaient au showroom du 10ᵉ, à Paris, et se confectionnent à vos mesures.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     /* Film envoyé par Anas le 18 novembre 2026, porté de 720p à 1080p
      * par scripts/film/ameliorer.swift. */
@@ -318,50 +350,50 @@ export const PAGES_FAMILLES: PageFamille[] = [
       robes: {
         titre: "Nos robes de mariée en dentelle",
         liste: [
-          { slug: "oksana", texte: "Une sirène en dentelle de Chantilly, au corset basque en pointe : la robe mariée dentelle dans sa version la plus française." },
-          { slug: "summer", texte: "Une sirène en dentelle d'Alençon, décolleté en V et longue traîne : la beauté de la dentelle française dans une silhouette féminine, dit sa fiche." },
-          { slug: "uma", texte: "Une sirène en dentelle au dos illusion, chez Watters Designs : la dentelle qui habille le dos autant que le devant." },
-          { slug: "pendant", texte: "Un trapèze en dentelle avec des manches longues : la robe de mariée en dentelle à manches longues du catalogue." },
-          { slug: "montana", texte: "Une sirène en satin mat, manches longues en dentelle et dos illusion : la dentelle en détail, sur une matière unie." },
+          { slug: "oksana", texte: "Une sirène en dentelle de Chantilly, au corset basque en pointe. La dentelle dans ce qu'elle a de plus français." },
+          { slug: "summer", texte: "Une sirène en dentelle d'Alençon, décolleté en V et longue traîne : toute la beauté de la dentelle française, sur une silhouette féminine." },
+          { slug: "uma", texte: "Une sirène en dentelle au dos illusion, signée Watters Designs. Ici, la dentelle habille le dos autant que le devant." },
+          { slug: "pendant", texte: "Un trapèze en dentelle, aux manches longues : la robe de mariée en dentelle à manches longues par excellence." },
+          { slug: "montana", texte: "Une sirène en satin mat, des manches longues en dentelle, un dos illusion. La dentelle en touche précieuse, sur une matière unie." },
           { slug: "seraphina", texte: "Une princesse en dentelle brodée, dos nu et manches longues, chez Olya Mak." },
-          { slug: "murielle", texte: "Dentelle florale, décolleté plongeant, manches illusion et fente : la dentelle bohème, chez Monica Loretti." },
-          { slug: "charlotte", texte: "Une robe bustier en dentelle Caterina, décolleté en cœur et corset en taille basque : le rêve de la mariée romantique, selon sa fiche. Elle existe aussi dans une version plus couvrante." },
-          { slug: "aster", texte: "Dentelle de Chantilly, satin et manches amovibles, dans une silhouette trapèze à la taille naturelle." },
+          { slug: "murielle", texte: "Dentelle florale, décolleté plongeant, manches illusion et fente : la dentelle version bohème, chez Monica Loretti." },
+          { slug: "charlotte", texte: "Une robe bustier en dentelle Caterina, décolleté en cœur et corset en taille basque : le rêve de la mariée romantique. Elle existe aussi dans une version plus couvrante." },
+          { slug: "aster", texte: "Dentelle de Chantilly, satin et manches amovibles, sur une silhouette trapèze à la taille naturelle." },
         ],
       },
       colonnes: [
         {
           titre: "Les dentelles du catalogue",
           texte:
-            "La Chantilly d'Oksana, de Charlize, de Shiloh et d'Aster ; l'Alençon de Summer ; la Caterina de Charlotte et de Clover ; la Highclare de Calla ; la Cassie de Mitra ; la dentelle florale d'Hélène et de Murielle ; la dentelle brodée de Seraphina. Chaque fiche nomme la sienne.",
+            "Robe, mariée, dentelle : l'accord est si ancien qu'on en oublie combien les dentelles diffèrent. La Chantilly d'Oksana, de Charlize, de Shiloh et d'Aster ; l'Alençon de Summer ; la Caterina de Charlotte et de Clover ; la Highclare de Calla ; la Cassie de Mitra ; la dentelle florale d'Hélène et de Murielle ; la dentelle brodée de Seraphina. Chaque robe porte la sienne, et sa page vous la nomme.",
         },
         {
           titre: "Dentelle et manches longues",
           texte:
-            "La robe de mariée en dentelle à manches longues existe en trapèze avec Pendant, en sirène avec Montana, en princesse avec Seraphina, en col montant avec Chastity. Et Aster propose des manches amovibles en dentelle, pour la cérémonie puis sans.",
+            "La robe de mariée en dentelle à manches longues se décline en trapèze avec Pendant, en sirène avec Montana, en princesse avec Seraphina, en col montant avec Chastity. Aster, elle, porte des manches amovibles en dentelle : avec pour la cérémonie, sans pour la fête.",
         },
         {
           titre: "Dentelle et bustier",
           texte:
-            "Le bustier en dentelle, c'est Charlotte, au décolleté en cœur et au corset en taille basque, ou Oksana, au corset basque en pointe. Pour une robe de mariée bustier en dentelle plus couvrante, Charlotte existe sans le décolleté plongeant.",
+            "Le bustier en dentelle, c'est Charlotte, décolleté en cœur et corset en taille basque ; ou Oksana, au corset basque en pointe. Vous préférez une robe de mariée bustier en dentelle plus couvrante ? Charlotte existe aussi sans son décolleté plongeant.",
         },
         {
           titre: "Dentelle, satin et crêpe",
           texte:
-            "La robe de mariée satin et dentelle associe les deux : Charlize et Sheridan en satin mat et Chantilly, Montana en satin mat et manches de dentelle, Shiloh en Chantilly sur une jupe en crêpe. La dentelle y est un détail, pas toute la robe.",
+            "La robe de mariée satin et dentelle unit deux matières : Charlize et Sheridan en satin mat et Chantilly, Montana en satin mat et manches de dentelle, Shiloh en Chantilly sur une jupe en crêpe. La dentelle n'y est plus toute la robe : elle en devient le détail.",
         },
       ],
       echo: {
         titre: "Avec une cape en dentelle",
         texte:
-          "Sheridan, de Casablanca Bridal, est une sirène en satin mat et dentelle, livrée avec une cape assortie : une mousseline drapée sur l'épaule, qui tombe jusqu'au sol avec la traîne. La cape de mariée en dentelle se porte pour la cérémonie, et se retire pour la fête.",
+          "Sheridan, de Casablanca Bridal, est une sirène en satin mat et dentelle qui arrive avec sa cape assortie : une mousseline drapée sur l'épaule, qui tombe jusqu'au sol avec la traîne. La cape de mariée en dentelle se porte pour la cérémonie, et se retire pour la fête.",
         robe: "sheridan",
         voir: "Voir Sheridan",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "La dentelle ne choisit pas de morphologie : c'est la coupe qui le fait. Pendant, Aster, Charlotte, Murielle et Seraphina sont indiquées sur leurs fiches pour toutes les morphologies ; les sirènes en dentelle, Uma, Summer et Montana, d'abord pour les morphologies en V, en H, en 8 et en X.",
+          "La dentelle ne choisit pas de morphologie : c'est la coupe qui décide. Pendant, Aster, Charlotte, Murielle et Seraphina vont à toutes les morphologies ; les sirènes en dentelle — Uma, Summer et Montana — d'abord aux morphologies en V, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -369,27 +401,39 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle dentelle pour une robe de mariée ?",
-            r: "La Chantilly est fine et légère, l'Alençon plus dessinée, la dentelle brodée ou florale plus présente. Le catalogue en montre plusieurs : la fiche de chaque robe nomme la sienne, et le showroom les fait toucher.",
+            r: "La Chantilly est fine et légère, l'Alençon plus dessinée, la dentelle brodée ou florale plus présente. Le mieux est encore de les toucher : au showroom, vous les comparez du bout des doigts.",
           },
           {
             q: "Une robe de mariée en dentelle convient-elle à un mariage en hiver ?",
-            r: "Oui, surtout avec des manches longues : Pendant, Montana, Seraphina et Chastity en ont, et Aster des manches amovibles. Une dentelle doublée tient chaud sans peser.",
+            r: "Oui, surtout avec des manches longues : Pendant, Montana, Seraphina et Chastity en portent, et Aster a des manches amovibles. Une dentelle doublée tient chaud sans peser.",
           },
           {
             q: "Dentelle ou satin ?",
-            r: "La dentelle habille et dessine ; le satin tient et éclaire. Beaucoup de robes font les deux : Charlize, Sheridan et Montana associent satin mat et dentelle. L'essayage tranche, pas la règle.",
+            r: "La dentelle habille et dessine ; le satin tient et éclaire. Beaucoup de robes refusent de choisir : Charlize, Sheridan et Montana associent satin mat et dentelle. C'est l'essayage qui tranche, jamais la règle.",
           },
           {
             q: "Robe de mariée en dentelle blanche ou ivoire ?",
-            r: "Les deux existent, et la dentelle change de caractère avec la couleur : plus graphique en blanc, plus douce en ivoire. Les coloris de chaque modèle se voient au showroom, en lumière du jour — c'est là qu'on décide de se marier en blanc ou en ivoire, pas sur un écran.",
+            r: "Les deux existent, et la dentelle change de caractère avec la couleur : plus graphique en blanc, plus douce en ivoire. Les coloris de chaque modèle se découvrent au showroom, à la lumière du jour — c'est là, et non sur un écran, que l'on décide de se marier en blanc ou en ivoire.",
           },
           {
             q: "Où essayer une robe de mariée en dentelle à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous, pendant une heure privatisée. Chaque robe choisie est ensuite confectionnée à vos mesures.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous, pendant une heure privatisée pour vous. La robe choisie est ensuite confectionnée à vos mesures.`,
           },
           {
             q: "Dentelle brodée, broderie anglaise, dentelle sur tulle ou sur soie : quelle différence ?",
-            r: "La broderie — un fil posé sur un tulle ou un tissu — se voit sur Seraphina, brodée à la main, et sur le haut de Maribel ; la broderie anglaise, ajourée, n'est pas au catalogue. La dentelle se pose sur un tulle couleur chair pour l'illusion, sur un satin ou une soie pour la tenue ; avec des paillettes, c'est Fancy, « dentelle florale scintillante ». Pour un mariage civil, une dentelle légère à bretelles fines ; et le prix suit la dentelle, à partir de 1 500 € — pas cher n'existe pas pour une fleur brodée main, mais le sur-mesure est compris. Dentelle sur les bras — les manches longues de Pendant, Montana, Seraphina —, transparente, brillante ou à strass — Fancy —, classique ou classe ; le crochet et le col bateau ne sont pas au catalogue ; les fiches ne nomment pas Calais-Caudry mais Chantilly, Alençon, Caterina et Highclare.",
+            r: "La broderie est un fil posé sur un tulle ou un tissu : on la voit sur Seraphina, brodée à la main, et sur le haut de Maribel. La broderie anglaise, ajourée, ne fait pas partie de notre sélection. La dentelle, elle, se pose sur un tulle couleur chair pour l'effet illusion, sur un satin ou une soie pour la tenue.",
+          },
+          {
+            q: "Une dentelle scintillante, à paillettes ou à strass, cela existe ?",
+            r: "Oui : Fancy, toute de « dentelle florale scintillante », est notre dentelle brillante, à paillettes. Pour une dentelle transparente sur les bras, regardez les manches longues de Pendant, de Montana et de Seraphina : plus classique, et toujours aussi classe.",
+          },
+          {
+            q: "Quel est le prix d'une robe de mariée en dentelle ?",
+            r: "Il suit la dentelle, à partir de 1 500 €, confection sur mesure comprise. Une fleur brodée à la main ne sera jamais « pas cher » ; elle est, en revanche, faite pour vous. Pour un mariage civil, pensez à une dentelle légère, à bretelles fines.",
+          },
+          {
+            q: "Dentelle de Calais, crochet, col bateau : les trouve-t-on chez MADAMOON ?",
+            r: "Le crochet et le col bateau, non. Quant aux dentelles, nos robes nomment la Chantilly, l'Alençon, la Caterina et la Highclare — pas la dentelle de Calais-Caudry.",
           },
         ],
         toutes: "Tous les guides",
@@ -410,18 +454,18 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée à manches longues à Paris : dentelle, satin, manches amovibles. Pendant, Montana, Chastity, Bella… au showroom MADAMOON, Paris 10e.",
     note: "Dentelle, satin, manches amovibles",
     chapo:
-      "Une robe de mariée à manches longues habille les bras sans alourdir la robe : des manches en dentelle sur un trapèze comme Pendant, sur une sirène en satin mat comme Montana, sur une princesse comme Seraphina, ou des manches en satin perlé comme Bella. Chez MADAMOON, la robe de mariée avec manches s'essaie au showroom du 10ᵉ, à Paris, et se confectionne à vos mesures.",
+      "Une robe de mariée à manches longues habille le bras sans jamais alourdir la silhouette : des manches en dentelle sur un trapèze comme Pendant, sur une sirène en satin mat comme Montana, sur une princesse comme Seraphina, ou en satin perlé comme Bella. Chez MADAMOON, la robe de mariée avec manches s'essaie au showroom du 10ᵉ, à Paris, et se confectionne à vos mesures.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
       robes: {
         titre: "Nos robes de mariée à manches longues",
         liste: [
-          { slug: "pendant", texte: "Un trapèze en dentelle avec des manches longues, chez Watters Designs : la robe de mariée manches longues en dentelle la plus universelle du catalogue." },
-          { slug: "montana", texte: "Une sirène en satin mat, manches longues en dentelle et dos illusion : les manches en dentelle sur une robe unie." },
-          { slug: "chastity", texte: "Dentelle, manches longues, col montant et longue traîne : la dentelle recouvre le corsage et les longues manches, dit sa fiche, pour un charme traditionnel." },
-          { slug: "seraphina", texte: "Une princesse en dentelle brodée, dos nu et manches longues : les manches habillent, le dos respire." },
-          { slug: "bella", texte: "Une sirène ou fourreau en satin haut de gamme, ornée de perles, dos nu et manches longues : la robe de mariée manches longues en satin, chic et couture." },
+          { slug: "pendant", texte: "Un trapèze signé Watters Designs. Robe de mariée, manches longues, dentelle : tout y est, et elle va à toutes." },
+          { slug: "montana", texte: "Une sirène en satin mat, des manches longues en dentelle, un dos illusion : la délicatesse des manches en dentelle, sur une robe unie." },
+          { slug: "chastity", texte: "Dentelle, col montant, longue traîne : la dentelle recouvre le corsage et les longues manches, pour un charme traditionnel." },
+          { slug: "seraphina", texte: "Une princesse en dentelle brodée, manches longues et dos nu. Les manches habillent, le dos respire." },
+          { slug: "bella", texte: "Sirène ou fourreau, dans un satin haut de gamme orné de perles, dos nu et manches longues : la robe à manches longues en satin, chic et très couture." },
           { slug: "aster", texte: "Dentelle de Chantilly, satin et manches amovibles : des manches pour la cérémonie, les bras nus pour la fête." },
         ],
       },
@@ -429,22 +473,22 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Manches longues en dentelle",
           texte:
-            "C'est le cas le plus fréquent : Pendant, Montana, Chastity et Seraphina portent des manches en dentelle, transparentes ou doublées, qui dessinent le bras sans le couvrir tout à fait. Pour l'hiver, le col montant de Chastity complète les manches.",
+            "Ce sont les plus nombreuses. Pendant, Montana, Chastity et Seraphina portent des manches en dentelle, transparentes ou doublées, qui dessinent le bras sans tout à fait le couvrir. Pour l'hiver, le col montant de Chastity vient compléter les manches.",
         },
         {
           titre: "Manches longues en satin",
           texte:
-            "Bella porte ses manches dans le même satin que la robe, orné de perles : une ligne couvrante et graphique, qui va à la mariée qui veut une robe de mariée chic sans dentelle.",
+            "Bella porte ses manches dans le satin de la robe, orné de perles : une ligne couvrante et graphique, pour la mariée qui veut une robe de mariée chic, sans dentelle.",
         },
         {
           titre: "Amovibles, ballon, illusion",
           texte:
-            "Aster a des manches amovibles ; Ryle des manches ballon, pour une robe de mariage à manches bouffantes ; Murielle des manches illusion, en dentelle transparente. Trois façons d'avoir des manches sans les garder toute la journée.",
+            "Aster a des manches amovibles. Ryle, des manches ballon : la robe de mariage à manches bouffantes. Murielle, des manches illusion, en dentelle transparente. Autant de façons de porter la manche avec légèreté.",
         },
         {
           titre: "Avec des manches, ou avec des bretelles",
           texte:
-            "Si les manches longues pèsent, la robe de mariée à bretelles garde l'épaule habillée : Addison et Héra ont des bretelles tombantes, Amaryllis des bretelles qui se portent sur les épaules ou sur les bras.",
+            "Si les manches longues vous pèsent, la robe de mariée à bretelles garde l'épaule habillée : Addison et Héra ont des bretelles tombantes, Amaryllis des bretelles à porter sur les épaules ou sur les bras.",
         },
       ],
       echo: {
@@ -457,7 +501,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Pendant, Chastity, Seraphina et Aster sont indiquées sur leurs fiches pour toutes les morphologies ; Montana pour les morphologies en A, en H, en 8 et en X. Les manches ne changent pas la coupe : elles s'ajoutent à celle qui vous va.",
+          "Les manches ne changent pas la coupe : elles s'ajoutent à celle qui vous va. Pendant, Chastity, Seraphina et Aster conviennent à toutes les morphologies ; Montana, aux morphologies en A, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -465,23 +509,27 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle robe de mariée à manches longues pour un mariage en hiver ?",
-            r: "Une robe aux manches doublées et au col montant, comme Chastity, ou une sirène en satin mat et manches de dentelle comme Montana. Les manches en satin de Bella couvrent davantage que la dentelle transparente.",
+            r: "Une robe aux manches doublées et au col montant, comme Chastity ; ou une sirène en satin mat aux manches de dentelle, comme Montana. Les manches en satin de Bella couvrent davantage qu'une dentelle transparente.",
           },
           {
             q: "Peut-on retirer les manches pour la soirée ?",
-            r: "Sur Aster, oui : ses manches sont amovibles. Pour les autres modèles, la question se pose à l'essayage, robe par robe.",
+            r: "Sur Aster, oui : ses manches sont amovibles. Pour les autres robes, parlons-en à l'essayage, modèle par modèle.",
           },
           {
             q: "Une robe à manches longues pour un mariage civil ?",
-            r: "Chastity, en dentelle à col montant, est rangée avec les deux-en-un : une robe qui change d'allure entre la mairie et la fête. Pour une mairie seule, une robe courte comme Elin reste une option.",
+            r: "Chastity, en dentelle à col montant, est une deux-en-un : elle change d'allure entre la mairie et la fête. Pour une mairie seule, une robe courte comme Elin reste une jolie option.",
           },
           {
             q: "Où essayer une robe de mariée à manches longues à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous. L'essayage est privé, pendant une heure, et la robe est ensuite confectionnée à vos mesures, manches comprises.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, Paris 10ᵉ, sur rendez-vous. L'essayage est privé, pendant une heure ; votre robe est ensuite confectionnée à vos mesures, manches comprises.`,
           },
           {
             q: "Manches longues avec bustier, col bateau, grande taille ou petite : quelles robes ?",
-            r: "Un bustier à manches n'existe pas : les manches tiennent au corsage, comme chez Montana, Pendant ou Seraphina, et Chastity monte jusqu'au col. Le col bateau et le col carré à manches ne sont pas au catalogue ; Hera et Enid se portent épaules dénudées, sans manche. Grande taille, petite taille, femme ronde ou mince : chaque robe est faite à vos mesures, et des manches mi-longues, courtes ou plus amples se discutent aux retouches, comprises. Manches longues simples ou classiques, pailletées ou fines, avec un voile : oui ; des épaulettes, non.",
+            r: "Un bustier à manches n'existe pas : les manches tiennent au corsage, comme chez Montana, Pendant ou Seraphina, et Chastity monte jusqu'au col. Le col bateau et le col carré à manches ne font pas partie de notre sélection ; Hera et Enid, elles, se portent épaules dénudées, sans manche. Grande taille ou petite taille, femme ronde ou mince : chaque robe est faite à vos mesures.",
+          },
+          {
+            q: "Peut-on raccourcir ou élargir les manches ?",
+            r: "Oui : des manches mi-longues, courtes ou plus amples se décident aux retouches, qui sont comprises. Simples ou classiques, fines ou pailletées, vos manches longues se portent aussi très bien avec un voile. Les épaulettes, en revanche, non.",
           },
         ],
         toutes: "Tous les guides",
@@ -501,7 +549,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée en satin à Paris : satin mat, satin de soie, mikado. Sheridan, Venus, Montana, Dove, Bella… au showroom MADAMOON, Paris 10e.",
     note: "Mat, lumineux, structuré",
     chapo:
-      "Le satin est la matière des robes de mariée qui tiennent : un tombé lourd, une surface qui prend la lumière sans briller, des lignes nettes. Au catalogue, il se décline en satin mat, en satin de soie et en mikado, sur des sirènes, des princesses, des trapèzes et une fluide. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+      "Le satin est la matière des robes qui ont de la tenue : un tombé lourd, une surface qui prend la lumière sans briller, des lignes nettes. Satin mat, satin de soie ou mikado, il se porte en sirène, en princesse, en trapèze ou en robe fluide. Votre robe de mariée en satin s'essaie au showroom MADAMOON, dans le 10ᵉ, à Paris.",
     morphos: { premieres: ["H", "8", "X"], secondes: ["O", "A", "V"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -511,17 +559,17 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "sheridan",
             texte:
-              "Une sirène en satin mat souple, illuminée d'applications de dentelle florale, avec une cape assortie en tulle plissé : la robe de mariée en satin et dentelle du catalogue.",
+              "Une sirène en satin mat souple, illuminée d'applications de dentelle florale, avec sa cape assortie en tulle plissé : la robe de mariée en satin et dentelle.",
           },
           {
             slug: "venus",
             texte:
-              "Sirène en satin mat à la traîne majestueuse, corsage structuré par des baleines discrètes, dos en tulle illusion et dentelle.",
+              "Une sirène en satin mat à la traîne majestueuse : corsage structuré par de discrètes baleines, dos en tulle illusion et dentelle.",
           },
           {
             slug: "montana",
             texte:
-              "Satin mat, manches longues en dentelle et dos illusion : une sirène minimaliste et élégante, d'après sa fiche, à la sophistication intemporelle.",
+              "Satin mat, manches longues en dentelle, dos illusion : une sirène minimaliste et élégante, à la sophistication intemporelle.",
           },
           {
             slug: "dove",
@@ -531,22 +579,22 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "addison",
             texte:
-              "Une princesse en satin de soie, aux bretelles tombantes amovibles, avec des motifs floraux appliqués à la main en mousseline et des poches.",
+              "Une princesse en satin de soie, aux bretelles tombantes amovibles, avec des motifs floraux en mousseline appliqués à la main — et des poches.",
           },
           {
             slug: "bella",
             texte:
-              "Satin haut de gamme orné de perles, dos nu et manches longues : la robe de mariée en satin chic et à l'esprit couture, sirène ou fourreau.",
+              "Un satin haut de gamme orné de perles, dos nu et manches longues : la robe de mariée en satin chic, à l'esprit couture, sirène ou fourreau.",
           },
           {
             slug: "hera",
             texte:
-              "Un trapèze en satin, un décolleté Bardot aux bretelles tombantes et une fente : romantique, moderne et intemporelle, dit sa fiche.",
+              "Un trapèze en satin, un décolleté Bardot aux bretelles tombantes, une fente : romantique, moderne et intemporelle.",
           },
           {
             slug: "finell",
             texte:
-              "Un bustier cœur en satin, sculpté, et une jupe trapèze : la robe de mariée en satin simple, dont tout repose sur la coupe.",
+              "Un bustier cœur en satin, sculpté, sur une jupe trapèze : la robe de mariée en satin simple, où tout repose sur la coupe.",
           },
           {
             slug: "charlize",
@@ -559,35 +607,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Satin mat, satin de soie, satin duchesse",
           texte:
-            "Le satin est un tissage, pas une fibre : il peut être de soie ou de polyester, brillant ou mat. Le satin mat, le plus présent au catalogue, garde la densité du satin sans l'éclat ; le satin de soie, celui d'Addison, est plus souple et plus léger ; le satin duchesse, plus lourd, se réserve aux grandes jupes structurées.",
+            "Le satin est un tissage, non une fibre : il peut être de soie ou de polyester, brillant ou mat. Le satin mat, le plus présent dans notre sélection, garde la densité du satin sans son éclat. Le satin de soie, celui d'Addison, est plus souple et plus léger. Le satin duchesse, plus lourd, se réserve aux grandes jupes structurées.",
         },
         {
           titre: "Satin, mikado ou crêpe ?",
           texte:
-            "Trois matières unies, trois tenues. Le mikado est le plus structuré : il fait les princesses de Kensington, Livia et Fern. Le crêpe est le plus souple : il épouse le corps sur Bondi, Milan ou Mira. Le satin est entre les deux — il tient, mais il tombe.",
+            "Trois matières unies, trois caractères. Le mikado, le plus structuré, fait les princesses : Kensington, Livia, Fern. Le crêpe, le plus souple, épouse le corps sur Bondi, Milan ou Mira. Le satin se tient entre les deux : il a de la tenue, et il tombe.",
         },
         {
           titre: "Une robe de mariée en satin, pour quel mariage ?",
           texte:
-            "Pour une cérémonie habillée, un mariage en ville ou en hiver : le satin a du poids et de la tenue, il se porte avec des manches longues comme sur Montana et Bella, ou sous une cape comme sur Sheridan. Pour un mariage d'été à la campagne, on regardera plutôt les fluides en mousseline.",
+            "Une cérémonie habillée, un mariage en ville ou en hiver : le satin a du poids et de l'allure. Il se porte avec des manches longues, comme Montana et Bella, ou sous une cape, comme Sheridan. Pour un mariage d'été à la campagne, vous regarderez plutôt nos fluides en mousseline.",
         },
         {
           titre: "Ce que le satin pardonne, et ce qu'il révèle",
           texte:
-            "Une matière unie montre la coupe : rien ne se cache derrière une dentelle. C'est pourquoi une robe en satin se fait sur mesure. Chaque robe du catalogue est confectionnée à vos mensurations, retouches comprises, et le dernier essayage valide le tombé.",
+            "Une matière unie montre la coupe : rien ne se cache derrière une dentelle. Voilà pourquoi une robe en satin se fait sur mesure. Chacune de nos robes est confectionnée à vos mensurations, retouches comprises, et le dernier essayage valide le tombé.",
         },
       ],
       echo: {
         titre: "Le mikado, le satin qui tient debout",
         texte:
-          "Pour une princesse en satin, le catalogue va vers le mikado, un satin épais et structuré. Kensington, de Casablanca Bridal, en est confectionnée entièrement : épaules dénudées, jupe spectaculaire et traîne de deux mètres. Elle est rangée avec les princesses, et s'essaie volontiers à côté des robes en satin.",
+          "Pour une princesse en satin, tournez-vous vers le mikado, ce satin épais et structuré. Kensington, de Casablanca Bridal, en est entièrement confectionnée : épaules dénudées, jupe spectaculaire, traîne de deux mètres. Une princesse, à essayer aux côtés de nos robes en satin.",
         robe: "kensington",
         voir: "Voir Kensington",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "D'après leurs fiches, Dove, Addison, Hera et Finell sont indiquées pour toutes les morphologies ; Venus pour les morphologies en H, en 8 et en X, Montana pour celles en A, en H, en 8 et en X, Charlize pour celles en V, en H, en 8 et en X. Le satin dessine la silhouette telle qu'elle est : c'est l'essayage, et la confection à vos mesures, qui font le reste.",
+          "Le satin dessine la silhouette telle qu'elle est ; l'essayage, puis la confection à vos mesures, font le reste. Dove, Addison, Hera et Finell conviennent à toutes les morphologies ; Venus, aux morphologies en H, en 8 et en X ; Montana, à celles en A, en H, en 8 et en X ; Charlize, à celles en V, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -595,15 +643,15 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Une robe de mariée en satin est-elle chaude ?",
-            r: "Plus qu'une mousseline, moins qu'on ne le croit : le satin mat du catalogue est doublé, et la robe respire par les ouvertures — un dos nu, un décolleté. Pour un mariage en plein été, les fluides en mousseline ou en charmeuse, comme Adularia, sont plus légères.",
+            r: "Plus qu'une mousseline, moins qu'on ne le croit. Notre satin mat est doublé, et la robe respire par ses ouvertures : un dos nu, un décolleté. Pour un mariage en plein été, les fluides en mousseline ou en charmeuse, comme Adularia, seront plus légères.",
           },
           {
             q: "Le satin se froisse-t-il ?",
-            r: "Le satin de soie marque plus que le satin mat ; le mikado ne marque presque pas. Dans tous les cas, la robe vous est remise après l'essayage final, prête à être portée, et se garde sur un cintre large dans sa housse jusqu'au jour du mariage.",
+            r: "Le satin de soie marque davantage que le satin mat ; le mikado, presque pas. Dans tous les cas, votre robe vous est remise après l'essayage final, prête à être portée ; gardez-la sur un cintre large, dans sa housse, jusqu'au jour du mariage.",
           },
           {
             q: "Satin brillant ou satin mat pour une robe de mariée ?",
-            r: "Le satin mat est celui des robes du catalogue : il prend la lumière sans la renvoyer, ce qui le rend plus facile à photographier et plus juste en journée. Le satin brillant appartient davantage aux robes de soirée.",
+            r: "Le satin mat est celui de nos robes : il prend la lumière sans la renvoyer, ce qui le rend plus juste en plein jour et plus facile à photographier. Le satin brillant appartient davantage aux robes de soirée.",
           },
           {
             q: "Où essayer une robe de mariée en satin à Paris ?",
@@ -611,7 +659,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Satin pour un mariage civil, col bateau, blanc ou ivoire : quel tissu exactement ?",
-            r: "Le satin est un tissu lisse et lumineux ; le satin mat — Dove, Montana — l'est moins ; le satin de soie — Addison — davantage ; la charmeuse — Adularia — est un satin léger. Pour un mariage civil, Adularia. Le col bateau n'existe pas au catalogue, Hera se porte épaules dénudées. Blanche ou ivoire, vert ou champagne ? Les coloris se voient au showroom ; le prix dépend du tissu, à partir de 1 500 € — un satin de soie n'est pas pas cher —, et chaque robe est faite à vos mesures, toutes tailles.",
+            r: "Le satin est un tissu lisse et lumineux. Le satin mat, celui de Dove et de Montana, l'est un peu moins ; le satin de soie d'Addison, davantage ; la charmeuse d'Adularia est un satin léger, idéal pour un mariage civil. Le col bateau ne fait pas partie de notre sélection : Hera se porte épaules dénudées.",
+          },
+          {
+            q: "Robe en satin blanche, ivoire, champagne ou verte : quelles couleurs, et quel prix ?",
+            r: "Nos robes sont blanches ou ivoire. Pour toute autre nuance — champagne, vert —, posez-nous la question au showroom, où les coloris de chaque modèle se voient à la lumière du jour. Le prix dépend du tissu, à partir de 1 500 € : un satin de soie n'est jamais « pas cher », mais votre robe est faite à vos mesures, dans toutes les tailles.",
           },
         ],
         toutes: "Tous les guides",
@@ -632,7 +684,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée bustier à Paris : décolleté cœur, corset, bretelles amovibles. Sheridan, Finell, Fortune, Charlotte… au showroom MADAMOON, Paris 10e.",
     note: "Le buste dessiné, les épaules libres",
     chapo:
-      "Une robe de mariée bustier tient sans bretelles : tout repose sur le corsage, baleiné ou structuré, qui dessine le buste et marque la taille. Au catalogue, le bustier prend un décolleté cœur, droit ou en V, sur des sirènes, des princesses et des trapèzes, parfois avec des bretelles fines amovibles pour changer d'allure dans la journée. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+      "Une robe de mariée bustier tient sans bretelles : tout repose sur le corsage, baleiné ou structuré, qui dessine le buste et marque la taille. Décolleté cœur, droit ou en V, sur une sirène, une princesse ou un trapèze — parfois avec de fines bretelles amovibles, pour changer d'allure au fil de la journée. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
     morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -642,47 +694,47 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "sheridan",
             texte:
-              "Une sirène sans bretelles au décolleté cœur pointu, en satin mat et dentelle florale, avec une cape assortie pour la cérémonie.",
+              "Une sirène sans bretelles au décolleté cœur pointu, en satin mat et dentelle florale, avec sa cape assortie pour la cérémonie.",
           },
           {
             slug: "finell",
             texte:
-              "Un bustier cœur en satin, sculpté, sur une jupe trapèze : « un décolleté inoubliable », dit sa fiche.",
+              "Un bustier cœur en satin, sculpté, sur une jupe trapèze : « un décolleté inoubliable ».",
           },
           {
             slug: "fortune",
             texte:
-              "La robe de mariée bustier trapèze du catalogue, en crêpe stretch et organza satin, élégante et intemporelle.",
+              "Notre robe de mariée bustier trapèze, en crêpe stretch et organza satin : élégante, intemporelle.",
           },
           {
             slug: "charlotte",
             texte:
-              "Robe bustier au décolleté en cœur, corset en taille basque et dentelle Caterina : le rêve de la mariée romantique, princesse ou trapèze.",
+              "Une robe bustier au décolleté en cœur, corset en taille basque et dentelle Caterina. Le rêve de la mariée romantique, en princesse ou en trapèze.",
           },
           {
             slug: "guinevere",
             texte:
-              "Princesse bustier en jacquard floral : un corset au décolleté cœur plongeant et pointu, une taille basque, des poches et une longue traîne.",
+              "Une princesse bustier en jacquard floral : un corset au décolleté cœur plongeant et pointu, une taille basque, une longue traîne — et des poches.",
           },
           {
             slug: "hayes",
             texte:
-              "Un bustier à encolure cœur revisitée, aux lignes épurées, en satin mat et dentelle, sur une jupe princesse ou trapèze.",
+              "Un bustier à l'encolure cœur revisitée, aux lignes épurées, en satin mat et dentelle, sur une jupe princesse ou trapèze.",
           },
           {
             slug: "oksana",
             texte:
-              "Sirène en dentelle de Chantilly, corset basque en pointe, décolleté cœur pointu : les bretelles perlées sont amovibles, pour la porter en bustier.",
+              "Une sirène en dentelle de Chantilly, corset basque en pointe et décolleté cœur pointu. Ses bretelles perlées sont amovibles : elle se porte aussi en bustier.",
           },
           {
             slug: "sienna",
             texte:
-              "Un bustier au décolleté en cœur subtilement revisité et une jupe ample en dentelle : princesse ou trapèze.",
+              "Un bustier au décolleté en cœur subtilement revisité et une jupe ample en dentelle, en princesse ou en trapèze.",
           },
           {
             slug: "meredith",
             texte:
-              "Décolleté en cœur et dentelle en relief : une sirène féminine et romantique qui sublime le buste.",
+              "Décolleté en cœur et dentelle en relief : une sirène féminine et romantique, qui sublime le buste.",
           },
         ],
       },
@@ -690,35 +742,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Bustier, corset, décolleté cœur : les mots",
           texte:
-            "Le bustier est la robe sans bretelles ; le corset est le corsage structuré qui la tient — il peut être baleiné, lacé, à taille basque en pointe comme sur Oksana ou Guinevere. Le décolleté cœur dessine deux arrondis sur le buste ; le décolleté droit, celui d'Enid ou de Nirali, coupe net.",
+            "Le bustier, c'est la robe sans bretelles. Le corset, le corsage structuré qui la tient : baleiné, lacé, ou à taille basque en pointe, comme sur Oksana et Guinevere. Le décolleté cœur dessine deux arrondis sur le buste ; le décolleté droit, celui d'Enid ou de Nirali, coupe net.",
         },
         {
           titre: "Comment tient une robe de mariée bustier ?",
           texte:
-            "Par le corsage, pas par les épaules : des baleines, une doublure ajustée, parfois un laçage dans le dos. C'est pourquoi la confection à vos mesures compte plus encore sur un bustier que sur une robe à manches — et pourquoi le dernier essayage vérifie que l'on peut lever les bras et danser.",
+            "Par le corsage, jamais par les épaules : des baleines, une doublure ajustée, parfois un laçage dans le dos. C'est pourquoi la confection à vos mesures compte plus encore sur un bustier que sur une robe à manches — et pourquoi, au dernier essayage, nous vous demandons de lever les bras, et de danser.",
         },
         {
           titre: "Bretelles amovibles : deux robes en une",
           texte:
-            "Plusieurs robes du catalogue se portent avec ou sans bretelles : Oksana et Addison ont des bretelles amovibles, Tessa aussi. On passe d'un bustier pour la soirée à des bretelles fines pour la cérémonie, sans changer de robe.",
+            "Plusieurs de nos robes se portent avec ou sans bretelles : Oksana, Addison et Tessa ont des bretelles amovibles. De fines bretelles pour la cérémonie, un bustier pour la soirée — sans changer de robe.",
         },
         {
           titre: "Col carré, col bateau, épaules dénudées",
           texte:
-            "Si le bustier ne vous tente pas, les autres encolures du catalogue : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Le col bateau, qui court d'une épaule à l'autre, se cherche plutôt parmi ces épaules dénudées.",
+            "Le bustier ne vous tente pas ? Regardez nos autres encolures : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Quant au col bateau, qui court d'une épaule à l'autre, c'est parmi ces épaules dénudées qu'il se cherche.",
         },
       ],
       echo: {
         titre: "Le col carré, l'autre géométrie",
         texte:
-          "Pour un décolleté net sans bustier, Dolores, en tulle, dentelle et perles, porte une encolure carrée qui flatte le buste, et un dos transparent en dentelle orné de boutons. Elle est rangée avec les trapèzes et les princesses, et s'essaie volontiers à côté des robes bustier.",
+          "Pour un décolleté net sans bustier, Dolores — tulle, dentelle et perles — porte une encolure carrée qui flatte le buste, et un dos transparent en dentelle, orné de boutons. Trapèze ou princesse, elle s'essaie volontiers aux côtés de nos robes bustier.",
         robe: "dolores",
         voir: "Voir Dolores",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Le bustier met le buste et les épaules en avant : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse qui équilibre. D'après leurs fiches, Finell, Fortune, Charlotte et Sienna sont indiquées pour toutes les morphologies, Meredith pour celles en V, en H, en 8 et en X. Pour une forte poitrine, on regarde le maintien du corsage à l'essayage, et des bretelles amovibles rassurent.",
+          "Le bustier met le buste et les épaules en lumière : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse, qui équilibre. Finell, Fortune, Charlotte et Sienna conviennent à toutes les morphologies ; Meredith, à celles en V, en H, en 8 et en X. Pour une forte poitrine, nous regardons ensemble le maintien du corsage à l'essayage — et des bretelles amovibles rassurent.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -726,19 +778,19 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Une robe de mariée bustier tient-elle toute la journée ?",
-            r: "Oui, si elle est faite à vos mesures : c'est le corsage qui la tient. Chaque robe du catalogue est confectionnée selon vos mensurations, puis ajustée aux retouches, et l'essayage final vérifie l'aisance — lever les bras, s'asseoir, danser.",
+            r: "Oui, dès lors qu'elle est faite à vos mesures : c'est le corsage qui la tient. Chaque robe est confectionnée selon vos mensurations, puis ajustée aux retouches, et l'essayage final vérifie l'aisance — lever les bras, s'asseoir, danser.",
           },
           {
             q: "Quelle lingerie sous une robe de mariée bustier ?",
-            r: "Un corsage structuré se porte souvent sans soutien-gorge, ou avec un bustier sans bretelles couleur chair, sans coutures. Apportez-le dès le deuxième essayage, pour que la robe s'ajuste avec.",
+            r: "Un corsage structuré se porte souvent sans soutien-gorge, ou avec un bustier sans bretelles, couleur chair et sans coutures. Apportez-le dès le deuxième essayage : la robe s'ajustera avec.",
           },
           {
             q: "Une robe bustier a-t-elle toujours un corset ?",
-            r: "Un corsage qui tient, oui — baleiné, doublé, parfois lacé ; on l'appelle corset quand il est structuré au point de se voir, comme sur Guinevere ou Oksana. Les robes dont le corset fait le style — lacé, transparent, perlé, avec ou sans bretelles — ont leur propre page.",
+            r: "Un corsage qui tient, toujours — baleiné, doublé, parfois lacé. On parle de corset quand il est structuré au point de se voir, comme sur Guinevere ou Oksana. Les robes dont le corset fait tout le style — lacé, transparent, perlé, avec ou sans bretelles — ont leur propre page.",
           },
           {
             q: "Quelle robe bustier pour un mariage, et quel décolleté ?",
-            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau et le décolleté américain n'existent pas au catalogue ; Enid et Hera se portent en col bardot, épaules dénudées, ce qui en est l'esprit. Une robe bustier blanche ou ivoire : les coloris de chaque modèle se voient au showroom.",
+            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau et le décolleté américain ne font pas partie de notre sélection ; Enid et Hera, en col bardot, épaules dénudées, en ont l'esprit. Blanche ou ivoire ? Les coloris de chaque modèle se découvrent au showroom.",
           },
           {
             q: "Où essayer une robe de mariée bustier à Paris ?",
@@ -746,7 +798,19 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Bustier pour un mariage civil, en cœur, rond ou asymétrique ?",
-            r: "Pour un mariage civil, un bustier simple — Enid, en bustier ou en col bardot — ou une courte à larges bretelles comme River. Le décolleté en cœur est le plus fréquent, Sheridan et Charlotte ; le décolleté rond, Calla ; le bénitier et l'asymétrique ne sont pas au catalogue. Grande taille ou petite, femme ronde ou mince, un bustier tient par sa coupe à vos mesures ; strass et paillettes, c'est Carrie ; le haut en dentelle, Fancy ; blanc ou ivoire, au showroom. Encolure américaine, col mao, col roulé, col officier, cache-cœur croisé : pas au catalogue — un bustier n'a pas de col. Bustier drapé — Milan, drapée au buste —, brodé — Maribel —, brillant ou fleuri, avec un voile : à essayer.",
+            r: "Pour un mariage civil, un bustier simple : Enid, à porter en bustier ou en col bardot. Ou une robe courte à larges bretelles, comme River. Le décolleté en cœur est le plus fréquent — Sheridan, Charlotte ; le décolleté rond, c'est Calla. Le bénitier et l'asymétrique, eux, ne font pas partie de notre sélection.",
+          },
+          {
+            q: "Bustier à strass, en dentelle, drapé ou brodé : lequel choisir ?",
+            r: "Strass et paillettes : Carrie. Haut en dentelle : Fancy. Bustier drapé : Milan, drapée au buste. Brodé : Maribel. Brillant ou fleuri, porté avec un voile, blanc ou ivoire : tout cela s'essaie au showroom.",
+          },
+          {
+            q: "Une robe bustier convient-elle à toutes les silhouettes ?",
+            r: "Grande taille ou petite, femme ronde ou mince : un bustier tient par sa coupe, et la vôtre est faite à vos mesures.",
+          },
+          {
+            q: "Existe-t-il un bustier à col montant, mao ou cache-cœur ?",
+            r: "Un bustier, par définition, n'a pas de col. Encolure américaine, col mao, col roulé, col officier, cache-cœur croisé : aucun ne figure dans notre sélection.",
           },
         ],
         toutes: "Tous les guides",
@@ -770,7 +834,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée corset à Paris : corset lacé, transparent ou perlé, taille basque en pointe. Guinevere, Oksana, Zina, Rowan… au showroom MADAMOON, Paris 10e.",
     note: "Le corsage qui tient, et qui se voit",
     chapo:
-      "Une robe de mariée corset se reconnaît à son corsage : structuré, parfois baleiné ou lacé, il marque la taille et dessine le buste, avec ou sans bretelles. Au catalogue, le corset prend une taille basque en pointe, un laçage dans le dos, une transparence doublée ou non, des perles posées à la main, sur des sirènes, des princesses et des trapèzes. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+      "Tout commence par le corsage. Structuré, parfois baleiné ou lacé, le corset marque la taille et dessine le buste, avec ou sans bretelles. Taille basque en pointe, laçage dans le dos, transparence, perles posées à la main : votre robe de mariée corset se porte en sirène, en princesse ou en trapèze, et s'essaie au showroom MADAMOON, dans le 10ᵉ, à Paris.",
     morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -780,62 +844,62 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "guinevere",
             texte:
-              "Princesse bustier en jacquard floral : un corset au décolleté cœur plongeant et pointu, sublimé par une taille basque, sur une jupe volumineuse à longue traîne.",
+              "Une princesse bustier en jacquard floral : un corset au décolleté cœur plongeant et pointu, sublimé par une taille basque, sur une jupe volumineuse à longue traîne.",
           },
           {
             slug: "oksana",
             texte:
-              "Sirène en dentelle de Chantilly, corset basque en pointe : la taille basque structurée sculpte le corps avant la traîne, dit sa fiche.",
+              "Une sirène en dentelle de Chantilly, au corset basque en pointe : la taille basque, structurée, sculpte le corps avant de laisser place à la traîne.",
           },
           {
             slug: "aleida",
             texte:
-              "Fines bretelles spaghetti, décolleté plongeant prolongé par un corset à taille basque en pointe : maintien et sensualité, d'après sa fiche.",
+              "De fines bretelles spaghetti, un décolleté plongeant prolongé par un corset à taille basque en pointe : le maintien, et la sensualité.",
           },
           {
             slug: "zina",
             texte:
-              "Sirène en georgette stretch et satin mat, fleurs 3D faites main, fente et corset à laçage.",
+              "Une sirène en georgette stretch et satin mat, des fleurs 3D faites main, une fente — et un corset à laçage.",
           },
           {
             slug: "charlize",
             texte:
-              "Un corset transparent — ou doublé, si l'on n'apprécie pas la transparence — et une fente sur une jupe en dentelle de Chantilly.",
+              "Un corset transparent — ou doublé, si la transparence n'est pas pour vous — et une fente ouverte sur une jupe en dentelle de Chantilly.",
           },
           {
             slug: "rowan",
             texte:
-              "Fourreau en charmeuse au corset transparent orné de perles, sur la dentelle Mori ; le corset existe aussi doublé, pour une version plus couvrante.",
+              "Un fourreau en charmeuse, au corset transparent orné de perles, sur la dentelle Mori. Le corset existe aussi doublé, pour une version plus couvrante.",
           },
           {
             slug: "ember",
             texte:
-              "Princesse en Dupioni, dont le corset structure la silhouette : « allure élégante et contemporaine », dit sa fiche.",
+              "Une princesse en Dupioni, dont le corset structure la silhouette : « allure élégante et contemporaine ».",
           },
           {
             slug: "riviera",
             texte:
-              "Sirène en charmeuse, corset structuré et manches amovibles, le corsage souligné de regroupements de perles.",
+              "Une sirène en charmeuse, corset structuré et manches amovibles, le corsage souligné de perles regroupées.",
           },
           {
             slug: "carrie",
             texte:
-              "Trapèze pailletée, fines bretelles et corset perlé à la main : « un rêve de conte de fées », dit sa fiche.",
+              "Un trapèze pailleté, de fines bretelles et un corset perlé à la main : « un rêve de conte de fées ».",
           },
           {
             slug: "lovia",
             texte:
-              "Trapèze ou volume princesse en dentelle, corset à encolure en V qui marque bien la taille, bretelles fines perlées et fente.",
+              "Trapèze ou volume princesse, en dentelle : un corset à encolure en V qui marque joliment la taille, de fines bretelles perlées, une fente.",
           },
           {
             slug: "helene",
             texte:
-              "Un corset lumineux en dentelle ornée de petites perles et de fleurs en relief, sur une jupe fluide en mousseline.",
+              "Un corset lumineux, en dentelle ornée de petites perles et de fleurs en relief, sur une jupe fluide en mousseline.",
           },
           {
             slug: "calla",
             texte:
-              "Un corsage structuré façon corset, un décolleté arrondi, en tulle souple et dentelle Highclare : romantique et confortable, d'après sa fiche.",
+              "Un corsage structuré façon corset, un décolleté arrondi, un tulle souple et la dentelle Highclare : romantique, et confortable.",
           },
         ],
       },
@@ -843,35 +907,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Corset, bustier, corsage : les mots",
           texte:
-            "Le corsage est le haut de la robe ; le corset, un corsage structuré — baleiné, doublé, parfois lacé — qui tient et dessine ; le bustier, la robe sans bretelles. Une robe corset peut avoir des bretelles, Lovia ou Carrie, ou s'en passer, Guinevere ou Charlotte. La taille basque en pointe, qui descend sous la taille, est celle de Guinevere, d'Oksana, d'Aleida et de Charlotte.",
+            "Le corsage est le haut de la robe. Le corset, un corsage structuré — baleiné, doublé, parfois lacé — qui tient et qui dessine. Le bustier, la robe sans bretelles. Une robe corset peut donc avoir des bretelles, comme Lovia ou Carrie, ou s'en passer, comme Guinevere ou Charlotte. Quant à la taille basque en pointe, qui descend sous la taille, c'est celle de Guinevere, d'Oksana, d'Aleida et de Charlotte.",
         },
         {
           titre: "Lacé, transparent, perlé, apparent",
           texte:
-            "Le corset à laçage, c'est Zina, lacé dans le dos. Le corset transparent, Charlize et Rowan, l'un et l'autre proposés aussi doublés. Le corset perlé, Carrie, Rowan, Hélène et Agnessa, perlés à la main. Ariel porte son corset apparent dans le dos, sous des pétales de mousseline ; Dolores le boutonne jusqu'en bas, sous un dos transparent en dentelle.",
+            "Le corset à laçage : Zina, lacée dans le dos. Le corset transparent : Charlize et Rowan, l'une et l'autre proposées aussi doublées. Le corset perlé : Carrie, Rowan, Hélène et Agnessa, perlées à la main. Ariel porte son corset apparent dans le dos, sous des pétales de mousseline ; Dolores le boutonne jusqu'en bas, sous un dos transparent en dentelle.",
         },
         {
           titre: "Le corset marque la taille",
           texte:
-            "C'est ce que disent les fiches, de Fancy — « marque et affine la taille » — à Finell, Angel et Lovia : le corset dessine une courbe entre la taille et les hanches. Il ne serre pas, il tient ; et comme toutes les robes de la boutique, il est confectionné à vos mesures, retouches comprises, à partir de 1 500 €.",
+            "De Fancy — « marque et affine la taille » — à Finell, Angel et Lovia, le corset dessine une courbe entre la taille et les hanches. Il ne serre pas : il tient. Et comme toutes les robes de la boutique, il est confectionné à vos mesures, retouches comprises, à partir de 1 500 €.",
         },
         {
           titre: "Du Regencycore au quotidien",
           texte:
-            "Le corset est le premier code de la tendance Bridgerton, ou Regencycore, annoncée pour 2027 : le guide qui lui est consacré dit ce que le catalogue en a — corset, col carré, manches ballon, perles — et ce qu'il n'a pas. Sur une robe de mariée corset moderne, il se porte sur une sirène en charmeuse comme Riviera ou Rowan, autant que sur une princesse comme Ember.",
+            "Le corset est le premier code de la tendance Bridgerton, ou Regencycore, annoncée pour 2027. Notre guide vous dit ce que nos collections en retiennent — corset, col carré, manches ballon, perles — et ce qu'elles laissent de côté. Sur une robe de mariée corset moderne, il se porte aussi bien sur une sirène en charmeuse, comme Riviera ou Rowan, que sur une princesse comme Ember.",
         },
       ],
       echo: {
         titre: "Le corset structuré d'une deux-en-un",
         texte:
-          "Tessa, de Casablanca Bridal, est une sirène au charme vintage-chic, d'après sa fiche : un corset structuré, des bretelles amovibles pour un autre look, et une surjupe détachable. Elle est rangée avec les deux-en-un, et s'essaie volontiers à côté des robes corset.",
+          "Tessa, de Casablanca Bridal, est une sirène au charme vintage-chic : un corset structuré, des bretelles amovibles pour un autre look, une surjupe détachable. Une deux-en-un, à essayer aux côtés de nos robes corset.",
         robe: "tessa",
         voir: "Voir Tessa",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Le corset dessine la taille : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse. D'après leurs fiches, Charlotte, Finell, Carrie, Lovia, Ember, Calla, Hélène et Agnessa sont indiquées pour toutes les morphologies ; Charlize, Riviera et Rowan pour celles en V, en H, en 8 et en X. Le maintien du corsage se vérifie à l'essayage, bras levés.",
+          "Le corset dessine la taille : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse. Charlotte, Finell, Carrie, Lovia, Ember, Calla, Hélène et Agnessa conviennent à toutes les morphologies ; Charlize, Riviera et Rowan, à celles en V, en H, en 8 et en X. Le maintien du corsage se vérifie à l'essayage, bras levés.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -879,27 +943,27 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Qu'est-ce qu'une robe de mariée corset ?",
-            r: "Une robe dont le corsage est structuré — baleiné, doublé, parfois lacé — au point de se voir : il tient la robe et dessine la taille. Au catalogue, c'est le corset basque en pointe d'Oksana et de Guinevere, le corset à laçage de Zina, le corset transparent de Charlize et de Rowan, le corset perlé de Carrie et d'Hélène.",
+            r: "Une robe dont le corsage est structuré — baleiné, doublé, parfois lacé — au point de se voir : il tient la robe et dessine la taille. Chez MADAMOON, c'est le corset basque en pointe d'Oksana et de Guinevere, le corset à laçage de Zina, le corset transparent de Charlize et de Rowan, le corset perlé de Carrie et d'Hélène.",
           },
           {
             q: "Robe de mariée corset ou bustier : quelle différence ?",
-            r: "Le bustier décrit la robe — sans bretelles ; le corset décrit le corsage — structuré, parfois lacé. Une robe corset peut avoir des bretelles, comme Lovia ou Carrie ; une robe bustier a toujours un corsage qui tient, qu'on l'appelle corset ou non. Guinevere et Charlotte sont les deux à la fois.",
+            r: "Le bustier décrit la robe : sans bretelles. Le corset décrit le corsage : structuré, parfois lacé. Une robe corset peut avoir des bretelles, comme Lovia ou Carrie ; une robe bustier a toujours un corsage qui tient, qu'on l'appelle corset ou non. Guinevere et Charlotte sont les deux à la fois.",
           },
           {
             q: "Un corset de robe de mariée serre-t-il ?",
-            r: "Il tient, il ne serre pas : il est fait à vos mesures, puis ajusté aux retouches, qui sont comprises. L'essayage final vérifie l'aisance — lever les bras, s'asseoir, danser. Pour un corset lacé comme celui de Zina, le laçage se règle le jour même.",
+            r: "Il tient, il ne serre pas. Il est fait à vos mesures, puis ajusté aux retouches, qui sont comprises, et l'essayage final vérifie l'aisance : lever les bras, s'asseoir, danser. Un corset lacé comme celui de Zina se règle le jour même.",
           },
           {
             q: "Corset en dentelle, en satin, en charmeuse ou transparent ?",
-            r: "En dentelle de Chantilly, Oksana ; en dentelle Caterina, Charlotte ; en charmeuse, Riviera et Rowan ; en Dupioni, Ember ; en satin mat, Sheridan, dont la dentelle florale illumine le corset. Transparents, Charlize et Rowan, l'un et l'autre proposés doublés pour qui n'aime pas la transparence.",
+            r: "En dentelle de Chantilly : Oksana. En dentelle Caterina : Charlotte. En charmeuse : Riviera et Rowan. En Dupioni : Ember. En satin mat : Sheridan, dont la dentelle florale illumine le corset. Transparents : Charlize et Rowan, proposés aussi doublés, pour celles qui n'aiment pas la transparence.",
           },
           {
             q: "Où essayer une robe de mariée corset à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un corset lacé, un corset transparent et une taille basque en pointe, robe sur soi.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un corset lacé, un corset transparent et une taille basque en pointe, robe sur vous.`,
           },
           {
             q: "Corset de mariage à lacer, corset apparent, bustier corset : ce que l'on cherche",
-            r: "Le corset lacé dans le dos, c'est Zina ; le corset apparent, Ariel, dans le dos sous ses pétales ; le bustier corset, Guinevere et Charlotte, sans bretelles. Un corset seul — un haut, un top, une pièce de lingerie à porter sous ou avec une jupe — n'est pas au catalogue : la boutique propose des robes entières, que l'on essaie au showroom.",
+            r: "Le corset lacé dans le dos, c'est Zina. Le corset apparent, Ariel, dans le dos, sous ses pétales. Le bustier corset, Guinevere et Charlotte, sans bretelles. Un corset seul — un haut, un top, une pièce de lingerie à porter sous ou avec une jupe — ne fait pas partie de notre sélection : la boutique propose des robes entières, que l'on essaie au showroom.",
           },
         ],
         toutes: "Tous les guides",
@@ -920,7 +984,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée dos nu à Paris : dos nu, dos illusion, dos en V. Bella, Seraphina, Agnessa, Murielle, Venus… au showroom MADAMOON, Paris 10e.",
     note: "Ce que l'on voit quand vous avancez",
     chapo:
-      "Une robe de mariée dos nu se regarde pendant toute la cérémonie : c'est le dos que voient les invités. Au catalogue, il est nu, ouvert en V, transparent sous un tulle illusion, en dentelle, ou fermé d'une ligne de boutons jusqu'à la traîne — sur des sirènes, des fluides, des trapèzes et des princesses. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+      "C'est votre dos que les invités regardent pendant toute la cérémonie. Nu, ouvert en V, voilé d'un tulle illusion, en dentelle, ou fermé d'une ligne de boutons jusqu'à la traîne : la robe de mariée dos nu se porte en sirène, en fluide, en trapèze ou en princesse, et s'essaie au showroom MADAMOON, dans le 10ᵉ, à Paris.",
     morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -930,47 +994,47 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "bella",
             texte:
-              "Dos nu, manches longues, satin et perles : la robe de mariée dos nu chic et à l'esprit couture, sirène ou fourreau.",
+              "Dos nu, manches longues, satin et perles : la robe de mariée dos nu chic, à l'esprit couture, sirène ou fourreau.",
           },
           {
             slug: "seraphina",
             texte:
-              "Dentelle brodée, dos nu et manches longues sur une silhouette princesse : une élégance intemporelle, revisitée d'une touche contemporaine.",
+              "Dentelle brodée, dos nu et manches longues sur une silhouette princesse : une élégance intemporelle, relevée d'une touche contemporaine.",
           },
           {
             slug: "agnessa",
             texte:
-              "Un décolleté et un dos spectaculaires en V, un corset perlé à la main, une jupe de tulle fluide : naturellement glamour.",
+              "Un décolleté et un dos spectaculaires, en V, un corset perlé à la main, une jupe de tulle fluide. Naturellement glamour.",
           },
           {
             slug: "murielle",
             texte:
-              "Dentelle florale et mousseline, dos en V, manches illusion et fente haute : la robe de mariée dos nu bohème du catalogue.",
+              "Dentelle florale et mousseline, dos en V, manches illusion et fente haute : la robe de mariée dos nu bohème.",
           },
           {
             slug: "venus",
             texte:
-              "Un dos en tulle illusion et dentelle, qui dévoile une transparence subtile, sur une sirène en satin mat à la traîne majestueuse.",
+              "Un dos en tulle illusion et dentelle, d'une transparence subtile, sur une sirène en satin mat à la traîne majestueuse.",
           },
           {
             slug: "uma",
             texte:
-              "Une dentelle fine et un dos transparent fermé par une ligne de jolis boutons couleur ivoire : le dos illusion de Watters Designs.",
+              "Une dentelle fine et un dos transparent, fermé par une ligne de jolis boutons couleur ivoire : le dos illusion selon Watters Designs.",
           },
           {
             slug: "montana",
             texte:
-              "Dos illusion et manches longues en dentelle sur un satin mat : le dos nu couvert, pour un mariage en hiver.",
+              "Dos illusion et manches longues en dentelle sur un satin mat : le dos nu, couvert, pour un mariage en hiver.",
           },
           {
             slug: "dove",
             texte:
-              "Un dos ouvert et une ligne infinie de boutons jusqu'à la traîne, sur un satin mat fluide : une allure poétique et pure.",
+              "Un dos ouvert, une ligne infinie de boutons jusqu'à la traîne, un satin mat fluide. Une allure poétique et pure.",
           },
           {
             slug: "emerald",
             texte:
-              "Un dos en V qui prolonge le décolleté, un corsage perlé et une jupe de tulle ou de satin : la touche de sensualité subtile d'un trapèze.",
+              "Un dos en V qui prolonge le décolleté, un corsage perlé, une jupe de tulle ou de satin : la sensualité subtile d'un trapèze.",
           },
         ],
       },
@@ -978,35 +1042,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Dos nu, dos illusion, dos en V",
           texte:
-            "Le dos nu laisse la peau libre, comme sur Bella et Seraphina. Le dos illusion la couvre d'un tulle couleur chair sur lequel la dentelle semble posée : Uma, Montana, Venus. Le dos en V descend en pointe, plus ou moins bas : Agnessa, Murielle, Emerald, Angel.",
+            "Le dos nu laisse la peau libre : Bella, Seraphina. Le dos illusion la voile d'un tulle couleur chair, sur lequel la dentelle semble posée : Uma, Montana, Venus. Le dos en V descend en pointe, plus ou moins bas : Agnessa, Murielle, Emerald, Angel.",
         },
         {
           titre: "Une robe dos nu peut-elle avoir des manches ?",
           texte:
-            "Oui, et c'est l'un des plus beaux contrastes du catalogue : Bella, Seraphina et Montana ont des manches longues et le dos découvert. La robe couvre les bras et dévoile le dos — une robe de mariée dos nu pour un mariage en hiver.",
+            "Oui, et c'est l'un de nos plus beaux contrastes : Bella, Seraphina et Montana couvrent les bras de manches longues et dévoilent le dos. La robe de mariée dos nu rêvée pour un mariage en hiver.",
         },
         {
           titre: "Sexy, mais mariée",
           texte:
-            "Une robe de mariée sexy ne se joue pas sur la quantité de peau mais sur l'endroit : un dos, une fente, une transparence. Le dos nu dit tout en restant couverte de face — c'est pourquoi il va aussi bien à l'église qu'à la fête.",
+            "Une robe de mariée sexy ne tient pas à la quantité de peau, mais à l'endroit : un dos, une fente, une transparence. Le dos nu dit tout en restant couverte de face — voilà pourquoi il est aussi juste à l'église qu'à la fête.",
         },
         {
           titre: "La ligne de boutons",
           texte:
-            "Sur Uma, Dove, Enid et Bondi, le dos se ferme d'une rangée de boutons qui descend jusqu'à la traîne. Ce n'est pas un dos nu, mais c'est le même regard : un dos dessiné, que l'on suit quand la mariée avance.",
+            "Sur Uma, Dove, Enid et Bondi, le dos se ferme d'une rangée de boutons qui descend jusqu'à la traîne. Ce n'est pas un dos nu, mais c'est le même regard : un dos dessiné, que l'on suit des yeux quand la mariée avance.",
         },
       ],
       echo: {
         titre: "Le dos boutonné",
         texte:
-          "Pour un dos habillé sans transparence, Enid, de Casablanca Bridal, en néoprène, porte « une infinité de boutons » du corsage jusqu'à la traîne. Elle est rangée avec les sirènes et les robes minimalistes, et s'essaie volontiers à côté des robes dos nu.",
+          "Pour un dos habillé, sans transparence, Enid, de Casablanca Bridal, en néoprène, porte « une infinité de boutons » du corsage jusqu'à la traîne. Sirène minimaliste, elle s'essaie volontiers aux côtés de nos robes dos nu.",
         robe: "enid",
         voir: "Voir Enid",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Le dos nu allonge le dos et dégage la nuque : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A, en particulier avec un dos en V sur une jupe fluide ou trapèze. D'après leurs fiches, Seraphina, Agnessa, Murielle, Dove et Emerald sont indiquées pour toutes les morphologies ; Uma pour celles en V, en H, en 8 et en X ; Venus pour celles en H, en 8 et en X ; Montana pour celles en A, en H, en 8 et en X.",
+          "Le dos nu allonge le dos et dégage la nuque : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A — en particulier un dos en V sur une jupe fluide ou trapèze. Seraphina, Agnessa, Murielle, Dove et Emerald conviennent à toutes les morphologies ; Uma, à celles en V, en H, en 8 et en X ; Venus, à celles en H, en 8 et en X ; Montana, à celles en A, en H, en 8 et en X.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1018,23 +1082,31 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Une robe dos nu convient-elle à une cérémonie religieuse ?",
-            r: "Le plus souvent, oui, avec une cape, une étole ou une veste pour la cérémonie, retirée pour la fête. Sheridan a sa cape assortie, Solana sa veste asymétrique amovible ; pour une autre robe, on en parle à l'essayage.",
+            r: "Le plus souvent, oui, avec une cape, une étole ou une veste pour la cérémonie, que l'on retire pour la fête. Sheridan a sa cape assortie, Solana sa veste asymétrique amovible ; pour une autre robe, parlons-en à l'essayage.",
           },
           {
             q: "Dos nu ou dos illusion : que choisir ?",
-            r: "Le dos nu si vous aimez la peau libre et une robe qui tient par le corsage ; le dos illusion si vous voulez l'effet du dos découvert avec plus de maintien et de la dentelle posée sur le tulle. Uma et Montana montrent le second, Bella et Seraphina le premier.",
+            r: "Le dos nu, si vous aimez la peau libre et une robe qui tient par son corsage. Le dos illusion, si vous voulez l'effet d'un dos découvert avec plus de maintien, et une dentelle comme posée sur le tulle. Bella et Seraphina pour le premier ; Uma et Montana pour le second.",
           },
           {
             q: "Dos nu et décolleté plongeant vont-ils ensemble ?",
-            r: "Souvent, pas toujours. Murielle associe un décolleté plongeant et un dos ouvert ; Bella, Venus et Montana gardent le devant plus couvert et montrent le dos — nu, en dentelle ou en illusion. Pour une robe de mariée dos nu sans décolleté plongeant, c'est vers ces trois-là qu'on regarde d'abord.",
+            r: "Souvent, pas toujours. Murielle associe décolleté plongeant et dos ouvert ; Bella, Venus et Montana gardent le devant plus couvert et dévoilent le dos — nu, en dentelle ou en illusion. Pour une robe de mariée dos nu sans décolleté plongeant, commencez par elles.",
           },
           {
             q: "Où essayer une robe de mariée dos nu à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure, avec un miroir pour se voir de dos.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure, avec un miroir pour vous voir de dos.`,
           },
           {
             q: "Robe de mariée fendue, transparente, dos nu : et le soutien-gorge ?",
-            r: "La fente et le dos nu vont souvent ensemble : Murielle a une fente et un dos ouvert ; Bondi et Milan, fendues, ont le dos boutonné ou couvert ; la transparence est celle du tulle illusion de Venus, d'Uma et de Montana. Pour le soutien-gorge, la question se règle à l'essayage : les corsages sont souvent assez structurés pour s'en passer, et les retouches, comprises, ajoutent un maintien quand il le faut. Col montant, col carré, bustier ; en soie ou en satin ; rose ou orange — non : au catalogue, le dos nu reste blanc ou ivoire, et c'est le corsage qui décide. Collier dans le dos, coiffure relevée, body ou gaine invisible : des accessoires et des réglages d'essayage, pas des robes ; la robe dos nu cintrée, c'est Bella.",
+            r: "La fente et le dos nu vont souvent de pair : Murielle a l'une et l'autre ; Bondi et Milan, fendues, gardent le dos boutonné ou couvert. La transparence, c'est celle du tulle illusion de Venus, d'Uma et de Montana. Quant au soutien-gorge, la question se règle à l'essayage : nos corsages sont souvent assez structurés pour s'en passer, et les retouches, comprises, ajoutent du maintien là où il le faut.",
+          },
+          {
+            q: "Collier de dos, coiffure, gaine : comment porter un dos nu ?",
+            r: "Un collier dans le dos, une coiffure relevée, un body ou une gaine invisible : ce sont des accessoires et des réglages d'essayage, que nous voyons ensemble. Pour une robe dos nu cintrée, pensez à Bella.",
+          },
+          {
+            q: "Existe-t-il une robe dos nu de couleur, en soie, à col montant ?",
+            r: "Nos robes dos nu restent blanches ou ivoire : ni rose, ni orange. Col montant, col carré ou bustier, en soie ou en satin : c'est le corsage qui décide, et cela se voit robe par robe, au showroom.",
           },
         ],
         toutes: "Tous les guides",
@@ -1055,7 +1127,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée grande taille à Paris : pas de rayon, chaque robe est confectionnée à vos mesures, retouches comprises. Showroom MADAMOON, Paris 10e.",
     note: "Faite à vos mesures, pas à une taille",
     chapo:
-      "Il n'y a pas de rayon grande taille chez MADAMOON, parce qu'il n'y a pas de rayon : chaque robe du catalogue est confectionnée à l'atelier selon vos mensurations, prises au showroom après l'essayage, et les retouches sont comprises. Les robes montrées ici sont celles dont la fiche indique toutes les morphologies et dont le corsage structuré assure le maintien. Les tailles proposées par chaque maison se confirment au showroom, modèle par modèle, dans le 10ᵉ, à Paris.",
+      "Chez MADAMOON, il n'y a pas de rayon grande taille — parce qu'il n'y a pas de rayon du tout. Chaque robe est confectionnée à l'atelier selon vos mensurations, prises au showroom après l'essayage, retouches comprises. Nous avons réuni ici celles qui vont à toutes les morphologies et dont le corsage structuré assure le maintien ; les tailles proposées par chaque maison se confirment au showroom, modèle par modèle, dans le 10ᵉ, à Paris.",
     coupe: { ancre: "trapeze", label: "Voir les robes trapèze" },
     ariane: { nom: "Morphologies", adresse: "/morphologies" },
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
@@ -1067,47 +1139,47 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "pendant",
             texte:
-              "Un trapèze en dentelle aux manches longues et aux épaules dénudées, indiqué sur sa fiche pour toutes les morphologies.",
+              "Un trapèze en dentelle, manches longues et épaules dénudées, indiqué pour toutes les morphologies.",
           },
           {
             slug: "charlotte",
             texte:
-              "Robe bustier au corset en taille basque et dentelle Caterina, princesse ou trapèze : le corset marque la taille, la jupe fait le reste.",
+              "Une robe bustier au corset en taille basque et dentelle Caterina, princesse ou trapèze : le corset marque la taille, la jupe fait le reste.",
           },
           {
             slug: "calla",
             texte:
-              "Un corsage structuré façon corset, un tulle très souple et une dentelle Highclare : « confort, féminité et raffinement », dit sa fiche.",
+              "Un corsage structuré façon corset, un tulle très souple, la dentelle Highclare : « confort, féminité et raffinement ».",
           },
           {
             slug: "clover-perles",
             texte:
-              "Un corsage structuré qui assure un bon maintien, un décolleté carré et une jupe ample au volume généreux, en préservant le confort.",
+              "Un corsage structuré, pour un bon maintien, un décolleté carré et une jupe ample au volume généreux — sans rien céder au confort.",
           },
           {
             slug: "fortune",
             texte:
-              "Bustier trapèze en crêpe stretch et organza satin : une matière qui suit, une coupe qui tient.",
+              "Un bustier trapèze en crêpe stretch et organza satin : une matière qui vous suit, une coupe qui tient.",
           },
           {
             slug: "ember",
             texte:
-              "Un corset structuré et une silhouette couture en Dupioni : la princesse qui tient par son corsage.",
+              "Un corset structuré et une silhouette couture, en Dupioni : la princesse qui tient par son corsage.",
           },
           {
             slug: "dove",
             texte:
-              "Un tombé fluide en satin mat, un décolleté drapé et les épaules dénudées : « l'élégance intemporelle et le confort absolu », d'après sa fiche.",
+              "Un satin mat au tombé fluide, un décolleté drapé, les épaules dénudées : « l'élégance intemporelle et le confort absolu ».",
           },
           {
             slug: "maribel",
             texte:
-              "Une fluide minimaliste en mousseline stretch, au corsage brodé et perlé à la main, avec un décolleté en V et une fente.",
+              "Une fluide minimaliste en mousseline stretch, corsage brodé et perlé à la main, décolleté en V et fente.",
           },
           {
             slug: "aster",
             texte:
-              "Un trapèze en dentelle de Chantilly et satin, à la taille naturelle et au corsage drapé, avec des manches amovibles.",
+              "Un trapèze en dentelle de Chantilly et satin, taille naturelle et corsage drapé, avec des manches amovibles.",
           },
         ],
       },
@@ -1115,35 +1187,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Sur mesure plutôt que grande taille",
           texte:
-            "Une robe de mariée grande taille en magasin existe en tailles standard, puis se retouche. Chez MADAMOON, la robe est confectionnée à vos mensurations à l'atelier — en semi-mesure pour Watters Designs — et ajustée par nos couturières, retouches comprises. La taille n'est pas un rayon : c'est une mesure.",
+            "En magasin, une robe de mariée grande taille existe en tailles standard, puis se retouche. Chez MADAMOON, votre robe est confectionnée à vos mensurations à l'atelier — en semi-mesure pour Watters Designs — puis ajustée par nos couturières, retouches comprises. La taille n'est pas un rayon : c'est une mesure, la vôtre.",
         },
         {
           titre: "Ce qui tient : le corsage",
           texte:
-            "Un corsage structuré — corset, baleines, doublure ajustée — porte la robe et dessine la taille. C'est lui que l'on regarde d'abord à l'essayage : Charlotte, Calla, Clover, Ember et Fortune en ont un, d'après leurs fiches. Des bretelles, amovibles ou non, ajoutent du maintien.",
+            "Un corsage structuré — corset, baleines, doublure ajustée — porte la robe et dessine la taille. C'est lui que nous regardons d'abord à l'essayage : Charlotte, Calla, Clover, Ember et Fortune en ont un. Des bretelles, amovibles ou non, ajoutent encore du maintien.",
         },
         {
           titre: "Forte poitrine : ce qui aide",
           texte:
-            "Un décolleté en V ou cœur plutôt qu'un bustier droit, un corsage qui soutient, des bretelles plus larges ou des manches : Maribel, Pendant et Aster vont dans ce sens. Mais la règle, ici, c'est l'essayage — rien ne remplace une heure de showroom.",
+            "Un décolleté en V ou en cœur plutôt qu'un bustier droit, un corsage qui soutient, des bretelles plus larges ou des manches : Maribel, Pendant et Aster vont dans ce sens. Mais la seule vraie règle, c'est l'essayage — rien ne remplace une heure de showroom.",
         },
         {
           titre: "Grande taille et petit budget",
           texte:
-            "Une robe de mariée grande taille pas chère se trouve en prêt-à-porter, pas ici : chez MADAMOON, les prix commencent à partir de 1 500 € pour une confection sur mesure, retouches comprises. En contrepartie, la robe est faite pour vous, et vous ne payez pas de retouches en plus.",
+            "Une robe de mariée grande taille pas chère se trouve en prêt-à-porter. Chez MADAMOON, les prix commencent à partir de 1 500 € pour une confection sur mesure, retouches comprises : la robe est faite pour vous, et vous ne payez aucune retouche en plus.",
         },
       ],
       echo: {
         titre: "Princesse ou trapèze, selon le jour",
         texte:
-          "Sienna, de Casablanca Bridal, se porte princesse ou trapèze : un bustier au décolleté en cœur subtilement revisité, et une jupe ample en dentelle qui apporte un volume généreux. Indiquée sur sa fiche pour toutes les morphologies, elle s'essaie volontiers à côté des robes montrées ici.",
+          "Sienna, de Casablanca Bridal, se porte princesse ou trapèze : un bustier au décolleté en cœur subtilement revisité, une jupe ample en dentelle au volume généreux. Indiquée pour toutes les morphologies, elle s'essaie volontiers aux côtés des robes réunies ici.",
         robe: "sienna",
         voir: "Voir Sienna",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Toutes les robes montrées sur cette page sont indiquées, sur leur fiche, pour toutes les morphologies — en O, en A, en V, en H, en 8 et en X. La grande taille n'est pas une morphologie : une silhouette en O et une silhouette en 8 ne cherchent pas la même coupe. Partez de la vôtre, puis venez essayer.",
+          "Toutes les robes de cette page sont indiquées pour toutes les morphologies — en O, en A, en V, en H, en 8 et en X. Mais la grande taille n'est pas une morphologie : une silhouette en O et une silhouette en 8 ne cherchent pas la même coupe. Partez de la vôtre, puis venez essayer.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1151,19 +1223,19 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Jusqu'à quelle taille peut-on confectionner une robe de mariée chez MADAMOON ?",
-            r: "La robe est confectionnée à vos mensurations, prises au showroom. Les tailles proposées varient d'une maison à l'autre et se confirment en showroom, modèle par modèle : prenez rendez-vous, et dites-nous les robes qui vous plaisent.",
+            r: "Votre robe est confectionnée à vos mensurations, prises au showroom. Les tailles proposées varient d'une maison à l'autre et se confirment sur place, modèle par modèle : prenez rendez-vous, et dites-nous les robes qui vous plaisent.",
           },
           {
             q: "Y a-t-il des robes grande taille à essayer au showroom ?",
-            r: "Les robes d'essayage sont celles du showroom, en taille d'échantillon ; l'essayage sert à choisir la coupe et la matière, et la robe est ensuite confectionnée à vos mesures. Si une robe vous attire, demandez-nous avant le rendez-vous ce qui s'essaie dans votre taille.",
+            r: "Les robes d'essayage sont celles du showroom, en taille d'échantillon : l'essayage sert à choisir la coupe et la matière, puis votre robe est confectionnée à vos mesures. Une robe vous attire ? Demandez-nous, avant le rendez-vous, ce qui s'essaie dans votre taille.",
           },
           {
             q: "Quelle coupe de robe de mariée pour une grande taille ?",
-            r: "Il n'y a pas une coupe, il y a votre silhouette. Les trapèzes et les princesses équilibrent une morphologie en A ; les fluides allongent une morphologie en O ; une sirène légère dessine des courbes sur une morphologie en H. Le corsage structuré, lui, aide dans tous les cas.",
+            r: "Il n'y a pas une coupe : il y a votre silhouette. Les trapèzes et les princesses équilibrent une morphologie en A ; les fluides allongent une morphologie en O ; une sirène légère dessine des courbes sur une morphologie en H. Le corsage structuré, lui, aide dans tous les cas.",
           },
           {
             q: "Robe de mariée ronde ou grande taille : quelle différence à l'essayage ?",
-            r: "Aucune : une mariée ronde, comme toute mariée, essaie la robe de son choix et la fait confectionner à ses mesures, pour un mariage civil ou religieux. Pas de rayon « pas cher » ni de surcoût : le prix dépend de la robe, à partir de 1 500 €, retouches comprises.",
+            r: "Aucune. Une mariée ronde, comme toute mariée, essaie la robe de son choix et la fait confectionner à ses mesures, pour un mariage civil ou religieux. Ni rayon « pas cher », ni surcoût : le prix dépend de la robe, à partir de 1 500 €, retouches comprises.",
           },
           {
             q: "Où essayer une robe de mariée grande taille à Paris ?",
@@ -1171,7 +1243,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Femme ronde, petite, curvy, taille 46 ou XXL : quand prendre rendez-vous, et quelle robe ?",
-            r: "Quand : huit à neuf mois avant le mariage, comme toute mariée, été comme hiver. Quelle robe : celle qu'on aime, car tout est confectionné aux mesures de la femme qui la porte — petite ou grande, ronde ou curvy, taille 46, XL ou XXL, ces mots ne servent qu'à la recherche sur un écran. Au showroom, à Paris, en France, il n'y a que vos mesures et un style. Tenue de mariage pour femme forte « à proximité » ou « autour de moi » : en Île-de-France, c'est Paris 10ᵉ ; le soutien-gorge se règle à l'essayage, l'achat se décide après, à 50 ans comme à 25, blanche ou ivoire, pas colorée.",
+            r: "Quand ? Huit à neuf mois avant le mariage, comme toute mariée, été comme hiver. Quelle robe ? Celle que vous aimez, puisque tout est confectionné aux mesures de la femme qui la porte. Petite ou grande, ronde ou curvy, taille 46, XL ou XXL : ces mots ne servent qu'à chercher sur un écran. Au showroom, il n'y a plus que vos mesures, et votre style.",
+          },
+          {
+            q: "Où trouver une tenue de mariage pour femme forte près de chez moi ?",
+            r: "Si vous cherchez « à proximité » ou « autour de moi » en Île-de-France, notre showroom se trouve à Paris, en France, dans le 10ᵉ arrondissement. Le soutien-gorge se règle à l'essayage, l'achat se décide après, à 50 ans comme à 25. Nos robes sont blanches ou ivoire, jamais colorées.",
           },
         ],
         toutes: "Tous les guides",
@@ -1197,7 +1273,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée romantique à Paris : dentelle florale, tulle, corsage perlé. Santana, Seraphina, Charlotte, Calla, Carrie… au showroom MADAMOON, Paris 10e.",
     note: "Dentelle, tulle, fleurs",
     chapo:
-      "Une robe de mariée romantique se reconnaît à ses matières plus qu'à sa coupe : de la dentelle florale, du tulle qui respire, un corsage brodé de fleurs ou de perles, un décolleté en cœur. Chez MADAMOON, ces robes viennent de Casablanca Bridal, Watters Designs, Olya Mak et Monica Loretti, et s'essaient au showroom du 10ᵉ, à Paris, princesse, trapèze ou sirène côte à côte.",
+      "Dentelle florale, tulle aérien, corsage brodé de fleurs ou de perles, décolleté en cœur : une robe de mariée romantique tient à ses matières bien plus qu'à sa coupe. Signées Casablanca Bridal, Watters Designs, Olya Mak et Monica Loretti, les nôtres s'essaient côte à côte — princesse, trapèze ou sirène — au showroom du 10ᵉ, à Paris.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -1207,47 +1283,47 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "santana",
             texte:
-              "Une princesse « inspirée des contes de fées », d'après sa fiche : corsage transparent en dentelle florale, jupe volumineuse en tulle et organza à motifs floraux, ourlet festonné. Romantique, aérienne, féerique.",
+              "Une princesse « inspirée des contes de fées » : corsage transparent en dentelle florale, jupe volumineuse en tulle et organza à motifs floraux, ourlet festonné. Romantique, aérienne, féerique.",
           },
           {
             slug: "seraphina",
             texte:
-              "Une princesse en dentelle richement brodée à la main, manches longues, dos nu : chaque application florale est posée à la main, et c'est elle qui donne à la robe sa dimension romantique.",
+              "Une princesse en dentelle richement brodée, manches longues et dos nu. Chaque application florale est posée à la main : c'est elle qui donne à la robe son âme romantique.",
           },
           {
             slug: "charlotte",
             texte:
-              "Un bustier au décolleté en cœur, un corset en taille basque et la dentelle Caterina : « le rêve de la mariée romantique et élégante », dit sa fiche. Elle existe aussi en version plus couvrante.",
+              "Un bustier au décolleté en cœur, un corset en taille basque, la dentelle Caterina : « le rêve de la mariée romantique et élégante ». Elle existe aussi en version plus couvrante.",
           },
           {
             slug: "calla",
             texte:
-              "Tulle très souple et dentelle Highclare, décolleté arrondi, corsage façon corset : une allure douce et aérienne, légère et naturelle.",
+              "Un tulle très souple, la dentelle Highclare, un décolleté arrondi, un corsage façon corset : une allure douce et aérienne, légère et naturelle.",
           },
           {
             slug: "carrie",
             texte:
-              "« Un rêve de conte de fées » : un corsage brodé de perles en feuilles et lianes, de fines doubles bretelles, et plusieurs couches de tulle pailleté. Le romantique qui scintille.",
+              "« Un rêve de conte de fées » : un corsage brodé de perles en feuilles et en lianes, de fines doubles bretelles, plusieurs couches de tulle pailleté. Le romantique qui scintille.",
           },
           {
             slug: "summer",
             texte:
-              "Une sirène évasée en dentelle d'Alençon, décolleté en V et longue traîne : la dentelle française pour une allure « à la fois romantique et glamour ».",
+              "Une sirène évasée en dentelle d'Alençon, décolleté en V et longue traîne : la dentelle française, pour une allure « à la fois romantique et glamour ».",
           },
           {
             slug: "helene",
             texte:
-              "Un corset en dentelle ornée de petites perles et de fleurs en relief, une jupe fluide en mousseline : le romantique qui bouge, à la frontière du bohème.",
+              "Un corset de dentelle ornée de petites perles et de fleurs en relief, une jupe fluide en mousseline : le romantique qui danse, à la lisière du bohème.",
           },
           {
             slug: "alicia",
             texte:
-              "Dentelle et tulle, épaules dégagées et fente, en trapèze ou en volume princesse : « un look féerique et mémorable », d'après sa fiche.",
+              "Dentelle et tulle, épaules dégagées et fente, en trapèze ou en volume princesse : « un look féerique et mémorable ».",
           },
           {
             slug: "hera",
             texte:
-              "Un trapèze en satin au décolleté Bardot, une fente sur le devant qui contraste avec « le volume romantique de la jupe » : romantique, moderne et intemporelle.",
+              "Un trapèze en satin au décolleté Bardot, et une fente sur le devant qui répond au « volume romantique de la jupe » : romantique, moderne, intemporelle.",
           },
         ],
       },
@@ -1255,35 +1331,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Ce qui fait le romantique",
           texte:
-            "La dentelle florale, en premier : brodée à la main chez Seraphina, Caterina chez Charlotte, d'Alençon chez Summer, Highclare chez Calla. Puis le tulle, qui donne du volume sans peser, et les fleurs — en relief sur le corset d'Hélène, en perles sur celui de Carrie. Un décolleté en cœur, enfin, que Charlotte et Santana portent chacune à sa façon.",
+            "La dentelle florale, d'abord : brodée à la main chez Seraphina, Caterina chez Charlotte, d'Alençon chez Summer, Highclare chez Calla. Puis le tulle, qui donne du volume sans peser. Les fleurs, en relief sur le corset d'Hélène, en perles sur celui de Carrie. Et un décolleté en cœur, que Charlotte et Santana portent chacune à sa façon.",
         },
         {
           titre: "Romantique ou féerique ?",
           texte:
-            "Le féerique est le romantique en plus grand : du volume, du tulle en couches, un peu d'éclat. Santana, Carrie et Alicia sont décrites ainsi sur leurs fiches — contes de fées, tulle pailleté, « look féerique ». Le romantique peut aussi rester près du corps : Summer et Seraphina le prouvent, chacune dans sa coupe.",
+            "Le féerique, c'est le romantique en plus grand : du volume, du tulle en couches, un peu d'éclat. Santana, Carrie et Alicia se décrivent ainsi — contes de fées, tulle pailleté, « look féerique ». Mais le romantique sait aussi rester près du corps : Summer et Seraphina le prouvent, chacune dans sa coupe.",
         },
         {
           titre: "Princesse, trapèze ou sirène",
           texte:
-            "Le romantique traverse les coupes. En princesse, Santana et Seraphina déploient la jupe ; en trapèze, Charlotte, Calla, Carrie et Hera gardent une ligne plus simple ; en sirène, Summer dessine le corps. Au showroom, on les essaie dans cet ordre, ou dans l'autre : la coupe se choisit sur vous, le style est déjà là.",
+            "Le romantique traverse toutes les coupes. En princesse, Santana et Seraphina déploient leur jupe ; en trapèze, Charlotte, Calla, Carrie et Hera gardent une ligne plus simple ; en sirène, Summer dessine le corps. Au showroom, essayez-les dans cet ordre, ou dans l'autre : la coupe se choisit sur vous, le style est déjà là.",
         },
         {
           titre: "Romantique, pas chargé",
           texte:
-            "Une robe romantique réussie tient à un détail dominant, rarement à trois : la dentelle, ou les fleurs, ou l'éclat. C'est ce qui sépare Calla, toute en douceur, de Carrie, toute en lumière. Chaque robe est ensuite confectionnée à vos mesures, retouches comprises — un corsage qui tombe juste fait plus pour le romantique qu'un volant de plus.",
+            "Une robe romantique réussie tient à un détail dominant, rarement à trois : la dentelle, ou les fleurs, ou l'éclat. C'est ce qui distingue Calla, toute en douceur, de Carrie, toute en lumière. Votre robe est ensuite confectionnée à vos mesures, retouches comprises — et un corsage qui tombe juste fait plus pour le romantique qu'un volant de plus.",
         },
       ],
       echo: {
         titre: "Le romantisme couvert",
         texte:
-          "Pour un romantique plus traditionnel, Chastity, d'Olya Mak, recouvre entièrement le corsage et les manches longues d'une dentelle fine, avec un col montant et une longue traîne : « élégance, romantisme et charme traditionnel », d'après sa fiche. Elle est rangée avec les deux-en-un, et s'essaie à côté des robes romantiques.",
+          "Pour un romantique plus traditionnel, Chastity, d'Olya Mak, recouvre entièrement le corsage et les manches longues d'une dentelle fine, avec un col montant et une longue traîne : « élégance, romantisme et charme traditionnel ». Une deux-en-un, à essayer aux côtés de nos robes romantiques.",
         robe: "chastity",
         voir: "Voir Chastity",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Seraphina, Charlotte, Calla, Carrie, Hélène, Alicia et Hera sont indiquées, sur leurs fiches, pour toutes les morphologies ; Summer pour les morphologies en V, en 8 et en X. Santana n'a pas encore de morphologies relevées : elle s'essaie. Une robe romantique grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Seraphina, Charlotte, Calla, Carrie, Hélène, Alicia et Hera conviennent à toutes les morphologies ; Summer, aux morphologies en V, en 8 et en X. Santana, elle, se découvre à l'essayage. Et parce que chaque robe est réalisée à vos mesures, la robe romantique grande taille n'est pas un rayon à part.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1291,15 +1367,15 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle coupe pour une robe de mariée romantique ?",
-            r: "Toutes, à condition de garder les matières du romantique. La princesse en est l'image la plus attendue — Santana, Seraphina — ; le trapèze la rend plus légère — Charlotte, Calla, Carrie — ; la sirène la rend plus près du corps — Summer. Le style est dans la dentelle et le tulle, pas dans la coupe.",
+            r: "Toutes, pourvu que les matières du romantique soient là. La princesse en est l'image la plus attendue — Santana, Seraphina ; le trapèze l'allège — Charlotte, Calla, Carrie ; la sirène la rapproche du corps — Summer. Le style est dans la dentelle et le tulle, pas dans la coupe.",
           },
           {
             q: "Qu'est-ce qu'une robe de mariée féerique ?",
-            r: "Une robe romantique qui prend de l'ampleur et de l'éclat : plusieurs couches de tulle, un corsage perlé ou brodé, parfois un peu de paillettes. Santana est « inspirée des contes de fées », Carrie est « un rêve de conte de fées », Alicia promet « un look féerique » : ce sont les mots de leurs fiches.",
+            r: "Une robe romantique qui prend de l'ampleur et de l'éclat : plusieurs couches de tulle, un corsage perlé ou brodé, parfois quelques paillettes. Santana est « inspirée des contes de fées », Carrie est « un rêve de conte de fées », Alicia promet « un look féerique » : ce sont les mots mêmes de leurs fiches.",
           },
           {
             q: "Romantique ou bohème, quelle différence ?",
-            r: "Le bohème cherche la légèreté et le naturel — mousseline, manches transparentes, pas de longue traîne. Le romantique accepte le volume, la traîne et le corsage travaillé. Hélène est à la frontière des deux : son corset perlé à fleurs est romantique, sa jupe en mousseline est bohème. Les deux pages se lisent ensemble.",
+            r: "Le bohème cherche la légèreté et le naturel : mousseline, manches transparentes, pas de longue traîne. Le romantique, lui, accueille le volume, la traîne, le corsage travaillé. Hélène se tient à la lisière : son corset perlé à fleurs est romantique, sa jupe en mousseline est bohème. Les deux pages se lisent ensemble.",
           },
           {
             q: "Où essayer une robe de mariée romantique à Paris ?",
@@ -1307,7 +1383,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Robe de mariée romantique à paillettes, fleurie, pour un mariage civil ?",
-            r: "Paillettes et strass : Carrie, en tulle pailleté ; Fancy, en dentelle scintillante ; Aleida, en tulle scintillant. Fleurie : Santana et ses motifs floraux, Zina et ses fleurs 3D, Clover et ses fleurs de couleur — la seule robe colorée du catalogue, les autres sont blanches ou ivoire. Pour un mariage civil romantique, une courte fleurie comme Clover, ou Calla, douce et légère ; pour un esprit féerie ou vintage, Carrie ou Bella.",
+            r: "À paillettes ou à strass : Carrie, en tulle pailleté ; Fancy, en dentelle scintillante ; Aleida, en tulle scintillant. Fleurie : Santana et ses motifs floraux, Zina et ses fleurs 3D, Clover et ses fleurs de couleur — la seule robe colorée de notre sélection, toutes les autres étant blanches ou ivoire. Pour un mariage civil romantique, pensez à Clover, courte et fleurie, ou à Calla, douce et légère ; pour un esprit féerie ou vintage, à Carrie ou à Bella.",
           },
         ],
         toutes: "Tous les guides",
@@ -1336,7 +1412,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe pour un mariage civil à Paris : courtes en crêpe, deux-en-un à surjupe, robes simples. Elin, River, Clover, Gabriel, Milan… showroom MADAMOON, Paris 10e.",
     note: "Courte, simple, mairie",
     chapo:
-      "Une robe de mariage civil se choisit pour une cérémonie courte, souvent en ville, parfois quelques semaines avant la grande fête : une robe courte, ou une robe simple en crêpe, facile à porter et à photographier sur les marches de la mairie. Chez MADAMOON, ce sont Elin, River, Clover et Gabriel pour le court, Milan, Bondi, Adularia et Maribel pour le simple — toutes à essayer au showroom du 10ᵉ, à Paris.",
+      "Une cérémonie courte, souvent en ville, parfois quelques semaines avant la grande fête : une robe de mariage civil se veut facile à porter, et belle sur les marches de la mairie. Courte, comme Elin, River, Clover et Gabriel ; ou longue et simple, comme Milan, Bondi, Adularia et Maribel. Toutes s'essaient au showroom du 10ᵉ, à Paris.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -1346,12 +1422,12 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "elin",
             texte:
-              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile », d'après sa fiche, pensée pour marquer le contraste entre vos différentes cérémonies.",
+              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile », pensée pour marquer le contraste entre vos différentes cérémonies.",
           },
           {
             slug: "river",
             texte:
-              "Une robe courte au décolleté carré et aux larges bretelles, silhouette épurée et sculpturale, finitions à la main : la mairie, version couture.",
+              "Une robe courte au décolleté carré et aux larges bretelles, silhouette épurée et sculpturale, finitions à la main. La mairie, version couture.",
           },
           {
             slug: "clover",
@@ -1361,17 +1437,17 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "gabriel",
             texte:
-              "Une robe courte délicatement perlée, avec une jupe transparente amovible par-dessus : deux tenues en une.",
+              "Une robe courte délicatement perlée, sous une jupe transparente amovible : deux tenues en une.",
           },
           {
             slug: "milan",
             texte:
-              "Une sirène en crêpe léger, drapé au buste et fente sur le côté : raffinée et minimaliste, longue mais sans rien qui gêne à la mairie.",
+              "Une sirène en crêpe léger, drapée au buste, fendue sur le côté : raffinée et minimaliste — longue, mais sans rien qui gêne à la mairie.",
           },
           {
             slug: "bondi",
             texte:
-              "Une sirène minimaliste en crêpe, épaules dégagées, fente haute et rangée de boutons dans le dos : la robe simple pour une mairie en ville.",
+              "Une sirène minimaliste en crêpe, épaules dégagées, fente haute et rangée de boutons dans le dos : la robe simple d'une mairie en ville.",
           },
           {
             slug: "adularia",
@@ -1381,12 +1457,12 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "maribel",
             texte:
-              "Une fluide en mousseline stretch, corsage brodé à la main, fente et traîne légère : simple sans être nue.",
+              "Une fluide en mousseline stretch, corsage brodé à la main, fente et traîne légère : simple, sans être nue.",
           },
           {
             slug: "marie",
             texte:
-              "Une fluide à la ligne intemporelle, chez Monica Loretti : la robe longue et calme pour une cérémonie civile qui sera la seule.",
+              "Une fluide à la ligne intemporelle, chez Monica Loretti : la robe longue et sereine d'une cérémonie civile qui sera la seule.",
           },
         ],
       },
@@ -1394,35 +1470,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Ce qui fait la robe de mariage civil",
           texte:
-            "Une cérémonie civile dure peu, se passe debout, et se photographie dehors : la robe doit se porter sans aide, se tenir assise et marcher dans l'escalier de la mairie. D'où le crêpe et la charmeuse, les longueurs courtes, les fentes qui libèrent le pas, et l'absence de longue traîne — Elin, River et Milan résument cela.",
+            "Une cérémonie civile dure peu, se vit debout et se photographie dehors. Votre robe doit donc se porter sans aide, s'asseoir avec vous et descendre l'escalier de la mairie. D'où le crêpe et la charmeuse, les longueurs courtes, les fentes qui libèrent le pas, et pas de longue traîne : Elin, River et Milan en sont l'exemple.",
         },
         {
           titre: "Courte ou longue ?",
           texte:
-            "Courte, si le civil précède une autre cérémonie : le contraste fait partie du plaisir, et c'est exactement ce que la fiche d'Elin décrit. Longue, si la mairie est la seule cérémonie : une robe simple comme Bondi, Adularia ou Marie fait alors toute la journée. Au showroom, on essaie les deux longueurs le même jour.",
+            "Courte, si le civil précède une autre cérémonie : le contraste fait partie du plaisir, et Elin a été pensée pour cela. Longue, si la mairie est votre seule cérémonie : une robe simple comme Bondi, Adularia ou Marie fait alors toute la journée. Au showroom, vous essayez les deux longueurs le même jour.",
         },
         {
           titre: "Et la combinaison de mariée ?",
           texte:
-            "Le catalogue MADAMOON ne propose pas de combinaison mariée, ni de tailleur. Ce que l'on cherche dans une combinaison de mariée — la ligne nette, l'aisance, l'esprit tailleur — se retrouve dans River, au décolleté carré et aux larges bretelles, ou dans Bondi et Milan, en crêpe près du corps. À essayer avant de trancher.",
+            "Vous rêviez d'une combinaison ? Mariée en pantalon, l'idée est belle — mais MADAMOON ne propose ni combinaison ni tailleur. Ce que l'on cherche dans une combinaison de mariée, la ligne nette, l'aisance, l'esprit tailleur, se retrouve dans River, décolleté carré et larges bretelles, ou dans Bondi et Milan, en crêpe près du corps. À essayer avant de trancher.",
         },
         {
           titre: "Une robe pour deux cérémonies",
           texte:
-            "Les deux-en-un font la mairie et la fête avec une seule robe : Clover et Gabriel se portent courtes, puis gagnent une surjupe ou une jupe transparente ; Tessa change de look en retirant ses bretelles. Chaque robe est confectionnée à vos mesures, retouches comprises, surjupe comprise.",
+            "Les deux-en-un font la mairie et la fête avec une seule robe : Clover et Gabriel se portent courtes, puis gagnent une surjupe ou une jupe transparente ; Tessa change de look en retirant ses bretelles. Chaque robe est confectionnée à vos mesures, retouches comprises — surjupe comprise.",
         },
       ],
       echo: {
         titre: "Une robe, deux looks",
         texte:
-          "Tessa, de Casablanca Bridal, est une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles « pour un autre look », d'après sa fiche. Longue, elle n'est pas une robe de mairie à proprement parler ; mais pour qui veut une seule robe du civil à la soirée, elle est la deux-en-un à essayer en premier.",
+          "Tessa, de Casablanca Bridal, est une sirène au corset structuré, avec une surjupe détachable et des bretelles amovibles « pour un autre look ». Longue, ce n'est pas une robe de mairie à proprement parler ; mais si vous voulez une seule robe, du civil à la soirée, c'est la deux-en-un à essayer en premier.",
         robe: "tessa",
         voir: "Voir Tessa",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Elin, River, Clover, Gabriel, Maribel et Marie sont indiquées, sur leurs fiches, pour toutes les morphologies ; Milan pour les morphologies en H, en 8 et en X. Bondi et Adularia n'ont pas encore de morphologies relevées : elles s'essaient. Une robe de mariage civil grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Elin, River, Clover, Gabriel, Maribel et Marie conviennent à toutes les morphologies ; Milan, aux morphologies en H, en 8 et en X. Bondi et Adularia, elles, se découvrent à l'essayage. Et parce que chaque robe est réalisée à vos mesures, la robe de mariage civil grande taille n'est pas un rayon à part.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1430,15 +1506,15 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle robe pour un mariage civil à Paris ?",
-            r: "Pour une robe mariage civil Paris, le choix se fait au showroom du 10ᵉ : une robe courte en crêpe comme Elin, pensée pour une cérémonie civile d'après sa fiche, ou une robe courte plus habillée comme River. Si la mairie est votre seule cérémonie, une longue simple — Bondi, Milan, Adularia, Marie — fait la journée entière. Toutes s'essaient au showroom MADAMOON, Paris 10ᵉ.",
+            r: "Robe, mariage civil, Paris : trois mots, une adresse — notre showroom du 10ᵉ. Vous y essayez une robe courte en crêpe comme Elin, pensée pour la cérémonie civile, ou une courte plus habillée comme River. Si la mairie est votre seule cérémonie, une longue simple — Bondi, Milan, Adularia, Marie — vous accompagnera toute la journée.",
           },
           {
             q: "Une robe de mariée courte convient-elle à la mairie ?",
-            r: "C'est même là qu'elle est le plus à sa place : une cérémonie courte, debout, en ville. Elin, River, Clover et Gabriel sont les robes courtes du catalogue ; Clover et Gabriel se rallongent ensuite d'une surjupe ou d'une jupe transparente pour la suite de la journée.",
+            r: "C'est là qu'elle est le plus à sa place : une cérémonie courte, debout, en ville. Elin, River, Clover et Gabriel sont nos robes courtes ; Clover et Gabriel se rallongent ensuite d'une surjupe ou d'une jupe transparente, pour la suite de la journée.",
           },
           {
             q: "Peut-on porter la même robe au civil et à la fête ?",
-            r: "Oui, avec une deux-en-un : Clover, Gabriel et Tessa changent de silhouette en une minute, courte puis longue, ou avec et sans bretelles. Sinon, deux robes : une courte pour la mairie, et la robe de la fête — le contraste est souvent recherché.",
+            r: "Oui, avec une deux-en-un : Clover, Gabriel et Tessa changent de silhouette en une minute — courte puis longue, avec puis sans bretelles. Sinon, deux robes : une courte pour la mairie, et la robe de la fête. Le contraste est souvent recherché.",
           },
           {
             q: "Où essayer une robe de mariage civil à Paris ?",
@@ -1446,7 +1522,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Robe de mariage civil en hiver ou en été, blanche, de marque, pas chère ?",
-            r: "En hiver, une longue simple à manches — Montana — ou une courte avec une veste ; en été, Elin ou River. Blanche ou ivoire, selon la carnation. De marque : Olya Mak pour Elin et River, Casablanca Bridal pour Clover, Watters Designs pour Gabriel — des maisons, pas des enseignes en ligne. Pas chère au sens d'un site de prêt-à-porter, non : chaque robe est faite à vos mesures, à partir de 1 500 €, retouches comprises, même courte. Où acheter : au showroom, le seul magasin, pour une femme qui se marie en octobre comme en juin ; mi-longue, non — courte ou longue ; style tailleur ou jacquard — Monica, trapèze en jacquard floral, en tient lieu ; petit prix, non — sur mesure.",
+            r: "En hiver, une longue simple à manches, comme Montana, ou une courte portée avec une veste ; en été, Elin ou River. Blanche ou ivoire, selon votre carnation. De marque, oui : Olya Mak pour Elin et River, Casablanca Bridal pour Clover, Watters Designs pour Gabriel — des maisons, pas des enseignes en ligne. Pas chère, au sens d'un site de prêt-à-porter, non : même courte, chaque robe est faite à vos mesures, à partir de 1 500 €, retouches comprises.",
+          },
+          {
+            q: "Où acheter sa robe de mariage civil, et dans quelle longueur ?",
+            r: "Au showroom, notre seul magasin, pour une femme qui se marie en octobre comme en juin. Courte ou longue : la mi-longue ne fait pas partie de notre sélection. Pour un style tailleur ou un jacquard, regardez Monica, un trapèze en jacquard floral. Et si vous cherchez un petit prix, sachez qu'ici tout est fait sur mesure.",
           },
         ],
         toutes: "Tous les guides",
@@ -1474,7 +1554,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée courte à Paris : Elin en crêpe, River au décolleté carré, Clover et Gabriel qui se rallongent d'une surjupe. Au showroom MADAMOON, Paris 10e.",
     note: "Au genou, légère, libre",
     chapo:
-      "Une robe de mariée courte n'est pas une robe de moins : c'est une robe qui se voit en entier, jambes comprises, et qui bouge avec vous. Le catalogue MADAMOON en propose — Elin, River, Clover et Gabriel —, chacune confectionnée à vos mesures, et toutes s'essaient au showroom du 10ᵉ, à Paris, à côté des longues pour comparer.",
+      "Une robe de mariée courte n'est pas une robe de moins : c'est une robe que l'on voit en entier, jambes comprises, et qui bouge avec vous. Elin, River, Clover et Gabriel sont confectionnées à vos mesures et s'essaient au showroom du 10ᵉ, à Paris — à côté des longues, pour mieux comparer.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -1484,7 +1564,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "elin",
             texte:
-              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile », d'après sa fiche. La robe courte de mariée la plus simple du catalogue, chez Olya Mak.",
+              "Courte, en crêpe, épurée : « une robe de mariée parfaite pour une cérémonie civile ». La robe courte de mariée dans sa plus belle simplicité, chez Olya Mak.",
           },
           {
             slug: "river",
@@ -1494,12 +1574,12 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "clover",
             texte:
-              "Une robe courte brodée de fleurs de couleur, avec une surjupe longue à volonté : la robe de mariée courte originale, qui devient longue quand on le décide.",
+              "Une robe courte brodée de fleurs de couleur, avec une surjupe longue à volonté : la robe de mariée courte originale, qui devient longue quand vous le décidez.",
           },
           {
             slug: "gabriel",
             texte:
-              "Une robe courte délicatement perlée, et une jupe transparente amovible par-dessus : courte à la mairie, longue à la fête, chez Watters Designs.",
+              "Une robe courte délicatement perlée, sous une jupe transparente amovible : courte à la mairie, longue à la fête, chez Watters Designs.",
           },
         ],
       },
@@ -1507,35 +1587,35 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Ce qui fait une robe courte",
           texte:
-            "La longueur, d'abord : au genou ou juste au-dessus, ce qui libère le pas et montre les chaussures. Puis la matière, qui doit tenir sans traîne pour l'alourdir — le crêpe d'Elin, le tissu sculptural de River. Une robe courte se juge debout et en marchant : au showroom, on la fait marcher avant de la faire tourner.",
+            "La longueur, d'abord : au genou ou juste au-dessus, pour libérer le pas et montrer les chaussures. La matière, ensuite, qui doit tenir sans traîne pour l'alourdir : le crêpe d'Elin, le tissu sculptural de River. Une robe courte se juge debout et en mouvement : au showroom, vous faites quelques pas avec elle avant de tourner devant le miroir.",
         },
         {
           titre: "Courte chic ou courte originale ?",
           texte:
-            "Chic : River, au décolleté carré, dont la fiche parle d'« un véritable travail de coupe » sous une simplicité apparente. Originale : Clover, brodée de fleurs de couleur — la seule robe du catalogue qui ne soit pas tout en blanc ou ivoire —, et Gabriel, perlée sous sa jupe transparente. Elin, en crêpe, reste la plus sobre des quatre.",
+            "Chic : River, au décolleté carré, « un véritable travail de coupe » sous une simplicité apparente. Originale : Clover, brodée de fleurs de couleur — la seule de nos robes qui ne soit pas tout en blanc ou ivoire —, et Gabriel, perlée sous sa jupe transparente. Elin, en crêpe, reste la plus sobre de toutes.",
         },
         {
           titre: "Pour quelle cérémonie ?",
           texte:
-            "Le mariage civil, en premier : Elin est pensée pour lui. La réception ou le deuxième look de la soirée : River, d'après sa fiche, est « parfaite pour un deuxième look de mariée, une réception ou une cérémonie moins conventionnelle ». Et le mariage entier, quand on veut une robe dans laquelle on danse.",
+            "Le mariage civil, d'abord : Elin a été pensée pour lui. La réception, ou le deuxième look de la soirée : River est « parfaite pour un deuxième look de mariée, une réception ou une cérémonie moins conventionnelle ». Et le mariage tout entier, si vous voulez une robe dans laquelle on danse.",
         },
         {
           titre: "Courte, puis longue",
           texte:
-            "Clover et Gabriel sont des deux-en-un : courtes le matin, longues le soir, par une surjupe ou une jupe transparente qui s'attache et se retire. Une robe pour deux cérémonies, confectionnée à vos mesures, retouches comprises — la surjupe aussi.",
+            "Clover et Gabriel sont des deux-en-un : courtes le matin, longues le soir, grâce à une surjupe ou à une jupe transparente qui s'attache et se retire. Une robe pour deux cérémonies, confectionnée à vos mesures, retouches comprises — la surjupe aussi.",
         },
       ],
       echo: {
         titre: "Si c'est finalement la longue",
         texte:
-          "Beaucoup de mariées venues pour une robe courte repartent avec une longue simple, et l'inverse. Milan, de Monica Loretti, est la longue qui joue le même rôle qu'une courte : crêpe léger, drapé au buste, fente sur le côté, « pour la mariée qui recherche un style raffiné et minimaliste ». Elle s'essaie à côté des courtes.",
+          "Beaucoup de mariées venues pour une robe courte repartent avec une longue simple — et inversement. Milan, de Monica Loretti, est la longue qui joue le rôle d'une courte : crêpe léger, drapé au buste, fente sur le côté, « pour la mariée qui recherche un style raffiné et minimaliste ». Elle s'essaie à côté des courtes.",
         robe: "milan",
         voir: "Voir Milan",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "Elin, River, Clover et Gabriel sont indiquées, sur leurs fiches, pour toutes les morphologies : une robe courte dessine la jambe et laisse le buste libre, ce qui convient à toutes. Une robe de mariée courte grande taille ne se cherche pas dans un rayon : chaque robe est réalisée à vos mesures.",
+          "Elin, River, Clover et Gabriel conviennent à toutes les morphologies : une robe courte dessine la jambe et laisse le buste libre, ce qui va à toutes. Et parce que chaque robe est réalisée à vos mesures, la robe de mariée courte grande taille n'est pas un rayon à part.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -1547,11 +1627,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Quelle robe de mariée courte pour un mariage civil ?",
-            r: "Elin, dont la fiche dit « parfaite pour une cérémonie civile », pour la sobriété ; River pour une mairie plus habillée. Si une autre cérémonie suit, Clover et Gabriel font les deux avec leur surjupe. La page du mariage civil détaille les robes longues simples qui conviennent aussi.",
+            r: "Elin, « parfaite pour une cérémonie civile », pour la sobriété ; River, pour une mairie plus habillée. Si une autre cérémonie suit, Clover et Gabriel font les deux, grâce à leur surjupe. Notre page consacrée au mariage civil présente aussi les robes longues et simples qui conviennent.",
           },
           {
             q: "Une robe de mariée courte coûte-t-elle moins cher ?",
-            r: "Pas nécessairement : le prix tient à la maison, à la matière et au travail du corsage, pas à la longueur. Comme toutes les robes du catalogue, les courtes sont confectionnées à vos mesures, retouches comprises, à partir de 1 500 € ; le prix de chacune se confirme au showroom.",
+            r: "Pas nécessairement : le prix tient à la maison, à la matière et au travail du corsage, non à la longueur. Comme toutes nos robes, les courtes sont confectionnées à vos mesures, retouches comprises, à partir de 1 500 € ; le prix de chacune se confirme au showroom.",
           },
           {
             q: "Où essayer une robe de mariée courte à Paris ?",
@@ -1559,7 +1639,15 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Robe de mariée courte en dentelle, à manches, ou courte devant et longue derrière ?",
-            r: "Le catalogue n'a pas de robe courte devant et longue derrière, ni de robe midi : ses courtes s'arrêtent au genou. En dentelle, en tulle ou perlée, avec ou sans manches, bustier ou bretelles : Gabriel est perlée sous sa jupe transparente, Clover brodée de fleurs, River à larges bretelles, Elin en crêpe sans manche. Une courte bohème, une courte blanche pour l'hiver avec une veste : c'est l'essayage qui le dit, et la robe se fait aux mesures de chaque femme. Courte moderne ou vintage années 50, élégante avec un voile court, dos nu ou corset, en satin, à paillettes, jupe bouffante ou droite, pour une femme ronde ou une mariée senior : les courtes s'essaient avec tout cela ; un nœud ou une ceinture, c'est de l'accessoire, pas du catalogue.",
+            r: "Nos robes courtes s'arrêtent au genou : pas de robe courte devant et longue derrière, ni de robe midi. En dentelle, en tulle ou perlée, avec ou sans manches, bustier ou à bretelles ? Gabriel est perlée sous sa jupe transparente, Clover brodée de fleurs, River à larges bretelles, Elin en crêpe, sans manche.",
+          },
+          {
+            q: "Une robe courte pour l'hiver, ou dans un esprit bohème ?",
+            r: "Une courte bohème, une courte blanche pour l'hiver, portée avec une veste : c'est l'essayage qui vous le dira, et la robe est ensuite faite aux mesures de chaque femme.",
+          },
+          {
+            q: "Moderne, vintage années 50, à paillettes : quel style pour une robe courte ?",
+            r: "Moderne ou vintage années 50, élégante sous un voile court, dos nu ou corset, en satin, à paillettes, jupe bouffante ou droite — pour une femme ronde comme pour une mariée senior : toutes ces envies se discutent à l'essayage, robe sur vous. Un nœud, une ceinture ? Ce sont des accessoires, que l'on ajoute ensuite.",
           },
         ],
         toutes: "Tous les guides",
