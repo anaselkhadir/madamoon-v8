@@ -27,28 +27,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "qu-est-ce-qu-une-robe-de-mariee-sirene",
       q: "Qu'est-ce qu'une robe de mariée sirène ?",
-      r: "Une robe ajustée jusqu'aux cuisses, puis évasée jusqu'au sol. Elle épouse la poitrine, la taille et les hanches, et dessine la silhouette avant de s'ouvrir en une jupe qui se termine souvent en traîne. C'est la coupe la plus féminine et la plus sensuelle du catalogue.",
+      r: "Une robe ajustée jusqu'aux cuisses, puis évasée jusqu'au sol. Elle épouse la poitrine, la taille et les hanches, dessine la silhouette, puis s'ouvre en une jupe qui s'achève souvent en traîne. De toutes nos coupes, c'est la plus féminine et la plus sensuelle.",
       description:
         "Qu'est-ce qu'une robe de mariée sirène ? Ajustée jusqu'aux cuisses puis évasée, elle dessine la taille et les hanches. Définition et sirènes MADAMOON, Paris.",
       chapo:
-        "Féminine et sensuelle : la sirène est la coupe qui dessine le plus la silhouette. Voici ce qui la définit.",
+        "Féminine et sensuelle : la sirène est la coupe qui dessine le plus la silhouette. Sa ligne se lit en deux temps.",
       sections: [
         {
           titre: "Une ligne en deux temps",
           texte: [
-            "La sirène est ajustée jusqu'aux cuisses, puis évasée. Dans sa partie haute, elle suit la poitrine, la taille et les hanches ; sous les cuisses, la jupe s'ouvre et descend jusqu'au sol, souvent prolongée d'une traîne.",
+            "Ajustée jusqu'aux cuisses, puis évasée : la sirène se dessine en deux gestes. Le haut suit la poitrine, la taille et les hanches ; sous les cuisses, la jupe s'ouvre et descend jusqu'au sol, souvent prolongée d'une traîne.",
           ],
         },
         {
           titre: "Ce qu'elle fait à la silhouette",
           texte: [
-            "Elle dessine la taille et les hanches. Sur une silhouette déjà courbée, elle suit ; sur une silhouette plus droite, elle crée la courbe en s'évasant.",
+            "Elle dessine la taille et les hanches. Une silhouette déjà courbée, elle la suit ; une silhouette plus droite, elle y crée la courbe en s'évasant.",
           ],
         },
         {
           titre: "Les sirènes de la boutique",
           texte: [
-            "C'est la coupe la plus représentée du catalogue, chez Casablanca Bridal, Watters Designs, Monica Loretti et Olya Mak : en satin mat comme Sheridan ou Venus, en dentelle comme Oksana ou Summer, en crêpe comme Mira ou Bondi, en charmeuse comme Riviera.",
+            "C'est la coupe la plus représentée dans notre sélection, chez Casablanca Bridal, Watters Designs, Monica Loretti comme chez Olya Mak. En satin mat, Sheridan ou Venus ; en dentelle, Oksana ou Summer ; en crêpe, Mira ou Bondi ; en charmeuse, Riviera.",
           ],
         },
       ],
@@ -68,31 +68,31 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-sirene-quelle-morphologie",
       q: "À quelle morphologie la robe de mariée sirène convient-elle ?",
-      r: "Elle fait partie des premières coupes à essayer pour les morphologies en H, en 8 et en X, et vaut l'essai pour une morphologie en O avec une matière qui tient. Pour une morphologie en A, elle se porte très bien avec un haut qui équilibre. Aucune morphologie ne l'interdit.",
+      r: "Elle compte parmi les premières coupes à essayer pour les morphologies en H, en 8 et en X, et mérite l'essai pour une morphologie en O, dans une matière qui tient. Sur une morphologie en A, elle se porte très bien avec un haut qui équilibre. Aucune morphologie ne l'interdit.",
       description:
         "Robe de mariée sirène : à quelles morphologies convient-elle ? En premier pour H, 8 et X, à essayer pour O et A. Les conseils de la boutique MADAMOON.",
       chapo:
-        "La sirène a la réputation d'être réservée aux silhouettes en sablier. C'est faux : voici à qui elle va, et à quelle condition.",
+        "On dit volontiers la sirène réservée aux silhouettes en sablier. Elle va pourtant à bien d'autres, à une condition.",
       sections: [
         {
           titre: "Les morphologies pour qui elle vient en premier",
           texte: [],
           liste: [
-            "En H — elle crée la courbe au lieu de la chercher ; choisie légère, elle allonge la ligne.",
-            "En 8 — elle épouse une ligne déjà proportionnée, sans rien corriger.",
+            "En H — elle crée la courbe plutôt que de la chercher ; choisie légère, elle allonge la ligne.",
+            "En 8 — elle épouse une ligne déjà proportionnée : il n'y a rien à corriger.",
             "En X — elle suit la taille sans avoir à la créer : la coupe qui en dit le plus avec le moins.",
           ],
         },
         {
           titre: "Celles pour qui elle vaut l'essai",
           texte: [
-            "En O, elle demande une matière qui tient — un crêpe plutôt qu'un satin léger — et se juge en cabine bien mieux que sur photographie. En A, elle se porte très bien si le haut a de quoi équilibrer : une manche, une bretelle large, un décolleté travaillé.",
+            "En O, elle veut une matière qui tient, un crêpe plutôt qu'un satin léger, et se juge en cabine bien mieux que sur une photographie. En A, elle se porte très bien dès que le haut a de quoi équilibrer : une manche, une bretelle large, un décolleté travaillé.",
           ],
         },
         {
           titre: "Aucune ne l'interdit",
           texte: [
-            "Une morphologie n'exclut jamais une robe : elle indique seulement par quoi commencer. Beaucoup de mariées repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
+            "Une morphologie n'exclut jamais une robe : elle dit seulement par où commencer. Beaucoup de mariées repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
           ],
         },
       ],
@@ -114,30 +114,30 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
       titre: "Robe de mariée fourreau ou sirène",
       q: "Quelle différence entre une robe sirène et une robe fourreau ?",
-      r: "Les deux sont ajustées et suivent le corps. La sirène s'évase sous les cuisses, en une jupe qui s'ouvre jusqu'au sol ; le fourreau descend droit, ou presque, sans s'évaser. Au catalogue, les fourreaux sont rangés avec les sirènes.",
+      r: "Toutes deux sont ajustées et suivent le corps. La sirène s'évase sous les cuisses, en une jupe qui s'ouvre jusqu'au sol ; le fourreau descend droit, ou presque, sans s'évaser. Chez nous, les fourreaux se découvrent parmi les sirènes.",
       description:
         "Robe sirène ou robe fourreau : toutes deux ajustées, la sirène s'évase sous les cuisses, le fourreau descend droit. La différence, et les modèles MADAMOON.",
       chapo:
-        "Ce sont deux cousines : même départ, deux arrivées. Voici ce qui les distingue.",
+        "Deux cousines : même départ, deux arrivées. Leur différence se lit au bas de la robe.",
       sections: [
         {
           titre: "Ce qu'elles partagent",
           texte: [
-            "Toutes deux sont ajustées : elles suivent la poitrine, la taille et les hanches, sans ampleur. Elles demandent une matière qui tombe bien et un ajustement précis.",
+            "L'une comme l'autre est ajustée : elle suit la poitrine, la taille et les hanches, sans ampleur. Toutes deux demandent une matière qui tombe bien et un ajustement précis.",
           ],
         },
         {
           titre: "Ce qui les distingue",
           texte: [],
           liste: [
-            "La sirène — elle s'évase sous les cuisses, en une jupe qui s'ouvre jusqu'au sol.",
-            "Le fourreau — il descend droit ou presque, sans s'évaser, en gardant la ligne du corps jusqu'en bas.",
+            "La sirène — sous les cuisses, elle s'évase en une jupe qui s'ouvre jusqu'au sol.",
+            "Le fourreau — il descend droit, ou presque, sans s'évaser : la ligne du corps, gardée jusqu'en bas.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "La boutique range ses fourreaux avec les sirènes. Siddalee et Rowan, de Watters Designs, sont des fourreaux ; Bella, de Casablanca Bridal, se porte en sirène ou en fourreau ; Amaryllis, en coupe droite ou sirène.",
+            "Nos fourreaux se trouvent aux côtés des sirènes. Siddalee et Rowan, de Watters Designs, sont des fourreaux ; Bella, de Casablanca Bridal, se porte en sirène ou en fourreau ; Amaryllis, en coupe droite ou en sirène.",
           ],
         },
       ],
@@ -157,35 +157,35 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "difference-robe-sirene-robe-trompette",
       q: "Quelle différence entre une robe sirène et une robe trompette ?",
-      r: "Toutes deux sont ajustées puis évasées. La différence tient au point où s'ouvre la jupe : plus bas pour la sirène, vers le genou ; plus haut pour la trompette, vers le milieu de la cuisse, ce qui la rend plus facile à porter. La boutique range ces deux lignes sous le nom de sirène.",
+      r: "Toutes deux sont ajustées, puis évasées. La différence tient au point où la jupe s'ouvre : plus bas pour la sirène, vers le genou ; plus haut pour la trompette, vers le milieu de la cuisse, ce qui la rend plus facile à porter. Chez nous, ces deux lignes portent le même nom : sirène.",
       description:
         "Robe sirène ou robe trompette : la jupe s'ouvre vers le genou pour la sirène, plus haut pour la trompette, plus facile à porter. La différence expliquée.",
       chapo:
-        "Sirène, trompette, « fit-and-flare » : trois noms pour une même famille. Ce qui change, c'est l'endroit où la jupe s'ouvre.",
+        "Sirène, trompette, « fit-and-flare » : trois noms, une même famille. Seul change l'endroit où la jupe s'ouvre.",
       sections: [
         {
           titre: "Le point d'évasement",
           texte: [
-            "La sirène reste ajustée plus longtemps et s'évase plus bas, vers le genou : l'effet est spectaculaire, et la démarche plus contenue. La trompette s'ouvre plus haut, vers le milieu de la cuisse : la jupe prend plus tôt son ampleur, et la robe laisse davantage bouger.",
+            "La sirène reste ajustée plus longtemps et s'évase plus bas, vers le genou : l'effet est spectaculaire, la démarche plus contenue. La trompette s'ouvre plus haut, vers le milieu de la cuisse : la jupe prend son ampleur plus tôt, et la robe vous laisse davantage bouger.",
           ],
         },
         {
           titre: "Laquelle choisir",
           texte: [
-            "Si vous aimez la ligne la plus sculptée, la sirène. Si vous voulez danser toute la nuit sans y penser, une jupe qui s'ouvre plus haut. Les deux se jugent à l'essayage, en marchant.",
+            "Vous aimez la ligne la plus sculptée : la sirène. Vous voulez danser toute la nuit sans y penser : une jupe qui s'ouvre plus haut. L'une et l'autre se jugent à l'essayage, en marchant.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "La boutique n'a pas de catégorie « trompette » : ces lignes sont rangées avec les sirènes. Plusieurs fiches parlent d'une coupe « fit-and-flare », comme celles de Sheridan ou d'Enid. Le point exact où s'ouvre chaque jupe se voit en cabine.",
+            "Nous n'avons pas de catégorie « trompette » : ces lignes se découvrent parmi nos sirènes. Plusieurs robes, comme Sheridan ou Enid, ont une coupe dite « fit-and-flare ». Le point exact où s'ouvre chaque jupe se voit en cabine.",
           ],
         },
       ],
       aRetenir: [
         "Sirène : la jupe s'ouvre vers le genou.",
         "Trompette : plus haut, vers la mi-cuisse.",
-        "Les deux sont rangées en sirène au catalogue.",
+        "Chez nous, les deux se trouvent parmi les sirènes.",
       ],
       liens: [
         { href: "/coupes/sirene", label: "Les robes sirène" },
@@ -198,31 +198,31 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-sirene-confortable-marcher-danser",
       q: "Une robe sirène est-elle confortable pour marcher et danser ?",
-      r: "Oui, si elle est bien choisie et bien ajustée. Une fente, une matière extensible ou une jupe qui s'ouvre un peu plus haut laissent marcher et danser librement. Le plus sûr est de le vérifier à l'essayage, en bougeant vraiment.",
+      r: "Oui, dès lors qu'elle est bien choisie et bien ajustée. Une fente, une matière extensible ou une jupe qui s'ouvre un peu plus haut vous laissent marcher et danser librement. Le plus sûr reste de le vérifier à l'essayage, en bougeant vraiment.",
       description:
         "Robe de mariée sirène et confort : une fente, une matière extensible, un bon ajustement pour marcher et danser. Les conseils et sirènes de MADAMOON, Paris.",
       chapo:
-        "La sirène a la réputation d'entraver. Bien choisie et bien ajustée, elle se danse pourtant toute la nuit.",
+        "On prête à la sirène le défaut d'entraver. Bien choisie et bien ajustée, elle se danse pourtant toute la nuit.",
       sections: [
         {
           titre: "Ce qui laisse bouger",
           texte: [],
           liste: [
-            "Une fente — celle de Bondi, haute sur la cuisse, « facilite les mouvements », dit sa fiche ; Mira, Milan, Charlize, Shiloh et Zina en ont une aussi.",
-            "Une matière extensible — Sheridan a une doublure extensible, Zina est en georgette stretch.",
-            "Une jupe qui s'ouvre un peu plus haut — la démarche est plus libre.",
+            "Une fente — celle de Bondi, haute sur la cuisse, « facilite les mouvements » ; Mira, Milan, Charlize, Shiloh et Zina ont elles aussi la leur.",
+            "Une matière extensible — la doublure de Sheridan est extensible, Zina est en georgette stretch.",
+            "Une jupe qui s'ouvre un peu plus haut — la démarche s'en trouve plus libre.",
           ],
         },
         {
           titre: "L'ajustement",
           texte: [
-            "Une sirène trop serrée entrave ; bien ajustée, elle suit. Chez MADAMOON, la robe est ajustée sur vous par les couturières jusqu'au dernier essayage, retouches incluses.",
+            "Trop serrée, une sirène entrave ; bien ajustée, elle vous suit. Chez MADAMOON, les couturières ajustent la robe sur vous jusqu'au dernier essayage, retouches incluses.",
           ],
         },
         {
           titre: "Le vérifier en cabine",
           texte: [
-            "Un conseil : marchez, montez une marche, asseyez-vous, faites quelques pas de danse. Une robe qui gêne en cabine gênera toute la journée.",
+            "Notre conseil : marchez, montez une marche, asseyez-vous, esquissez quelques pas de danse. Une robe qui gêne en cabine gênera toute la journée.",
           ],
         },
       ],
@@ -242,35 +242,35 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "s-asseoir-se-deplacer-robe-sirene",
       q: "Comment s'asseoir et se déplacer avec une robe de mariée sirène ?",
-      r: "Asseyez-vous sur le bord du siège, en remontant légèrement la jupe ; marchez à pas un peu plus courts ; pour un escalier, soulevez le devant de la jupe. Si la robe a une traîne, demandez à la boutique comment la porter le soir.",
+      r: "Asseyez-vous sur le bord du siège, en remontant légèrement la jupe ; marchez à pas un peu plus courts ; dans un escalier, soulevez le devant de la jupe. Si votre robe a une traîne, demandez-nous comment la porter le soir.",
       description:
         "S'asseoir et se déplacer en robe de mariée sirène : sur le bord du siège, à petits pas, la jupe soulevée dans l'escalier. Les conseils pratiques de MADAMOON.",
       chapo:
-        "Quelques gestes simples, et la sirène se vit toute la journée sans y penser. Voici lesquels.",
+        "Quelques gestes simples, et la sirène se vit toute la journée sans que vous y pensiez.",
       sections: [
         {
           titre: "S'asseoir",
           texte: [
-            "Un conseil : asseyez-vous sur le bord du siège plutôt qu'au fond, le dos droit, en remontant légèrement la jupe au niveau des genoux. Le tissu ne tire pas, et la robe ne se froisse pas.",
+            "Nous vous conseillons de vous asseoir sur le bord du siège plutôt qu'au fond, le dos droit, en remontant légèrement la jupe au niveau des genoux. Le tissu ne tire pas, la robe ne se froisse pas.",
           ],
         },
         {
           titre: "Marcher et monter un escalier",
           texte: [
-            "Marchez à pas un peu plus courts qu'à l'habitude : la sirène est ajustée jusqu'aux cuisses. Dans un escalier, soulevez le devant de la jupe d'une main, pour ne pas marcher dessus.",
+            "Marchez à pas un peu plus courts qu'à l'habitude : la sirène est ajustée jusqu'aux cuisses. Dans un escalier, soulevez d'une main le devant de la jupe, pour ne pas marcher dessus.",
           ],
         },
         {
           titre: "La traîne",
           texte: [
-            "Beaucoup de sirènes se prolongent en traîne — celles de Venus, de Summer ou de Siddalee sont longues. Pour la soirée, demandez à la boutique comment la relever ou la porter, au moment des retouches.",
+            "Beaucoup de sirènes se prolongent en traîne ; celles de Venus, de Summer ou de Siddalee sont longues. Pour la soirée, demandez-nous, au moment des retouches, comment la relever ou la porter.",
           ],
         },
       ],
       aRetenir: [
         "Sur le bord du siège, la jupe un peu remontée.",
         "Des pas un peu plus courts.",
-        "La traîne : à voir avec la boutique.",
+        "La traîne : nous la voyons ensemble.",
       ],
       liens: [
         { href: "/coupes/sirene/robe-sirene-confortable-marcher-danser", label: "Le confort d'une sirène" },
@@ -283,32 +283,32 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "decollete-robe-sirene",
       q: "Quel type de décolleté choisir avec une robe sirène ?",
-      r: "Celui qui répond à votre silhouette et au style de la robe : un cœur pour adoucir, un V ou un décolleté plongeant pour allonger, un décolleté droit ou des épaules dénudées pour élargir les épaules, un drapé pour la douceur. La sirène se marie avec tous.",
+      r: "Celui qui s'accorde à votre silhouette et au style de la robe : un cœur pour adoucir, un V ou un décolleté plongeant pour allonger, un décolleté droit ou des épaules dénudées pour élargir les épaules, un drapé pour la douceur. La sirène se marie avec tous.",
       description:
         "Quel décolleté pour une robe sirène : cœur, V, plongeant, droit, épaules dénudées, drapé. Comment choisir, avec les sirènes de la boutique MADAMOON.",
       chapo:
-        "La sirène dessine le bas de la silhouette ; le décolleté décide du haut. Voici comment les accorder.",
+        "La sirène dessine le bas de la silhouette ; le décolleté décide du haut. Reste à les accorder.",
       sections: [
         {
           titre: "Les décolletés du catalogue",
           texte: [],
           liste: [
-            "Le cœur — Meredith, Ariel ; en cœur pointu, plus graphique, Sheridan et Oksana.",
+            "Le cœur — Meredith, Ariel ; plus graphique, en cœur pointu, Sheridan et Oksana.",
             "Le V et le plongeant — Summer, Bondi ; Aleida, plongeant, entre de fines bretelles ; Mira, profond.",
-            "Le droit et les épaules dénudées — Enid, qui se porte en bustier ou en col bardot.",
+            "Le droit et les épaules dénudées — Enid, à porter en bustier ou en col bardot.",
             "Le drapé — Rowan ; Milan, drapé au niveau du buste.",
           ],
         },
         {
           titre: "Selon votre silhouette",
           texte: [
-            "Un V ou un cœur ouvrent le buste et allongent le cou, pour une poitrine généreuse. Des épaules dénudées ou un décolleté droit élargissent les épaules, pour une morphologie en A. Avec des proportions équilibrées, rien n'est à compenser.",
+            "Sur une poitrine généreuse, un V ou un cœur ouvrent le buste et allongent le cou. Sur une morphologie en A, des épaules dénudées ou un décolleté droit élargissent les épaules. Et si vos proportions sont équilibrées, il n'y a rien à compenser.",
           ],
         },
         {
           titre: "Selon le style",
           texte: [
-            "Un décolleté plongeant pour une sirène sensuelle, un col bardot pour une allure plus classique, des bretelles amovibles — comme sur Ariel ou Siddalee — pour changer d'allure entre la cérémonie et la soirée.",
+            "Un décolleté plongeant pour une sirène sensuelle, un col bardot pour une allure plus classique ; et des bretelles amovibles, comme celles d'Ariel ou de Siddalee, pour changer d'allure entre la cérémonie et la soirée.",
           ],
         },
       ],
@@ -328,28 +328,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "matiere-robe-sirene",
       q: "Quelle matière choisir pour une robe sirène ?",
-      r: "Une matière qui tient et qui lisse la silhouette : le crêpe et le satin mat en premier, la charmeuse pour un tombé plus souple, la dentelle pour le décor. Une version extensible ajoute du confort.",
+      r: "Une matière qui tient et qui lisse la silhouette : le crêpe et le satin mat d'abord, la charmeuse pour un tombé plus souple, la dentelle pour le décor. En version extensible, elle gagne en confort.",
       description:
         "Quelle matière pour une robe de mariée sirène : crêpe, satin mat, charmeuse, dentelle, versions stretch. Comment choisir, avec les sirènes MADAMOON.",
       chapo:
-        "La sirène épouse le corps : sa matière se voit plus que dans toute autre coupe. Voici comment la choisir.",
+        "La sirène épouse le corps : sa matière se voit plus que dans toute autre coupe. Autant la choisir avec soin.",
       sections: [
         {
           titre: "Les matières qui tiennent",
           texte: [
-            "Le crêpe lisse la silhouette et tombe droit — Mira, Milan, Bondi, Elin. Le satin mat donne de la tenue et une lumière douce — Sheridan, Venus, Montana, Ariel. Le néoprène, plus structuré encore, sculpte la ligne — Enid.",
+            "Le crêpe lisse la silhouette et tombe droit : Mira, Milan, Bondi, Elin. Le satin mat apporte de la tenue et une lumière douce : Sheridan, Venus, Montana, Ariel. Le néoprène, plus structuré encore, sculpte la ligne : Enid.",
           ],
         },
         {
           titre: "Les matières plus souples",
           texte: [
-            "La charmeuse, fluide et lumineuse, suit le corps de près — Riviera, Rowan, Amaryllis. La georgette stretch de Zina associe souplesse et confort.",
+            "Fluide et lumineuse, la charmeuse suit le corps de près : Riviera, Rowan, Amaryllis. La georgette stretch de Zina, elle, allie souplesse et confort.",
           ],
         },
         {
           titre: "La dentelle",
           texte: [
-            "Posée sur une sirène, elle ajoute le décor sans changer la ligne : dentelle de Chantilly pour Oksana et Shiloh, dentelle d'Alençon pour Summer, dentelle en relief pour Meredith.",
+            "Posée sur une sirène, elle apporte le décor sans toucher à la ligne : dentelle de Chantilly pour Oksana et Shiloh, dentelle d'Alençon pour Summer, dentelle en relief pour Meredith.",
           ],
         },
       ],
@@ -369,7 +369,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-sirene-mariage-civil",
       q: "Une robe sirène convient-elle à un mariage civil ?",
-      r: "Oui. Une sirène minimaliste en crêpe ou en satin, sans longue traîne, a toute sa place à la mairie. Certaines sont même pensées pour cela, comme Elin, d'Olya Mak, courte et en crêpe.",
+      r: "Oui. Minimaliste, en crêpe ou en satin, sans longue traîne, une sirène a toute sa place à la mairie. Certaines sont même pensées pour cela, ainsi Elin, d'Olya Mak, courte et en crêpe.",
       description:
         "Robe de mariée sirène pour un mariage civil : minimaliste, en crêpe ou en satin, sans longue traîne. Les sirènes MADAMOON pour la mairie, Paris 10e.",
       chapo:
@@ -378,19 +378,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Une sirène pensée pour la mairie",
           texte: [
-            "Elin, d'Olya Mak, est une robe courte en crêpe, pensée pour un mariage civil : une ligne épurée, qui va à l'essentiel.",
+            "Elin, d'Olya Mak, est une robe courte en crêpe, pensée pour un mariage civil. Sa ligne épurée va à l'essentiel.",
           ],
         },
         {
           titre: "Des sirènes minimalistes",
           texte: [
-            "Milan, de Monica Loretti, en crêpe léger ; Bondi et Enid, de Casablanca Bridal, minimalistes. Sans longue traîne ni volume, elles se portent facilement dans une salle de mairie, puis en ville.",
+            "Milan, de Monica Loretti, est en crêpe léger ; Bondi et Enid, de Casablanca Bridal, sont minimalistes. Sans longue traîne ni volume, elles se portent sans peine dans une salle de mairie, puis en ville.",
           ],
         },
         {
           titre: "Deux cérémonies, deux allures",
           texte: [
-            "Si la mairie précède une cérémonie religieuse ou une réception, une robe qui change d'allure peut servir aux deux : Mira peut s'accompagner d'une jupe amovible en tulle, Tessa d'une surjupe détachable.",
+            "Quand la mairie précède une cérémonie religieuse ou une réception, une robe qui change d'allure peut vous accompagner aux deux : Mira peut se porter avec une jupe amovible en tulle, Tessa avec une surjupe détachable.",
           ],
         },
       ],
@@ -412,28 +412,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
       titre: "Robe de mariée sirène en dentelle",
       q: "Comment choisir une robe sirène avec de la dentelle ?",
-      r: "Regardez trois choses : la dentelle elle-même — Chantilly, Alençon, en relief —, l'endroit où elle est posée — toute la robe, le corsage, le dos ou la traîne —, et la façon dont elle s'arrête, souvent en feston au bas de la jupe.",
+      r: "Regardez trois choses. La dentelle elle-même : Chantilly, Alençon ou en relief. L'endroit où elle est posée : toute la robe, le corsage, le dos ou la traîne. Enfin la façon dont elle s'arrête, souvent en feston au bas de la jupe.",
       description:
         "Choisir une robe sirène en dentelle : Chantilly, Alençon ou relief, posée partout ou sur le dos, festonnée en bas. Les sirènes en dentelle de MADAMOON.",
       chapo:
-        "Toutes les dentelles ne racontent pas la même histoire. Sur une sirène, qui épouse le corps, elles se voient d'autant plus.",
+        "Toutes les dentelles ne disent pas la même chose. Sur une sirène, qui épouse le corps, elles se voient d'autant plus.",
       sections: [
         {
           titre: "La dentelle elle-même",
           texte: [
-            "La dentelle de Chantilly est fine et souple — Oksana, Shiloh, Charlize. La dentelle d'Alençon, plus dessinée, a un relief délicat — Summer. La dentelle en relief, plus marquée, sculpte la robe — Meredith. Fancy et Aleida jouent les dentelles scintillantes.",
+            "La dentelle de Chantilly est fine et souple : celle d'Oksana, de Shiloh, de Charlize. La dentelle d'Alençon, plus dessinée, a un relief délicat : celle de Summer. La dentelle en relief, plus marquée, sculpte la robe : celle de Meredith. Fancy et Aleida préfèrent les dentelles scintillantes.",
           ],
         },
         {
           titre: "L'endroit où elle est posée",
           texte: [
-            "Sur toute la robe, elle habille la silhouette entière, comme sur Uma ou Fancy. Sur le dos, elle crée une surprise — Venus a un dos en dentelle, Montana un dos illusion. Sur la traîne, elle prolonge la robe — celle d'Aleida est en dentelle festonnée.",
+            "Sur toute la robe, elle habille la silhouette entière, comme chez Uma ou Fancy. Au dos, elle ménage une surprise : Venus a un dos en dentelle, Montana un dos illusion. Sur la traîne, elle prolonge la robe : celle d'Aleida est en dentelle festonnée.",
           ],
         },
         {
           titre: "Après le mariage",
           texte: [
-            "La dentelle est la matière la plus fragile d'une robe. Un pressing spécialisé et un rangement à plat la gardent belle longtemps.",
+            "De toutes les matières d'une robe, la dentelle est la plus fragile. Un pressing spécialisé et un rangement à plat la gardent belle longtemps.",
           ],
         },
       ],
@@ -453,28 +453,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-sirene-avec-manches",
       q: "Une robe sirène avec manches est-elle possible ?",
-      r: "Oui. Des manches longues en dentelle ou en satin, ou des manches amovibles qu'on retire pour la soirée : plusieurs sirènes du catalogue en ont. Elles équilibrent le haut du corps et se portent en toute saison.",
+      r: "Oui. Manches longues en dentelle ou en satin, manches amovibles que l'on retire pour la soirée : plusieurs de nos sirènes en ont. Elles équilibrent le haut du corps et se portent en toute saison.",
       description:
         "Robe de mariée sirène avec manches : longues en dentelle ou en satin, ou amovibles. Les sirènes à manches de MADAMOON — Montana, Bella, Riviera — à Paris.",
       chapo:
-        "Une sirène à manches allie la ligne la plus sculptée à une allure plus couverte. Le catalogue en a plusieurs.",
+        "Une sirène à manches allie la ligne la plus sculptée à une allure plus couverte. Notre sélection en compte plusieurs.",
       sections: [
         {
           titre: "Des manches longues",
           texte: [
-            "Montana, de Casablanca Bridal, en satin mat, a des manches longues en dentelle et un dos illusion. Bella, en satin orné de perles, associe des manches longues à un dos nu.",
+            "Montana, de Casablanca Bridal, en satin mat, porte des manches longues en dentelle et un dos illusion. Bella, en satin orné de perles, marie les manches longues à un dos nu.",
           ],
         },
         {
           titre: "Des manches amovibles",
           texte: [
-            "Riviera, de Watters Designs, en charmeuse, a des manches amovibles, et son corsage comme ses manches sont sublimés de perles : avec manches pour la cérémonie, sans pour la soirée.",
+            "Riviera, de Watters Designs, en charmeuse, a des manches amovibles ; son corsage comme ses manches sont ornés de perles. Avec manches pour la cérémonie, sans pour la soirée.",
           ],
         },
         {
           titre: "Ce qu'elles apportent",
           texte: [
-            "Elles équilibrent le haut du corps — utile pour une morphologie en A — et habillent un mariage d'hiver ou une cérémonie religieuse.",
+            "Elles équilibrent le haut du corps, ce qui sert une morphologie en A, et habillent un mariage d'hiver ou une cérémonie religieuse.",
           ],
         },
       ],
@@ -494,11 +494,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "accessoiriser-robe-sirene",
       q: "Comment accessoiriser une robe de mariée sirène ?",
-      r: "Avec retenue : la sirène dessine déjà la silhouette. Un voile, une cape ou des bijoux, mais rarement tous à la fois. Certaines sirènes ont leurs propres pièces — la cape assortie de Sheridan, les chaînes de perles amovibles d'Oksana, les fleurs 3D optionnelles de Zina.",
+      r: "Avec retenue : la sirène dessine déjà la silhouette. Un voile, une cape ou des bijoux, mais rarement tout à la fois. Certaines sirènes ont leurs propres pièces : la cape assortie de Sheridan, les chaînes de perles amovibles d'Oksana, les fleurs 3D optionnelles de Zina.",
       description:
         "Accessoiriser une robe de mariée sirène : voile, cape, bijoux, avec retenue. Les pièces des sirènes MADAMOON — cape de Sheridan, perles d'Oksana — à Paris.",
       chapo:
-        "La sirène est déjà une déclaration. L'accessoire la prolonge — à condition de ne pas lui faire concurrence.",
+        "La sirène dit déjà beaucoup. L'accessoire la prolonge, à condition de ne pas lui faire concurrence.",
       sections: [
         {
           titre: "Les pièces des robes",
@@ -513,13 +513,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le voile",
           texte: [
-            "Un conseil : accordez sa longueur à la traîne. Un voile long prolonge une sirène à traîne ; un voile court laisse voir le dos, souvent travaillé sur une sirène.",
+            "Notre conseil : accordez sa longueur à celle de la traîne. Un voile long prolonge une sirène à traîne ; un voile court laisse voir le dos, souvent travaillé sur une sirène.",
           ],
         },
         {
           titre: "Les bijoux",
           texte: [
-            "Avec un décolleté chargé de perles ou de dentelle, des boucles d'oreilles suffisent. Avec une sirène minimaliste, un bijou plus marqué peut porter toute la tenue.",
+            "Sur un décolleté chargé de perles ou de dentelle, des boucles d'oreilles suffisent. Sur une sirène minimaliste, un bijou plus marqué peut porter à lui seul toute la tenue.",
           ],
         },
       ],
@@ -540,22 +540,22 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "qu-est-ce-qu-une-robe-de-mariee-princesse",
       q: "Qu'est-ce qu'une robe de mariée princesse ?",
-      r: "Une robe au corsage ajusté, souvent structuré en corset, d'où part une jupe ample qui descend jusqu'au sol. C'est la silhouette des robes de bal : la taille est marquée, le volume assumé. La boutique la dit raffinée et solennelle.",
+      r: "Une robe au corsage ajusté, souvent structuré en corset, d'où part une jupe ample qui descend jusqu'au sol. C'est la silhouette des robes de bal : une taille marquée, un volume assumé. Nous la voyons raffinée et solennelle.",
       description:
         "Qu'est-ce qu'une robe de mariée princesse ? Un corset travaillé, une taille marquée, une jupe ample jusqu'au sol. Définition et princesses MADAMOON, Paris.",
       chapo:
-        "Raffinée et solennelle : la princesse est la robe de bal de la mariée. Voici ce qui la définit.",
+        "Raffinée et solennelle : la princesse est la robe de bal de la mariée, faite d'un corsage et d'un volume.",
       sections: [
         {
           titre: "Un corsage, puis le volume",
           texte: [
-            "Le haut est ajusté : un bustier ou un corset qui suit la poitrine et marque la taille. De la taille — ou d'une taille basque ou basse, qui descend un peu plus bas — part une jupe ample, qui s'élargit jusqu'au sol et se prolonge souvent d'une traîne.",
+            "Le haut est ajusté : un bustier ou un corset, qui suit la poitrine et marque la taille. De là part une jupe ample, qui s'élargit jusqu'au sol et se prolonge souvent d'une traîne ; elle naît à la taille, ou un peu plus bas quand la taille est basque ou basse.",
           ],
         },
         {
           titre: "Ce qu'elle fait à la silhouette",
           texte: [
-            "Elle affine la taille par contraste avec l'ampleur de la jupe, et elle couvre entièrement les hanches et les jambes. C'est la coupe des cérémonies solennelles et des grands lieux.",
+            "Par contraste avec l'ampleur de la jupe, elle affine la taille ; elle couvre entièrement les hanches et les jambes. C'est la coupe des cérémonies solennelles et des grands lieux.",
           ],
         },
         {
@@ -581,32 +581,32 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-princesse-quelle-morphologie",
       q: "À quelle morphologie la robe princesse convient-elle ?",
-      r: "Elle fait partie des premières coupes à essayer pour les morphologies en A, en V, en 8 et en X. Pour une morphologie en O ou en H, elle vient en second, et vaut l'essai. Aucune morphologie ne l'interdit : tout se joue sur le corsage et le volume de la jupe.",
+      r: "Elle compte parmi les premières coupes à essayer pour les morphologies en A, en V, en 8 et en X. Pour une morphologie en O ou en H, elle vient en second et mérite l'essai. Aucune morphologie ne l'interdit : tout se joue sur le corsage et le volume de la jupe.",
       description:
         "Robe de mariée princesse : à quelles morphologies convient-elle ? En premier pour A, V, 8 et X, à essayer pour O et H. Les conseils de la boutique MADAMOON.",
       chapo:
-        "La princesse va à plus de silhouettes qu'on ne le croit. Voici pour qui elle vient en premier, et pourquoi.",
+        "La princesse va à plus de silhouettes qu'on ne le croit. Pour certaines, elle vient même en premier.",
       sections: [
         {
           titre: "Les morphologies pour qui elle vient en premier",
           texte: [],
           liste: [
-            "En A — son corsage travaillé ramène le regard vers le haut, et la jupe répond aux hanches sans les marquer.",
-            "En V — la jupe ample donne du volume au bas et équilibre des épaules plus larges.",
+            "En A — son corsage travaillé attire le regard vers le haut, et la jupe répond aux hanches sans les marquer.",
+            "En V — la jupe ample apporte du volume au bas et équilibre des épaules plus larges.",
             "En 8 — le corsage se cintre à la taille et l'ampleur part de là : le contraste est net.",
-            "En X — l'ampleur part d'une taille déjà fine, sans que la robe ait à forcer.",
+            "En X — l'ampleur part d'une taille déjà fine : la robe n'a rien à forcer.",
           ],
         },
         {
           titre: "Celles pour qui elle vaut l'essai",
           texte: [
-            "En O, préférez une jupe plus légère et un décolleté en V ou en cœur, qui met la poitrine en valeur. En H, un corset et une taille basque dessinent la taille que la silhouette ne marque pas.",
+            "En O, préférez une jupe plus légère et un décolleté en V ou en cœur, qui met la poitrine en valeur. En H, un corset et une taille basque dessinent la taille que la silhouette ne marque pas d'elle-même.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "Plusieurs princesses de la boutique — Addison, Clover, Ember, Kensington, Livia, Seraphina — sont indiquées, sur leurs fiches, pour toutes les morphologies. C'est l'essayage qui tranche.",
+            "Plusieurs de nos princesses conviennent à toutes les morphologies : Addison, Clover, Ember, Kensington, Livia et Seraphina. Ensuite, c'est l'essayage, sur vous, qui tranche.",
           ],
         },
       ],
@@ -626,30 +626,30 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "difference-robe-princesse-robe-trapeze",
       q: "Quelle différence entre une robe princesse et une robe trapèze ?",
-      r: "Les deux ont un buste ajusté et une jupe qui s'élargit. La trapèze s'ouvre en A, régulièrement, sans ampleur excessive ; la princesse marque la taille par un corset et assume un vrai volume de jupe. Plusieurs robes du catalogue se situent entre les deux.",
+      r: "Toutes deux ont un buste ajusté et une jupe qui s'élargit. La trapèze s'ouvre en A, régulièrement, sans ampleur excessive ; la princesse marque la taille par un corset et assume un vrai volume de jupe. Plusieurs de nos robes se situent entre les deux.",
       description:
         "Robe princesse ou robe trapèze : la trapèze s'ouvre en A, la princesse marque la taille et assume le volume. La différence, et les modèles MADAMOON à Paris.",
       chapo:
-        "Elles partagent un même départ, un buste ajusté. Ce qui les sépare, c'est la jupe.",
+        "Elles ont le même départ : un buste ajusté. C'est la jupe qui les sépare.",
       sections: [
         {
           titre: "Ce qu'elles partagent",
           texte: [
-            "Un haut ajusté et une jupe qui s'élargit vers le sol : ni l'une ni l'autre ne suit les hanches et les cuisses, à la différence d'une sirène.",
+            "Un haut ajusté, une jupe qui s'élargit vers le sol : à la différence d'une sirène, ni l'une ni l'autre ne suit les hanches et les cuisses.",
           ],
         },
         {
           titre: "Ce qui les distingue",
           texte: [],
           liste: [
-            "La trapèze — la jupe s'ouvre en A, en ligne droite depuis la taille. La boutique la tient pour la coupe la plus universelle.",
+            "La trapèze — la jupe s'ouvre en A, en ligne droite depuis la taille. Nous la tenons pour la coupe la plus universelle.",
             "La princesse — un corset travaillé, une taille marquée et une jupe ample, au volume assumé : la silhouette d'une robe de bal.",
           ],
         },
         {
           titre: "Entre les deux",
           texte: [
-            "Hayes, Sienna et Charlotte sont décrites au catalogue comme des robes « princesse ou trapèze » : le volume de leur jupe les place à la frontière. C'est en cabine que l'on voit de quel côté elles penchent sur vous.",
+            "Hayes, Sienna et Charlotte sont des robes « princesse ou trapèze » : le volume de leur jupe les place à la frontière entre les deux coupes. C'est en cabine, sur vous, que l'on voit de quel côté elles penchent.",
           ],
         },
       ],
@@ -669,16 +669,16 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-princesse-petite-taille",
       q: "Une robe princesse est-elle adaptée aux petites tailles ?",
-      r: "Oui, à condition de proportionner le volume. Une jupe moins large, une matière légère comme le tulle ou l'organza, un décolleté en V ou une taille basque en pointe allongent la silhouette. Et la longueur se règle sur vous, aux retouches.",
+      r: "Oui, à condition de proportionner le volume. Une jupe moins large, une matière légère comme le tulle ou l'organza, un décolleté en V ou une taille basque en pointe allongent la silhouette. La longueur, elle, se règle sur vous, aux retouches.",
       description:
         "Robe de mariée princesse et petite taille : un volume proportionné, des matières légères, un décolleté en V pour allonger. Les conseils de MADAMOON, Paris.",
       chapo:
-        "Une princesse n'est pas réservée aux grandes silhouettes. Elle demande seulement que le volume soit à votre échelle.",
+        "La princesse n'est pas réservée aux grandes silhouettes. Elle demande seulement un volume à votre échelle.",
       sections: [
         {
           titre: "Proportionner le volume",
           texte: [
-            "C'est le conseil principal : une jupe dont l'ampleur reste en rapport avec votre taille. Une jupe très large et très structurée peut prendre le dessus sur une petite silhouette ; une ampleur plus mesurée la laisse respirer.",
+            "C'est notre premier conseil : une jupe dont l'ampleur reste en rapport avec votre taille. Très large et très structurée, elle peut prendre le dessus sur une petite silhouette ; plus mesurée, elle la laisse respirer.",
           ],
         },
         {
@@ -693,7 +693,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La longueur",
           texte: [
-            "Après l'essayage, la boutique prend vos mensurations pour lancer la confection, et ses couturières ajustent la robe sur place. Un conseil : venez aux essayages avec les chaussures du jour J, la longueur se règle sur elles.",
+            "Après l'essayage, nous prenons vos mensurations pour lancer la confection, puis nos couturières ajustent la robe sur place. Notre conseil : venez aux essayages avec les chaussures du jour J, car la longueur se règle sur elles.",
           ],
         },
       ],
@@ -713,7 +713,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "choisir-volume-jupe-robe-princesse",
       q: "Comment choisir le volume de jupe d'une robe princesse ?",
-      r: "Selon trois choses : votre silhouette, le lieu et la journée que vous voulez vivre. La matière décide aussi : le mikado ou le jacquard tiennent un volume structuré, le tulle et l'organza un volume aérien. Le plus sûr est d'essayer deux ampleurs différentes.",
+      r: "Selon trois choses : votre silhouette, le lieu, et la journée que vous voulez vivre. La matière a aussi son mot à dire : le mikado ou le jacquard tiennent un volume structuré, le tulle et l'organza un volume aérien. Le plus sûr reste d'essayer deux ampleurs différentes.",
       description:
         "Choisir le volume de jupe d'une robe de mariée princesse : silhouette, lieu, matière. Mikado structuré ou tulle aérien, les conseils de MADAMOON à Paris.",
       chapo:
@@ -725,20 +725,20 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           liste: [
             "Structuré — le mikado de Livia, « une jupe qui tient toute seule », ou celui de Kensington, qui apporte structure et volume.",
             "Texturé — le jacquard floral de Guinevere, pour une jupe de robe de bal.",
-            "Aérien — le tulle et l'organza de Santana, une jupe volumineuse mais légère.",
-            "Ample et léger — la jupe d'Ember, en Dupioni, ou celle de Seraphina, volumineuse tout en gardant « une légèreté aérienne ».",
+            "Aérien — le tulle et l'organza de Santana, pour une jupe volumineuse mais légère.",
+            "Ample et léger — la jupe d'Ember, en Dupioni, ou celle de Seraphina, volumineuse, qui garde « une légèreté aérienne ».",
           ],
         },
         {
           titre: "Le lieu et la journée",
           texte: [
-            "Un conseil : un grand volume se déploie dans une salle de réception, un château, une église ; il demande plus de place dans une mairie, une voiture ou sur une piste de danse animée. Pensez à toute la journée, pas seulement à l'entrée.",
+            "Un grand volume se déploie dans une salle de réception, un château, une église ; il demande plus de place dans une mairie, dans une voiture ou sur une piste de danse animée. Notre conseil : pensez à toute la journée, pas seulement à votre entrée.",
           ],
         },
         {
           titre: "À votre silhouette",
           texte: [
-            "Pour une petite silhouette, une ampleur mesurée ; pour des épaules larges, une jupe généreuse qui rééquilibre. En cabine, comparez deux volumes : la différence se voit tout de suite.",
+            "À une petite silhouette, une ampleur mesurée ; à des épaules larges, une jupe généreuse qui rééquilibre. En cabine, comparez deux volumes : la différence se voit au premier regard.",
           ],
         },
       ],
@@ -758,28 +758,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-princesse-confortable-danser",
       q: "Une robe princesse est-elle confortable pour danser ?",
-      r: "Oui, si elle est bien ajustée et que son volume vous laisse bouger. Une jupe légère se porte plus facilement qu'une jupe très structurée, et une traîne se gère mieux relevée. Le corsage doit tenir sans gêner : c'est à vérifier à l'essayage, en bougeant vraiment.",
+      r: "Oui, dès lors qu'elle est bien ajustée et que son volume vous laisse bouger. Une jupe légère se porte plus facilement qu'une jupe très structurée, et une traîne se vit mieux relevée. Le corsage doit tenir sans gêner : vérifiez-le à l'essayage, en bougeant vraiment.",
       description:
         "Robe de mariée princesse et danse : un corsage qui tient sans serrer, une jupe légère, une traîne qu'on relève. Les conseils de la boutique MADAMOON, Paris.",
       chapo:
-        "Une princesse n'empêche pas de danser. Elle demande de choisir la robe pour la soirée autant que pour la cérémonie.",
+        "Une princesse n'empêche pas de danser. Il suffit de choisir sa robe pour la soirée autant que pour la cérémonie.",
       sections: [
         {
           titre: "Le corsage",
           texte: [
-            "Un corsage structuré tient la robe : c'est lui qui porte le poids de la jupe. Celui de Clover, d'après sa fiche, « assure un bon maintien ». Il doit aussi vous laisser lever les bras et respirer : à l'essayage, faites les gestes de la soirée.",
+            "Un corsage structuré tient la robe : c'est lui qui porte le poids de la jupe. Celui de Clover « assure un bon maintien ». Il doit aussi vous laisser lever les bras et respirer librement : à l'essayage, refaites les gestes de la soirée.",
           ],
         },
         {
           titre: "La jupe",
           texte: [
-            "Plus elle est légère, plus elle suit le mouvement. La jupe d'Ember est décrite comme « ample et légère » ; celle de Seraphina garde « une légèreté aérienne ». Une jupe très structurée, en mikado, se porte magnifiquement mais pèse davantage.",
+            "Plus elle est légère, mieux elle suit le mouvement. La jupe d'Ember est « ample et légère » ; celle de Seraphina garde « une légèreté aérienne ». Une jupe très structurée, en mikado, se porte magnifiquement, mais elle pèse davantage.",
           ],
         },
         {
           titre: "La traîne",
           texte: [
-            "Un conseil : demandez en cabine comment la traîne se relève ou s'accroche pour la soirée. Une traîne longue, comme celle de deux mètres de Kensington, se porte pour l'entrée, pas pour la piste.",
+            "Nous vous conseillons de demander en cabine comment la traîne se relève ou s'accroche pour la soirée. Une traîne longue, comme celle de deux mètres de Kensington, se porte pour l'entrée, non pour la piste.",
           ],
         },
       ],
@@ -799,11 +799,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "corsage-robe-princesse",
       q: "Quel corsage choisir avec une jupe princesse ?",
-      r: "Celui qui met en valeur votre buste et équilibre le volume de la jupe. Un bustier cœur, un décolleté en V, une encolure carrée, des épaules dénudées ou des manches longues : le catalogue a chacun. Une taille basque ou basse prolonge le corsage et affine la ligne.",
+      r: "Celui qui met en valeur votre buste et équilibre le volume de la jupe. Un bustier cœur, un décolleté en V, une encolure carrée, des épaules dénudées ou des manches longues : chacun existe dans notre sélection. Une taille basque ou basse prolonge le corsage et affine la ligne.",
       description:
         "Quel corsage pour une robe de mariée princesse ? Bustier cœur, V, carré, épaules dénudées, manches longues, taille basque. Les princesses MADAMOON, Paris.",
       chapo:
-        "La jupe fait le volume ; le corsage fait le caractère. Voici les possibilités, robe par robe.",
+        "La jupe fait le volume ; le corsage fait le caractère. Les possibilités, robe par robe.",
       sections: [
         {
           titre: "Les décolletés",
@@ -818,13 +818,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Les manches et les bretelles",
           texte: [
-            "Seraphina, d'Olya Mak, associe un corsage transparent à des manches longues et à un dos nu. Addison a des bretelles tombantes amovibles : on les porte ou non.",
+            "Seraphina, d'Olya Mak, marie un corsage transparent à des manches longues et à un dos nu. Addison a des bretelles tombantes amovibles : vous les portez, ou non.",
           ],
         },
         {
           titre: "La ligne de taille",
           texte: [
-            "La taille basque, qui descend en pointe sous la taille, prolonge le corsage : Guinevere, Santana. La taille basse aussi : Ember, Clover. Elles affinent la ligne et font partir le volume un peu plus bas. Un conseil : un corsage chargé appelle une jupe épurée, et l'inverse.",
+            "La taille basque, qui descend en pointe sous la taille, prolonge le corsage : Guinevere, Santana. La taille basse aussi : Ember, Clover. L'une et l'autre affinent la ligne et font partir le volume un peu plus bas. Notre conseil : à corsage chargé, jupe épurée, et inversement.",
           ],
         },
       ],
@@ -844,7 +844,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "difference-bustier-corset-robe-princesse",
       q: "Quelle différence entre un bustier et un corset sur une robe princesse ?",
-      r: "Le bustier désigne une forme : un haut sans bretelles ni manches, qui s'arrête au-dessus de la poitrine. Le corset désigne une construction : un corsage structuré, souvent baleiné, qui modèle la taille. Une robe peut être les deux à la fois, comme Guinevere et son corset bustier.",
+      r: "Le bustier désigne une forme : un haut sans bretelles ni manches, qui s'arrête au-dessus de la poitrine. Le corset, une construction : un corsage structuré, souvent baleiné, qui modèle la taille. Une robe peut être l'un et l'autre à la fois, comme Guinevere et son corset bustier.",
       description:
         "Bustier ou corset sur une robe de mariée princesse : l'un est une forme sans bretelles, l'autre une structure qui modèle la taille. La différence expliquée.",
       chapo:
@@ -853,19 +853,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le bustier, une forme",
           texte: [
-            "Un haut sans bretelles ni manches, qui laisse les épaules et les bras nus. Il tient par sa structure et par l'ajustement. Hayes, Sienna et Charlotte sont des bustiers à décolleté cœur.",
+            "Un haut sans bretelles ni manches, qui laisse nus les épaules et les bras. Il tient par sa structure et par son ajustement. Hayes, Sienna et Charlotte sont des bustiers à décolleté cœur.",
           ],
         },
         {
           titre: "Le corset, une construction",
           texte: [
-            "Un corsage structuré, souvent baleiné, qui modèle la taille et porte le poids de la jupe. Il peut avoir des bretelles ou des manches. Ember a un corset « qui structure la silhouette » ; Clover, un corsage structuré qui « assure un bon maintien ».",
+            "Un corsage structuré, souvent baleiné, qui modèle la taille et porte le poids de la jupe. Il peut s'accompagner de bretelles ou de manches. Ember a un corset « qui structure la silhouette » ; Clover, un corsage structuré qui « assure un bon maintien ».",
           ],
         },
         {
           titre: "Les deux à la fois",
           texte: [
-            "Guinevere réunit les deux : un corset bustier, à décolleté cœur plongeant, prolongé d'une taille basque. Charlotte aussi, avec son corset en taille basque. À l'essayage, vérifiez que le haut tient seul quand vous levez les bras.",
+            "Guinevere réunit les deux : un corset bustier à décolleté cœur plongeant, prolongé d'une taille basque. Charlotte également, avec son corset en taille basque. À l'essayage, levez les bras : le haut doit tenir seul.",
           ],
         },
       ],
@@ -885,28 +885,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-princesse-pas-trop-imposante",
       q: "Comment éviter qu'une robe princesse soit trop imposante ?",
-      r: "En jouant sur trois choses : une jupe d'ampleur mesurée, une matière légère comme le tulle ou l'organza, et un corsage qui équilibre la jupe. Une traîne modérée allège aussi la silhouette. Et certaines robes, entre princesse et trapèze, sont à comparer en cabine.",
+      r: "En jouant sur trois choses : une jupe d'ampleur mesurée, une matière légère comme le tulle ou l'organza, et un corsage qui équilibre la jupe. Une traîne modérée allège elle aussi la silhouette. Certaines robes enfin, entre princesse et trapèze, se comparent en cabine.",
       description:
         "Une robe de mariée princesse sans excès : volume mesuré, tulle léger, corsage qui équilibre, traîne modérée. Les conseils et modèles de MADAMOON à Paris.",
       chapo:
-        "On peut aimer la princesse sans vouloir disparaître dedans. Voici comment garder l'allure et alléger le reste.",
+        "On peut aimer la princesse sans vouloir disparaître dedans. Il suffit d'en garder l'allure et d'alléger le reste.",
       sections: [
         {
           titre: "Alléger la jupe",
           texte: [
-            "Une ampleur mesurée plutôt que maximale, et une matière aérienne : le tulle et l'organza donnent du volume sans masse. Une jupe épurée, comme celle d'Addison, en satin de soie, garde la ligne nette.",
+            "Une ampleur mesurée plutôt que maximale, et une matière aérienne : le tulle et l'organza apportent le volume sans la masse. Une jupe épurée, comme celle d'Addison, en satin de soie, garde une ligne nette.",
           ],
         },
         {
           titre: "Équilibrer le haut",
           texte: [
-            "Un conseil : quand la jupe est généreuse, un corsage plus simple la laisse respirer, et un décolleté en V ou des épaules dégagées ouvrent la silhouette. Une traîne modérée, plutôt qu'une traîne cathédrale, allège encore l'ensemble.",
+            "Notre conseil : quand la jupe est généreuse, un corsage plus simple la laisse respirer, et un décolleté en V ou des épaules dégagées ouvrent la silhouette. Une traîne modérée, plutôt qu'une traîne cathédrale, allège encore l'ensemble.",
           ],
         },
         {
           titre: "Entre deux coupes",
           texte: [
-            "Hayes, Sienna et Charlotte, décrites comme « princesse ou trapèze », sont à la frontière des deux. À essayer à côté d'une princesse plus ample, pour comparer.",
+            "Hayes, Sienna et Charlotte, des robes « princesse ou trapèze », se tiennent à la frontière des deux coupes. Essayez-les à côté d'une princesse plus ample, pour comparer.",
           ],
         },
       ],
@@ -926,7 +926,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-princesse-mariage-exterieur",
       q: "Une robe princesse convient-elle à un mariage en extérieur ?",
-      r: "Oui, avec quelques précautions. Une jupe légère en tulle ou en organza se porte mieux qu'une jupe très lourde, et une traîne courte ou qui se relève évite l'herbe et le gravier. Pensez au terrain, à la saison et à la distance à parcourir.",
+      r: "Oui, avec quelques précautions. Une jupe légère en tulle ou en organza se porte mieux qu'une jupe très lourde ; une traîne courte, ou qui se relève, évite l'herbe et le gravier. Pensez au terrain, à la saison et à la distance à parcourir.",
       description:
         "Robe de mariée princesse en extérieur : une jupe légère, une traîne courte ou qu'on relève, une matière adaptée au terrain. Les conseils de MADAMOON, Paris.",
       chapo:
@@ -935,19 +935,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le sol et la traîne",
           texte: [
-            "Un conseil : sur l'herbe ou le gravier, une traîne longue ramasse tout ce qu'elle touche. Une traîne plus courte, ou qui se relève après la cérémonie, vous laisse circuler sans y penser.",
+            "Sur l'herbe ou le gravier, une traîne longue ramasse tout ce qu'elle touche. Nous vous conseillons une traîne plus courte, ou qui se relève après la cérémonie : vous circulez sans y penser.",
           ],
         },
         {
           titre: "La matière",
           texte: [
-            "Le tulle et l'organza, comme sur Santana, sont aériens et bougent avec l'air ; le mikado et le jacquard tiennent leur forme. Par temps chaud, une jupe légère est la plus agréable à porter toute la journée.",
+            "Le tulle et l'organza, comme sur Santana, sont aériens et bougent avec l'air ; le mikado et le jacquard, eux, tiennent leur forme. Par temps chaud, une jupe légère reste la plus agréable à porter toute la journée.",
           ],
         },
         {
           titre: "La saison",
           texte: [
-            "Pour un mariage d'été, des épaules dégagées ou de fines bretelles ; pour une fin de saison, des manches longues comme celles de Seraphina. Et pour le soir, une étole ou une cape.",
+            "Pour un mariage d'été, des épaules dégagées ou de fines bretelles ; pour une fin de saison, des manches longues, comme celles de Seraphina. Et quand vient le soir, une étole ou une cape.",
           ],
         },
       ],
@@ -967,17 +967,17 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "voile-robe-de-mariee-princesse",
       q: "Quel voile porter avec une robe de mariée princesse ?",
-      r: "Un voile qui s'accorde au volume et à la traîne. Un voile long, qui prolonge la traîne, souligne la solennité ; un voile plus court laisse voir le dos et la jupe. Santana a même son voile assorti, longueur « doigts », disponible séparément.",
+      r: "Un voile accordé au volume et à la traîne. Long, il prolonge la traîne et souligne la solennité ; plus court, il laisse voir le dos et la jupe. Santana a même son voile assorti, longueur « doigts », disponible séparément.",
       description:
         "Quel voile avec une robe de mariée princesse ? Long pour prolonger la traîne, court pour laisser voir le dos. Le voile assorti de Santana, chez MADAMOON.",
       chapo:
-        "Avec une princesse, le voile complète la silhouette. Voici comment l'accorder à la robe.",
+        "Avec une princesse, le voile complète la silhouette. Encore faut-il l'accorder à la robe.",
       sections: [
         {
           titre: "Long ou court",
           texte: [],
           liste: [
-            "Un voile long — il prolonge la traîne et accompagne une cérémonie solennelle ; il va à une robe à traîne, comme Kensington ou Guinevere.",
+            "Un voile long — il prolonge la traîne et accompagne une cérémonie solennelle ; il s'accorde à une robe à traîne, comme Kensington ou Guinevere.",
             "Un voile longueur « doigts » — il s'arrête au bout des doigts, bras le long du corps, et laisse voir toute la jupe.",
             "Un voile court — il dégage le dos et le corsage.",
           ],
@@ -985,13 +985,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le dos de la robe",
           texte: [
-            "Quand le dos est travaillé, laissez-le voir : la rangée de boutons d'Addison, qui court jusqu'au bout de la traîne, ou le dos nu de Seraphina. Un voile en tulle léger et transparent les laisse paraître.",
+            "Un dos travaillé mérite d'être vu : la rangée de boutons d'Addison, qui court jusqu'au bout de la traîne, ou le dos nu de Seraphina. Un voile en tulle léger et transparent les laisse paraître.",
           ],
         },
         {
           titre: "Le voile de Santana",
           texte: [
-            "D'après sa fiche, Santana, de Casablanca Bridal, peut être accompagnée d'un voile assorti, longueur « doigts », et de gants en tulle de soie ornés de dentelle florale, disponibles séparément.",
+            "Santana, de Casablanca Bridal, peut s'accompagner d'un voile assorti, longueur « doigts », et de gants en tulle de soie ornés de dentelle florale, l'un et les autres disponibles séparément.",
           ],
         },
       ],
@@ -1015,12 +1015,12 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Accessoiriser une robe de mariée princesse sans surcharge : un seul point fort, des bijoux mesurés, un voile accordé. Les conseils de MADAMOON, Paris.",
       chapo:
-        "La princesse est déjà une déclaration. L'accessoire la prolonge, à condition de ne pas lui faire concurrence.",
+        "La princesse dit déjà beaucoup. L'accessoire la prolonge, à condition de ne pas lui faire concurrence.",
       sections: [
         {
           titre: "Un seul point fort",
           texte: [
-            "Un conseil : décidez de ce qui doit attirer le regard — le corsage, le voile, un bijou — et laissez le reste en retrait. Avec une robe brodée de perles, comme Kensington ou Fern, des boucles d'oreilles suffisent.",
+            "Notre conseil : décidez de ce qui doit attirer le regard, le corsage, le voile ou un bijou, et laissez le reste en retrait. Avec une robe brodée de perles, comme Kensington ou Fern, des boucles d'oreilles suffisent.",
           ],
         },
         {
@@ -1035,7 +1035,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Les bijoux et le décolleté",
           texte: [
-            "Un décolleté en V, comme celui de Livia, accueille un pendentif ; une encolure carrée ou des épaules dénudées mettent en valeur un collier court ou des boucles plus marquées ; un bustier cœur se suffit souvent à lui-même.",
+            "Un décolleté en V, comme celui de Livia, accueille un pendentif ; une encolure carrée ou des épaules dénudées mettent en valeur un collier court, ou des boucles plus marquées ; un bustier cœur, lui, se suffit souvent à lui-même.",
           ],
         },
       ],
@@ -1057,22 +1057,22 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
       titre: "Robe de mariée princesse en dentelle ou en satin",
       q: "Peut-on choisir une robe princesse en satin ou en dentelle ?",
-      r: "Oui, les deux. Le satin donne une princesse lisse et lumineuse, comme Addison en satin de soie ; la dentelle, une princesse romantique, comme Clover en dentelle Caterina ou Seraphina, brodée à la main. Le catalogue a aussi du mikado, du jacquard et du Dupioni.",
+      r: "Oui, l'un comme l'autre. Le satin donne une princesse lisse et lumineuse, comme Addison en satin de soie ; la dentelle, une princesse romantique, comme Clover en dentelle Caterina ou Seraphina, brodée à la main. Notre sélection compte aussi du mikado, du jacquard et du Dupioni.",
       description:
         "Robe de mariée princesse en satin ou en dentelle : Addison en satin de soie, Clover et Seraphina en dentelle, et le mikado. Les princesses MADAMOON, Paris.",
       chapo:
-        "La princesse se décline dans toutes les matières nobles. Chacune lui donne un caractère différent.",
+        "La princesse se prête à toutes les matières nobles. Chacune lui donne un caractère différent.",
       sections: [
         {
           titre: "En satin",
           texte: [
-            "Lisse et lumineux, il donne une ligne nette. Addison, de Casablanca Bridal, est en satin de soie, avec des motifs floraux en mousseline appliqués à la main ; Hayes associe le satin mat à la dentelle.",
+            "Lisse et lumineux, il dessine une ligne nette. Addison, de Casablanca Bridal, est en satin de soie, avec des motifs floraux en mousseline appliqués à la main ; Hayes marie le satin mat à la dentelle.",
           ],
         },
         {
           titre: "En dentelle",
           texte: [
-            "Romantique, elle habille le corsage ou toute la robe. Clover est en dentelle Caterina ; Seraphina, d'Olya Mak, en dentelle brodée à la main ; Amandine arbore des motifs d'un style royal ; Santana pose une dentelle florale sur un corsage transparent.",
+            "Romantique, elle habille le corsage ou la robe entière. Clover est en dentelle Caterina ; Seraphina, d'Olya Mak, en dentelle brodée à la main ; Amandine porte des motifs d'un style royal ; Santana pose une dentelle florale sur un corsage transparent.",
           ],
         },
         {
@@ -1102,7 +1102,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "se-deplacer-robe-de-mariee-volumineuse",
       q: "Comment se déplacer facilement avec une robe de mariée volumineuse ?",
-      r: "En vous entraînant avant le jour J, avec vos chaussures. Un pas un peu plus court, la jupe avancée du bout du pied, le devant relevé dans les escaliers, la traîne relevée pour la soirée. Et une personne de confiance pour vous aider à la manœuvrer.",
+      r: "En vous entraînant avant le jour J, avec vos chaussures. Un pas un peu plus court, la jupe avancée du bout du pied, le devant relevé dans les escaliers, la traîne relevée pour la soirée. Et, près de vous, une personne de confiance pour vous aider à la manœuvrer.",
       description:
         "Se déplacer avec une robe de mariée volumineuse : marcher, monter un escalier, s'asseoir, gérer la traîne. Les conseils pratiques de MADAMOON, Paris.",
       chapo:
@@ -1111,7 +1111,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Marcher",
           texte: [
-            "Un conseil : un pas un peu plus court, et la jupe qu'on avance légèrement du bout du pied à chaque pas, pour ne pas marcher dessus. Entraînez-vous aux essayages, avec les chaussures du jour J.",
+            "Notre conseil : un pas un peu plus court, et la jupe que l'on avance légèrement du bout du pied, à chaque pas, pour ne pas marcher dessus. Entraînez-vous dès les essayages, avec les chaussures du jour J.",
           ],
         },
         {
@@ -1119,14 +1119,14 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           texte: [],
           liste: [
             "L'escalier — relevez le devant de la jupe des deux mains pour voir les marches ; la traîne suit derrière.",
-            "La voiture — asseyez-vous d'abord, puis rentrez les jambes et la jupe ; quelqu'un peut aider à la ranger.",
+            "La voiture — asseyez-vous d'abord, puis rentrez les jambes et la jupe ; quelqu'un peut vous aider à la ranger.",
             "La chaise — asseyez-vous au bord, laissez la jupe s'étaler et ramenez la traîne sur le côté.",
           ],
         },
         {
           titre: "La traîne et les poches",
           texte: [
-            "Demandez en cabine comment la traîne se relève pour la soirée. Certaines princesses ont des poches : Guinevere, des poches discrètes ; Addison, des poches « bien pratiques » — de quoi garder un mouchoir à portée de main.",
+            "Demandez en cabine comment la traîne se relève pour la soirée. Certaines princesses ont des poches : Guinevere, des poches discrètes ; Addison, des poches « bien pratiques ». De quoi garder un mouchoir à portée de main.",
           ],
         },
       ],
@@ -1147,28 +1147,28 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "qu-est-ce-qu-une-robe-de-mariee-fluide",
       q: "Qu'est-ce qu'une robe de mariée fluide ?",
-      r: "Une robe au tombé souple, qui suit naturellement le mouvement. Elle ne construit pas la silhouette par le volume : elle glisse sur le corps, dans une matière légère comme la mousseline, la charmeuse ou le satin mat. C'est la coupe la plus souple et la plus légère du catalogue.",
+      r: "Une robe au tombé souple, qui suit naturellement le mouvement. Elle ne construit pas la silhouette par le volume : elle glisse sur le corps, dans une matière légère comme la mousseline, la charmeuse ou le satin mat. De toutes nos coupes, c'est la plus souple et la plus légère.",
       description:
         "Qu'est-ce qu'une robe de mariée fluide ? Un tombé souple qui suit le mouvement, en mousseline, charmeuse ou satin mat. Définition et fluides MADAMOON, Paris.",
       chapo:
-        "Souple et légère : la fluide est la robe qui bouge avec vous. Voici ce qui la définit.",
+        "Souple et légère, la fluide est la robe qui bouge avec vous. Tout tient à son tombé.",
       sections: [
         {
           titre: "Un tombé, plutôt qu'une construction",
           texte: [
-            "La fluide ne cherche pas le volume. Sa matière tombe d'elle-même et suit le corps sans le serrer ; la jupe accompagne chaque pas. Elle peut être cintrée à la taille, reprise par un corset ou laissée libre.",
+            "La fluide ne cherche pas le volume. Sa matière tombe d'elle-même et suit le corps sans jamais le serrer ; la jupe accompagne chacun de vos pas. Elle peut être cintrée à la taille, reprise par un corset ou laissée libre.",
           ],
         },
         {
           titre: "Ce qu'elle fait à la silhouette",
           texte: [
-            "Elle allonge la ligne. Sans ampleur pour élargir ni ajustement pour marquer, elle laisse la silhouette telle qu'elle est, et le tissu l'accompagne.",
+            "Elle allonge la ligne. Aucune ampleur pour élargir, aucun ajustement pour marquer : votre silhouette reste telle qu'elle est, et le tissu l'accompagne.",
           ],
         },
         {
           titre: "Les fluides de la boutique",
           texte: [
-            "Chez Watters Designs, Adularia et Ryle en charmeuse ; chez Casablanca Bridal, Dove en satin mat et Maribel en mousseline stretch ; chez Monica Loretti, Marie, Murielle en dentelle florale et mousseline, et Mathilda, pensée pour la femme enceinte ; et Agnessa et Hélène, au corset perlé.",
+            "Chez Watters Designs, Adularia et Ryle, en charmeuse ; chez Casablanca Bridal, Dove en satin mat et Maribel en mousseline stretch ; chez Monica Loretti, Marie, Murielle en dentelle florale et mousseline, et Mathilda, pensée pour la femme enceinte ; enfin Agnessa et Hélène, au corset perlé.",
           ],
         },
       ],
@@ -1188,32 +1188,32 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-fluide-quelle-morphologie",
       q: "À quelle morphologie la robe fluide convient-elle ?",
-      r: "C'est la coupe la plus souvent conseillée en premier : elle l'est pour les morphologies en O, en V, en H, en 8 et en X. Pour une morphologie en A, elle vient en second, et vaut l'essai. Aucune morphologie ne l'interdit.",
+      r: "C'est la coupe que nous conseillons le plus souvent en premier : pour les morphologies en O, en V, en H, en 8 et en X. Pour une morphologie en A, elle vient en second, et mérite l'essai. Aucune morphologie ne l'interdit.",
       description:
         "Robe de mariée fluide : à quelles morphologies convient-elle ? En premier pour O, V, H, 8 et X, à essayer pour A. Les conseils de la boutique MADAMOON, Paris.",
       chapo:
-        "Parmi les coupes, c'est celle que la boutique conseille en premier au plus grand nombre de silhouettes. Voici pourquoi.",
+        "De toutes les coupes, c'est celle que nous conseillons en premier au plus grand nombre de silhouettes. Sa souplesse l'explique.",
       sections: [
         {
           titre: "Les morphologies pour qui elle vient en premier",
           texte: [],
           liste: [
-            "En O — elle glisse sans marquer et allonge la ligne.",
-            "En V — sa souplesse adoucit des épaules plus larges, surtout avec un décolleté en V.",
-            "En H — cintrée à la taille ou portée avec une ceinture, elle marque là où vous le décidez.",
-            "En 8 et en X — elle accompagne une ligne déjà équilibrée, sans rien avoir à construire.",
+            "En O — elle glisse sans rien marquer et allonge la ligne.",
+            "En V — sa souplesse adoucit des épaules plus larges, plus encore avec un décolleté en V.",
+            "En H — cintrée à la taille ou soulignée d'une ceinture, elle marque là où vous le décidez.",
+            "En 8 et en X — elle accompagne une ligne déjà équilibrée : il n'y a rien à construire.",
           ],
         },
         {
           titre: "Celle pour qui elle vaut l'essai",
           texte: [
-            "En A, préférez une fluide au corsage travaillé — le corset perlé d'Agnessa ou d'Hélène, le décolleté drapé de Dove — qui ramène le regard vers le haut, et une jupe qui tombe sans coller aux hanches.",
+            "En A, choisissez une fluide au corsage travaillé, qui ramène le regard vers le haut — le corset perlé d'Agnessa ou d'Hélène, le décolleté drapé de Dove —, et une jupe qui tombe sans coller aux hanches.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "Sur leurs fiches, presque toutes les fluides de la boutique sont indiquées pour toutes les morphologies ; Ryle l'est pour toutes, sauf la morphologie en O. C'est l'essayage qui tranche.",
+            "Presque toutes les fluides de notre sélection vont à toutes les morphologies ; Ryle convient à toutes, sauf à la morphologie en O. Pour le reste, c'est l'essayage qui tranche.",
           ],
         },
       ],
@@ -1233,7 +1233,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "difference-robe-fluide-robe-empire",
       q: "Quelle différence entre une robe fluide et une robe empire ?",
-      r: "La fluide se définit par sa matière et son tombé ; l'empire, par sa coupe : une couture placée juste sous la poitrine, d'où la jupe tombe librement. Une robe empire est souvent fluide, mais une fluide n'est pas forcément empire. La boutique ne classe pas ses robes en « empire » : ses fluides en sont les plus proches.",
+      r: "La fluide se définit par sa matière et son tombé ; l'empire, par sa coupe : une couture placée juste sous la poitrine, d'où la jupe tombe librement. Une robe empire est souvent fluide ; une fluide n'est pas forcément empire. Nous ne classons pas nos robes en « empire » : nos fluides en sont les plus proches.",
       description:
         "Robe fluide ou robe empire : l'une se définit par son tombé, l'autre par une couture sous la poitrine. La différence, et les fluides MADAMOON à Paris.",
       chapo:
@@ -1242,26 +1242,26 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La fluide, une affaire de tombé",
           texte: [
-            "Une matière souple qui suit le mouvement. La taille peut être où l'on veut : marquée par un corset, comme chez Agnessa ou Hélène, ou laissée libre.",
+            "Une matière souple, qui suit le mouvement. La taille se place où vous le souhaitez : marquée par un corset, comme chez Agnessa ou Hélène, ou laissée libre.",
           ],
         },
         {
           titre: "L'empire, une affaire de coupe",
           texte: [
-            "La robe se resserre juste sous la poitrine, puis tombe sans marquer la taille ni les hanches. Elle met le buste en valeur et allonge tout ce qui suit.",
+            "La robe se resserre juste sous la poitrine, puis tombe sans marquer ni la taille ni les hanches. Le buste est mis en valeur, et tout ce qui suit s'allonge.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "La boutique n'a pas de catégorie « empire » : ce sont ses fluides qui s'en rapprochent le plus. Mathilda, de Monica Loretti, pensée pour la femme enceinte, est rangée avec elles. La ligne exacte de chaque robe se voit en cabine.",
+            "Nous n'avons pas de catégorie « empire » : ce sont nos fluides qui s'en rapprochent le plus. Mathilda, de Monica Loretti, pensée pour la femme enceinte, en fait partie. La ligne exacte de chaque robe se découvre en cabine.",
           ],
         },
       ],
       aRetenir: [
         "Fluide : une matière, un tombé.",
         "Empire : une couture sous la poitrine.",
-        "Au catalogue, les fluides en sont les plus proches.",
+        "Chez nous, les fluides en sont les plus proches.",
       ],
       liens: [
         { href: "/robes/mathilda", label: "Mathilda" },
@@ -1274,7 +1274,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "matiere-robe-de-mariee-fluide",
       q: "Quelle matière choisir pour une robe de mariée fluide ?",
-      r: "Celle qui donne le tombé que vous cherchez. La mousseline est la plus légère et la plus aérienne ; la charmeuse, lumineuse, suit le corps de près ; le satin mat a plus de tenue. Une version stretch ajoute de l'aisance.",
+      r: "Celle qui donne le tombé que vous cherchez. La mousseline est la plus légère, la plus aérienne ; la charmeuse, lumineuse, suit le corps de près ; le satin mat offre plus de tenue. Une version stretch ajoute de l'aisance.",
       description:
         "Matière d'une robe de mariée fluide : mousseline légère, charmeuse lumineuse, satin mat, tulle. Les fluides MADAMOON — Maribel, Adularia, Dove — à Paris.",
       chapo:
@@ -1284,7 +1284,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           titre: "Les matières du catalogue",
           texte: [],
           liste: [
-            "La mousseline — légère et aérienne : la jupe d'Hélène, celle de Murielle ; Maribel en mousseline stretch.",
+            "La mousseline — légère, aérienne : la jupe d'Hélène, celle de Murielle, et Maribel en mousseline stretch.",
             "La charmeuse — lumineuse, elle épouse la silhouette : Adularia, Ryle.",
             "Le satin mat — plus de tenue, une lumière douce : Dove.",
             "Le tulle — une jupe fluide sous un corset perlé : Agnessa.",
@@ -1293,13 +1293,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Choisir selon la journée",
           texte: [
-            "Un conseil : pour un mariage d'été ou une longue journée, la mousseline et les versions stretch ; pour une cérémonie plus solennelle, le satin mat, qui garde sa ligne. La charmeuse, qui suit le corps de près, demande un ajustement précis.",
+            "Pour un mariage d'été ou une longue journée, nous vous conseillons la mousseline et les versions stretch ; pour une cérémonie plus solennelle, le satin mat, qui garde sa ligne. La charmeuse, parce qu'elle suit le corps de près, demande un ajustement précis.",
           ],
         },
         {
           titre: "La dentelle",
           texte: [
-            "Elle se pose sur une fluide sans l'alourdir : en dentelle florale sur Murielle, ornée de perles et de fleurs en relief sur le corset d'Hélène.",
+            "Elle se pose sur une fluide sans jamais l'alourdir : dentelle florale sur Murielle, dentelle ornée de perles et de fleurs en relief sur le corset d'Hélène.",
           ],
         },
       ],
@@ -1321,7 +1321,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-fluide-mariage-ete",
       q: "Une robe fluide est-elle adaptée à un mariage en été ?",
-      r: "Oui, c'est l'une des plus agréables à porter par la chaleur. Une matière légère comme la mousseline laisse respirer, et des épaules dégagées, un dos ouvert ou une fente allègent encore la robe. Prévoyez simplement une épaule couverte pour la cérémonie si le lieu le demande.",
+      r: "Oui, c'est l'une des robes les plus agréables à porter par la chaleur. Une matière légère comme la mousseline laisse respirer ; des épaules dégagées, un dos ouvert ou une fente allègent encore la robe. Prévoyez simplement une épaule couverte pour la cérémonie, si le lieu le demande.",
       description:
         "Robe de mariée fluide pour un mariage en été : mousseline légère, épaules dégagées, dos ouvert, fente. Les fluides MADAMOON — Dove, Maribel, Murielle.",
       chapo:
@@ -1330,7 +1330,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Une matière qui respire",
           texte: [
-            "La mousseline est la plus légère du catalogue : la jupe d'Hélène, celle de Murielle, Maribel en mousseline stretch. La charmeuse et le satin mat restent fluides, avec un peu plus de corps.",
+            "La mousseline est la plus légère de nos matières : la jupe d'Hélène, celle de Murielle, Maribel en mousseline stretch. La charmeuse et le satin mat restent fluides, avec un peu plus de corps.",
           ],
         },
         {
@@ -1339,14 +1339,14 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           liste: [
             "Des épaules dénudées — Dove, avec son décolleté drapé.",
             "Un dos ouvert — Dove encore, et le dos en V de Murielle.",
-            "Une fente — Maribel, Murielle : elle laisse passer l'air et facilite la marche.",
-            "Des manches illusion — Murielle : couvrir sans avoir chaud.",
+            "Une fente — Maribel, Murielle : l'air circule, et la marche se fait plus facile.",
+            "Des manches illusion — Murielle : elles couvrent sans tenir chaud.",
           ],
         },
         {
           titre: "La cérémonie et la soirée",
           texte: [
-            "Un conseil : pour une cérémonie religieuse, un voile léger ou une étole couvrent les épaules le temps qu'il faut. Murielle existe aussi sans fente, d'après sa fiche, pour une version plus couvrante.",
+            "Pour une cérémonie religieuse, nous vous conseillons un voile léger ou une étole, qui couvrent les épaules le temps qu'il faut. Murielle existe aussi sans fente, pour une version plus couvrante.",
           ],
         },
       ],
@@ -1366,7 +1366,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-fluide-belle-tenue",
       q: "Comment choisir une robe fluide qui garde une belle tenue ?",
-      r: "En regardant trois choses : une matière qui a du poids, comme le satin mat ou la charmeuse ; un corsage qui tient, parfois structuré en corset ; et un ajustement précis. Une fluide bien choisie tombe droit, sans flotter ni coller.",
+      r: "En regardant trois choses : une matière qui a du poids, comme le satin mat ou la charmeuse ; un corsage qui tient, parfois structuré en corset ; un ajustement précis. Bien choisie, une fluide tombe droit, sans flotter ni coller.",
       description:
         "Une robe de mariée fluide qui garde sa tenue : matière qui a du poids, corsage structuré, ajustement précis. Les conseils et fluides de MADAMOON à Paris.",
       chapo:
@@ -1375,19 +1375,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Une matière qui a du poids",
           texte: [
-            "Le satin mat de Dove et la charmeuse d'Adularia ou de Ryle tombent d'eux-mêmes : leur poids tire la robe vers le bas et dessine une ligne nette. La mousseline, plus légère, s'envole davantage ; un corsage structuré lui donne son ancrage.",
+            "Le satin mat de Dove, la charmeuse d'Adularia ou de Ryle tombent d'eux-mêmes : leur poids entraîne la robe vers le bas et dessine une ligne nette. Plus légère, la mousseline s'envole davantage ; un corsage structuré lui donne son ancrage.",
           ],
         },
         {
           titre: "Un corsage qui tient",
           texte: [
-            "Un corset perlé, comme celui d'Agnessa ou d'Hélène, tient le haut et laisse la jupe libre. Le corsage brodé et perlé à la main de Maribel structure le buste au-dessus d'une jupe en mousseline.",
+            "Un corset perlé, comme celui d'Agnessa ou d'Hélène, tient le haut et laisse la jupe libre. Chez Maribel, le corsage brodé et perlé à la main structure le buste, au-dessus d'une jupe en mousseline.",
           ],
         },
         {
           titre: "Un ajustement précis",
           texte: [
-            "Une fluide pardonne peu un ajustement approximatif. Après l'essayage, la boutique prend vos mensurations pour lancer la confection, et ses couturières ajustent la robe sur place. Un conseil : regardez-vous de profil et en marchant, pas seulement de face.",
+            "Une fluide pardonne peu un ajustement approximatif. Après l'essayage, nous prenons vos mensurations pour lancer la confection, et nos couturières ajustent la robe sur place. Notre conseil : regardez-vous de profil et en marchant, pas seulement de face.",
           ],
         },
       ],
@@ -1407,7 +1407,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-fluide-mariage-formel",
       q: "Une robe fluide peut-elle être élégante pour un mariage formel ?",
-      r: "Oui. Dans un satin mat ou une charmeuse, avec une traîne et une ligne épurée, la fluide a toute la solennité d'une grande cérémonie. Dove, avec son dos ouvert et ses boutons jusqu'au bout de la traîne, en est l'exemple.",
+      r: "Oui. Dans un satin mat ou une charmeuse, avec une traîne et une ligne épurée, la fluide a toute la solennité d'une grande cérémonie. Dove, avec son dos ouvert et ses boutons qui courent jusqu'au bout de la traîne, en est l'exemple.",
       description:
         "Robe de mariée fluide pour un mariage formel : satin mat, charmeuse, ligne épurée, traîne. Dove, Adularia et Marie, les fluides élégantes de MADAMOON, Paris.",
       chapo:
@@ -1425,13 +1425,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Ce qui la rend formelle",
           texte: [
-            "Un conseil : une matière qui a de la tenue plutôt qu'une mousseline très légère, une traîne, un décolleté net, et un voile long. La sobriété de la ligne fait le reste.",
+            "Préférez une matière qui a de la tenue à une mousseline très légère ; ajoutez une traîne, un décolleté net et un voile long. La sobriété de la ligne fait le reste.",
           ],
         },
         {
           titre: "Pour une cérémonie religieuse",
           texte: [
-            "Des épaules couvertes ou un voile qui les couvre. Murielle a des manches illusion et existe aussi sans fente, d'après sa fiche, pour une version plus couvrante.",
+            "Des épaules couvertes, ou un voile qui les couvre. Murielle a des manches illusion et existe aussi sans fente, pour une version plus couvrante.",
           ],
         },
       ],
@@ -1451,7 +1451,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "chaussures-robe-fluide",
       q: "Quel type de chaussures porter avec une robe fluide ?",
-      r: "Des chaussures dans lesquelles vous tiendrez toute la journée, choisies avant les retouches : la longueur de la robe se règle sur elles. Avec une fente, elles se voient et méritent d'être choisies avec soin ; pour un mariage en plein air, préférez un talon large ou des sandales plates.",
+      r: "Des chaussures dans lesquelles vous tiendrez toute la journée, choisies avant les retouches : c'est sur elles que se règle la longueur de la robe. Avec une fente, elles se voient et méritent d'être choisies avec soin ; pour un mariage en plein air, préférez un talon large ou des sandales plates.",
       description:
         "Quelles chaussures avec une robe de mariée fluide ? Choisies avant les retouches, confortables, soignées si la robe a une fente. Les conseils de MADAMOON.",
       chapo:
@@ -1460,13 +1460,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Avant les retouches",
           texte: [
-            "Un conseil : achetez vos chaussures avant les retouches et apportez-les aux essayages. Une fluide qui frôle le sol se règle au centimètre, et la hauteur du talon change tout.",
+            "Choisissez vos chaussures avant les retouches, et apportez-les aux essayages. Une fluide qui frôle le sol se règle au centimètre : la hauteur du talon change tout.",
           ],
         },
         {
           titre: "Avec une fente",
           texte: [
-            "Maribel et Murielle ont une fente : la chaussure se voit à chaque pas. Une sandale fine ou un escarpin épuré prolongent la jambe.",
+            "Maribel et Murielle ont une fente : à chaque pas, la chaussure se dévoile. Une sandale fine ou un escarpin épuré prolongent la jambe.",
           ],
         },
         {
@@ -1504,19 +1504,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le voile",
           texte: [
-            "Un conseil : un voile en tulle souple, qui suit le mouvement de la robe plutôt qu'un voile raide. Quand le dos est travaillé — la ligne de boutons de Dove, le dos en V de Murielle ou d'Agnessa —, un voile transparent le laisse voir.",
+            "Préférez un voile en tulle souple, qui suit le mouvement de la robe, à un voile raide. Quand le dos est travaillé — la ligne de boutons de Dove, le dos en V de Murielle ou d'Agnessa —, un voile transparent le laisse voir.",
           ],
         },
         {
           titre: "La ceinture",
           texte: [
-            "Sur une fluide sans taille marquée, une ceinture bijou dessine la taille là où vous le voulez. C'est aussi ce que la boutique conseille aux morphologies en H et en 8.",
+            "Sur une fluide sans taille marquée, une ceinture bijou dessine la taille là où vous le voulez. C'est aussi notre conseil pour les morphologies en H et en 8.",
           ],
         },
         {
           titre: "Les bijoux",
           texte: [
-            "Avec un corsage perlé — Agnessa, Hélène, Maribel —, des boucles d'oreilles suffisent. Avec une fluide minimaliste, comme Adularia, un bijou plus marqué peut porter toute la tenue. Avec les manches ballon de Ryle, gardez le cou dégagé.",
+            "Sur un corsage perlé — Agnessa, Hélène, Maribel —, des boucles d'oreilles suffisent. Avec une fluide minimaliste, comme Adularia, un bijou plus marqué peut porter toute la tenue. Avec les manches ballon de Ryle, gardez le cou dégagé.",
           ],
         },
       ],
@@ -1536,11 +1536,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-fluide-petite-mariee",
       q: "Une robe fluide convient-elle aux petites mariées ?",
-      r: "Oui, très bien : sans volume pour l'élargir, la fluide allonge la ligne. Un décolleté en V, une taille marquée un peu haut et une longueur réglée sur vos chaussures accentuent l'effet. Évitez seulement l'excès de tissu, qui peut prendre le dessus.",
+      r: "Oui, très bien : sans volume pour l'élargir, la fluide allonge la ligne. Un décolleté en V, une taille marquée un peu haut et une longueur réglée sur vos chaussures accentuent encore l'effet. Évitez seulement l'excès de tissu, qui peut prendre le dessus.",
       description:
         "Robe de mariée fluide pour une petite mariée : une ligne qui allonge, un décolleté en V, une longueur réglée au centimètre. Les conseils de MADAMOON, Paris.",
       chapo:
-        "La fluide est l'une des coupes les plus flatteuses pour une petite silhouette. Voici comment en tirer le meilleur.",
+        "La fluide est l'une des coupes les plus flatteuses pour une petite silhouette. Quelques détails en tirent le meilleur.",
       sections: [
         {
           titre: "Une ligne qui allonge",
@@ -1560,7 +1560,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La longueur",
           texte: [
-            "Un conseil : évitez les manches trop volumineuses et l'excès de tissu, et réglez la longueur sur vos chaussures. Après l'essayage, la boutique prend vos mensurations et ses couturières ajustent la robe sur place.",
+            "Évitez les manches trop volumineuses et l'excès de tissu, et réglez la longueur sur vos chaussures. Après l'essayage, nous prenons vos mensurations, et nos couturières ajustent la robe sur place.",
           ],
         },
       ],
@@ -1580,7 +1580,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "choisir-robe-fluide-selon-morphologie",
       q: "Comment choisir une robe fluide selon sa morphologie ?",
-      r: "En choisissant les détails plutôt que la coupe : le décolleté, la taille et les manches. Un V pour une morphologie en O ou en V, une taille marquée pour une morphologie en H ou en 8, un corsage travaillé pour une morphologie en A. La fluide fait le reste.",
+      r: "En jouant sur les détails plutôt que sur la coupe : le décolleté, la taille, les manches. Un V pour une morphologie en O ou en V, une taille marquée pour une morphologie en H ou en 8, un corsage travaillé pour une morphologie en A. La fluide fait le reste.",
       description:
         "Choisir une robe de mariée fluide selon sa morphologie : décolleté, taille, manches, matière. Les conseils pour O, A, V, H, 8 et X, et les fluides MADAMOON.",
       chapo:
@@ -1600,13 +1600,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La matière",
           texte: [
-            "Un conseil : la mousseline glisse sans marquer, le satin mat structure davantage, la charmeuse suit le corps de près et demande un ajustement précis.",
+            "À chaque matière son effet : la mousseline glisse sans marquer, le satin mat structure davantage, la charmeuse suit le corps de près et demande un ajustement précis.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "Presque toutes les fluides de la boutique sont indiquées, sur leurs fiches, pour toutes les morphologies. L'essayage montre laquelle est la vôtre.",
+            "Presque toutes les fluides de notre sélection conviennent à toutes les morphologies. C'est l'essayage qui vous montre laquelle est la vôtre.",
           ],
         },
       ],
@@ -1627,22 +1627,22 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "qu-est-ce-qu-une-robe-de-mariee-trapeze",
       q: "Qu'est-ce qu'une robe de mariée trapèze ou A-line ?",
-      r: "Une robe au buste ajusté, dont la jupe s'ouvre en A depuis la taille jusqu'au sol, comme la lettre. « Trapèze » en français, « A-line » en anglais : c'est la même coupe. La boutique la tient pour la plus universelle, juste et intemporelle.",
+      r: "Une robe au buste ajusté, dont la jupe s'ouvre en A de la taille jusqu'au sol, comme la lettre. « Trapèze » en français, « A-line » en anglais : c'est la même coupe. Nous la tenons pour la plus universelle, juste et intemporelle.",
       description:
         "Qu'est-ce qu'une robe de mariée trapèze ou A-line ? Un buste ajusté, une jupe qui s'ouvre en A. La coupe la plus universelle, et les trapèzes MADAMOON.",
       chapo:
-        "Juste et intemporelle : la trapèze est la coupe que la boutique dit la plus universelle. Voici ce qui la définit.",
+        "Juste et intemporelle, la trapèze est à nos yeux la coupe la plus universelle. Elle tient tout entière dans une lettre.",
       sections: [
         {
           titre: "Un A, de la taille au sol",
           texte: [
-            "Le buste est ajusté et la taille marquée ; de là, la jupe s'élargit progressivement, sans ampleur soudaine, jusqu'au sol. Elle suit les hanches au lieu de les épouser. C'est la ligne de la lettre A, d'où son nom anglais.",
+            "Le buste est ajusté, la taille marquée ; de là, la jupe s'élargit progressivement jusqu'au sol, sans ampleur soudaine. Elle suit les hanches au lieu de les épouser. C'est la ligne de la lettre A, d'où son nom anglais.",
           ],
         },
         {
           titre: "Ce qu'elle fait à la silhouette",
           texte: [
-            "Elle structure le buste et libère le reste. Sans volume excessif ni ajustement serré, elle équilibre la silhouette et se porte facilement une journée entière.",
+            "Elle structure le buste et libère le reste. Ni volume excessif ni ajustement serré : elle équilibre la silhouette, et se porte facilement une journée entière.",
           ],
         },
         {
@@ -1655,7 +1655,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       aRetenir: [
         "Un buste ajusté, une jupe qui s'ouvre en A.",
         "Trapèze et A-line : la même coupe.",
-        "La plus universelle du catalogue.",
+        "La plus universelle de nos coupes.",
       ],
       liens: [
         { href: "/coupes/trapeze", label: "Les robes trapèze" },
@@ -1672,27 +1672,27 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Robe trapèze ou princesse : laquelle choisir ? La trapèze s'ouvre en A et se porte facilement, la princesse assume le volume. Les conseils de MADAMOON, Paris.",
       chapo:
-        "Même buste ajusté, deux jupes différentes. Voici comment savoir laquelle vous ressemble.",
+        "Même buste ajusté, deux jupes différentes. Reste à savoir laquelle vous ressemble.",
       sections: [
         {
           titre: "Quand choisir la trapèze",
           texte: [],
           liste: [
             "Pour bouger librement — la jupe s'ouvre sans peser, de la cérémonie à la piste.",
-            "Pour un lieu plus intime — une mairie, un restaurant, une voiture : la trapèze y tient sans encombrer.",
-            "Pour une allure sobre — elle met le corsage en valeur sans que la jupe lui vole la vedette.",
+            "Pour un lieu plus intime — une mairie, un restaurant, une voiture : la trapèze y trouve sa place sans encombrer.",
+            "Pour une allure sobre — le corsage est mis en valeur, sans que la jupe lui vole la vedette.",
           ],
         },
         {
           titre: "Quand lui préférer la princesse",
           texte: [
-            "Pour une grande cérémonie, un lieu vaste et une silhouette de robe de bal : la princesse a un corset travaillé et un volume assumé que la trapèze n'a pas.",
+            "Pour une grande cérémonie, un lieu vaste, une silhouette de robe de bal : la princesse offre un corset travaillé et un volume assumé que la trapèze n'a pas.",
           ],
         },
         {
           titre: "Entre les deux",
           texte: [
-            "Plusieurs robes du catalogue se portent dans l'une ou l'autre : Sienna, Charlotte, Solana, Dolores, et Alicia et Lovia, décrites comme « trapèze ou volume princesse ». En cabine, on voit de quel côté elles penchent sur vous.",
+            "Plusieurs de nos robes se portent dans l'une ou l'autre coupe : Sienna, Charlotte, Solana, Dolores, ainsi qu'Alicia et Lovia, décrites comme « trapèze ou volume princesse ». En cabine, vous verrez de quel côté elles penchent sur vous.",
           ],
         },
       ],
@@ -1712,11 +1712,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-trapeze-quelle-morphologie",
       q: "À quelle morphologie la robe trapèze convient-elle ?",
-      r: "Elle fait partie des premières coupes à essayer pour les morphologies en O, en A, en 8 et en X. Pour une morphologie en V ou en H, elle vient en second, et vaut l'essai. Toutes les trapèzes du catalogue sont indiquées, sur leurs fiches, pour toutes les morphologies.",
+      r: "Elle fait partie des premières coupes à essayer pour les morphologies en O, en A, en 8 et en X. Pour une morphologie en V ou en H, elle vient en second, et mérite l'essai. Toutes les trapèzes de notre sélection conviennent à toutes les morphologies.",
       description:
         "Robe de mariée trapèze : à quelles morphologies convient-elle ? En premier pour O, A, 8 et X, à essayer pour V et H. Les conseils de la boutique MADAMOON.",
       chapo:
-        "La coupe la plus universelle porte bien son nom. Voici pour qui elle vient en premier.",
+        "La coupe la plus universelle porte bien son nom. Et pour certaines, elle vient en premier.",
       sections: [
         {
           titre: "Les morphologies pour qui elle vient en premier",
@@ -1730,13 +1730,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Celles pour qui elle vaut l'essai",
           texte: [
-            "En V, choisissez une jupe un peu plus ample et un décolleté en V ou des épaules dénudées, qui adoucissent la ligne des épaules. En H, un corset qui marque la taille, comme celui de Finell ou de Lovia, crée la courbe.",
+            "En V, choisissez une jupe un peu plus ample, avec un décolleté en V ou des épaules dénudées, qui adoucissent la ligne des épaules. En H, un corset qui marque la taille, comme celui de Finell ou de Lovia, dessine la courbe.",
           ],
         },
         {
           titre: "Au catalogue",
           texte: [
-            "Les trapèzes de la boutique sont indiquées, sur leurs fiches, pour toutes les morphologies : c'est la coupe la plus facile à porter. L'essayage choisit entre elles.",
+            "Nos trapèzes vont à toutes les morphologies : c'est la coupe la plus facile à porter. Reste à choisir entre elles, et c'est l'essayage qui s'en charge.",
           ],
         },
       ],
@@ -1756,7 +1756,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-trapeze-petite-taille",
       q: "La robe trapèze convient-elle à une petite taille ?",
-      r: "Oui, c'est l'une des coupes les plus faciles pour une petite silhouette : la ligne en A allonge sans élargir. Choisissez un volume mesuré, un décolleté en V ou une fente, et une longueur réglée sur vos chaussures. Une trapèze courte, comme River, est aussi une option.",
+      r: "Oui, c'est l'une des coupes les plus faciles pour une petite silhouette : la ligne en A allonge sans élargir. Choisissez un volume mesuré, un décolleté en V ou une fente, et une longueur réglée sur vos chaussures. Une trapèze courte, comme River, est une autre option.",
       description:
         "Robe de mariée trapèze pour une petite taille : une ligne en A qui allonge, un volume mesuré, un V ou une fente. Les conseils et trapèzes de MADAMOON, Paris.",
       chapo:
@@ -1780,7 +1780,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La longueur",
           texte: [
-            "Après l'essayage, la boutique prend vos mensurations pour lancer la confection, et ses couturières ajustent la robe sur place. Un conseil : venez avec les chaussures du jour J. Et River, d'Olya Mak, est une trapèze courte.",
+            "Après l'essayage, nous prenons vos mensurations pour lancer la confection, et nos couturières ajustent la robe sur place. Notre conseil : venez avec les chaussures du jour J. Quant à River, d'Olya Mak, c'est une trapèze courte.",
           ],
         },
       ],
@@ -1800,7 +1800,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-trapeze-ceremonie-civile",
       q: "Une robe trapèze est-elle adaptée à une cérémonie civile ?",
-      r: "Oui, c'est l'une des coupes les plus naturelles à la mairie : sobre, facile à porter, sans volume encombrant. Une trapèze épurée, une courte comme River, ou une robe à pièce amovible — la veste de Solana, les manches d'Aster — pour changer d'allure entre la mairie et la soirée.",
+      r: "Oui, c'est l'une des coupes les plus naturelles à la mairie : sobre, facile à porter, sans volume encombrant. Pensez à une trapèze épurée, à une courte comme River, ou à une robe à pièce amovible — la veste de Solana, les manches d'Aster — pour changer d'allure entre la mairie et la soirée.",
       description:
         "Robe de mariée trapèze pour une cérémonie civile : sobre, facile à porter, courte ou à pièce amovible. River, Solana, Aster, les trapèzes MADAMOON à Paris.",
       chapo:
@@ -1810,7 +1810,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           titre: "Les trapèzes de la mairie",
           texte: [],
           liste: [
-            "River — d'Olya Mak, courte, au décolleté carré ; sa fiche la dit parfaite pour un deuxième look, une réception ou une cérémonie moins conventionnelle.",
+            "River — d'Olya Mak, courte, au décolleté carré ; elle est parfaite pour un deuxième look, une réception ou une cérémonie moins conventionnelle.",
             "Fortune — un bustier en crêpe stretch et organza satin, à l'allure élégante et intemporelle.",
             "Monica — de Monica Loretti, en jacquard floral, avec une large ceinture et une fente.",
           ],
@@ -1818,7 +1818,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Deux allures en une",
           texte: [
-            "Solana, de Casablanca Bridal, a une veste asymétrique amovible ; Aster, de Watters Designs, des manches amovibles. Couvertes pour la mairie, plus dégagées pour la soirée.",
+            "Solana, de Casablanca Bridal, se porte avec une veste asymétrique amovible ; Aster, de Watters Designs, avec des manches amovibles. Couvertes pour la mairie, plus dégagées pour la soirée.",
           ],
         },
         {
@@ -1844,11 +1844,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "choisir-volume-robe-trapeze",
       q: "Comment choisir le volume d'une robe trapèze ?",
-      r: "Selon votre silhouette, le lieu et l'allure voulue. Le catalogue va d'une trapèze près du corps, en crêpe ou en satin, à une jupe de plusieurs couches de tulle presque princesse. La matière fait l'essentiel : le crêpe tombe, le tulle gonfle. Essayez deux volumes pour comparer.",
+      r: "Selon votre silhouette, le lieu et l'allure voulue. Notre sélection va d'une trapèze près du corps, en crêpe ou en satin, à une jupe de plusieurs couches de tulle, presque princesse. La matière fait l'essentiel : le crêpe tombe, le tulle gonfle. Essayez deux volumes pour comparer.",
       description:
         "Choisir le volume d'une robe de mariée trapèze : du crêpe près du corps au tulle presque princesse. Les conseils et trapèzes de MADAMOON à Paris.",
       chapo:
-        "La trapèze n'a pas un volume, elle en a plusieurs. Voici comment trouver le vôtre.",
+        "La trapèze n'a pas un volume, elle en a plusieurs. Reste à trouver le vôtre.",
       sections: [
         {
           titre: "Du plus sobre au plus ample",
@@ -1862,7 +1862,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Selon le lieu",
           texte: [
-            "Un conseil : un volume mesuré pour une mairie, un restaurant ou une journée chargée ; plus d'ampleur pour une grande salle ou une église. Pensez à toute la journée, pas seulement à l'entrée.",
+            "Nous vous conseillons un volume mesuré pour une mairie, un restaurant ou une journée chargée ; plus d'ampleur pour une grande salle ou une église. Pensez à toute la journée, pas seulement à votre entrée.",
           ],
         },
         {
@@ -1888,7 +1888,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-trapeze-minimaliste-moderne",
       q: "Une robe trapèze peut-elle être minimaliste et moderne ?",
-      r: "Oui. Dans une matière nette — crêpe, satin —, avec peu d'ornements et une ligne franche, la trapèze devient l'une des robes les plus modernes du catalogue. Fortune, Héra, Monica et River en sont les exemples.",
+      r: "Oui. Dans une matière nette — crêpe, satin —, avec peu d'ornements et une ligne franche, la trapèze devient l'une de nos robes les plus modernes. Fortune, Héra, Monica et River en sont les exemples.",
       description:
         "Robe de mariée trapèze minimaliste et moderne : crêpe, satin, ligne franche, peu d'ornements. Fortune, Héra, Monica et River, chez MADAMOON à Paris.",
       chapo:
@@ -1900,20 +1900,20 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
           liste: [
             "Fortune — un bustier en crêpe stretch et organza satin.",
             "Héra — en satin, au décolleté Bardot, avec une fente sur le devant qui lui donne une allure « résolument contemporaine ».",
-            "Monica — un jacquard floral, une large ceinture et une fente : la fiche parle d'une « la simplicité est sublimée par de beaux détails ».",
+            "Monica — un jacquard floral, une large ceinture et une fente : ici, « la simplicité est sublimée par de beaux détails ».",
             "River — d'Olya Mak, courte, à la silhouette « épurée et sculpturale ».",
           ],
         },
         {
           titre: "Ce qui la rend moderne",
           texte: [
-            "Un conseil : une matière lisse plutôt que des couches de tulle, un décolleté graphique — bustier droit, carré, Bardot —, une fente, et un seul détail fort. Nirali, « résolument moderne » d'après sa fiche, joue sur un décolleté droit bordé de fleurs faites main.",
+            "Choisissez une matière lisse plutôt que des couches de tulle, un décolleté graphique — bustier droit, carré, Bardot —, une fente, et un seul détail fort. Nirali, « résolument moderne », joue sur un décolleté droit bordé de fleurs faites main.",
           ],
         },
         {
           titre: "Moderne, pas froide",
           texte: [
-            "Une trapèze minimaliste repose sur la coupe et l'ajustement : c'est là que se voit la différence. À l'essayage, regardez-la de profil et en marchant.",
+            "Une trapèze minimaliste repose tout entière sur la coupe et l'ajustement : c'est là que se voit la différence. À l'essayage, regardez-la de profil et en marchant.",
           ],
         },
       ],
@@ -1954,13 +1954,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Selon la silhouette",
           texte: [
-            "Un conseil : le V allonge le buste et adoucit des épaules larges ; le cœur met la poitrine en valeur ; les épaules dénudées ou une encolure carrée élargissent joliment des épaules étroites.",
+            "Le V allonge le buste et adoucit des épaules larges ; le cœur met la poitrine en valeur ; les épaules dénudées, ou une encolure carrée, élargissent joliment des épaules étroites.",
           ],
         },
         {
           titre: "Plus couvrant",
           texte: [
-            "Pendant a des manches longues en dentelle, Aster des manches amovibles et un corsage drapé. Charlotte existe aussi sans le décolleté plongeant, d'après sa fiche, pour une version plus couvrante.",
+            "Pendant a des manches longues en dentelle ; Aster, des manches amovibles et un corsage drapé. Charlotte existe aussi sans le décolleté plongeant, pour une version plus couvrante.",
           ],
         },
       ],
@@ -1984,7 +1984,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Quelle matière pour une robe de mariée trapèze ? Dentelle, satin, tulle, crêpe ou jacquard. Les trapèzes MADAMOON — Aster, Finell, Carrie, Fortune — à Paris.",
       chapo:
-        "La coupe reste la même ; la matière change tout. Voici ce que chacune donne à une trapèze.",
+        "La coupe reste la même ; la matière change tout. Chacune donne à la trapèze son allure.",
       sections: [
         {
           titre: "Les matières du catalogue",
@@ -2030,7 +2030,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Robe de mariée trapèze et morphologie en O : un décolleté en V ou en cœur, un corsage qui tient, une matière qui tombe. Les conseils de MADAMOON, Paris.",
       chapo:
-        "La trapèze fait partie des coupes que la boutique conseille d'abord aux silhouettes en O. Voici quelles trapèzes regarder.",
+        "La trapèze fait partie des coupes que nous conseillons d'abord aux silhouettes en O. Encore faut-il savoir lesquelles regarder.",
       sections: [
         {
           titre: "Le décolleté",
@@ -2041,7 +2041,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le corsage et la jupe",
           texte: [
-            "Un corsage structuré tient le buste ; la jupe part en A dès la taille et laisse le reste libre. Un conseil : une matière qui tombe — satin, crêpe — glisse mieux qu'une jupe faite de plusieurs couches de tulle.",
+            "Un corsage structuré tient le buste ; la jupe part en A dès la taille et laisse le reste libre. Notre conseil : une matière qui tombe — satin, crêpe — glisse mieux qu'une jupe faite de plusieurs couches de tulle.",
           ],
         },
         {
@@ -2067,7 +2067,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "accessoiriser-robe-trapeze",
       q: "Comment accessoiriser une robe de mariée trapèze ?",
-      r: "En suivant le décolleté et le style de la robe. Une trapèze sobre accueille un voile long, une ceinture ou un bijou marqué ; une trapèze perlée ou pailletée se suffit presque. Certaines ont leurs propres pièces : la veste de Solana, les manches d'Aster, la ceinture de Monica.",
+      r: "En suivant le décolleté et le style de la robe. Une trapèze sobre accueille un voile long, une ceinture ou un bijou marqué ; une trapèze perlée ou pailletée se suffit presque. Certaines ont déjà leurs propres pièces : la veste de Solana, les manches d'Aster, la ceinture de Monica.",
       description:
         "Accessoiriser une robe de mariée trapèze : voile, ceinture, bijoux selon le décolleté. Les pièces des trapèzes MADAMOON — Solana, Aster, Monica — à Paris.",
       chapo:
@@ -2086,13 +2086,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le voile",
           texte: [
-            "Un conseil : accordez sa longueur à la traîne. Un voile long prolonge une traîne chapelle, comme celle de Finell, ou la longue traîne de Solana ; un voile court laisse voir un dos travaillé, comme le dos transparent à boutons de Dolores.",
+            "Accordez sa longueur à celle de la traîne. Un voile long prolonge une traîne chapelle, comme celle de Finell, ou la longue traîne de Solana ; un voile court laisse voir un dos travaillé, comme le dos transparent à boutons de Dolores.",
           ],
         },
         {
           titre: "Les bijoux",
           texte: [
-            "Avec un corsage perlé ou pailleté — Carrie, Emerald, Angel —, des boucles d'oreilles suffisent. Avec une trapèze sobre, comme Fortune, un collier ou des boucles plus marquées portent la tenue. Le bijou suit le décolleté : un pendentif pour un V, rien pour un bustier cœur.",
+            "Sur un corsage perlé ou pailleté — Carrie, Emerald, Angel —, des boucles d'oreilles suffisent. Avec une trapèze sobre, comme Fortune, un collier ou des boucles plus marquées portent la tenue. Le bijou suit le décolleté : un pendentif pour un V, rien pour un bustier cœur.",
           ],
         },
       ],
@@ -2118,7 +2118,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       description:
         "Coupe A-line ou évasée classique : l'évasée est une famille, l'A-line s'ouvre dès la taille en ligne droite. La différence expliquée par MADAMOON, Paris.",
       chapo:
-        "« Évasée » est un mot de famille ; « A-line » est un nom précis. Voici comment les situer.",
+        "« Évasée » est un mot de famille ; « A-line » est un nom précis. L'un contient l'autre.",
       sections: [
         {
           titre: "L'évasée, une famille",
@@ -2138,7 +2138,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Au catalogue",
           texte: [
-            "La fiche d'Aster parle d'une « silhouette A-line » à taille naturelle ; celle de Mitra, d'une robe « trapèze ou A-line » à taille basse : la taille basse fait partir l'évasement un peu plus bas, sans changer la ligne en A.",
+            "Aster se décrit comme une « silhouette A-line » à taille naturelle ; Mitra, comme une robe « trapèze ou A-line » à taille basse : la taille basse fait partir l'évasement un peu plus bas, sans changer la ligne en A.",
           ],
         },
       ],
@@ -2159,32 +2159,32 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "qu-est-ce-qu-une-robe-de-mariee-deux-en-un",
       q: "Qu'est-ce qu'une robe de mariée deux-en-un ?",
-      r: "Une robe, deux allures : une robe de base, et une surjupe, une jupe ou une traîne qui s'ajoute ou se détache. On passe ainsi d'une silhouette à une autre — d'une robe longue de cérémonie à une robe courte ou ajustée pour la soirée — sans changer de robe.",
+      r: "Une robe, deux allures : une robe de base, puis une surjupe, une jupe ou une traîne qui s'ajoute ou se détache. Vous passez ainsi d'une silhouette à l'autre — d'une robe longue de cérémonie à une robe courte ou ajustée pour la soirée — sans changer de robe.",
       description:
         "Qu'est-ce qu'une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une traîne qui se détache : deux allures, une robe. Les deux-en-un MADAMOON.",
       chapo:
-        "Deux allures, une robe : la deux-en-un change de silhouette en cours de journée. Voici ce qui la définit.",
+        "Deux allures, une robe : la deux-en-un change de silhouette au fil de la journée, par une pièce qui se détache.",
       sections: [
         {
           titre: "Une robe, et une pièce qui se détache",
           texte: [
-            "La robe de base se porte seule : courte, sirène, ajustée. Une surjupe, une jupe ou une traîne vient par-dessus pour la cérémonie, et se retire quand on le souhaite. Les deux allures sont pensées ensemble.",
+            "La robe de base se porte seule : courte, sirène ou ajustée. Par-dessus, une surjupe, une jupe ou une traîne l'habille pour la cérémonie, puis se retire quand vous le souhaitez. Les deux allures ont été pensées ensemble.",
           ],
         },
         {
           titre: "Les deux-en-un de la boutique",
           texte: [],
           liste: [
-            "Tessa — de Casablanca Bridal, une sirène au charme vintage-chic, avec une surjupe détachable et des bretelles amovibles.",
-            "Clover — de Casablanca Bridal, une robe courte brodée de fleurs de couleur, et une surjupe longue « à volonté ».",
-            "Gabriel — de Watters Designs, une robe courte délicatement perlée, avec une jupe transparente amovible.",
-            "Chastity — d'Olya Mak, en dentelle, à manches longues, col montant et longue traîne.",
+            "Tessa — une sirène de Casablanca Bridal au charme vintage-chic, avec sa surjupe détachable et ses bretelles amovibles.",
+            "Clover — une robe courte de Casablanca Bridal, brodée de fleurs de couleur, que complète une surjupe longue « à volonté ».",
+            "Gabriel — une robe courte de Watters Designs, délicatement perlée, sous une jupe transparente amovible.",
+            "Chastity — une robe d'Olya Mak en dentelle, à manches longues, col montant et longue traîne.",
           ],
         },
         {
           titre: "Et ailleurs au catalogue",
           texte: [
-            "Mira, de Monica Loretti, est rangée avec les sirènes, mais sa fiche la dit 2-en-1 : elle peut s'accompagner d'une jupe amovible volumineuse en tulle, qui la fait passer d'une sirène à une silhouette inspirée de la princesse.",
+            "Mira, de Monica Loretti, figure parmi nos sirènes, mais c'est aussi une 2-en-1 : elle peut s'accompagner d'une jupe amovible volumineuse en tulle, qui la fait passer d'une sirène à une silhouette inspirée de la princesse.",
           ],
         },
       ],
@@ -2204,30 +2204,30 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "comment-fonctionne-robe-deux-en-un",
       q: "Comment fonctionne une robe de mariée deux-en-un ?",
-      r: "Elle se compose d'une robe de base, qui se porte seule, et d'une pièce qui s'y ajoute : une surjupe, une jupe ou une traîne, attachée à la taille. On la porte pour la cérémonie, on la retire pour la soirée. Le système d'attache dépend de la robe et se montre à l'essayage.",
+      r: "Elle réunit une robe de base, qui se porte seule, et une pièce qui s'y ajoute : une surjupe, une jupe ou une traîne, attachée à la taille. Vous la portez pour la cérémonie, vous la retirez pour la soirée. Le système d'attache dépend de la robe : nous vous le montrons à l'essayage.",
       description:
         "Comment fonctionne une robe de mariée deux-en-un ? Une robe de base et une surjupe ou une jupe attachée à la taille, retirée pour la soirée. MADAMOON, Paris.",
       chapo:
-        "Une deux-en-un n'a rien de compliqué. Elle repose sur deux pièces pensées pour aller ensemble.",
+        "Rien de compliqué dans une deux-en-un : tout repose sur deux pièces, pensées pour aller ensemble.",
       sections: [
         {
           titre: "Deux pièces",
           texte: [],
           liste: [
             "La robe de base — elle se porte seule : courte comme Clover ou Gabriel, sirène comme Tessa ou Mira.",
-            "La pièce qui s'ajoute — une surjupe longue (Tessa, Clover), une jupe transparente (Gabriel), une jupe volumineuse en tulle (Mira).",
+            "La pièce qui s'ajoute — une surjupe longue pour Tessa et Clover, une jupe transparente pour Gabriel, une jupe volumineuse en tulle pour Mira.",
           ],
         },
         {
           titre: "Le moment du changement",
           texte: [
-            "Le plus souvent, la pièce longue se porte pour la cérémonie et les photographies, et se retire avant le dîner ou l'ouverture du bal. Un conseil : prévoyez une pièce où vous changer, et quelqu'un pour vous aider.",
+            "Le plus souvent, la pièce longue accompagne la cérémonie et les photographies, puis se retire avant le dîner ou l'ouverture du bal. Notre conseil : prévoyez une pièce où vous changer, et quelqu'un pour vous aider.",
           ],
         },
         {
           titre: "L'attache",
           texte: [
-            "La pièce se fixe à la taille ; le système varie selon la robe. À l'essayage, faites-vous montrer comment elle s'attache et se retire, et essayez de le faire vous-même.",
+            "La pièce se fixe à la taille ; le système varie d'une robe à l'autre. À l'essayage, demandez à voir comment elle s'attache et se retire, puis refaites le geste vous-même.",
           ],
         },
       ],
@@ -2249,7 +2249,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
       /* Le titre vise l'expression cherchée ; la question reste celle de la rangée. */
       titre: "Robe de mariée à surjupe",
       q: "Quelle différence entre une robe deux-en-un et une robe avec surjupe ?",
-      r: "La surjupe est l'une des façons de faire une deux-en-un : une jupe portée par-dessus la robe, qu'on retire. Mais une deux-en-un peut aussi reposer sur une jupe amovible ou une traîne qui se détache. Et une surjupe qui ne se retire pas n'offre qu'une seule allure.",
+      r: "La surjupe est l'une des façons de faire une deux-en-un : une jupe portée par-dessus la robe, que l'on retire. Une deux-en-un peut aussi reposer sur une jupe amovible ou sur une traîne qui se détache. Quant à la surjupe qui ne se retire pas, elle n'offre qu'une seule allure.",
       description:
         "Robe deux-en-un ou robe avec surjupe : la surjupe est l'une des façons de faire une deux-en-un, pas la seule. La différence expliquée par MADAMOON, Paris.",
       chapo:
@@ -2258,19 +2258,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "La surjupe, une pièce",
           texte: [
-            "Une jupe portée par-dessus la robe. Détachable, elle permet de changer d'allure : c'est le cas de Tessa et de Clover, dont la surjupe longue se retire.",
+            "Une jupe portée par-dessus la robe. Détachable, elle vous laisse changer d'allure : ainsi Tessa et Clover, dont la surjupe longue se retire.",
           ],
         },
         {
           titre: "La deux-en-un, une promesse",
           texte: [
-            "Une robe, deux allures. La surjupe en est le moyen le plus courant, mais pas le seul : Gabriel a une jupe transparente amovible, Mira une jupe volumineuse en tulle, et la boutique parle aussi de traînes qui se détachent.",
+            "Une robe, deux allures. La surjupe en est le moyen le plus courant, non le seul : Gabriel porte une jupe transparente amovible, Mira une jupe volumineuse en tulle, et l'on parle aussi de traînes qui se détachent.",
           ],
         },
         {
           titre: "Un conseil",
           texte: [
-            "Si vous voulez vraiment deux allures, vérifiez que la surjupe se retire et que la robe de base se suffit à elle-même. C'est en cabine qu'on le voit, en essayant les deux versions.",
+            "Si vous tenez à deux allures, assurez-vous que la surjupe se retire et que la robe de base se suffit à elle-même. Cela se voit en cabine, en essayant les deux versions.",
           ],
         },
       ],
@@ -2309,13 +2309,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Plus discrètement",
           texte: [
-            "D'autres robes changent d'allure par un détail : les manches amovibles de Riviera, que sa fiche dit faites pour « varier les styles », ou la veste amovible de Solana.",
+            "D'autres robes changent d'allure par un simple détail : les manches amovibles de Riviera, faites pour « varier les styles », ou la veste amovible de Solana.",
           ],
         },
         {
           titre: "Un conseil",
           texte: [
-            "Choisissez le moment du changement à l'avance — après la cérémonie, avant le dîner, à l'ouverture du bal — et prévenez votre photographe : les deux allures méritent leurs photographies.",
+            "Décidez à l'avance du moment du changement — après la cérémonie, avant le dîner, à l'ouverture du bal — et prévenez votre photographe : chacune des deux allures mérite ses photographies.",
           ],
         },
       ],
@@ -2335,7 +2335,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "choisir-robe-deux-en-un-ceremonie-soiree",
       q: "Comment choisir une robe deux-en-un pour la cérémonie et la soirée ?",
-      r: "En partant des deux moments. La version longue doit répondre à la cérémonie — solennité, lieu, épaules couvertes si besoin ; la robe de base, à la soirée — danser, circuler, se sentir libre. Essayez toujours les deux versions, et la transformation elle-même.",
+      r: "En partant des deux moments. La version longue répond à la cérémonie, à sa solennité, à son lieu, aux épaules couvertes s'il le faut ; la robe de base répond à la soirée, pour danser, circuler, vous sentir libre. Essayez toujours les deux versions, et la transformation elle-même.",
       description:
         "Choisir une robe de mariée deux-en-un pour la cérémonie et la soirée : une version longue pour l'une, une robe de base libre pour l'autre. Conseils MADAMOON.",
       chapo:
@@ -2344,19 +2344,19 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Pour la cérémonie",
           texte: [
-            "Un conseil : regardez la version longue comme une robe à part entière. Pour une cérémonie religieuse, des manches et un col couvrants, comme ceux de Chastity, en dentelle, à manches longues et col montant ; pour une mairie, une version plus légère suffit.",
+            "Notre conseil : regardez la version longue comme une robe à part entière. Pour une cérémonie religieuse, préférez des manches et un col couvrants, à l'image de Chastity, en dentelle, à manches longues et col montant ; pour une mairie, une version plus légère suffit.",
           ],
         },
         {
           titre: "Pour la soirée",
           texte: [
-            "La robe de base doit vous plaire seule : courte et florale comme Clover, courte et perlée comme Gabriel, sirène comme Tessa ou Mira, dont la fente haute apporte du mouvement.",
+            "La robe de base doit vous plaire à elle seule : courte et florale comme Clover, courte et perlée comme Gabriel, sirène comme Tessa ou comme Mira, dont la fente haute apporte du mouvement.",
           ],
         },
         {
           titre: "À l'essayage",
           texte: [
-            "Essayez les deux versions, marchez et asseyez-vous dans chacune, et faites la transformation en cabine. Une deux-en-un réussie, c'est deux robes que vous aimez autant.",
+            "Essayez les deux versions, marchez, asseyez-vous dans chacune, puis faites la transformation en cabine. Une deux-en-un réussie, ce sont deux robes que vous aimez autant l'une que l'autre.",
           ],
         },
       ],
@@ -2376,22 +2376,22 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-deux-en-un-confortable-danser",
       q: "Une robe deux-en-un est-elle confortable pour danser ?",
-      r: "Oui, c'est souvent la plus confortable pour la soirée : on retire la surjupe ou la jupe, et il reste une robe courte ou ajustée, bien plus libre. Encore faut-il que la robe de base soit elle-même confortable : c'est à vérifier à l'essayage, en bougeant.",
+      r: "Oui, c'est souvent la plus confortable pour la soirée : vous retirez la surjupe ou la jupe, et il reste une robe courte ou ajustée, bien plus libre. Encore faut-il que la robe de base soit elle-même confortable : cela se vérifie à l'essayage, en bougeant.",
       description:
         "Robe de mariée deux-en-un et danse : la surjupe se retire, il reste une robe courte ou ajustée, plus libre. Les conseils et deux-en-un de MADAMOON, Paris.",
       chapo:
-        "La soirée est le moment où la deux-en-un donne tout son sens.",
+        "C'est à la soirée que la deux-en-un prend tout son sens.",
       sections: [
         {
           titre: "Une robe allégée",
           texte: [
-            "Sans sa pièce longue, la robe ne pèse plus et ne traîne plus. Clover et Gabriel deviennent des robes courtes ; Tessa et Mira, des sirènes, Mira avec une fente haute qui, d'après sa fiche, apporte du mouvement.",
+            "Sans sa pièce longue, la robe ne pèse plus, ne traîne plus. Clover et Gabriel deviennent des robes courtes ; Tessa et Mira, des sirènes — Mira avec une fente haute qui lui apporte du mouvement.",
           ],
         },
         {
           titre: "La robe de base",
           texte: [
-            "Un conseil : c'est elle que vous porterez le plus longtemps. Vérifiez qu'elle vous laisse lever les bras, vous asseoir et marcher vite. Tessa, par exemple, a un corset structuré.",
+            "Un conseil : c'est elle que vous porterez le plus longtemps. Assurez-vous qu'elle vous laisse lever les bras, vous asseoir, marcher vite. Tessa, par exemple, a un corset structuré.",
           ],
         },
         {
@@ -2417,11 +2417,11 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "elements-amovibles-robe-de-mariee",
       q: "Quels éléments peuvent être amovibles sur une robe de mariée ?",
-      r: "La surjupe, la jupe ou la traîne, pour changer de silhouette ; mais aussi les manches, les bretelles, une veste, une cape, et certains ornements. Au catalogue, Riviera a des manches amovibles, Solana une veste, Oksana des chaînes de perles, Tessa et Ariel des bretelles.",
+      r: "La surjupe, la jupe ou la traîne, pour changer de silhouette ; mais aussi les manches, les bretelles, une veste, une cape, et certains ornements. Chez nous, Riviera a des manches amovibles, Solana une veste, Oksana des chaînes de perles, Tessa et Ariel des bretelles.",
       description:
         "Quels éléments amovibles sur une robe de mariée ? Surjupe, jupe, traîne, manches, bretelles, veste, ornements. Les pièces amovibles des robes MADAMOON, Paris.",
       chapo:
-        "Une robe peut changer par une grande pièce ou par un détail. Voici ce qui se retire, robe par robe.",
+        "Une robe peut changer par une grande pièce ou par un détail. Ce qui se retire, robe par robe.",
       sections: [
         {
           titre: "Ce qui change la silhouette",
@@ -2444,7 +2444,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Un conseil",
           texte: [
-            "Une pièce amovible n'a d'intérêt que si la robe est belle avec et sans. Essayez les deux versions en cabine.",
+            "Une pièce amovible n'a de sens que si la robe est belle avec elle, et belle sans. Essayez les deux versions en cabine.",
           ],
         },
       ],
@@ -2464,7 +2464,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "transformation-robe-deux-en-un-facile",
       q: "Comment s'assurer que la transformation de la robe est facile ?",
-      r: "En la faisant en cabine, avant de choisir. Faites-vous montrer l'attache, retirez puis remettez la pièce vous-même, chronométrez-vous, et venez avec la personne qui vous aidera le jour J. Prévoyez aussi une housse pour ranger la pièce retirée.",
+      r: "En la faisant en cabine, avant de choisir. Demandez à voir l'attache, retirez puis remettez la pièce vous-même, chronométrez-vous, et venez avec la personne qui vous aidera le jour J. Prévoyez aussi une housse pour ranger la pièce retirée.",
       description:
         "Une transformation facile pour une robe de mariée deux-en-un : l'essayer en cabine, la chronométrer, préparer qui aidera et où ranger la surjupe. MADAMOON.",
       chapo:
@@ -2482,13 +2482,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Le jour J",
           texte: [
-            "Un conseil : choisissez la personne qui vous aidera et faites-la venir à un essayage. Prévoyez un endroit calme pour vous changer, et une housse ou un cintre pour la pièce retirée.",
+            "Choisissez dès maintenant la personne qui vous aidera, et faites-la venir à un essayage. Prévoyez un endroit calme pour vous changer, et une housse ou un cintre pour la pièce retirée.",
           ],
         },
         {
           titre: "Aux retouches",
           texte: [
-            "La robe et sa pièce s'ajustent ensemble. Les couturières de la boutique ajustent la robe sur place : c'est le moment de vérifier une dernière fois que la transformation se fait sans effort.",
+            "La robe et sa pièce s'ajustent ensemble. Nos couturières ajustent la robe sur place : c'est le moment de vérifier, une dernière fois, que la transformation se fait sans effort.",
           ],
         },
       ],
@@ -2508,7 +2508,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-deux-en-un-quelle-morphologie",
       q: "Quelle morphologie peut porter une robe deux-en-un ?",
-      r: "Toutes, à condition de regarder les deux versions : une deux-en-un a la ligne de sa robe de base. La boutique la conseille en premier aux morphologies en 8 et en X, en second aux morphologies en A et en V. Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour toutes les morphologies.",
+      r: "Toutes, à condition de regarder les deux versions : une deux-en-un a la ligne de sa robe de base. Nous la conseillons en premier aux morphologies en 8 et en X, en second aux morphologies en A et en V. Clover, Gabriel et Chastity, elles, conviennent à toutes les morphologies.",
       description:
         "Robe de mariée deux-en-un : quelles morphologies ? En premier pour 8 et X, à essayer pour A et V ; Clover, Gabriel et Chastity pour toutes. Conseils MADAMOON.",
       chapo:
@@ -2525,7 +2525,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Robe par robe",
           texte: [
-            "Clover, Gabriel et Chastity sont indiquées, sur leurs fiches, pour toutes les morphologies. Tessa, qui est une sirène, l'est pour les morphologies en V, en H, en 8 et en X — comme Mira.",
+            "Clover, Gabriel et Chastity conviennent à toutes les morphologies. Tessa, qui est une sirène, se destine plutôt aux morphologies en V, en H, en 8 et en X — tout comme Mira.",
           ],
         },
         {
@@ -2560,7 +2560,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Ce qui reste",
           texte: [
-            "Un conseil : des bijoux qui vont aux deux versions — des boucles d'oreilles, un bracelet — pour que la mariée reste la même d'un look à l'autre.",
+            "Notre conseil : des bijoux qui vont aux deux versions — des boucles d'oreilles, un bracelet — pour que vous restiez la même d'un look à l'autre.",
           ],
         },
         {
@@ -2592,7 +2592,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
     {
       slug: "robe-courte-surjupe-mariage-civil",
       q: "Une robe courte avec surjupe convient-elle à un mariage civil ?",
-      r: "Oui, c'est même l'une des plus pratiques. Courte, elle a toute sa place à la mairie ; avec sa surjupe, elle devient longue pour une cérémonie religieuse ou une réception. Clover et Gabriel sont des robes courtes de ce genre.",
+      r: "Oui, c'est même l'une des plus pratiques. Courte, elle a toute sa place à la mairie ; avec sa surjupe, elle devient longue pour une cérémonie religieuse ou une réception. Clover et Gabriel sont de ces robes courtes.",
       description:
         "Robe de mariée courte avec surjupe pour un mariage civil : courte à la mairie, longue pour la réception. Clover et Gabriel, les deux-en-un MADAMOON à Paris.",
       chapo:
@@ -2609,13 +2609,13 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "Deux façons de la porter",
           texte: [
-            "Un conseil : courte pour la mairie et longue pour la réception, ou l'inverse — longue pour la cérémonie, courte pour danser. Si les deux ont lieu à des jours différents, elle sert aux deux.",
+            "Notre conseil : courte pour la mairie et longue pour la réception, ou l'inverse — longue pour la cérémonie, courte pour danser. Et si les deux ont lieu à des jours différents, elle sert à l'une comme à l'autre.",
           ],
         },
         {
           titre: "D'autres robes courtes",
           texte: [
-            "Pour une robe courte seule, sans surjupe : Elin, d'Olya Mak, pensée pour un mariage civil, et River, une trapèze courte de la même maison.",
+            "Si vous préférez une robe courte seule, sans surjupe : Elin, d'Olya Mak, pensée pour un mariage civil, et River, une trapèze courte de la même maison.",
           ],
         },
       ],
@@ -2660,7 +2660,7 @@ export const QUESTIONS_COUPES: Record<string, QuestionCoupe[]> = {
         {
           titre: "À quoi penser",
           texte: [
-            "Un conseil : les deux versions doivent vous plaire autant, et la transformation doit être simple. C'est ce que montre l'essayage.",
+            "Les deux versions doivent vous plaire autant l'une que l'autre, et la transformation rester simple. C'est l'essayage qui vous le montre.",
           ],
         },
       ],

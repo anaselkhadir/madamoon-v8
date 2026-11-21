@@ -99,13 +99,13 @@ export const ARTICLES: Article[] = [
     description:
       "Robe de mariée : prévoyez votre essayage huit à neuf mois avant le mariage. Pourquoi ce délai, et que faire s'il vous reste moins de temps.",
     chapo:
-      "Huit à neuf mois avant la date : c'est le moment que la boutique conseille pour un premier essayage. Voici ce que ce délai recouvre, et comment faire si votre mariage est plus proche.",
+      "Huit à neuf mois avant la date : c'est le moment que nous vous conseillons pour un premier essayage. Ce délai a ses raisons — et il reste des façons de faire si votre mariage est plus proche.",
     sections: [
       {
         titre: "Pourquoi huit à neuf mois",
         texte: [
-          "Chez MADAMOON, une robe ne se décroche pas d'un portant. Une fois choisie, elle est confectionnée à l'atelier selon vos mensurations, puis essayée et ajustée sur place par les couturières de la boutique.",
-          "Chacune de ces étapes a besoin de son temps : le choix, la confection, le deuxième essayage, les retouches, l'essayage final. Commencer tôt, c'est laisser à chacune la place qu'elle demande — et arriver aux dernières semaines sans courir.",
+          "Chez MADAMOON, une robe ne se décroche pas d'un portant. Une fois choisie, elle est confectionnée à l'atelier selon vos mensurations, puis essayée et ajustée sur place par nos couturières.",
+          "Chaque étape demande son temps : le choix, la confection, le deuxième essayage, les retouches, l'essayage final. Commencer tôt, c'est accorder à chacune la place qui lui revient — et aborder les dernières semaines sans courir.",
         ],
       },
       {
@@ -114,24 +114,24 @@ export const ARTICLES: Article[] = [
         ordonnee: true,
         liste: [
           "le premier essayage, au showroom privatisé pour vous ;",
-          "la prise de mensurations, le jour même où vous choisissez ;",
+          "la prise de vos mensurations, le jour même de votre choix ;",
           "la confection de votre robe à l'atelier ;",
-          "un deuxième essayage quand elle est prête ;",
-          "les retouches, faites sur place par nos couturières ;",
+          "un deuxième essayage, dès qu'elle est prête ;",
+          "les retouches, réalisées sur place par nos couturières ;",
           "l'essayage final, puis le retrait.",
         ],
       },
       {
         titre: "S'il vous reste moins de temps",
         texte: [
-          "Pas de panique. Dites-le dès la prise de rendez-vous, en précisant la date du mariage : la boutique trouve presque toujours une solution.",
-          "Un conseil, dans ce cas : arrivez avec une idée des coupes qui vous attirent. Le catalogue et les pages consacrées aux coupes et aux morphologies sont faits pour cela — l'essayage n'en sera que plus efficace.",
+          "Rien d'alarmant. Dites-le-nous dès la prise de rendez-vous, en précisant la date du mariage : nous trouvons presque toujours une solution.",
+          "Un conseil, dans ce cas : arrivez avec une idée des coupes qui vous attirent. Notre sélection et les pages consacrées aux coupes et aux morphologies sont là pour cela — l'essayage n'en sera que plus efficace.",
         ],
       },
       {
         titre: "Préparer ce premier rendez-vous",
         texte: [
-          "Parcourez les robes en ligne et gardez celles qui vous arrêtent dans vos coups de cœur. Si vous hésitez sur la coupe, Élise, la conseillère du site, part de votre morphologie et vous oriente en quelques questions.",
+          "Parcourez les robes en ligne et gardez dans vos coups de cœur celles qui retiennent votre regard. Si vous hésitez sur la coupe, Élise, la conseillère du site, part de votre morphologie et vous oriente en quelques questions.",
         ],
       },
     ],
@@ -153,33 +153,33 @@ export const ARTICLES: Article[] = [
     description:
       "Essayage de robe de mariée chez MADAMOON : le showroom privatisé une heure, vos proches avec vous, sans maquillage. Gratuit, sur rendez-vous, Paris 10e.",
     chapo:
-      "Une heure, un showroom rien que pour vous, vos proches autour de vous : l'essayage chez MADAMOON est un rendez-vous privé. Voici comment il se déroule.",
+      "Une heure, un showroom rien que pour vous, vos proches à vos côtés : l'essayage chez MADAMOON est un rendez-vous privé, dont nous vous racontons ici le déroulement.",
     sections: [
       {
         titre: "Un showroom privatisé pour vous",
         texte: [
-          "Dès que vous avez réservé, le showroom est privatisé pour vous pendant une heure. Pas d'autre cliente, pas d'attente entre deux cabines : l'heure est à vous, et à vous seule.",
-          "Le lieu fait partie du moment — un écrin du XIXᵉ siècle, rue du Faubourg Saint-Martin, pensé pour que l'essayage soit une expérience à partager, et non une course.",
+          "Une fois votre rendez-vous réservé, le showroom est privatisé pour vous pendant une heure. Aucune autre cliente, aucune attente entre deux cabines : cette heure est à vous, et à vous seule.",
+          "Le lieu fait partie du moment — un cadre du XIXᵉ siècle, rue du Faubourg Saint-Martin, pensé pour que l'essayage reste une expérience à partager, et non une course.",
         ],
       },
       {
         titre: "Comment se passe l'heure",
         texte: [
-          "Le rendez-vous commence par une conversation. Avant de vous faire essayer quoi que ce soit, la boutique cherche à comprendre qui vous êtes, ce que vous aimez et ce que vous voulez transmettre le jour de votre mariage.",
-          "Viennent ensuite les conseils — la coupe, la silhouette, la matière — puis les essayages. L'idée n'est pas d'enchaîner les robes, mais de vous mener jusqu'à celle dans laquelle vous vous reconnaissez.",
+          "Le rendez-vous commence par une conversation. Avant le moindre essayage, nous cherchons à comprendre qui vous êtes, ce que vous aimez et ce que vous souhaitez transmettre le jour de votre mariage.",
+          "Viennent ensuite les conseils — la coupe, la silhouette, la matière — puis les essayages. Il ne s'agit pas d'enchaîner les robes, mais de vous conduire jusqu'à celle dans laquelle vous vous reconnaissez.",
         ],
       },
       {
         titre: "Venir sans maquillage",
         texte: [
-          "Pour préserver les robes, la boutique vous demande de venir sans maquillage : le fond de teint et le rouge à lèvres marquent la dentelle et le satin, et ces robes sont essayées par d'autres mariées après vous. Nous sommes certaines que vous êtes belle au naturel.",
+          "Pour préserver les robes, nous vous demandons de venir sans maquillage : le fond de teint et le rouge à lèvres marquent la dentelle et le satin, et ces robes seront essayées par d'autres mariées après vous. Nous en sommes certaines : vous êtes belle au naturel.",
           "Un conseil pratique : une lingerie simple, de couleur chair, vous aidera à juger le tombé de chaque robe.",
         ],
       },
       {
         titre: "Préparer votre visite",
         texte: [
-          "Si des modèles vous ont plu sur le site, dites-le au moment de réserver : ils seront préparés pour votre venue. Vos coups de cœur se gardent en ligne, d'un clic sur le cœur de chaque robe.",
+          "Si des modèles vous ont plu sur le site, dites-le-nous au moment de réserver : ils vous attendront, préparés pour votre venue. Vos coups de cœur se gardent en ligne, d'un clic sur le cœur de chaque robe.",
           "L'essayage est gratuit, et il a lieu sur rendez-vous uniquement.",
         ],
       },
@@ -203,7 +203,7 @@ export const ARTICLES: Article[] = [
     description:
       "Robe de mariée sur mesure : essayage, mensurations, confection à l'atelier, essayages, retouches incluses, retrait. Les étapes chez MADAMOON, Paris 10e.",
     chapo:
-      "Du premier essayage au retrait, une robe sur mesure passe par huit temps. Les voici dans l'ordre, avec ce qui se passe à chacun.",
+      "Du premier essayage au retrait, une robe sur mesure passe par huit temps. Nous les reprenons dans l'ordre, avec ce qui se joue à chacun.",
     sections: [
       {
         titre: "Les huit temps de votre robe",
@@ -212,9 +212,9 @@ export const ARTICLES: Article[] = [
         liste: [
           "Le rendez-vous — vous réservez votre premier essayage, idéalement huit à neuf mois avant le mariage.",
           "L'essayage privé — une heure au showroom, privatisé pour vous et vos proches.",
-          "Les mensurations — une fois votre choix fait, elles sont prises le jour même, pour lancer la confection.",
+          "Les mensurations — votre choix arrêté, elles sont prises le jour même, pour lancer la confection.",
           "La confection — votre robe est réalisée à l'atelier, à vos mesures : matières nobles, finitions à la main.",
-          "Le deuxième essayage — quand votre robe est prête, vous venez l'essayer en boutique.",
+          "Le deuxième essayage — dès que votre robe est prête, vous venez l'essayer en boutique.",
           "Les retouches — s'il faut ajuster, nos couturières s'en chargent, sur place.",
           "L'essayage final — il valide le tombé, la longueur, l'aisance.",
           "Le retrait — vous repartez avec votre robe, parfaitement ajustée.",
@@ -223,14 +223,14 @@ export const ARTICLES: Article[] = [
       {
         titre: "Sur mesure ou semi-mesure",
         texte: [
-          "La plupart des robes de la boutique sont confectionnées sur mesure, à partir de vos mensurations.",
-          "Les robes Watters Designs sont en semi-mesure : la robe est réalisée sur un patron de la maison, puis ajustée à votre silhouette. Chaque fiche du site indique de quelle façon la robe est confectionnée. Dans les deux cas, les retouches sont incluses.",
+          "La plupart des robes de notre boutique sont confectionnées sur mesure, à partir de vos mensurations.",
+          "Les robes Watters Designs sont en semi-mesure : la robe est réalisée sur un patron de la maison, puis ajustée à votre silhouette. Chaque fiche du site précise la façon dont la robe est confectionnée. Dans les deux cas, les retouches sont incluses.",
         ],
       },
       {
         titre: "Les retouches, comprises",
         texte: [
-          "Les retouches font partie de la confection : elles ne s'ajoutent pas au prix. Elles sont faites sur place, par les couturières de la boutique, qui ajustent votre robe jusqu'au dernier essayage.",
+          "Les retouches font partie de la confection : elles ne s'ajoutent pas au prix. Elles sont réalisées sur place par les couturières de la boutique, qui ajustent votre robe jusqu'au dernier essayage.",
         ],
       },
       {
@@ -259,30 +259,30 @@ export const ARTICLES: Article[] = [
     description:
       "Paiement d'une robe de mariée chez MADAMOON : un acompte le jour des mensurations, le solde le jour des retouches. Les retouches sont incluses.",
     chapo:
-      "Deux versements, à deux moments précis du parcours : un acompte quand la confection commence, le solde quand votre robe est ajustée.",
+      "Deux versements, à deux moments précis du parcours : un acompte lorsque la confection commence, le solde lorsque votre robe est ajustée.",
     sections: [
       {
         titre: "L'acompte, le jour des mensurations",
         texte: [
-          "Une fois votre robe choisie, la boutique prend vos mensurations le jour même. C'est ce jour-là que l'acompte est versé : il lance la confection de votre robe à l'atelier, à vos mesures.",
+          "Une fois votre robe choisie, nous prenons vos mensurations le jour même. C'est ce jour-là que vous versez l'acompte : il lance la confection de votre robe à l'atelier, à vos mesures.",
         ],
       },
       {
         titre: "Le solde, le jour des retouches",
         texte: [
-          "Quand votre robe est prête, vous venez l'essayer en boutique. S'il faut l'ajuster, un rendez-vous de retouches est prévu avec l'une des couturières, sur place. Le solde est réglé ce jour-là.",
+          "Lorsque votre robe est prête, vous venez l'essayer en boutique. S'il faut l'ajuster, nous prévoyons un rendez-vous de retouches avec l'une des couturières, sur place. Le solde se règle ce jour-là.",
         ],
       },
       {
         titre: "Ce que comprend le prix",
         texte: [
-          "Le prix d'une robe sur mesure comprend sa confection et ses retouches : les ajustements faits par nos couturières ne s'ajoutent pas à la facture. Les accessoires vendus séparément — un voile, des gants — se règlent à part.",
+          "Le prix d'une robe sur mesure comprend sa confection et ses retouches : les ajustements réalisés par nos couturières ne s'ajoutent pas à la facture. Les accessoires vendus séparément — un voile, des gants — se règlent à part.",
         ],
       },
       {
         titre: "Les détails, avec la boutique",
         texte: [
-          "Le montant de l'acompte et les moyens de paiement se précisent avec la boutique, au moment où vous choisissez votre robe. N'hésitez pas à poser la question lors de votre rendez-vous, ou à appeler le showroom avant.",
+          "Le montant de l'acompte et les moyens de paiement se précisent avec nous, au moment où vous choisissez votre robe. Posez-nous la question lors de votre rendez-vous, ou appelez le showroom avant de venir.",
         ],
       },
     ],
@@ -303,31 +303,31 @@ export const ARTICLES: Article[] = [
     description:
       "Prix d'une robe de mariée sur mesure chez MADAMOON : à partir de 1 500 €, retouches comprises. Ce qui fait varier le prix, et comment le connaître.",
     chapo:
-      "Une robe de mariée sur mesure chez MADAMOON commence à 1 500 €, retouches comprises. Voici ce que recouvre ce prix, et pourquoi il varie d'une robe à l'autre.",
+      "Une robe de mariée sur mesure chez MADAMOON commence à 1 500 €, retouches comprises. Nous vous disons ce qu'il recouvre, et pourquoi il varie d'une robe à l'autre.",
     sections: [
       {
         titre: "À partir de 1 500 €",
         texte: [
-          "C'est le prix de départ d'une robe confectionnée sur mesure à la boutique. Il comprend la confection à l'atelier, selon vos mensurations, et les retouches faites sur place par nos couturières jusqu'au dernier essayage.",
+          "C'est le prix de départ d'une robe confectionnée sur mesure à la boutique. Il comprend la confection à l'atelier, selon vos mensurations, et les retouches réalisées sur place par nos couturières jusqu'au dernier essayage.",
         ],
       },
       {
         titre: "Ce qui fait varier le prix",
         texte: [
-          "D'une robe à l'autre, le prix dépend d'abord du modèle et de la maison qui l'a dessiné, puis de ce qui le compose : la matière — satin, crêpe, tulle, dentelle de Chantilly —, la densité des broderies, l'ampleur de la jupe, la longueur de la traîne.",
-          "Certaines robes s'accompagnent de pièces vendues séparément, comme un voile ou des gants. Elles se choisissent à part, et ne sont pas comprises dans le prix de la robe.",
+          "D'une robe à l'autre, le prix tient d'abord au modèle et à la maison qui l'a dessiné, puis à ce qui le compose : la matière — satin, crêpe, tulle, dentelle de Chantilly —, la densité des broderies, l'ampleur de la jupe, la longueur de la traîne.",
+          "Certaines robes s'accompagnent de pièces vendues séparément, comme un voile ou des gants. Elles se choisissent à part et n'entrent pas dans le prix de la robe.",
         ],
       },
       {
         titre: "Une robe sur mesure n'a pas d'étiquette",
         texte: [
-          "Son prix se précise avec vous, selon le modèle et ce que vous en faites. La boutique préfère en parler de vive voix, robe par robe, plutôt que d'annoncer un chiffre qui ne correspondrait pas à la vôtre.",
+          "Son prix se précise avec vous, selon le modèle et ce que vous en faites. Nous préférons en parler de vive voix, robe par robe, plutôt que d'annoncer un chiffre qui ne serait pas celui de la vôtre.",
         ],
       },
       {
         titre: "Connaître le prix d'un modèle",
         texte: [
-          "Contactez directement la boutique en lui indiquant les modèles qui vous intéressent, ou demandez-le pendant votre essayage. Vous pouvez garder ces modèles dans vos coups de cœur, sur le site, pour les retrouver facilement.",
+          "Contactez directement la boutique en nous indiquant les modèles qui vous intéressent, ou posez la question pendant votre essayage. Sur le site, gardez ces modèles dans vos coups de cœur : vous les retrouverez facilement.",
         ],
       },
     ],
@@ -350,26 +350,26 @@ export const ARTICLES: Article[] = [
     description:
       "Venir accompagnée à son essayage de robe de mariée : oui, et c'est conseillé. Le showroom MADAMOON est privatisé pour vous et vos proches. Paris 10e.",
     chapo:
-      "Oui — et c'est même conseillé. Le showroom est privatisé pour vous : votre famille et vos amies sont les bienvenues pendant toute la durée de l'essayage.",
+      "Oui — et nous vous le conseillons même. Le showroom est privatisé pour vous : votre famille et vos amies sont les bienvenues tout au long de l'essayage.",
     sections: [
       {
         titre: "Un moment à partager",
         texte: [
-          "Choisir sa robe de mariée se vit rarement seule. Parce que le showroom est privatisé pour vous pendant une heure, vos proches ne sont pas des spectatrices debout dans une allée : elles sont chez vous, le temps de l'essayage.",
-          "La boutique l'a voulu ainsi — un cadre pensé pour faire de l'essayage une expérience à partager avec les personnes qui comptent.",
+          "Choisir sa robe de mariée se vit rarement seule. Le showroom étant privatisé pour vous pendant une heure, vos proches ne restent pas spectatrices, debout dans une allée : elles sont chez vous, le temps de l'essayage.",
+          "Nous l'avons voulu ainsi — un cadre pensé pour faire de l'essayage une expérience à partager avec les personnes qui comptent pour vous.",
         ],
       },
       {
         titre: "Qui emmener",
         texte: [
-          "Un conseil : venez avec celles dont l'avis compte vraiment pour vous, et dont le regard vous aide à voir clair. Une mère, une sœur, une amie qui vous connaît bien.",
-          "Si vous venez à plusieurs, précisez-le au moment de réserver : la boutique pourra préparer votre venue.",
+          "Un conseil : entourez-vous de celles dont l'avis compte vraiment pour vous, et dont le regard vous aide à voir clair. Une mère, une sœur, une amie qui vous connaît bien.",
+          "Si vous venez à plusieurs, précisez-le au moment de réserver : nous pourrons ainsi préparer votre venue.",
         ],
       },
       {
         titre: "Votre regard d'abord",
         texte: [
-          "Les avis de vos proches sont précieux, mais c'est vous qui porterez la robe. La conseillère est là pour vous aider à faire la part des choses — et à reconnaître la robe dans laquelle vous vous sentez vous-même.",
+          "L'avis de vos proches est précieux, mais c'est vous qui porterez la robe. La conseillère est là pour vous aider à faire la part des choses — et à reconnaître celle dans laquelle vous vous sentez vous-même.",
         ],
       },
     ],
@@ -393,7 +393,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "L'adresse",
         texte: [
-          `${ADRESSE}, dans le 10ᵉ arrondissement. Le showroom occupe un élégant écrin du XIXᵉ siècle : un cadre hors du temps, pensé pour l'essayage d'une robe de mariée.`,
+          `${ADRESSE}, dans le 10ᵉ arrondissement. Le showroom s'inscrit dans un élégant décor du XIXᵉ siècle : un cadre hors du temps, pensé pour l'essayage d'une robe de mariée.`,
         ],
       },
       {
@@ -404,7 +404,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Pourquoi sur rendez-vous",
         texte: [
-          "Parce que le showroom est privatisé pour chaque mariée, pendant une heure. Un rendez-vous, c'est la garantie d'avoir le lieu, les robes et l'attention de la boutique pour vous seule — sans attente, et sans croiser une autre cliente en cabine.",
+          "Parce que le showroom est privatisé pour chaque mariée, pendant une heure. Un rendez-vous, c'est la garantie d'avoir le lieu, les robes et toute notre attention pour vous seule — sans attente, et sans croiser une autre cliente en cabine.",
         ],
       },
       {
@@ -431,7 +431,7 @@ export const ARTICLES: Article[] = [
     description:
       "Robe de mariée et morphologie : quelles coupes pour une silhouette en O, A, V, H, 8 ou X. Les conseils de la boutique MADAMOON, Paris 10e.",
     chapo:
-      "Il n'y a pas de robe interdite : il y a des coupes qui servent mieux certaines silhouettes. Voici les pistes que la boutique donne, morphologie par morphologie.",
+      "Il n'y a pas de robe interdite : il y a des coupes qui servent mieux certaines silhouettes. Nous vous donnons ici nos pistes, morphologie par morphologie.",
     sections: [
       {
         titre: "Une silhouette, un point de départ",
@@ -442,20 +442,20 @@ export const ARTICLES: Article[] = [
           "En V — des épaules larges : les coupes fluides et princesse adoucissent le haut et donnent du volume au bas.",
           "En H — une ligne droite : les coupes fluides et les sirènes légères dessinent des courbes sans les forcer.",
           "En 8 — épaules et hanches équilibrées, taille marquée : toutes les coupes conviennent.",
-          "En X — des courbes douces et une taille fine : toutes les coupes vous vont ; laissez le style de votre mariage guider le choix.",
+          "En X — des courbes douces et une taille fine : toutes les coupes vous vont ; laissez le style de votre mariage guider votre choix.",
         ],
       },
       {
         titre: "Des pistes, pas des règles",
         texte: [
-          "Une morphologie n'exclut jamais une robe : elle ouvre des pistes. Rien n'est « à éviter » — c'est un conseil de style, pas une règle. Il arrive souvent qu'une mariée se trouve dans une coupe qu'elle n'aurait pas choisie sur le papier.",
-          "C'est pour cela que l'essayage compte : la boutique vous propose ce qui vous servira, et le miroir fait le reste.",
+          "Une morphologie n'exclut jamais une robe : elle ouvre des pistes. Rien n'est « à éviter » — c'est un conseil de style, pas une règle. Il arrive souvent qu'une mariée se reconnaisse dans une coupe qu'elle n'aurait pas choisie sur le papier.",
+          "C'est pour cela que l'essayage compte : nous vous proposons ce qui vous servira, et le miroir fait le reste.",
         ],
       },
       {
         titre: "Trouver votre morphologie",
         texte: [
-          "Chaque morphologie a sa page sur le site, avec les robes de la boutique qui la servent le mieux. Si vous hésitez sur la vôtre, Élise, la conseillère du site, vous oriente en trois questions.",
+          "Chaque morphologie a sa page sur le site, avec celles de nos robes qui la servent le mieux. Si vous hésitez sur la vôtre, Élise, la conseillère du site, vous oriente en trois questions.",
         ],
       },
     ],
@@ -478,7 +478,7 @@ export const ARTICLES: Article[] = [
     description:
       "Quand essayer sa robe de mariée : un premier essayage huit à neuf mois avant, un deuxième quand la robe est prête, un essayage final après les retouches.",
     chapo:
-      "On n'essaie pas sa robe une fois, mais trois. Voici à quel moment du calendrier se place chacun de ces essayages.",
+      "On n'essaie pas sa robe une fois, mais trois. Chacun de ces essayages a sa place dans le calendrier de votre mariage.",
     sections: [
       {
         titre: "Les trois essayages dans le temps",
@@ -486,20 +486,20 @@ export const ARTICLES: Article[] = [
         ordonnee: true,
         liste: [
           "Le premier essayage — idéalement huit à neuf mois avant le mariage. Vous choisissez votre robe, et vos mensurations sont prises le jour même.",
-          "Le deuxième essayage — quand votre robe sort de l'atelier. Vous l'essayez en boutique pour voir ce qui doit être ajusté.",
+          "Le deuxième essayage — quand votre robe sort de l'atelier. Vous l'essayez en boutique, pour voir ce qui reste à ajuster.",
           "L'essayage final — après les retouches. Il valide le tombé, la longueur, l'aisance, et vous repartez avec votre robe.",
         ],
       },
       {
         titre: "Pourquoi commencer si tôt",
         texte: [
-          "Entre le premier et le deuxième essayage, il y a la confection : votre robe est réalisée à l'atelier, à vos mesures. C'est elle qui demande le plus de temps, et c'est pour elle que la boutique conseille huit à neuf mois.",
+          "Entre le premier et le deuxième essayage vient la confection : votre robe est réalisée à l'atelier, à vos mesures. C'est elle qui demande le plus de temps, et c'est pour elle que nous vous conseillons huit à neuf mois.",
         ],
       },
       {
         titre: "Si le mariage approche",
         texte: [
-          "Dites la date du mariage en prenant rendez-vous : la boutique trouve presque toujours une solution. Le calendrier des essayages suivants se fixe alors avec elle.",
+          "Indiquez la date du mariage en prenant rendez-vous : nous trouvons presque toujours une solution. Le calendrier des essayages suivants se fixe alors ensemble.",
         ],
       },
     ],
@@ -520,24 +520,24 @@ export const ARTICLES: Article[] = [
     description:
       "Retouches d'une robe de mariée chez MADAMOON : après le deuxième essayage, faites sur place par nos couturières, incluses dans la confection sur mesure.",
     chapo:
-      "Les retouches arrivent tard dans le parcours, quand la robe est confectionnée. Voici quand elles ont lieu, qui les fait, et comment se fixe leur calendrier.",
+      "Les retouches arrivent tard dans le parcours, une fois la robe confectionnée. Reste à savoir quand elles ont lieu, qui les réalise, et comment se fixe leur calendrier.",
     sections: [
       {
         titre: "Quand ont-elles lieu",
         texte: [
-          "Quand votre robe est prête, vous venez l'essayer en boutique. C'est ce deuxième essayage qui dit s'il faut ajuster quelque chose. Si oui, un rendez-vous de retouches est prévu avec l'une de nos couturières, sur place.",
+          "Lorsque votre robe est prête, vous venez l'essayer en boutique. C'est ce deuxième essayage qui révèle s'il faut ajuster quelque chose. Le cas échéant, un rendez-vous de retouches est prévu avec l'une de nos couturières, sur place.",
         ],
       },
       {
         titre: "Combien de temps",
         texte: [
-          "Il n'y a pas de durée unique : elle dépend de la robe — sa matière, sa construction, sa longueur — et de ce qu'il faut ajuster. Le calendrier des retouches se fixe avec la boutique, une fois le deuxième essayage passé, en tenant compte de la date de votre mariage.",
+          "Il n'y a pas de durée unique : elle dépend de la robe — sa matière, sa construction, sa longueur — et de ce qu'il faut ajuster. Le calendrier des retouches se fixe avec nous, une fois le deuxième essayage passé, en tenant compte de la date de votre mariage.",
         ],
       },
       {
         titre: "Ce que comprennent les retouches",
         texte: [
-          "Les retouches sont incluses dans la confection sur mesure : elles ne s'ajoutent pas au prix. Nos couturières ajustent votre robe jusqu'au dernier essayage, qui valide le tombé, la longueur et l'aisance. Le solde est réglé le jour des retouches.",
+          "Les retouches sont incluses dans la confection sur mesure : elles ne s'ajoutent pas au prix. Nos couturières ajustent votre robe jusqu'au dernier essayage, qui valide le tombé, la longueur et l'aisance. Le solde se règle le jour des retouches.",
         ],
       },
     ],
@@ -558,7 +558,7 @@ export const ARTICLES: Article[] = [
     description:
       "Combien d'essayages pour une robe de mariée : trois chez MADAMOON — le choix, le deuxième essayage, l'essayage final —, plus les retouches si besoin.",
     chapo:
-      "Trois essayages, et parfois un rendez-vous de retouches entre les deux derniers. Voici ce qui se passe à chacun.",
+      "Trois essayages, et parfois un rendez-vous de retouches entre les deux derniers. Chacun a son rôle dans le parcours.",
     sections: [
       {
         titre: "Les trois essayages",
@@ -566,20 +566,20 @@ export const ARTICLES: Article[] = [
         ordonnee: true,
         liste: [
           "Le premier — une heure au showroom privatisé pour vous : vous choisissez votre robe, et vos mensurations sont prises le jour même.",
-          "Le deuxième — votre robe est sortie de l'atelier : vous l'essayez pour voir ce qui doit être ajusté.",
+          "Le deuxième — votre robe est sortie de l'atelier : vous l'essayez, pour voir ce qui reste à ajuster.",
           "Le final — après les retouches : il valide le tombé, la longueur, l'aisance.",
         ],
       },
       {
         titre: "Et les retouches",
         texte: [
-          "S'il faut ajuster votre robe après le deuxième essayage, un rendez-vous de retouches est prévu avec l'une de nos couturières, sur place. Elles sont incluses dans la confection sur mesure.",
+          "S'il faut ajuster votre robe après le deuxième essayage, un rendez-vous de retouches est prévu avec l'une de nos couturières, sur place. Ces retouches sont incluses dans la confection sur mesure.",
         ],
       },
       {
         titre: "Venir préparée",
         texte: [
-          "Un conseil : à partir du deuxième essayage, venez avec la lingerie et, si possible, les chaussures que vous porterez le jour du mariage. La longueur de la robe et son tombé s'ajustent sur elles.",
+          "Un conseil : dès le deuxième essayage, venez avec la lingerie et, si possible, les chaussures que vous porterez le jour du mariage. C'est sur elles que s'ajustent la longueur de la robe et son tombé.",
         ],
       },
     ],
@@ -600,18 +600,18 @@ export const ARTICLES: Article[] = [
     description:
       "Essayer une robe de mariée chez MADAMOON se fait sur rendez-vous uniquement : le showroom est privatisé une heure pour vous. Réservation en ligne, Paris 10e.",
     chapo:
-      "Oui : le showroom MADAMOON reçoit sur rendez-vous uniquement. Voici pourquoi, et comment réserver.",
+      "Oui : le showroom MADAMOON reçoit sur rendez-vous uniquement. La raison est simple, et la réservation aussi.",
     sections: [
       {
         titre: "Pourquoi sur rendez-vous",
         texte: [
-          "Parce que le showroom est privatisé pour chaque mariée, pendant une heure. Un rendez-vous, c'est l'assurance d'avoir le lieu, les robes et l'attention de la boutique pour vous seule — sans attente, et sans croiser une autre cliente en cabine.",
+          "Parce que le showroom est privatisé pour chaque mariée, pendant une heure. Un rendez-vous, c'est l'assurance d'avoir le lieu, les robes et toute notre attention pour vous seule — sans attente, et sans croiser une autre cliente en cabine.",
         ],
       },
       {
         titre: "Comment réserver",
         texte: [
-          "Le rendez-vous se prend en ligne, en choisissant un créneau, ou par téléphone. Si des robes vous ont plu sur le site, dites-le en réservant : elles seront préparées pour votre venue.",
+          "Le rendez-vous se prend en ligne, en choisissant un créneau, ou par téléphone. Si des robes vous ont plu sur le site, dites-le-nous en réservant : elles vous attendront, préparées pour votre venue.",
         ],
       },
       {
@@ -637,23 +637,23 @@ export const ARTICLES: Article[] = [
     description:
       "Robe de mariée d'hiver : manches longues, col montant, mikado, satin, crêpe ou cape. Les robes MADAMOON pour un mariage en saison froide, Paris 10e.",
     chapo:
-      "Un mariage en hiver se prête aux robes qui couvrent et qui ont de la tenue. Voici ce qu'il faut regarder, et les robes de la boutique qui s'y prêtent.",
+      "Un mariage en hiver appelle des robes qui couvrent et qui ont de la tenue. Quelques détails sont à regarder, et plusieurs de nos robes s'y prêtent.",
     sections: [
       {
         titre: "Ce qui fait une robe d'hiver",
         texte: ["Quelques repères, pour une robe qui ne vous laisse pas grelotter sur les photos :"],
         liste: [
-          "des manches longues, en dentelle ou en tulle, ou des manches amovibles qu'on retire pour la soirée ;",
+          "des manches longues, en dentelle ou en tulle, ou des manches amovibles que l'on retire pour la soirée ;",
           "un col montant ou un dos plus couvert ;",
           "des matières qui ont de la tenue : le mikado, le satin, le crêpe ;",
-          "une cape ou une étole sur les épaules, pour la sortie de la mairie ou de l'église.",
+          "une cape ou une étole posée sur les épaules, pour la sortie de la mairie ou de l'église.",
         ],
       },
       {
         titre: "Les robes de la boutique",
         texte: [
-          "Plusieurs robes du catalogue ont des manches longues : Seraphina d'Olya Mak, en dentelle brodée ; Montana et Bella de Casablanca Bridal ; Pendant de Watters Designs. D'autres ont des manches amovibles, comme Aster ou Riviera. Sheridan s'accompagne d'une cape assortie.",
-          "Les robes en mikado — Trinity, Fern, Livia, Kensington — ont la tenue d'une matière d'hiver.",
+          "Plusieurs de nos robes ont des manches longues : Seraphina d'Olya Mak, en dentelle brodée ; Montana et Bella de Casablanca Bridal ; Pendant de Watters Designs. D'autres ont des manches amovibles, comme Aster ou Riviera. Sheridan, elle, s'accompagne d'une cape assortie.",
+          "Nos robes en mikado — Trinity, Fern, Livia, Kensington — ont la tenue d'une matière d'hiver.",
         ],
       },
       {
@@ -687,19 +687,19 @@ export const ARTICLES: Article[] = [
       {
         titre: "Celles dont l'avis compte",
         texte: [
-          "Un conseil : venez avec les personnes dont le regard vous aide à voir clair — une mère, une sœur, une amie qui vous connaît bien. Celles qui savent ce que vous aimez, et qui vous le diront franchement.",
+          "Un conseil : entourez-vous des personnes dont le regard vous aide à voir clair — une mère, une sœur, une amie qui vous connaît bien. Celles qui savent ce que vous aimez, et qui vous le diront franchement.",
         ],
       },
       {
         titre: "Pas trop nombreuses",
         texte: [
-          "Plus les avis sont nombreux, plus ils se contredisent. Un petit cercle laisse davantage de place à votre propre regard, et à la conversation avec la conseillère. Si vous venez à plusieurs, précisez-le au moment de réserver : la boutique pourra préparer votre venue.",
+          "Plus les avis sont nombreux, plus ils se contredisent. Un petit cercle laisse davantage de place à votre propre regard, et à la conversation avec la conseillère. Si vous venez à plusieurs, précisez-le au moment de réserver : nous pourrons ainsi préparer votre venue.",
         ],
       },
       {
         titre: "Un lieu fait pour les recevoir",
         texte: [
-          "Le showroom est privatisé pour vous pendant une heure : vos proches ne sont pas debout dans une allée, elles sont chez vous, le temps de l'essayage.",
+          "Le showroom est privatisé pour vous pendant une heure : vos proches ne restent pas debout dans une allée, elles sont chez vous, le temps de l'essayage.",
         ],
       },
     ],
@@ -720,12 +720,12 @@ export const ARTICLES: Article[] = [
     description:
       "Quand commencer à chercher sa robe de mariée : dès la date fixée pour s'inspirer, et un essayage huit à neuf mois avant. Comment préparer sa recherche.",
     chapo:
-      "La recherche commence bien avant l'essayage. Voici comment l'organiser, de la date fixée au premier rendez-vous en boutique.",
+      "La recherche commence bien avant l'essayage. Elle s'organise pas à pas, de la date fixée au premier rendez-vous en boutique.",
     sections: [
       {
         titre: "Dès que la date est fixée",
         texte: [
-          "C'est le bon moment pour regarder, sans pression : les coupes qui vous attirent, les matières, les détails — un dos, des manches, une traîne. Sur le site, gardez les robes qui vous arrêtent dans vos coups de cœur.",
+          "C'est le bon moment pour regarder, sans pression : les coupes qui vous attirent, les matières, les détails — un dos, des manches, une traîne. Sur le site, gardez dans vos coups de cœur les robes qui retiennent votre regard.",
         ],
       },
       {
@@ -737,7 +737,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Puis l'essayage, huit à neuf mois avant",
         texte: [
-          "Le premier essayage en boutique se prévoit idéalement huit à neuf mois avant le mariage : c'est le temps qu'il faut pour la confection et les retouches. Arriver avec quelques coups de cœur, et une idée des coupes qui vous plaisent, rend ce rendez-vous plus efficace.",
+          "Le premier essayage en boutique se prévoit idéalement huit à neuf mois avant le mariage : c'est le temps que demandent la confection et les retouches. Venir avec quelques coups de cœur, et une idée des coupes qui vous plaisent, rend ce rendez-vous plus efficace.",
         ],
       },
     ],
@@ -764,19 +764,19 @@ export const ARTICLES: Article[] = [
       {
         titre: "Quelques robes bien choisies",
         texte: [
-          "Une longue série brouille le regard : au bout de quelques robes, on ne se souvient plus de la première. Mieux vaut un petit nombre de robes choisies avec la conseillère, en fonction de votre silhouette et de ce que vous aimez.",
+          "Une longue série brouille le regard : après quelques robes, on ne se souvient plus de la première. Mieux vaut un petit nombre de robes, choisies avec la conseillère selon votre silhouette et ce que vous aimez.",
         ],
       },
       {
         titre: "Des coupes différentes",
         texte: [
-          "Un conseil : essayez au moins une robe dans une coupe que vous n'auriez pas choisie. Beaucoup de mariées se découvrent dans une sirène ou une princesse qu'elles avaient écartée sur le papier.",
+          "Un conseil : essayez au moins une robe dans une coupe que vous n'auriez pas choisie. Bien des mariées se découvrent dans une sirène ou une princesse qu'elles avaient écartée sur le papier.",
         ],
       },
       {
         titre: "Reconnaître la bonne",
         texte: [
-          "L'heure d'essayage n'est pas faite pour enchaîner les robes, mais pour vous mener jusqu'à celle dans laquelle vous vous reconnaissez pleinement. Quand c'est elle, on n'a plus envie d'en essayer une autre.",
+          "L'heure d'essayage n'est pas faite pour enchaîner les robes, mais pour vous conduire jusqu'à celle dans laquelle vous vous reconnaissez pleinement. Quand c'est elle, l'envie d'en essayer une autre s'éteint d'elle-même.",
         ],
       },
     ],
@@ -797,12 +797,12 @@ export const ARTICLES: Article[] = [
     description:
       "Robe de mariée sur mesure ou prêt-à-porter : tailles standard ou confection à vos mensurations. Chez MADAMOON, sur mesure ou semi-mesure, retouches incluses.",
     chapo:
-      "Deux façons de faire une robe de mariée. Voici ce qui les distingue, et ce que propose la boutique.",
+      "Deux façons de faire une robe de mariée. Nous vous disons ce qui les distingue, et ce que nous proposons.",
     sections: [
       {
         titre: "Le prêt-à-porter",
         texte: [
-          "Une robe de prêt-à-porter existe en tailles standard. On choisit la taille la plus proche de la sienne, puis la robe se retouche pour s'ajuster.",
+          "Une robe de prêt-à-porter existe en tailles standard. Vous choisissez la taille la plus proche de la vôtre, puis la robe est retouchée pour s'ajuster.",
         ],
       },
       {
@@ -814,7 +814,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Chez MADAMOON",
         texte: [
-          "Les robes de la boutique sont réalisées à l'atelier, sur mesure. Les robes Watters Designs sont en semi-mesure : elles sont réalisées sur un patron de la maison, puis ajustées à votre silhouette. Chaque fiche du site indique de quelle façon la robe est confectionnée.",
+          "Les robes de notre boutique sont réalisées à l'atelier, sur mesure. Les robes Watters Designs sont en semi-mesure : elles sont réalisées sur un patron de la maison, puis ajustées à votre silhouette. Chaque fiche du site précise la façon dont la robe est confectionnée.",
           "Dans les deux cas, les retouches sont incluses. Une robe sur mesure commence à 1 500 €.",
         ],
       },
@@ -836,7 +836,7 @@ export const ARTICLES: Article[] = [
     description:
       "Entretenir une robe de mariée en dentelle : housse respirante, cintre large, à l'abri de la lumière, puis un pressing spécialisé après le mariage.",
     chapo:
-      "La dentelle est la matière la plus fragile d'une robe. Quelques gestes simples la gardent belle, avant et après le mariage.",
+      "La dentelle est la matière la plus fragile d'une robe. Quelques gestes simples suffisent à la garder belle, avant et après le mariage.",
     sections: [
       {
         titre: "Avant le mariage",
@@ -851,7 +851,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Après le mariage",
         texte: [
-          "Confiez-la à un pressing spécialisé dans les robes de mariée plutôt que de la laver vous-même : la dentelle se déforme, s'accroche et se marque facilement. Plus tôt elle est nettoyée, mieux les taches partent.",
+          "Confiez-la à un pressing spécialisé dans les robes de mariée plutôt que de la laver vous-même : la dentelle se déforme, s'accroche et se marque facilement. Plus tôt elle est nettoyée, mieux les taches s'effacent.",
         ],
       },
       {
@@ -875,7 +875,7 @@ export const ARTICLES: Article[] = [
     description:
       "Que porter sous une robe de mariée sirène : une lingerie sans coutures, couleur chair, choisie selon le décolleté et le dos. Portée dès le deuxième essayage.",
     chapo:
-      "La sirène épouse la silhouette jusqu'aux genoux : sous elle, tout se voit. Voici comment choisir ce que vous porterez dessous.",
+      "La sirène épouse la silhouette jusqu'aux genoux : sous elle, tout se voit. Ce que vous porterez dessous se choisit donc avec soin.",
     sections: [
       {
         titre: "Sans coutures, couleur chair",
@@ -886,7 +886,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Selon le décolleté et le dos",
         texte: [
-          "Un décolleté cœur ou des épaules dénudées appellent un soutien-gorge sans bretelles ; un dos nu ou très échancré, une solution adaptée au dos. Certaines robes ont un corset structuré, qui soutient déjà la poitrine : posez la question à la boutique.",
+          "Un décolleté cœur ou des épaules dénudées appellent un soutien-gorge sans bretelles ; un dos nu ou très échancré, une solution adaptée au dos. Certaines robes ont un corset structuré, qui soutient déjà la poitrine : posez-nous simplement la question.",
         ],
       },
       {
@@ -930,7 +930,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Chez MADAMOON",
         texte: [
-          "Les retouches sont comprises pour les robes que la boutique confectionne, sur mesure ou en semi-mesure. Pour une robe achetée ailleurs, renseignez-vous directement auprès de la boutique.",
+          "Les retouches sont comprises pour les robes que la boutique confectionne, sur mesure ou en semi-mesure. Pour une robe achetée ailleurs, le plus simple est de nous poser directement la question.",
         ],
       },
     ],
@@ -950,25 +950,25 @@ export const ARTICLES: Article[] = [
     slug: SLUGS_QUESTIONS[20],
     description: `Où essayer une robe de mariée à Paris ? Au showroom MADAMOON, ${MAISON.adresse}, Paris 10e : sur rendez-vous, privatisé pour vous une heure.`,
     chapo:
-      "Pour essayer une robe de mariée à Paris, il faut un lieu, du temps et des robes. Voici ce que le showroom MADAMOON vous réserve.",
+      "Pour essayer une robe de mariée à Paris, il faut un lieu, du temps et des robes. Le showroom MADAMOON vous réserve tout cela.",
     sections: [
       {
         titre: "Le showroom",
         texte: [
-          `${ADRESSE}, dans le 10ᵉ arrondissement. Le showroom occupe un élégant écrin du XIXᵉ siècle, pensé pour l'essayage d'une robe de mariée.`,
+          `${ADRESSE}, dans le 10ᵉ arrondissement. Le showroom s'inscrit dans un élégant décor du XIXᵉ siècle, pensé pour l'essayage d'une robe de mariée.`,
         ],
       },
       {
         titre: "Un lieu pour vous seule",
         texte: [
-          "Les essayages ont lieu sur rendez-vous uniquement : le showroom est privatisé pour chaque mariée pendant une heure. Vos proches sont les bienvenues pendant tout l'essayage.",
+          "Les essayages ont lieu sur rendez-vous uniquement : le showroom est privatisé pour chaque mariée pendant une heure. Vos proches sont les bienvenues tout au long de l'essayage.",
         ],
         liste: ["le lundi, de 12h à 21h ;", "du mardi au samedi, de 10h à 19h."],
       },
       {
         titre: "Les robes",
         texte: [
-          "Celles de plusieurs maisons — Casablanca Bridal, Watters Designs, Monica Loretti et Olya Mak —, dans toutes les coupes : sirène, princesse, fluide, trapèze et deux-en-un. Les robes sont ensuite confectionnées à l'atelier, à vos mesures, retouches incluses.",
+          "Celles de plusieurs maisons — Casablanca Bridal, Watters Designs, Monica Loretti et Olya Mak —, dans toutes les coupes : sirène, princesse, fluide, trapèze et deux-en-un. Votre robe est ensuite confectionnée à l'atelier, à vos mesures, retouches incluses.",
         ],
       },
     ],
@@ -990,7 +990,7 @@ export const ARTICLES: Article[] = [
     description:
       "Que faut-il apporter à son premier essayage de robe de mariée ? Sans maquillage, avec ses proches, des chaussures, une lingerie adaptée, quelques images.",
     chapo:
-      "Le premier essayage se prépare un peu. Voici ce qu'il faut avoir avec soi — et ce qu'il vaut mieux laisser à la maison.",
+      "Le premier essayage se prépare un peu. Il y a ce qu'il faut avoir avec soi — et ce qu'il vaut mieux laisser à la maison.",
     sections: [
       {
         titre: "Ce que demande la boutique",
@@ -1055,7 +1055,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "Un conseil",
         texte: [
-          "Commencez par la coupe dont vous rêvez, puis essayez-en une à l'opposé : une sirène après une princesse, une fluide après une trapèze. Le contraste dit souvent plus qu'une longue série. Le showroom étant privatisé pendant une heure, vous avez le temps de comparer.",
+          "Commencez par la coupe dont vous rêvez, puis essayez son opposé : une sirène après une princesse, une fluide après une trapèze. Le contraste en dit souvent plus qu'une longue série. Le showroom étant privatisé pendant une heure, vous avez le temps de comparer.",
         ],
       },
     ],
@@ -1077,7 +1077,7 @@ export const ARTICLES: Article[] = [
     description:
       "Préparer son rendez-vous pour choisir sa robe de mariée à Paris : réserver huit à neuf mois avant, repérer des coupes, choisir qui vous accompagne.",
     chapo:
-      "Un rendez-vous bien préparé, c'est une heure d'essayage qui compte. Voici comment arriver prête.",
+      "Un rendez-vous bien préparé, c'est une heure d'essayage qui compte. Quelques étapes, et vous arrivez prête.",
     sections: [
       {
         titre: "Les étapes",
@@ -1085,7 +1085,7 @@ export const ARTICLES: Article[] = [
         texte: [],
         liste: [
           "Réservez — idéalement huit à neuf mois avant le mariage, en ligne ou par téléphone.",
-          "Repérez — quelques coupes et robes qui vous plaisent, dans le catalogue ou les pages des coupes.",
+          "Repérez — quelques coupes et robes qui vous plaisent, dans notre sélection ou les pages des coupes.",
           "Pensez à votre morphologie — les pages consacrées à chacune, ou Élise, la conseillère du site, vous orientent en quelques questions.",
           "Pensez au mariage — le lieu, la saison, la cérémonie : une mairie, une église, un domaine n'appellent pas la même robe.",
           "Choisissez qui vous accompagne — deux ou trois personnes dont l'avis compte.",
@@ -1095,7 +1095,7 @@ export const ARTICLES: Article[] = [
       {
         titre: "S'il vous reste moins de temps",
         texte: [
-          "Dites-le dès la prise de rendez-vous, en précisant la date du mariage : la boutique trouve presque toujours une solution.",
+          "Dites-le-nous dès la prise de rendez-vous, en précisant la date du mariage : nous trouvons presque toujours une solution.",
         ],
       },
     ],
@@ -1117,7 +1117,7 @@ export const ARTICLES: Article[] = [
     description:
       "Hésiter entre plusieurs robes de mariée après l'essayage : comparer, écarter, réessayer ses finalistes, sans perdre de vue le calendrier. Conseils MADAMOON.",
     chapo:
-      "Hésiter est normal : c'est souvent le signe que plusieurs robes vous vont. Voici comment trancher sereinement.",
+      "Hésiter est normal : c'est souvent le signe que plusieurs robes vous vont. Il existe une façon sereine de trancher.",
     sections: [
       {
         titre: "Comparer",
@@ -1128,13 +1128,13 @@ export const ARTICLES: Article[] = [
       {
         titre: "Écarter",
         texte: [
-          "Retirez d'abord celle qui vous convainc le moins, puis demandez-vous dans laquelle vous vous voyez entrer, danser, être photographiée. Et écoutez-vous avant vos proches : c'est vous qui la porterez.",
+          "Écartez d'abord celle qui vous convainc le moins, puis demandez-vous dans laquelle vous vous voyez entrer, danser, être photographiée. Et écoutez-vous avant d'écouter vos proches : c'est vous qui la porterez.",
         ],
       },
       {
         titre: "Réessayer",
         texte: [
-          "Un nouveau rendez-vous permet de réessayer vos deux ou trois finalistes, l'esprit reposé ; il se prend comme le premier, en ligne ou par téléphone. Gardez simplement un œil sur le calendrier : la confection commence une fois votre choix fait, et vos mensurations sont prises le jour même.",
+          "Un nouveau rendez-vous permet de réessayer vos deux ou trois finalistes, l'esprit reposé ; il se prend comme le premier, en ligne ou par téléphone. Gardez simplement un œil sur le calendrier : la confection ne commence qu'une fois votre choix fait, et vos mensurations sont prises le jour même.",
         ],
       },
     ],

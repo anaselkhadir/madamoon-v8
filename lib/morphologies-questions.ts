@@ -38,17 +38,17 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "quelle-robe-de-mariee-morphologie-o",
       q: "Quelle robe de mariée choisir pour une morphologie en O ?",
-      r: "Commencez par les coupes fluides et trapèze : le tissu descend d'un seul tenant, sans serrer, et la ligne paraît plus longue. Choisissez un décolleté en V ou en cœur, qui ouvre le buste. La princesse et la sirène valent aussi l'essai : aucune robe n'est interdite.",
+      r: "Commencez par les coupes fluides et trapèze : le tissu descend d'un seul tenant, sans serrer, et la ligne s'en trouve allongée. Préférez un décolleté en V ou en cœur, qui ouvre le buste. La princesse et la sirène méritent aussi l'essai : aucune robe ne vous est interdite.",
       description:
         "Robe de mariée et morphologie en O : les coupes fluides et trapèze en premier, un décolleté en V ou en cœur. Les conseils de la boutique MADAMOON, Paris 10e.",
       chapo:
-        "Un tombé qui glisse, un décolleté qui ouvre le buste : avec une morphologie en O, la ligne s'allonge d'elle-même. Voici par où commencer, et pourquoi.",
+        "Un tombé qui glisse, un décolleté qui ouvre le buste : avec une morphologie en O, la ligne s'allonge d'elle-même. Reste à savoir par où commencer, et pourquoi.",
       sections: [
         {
           titre: "Les deux coupes à essayer en premier",
           texte: [
             "La robe fluide ne serre nulle part. Le tissu descend d'un seul tenant, du buste à l'ourlet, et la ligne paraît plus longue qu'elle ne l'est.",
-            "La trapèze tient le buste et ouvre la jupe en A dès la taille. Le regard s'arrête sur le décolleté, et la robe laisse tout le reste libre.",
+            "La trapèze tient le buste, puis ouvre sa jupe en A dès la taille. Le regard se pose sur le décolleté, et la robe laisse tout le reste libre.",
           ],
         },
         {
@@ -62,7 +62,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
           titre: "Le détail qui fait basculer",
           texte: [
             "Le décolleté en V ou en cœur ouvre le buste et allonge le cou. C'est souvent lui, plus que la coupe, qui fait basculer un essayage.",
-            "Parmi les robes que la boutique conseille pour une morphologie en O : Dove, fluide en satin mat au décolleté drapé ; Marie, fluide de Monica Loretti ; Emerald, trapèze au décolleté en V ; Monica, trapèze en jacquard avec ceinture.",
+            "Parmi les robes que nous vous conseillons pour une morphologie en O : Dove, fluide en satin mat au décolleté drapé ; Marie, fluide de Monica Loretti ; Emerald, trapèze au décolleté en V ; Monica, trapèze en jacquard avec ceinture.",
           ],
         },
       ],
@@ -83,11 +83,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "reconnaitre-morphologie-o",
       q: "Comment reconnaître une morphologie en O ?",
-      r: "Vos épaules et vos hanches sont d'une largeur proche, et c'est la taille qui prend le plus de place ; la poitrine est généreuse et se remarque en premier. Devant le miroir, la main descend des épaules aux hanches sans rencontrer de creux net à la taille.",
+      r: "Vos épaules et vos hanches sont d'une largeur proche, et c'est la taille qui prend le plus de place ; la poitrine est généreuse et se remarque en premier. Devant le miroir, votre main descend des épaules aux hanches sans rencontrer de creux net à la taille.",
       description:
         "Reconnaître une morphologie en O : épaules et hanches proches, taille peu creusée, poitrine généreuse. Trois repères simples, dont un devant le miroir.",
       chapo:
-        "Trois repères suffisent, et l'un d'eux se vérifie devant un miroir : la lecture seule ne suffit jamais à se situer.",
+        "Trois repères suffisent, dont l'un se vérifie devant un miroir : on ne se situe jamais par la seule lecture.",
       sections: [
         {
           titre: "Les trois repères",
@@ -95,7 +95,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
           liste: [
             "Le repère — vos épaules et vos hanches sont d'une largeur proche, et c'est la taille qui prend le plus de place.",
             "La poitrine — elle est généreuse et se remarque en premier. Beaucoup de robes s'écrivent à partir de là.",
-            "Devant le miroir — la main descend des épaules aux hanches sans rencontrer de creux net à la taille.",
+            "Devant le miroir — votre main descend des épaules aux hanches sans rencontrer de creux net à la taille.",
           ],
         },
         {
@@ -107,7 +107,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Une silhouette, pas une étiquette",
           texte: [
-            "Beaucoup de mariées se trouvent entre deux morphologies. Ce n'est pas un problème : les coupes conseillées se recoupent, et c'est l'essayage qui tranche. Si vous hésitez, Élise, la conseillère du site, vous oriente en trois questions.",
+            "Beaucoup de mariées se situent entre deux morphologies. Rien de gênant à cela : les coupes conseillées se recoupent, et c'est l'essayage qui tranche. Si vous hésitez, Élise, la conseillère du site, vous oriente en trois questions.",
           ],
         },
       ],
@@ -127,11 +127,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-courbes-genereuses",
       q: "Quelle coupe de robe de mariée convient à une silhouette avec des courbes généreuses ?",
-      r: "Une coupe qui accompagne les courbes sans les comprimer : la fluide, qui glisse le long du corps, et la trapèze, qui s'ouvre en A dès la taille. Si votre taille est marquée, la sirène et la princesse les soulignent aussi très bien.",
+      r: "Une coupe qui accompagne vos courbes sans les comprimer : la fluide, qui glisse le long du corps, et la trapèze, qui s'ouvre en A dès la taille. Si votre taille est marquée, la sirène et la princesse les soulignent aussi très bien.",
       description:
         "Robe de mariée pour des courbes généreuses : fluide et trapèze, ou sirène et princesse si la taille est marquée. Les conseils de la boutique MADAMOON, Paris.",
       chapo:
-        "Des courbes généreuses n'appellent pas une seule coupe : tout dépend d'où elles se trouvent. Voici comment s'y retrouver.",
+        "Des courbes généreuses n'appellent pas une seule coupe : tout dépend d'où elles se trouvent. Quelques repères pour vous y retrouver.",
       sections: [
         {
           titre: "Si les courbes sont au buste et à la taille",
@@ -142,13 +142,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Si la taille est bien marquée",
           texte: [
-            "C'est plutôt une morphologie en 8 : épaules et hanches équilibrées, taille creusée. Toutes les coupes conviennent alors. Les sirènes épousent les courbes, et tout ce qui se cintre à la taille accentue l'équilibre naturel.",
+            "C'est plutôt une morphologie en 8 : épaules et hanches équilibrées, taille creusée. Toutes les coupes vous conviennent alors. Les sirènes épousent les courbes, et tout ce qui se cintre à la taille accentue l'équilibre naturel.",
           ],
         },
         {
           titre: "Ce qui compte autant que la coupe",
           texte: [
-            "La matière et le maintien. Un crêpe ou un satin mat tiennent mieux qu'un tissu trop léger ; un corset ou un bustier structuré soutient la poitrine. Plusieurs robes de la boutique ont un corset travaillé, comme Carrie, au corset perlé à la main, ou Ember.",
+            "La matière et le maintien. Un crêpe ou un satin mat tiennent mieux qu'un tissu trop léger ; un corset ou un bustier structuré soutient la poitrine. Plusieurs de nos robes ont un corset travaillé, comme Carrie, au corset perlé à la main, ou Ember.",
           ],
         },
       ],
@@ -172,7 +172,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée trapèze et morphologie en O : l'une des deux coupes à essayer en premier. Pourquoi elle fonctionne, et les trapèzes de MADAMOON, Paris.",
       chapo:
-        "La trapèze est la coupe la plus universelle du catalogue, et l'une des deux que la boutique conseille d'abord pour une morphologie en O.",
+        "La trapèze est la plus universelle de nos coupes, et l'une des deux que nous conseillons d'abord pour une morphologie en O.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
@@ -188,7 +188,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         },
         {
           titre: "Les trapèzes de la boutique",
-          texte: ["Parmi celles que la boutique conseille pour une morphologie en O :"],
+          texte: ["Parmi celles que nous vous conseillons pour une morphologie en O :"],
           liste: [
             "Emerald — corsage perlé, décolleté en V, jupe de tulle ou de satin ;",
             "Monica — jacquard floral, décolleté en V, ceinture ;",
@@ -215,11 +215,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-empire-morphologie-o",
       q: "Une robe empire est-elle adaptée à une morphologie en O ?",
-      r: "Oui, c'est une piste naturelle : la couture placée sous la poitrine met le buste en valeur, puis la jupe tombe librement, sans marquer la taille. La boutique ne classe pas ses robes en « empire » : ce sont ses modèles fluides qui s'en rapprochent le plus.",
+      r: "Oui, c'est une piste naturelle : la couture placée sous la poitrine met le buste en valeur, puis la jupe tombe librement, sans marquer la taille. Nous ne classons pas nos robes en « empire » : ce sont nos modèles fluides qui s'en rapprochent le plus.",
       description:
         "Robe de mariée empire et morphologie en O : une taille haute sous la poitrine, une jupe libre. Pourquoi elle convient, et les robes qui s'en approchent.",
       chapo:
-        "La ligne empire place la taille juste sous la poitrine. Pour une morphologie en O, c'est une idée qui tombe juste — voici pourquoi.",
+        "La ligne empire place la taille juste sous la poitrine. Pour une morphologie en O, l'idée tombe juste, et pour de bonnes raisons.",
       sections: [
         {
           titre: "Ce qu'est une robe empire",
@@ -236,8 +236,8 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Chez MADAMOON",
           texte: [
-            "Le catalogue de la boutique se range en coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus : un tombé d'un seul tenant, qui ne serre nulle part.",
-            "Si c'est cette ligne que vous cherchez, dites-le en prenant rendez-vous : la boutique vous proposera les modèles qui s'en approchent.",
+            "Nos robes se répartissent par coupes : sirène, princesse, fluide, trapèze, deux en un. Aucune n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus : un tombé d'un seul tenant, qui ne serre nulle part.",
+            "Si c'est cette ligne que vous cherchez, dites-le-nous en prenant rendez-vous : nous vous proposerons les modèles qui s'en approchent.",
           ],
         },
       ],
@@ -261,7 +261,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée sirène et morphologie en O : oui, avec une matière qui tient, comme le crêpe. Ce qu'il faut regarder, et les sirènes de MADAMOON, Paris.",
       chapo:
-        "La sirène n'est pas la première coupe conseillée pour une morphologie en O, mais elle vaut l'essai. Voici comment la choisir.",
+        "La sirène n'est pas la première coupe conseillée pour une morphologie en O, mais elle vaut l'essai, pourvu de bien la choisir.",
       sections: [
         {
           titre: "Oui, avec la bonne matière",
@@ -278,7 +278,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Les sirènes de la boutique",
           texte: [
-            "Zina, sirène à fente de Casablanca Bridal, fait partie des robes que la boutique conseille pour une morphologie en O. Plusieurs sirènes du catalogue sont en crêpe : Mira et Milan de Monica Loretti, Bondi, ou Shiloh, dont la jupe est en crêpe.",
+            "Zina, sirène à fente de Casablanca Bridal, fait partie des robes que nous conseillons pour une morphologie en O. Plusieurs de nos sirènes sont en crêpe : Mira et Milan de Monica Loretti, Bondi, ou Shiloh, dont la jupe est en crêpe.",
           ],
         },
       ],
@@ -302,13 +302,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée et poitrine généreuse : un décolleté en V ou en cœur, un drapé, et un bon maintien. Les conseils et les robes de la boutique MADAMOON, Paris.",
       chapo:
-        "Avec une poitrine généreuse, le décolleté compte souvent plus que la coupe. Voici ceux qui la servent le mieux.",
+        "Avec une poitrine généreuse, le décolleté compte souvent plus que la coupe. Certains la servent mieux que d'autres.",
       sections: [
         {
           titre: "Le V et le cœur",
           texte: [
             "Ils ouvrent le buste et allongent le cou, sans enfermer la poitrine. C'est souvent ce détail, plus que la coupe, qui fait basculer un essayage.",
-            "Dans le catalogue : Emerald, Monica et Livia ont un décolleté en V ; Finell, un bustier cœur.",
+            "Parmi nos robes : Emerald, Monica et Livia ont un décolleté en V ; Finell, un bustier cœur.",
           ],
         },
         {
@@ -320,7 +320,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Le maintien",
           texte: [
-            "Un corset ou un bustier structuré soutient la poitrine, et c'est lui qui permet de porter le décolleté qu'on aime. Les couturières de la boutique ajustent ce maintien au fil des essayages.",
+            "Un corset ou un bustier structuré soutient la poitrine, et c'est lui qui vous permet de porter le décolleté que vous aimez. Nos couturières ajustent ce maintien au fil des essayages.",
           ],
         },
       ],
@@ -345,7 +345,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée fluide et confortable : mousseline, crêpe, satin mat, versions stretch. Comment choisir sa matière, avec les robes de la boutique MADAMOON.",
       chapo:
-        "Une robe fluide tient d'abord à sa matière. Voici celles qui bougent bien, et ce qu'elles changent à la journée.",
+        "Une robe fluide tient d'abord à sa matière. Certaines bougent mieux que d'autres, et votre journée s'en ressent.",
       sections: [
         {
           titre: "La mousseline",
@@ -368,7 +368,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Le confort d'une journée",
           texte: [
-            "Une matière stretch suit le corps et laisse bouger librement. Un conseil : à l'essayage, asseyez-vous, levez les bras, faites quelques pas de danse. Mathilda, de Monica Loretti, a été pensée pour le confort, jusqu'aux mariées enceintes.",
+            "Une matière stretch suit le corps et vous laisse bouger librement. Notre conseil : à l'essayage, asseyez-vous, levez les bras, esquissez quelques pas de danse. Mathilda, de Monica Loretti, a été pensée pour le confort, jusqu'aux mariées enceintes.",
           ],
         },
       ],
@@ -389,11 +389,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-souligner-la-taille",
       q: "Comment choisir une robe de mariée qui souligne la taille sans comprimer ?",
-      r: "Plutôt qu'une taille serrée, cherchez une taille dessinée : une ceinture, une couture, un drapé ou un jeu de matières qui crée la ligne sans contraindre. Un corset bien ajusté par les couturières soutient sans comprimer.",
+      r: "Plutôt qu'une taille serrée, cherchez une taille dessinée : une ceinture, une couture, un drapé ou un jeu de matières qui crée la ligne sans contraindre. Un corset bien ajusté par nos couturières soutient sans comprimer.",
       description:
         "Souligner la taille sans la comprimer : ceinture, taille basque, drapé, corset ajusté. Les conseils MADAMOON pour une robe de mariée confortable.",
       chapo:
-        "Marquer la taille ne veut pas dire la serrer. Voici les détails qui la dessinent, et pourquoi l'ajustement compte plus que tout.",
+        "Marquer la taille ne veut pas dire la serrer. Quelques détails suffisent à la dessiner, et l'ajustement compte plus que tout.",
       sections: [
         {
           titre: "Dessiner plutôt que serrer",
@@ -403,7 +403,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         },
         {
           titre: "Les détails qui marquent la taille",
-          texte: ["Dans le catalogue de la boutique :"],
+          texte: ["Parmi les robes de notre sélection :"],
           liste: [
             "une ceinture, comme sur Monica, en jacquard floral ;",
             "une taille basque, comme sur Santana, qui descend en pointe ;",
@@ -414,7 +414,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "L'ajustement fait tout",
           texte: [
-            "Une robe trop serrée comprime ; une robe bien ajustée tient. Chez MADAMOON, la robe est confectionnée à vos mesures, puis ajustée par les couturières jusqu'au dernier essayage, retouches incluses.",
+            "Une robe trop serrée comprime ; une robe bien ajustée tient. Chez MADAMOON, la robe est confectionnée à vos mesures, puis ajustée par nos couturières jusqu'au dernier essayage, retouches incluses.",
           ],
         },
       ],
@@ -438,7 +438,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée pour mettre en valeur ses courbes : suivre la silhouette plutôt que la cacher, un décolleté qui ouvre le buste, une matière qui tient.",
       chapo:
-        "Mettre ses courbes en valeur, c'est d'abord cesser de vouloir les cacher. Voici comment choisir une robe qui les accompagne.",
+        "Mettre ses courbes en valeur, c'est d'abord cesser de vouloir les cacher. Puis choisir une robe qui les accompagne.",
       sections: [
         {
           titre: "Suivre plutôt que masquer",
@@ -479,12 +479,12 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée à manches et morphologie en O : longues, illusion ou amovibles. Ce qu'elles apportent, et les robes MADAMOON qui en ont. Paris 10e.",
       chapo:
-        "Les manches ont plusieurs visages, et chacune change la silhouette à sa façon. Voici ce qu'elles apportent à une morphologie en O.",
+        "Les manches ont plusieurs visages, et chacune change la silhouette à sa façon. Regardons ce qu'elles apportent à une morphologie en O.",
       sections: [
         {
           titre: "Des manches longues en dentelle",
           texte: [
-            "Elles prolongent la ligne et donnent une allure élancée. Pendant, de Watters Designs, que la boutique conseille pour une morphologie en O, est une trapèze en dentelle à manches longues.",
+            "Elles prolongent la ligne et donnent une allure élancée. Pendant, de Watters Designs, que nous conseillons pour une morphologie en O, est une trapèze en dentelle à manches longues.",
           ],
         },
         {
@@ -526,7 +526,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Morphologie en O : quelle robe de mariée essayer en premier ? Une fluide ou une trapèze, puis une princesse et une sirène pour comparer.",
       chapo:
-        "L'ordre des essayages compte : il aide à comprendre ce qui vous va, et pourquoi. Voici celui que la boutique conseille pour une morphologie en O.",
+        "L'ordre des essayages compte : il aide à comprendre ce qui vous va, et pourquoi. Pour une morphologie en O, nous vous conseillons celui-ci.",
       sections: [
         {
           titre: "L'ordre des essayages",
@@ -542,13 +542,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Des robes pour commencer",
           texte: [
-            "Parmi celles que la boutique conseille pour une morphologie en O : Dove et Marie, fluides ; Emerald et Monica, trapèzes au décolleté en V.",
+            "Parmi celles que nous vous conseillons pour une morphologie en O : Dove et Marie, fluides ; Emerald et Monica, trapèzes au décolleté en V.",
           ],
         },
         {
           titre: "Venir préparée",
           texte: [
-            "Gardez vos robes préférées dans vos coups de cœur et dites-le en réservant : elles seront prêtes à votre arrivée.",
+            "Gardez vos robes préférées dans vos coups de cœur et dites-le-nous en réservant : elles seront prêtes à votre arrivée.",
           ],
         },
       ],
@@ -570,29 +570,29 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "quelle-robe-de-mariee-morphologie-a",
       q: "Quelle robe de mariée choisir pour une morphologie en A ?",
-      r: "Commencez par les princesses et les trapèzes : un haut de robe travaillé retient le regard, et une jupe qui s'ouvre répond aux hanches sans les souligner. Une encolure bateau ou un bustier droit élargit les épaules. Les fluides et les deux en un valent aussi l'essai.",
+      r: "Commencez par les princesses et les trapèzes. Un haut de robe travaillé retient le regard, tandis qu'une jupe qui s'ouvre répond aux hanches sans les souligner. Une encolure bateau ou un bustier droit élargit les épaules. Les fluides et les deux en un valent aussi l'essai.",
       description:
         "Robe de mariée et morphologie en A : princesse et trapèze en premier, un haut travaillé, une jupe qui s'ouvre. Les conseils de la boutique MADAMOON, Paris.",
       chapo:
-        "Un haut de robe travaillé, une jupe qui s'ouvre : avec une morphologie en A, l'équilibre se fait seul. Voici par où commencer.",
+        "Un haut de robe travaillé, une jupe qui s'ouvre : avec une morphologie en A, l'équilibre se fait seul. Il suffit de savoir par où commencer.",
       sections: [
         {
           titre: "Les deux coupes à essayer en premier",
           texte: [
-            "La princesse joue tout sur le bustier : broderie, drapé, encolure. L'ampleur de sa jupe ne demande rien — elle répond aux hanches sans y toucher.",
-            "La trapèze ouvre sa jupe dès la taille et suit les hanches au lieu de les épouser. C'est la coupe la plus facile à porter une journée entière.",
+            "La princesse confie tout au bustier : broderie, drapé, encolure. Sa jupe, tout en ampleur, ne demande rien — elle répond aux hanches sans y toucher.",
+            "La trapèze ouvre sa jupe dès la taille et suit les hanches au lieu de les épouser. De toutes les coupes, c'est la plus facile à porter une journée entière.",
           ],
         },
         {
           titre: "Celles qui valent l'essai",
           texte: [
-            "La fluide ne cherche pas l'équilibre, elle passe à côté — et c'est parfois exactement ce qu'on veut quand on refuse une robe qui construit. La deux en un, avec sa surjupe qui se retire au dîner, offre deux volumes dans la même soirée.",
+            "La fluide ne cherche pas l'équilibre : elle passe à côté, et c'est parfois exactement ce que vous voulez lorsque vous refusez une robe qui construit. La deux en un, dont la surjupe se retire au dîner, vous offre deux volumes dans la même soirée.",
           ],
         },
         {
           titre: "Le détail qui change la proportion",
           texte: [
-            "Une encolure bateau ou un bustier droit élargit visuellement les épaules. Quelques centimètres de ligne en haut suffisent à changer toute la silhouette.",
+            "Une encolure bateau ou un bustier droit élargit visuellement les épaules. Il suffit de quelques centimètres de ligne en haut pour que toute la silhouette change.",
           ],
         },
       ],
@@ -612,25 +612,25 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "reconnaitre-morphologie-a",
       q: "Comment reconnaître une morphologie en A ou pyramide ?",
-      r: "Vos hanches sont plus larges que vos épaules, et votre taille se dessine nettement ; les épaules sont fines. Devant le miroir, une veste cintrée vous va sans retouche, alors que les jupes droites tirent sur les hanches.",
+      r: "Vos hanches sont plus larges que vos épaules, vos épaules sont fines et votre taille se dessine nettement. Devant le miroir, une veste cintrée vous va sans retouche, quand les jupes droites, elles, tirent sur les hanches.",
       description:
         "Reconnaître une morphologie en A, dite pyramide : des hanches plus larges que les épaules, une taille marquée, des épaules fines. Trois repères simples.",
       chapo:
-        "On l'appelle aussi « pyramide » ou « triangle ». Trois repères suffisent pour s'y reconnaître, dont un devant le miroir.",
+        "On la dit aussi « pyramide » ou « triangle ». Trois repères suffisent pour vous y reconnaître, dont un devant le miroir.",
       sections: [
         {
           titre: "Les trois repères",
           texte: [],
           liste: [
             "Le repère — vos hanches sont plus larges que vos épaules, et votre taille se dessine nettement.",
-            "Le haut — les épaules sont fines.",
-            "Devant le miroir — une veste cintrée vous va sans retouche, alors que les jupes droites tirent.",
+            "Le haut — vos épaules sont fines.",
+            "Devant le miroir — une veste cintrée vous va sans retouche, quand les jupes droites, elles, tirent.",
           ],
         },
         {
           titre: "À ne pas confondre",
           texte: [
-            "La morphologie en V est son contraire : des épaules larges et des hanches plus étroites. La morphologie en 8 a une taille marquée comme le A, mais des épaules et des hanches équilibrées.",
+            "La morphologie en V en est le contraire : des épaules larges, des hanches plus étroites. La morphologie en 8 partage avec le A une taille marquée, mais ses épaules et ses hanches sont équilibrées.",
           ],
         },
         {
@@ -656,28 +656,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "equilibrer-epaules-etroites-hanches",
       q: "Quelle coupe permet d'équilibrer des épaules plus étroites que les hanches ?",
-      r: "La princesse et la trapèze : leur haut structuré élargit la ligne des épaules, et leur jupe s'ouvre dès la taille pour accompagner les hanches. L'équilibre se fait par le haut, jamais en cachant le bas.",
+      r: "La princesse et la trapèze. Leur haut structuré élargit la ligne des épaules, leur jupe s'ouvre dès la taille pour accompagner les hanches. L'équilibre se fait par le haut, jamais en cachant le bas.",
       description:
         "Équilibrer des épaules plus étroites que les hanches : une princesse ou une trapèze, un haut structuré, une jupe qui s'ouvre dès la taille. Conseils MADAMOON.",
       chapo:
-        "Équilibrer une silhouette, ce n'est pas cacher ce qu'on aime moins : c'est donner au reste de quoi répondre. Voici comment.",
+        "Équilibrer une silhouette, ce n'est pas cacher ce qu'on aime moins : c'est donner au reste de quoi répondre. Cela se joue par le haut.",
       sections: [
         {
           titre: "Par le haut, jamais en cachant le bas",
           texte: [
-            "Une encolure bateau ou un bustier droit ajoutent quelques centimètres de ligne aux épaules, et cela suffit à changer toute la proportion. La jupe, elle, n'a rien à démontrer.",
+            "Une encolure bateau ou un bustier droit ajoutent aux épaules quelques centimètres de ligne : il n'en faut pas plus pour changer toute la proportion. La jupe, elle, n'a rien à démontrer.",
           ],
         },
         {
           titre: "Les deux coupes qui le font le mieux",
           texte: [
-            "La princesse, avec son bustier travaillé et l'ampleur de sa jupe, qui répond aux hanches sans y toucher. La trapèze, dont la jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser.",
+            "La princesse, d'abord : un bustier travaillé, et une jupe dont l'ampleur répond aux hanches sans y toucher. La trapèze, ensuite : sa jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser.",
           ],
         },
         {
           titre: "Des épaules qui prennent de la place",
           texte: [
-            "Des épaules dénudées, comme sur Trinity ou Kensington, des bretelles tombantes, comme sur Addison, ou un col carré, comme sur Dolores, élargissent aussi la ligne du haut.",
+            "La ligne du haut s'élargit aussi avec des épaules dénudées, comme sur Trinity ou Kensington, des bretelles tombantes, comme sur Addison, ou un col carré, comme sur Dolores.",
           ],
         },
       ],
@@ -697,22 +697,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-princesse-morphologie-a",
       q: "Une robe de mariée princesse convient-elle à une morphologie en A ?",
-      r: "Oui, c'est l'une des deux coupes à essayer en premier. Tout se joue sur le bustier — broderie, drapé, encolure —, et l'ampleur de la jupe répond aux hanches sans y toucher.",
+      r: "Oui, c'est l'une des deux coupes à essayer en premier. Tout se joue sur le bustier, sa broderie, son drapé, son encolure ; l'ampleur de la jupe, elle, répond aux hanches sans y toucher.",
       description:
         "Robe de mariée princesse et morphologie en A : l'une des deux coupes à essayer en premier. Pourquoi elle fonctionne, et les princesses de MADAMOON, Paris.",
       chapo:
-        "La princesse est faite pour une morphologie en A : elle travaille le haut et laisse la jupe faire le reste.",
+        "La princesse est faite pour une morphologie en A : tout son travail se porte sur le haut, et la jupe fait le reste.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Le bustier retient le regard : il est brodé, drapé, structuré. La jupe, ample, répond aux hanches sans les souligner — elle ne les épouse pas, elle les accompagne.",
+            "Brodé, drapé, structuré, le bustier retient le regard. La jupe, ample, répond aux hanches sans les souligner : elle ne les épouse pas, elle les accompagne.",
           ],
         },
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "Le bustier d'abord : c'est lui qui fait la robe. Puis l'encolure, qui peut élargir les épaules. Le mikado, matière structurée, donne à la jupe une ampleur nette ; le tulle, une ampleur plus légère.",
+            "Regardez d'abord le bustier : c'est lui qui fait la robe. Puis l'encolure, qui peut élargir les épaules. La matière, enfin : le mikado, structuré, donne à la jupe une ampleur nette ; le tulle, une ampleur plus légère.",
           ],
         },
         {
@@ -744,22 +744,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-trapeze-morphologie-a",
       q: "Une robe trapèze est-elle adaptée à une morphologie en A ?",
-      r: "Oui, c'est l'une des deux coupes à essayer en premier. Sa jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser : c'est la coupe la plus facile à porter une journée entière.",
+      r: "Oui, c'est l'une des deux coupes à essayer en premier. Sa jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser, ce qui en fait la coupe la plus facile à porter une journée entière.",
       description:
         "Robe de mariée trapèze et morphologie en A : l'une des deux coupes à essayer en premier, la plus facile à porter. Les trapèzes de MADAMOON, Paris 10e.",
       chapo:
-        "La trapèze porte bien son nom : elle a déjà la forme d'une silhouette en A, et c'est pour cela qu'elle lui va si naturellement.",
+        "La trapèze porte bien son nom : elle a déjà la forme d'une silhouette en A. De là vient qu'elle lui va si naturellement.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "La jupe s'ouvre dès la taille et suit les hanches sans les mouler. La taille, bien dessinée chez une morphologie en A, reste marquée ; le haut est libre de retenir le regard.",
+            "La jupe s'ouvre dès la taille et suit les hanches sans les mouler. Votre taille, bien dessinée chez une morphologie en A, reste marquée, et le haut garde toute liberté de retenir le regard.",
           ],
         },
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "Le corsage : perlé, brodé ou en dentelle, il équilibre les hanches. Et l'encolure : un décolleté droit, comme sur Nirali, ou un bustier cœur, comme sur Finell, structurent le haut.",
+            "Le corsage, d'abord : perlé, brodé ou en dentelle, il équilibre les hanches. L'encolure, ensuite : un décolleté droit, comme sur Nirali, ou un bustier cœur, comme sur Finell, structurent le haut.",
           ],
         },
         {
@@ -791,28 +791,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-sirene-morphologie-a",
       q: "Peut-on porter une robe sirène avec une morphologie en A ?",
-      r: "Oui, à condition que le haut ait de quoi équilibrer : une manche, une bretelle large, un décolleté travaillé. Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
+      r: "Oui, pourvu que le haut ait de quoi équilibrer : une manche, une bretelle large, un décolleté travaillé. Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
       description:
         "Robe de mariée sirène et morphologie en A : oui, avec un haut qui équilibre — manches, bretelles, décolleté travaillé. Les sirènes de MADAMOON, Paris.",
       chapo:
-        "La sirène épouse les hanches : on la croit déconseillée pour une morphologie en A. Elle se porte pourtant très bien — voici à quelle condition.",
+        "La sirène épouse les hanches, et on la croit pour cela déconseillée pour une morphologie en A. Elle se porte pourtant très bien, à une condition.",
       sections: [
         {
           titre: "Oui, avec un haut qui équilibre",
           texte: [
-            "La sirène souligne les hanches et la taille. Pour qu'elle équilibre la silhouette, le haut doit avoir du poids : une manche, une bretelle large, un décolleté travaillé.",
+            "La sirène souligne les hanches et la taille. Pour que la silhouette trouve son équilibre, il faut donner du poids au haut : une manche, une bretelle large, un décolleté travaillé.",
           ],
         },
         {
           titre: "Elle se juge portée",
           texte: [
-            "Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer. Essayez-la après les princesses et les trapèzes, pour comparer.",
+            "Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer. Essayez-la après les princesses et les trapèzes : vous pourrez comparer.",
           ],
         },
         {
           titre: "Les sirènes de la boutique",
           texte: [
-            "Montana, en satin mat, a des manches longues en dentelle et un dos illusion : un haut qui a de quoi équilibrer. Shiloh associe une dentelle de Chantilly à une jupe en crêpe ; Zina a une fente et des fleurs 3D optionnelles.",
+            "Montana, en satin mat, porte des manches longues en dentelle et un dos illusion : un haut qui a de quoi équilibrer. Shiloh associe une dentelle de Chantilly à une jupe en crêpe ; Zina se distingue par une fente et des fleurs 3D optionnelles.",
           ],
         },
       ],
@@ -832,29 +832,29 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "decollete-elargir-les-epaules",
       q: "Quel décolleté choisir pour élargir visuellement la ligne des épaules ?",
-      r: "Une encolure bateau ou un bustier droit : ils tracent une ligne horizontale qui élargit les épaules. Des épaules dénudées, des bretelles tombantes ou un col carré produisent le même effet.",
+      r: "Une encolure bateau ou un bustier droit : tous deux tracent une ligne horizontale qui élargit les épaules. Des épaules dénudées, des bretelles tombantes ou un col carré donnent le même effet.",
       description:
         "Élargir visuellement les épaules : encolure bateau, bustier droit, épaules dénudées, bretelles tombantes, col carré. Les conseils de la boutique MADAMOON.",
       chapo:
-        "Quelques centimètres de ligne en haut suffisent à changer toute la proportion. Voici les décolletés qui les donnent.",
+        "Quelques centimètres de ligne en haut suffisent à changer toute la proportion. Certains décolletés vous les donnent.",
       sections: [
         {
           titre: "L'encolure bateau et le bustier droit",
           texte: [
-            "Tous deux tracent une ligne horizontale, d'une épaule à l'autre, qui élargit le haut du corps. Ce sont les encolures que la boutique conseille d'abord pour une morphologie en A.",
-            "Aucune robe du catalogue n'est décrite avec une encolure bateau. Nirali, de Watters Designs, a un décolleté droit ; Fortune, un bustier.",
+            "Tous deux tracent, d'une épaule à l'autre, une ligne horizontale qui élargit le haut du corps. Ce sont les encolures que nous vous conseillons d'abord pour une morphologie en A.",
+            "Aucune de nos robes n'est décrite avec une encolure bateau. Nirali, de Watters Designs, a en revanche un décolleté droit ; Fortune, un bustier.",
           ],
         },
         {
           titre: "Les épaules dénudées et les bretelles tombantes",
           texte: [
-            "Elles prolongent la ligne au-delà des épaules. Trinity, Kensington et Dove ont les épaules dénudées ; Addison, des bretelles tombantes amovibles ; Hera, des bretelles tombantes.",
+            "Elles prolongent la ligne au-delà des épaules. Trinity, Kensington et Dove ont les épaules dénudées ; Addison porte des bretelles tombantes amovibles ; Hera, des bretelles tombantes.",
           ],
         },
         {
           titre: "Le col carré",
           texte: [
-            "Plus graphique, il dessine une ligne nette sur le buste. Dolores, Clover Perles et River ont un col ou un décolleté carré.",
+            "Plus graphique, il dessine sur le buste une ligne nette. Dolores, Clover Perles et River ont un col ou un décolleté carré.",
           ],
         },
       ],
@@ -875,28 +875,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "bustier-morphologie-a",
       q: "Un bustier est-il adapté à une morphologie en A ?",
-      r: "Oui, et c'est l'une des encolures que la boutique conseille : un bustier droit trace une ligne qui élargit les épaules, et un bustier travaillé retient le regard en haut. Associé à une jupe évasée, il équilibre les hanches.",
+      r: "Oui, c'est même l'une des encolures que nous conseillons : un bustier droit trace une ligne qui élargit les épaules, un bustier travaillé retient le regard en haut. Associé à une jupe évasée, il équilibre les hanches.",
       description:
         "Robe de mariée bustier et morphologie en A : un bustier droit élargit les épaules, un bustier travaillé retient le regard. Les bustiers de MADAMOON, Paris.",
       chapo:
-        "Un bustier et une jupe évasée : c'est l'association que la boutique conseille d'abord pour une morphologie en A.",
+        "Un bustier et une jupe évasée : c'est l'association que nous vous conseillons d'abord pour une morphologie en A.",
       sections: [
         {
           titre: "Pourquoi il fonctionne",
           texte: [
-            "Un bustier droit trace une ligne horizontale qui élargit les épaules. Un bustier travaillé — brodé, perlé, drapé — retient le regard en haut du corps. Avec une jupe évasée, il équilibre les hanches.",
+            "Un bustier droit trace une ligne horizontale qui élargit les épaules. Un bustier travaillé, qu'il soit brodé, perlé ou drapé, retient le regard en haut du corps. Avec une jupe évasée, il équilibre les hanches.",
           ],
         },
         {
           titre: "Droit, cœur ou corseté",
           texte: [
-            "Le bustier droit élargit le plus la ligne. Le bustier cœur, comme sur Finell, adoucit le buste. Le corset structuré, comme sur Ember ou Guinevere, dessine la taille, bien marquée chez une morphologie en A.",
+            "Le bustier droit est celui qui élargit le plus la ligne. Le bustier cœur, comme sur Finell, adoucit le buste. Le corset structuré, comme sur Ember ou Guinevere, dessine la taille, bien marquée chez une morphologie en A.",
           ],
         },
         {
           titre: "Le maintien",
           texte: [
-            "Un bustier doit tenir sans bretelles : c'est son ajustement qui compte. Les couturières de la boutique l'ajustent sur vous jusqu'au dernier essayage, retouches incluses.",
+            "Un bustier doit tenir sans bretelles : tout repose sur son ajustement. Nos couturières l'ajustent sur vous, jusqu'au dernier essayage, retouches incluses.",
           ],
         },
       ],
@@ -916,21 +916,21 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-attirer-le-regard-haut-du-corps",
       q: "Comment choisir une robe qui attire le regard vers le haut du corps ?",
-      r: "Concentrez le travail de la robe en haut : un corsage brodé, perlé ou drapé, une encolure qui élargit les épaules, des manches ou des bretelles qui comptent. La jupe, plus simple, laisse le regard monter.",
+      r: "Choisissez une robe dont le travail se concentre en haut : un corsage brodé, perlé ou drapé, une encolure qui élargit les épaules, des manches ou des bretelles qui comptent. La jupe, plus simple, laisse le regard monter.",
       description:
         "Attirer le regard vers le haut du corps : un corsage brodé ou perlé, une encolure qui élargit, des manches. Les conseils de la boutique MADAMOON, Paris 10e.",
       chapo:
-        "Le regard va où la robe travaille. Pour une morphologie en A, tout l'enjeu est de le porter vers le haut.",
+        "Le regard se pose là où la robe travaille. Pour une morphologie en A, tout l'enjeu est de le porter vers le haut.",
       sections: [
         {
           titre: "Le travail en haut, la simplicité en bas",
           texte: [
-            "Une robe dont le corsage est brodé, perlé ou drapé et dont la jupe reste simple fait monter le regard d'elle-même. C'est le principe de la princesse et de la trapèze.",
+            "Un corsage brodé, perlé ou drapé, une jupe qui reste simple : la robe fait alors monter le regard d'elle-même. C'est le principe de la princesse et de la trapèze.",
           ],
         },
         {
           titre: "Les détails qui retiennent le regard",
-          texte: ["Dans le catalogue de la boutique :"],
+          texte: ["Parmi les robes de notre boutique :"],
           liste: [
             "un corsage perlé, comme sur Emerald ou Carrie ;",
             "des broderies, comme sur Fern, en mikado brodé de fleurs de perles ;",
@@ -941,7 +941,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Le jour J",
           texte: [
-            "Un conseil : la coiffure et les bijoux jouent le même rôle. Un chignon dégage les épaules, des boucles d'oreilles portent le regard au visage.",
+            "La coiffure et les bijoux jouent le même rôle, pensez-y : un chignon dégage les épaules, des boucles d'oreilles portent le regard au visage.",
           ],
         },
       ],
@@ -965,24 +965,24 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Quel corsage pour une silhouette en A : brodé, perlé, drapé ou corseté, avec une ligne droite ou carrée. Les corsages des robes MADAMOON, Paris 10e.",
       chapo:
-        "Le corsage est la partie de la robe qui travaille le plus pour une morphologie en A. Voici comment le choisir.",
+        "Pour une morphologie en A, le corsage est la partie de la robe qui travaille le plus. Il mérite d'être choisi avec soin.",
       sections: [
         {
           titre: "Un décor qui retient le regard",
           texte: [
-            "Brodé, perlé ou drapé, le corsage donne au haut du corps de quoi retenir le regard. Emerald et Carrie ont un corsage perlé, Maribel un corsage brodé à la main, Dove un décolleté drapé.",
+            "Brodé, perlé ou drapé, le corsage donne au haut du corps de quoi retenir le regard. Emerald et Carrie ont un corsage perlé ; Maribel, un corsage brodé à la main ; Dove, un décolleté drapé.",
           ],
         },
         {
           titre: "Une construction qui dessine",
           texte: [
-            "Un corset structuré marque la taille, déjà bien dessinée chez une morphologie en A, et tient le buste. Ember a un corset structuré, Guinevere et Santana une taille basque qui descend en pointe.",
+            "Un corset structuré tient le buste et marque la taille, déjà bien dessinée chez une morphologie en A. Ember a un corset structuré ; Guinevere et Santana, une taille basque qui descend en pointe.",
           ],
         },
         {
           titre: "Une ligne qui élargit",
           texte: [
-            "La ligne du haut du corsage compte autant que son décor : droite, comme sur Nirali, ou carrée, comme sur Dolores, elle élargit les épaules.",
+            "Le haut du corsage compte autant par sa ligne que par son décor : droite, comme sur Nirali, ou carrée, comme sur Dolores, elle élargit les épaules.",
           ],
         },
       ],
@@ -1002,7 +1002,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-hanches-larges",
       q: "Quelle robe de mariée choisir quand les hanches sont plus larges que les épaules ?",
-      r: "Une robe dont la jupe s'ouvre dès la taille et suit les hanches sans les mouler — une princesse ou une trapèze —, avec un haut travaillé qui équilibre. Rien à cacher : la jupe accompagne les hanches, le haut fait le reste.",
+      r: "Une princesse ou une trapèze : une robe dont la jupe s'ouvre dès la taille et suit les hanches sans les mouler, avec un haut travaillé qui équilibre. Rien à cacher : la jupe accompagne les hanches, le haut fait le reste.",
       description:
         "Robe de mariée pour des hanches plus larges que les épaules : une jupe qui s'ouvre dès la taille, un haut travaillé. Princesse ou trapèze chez MADAMOON.",
       chapo:
@@ -1011,19 +1011,19 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Une jupe qui accompagne",
           texte: [
-            "La jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser. La princesse le fait avec ampleur, la trapèze avec une ligne en A plus légère.",
+            "La jupe s'ouvre dès la taille et suit les hanches au lieu de les épouser. La princesse y met de l'ampleur ; la trapèze, une ligne en A plus légère.",
           ],
         },
         {
           titre: "Une matière qui tombe",
           texte: [
-            "Un tulle léger ou une dentelle donnent une jupe aérienne qui ne marque pas ; un mikado, une jupe structurée qui garde sa forme. Un satin très fin, qui colle, se juge à l'essayage.",
+            "Un tulle léger ou une dentelle donnent une jupe aérienne, qui ne marque pas ; un mikado, une jupe structurée, qui garde sa forme. Quant au satin très fin, qui colle, il se juge à l'essayage.",
           ],
         },
         {
           titre: "Un haut qui équilibre",
           texte: [
-            "Le haut fait l'autre moitié du travail : un bustier travaillé, une encolure qui élargit les épaules, des manches ou des bretelles qui comptent.",
+            "L'autre moitié du travail revient au haut : un bustier travaillé, une encolure qui élargit les épaules, des manches ou des bretelles qui comptent.",
           ],
         },
       ],
@@ -1043,11 +1043,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "premieres-coupes-morphologie-a",
       q: "Quelles coupes essayer en premier quand on a une morphologie en A ?",
-      r: "La princesse et la trapèze, avec un haut travaillé et une encolure qui élargit les épaules. Ensuite, une fluide et une deux en un, pour comparer — et une sirène si l'envie est là.",
+      r: "La princesse et la trapèze, avec un haut travaillé et une encolure qui élargit les épaules. Viennent ensuite une fluide et une deux en un, pour comparer, puis une sirène si l'envie est là.",
       description:
         "Morphologie en A : quelles coupes essayer en premier ? La princesse et la trapèze, puis une fluide et une deux en un pour comparer. Les conseils MADAMOON.",
       chapo:
-        "L'ordre des essayages aide à comprendre ce qui vous va, et pourquoi. Voici celui que la boutique conseille pour une morphologie en A.",
+        "L'ordre des essayages aide à comprendre ce qui vous va, et pourquoi. Pour une morphologie en A, nous vous conseillons celui-ci.",
       sections: [
         {
           titre: "L'ordre des essayages",
@@ -1063,13 +1063,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Et la sirène",
           texte: [
-            "Elle n'est pas dans la liste de départ, mais elle vaut l'essai si elle vous attire, avec un haut qui équilibre. Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
+            "Elle ne figure pas dans la liste de départ, mais vaut l'essai si elle vous attire, à condition d'un haut qui équilibre. Beaucoup de mariées en A repartent avec une sirène qu'elles n'avaient pas prévu d'essayer.",
           ],
         },
         {
           titre: "Venir préparée",
           texte: [
-            "Gardez vos robes préférées dans vos coups de cœur et dites-le en réservant : elles seront prêtes à votre arrivée.",
+            "Gardez vos robes préférées dans vos coups de cœur et dites-le-nous en réservant : elles seront prêtes à votre arrivée.",
           ],
         },
       ],
@@ -1090,23 +1090,23 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "quelle-robe-de-mariee-morphologie-h",
       q: "Quelle robe de mariée choisir pour une morphologie en H ?",
-      r: "Commencez par les fluides et les sirènes légères : cintrée à la taille ou portée avec une ceinture, la fluide marque là où vous le décidez ; la sirène crée la courbe au lieu de la chercher. La trapèze et la princesse valent aussi l'essai.",
+      r: "Commencez par les fluides et les sirènes légères. Cintrée à la taille ou portée avec une ceinture, la fluide marque là où vous le décidez ; la sirène, elle, crée la courbe au lieu de la chercher. La trapèze et la princesse valent aussi l'essai.",
       description:
         "Robe de mariée et morphologie en H : fluide et sirène légère en premier, une taille marquée par la coupe. Les conseils de la boutique MADAMOON, Paris 10e.",
       chapo:
-        "Créer la courbe plutôt que la chercher : avec une morphologie en H, c'est la coupe qui la dessine. Voici par où commencer.",
+        "Créer la courbe plutôt que la chercher : avec une morphologie en H, c'est la coupe qui la dessine. Reste à savoir par où commencer.",
       sections: [
         {
           titre: "Les deux coupes à essayer en premier",
           texte: [
-            "La fluide, cintrée à la taille ou portée avec une ceinture, marque là où vous le décidez, et nulle part ailleurs.",
-            "La sirène dessine ce qui ne se voit pas encore : ajustée jusqu'aux cuisses puis évasée, elle crée la courbe au lieu de la souligner.",
+            "Cintrée à la taille ou portée avec une ceinture, la fluide marque là où vous le décidez, et nulle part ailleurs.",
+            "La sirène dessine ce qui ne se voit pas encore. Ajustée jusqu'aux cuisses, puis évasée, elle crée la courbe au lieu de la souligner.",
           ],
         },
         {
           titre: "Celles qui valent l'essai",
           texte: [
-            "La trapèze ouvre sa jupe à partir d'une taille haute et donne du mouvement là où la ligne est droite. La princesse, avec son corset et son ampleur, construit une taille.",
+            "La trapèze ouvre sa jupe à partir d'une taille haute : elle met du mouvement là où la ligne est droite. La princesse, par son corset et son ampleur, construit une taille.",
           ],
         },
         {
@@ -1132,17 +1132,17 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "reconnaitre-morphologie-h",
       q: "Comment reconnaître une morphologie en H ?",
-      r: "Vos épaules, votre taille et vos hanches sont sur une même ligne droite et verticale, et la taille est peu marquée. Devant le miroir, une simple ceinture change toute votre ligne — plus nettement que sur d'autres morphologies.",
+      r: "Vos épaules, votre taille et vos hanches suivent une même ligne droite et verticale, et la taille est peu marquée. Devant le miroir, une simple ceinture change toute votre ligne, plus nettement que sur d'autres morphologies.",
       description:
         "Reconnaître une morphologie en H : épaules, taille et hanches sur une même ligne, une taille peu marquée, une allure longiligne. Trois repères simples.",
       chapo:
-        "Une ligne droite, une allure longiligne : trois repères suffisent pour s'y reconnaître, dont un devant le miroir.",
+        "Une ligne droite, une allure longiligne : trois repères suffisent pour vous y reconnaître, dont un devant le miroir.",
       sections: [
         {
           titre: "Les trois repères",
           texte: [],
           liste: [
-            "Le repère — épaules, taille et hanches sont sur une même ligne droite et verticale.",
+            "Le repère — épaules, taille et hanches suivent une même ligne droite et verticale.",
             "La taille — peu marquée.",
             "Devant le miroir — une simple ceinture change toute votre ligne, plus nettement que sur d'autres morphologies.",
           ],
@@ -1150,7 +1150,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "À ne pas confondre",
           texte: [
-            "La morphologie en O a elle aussi une taille peu creusée, mais avec une poitrine généreuse et des courbes. La morphologie en X a des proportions équilibrées comme le H, mais une taille fine et des courbes douces.",
+            "La morphologie en O a, elle aussi, une taille peu creusée, mais elle s'accompagne d'une poitrine généreuse et de courbes. La morphologie en X partage avec le H des proportions équilibrées, mais sa taille est fine et ses courbes douces.",
           ],
         },
         {
@@ -1176,28 +1176,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-taille-peu-marquee",
       q: "Quelle robe choisir quand la taille est peu marquée ?",
-      r: "Une robe qui crée la taille au lieu de la chercher : une fluide cintrée ou ceinturée, une sirène légère, ou un corsage structuré qui dessine la ligne. Ou, au contraire, une robe droite qui assume la ligne longue — c'est un parti pris tout aussi beau.",
+      r: "Une robe qui crée la taille au lieu de la chercher : une fluide cintrée ou ceinturée, une sirène légère, ou un corsage structuré qui dessine la ligne. À l'inverse, une robe droite qui assume la ligne longue est un parti pris tout aussi beau.",
       description:
         "Robe de mariée pour une taille peu marquée : fluide cintrée ou ceinturée, sirène légère, corsage structuré, ou robe droite assumée. Les conseils MADAMOON.",
       chapo:
-        "Une taille peu marquée laisse deux chemins : la dessiner, ou en faire une force. Les deux sont beaux.",
+        "Une taille peu marquée vous laisse deux chemins : la dessiner, ou en faire une force. L'un et l'autre sont beaux.",
       sections: [
         {
           titre: "Dessiner la taille",
           texte: [
-            "Une fluide cintrée à la taille, ou portée avec une ceinture, marque la ligne exactement où vous le voulez. Une sirène légère crée la courbe en s'évasant sous les cuisses. Un corsage structuré, avec une taille basque en pointe, dessine une taille qui n'était pas là.",
+            "Cintrée à la taille ou portée avec une ceinture, une fluide marque la ligne exactement où vous le voulez. Une sirène légère crée la courbe en s'évasant sous les cuisses. Un corsage structuré, avec sa taille basque en pointe, dessine une taille qui n'était pas là.",
           ],
         },
         {
           titre: "Assumer la ligne",
           texte: [
-            "Marquer la taille n'est pas une obligation. Une robe droite, en satin net, sur une ligne longue, met en valeur une silhouette élancée sans rien lui demander.",
+            "Rien ne vous oblige à marquer la taille. Une robe droite, en satin net, sur une ligne longue, met en valeur une silhouette élancée sans rien lui demander.",
           ],
         },
         {
           titre: "Les robes de la boutique",
           texte: [
-            "Monica, en jacquard floral, a une ceinture ; Guinevere et Oksana, un corset à taille basque en pointe ; Dove, une robe fluide en satin mat au décolleté drapé.",
+            "Monica, en jacquard floral, a une ceinture ; Guinevere et Oksana, un corset à taille basque en pointe ; Dove est une robe fluide en satin mat, au décolleté drapé.",
           ],
         },
       ],
@@ -1217,22 +1217,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-fluide-morphologie-h",
       q: "Une robe de mariée fluide convient-elle à une morphologie en H ?",
-      r: "Oui, c'est l'une des deux coupes à essayer en premier. Cintrée à la taille ou portée avec une ceinture, elle marque là où vous le décidez, et son tombé suit la ligne longue d'une silhouette en H.",
+      r: "Oui, c'est l'une des deux coupes à essayer en premier. Cintrée à la taille ou portée avec une ceinture, elle marque là où vous le décidez ; son tombé, lui, suit la ligne longue d'une silhouette en H.",
       description:
         "Robe de mariée fluide et morphologie en H : l'une des deux coupes à essayer en premier, cintrée ou ceinturée. Les robes fluides de MADAMOON, Paris 10e.",
       chapo:
-        "La fluide et la silhouette en H partagent la même qualité : une ligne longue. Voici comment en tirer le meilleur.",
+        "La fluide et la silhouette en H partagent la même qualité : une ligne longue. Autant en tirer le meilleur.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Son tombé suit la ligne longue d'une morphologie en H sans rien forcer. Cintrée à la taille ou portée avec une ceinture, elle marque la taille là où vous le décidez, et nulle part ailleurs.",
+            "Sans rien forcer, son tombé suit la ligne longue d'une morphologie en H. Cintrée à la taille ou portée avec une ceinture, elle marque la taille là où vous le décidez, et nulle part ailleurs.",
           ],
         },
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "La taille : cintrée, ceinturée ou drapée, c'est elle qui crée la courbe. La matière ensuite : un satin mat ou un crêpe tombent net ; une mousseline flotte davantage.",
+            "La taille, d'abord : cintrée, ceinturée ou drapée, c'est elle qui crée la courbe. La matière, ensuite : un satin mat ou un crêpe tombent net, quand une mousseline flotte davantage.",
           ],
         },
         {
@@ -1264,28 +1264,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "ceinture-robe-de-mariee-silhouette-h",
       q: "Une ceinture peut-elle structurer une robe de mariée sur une silhouette en H ?",
-      r: "Oui, et plus nettement que sur d'autres morphologies : sur une silhouette en H, une simple ceinture change toute la ligne. Elle marque la taille là où vous le décidez, sur une fluide comme sur une trapèze.",
+      r: "Oui, et plus nettement que sur d'autres morphologies : sur une silhouette en H, une simple ceinture suffit à changer toute la ligne. Elle marque la taille là où vous le décidez, sur une fluide comme sur une trapèze.",
       description:
         "Ceinture et robe de mariée sur une silhouette en H : elle marque la taille et change toute la ligne. Comment la choisir, avec les robes MADAMOON, Paris.",
       chapo:
-        "C'est le repère du miroir pour une morphologie en H : une ceinture change tout. Voici comment s'en servir.",
+        "C'est le repère du miroir pour une morphologie en H : une ceinture change tout. Encore faut-il savoir où la placer.",
       sections: [
         {
           titre: "Pourquoi elle change tout",
           texte: [
-            "Sur une ligne droite, une ceinture trace l'horizontale qui manquait : elle crée une taille, et la silhouette se partage d'un coup en deux. Sur une morphologie en H, l'effet est plus net que sur toute autre.",
+            "Sur une ligne droite, une ceinture trace l'horizontale qui manquait. Elle crée une taille, et d'un coup la silhouette se partage en deux. Sur une morphologie en H, l'effet est plus net que sur toute autre.",
           ],
         },
         {
           titre: "Où la placer",
           texte: [
-            "À la taille naturelle, elle dessine une courbe ; un peu plus haut, elle allonge les jambes. L'essayage dit où elle tombe le mieux.",
+            "À la taille naturelle, elle dessine une courbe ; un peu plus haut, elle allonge les jambes. C'est l'essayage qui vous dira où elle tombe le mieux.",
           ],
         },
         {
           titre: "Les robes de la boutique",
           texte: [
-            "Monica, de Monica Loretti, en jacquard floral, a une ceinture qui marque la taille. Pour une autre robe, parlez-en à la boutique au moment de l'essayage : c'est elle qui vous dira ce qui est possible.",
+            "Monica, de Monica Loretti, en jacquard floral, a une ceinture qui marque la taille. Pour une autre robe, parlez-nous-en au moment de l'essayage : nous vous dirons ce qui est possible.",
           ],
         },
       ],
@@ -1309,24 +1309,24 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       description:
         "Robe de mariée sirène et morphologie en H : elle crée la courbe au lieu de la chercher. Pourquoi la choisir légère, et les sirènes de MADAMOON, Paris.",
       chapo:
-        "La sirène est la coupe qui dessine des courbes là où il n'y en a pas encore. Pour une morphologie en H, c'est l'une des premières à essayer.",
+        "La sirène dessine des courbes là où il n'y en a pas encore. Pour une morphologie en H, c'est l'une des premières coupes à essayer.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Elle dessine ce qui ne se voit pas encore. Ajustée jusqu'aux cuisses, puis évasée, elle crée une courbe au niveau des hanches et met la taille en évidence par contraste.",
+            "Elle dessine ce qui ne se voit pas encore. Ajustée jusqu'aux cuisses, puis évasée, elle crée une courbe à hauteur des hanches et, par contraste, met la taille en évidence.",
           ],
         },
         {
           titre: "Une sirène légère",
           texte: [
-            "La boutique conseille des sirènes légères pour une morphologie en H : elles dessinent des courbes tout en allongeant la ligne, sans la contraindre. Un corset structuré, quand il y en a un, renforce la taille.",
+            "Pour une morphologie en H, nous vous conseillons des sirènes légères : elles dessinent des courbes tout en allongeant la ligne, sans la contraindre. Un corset structuré, quand la robe en a un, renforce la taille.",
           ],
         },
         {
           titre: "Les sirènes de la boutique",
           texte: [
-            "Meredith, en dentelle en relief ; Riviera, en charmeuse, au corset structuré et aux manches amovibles ; Rowan, fourreau en charmeuse au corset perlé ; Zina, à fente, avec des fleurs 3D optionnelles.",
+            "Meredith, en dentelle en relief ; Riviera, en charmeuse, avec son corset structuré et ses manches amovibles ; Rowan, fourreau en charmeuse au corset perlé ; Zina, à fente, avec ses fleurs 3D optionnelles.",
           ],
         },
       ],
@@ -1346,28 +1346,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-empire-morphologie-h",
       q: "Une robe empire est-elle adaptée à une morphologie en H ?",
-      r: "Très bien. Elle remonte la taille sous la poitrine et allonge tout ce qui suit. Elle mérite un essayage même si l'idée ne vous attirait pas sur photographie. La boutique ne classe pas ses robes en « empire » : ses robes fluides sont les plus proches de cette ligne.",
+      r: "Très bien. Elle remonte la taille sous la poitrine et allonge tout ce qui suit. Elle mérite un essayage, même si l'idée ne vous attirait pas en photographie. Nous ne classons pas nos robes en « empire » : nos robes fluides sont les plus proches de cette ligne.",
       description:
         "Robe de mariée empire et morphologie en H : la taille remonte sous la poitrine et la ligne s'allonge. Pourquoi l'essayer, et les robes qui s'en approchent.",
       chapo:
-        "La coupe empire est l'une de celles que la boutique conseille d'essayer pour une morphologie en H — même quand l'idée ne séduit pas sur photo.",
+        "La coupe empire est l'une de celles que nous vous conseillons d'essayer pour une morphologie en H, même quand l'idée ne séduit pas sur photo.",
       sections: [
         {
           titre: "Ce qu'est une robe empire",
           texte: [
-            "Une robe empire a sa taille placée haut, juste sous la poitrine, et une jupe qui descend ensuite droite ou légèrement évasée.",
+            "Une robe empire place sa taille haut, juste sous la poitrine ; sa jupe descend ensuite droite, ou légèrement évasée.",
           ],
         },
         {
           titre: "Pourquoi elle sert une morphologie en H",
           texte: [
-            "Elle crée une taille là où la ligne n'en marquait pas, en la remontant sous la poitrine, et elle allonge tout ce qui suit. C'est une coupe qui se comprend une fois portée.",
+            "En la remontant sous la poitrine, elle crée une taille là où la ligne n'en marquait pas, et allonge tout ce qui suit. C'est une coupe qui ne se comprend qu'une fois portée.",
           ],
         },
         {
           titre: "Chez MADAMOON",
           texte: [
-            "Le catalogue se range en coupes — sirène, princesse, fluide, trapèze, deux en un — et aucune robe n'y est classée « empire ». Les robes fluides sont celles qui s'en rapprochent le plus. Si c'est cette ligne que vous cherchez, dites-le en prenant rendez-vous.",
+            "Notre sélection s'organise par coupes : sirène, princesse, fluide, trapèze, deux en un. Aucune robe n'y est classée « empire », et les robes fluides sont celles qui s'en rapprochent le plus. Si c'est cette ligne que vous cherchez, dites-le-nous en prenant rendez-vous.",
           ],
         },
       ],
@@ -1387,28 +1387,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "corsage-creer-taille-marquee",
       q: "Quel corsage choisir pour créer une impression de taille marquée ?",
-      r: "Un corsage structuré qui dessine la taille : un corset, surtout avec une taille basque qui descend en pointe, un jeu de coutures, ou un décor qui s'arrête net à la taille. Le contraste entre un corsage travaillé et une jupe plus libre fait le reste.",
+      r: "Un corsage structuré, qui dessine la taille : un corset, surtout lorsque sa taille basque descend en pointe, un jeu de coutures, ou un décor qui s'arrête net à la taille. Le contraste entre un corsage travaillé et une jupe plus libre fait le reste.",
       description:
         "Créer une impression de taille marquée : corset, taille basque en pointe, coutures, décor qui s'arrête à la taille. Les corsages des robes MADAMOON, Paris.",
       chapo:
-        "Une taille peut se construire. Voici les corsages qui la dessinent, même quand la silhouette ne la marque pas.",
+        "Une taille peut se construire. Certains corsages la dessinent, même quand la silhouette ne la marque pas.",
       sections: [
         {
           titre: "Le corset",
           texte: [
-            "Un corset structuré tient le buste et dessine la taille. Ember et Riviera ont un corset structuré ; Carrie, Rowan et Hélène, un corset perlé.",
+            "Un corset structuré tient le buste et dessine la taille. C'est le cas sur Ember et Riviera ; Carrie, Rowan et Hélène ont, elles, un corset perlé.",
           ],
         },
         {
           titre: "La taille basque en pointe",
           texte: [
-            "Elle descend en V sous la taille naturelle et allonge le buste : la taille paraît plus fine par contraste. Guinevere et Oksana ont un corset à taille basque en pointe ; Santana, une taille basque.",
+            "Elle descend en V sous la taille naturelle et allonge le buste : par contraste, la taille paraît plus fine. Guinevere et Oksana ont un corset à taille basque en pointe ; Santana, une taille basque.",
           ],
         },
         {
           titre: "Le contraste",
           texte: [
-            "Un corsage travaillé — perlé, brodé, en dentelle — qui s'arrête net à la taille, au-dessus d'une jupe plus simple, crée une ligne horizontale que l'œil lit comme une taille.",
+            "Un corsage travaillé, perlé, brodé ou en dentelle, qui s'arrête net à la taille au-dessus d'une jupe plus simple : il crée une ligne horizontale que l'œil lit comme une taille.",
           ],
         },
       ],
@@ -1428,28 +1428,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "volume-relief-silhouette-h",
       q: "Comment apporter du volume ou du relief à une silhouette en H ?",
-      r: "Par la coupe — une jupe de princesse ou une sirène qui s'évase —, par la matière — une dentelle en relief, des fleurs 3D, un drapé — ou par les détails — des manches ballon, des rubans. Le relief crée la courbe que la ligne droite ne dessine pas.",
+      r: "Par la coupe, avec une jupe de princesse ou une sirène qui s'évase ; par la matière, avec une dentelle en relief, des fleurs 3D, un drapé ; par les détails, avec des manches ballon ou des rubans. Le relief crée la courbe que la ligne droite ne dessine pas.",
       description:
         "Apporter du volume ou du relief à une silhouette en H : une jupe ample, une dentelle en relief, des fleurs 3D, un drapé, des manches. Les robes MADAMOON.",
       chapo:
-        "Une silhouette en H gagne à ce que la robe apporte ce que la ligne ne donne pas. Voici où trouver le volume et le relief.",
+        "Une silhouette en H gagne à ce que la robe apporte ce que la ligne ne donne pas : du volume, du relief, là où vous les voulez.",
       sections: [
         {
           titre: "Par la coupe",
           texte: [
-            "Une jupe de princesse donne de l'ampleur sous une taille construite. Une sirène, en s'évasant sous les cuisses, crée un volume au bas de la robe et une courbe aux hanches. Alicia et Lovia peuvent se porter en trapèze ou en volume princesse.",
+            "Sous une taille construite, une jupe de princesse donne de l'ampleur. Une sirène, en s'évasant sous les cuisses, crée un volume au bas de la robe et une courbe aux hanches. Alicia et Lovia peuvent se porter en trapèze ou en volume princesse.",
           ],
         },
         {
           titre: "Par la matière",
           texte: [
-            "Une dentelle en relief, comme sur Meredith ; des fleurs 3D, comme sur Zina ; un corset perlé à fleurs en relief, comme sur Hélène ; un drapé, comme celui de Dove. La lumière accroche le relief et donne du modelé à la silhouette.",
+            "Une dentelle en relief, comme sur Meredith ; des fleurs 3D, comme sur Zina ; un corset perlé à fleurs en relief, comme sur Hélène ; un drapé, comme celui de Dove. La lumière accroche ces reliefs et donne du modelé à la silhouette.",
           ],
         },
         {
           titre: "Par les détails",
           texte: [
-            "Des manches ballon, comme sur Ryle, ou des rubans de velours, comme sur Mitra, ajoutent du relief sans changer la coupe.",
+            "Des manches ballon, comme sur Ryle, ou des rubans de velours, comme sur Mitra, suffisent à ajouter du relief sans changer la coupe.",
           ],
         },
       ],
@@ -1469,22 +1469,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-silhouette-longiligne",
       q: "Quelle robe de mariée choisir pour une silhouette longiligne ?",
-      r: "Une robe qui suit la ligne : une fluide au tombé net, une sirène légère, ou une robe droite et minimaliste qui fait de la longueur un parti pris. Si vous voulez des courbes, une taille cintrée ou ceinturée les dessine.",
+      r: "Une robe qui suit la ligne : une fluide au tombé net, une sirène légère, ou une robe droite et minimaliste, qui fait de la longueur un parti pris. Et si vous voulez des courbes, une taille cintrée ou ceinturée les dessine.",
       description:
         "Robe de mariée pour une silhouette longiligne : fluide au tombé net, sirène légère, robe droite minimaliste, ou taille marquée. Les conseils MADAMOON, Paris.",
       chapo:
-        "Une silhouette longiligne a une chance rare : la longueur. La robe peut la célébrer, ou y ajouter des courbes.",
+        "Une silhouette longiligne a une chance rare : la longueur. Votre robe peut la célébrer, ou lui ajouter des courbes.",
       sections: [
         {
           titre: "Célébrer la ligne",
           texte: [
-            "Une robe droite, en satin net, sur une ligne longue, est l'un des plus beaux partis pris qui soient. Les robes minimalistes en crêpe, comme Milan, de Monica Loretti, ou Bondi, de Casablanca Bridal, jouent cette carte.",
+            "Une robe droite, en satin net, sur une ligne longue, est l'un des plus beaux partis pris qui soient. C'est la carte que jouent les robes minimalistes en crêpe, comme Milan, de Monica Loretti, ou Bondi, de Casablanca Bridal.",
           ],
         },
         {
           titre: "Ajouter des courbes",
           texte: [
-            "Une fluide cintrée à la taille, ou portée avec une ceinture, marque la taille. Une sirène légère crée une courbe aux hanches en allongeant encore la ligne.",
+            "Cintrée à la taille ou portée avec une ceinture, une fluide marque la taille. Une sirène légère crée une courbe aux hanches, tout en allongeant encore la ligne.",
           ],
         },
         {
@@ -1510,7 +1510,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-taille-basse-morphologie-h",
       q: "Les robes à taille basse conviennent-elles à une morphologie en H ?",
-      r: "Oui, si vous aimez la ligne longue : une taille basse allonge le buste et joue la silhouette droite au lieu de la contrarier. Elle ne crée pas de taille — pour des courbes, préférez une taille cintrée ou une taille haute.",
+      r: "Oui, si vous aimez la ligne longue : une taille basse allonge le buste et joue la silhouette droite au lieu de la contrarier. Elle ne crée pas de taille ; pour des courbes, préférez-lui une taille cintrée ou une taille haute.",
       description:
         "Robe de mariée à taille basse et morphologie en H : elle allonge le buste et joue la ligne droite. Quand la choisir, et les tailles basses de MADAMOON.",
       chapo:
@@ -1519,13 +1519,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Ce qu'elle fait",
           texte: [
-            "La couture descend sous la taille naturelle, vers les hanches. Le buste paraît plus long, et la jupe part plus bas. Sur une ligne droite, l'effet est élancé et graphique.",
+            "La couture descend sous la taille naturelle, vers les hanches. Le buste paraît plus long, la jupe part plus bas. Sur une ligne droite, l'effet est élancé, graphique.",
           ],
         },
         {
           titre: "Quand la choisir",
           texte: [
-            "Si vous aimez votre ligne longue et voulez la jouer plutôt que la transformer. Si vous cherchez au contraire des courbes, une taille cintrée, une ceinture ou une taille haute empire les dessineront davantage.",
+            "Lorsque vous aimez votre ligne longue et préférez la jouer plutôt que la transformer. Si vous cherchez au contraire des courbes, une taille cintrée, une ceinture ou une taille haute empire les dessineront davantage.",
           ],
         },
         {
@@ -1551,11 +1551,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "premieres-coupes-morphologie-h",
       q: "Quelles coupes essayer en premier pour une morphologie en H ?",
-      r: "La fluide et la sirène légère, qui dessinent des courbes tout en allongeant la ligne. Ensuite, une trapèze et une princesse, pour comparer — et une robe empire si l'occasion se présente.",
+      r: "La fluide et la sirène légère, qui dessinent des courbes tout en allongeant la ligne. Viennent ensuite une trapèze et une princesse, pour comparer, puis une robe empire si l'occasion se présente.",
       description:
         "Morphologie en H : quelles coupes essayer en premier ? La fluide et la sirène légère, puis une trapèze et une princesse pour comparer. Les conseils MADAMOON.",
       chapo:
-        "L'ordre des essayages aide à comprendre ce qui vous va, et pourquoi. Voici celui que la boutique conseille pour une morphologie en H.",
+        "L'ordre des essayages aide à comprendre ce qui vous va, et pourquoi. Pour une morphologie en H, nous vous conseillons celui-ci.",
       sections: [
         {
           titre: "L'ordre des essayages",
@@ -1571,13 +1571,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Et la robe empire",
           texte: [
-            "Elle mérite un essayage, même si l'idée ne vous attirait pas sur photo. Demandez à la boutique les modèles qui s'en approchent.",
+            "Elle mérite un essayage, même si l'idée ne vous attirait pas sur photo. Demandez-nous les modèles qui s'en approchent.",
           ],
         },
         {
           titre: "Venir préparée",
           texte: [
-            "Gardez vos robes préférées dans vos coups de cœur et dites-le en réservant : elles seront prêtes à votre arrivée.",
+            "Gardez vos robes préférées dans vos coups de cœur et dites-le-nous en réservant : elles seront prêtes à votre arrivée.",
           ],
         },
       ],
@@ -1598,7 +1598,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "quelle-robe-de-mariee-morphologie-8",
       q: "Quelle robe de mariée choisir pour une morphologie en 8 ?",
-      r: "Toutes les coupes conviennent : l'équilibre est déjà là, la robe n'a qu'à le suivre. Les sirènes et les fourreaux épousent les courbes, et tout ce qui se cintre à la taille accentue l'équilibre naturel.",
+      r: "Toutes les coupes conviennent : l'équilibre est déjà là, et la robe n'a qu'à le suivre. Les sirènes et les fourreaux épousent vos courbes ; tout ce qui se cintre à la taille souligne cet équilibre naturel.",
       description:
         "Robe de mariée et morphologie en 8 : toutes les coupes conviennent, sirènes et fourreaux en tête, tout ce qui se cintre à la taille. Conseils MADAMOON, Paris.",
       chapo:
@@ -1607,26 +1607,26 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Toutes les coupes conviennent",
           texte: [
-            "Avec des épaules et des hanches qui se répondent et une taille nettement creusée, il n'y a rien à corriger. La sirène, la fluide, la trapèze, la princesse et la deux en un fonctionnent toutes.",
+            "Des épaules et des hanches qui se répondent, une taille nettement creusée : il n'y a rien à corriger. La sirène, la fluide, la trapèze, la princesse et la deux en un vous vont toutes.",
           ],
         },
         {
           titre: "Celles qui suivent les courbes",
           texte: [
-            "Les sirènes et les fourreaux épousent une ligne déjà proportionnée : ajustés jusqu'aux cuisses, ils ne corrigent rien, ils suivent. Le satin sans ornement fonctionne pour la même raison : il ne raconte que la coupe.",
+            "Les sirènes et les fourreaux épousent une ligne déjà proportionnée. Ajustés jusqu'aux cuisses, ils n'ont rien à corriger : ils suivent. Le satin sans ornement vous va pour la même raison, lui qui ne raconte que la coupe.",
           ],
         },
         {
           titre: "Le détail qui prolonge la taille",
           texte: [
-            "Un bustier cœur ou une encolure en V prolonge la taille vers le haut. Ici, tout ce qui se cintre fonctionne.",
+            "Un bustier cœur ou une encolure en V prolonge la taille vers le haut. Sur vous, tout ce qui se cintre tombe juste.",
           ],
         },
       ],
       aRetenir: [
         "Toutes les coupes conviennent.",
-        "Sirènes et fourreaux épousent les courbes.",
-        "Tout ce qui se cintre à la taille fonctionne.",
+        "Sirènes et fourreaux épousent vos courbes.",
+        "Tout ce qui se cintre à la taille vous va.",
       ],
       liens: [
         { href: "/morphologies/8", label: "La morphologie en 8" },
@@ -1639,7 +1639,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "reconnaitre-morphologie-8-sablier",
       q: "Comment reconnaître une morphologie en 8 ou sablier ?",
-      r: "Vos épaules et vos hanches se répondent, et la taille se creuse nettement entre les deux ; les courbes sont marquées et régulières, du haut jusqu'au bas. Devant le miroir, les vêtements cintrés vous flattent, ce sont les coupes droites qui flottent.",
+      r: "Vos épaules et vos hanches se répondent, et votre taille se creuse nettement entre les deux ; vos courbes sont marquées, régulières du haut jusqu'au bas. Devant le miroir, les vêtements cintrés vous flattent, quand les coupes droites flottent.",
       description:
         "Reconnaître une morphologie en 8, dite sablier : épaules et hanches équilibrées, une taille nettement creusée, des courbes marquées. Trois repères simples.",
       chapo:
@@ -1649,21 +1649,21 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
           titre: "Les trois repères",
           texte: [],
           liste: [
-            "Le repère — épaules et hanches se répondent, et la taille se creuse nettement entre les deux.",
-            "Les courbes — elles sont marquées, et régulières du haut jusqu'au bas.",
-            "Devant le miroir — les vêtements cintrés vous flattent, ce sont les coupes droites qui flottent.",
+            "Le repère — vos épaules et vos hanches se répondent, et la taille se creuse nettement entre les deux.",
+            "Les courbes — marquées, elles restent régulières du haut jusqu'au bas.",
+            "Devant le miroir — les vêtements cintrés vous flattent ; les coupes droites, elles, flottent.",
           ],
         },
         {
           titre: "À ne pas confondre",
           texte: [
-            "La morphologie en X lui ressemble beaucoup : épaules et hanches équilibrées, taille fine. La différence tient aux courbes, franchement marquées pour le 8, plus douces pour le X. La morphologie en A a aussi une taille marquée, mais des hanches plus larges que les épaules.",
+            "La morphologie en X lui ressemble beaucoup : épaules et hanches équilibrées, taille fine. Tout se joue dans les courbes, franchement marquées pour le 8, plus douces pour le X. La morphologie en A partage la taille marquée, mais ses hanches sont plus larges que ses épaules.",
           ],
         },
         {
           titre: "Une silhouette, pas une étiquette",
           texte: [
-            "Beaucoup de mariées se trouvent entre deux morphologies. Pour le 8 et le X, les conseils se recoupent largement. Si vous hésitez, Élise, la conseillère du site, vous oriente en trois questions.",
+            "Bien des mariées se situent entre deux morphologies. Pour le 8 et le X, les conseils se recoupent largement. Si vous hésitez encore, Élise, la conseillère du site, vous oriente en trois questions.",
           ],
         },
       ],
@@ -1683,28 +1683,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-taille-marquee",
       q: "Quelle coupe met en valeur une taille marquée ?",
-      r: "Toutes celles qui se cintrent à la taille : la sirène et le fourreau la suivent, la princesse et la trapèze partent d'elle pour s'ouvrir, et une fluide ceinturée la souligne. Un bustier cœur ou une encolure en V prolonge la ligne vers le haut.",
+      r: "Toutes celles qui se cintrent à la taille. La sirène et le fourreau la suivent, la princesse et la trapèze partent d'elle pour s'ouvrir, une fluide ceinturée la souligne. Un bustier cœur ou une encolure en V prolonge la ligne vers le haut.",
       description:
         "Mettre en valeur une taille marquée : sirène, fourreau, princesse, trapèze ou fluide ceinturée, un bustier cœur ou un V. Les conseils de la boutique MADAMOON.",
       chapo:
-        "Une taille marquée est un atout que presque toutes les coupes savent mettre en valeur. Voici comment chacune s'y prend.",
+        "Une taille marquée est un atout, et presque toutes les coupes savent le mettre en valeur. Chacune s'y prend à sa manière.",
       sections: [
         {
           titre: "Celles qui la suivent",
           texte: [
-            "La sirène et le fourreau épousent la taille et les hanches : ils suivent une ligne déjà dessinée, sans rien ajouter.",
+            "La sirène et le fourreau épousent la taille et les hanches. Ils suivent une ligne déjà dessinée, et n'y ajoutent rien.",
           ],
         },
         {
           titre: "Celles qui partent d'elle",
           texte: [
-            "La princesse cintre son bustier à la taille et lance son ampleur de là : le contraste est net. La trapèze part de la taille, déjà le point le plus étroit, et s'ouvre en A.",
+            "La princesse cintre son bustier à la taille, et c'est de là que naît son ampleur : le contraste est net. La trapèze part de la taille, votre point le plus étroit, et s'ouvre en A.",
           ],
         },
         {
           titre: "Celles qui la soulignent",
           texte: [
-            "Une fluide portée avec une ceinture ou coupée à la taille garde la ligne tout en laissant respirer. Monica, en jacquard floral, a une ceinture ; Guinevere, un corset à taille basque en pointe.",
+            "Portée avec une ceinture ou coupée à la taille, une fluide garde la ligne tout en vous laissant respirer. Monica, en jacquard floral, a une ceinture ; Guinevere, un corset à taille basque en pointe.",
           ],
         },
       ],
@@ -1724,22 +1724,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-sirene-morphologie-8",
       q: "Une robe sirène est-elle adaptée à une morphologie en 8 ?",
-      r: "Oui, c'est l'une des coupes qui lui vont le mieux. Ajustée jusqu'aux cuisses, elle épouse une ligne déjà proportionnée : elle ne corrige rien, elle suit.",
+      r: "Oui, c'est l'une des coupes qui lui vont le mieux. Ajustée jusqu'aux cuisses, la sirène épouse une ligne déjà proportionnée : elle n'a rien à corriger, seulement à suivre.",
       description:
         "Robe de mariée sirène et morphologie en 8 : elle épouse une ligne déjà proportionnée, sans rien corriger. Les sirènes de la boutique MADAMOON, Paris 10e.",
       chapo:
-        "La sirène et la silhouette en 8 sont faites l'une pour l'autre : la robe n'a qu'à suivre ce qui est déjà là.",
+        "La sirène et la silhouette en 8 s'entendent d'emblée : la robe n'a qu'à suivre ce qui est déjà là.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Elle épouse la poitrine, la taille et les hanches, puis s'évase sous les cuisses. Sur une silhouette en 8, elle n'a rien à créer : elle suit une ligne déjà proportionnée.",
+            "La sirène épouse la poitrine, la taille et les hanches, puis s'évase sous les cuisses. Sur une silhouette en 8, elle n'a rien à créer : la ligne est déjà proportionnée, elle la suit.",
           ],
         },
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "La matière : un satin sans ornement ne raconte que la coupe ; une dentelle ajoute du décor sans rien changer à la ligne. Et le point où s'évase la jupe, qui se juge à l'essayage.",
+            "La matière, d'abord : un satin sans ornement ne raconte que la coupe, quand une dentelle ajoute du décor sans rien changer à la ligne. Puis le point où la jupe s'évase, qui se juge à l'essayage.",
           ],
         },
         {
@@ -1765,35 +1765,35 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-fourreau-silhouette-8",
       q: "Une robe fourreau convient-elle à une silhouette en 8 ?",
-      r: "Oui, très bien. Comme la sirène, le fourreau épouse les courbes d'une ligne déjà proportionnée ; il descend ensuite plus droit, sans s'évaser. Dans le catalogue, les fourreaux sont rangés avec les sirènes.",
+      r: "Oui, très bien. Comme la sirène, le fourreau épouse les courbes d'une ligne déjà proportionnée, puis descend plus droit, sans s'évaser. Chez nous, vous trouverez les fourreaux parmi les sirènes.",
       description:
         "Robe de mariée fourreau et silhouette en 8 : il épouse les courbes et descend droit. Ce qu'il faut savoir, et les fourreaux de MADAMOON, Paris 10e.",
       chapo:
-        "Le fourreau est la coupe la plus près du corps. Pour une silhouette en 8, c'est une évidence — voici ce qu'il faut regarder.",
+        "Le fourreau est la coupe la plus près du corps. Pour une silhouette en 8, c'est une évidence ; reste à savoir quoi regarder.",
       sections: [
         {
           titre: "Ce qu'est un fourreau",
           texte: [
-            "Une robe ajustée qui suit le corps de la poitrine aux hanches, puis descend droit ou presque jusqu'au sol. Là où la sirène s'évase sous les cuisses, le fourreau garde sa ligne.",
+            "C'est une robe ajustée, qui suit le corps de la poitrine aux hanches puis descend droit, ou presque, jusqu'au sol. Là où la sirène s'évase sous les cuisses, le fourreau garde sa ligne.",
           ],
         },
         {
           titre: "Pourquoi il fonctionne",
           texte: [
-            "Il épouse les courbes sans rien ajouter ni corriger. Sur une silhouette en 8, aux courbes marquées et régulières, il met tout en valeur à la fois.",
+            "Il épouse les courbes sans rien ajouter, sans rien corriger. Sur une silhouette en 8, aux courbes marquées et régulières, il met tout en valeur à la fois.",
           ],
         },
         {
           titre: "Les fourreaux de la boutique",
           texte: [
-            "Le catalogue les range avec les sirènes. Siddalee, de Watters Designs, est un fourreau à motifs floraux en tulle pailleté, à longue traîne ; Rowan, un fourreau en charmeuse au corset perlé ; Bella, de Casablanca Bridal, se porte en sirène ou en fourreau.",
+            "Vous les trouverez chez nous parmi les sirènes. Siddalee, de Watters Designs, est un fourreau à motifs floraux en tulle pailleté, à longue traîne ; Rowan, un fourreau en charmeuse au corset perlé ; Bella, de Casablanca Bridal, se porte en sirène comme en fourreau.",
           ],
         },
       ],
       aRetenir: [
         "Oui : il épouse les courbes.",
         "Plus droit que la sirène, sans évasement.",
-        "Rangé avec les sirènes au catalogue.",
+        "À découvrir chez nous parmi les sirènes.",
       ],
       liens: [
         { href: "/robes/siddalee", label: "Siddalee" },
@@ -1806,7 +1806,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-princesse-morphologie-8",
       q: "Une robe princesse peut-elle mettre en valeur une morphologie en 8 ?",
-      r: "Oui. Le bustier se cintre à la taille et l'ampleur part de là : le contraste est net, et c'est tout l'effet recherché. Elle demande simplement de la place — pensez au lieu et à la journée.",
+      r: "Oui. Le bustier se cintre à la taille et l'ampleur part de là : le contraste est net, c'est tout l'effet recherché. La princesse demande seulement de la place ; pensez au lieu et à la journée.",
       description:
         "Robe de mariée princesse et morphologie en 8 : un bustier cintré, une ampleur qui part de la taille, un contraste net. Les princesses de MADAMOON, Paris.",
       chapo:
@@ -1815,13 +1815,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Le bustier se cintre à la taille et l'ampleur part de là. Le contraste entre la taille, déjà marquée, et le volume de la jupe est net : c'est tout l'effet recherché.",
+            "Le bustier se cintre à la taille, et c'est de là que part l'ampleur. Entre votre taille, déjà marquée, et le volume de la jupe, le contraste est net : c'est tout l'effet recherché.",
           ],
         },
         {
           titre: "Ce qu'elle demande",
           texte: [
-            "De la place. Une jupe de princesse occupe l'espace : pensez au lieu de la cérémonie, aux escaliers, à la voiture, à la journée entière. Une deux en un, dont la surjupe s'enlève, peut être un bon compromis.",
+            "De la place. Une jupe de princesse occupe l'espace : songez au lieu de la cérémonie, aux escaliers, à la voiture, à la journée entière. Une deux en un, dont la surjupe s'enlève, offre parfois un bon compromis.",
           ],
         },
         {
@@ -1847,33 +1847,33 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "decollete-epaules-hanches-equilibrees",
       q: "Quel décolleté choisir pour une silhouette aux épaules et hanches équilibrées ?",
-      r: "Un bustier cœur ou une encolure en V : ils prolongent la taille vers le haut et dessinent la poitrine. Avec des épaules et des hanches équilibrées, rien n'est à compenser — le décolleté se choisit surtout selon le style et la saison.",
+      r: "Un bustier cœur ou une encolure en V : tous deux prolongent la taille vers le haut et dessinent la poitrine. Avec des épaules et des hanches équilibrées, rien n'est à compenser, et le décolleté se choisit surtout selon le style et la saison.",
       description:
         "Décolleté pour une silhouette aux épaules et hanches équilibrées : bustier cœur ou V en tête, puis selon le style. Les conseils de la boutique MADAMOON.",
       chapo:
-        "Quand les proportions sont équilibrées, le décolleté n'a rien à corriger. Il peut donc se choisir pour ce qu'il dit.",
+        "Quand les proportions sont équilibrées, le décolleté n'a rien à corriger. Vous pouvez le choisir pour ce qu'il dit.",
       sections: [
         {
           titre: "Le cœur et le V",
           texte: [
-            "Ils prolongent la ligne de la taille vers le haut et dessinent la poitrine. C'est le détail que la boutique conseille d'abord pour une morphologie en 8. Finell a un bustier cœur ; Emerald, Monica et Livia, un décolleté en V.",
+            "Ils prolongent la ligne de la taille vers le haut et dessinent la poitrine. C'est le premier détail que nous vous conseillons pour une morphologie en 8. Finell a un bustier cœur ; Emerald, Monica et Livia, un décolleté en V.",
           ],
         },
         {
           titre: "Les autres options",
           texte: [
-            "Des épaules dénudées, comme sur Trinity ou Kensington, découvrent les épaules ; un col carré, comme sur Dolores, est plus graphique ; un col montant, comme sur Chastity, plus couvert. Rien n'est à éviter : tout dépend du style.",
+            "Des épaules dénudées, comme sur Trinity ou Kensington, découvrent les épaules ; un col carré, comme sur Dolores, se fait plus graphique ; un col montant, comme sur Chastity, plus couvert. Rien n'est à éviter : tout est affaire de style.",
           ],
         },
         {
           titre: "Choisir selon le style",
           texte: [
-            "La saison, le lieu et l'ambiance du mariage comptent davantage que la morphologie. Un col montant et des manches pour l'hiver, des épaules nues pour l'été.",
+            "La saison, le lieu et l'ambiance de votre mariage comptent ici davantage que la morphologie. Un col montant et des manches pour l'hiver, des épaules nues pour l'été.",
           ],
         },
       ],
       aRetenir: [
-        "Un bustier cœur ou un V en tête.",
+        "D'abord un bustier cœur ou un V.",
         "Rien n'est à compenser.",
         "Le style et la saison décident.",
       ],
@@ -1888,28 +1888,28 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-cintree-confortable",
       q: "Comment choisir une robe cintrée sans perdre en confort ?",
-      r: "Une robe cintrée confortable tient à trois choses : une matière qui accompagne le corps, comme un crêpe ou une mousseline stretch ; un corset ajusté sur vous plutôt que serré ; et un essayage où l'on bouge. Chez MADAMOON, l'ajustement se fait jusqu'au dernier essayage, retouches incluses.",
+      r: "Une robe cintrée confortable tient à trois choses : une matière qui accompagne le corps, comme un crêpe ou une mousseline stretch ; un corset ajusté sur vous plutôt que serré ; un essayage où vous bougez. Chez MADAMOON, l'ajustement se poursuit jusqu'au dernier essayage, retouches incluses.",
       description:
         "Une robe de mariée cintrée et confortable : une matière stretch, un corset ajusté sur vous, un essayage où l'on bouge. Les conseils de la boutique MADAMOON.",
       chapo:
-        "Une robe cintrée se porte douze heures, pas seulement le temps d'une photo. Voici comment ne pas choisir entre l'allure et le confort.",
+        "Une robe cintrée se porte douze heures, pas seulement le temps d'une photo. Vous n'avez pas à choisir entre l'allure et le confort.",
       sections: [
         {
           titre: "Une matière qui accompagne",
           texte: [
-            "Une matière stretch suit le corps au lieu de le contraindre. Maribel est en mousseline stretch ; Fortune associe un crêpe stretch à de l'organza satin.",
+            "Une matière stretch accompagne le corps plutôt que de le contraindre. Maribel est en mousseline stretch ; Fortune associe un crêpe stretch à de l'organza satin.",
           ],
         },
         {
           titre: "Un corset ajusté, pas serré",
           texte: [
-            "Un corset bien ajusté tient sans comprimer. Chez MADAMOON, la robe est confectionnée à vos mesures, puis ajustée par les couturières jusqu'au dernier essayage, retouches incluses.",
+            "Un corset bien ajusté tient sans comprimer. Chez MADAMOON, votre robe est confectionnée à vos mesures, puis ajustée par les couturières jusqu'au dernier essayage, retouches incluses.",
           ],
         },
         {
           titre: "Un essayage où l'on bouge",
           texte: [
-            "Un conseil : en cabine, asseyez-vous, levez les bras, marchez, faites quelques pas de danse. Une robe qui gêne à l'essayage gênera toute la journée.",
+            "Un conseil : en cabine, asseyez-vous, levez les bras, marchez, esquissez quelques pas de danse. Une robe qui gêne à l'essayage gênera toute la journée.",
           ],
         },
       ],
@@ -1929,11 +1929,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "difference-morphologie-8-morphologie-x",
       q: "Quelle différence entre une morphologie en 8 et une morphologie en X ?",
-      r: "Elles se ressemblent et se confondent souvent : les deux ont des épaules et des hanches équilibrées et une taille marquée. Le 8 a des courbes franchement marquées, le X des courbes plus douces et une taille fine. Les conseils se recoupent largement.",
+      r: "Elles se ressemblent, au point d'être souvent confondues : toutes deux ont des épaules et des hanches équilibrées et une taille marquée. Le 8 a des courbes franchement marquées, le X des courbes plus douces et une taille fine. Les conseils se recoupent largement.",
       description:
         "Morphologie en 8 ou en X : épaules et hanches équilibrées pour les deux, des courbes marquées pour le 8, plus douces pour le X. Comment les distinguer.",
       chapo:
-        "Ce sont les deux morphologies les plus proches. Voici ce qui les distingue — et pourquoi la différence compte peu pour choisir sa robe.",
+        "Ce sont les deux morphologies les plus proches. Elles se distinguent pourtant, même si la différence compte peu pour choisir votre robe.",
       sections: [
         {
           titre: "Ce qu'elles ont en commun",
@@ -1946,13 +1946,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
           texte: [],
           liste: [
             "Le 8 — des courbes marquées, régulières du haut jusqu'au bas ; les coupes droites flottent.",
-            "Le X — des courbes douces plutôt que prononcées, une taille fine ; on hésite entre plusieurs styles en cabine, parce qu'ils vont tous.",
+            "Le X — des courbes douces plutôt que prononcées, une taille fine ; en cabine, on hésite entre plusieurs styles, parce qu'ils vont tous.",
           ],
         },
         {
           titre: "Ce que ça change",
           texte: [
-            "Peu de choses. Pour le 8, les sirènes et les fourreaux épousent des courbes affirmées ; pour le X, la question devient surtout celle du style du mariage. Les deux pages valent la lecture.",
+            "Peu de choses. Pour le 8, les sirènes et les fourreaux épousent des courbes affirmées ; pour le X, la question devient surtout celle du style du mariage. Si vous hésitez, les deux pages valent la lecture.",
           ],
         },
       ],
@@ -1972,7 +1972,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-fluide-morphologie-8",
       q: "Une robe fluide peut-elle convenir à une morphologie en 8 ?",
-      r: "Oui. Portée avec une ceinture ou coupée à la taille, elle garde la ligne tout en laissant respirer. Une fluide toute droite peut flotter là où la taille se creuse, mais une reprise à la taille règle la question en un essayage.",
+      r: "Oui. Portée avec une ceinture ou coupée à la taille, elle garde la ligne tout en vous laissant respirer. Une fluide toute droite peut flotter là où la taille se creuse ; une reprise à la taille y remédie en un essayage.",
       description:
         "Robe de mariée fluide et morphologie en 8 : oui, ceinturée ou coupée à la taille. Comment la choisir, et les robes fluides de MADAMOON, Paris 10e.",
       chapo:
@@ -1981,13 +1981,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Oui, avec une taille marquée",
           texte: [
-            "Portée avec une ceinture ou coupée à la taille, la fluide garde la ligne d'une silhouette en 8 tout en laissant respirer. C'est souvent la plus confortable à porter toute une journée.",
+            "Portée avec une ceinture ou coupée à la taille, la fluide garde la ligne d'une silhouette en 8 et vous laisse respirer. C'est souvent la plus confortable à vivre toute une journée.",
           ],
         },
         {
           titre: "Si elle flotte",
           texte: [
-            "Une coupe droite flotte parfois là où la taille se creuse. Une ceinture ou une reprise à la taille règle la question en un essayage : rien n'est écarté d'avance.",
+            "Une coupe droite flotte parfois là où la taille se creuse. Une ceinture ou une reprise à la taille suffit, en un essayage, à y remédier : rien n'est écarté d'avance.",
           ],
         },
         {
@@ -2013,15 +2013,15 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "details-robe-souligner-la-taille",
       q: "Quels détails de robe soulignent naturellement la taille ?",
-      r: "Une ceinture, une taille basque en pointe, un corset structuré, une couture ou un changement de matière à la taille, et un décolleté cœur ou en V qui prolonge la ligne vers le haut. Sur une taille déjà marquée, un seul suffit.",
+      r: "Une ceinture, une taille basque en pointe, un corset structuré, une couture ou un changement de matière à la taille, et un décolleté cœur ou en V qui prolonge la ligne vers le haut. Sur une taille déjà marquée, un seul de ces détails suffit.",
       description:
         "Les détails qui soulignent la taille : ceinture, taille basque, corset, couture, décolleté cœur ou en V. Avec les robes de la boutique MADAMOON, Paris.",
       chapo:
-        "Une taille marquée n'a pas besoin de grand-chose pour se voir. Voici les détails qui la soulignent, sans en faire trop.",
+        "Une taille marquée n'a pas besoin de grand-chose pour se voir. Quelques détails la soulignent, sans jamais en faire trop.",
       sections: [
         {
           titre: "Les détails de la robe",
-          texte: ["Dans le catalogue de la boutique :"],
+          texte: ["Dans notre sélection, à la boutique :"],
           liste: [
             "une ceinture, comme sur Monica ;",
             "une taille basque en pointe, comme sur Guinevere, Oksana ou Santana ;",
@@ -2038,7 +2038,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Un seul suffit",
           texte: [
-            "Sur une morphologie en 8, la taille se voit déjà. Un détail la souligne ; trois la surchargent. Mieux vaut choisir celui qui vous plaît le plus.",
+            "Sur une morphologie en 8, la taille se voit déjà. Un détail la souligne ; trois la surchargent. Gardez celui qui vous plaît le plus.",
           ],
         },
       ],
@@ -2058,18 +2058,18 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "premieres-coupes-morphologie-8",
       q: "Quelles coupes essayer en premier pour une morphologie en 8 ?",
-      r: "Une sirène ou un fourreau, qui épousent les courbes, puis une princesse pour le contraste. Toutes les coupes vous vont : la suite de l'essayage se joue sur le style du mariage plus que sur la morphologie.",
+      r: "Une sirène ou un fourreau, qui épousent vos courbes, puis une princesse pour le contraste. Toutes les coupes vous vont : la suite de l'essayage tient au style de votre mariage plus qu'à la morphologie.",
       description:
         "Morphologie en 8 : quelles coupes essayer en premier ? Une sirène ou un fourreau, puis une princesse pour le contraste, puis selon le style.",
       chapo:
-        "Quand toutes les coupes vous vont, l'ordre des essayages sert surtout à comparer. Voici celui que la boutique conseille pour une morphologie en 8.",
+        "Quand toutes les coupes vous vont, l'ordre des essayages sert surtout à comparer. Pour une morphologie en 8, nous vous conseillons celui-ci.",
       sections: [
         {
           titre: "L'ordre des essayages",
           texte: [],
           ordonnee: true,
           liste: [
-            "Une sirène ou un fourreau — ils épousent les courbes sans rien corriger.",
+            "Une sirène ou un fourreau — ils épousent vos courbes, sans rien corriger.",
             "Une princesse — pour le contraste entre la taille et la jupe.",
             "Une trapèze — elle part de la taille et s'ouvre de là.",
             "Une fluide ceinturée — souvent la plus confortable.",
@@ -2078,13 +2078,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Puis le style décide",
           texte: [
-            "La deux en un garde l'équilibre dans ses deux versions, avec et sans surjupe. Au-delà, ce sont le lieu, la saison et ce que vous voulez vivre ce jour-là qui tranchent.",
+            "La deux en un garde l'équilibre dans ses deux versions, avec et sans surjupe. Pour le reste, le lieu, la saison et ce que vous souhaitez vivre ce jour-là tranchent.",
           ],
         },
         {
           titre: "Venir préparée",
           texte: [
-            "Gardez vos robes préférées dans vos coups de cœur et dites-le en réservant : elles seront prêtes à votre arrivée.",
+            "Gardez vos robes préférées dans vos coups de cœur et dites-le-nous en réservant : elles seront prêtes à votre arrivée.",
           ],
         },
       ],
@@ -2105,7 +2105,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "quelle-robe-de-mariee-morphologie-x",
       q: "Quelle robe de mariée choisir pour une morphologie en X ?",
-      r: "Toutes les coupes vous vont — c'est la réponse honnête. Sirène, princesse, fluide, trapèze ou deux en un : la question devient celle du style du mariage, et non celle de la morphologie.",
+      r: "Toutes les coupes vous vont, et c'est la réponse honnête. Sirène, princesse, fluide, trapèze ou deux en un : la question n'est plus celle de la morphologie, mais celle du style de votre mariage.",
       description:
         "Robe de mariée et morphologie en X : toutes les coupes vous vont, c'est le style du mariage qui tranche. Les conseils de la boutique MADAMOON, Paris 10e.",
       chapo:
@@ -2114,7 +2114,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Toutes les coupes vous vont",
           texte: [
-            "Des proportions équilibrées, une taille fine, des courbes douces : il n'y a rien à corriger ni à construire. La sirène suit la taille, la princesse en part, la fluide l'accompagne, la trapèze la laisse respirer, la deux en un garde l'équilibre dans ses deux versions.",
+            "Des proportions équilibrées, une taille fine, des courbes douces : il n'y a rien à corriger, rien à construire. La sirène suit la taille, la princesse en part, la fluide l'accompagne, la trapèze la laisse respirer ; la deux en un garde l'équilibre dans ses deux versions.",
           ],
         },
         {
@@ -2126,7 +2126,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Valoriser sans en faire trop",
           texte: [
-            "Avec une silhouette harmonieuse, la robe n'a pas besoin d'en rajouter. Une coupe nette, une belle matière et un seul détail fort suffisent souvent.",
+            "Sur une silhouette harmonieuse, la robe n'a pas à en rajouter. Une coupe nette, une belle matière, un seul détail fort : cela suffit souvent.",
           ],
         },
       ],
@@ -2146,31 +2146,31 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "reconnaitre-morphologie-x",
       q: "Comment reconnaître une morphologie en X ?",
-      r: "Vos épaules et vos hanches sont équilibrées, et votre taille est fine, bien dessinée ; les courbes sont douces plutôt que prononcées. Devant le miroir, vous hésitez entre plusieurs styles en cabine — le plus souvent parce qu'ils vous vont tous.",
+      r: "Vos épaules et vos hanches sont équilibrées, votre taille est fine, bien dessinée, et vos courbes sont douces plutôt que prononcées. En cabine, devant le miroir, vous hésitez entre plusieurs styles : le plus souvent, parce qu'ils vous vont tous.",
       description:
         "Reconnaître une morphologie en X : épaules et hanches équilibrées, une taille fine, des courbes douces. Trois repères simples, dont un en cabine.",
       chapo:
-        "Trois repères suffisent pour s'y reconnaître — et le troisième se vérifie en cabine plus que devant un miroir.",
+        "Trois repères suffisent pour s'y reconnaître. Le troisième se vérifie en cabine, plus que devant un miroir.",
       sections: [
         {
           titre: "Les trois repères",
           texte: [],
           liste: [
-            "Le repère — épaules et hanches sont équilibrées, et la taille est fine, bien dessinée.",
-            "Les courbes — elles sont douces plutôt que prononcées, et la ligne reste harmonieuse.",
-            "Devant le miroir — vous hésitez entre plusieurs styles en cabine, le plus souvent parce qu'ils vous vont tous.",
+            "Le repère — vos épaules et vos hanches sont équilibrées, votre taille est fine, bien dessinée.",
+            "Les courbes — douces plutôt que prononcées ; la ligne, elle, reste harmonieuse.",
+            "Devant le miroir — en cabine, vous hésitez entre plusieurs styles, le plus souvent parce qu'ils vous vont tous.",
           ],
         },
         {
           titre: "À ne pas confondre",
           texte: [
-            "La morphologie en 8 lui ressemble beaucoup, avec des courbes plus franchement marquées. La morphologie en H a aussi des proportions équilibrées, mais une taille peu marquée.",
+            "La morphologie en 8 lui ressemble beaucoup, mais ses courbes sont plus franchement marquées. La morphologie en H partage ces proportions équilibrées, avec une taille peu marquée.",
           ],
         },
         {
           titre: "Une silhouette, pas une étiquette",
           texte: [
-            "Beaucoup de mariées se trouvent entre deux morphologies. Si vous hésitez, Élise, la conseillère du site, vous oriente en trois questions.",
+            "Bien des mariées se situent entre deux morphologies. Si vous hésitez, Élise, la conseillère du site, vous oriente en trois questions.",
           ],
         },
       ],
@@ -2190,11 +2190,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "difference-morphologie-x-morphologie-8",
       q: "Quelle différence entre une morphologie en X et une morphologie en 8 ?",
-      r: "Le X a des courbes douces et une taille fine ; le 8, des courbes franchement marquées. Les deux ont des épaules et des hanches équilibrées, et les conseils se recoupent largement : toutes les coupes leur vont.",
+      r: "Le X a des courbes douces et une taille fine ; le 8, des courbes franchement marquées. Tous deux ont des épaules et des hanches équilibrées, et les conseils se recoupent largement : toutes les coupes leur vont.",
       description:
         "Morphologie en X ou en 8 : une taille fine et des courbes douces pour le X, des courbes marquées pour le 8. Comment savoir si l'on est un X, en cabine.",
       chapo:
-        "Vue depuis le X, la différence avec le 8 tient en un mot : la douceur des courbes. Voici comment s'en assurer.",
+        "Vue depuis le X, la différence avec le 8 tient en un mot : la douceur des courbes. Elle se vérifie en cabine.",
       sections: [
         {
           titre: "Ce qui fait un X",
@@ -2205,13 +2205,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Ce qui fait un 8",
           texte: [
-            "Les mêmes proportions, mais des courbes marquées, régulières du haut jusqu'au bas, et une taille nettement creusée. Les vêtements cintrés flattent, les coupes droites flottent.",
+            "Les mêmes proportions, mais des courbes marquées, régulières du haut jusqu'au bas, et une taille nettement creusée. Les vêtements cintrés flattent ; les coupes droites, elles, flottent.",
           ],
         },
         {
           titre: "Le vérifier en cabine",
           texte: [
-            "Une sirène ou un fourreau le montre vite : sur un 8, ils épousent des courbes affirmées ; sur un X, ils suivent une ligne plus douce. Dans les deux cas, toutes les coupes conviennent — la différence compte peu pour choisir.",
+            "Une sirène ou un fourreau le montre vite : sur un 8, ils épousent des courbes affirmées ; sur un X, ils suivent une ligne plus douce. Dans les deux cas, toutes les coupes conviennent, et la différence compte peu au moment de choisir.",
           ],
         },
       ],
@@ -2231,7 +2231,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "toutes-les-coupes-morphologie-x",
       q: "Une morphologie en X peut-elle porter toutes les coupes de robes de mariée ?",
-      r: "Oui. Sirène, princesse, fluide, trapèze et deux en un : chacune trouve sa raison d'être sur une silhouette en X. Ce n'est pas une formule de politesse — c'est ce que la boutique constate en cabine.",
+      r: "Oui. Sirène, princesse, fluide, trapèze et deux en un : chacune trouve sa raison d'être sur une silhouette en X. Ce n'est pas une formule de politesse, c'est ce que nous constatons en cabine.",
       description:
         "Morphologie en X : oui, toutes les coupes de robes de mariée vous vont. Ce que chacune apporte, et comment choisir quand tout convient. Conseils MADAMOON.",
       chapo:
@@ -2251,7 +2251,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Choisir quand tout convient",
           texte: [
-            "Par le lieu, la saison, et ce que vous voulez pouvoir faire de votre journée. Une traîne de deux mètres sur une plage, un satin lourd en août : la robe doit tenir douze heures, pas seulement la photographie.",
+            "Par le lieu, la saison, et ce que vous voulez pouvoir faire de votre journée. Une traîne de deux mètres sur une plage, un satin lourd en août : votre robe doit tenir douze heures, pas seulement le temps de la photographie.",
           ],
         },
       ],
@@ -2271,22 +2271,22 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-sirene-morphologie-x",
       q: "Une robe sirène met-elle en valeur une morphologie en X ?",
-      r: "Oui. Ajustée puis évasée, elle suit la taille sans avoir à la créer. C'est la coupe qui en dit le plus avec le moins.",
+      r: "Oui. Ajustée puis évasée, la sirène suit la taille sans avoir à la créer. C'est la coupe qui en dit le plus avec le moins.",
       description:
         "Robe de mariée sirène et morphologie en X : elle suit la taille sans avoir à la créer. Ce qu'il faut regarder, et les sirènes de MADAMOON, Paris 10e.",
       chapo:
-        "Sur une silhouette en X, la sirène n'a rien à prouver : elle suit une ligne qui tient déjà. Voici comment la choisir.",
+        "Sur une silhouette en X, la sirène n'a rien à prouver : elle suit une ligne qui tient déjà. Reste à bien la choisir.",
       sections: [
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Ajustée jusqu'aux cuisses, puis évasée, elle épouse une taille fine et des courbes douces sans rien forcer. Elle en dit beaucoup avec très peu.",
+            "Ajustée jusqu'aux cuisses, puis évasée, elle épouse votre taille fine et vos courbes douces sans rien forcer. Elle en dit beaucoup avec très peu.",
           ],
         },
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "Avec des courbes douces, une matière souple — un crêpe, une charmeuse — suit la ligne sans la durcir ; une dentelle ajoute du décor. Le point où s'évase la jupe se juge à l'essayage.",
+            "Sur des courbes douces, une matière souple, crêpe ou charmeuse, suit la ligne sans la durcir ; une dentelle ajoute du décor. Quant au point où la jupe s'évase, il se juge à l'essayage.",
           ],
         },
         {
@@ -2312,7 +2312,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-princesse-silhouette-x",
       q: "Une robe princesse convient-elle à une silhouette en X ?",
-      r: "Oui. L'ampleur part d'une taille déjà fine : le contraste se fait tout seul, sans que la robe ait à forcer. Elle demande simplement de la place, et un lieu qui lui ressemble.",
+      r: "Oui. L'ampleur part d'une taille déjà fine : le contraste se fait tout seul, sans que la robe ait à forcer. La princesse demande seulement de la place, et un lieu qui lui ressemble.",
       description:
         "Robe de mariée princesse et silhouette en X : l'ampleur part d'une taille déjà fine, le contraste se fait seul. Les princesses de MADAMOON, Paris 10e.",
       chapo:
@@ -2321,13 +2321,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Pourquoi elle fonctionne",
           texte: [
-            "Le bustier se cintre sur une taille déjà fine, et l'ampleur part de là. Le contraste entre la taille et la jupe se fait tout seul, sans corset appuyé ni construction.",
+            "Le bustier se cintre sur une taille déjà fine, et c'est de là que part l'ampleur. Entre la taille et la jupe, le contraste se fait tout seul, sans corset appuyé ni construction.",
           ],
         },
         {
           titre: "Ce qu'elle demande",
           texte: [
-            "De la place, et un lieu à sa mesure. Une jupe de princesse occupe l'espace : pensez à la cérémonie, aux escaliers, à la journée entière. La deux en un permet de vivre les deux allures.",
+            "De la place, et un lieu à sa mesure. Une jupe de princesse occupe l'espace : songez à la cérémonie, aux escaliers, à la journée entière. La deux en un vous permet de vivre les deux allures.",
           ],
         },
         {
@@ -2353,7 +2353,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-ajustee-ou-volumineuse",
       q: "Comment choisir entre une robe ajustée et une robe volumineuse ?",
-      r: "Par le lieu, la journée et ce que vous voulez ressentir. Une robe ajustée — sirène, fourreau — est plus libre de ses mouvements et plus moderne ; une robe volumineuse — princesse — est plus cérémonielle et demande de la place. La deux en un permet de vivre les deux.",
+      r: "Par le lieu, la journée et ce que vous voulez ressentir. Une robe ajustée, sirène ou fourreau, vous laisse plus libre de vos mouvements et paraît plus moderne ; une robe volumineuse, la princesse, est plus cérémonielle et demande de la place. La deux en un permet de vivre les deux.",
       description:
         "Robe de mariée ajustée ou volumineuse : sirène et fourreau, ou princesse ? Le lieu, la journée et votre style décident. Les conseils de la boutique MADAMOON.",
       chapo:
@@ -2362,19 +2362,19 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "La robe ajustée",
           texte: [
-            "Sirène ou fourreau, elle suit le corps et laisse bouger librement. Elle passe partout, se porte facilement toute une journée, et donne une allure plus moderne.",
+            "Sirène ou fourreau, elle suit le corps et vous laisse bouger librement. Elle passe partout, se porte sans effort toute une journée, et donne une allure plus moderne.",
           ],
         },
         {
           titre: "La robe volumineuse",
           texte: [
-            "La princesse occupe l'espace et marque la cérémonie. Elle demande de la place — escaliers, voiture, piste de danse — et un lieu qui lui répond.",
+            "La princesse occupe l'espace et marque la cérémonie. Elle demande de la place, dans les escaliers, en voiture, sur la piste de danse, et un lieu qui lui répond.",
           ],
         },
         {
           titre: "Les deux à la fois",
           texte: [
-            "La deux en un réunit les deux : une surjupe pour la cérémonie, une ligne ajustée pour la soirée. Tessa, Clover et Chastity se portent ainsi. Un conseil : essayez une robe de chaque famille, l'une après l'autre ; la comparaison tranche souvent d'elle-même.",
+            "La deux en un réunit les deux : une surjupe pour la cérémonie, une ligne ajustée pour la soirée. Tessa, Clover et Chastity se portent ainsi. Un conseil : essayez une robe de chaque famille, l'une après l'autre ; bien souvent, la comparaison tranche d'elle-même.",
           ],
         },
       ],
@@ -2403,7 +2403,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Le V et le cœur",
           texte: [
-            "Ils prolongent la taille fine vers le haut et dessinent la poitrine. Emerald, Monica et Livia ont un décolleté en V ; Finell, un bustier cœur.",
+            "Tous deux prolongent votre taille fine vers le haut et dessinent la poitrine. Emerald, Monica et Livia ont un décolleté en V ; Finell, un bustier cœur.",
           ],
         },
         {
@@ -2415,7 +2415,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Selon le style et la saison",
           texte: [
-            "Un col montant et des manches pour un mariage d'hiver ou une cérémonie religieuse, des épaules nues pour l'été, un V plongeant pour une soirée. C'est le mariage qui décide.",
+            "Un col montant et des manches pour un mariage d'hiver ou une cérémonie religieuse, des épaules nues pour l'été, un V plongeant pour une soirée. C'est votre mariage qui décide.",
           ],
         },
       ],
@@ -2435,11 +2435,11 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
     {
       slug: "robe-de-mariee-selon-theme-du-mariage",
       q: "Comment choisir une robe de mariée selon le thème du mariage quand on a une morphologie en X ?",
-      r: "Partez du lieu, de la saison et de l'ambiance : toutes les coupes vous allant, ce sont eux qui tranchent. Une princesse pour un château, une fluide pour une cérémonie champêtre, une robe minimaliste pour la mairie, et pas de longue traîne sur une plage.",
+      r: "Partez du lieu, de la saison et de l'ambiance : puisque toutes les coupes vous vont, ce sont eux qui tranchent. Une princesse pour un château, une fluide pour une cérémonie champêtre, une robe minimaliste pour la mairie, et pas de longue traîne sur une plage.",
       description:
         "Choisir sa robe de mariée selon le thème du mariage avec une morphologie en X : château, champêtre, mairie, plage, hiver. Les conseils MADAMOON.",
       chapo:
-        "Quand toutes les coupes vous vont, c'est le mariage lui-même qui choisit la robe. Voici comment le laisser faire.",
+        "Quand toutes les coupes vous vont, c'est le mariage lui-même qui choisit la robe. Il suffit de le laisser faire.",
       sections: [
         {
           titre: "Le lieu",
@@ -2454,13 +2454,13 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "La saison",
           texte: [
-            "Un satin lourd en août se porte mal ; des manches et un col montant tiennent chaud en hiver. La robe doit tenir douze heures, pas seulement la photographie.",
+            "Un satin lourd se porte mal en août ; des manches et un col montant tiennent chaud en hiver. Votre robe doit tenir douze heures, pas seulement le temps de la photographie.",
           ],
         },
         {
           titre: "La journée",
           texte: [
-            "Pensez à ce que vous voulez pouvoir faire : danser, marcher, vous asseoir à table. Une deux en un permet de changer d'allure entre la cérémonie et la soirée.",
+            "Pensez à ce que vous voulez pouvoir faire : danser, marcher, vous asseoir à table. Une deux en un vous laisse changer d'allure entre la cérémonie et la soirée.",
           ],
         },
       ],
@@ -2495,7 +2495,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Ce qu'il faut regarder",
           texte: [
-            "La matière, qui fait toute la robe : un satin mat tombe net, une mousseline flotte, une dentelle ajoute du décor. Une ceinture marque la taille fine si vous le souhaitez.",
+            "La matière, car c'est elle qui fait toute la robe : un satin mat tombe net, une mousseline flotte, une dentelle ajoute du décor. Une ceinture marque la taille fine, si vous le souhaitez.",
           ],
         },
         {
@@ -2529,7 +2529,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
       sections: [
         {
           titre: "Les détails qui la soulignent",
-          texte: ["Dans le catalogue de la boutique :"],
+          texte: ["Dans notre sélection, à la boutique :"],
           liste: [
             "une ceinture, comme sur Monica ;",
             "une taille basque en pointe, comme sur Guinevere ou Santana ;",
@@ -2592,7 +2592,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
         {
           titre: "Venir préparée",
           texte: [
-            "Gardez vos robes préférées dans vos coups de cœur et dites-le en réservant : elles seront prêtes à votre arrivée.",
+            "Gardez vos robes préférées dans vos coups de cœur et dites-le-nous en réservant : elles seront prêtes à votre arrivée.",
           ],
         },
       ],
