@@ -15,11 +15,16 @@ export type Guide = Article & {
   /* La question telle qu'on la tape, et sa réponse courte, en tête. */
   q: string;
   r: string;
+  /* Un chiffre à poser en grand dans le cercle du premier chapitre, sur
+   * ordinateur : le prix de départ, pour le guide des prix. Décoratif —
+   * il redit ce que le texte écrit déjà. Sans lui, une photographie. */
+  chiffre?: { avant: string; valeur: string; apres: string };
 };
 
 export const GUIDES: Guide[] = [
   {
     slug: "prix-robe-de-mariee-paris",
+    chiffre: { avant: "À partir de", valeur: MAISON.prixDepart.replace(/\s*€$/, ""), apres: "euros" },
     titre: "Prix d'une robe de mariée à Paris",
     q: "Combien coûte une robe de mariée à Paris ?",
     r: `Chez MADAMOON, les prix commencent à partir de ${MAISON.prixDepart} pour une confection sur mesure, retouches comprises. Le prix d'une robe de mariée dépend de la maison, de la matière et du travail de confection ; nous vous le donnons au showroom, modèle par modèle.`,

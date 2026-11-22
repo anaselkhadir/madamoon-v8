@@ -1,0 +1,621 @@
+/*
+ * Les guides.
+ *
+ * Deux temps dans cette feuille. D'abord ce que le téléphone et la
+ * tablette gardent de la mise en page des pages de question : presque
+ * tout y vient des classes du site posées dans le balisage, il ne reste
+ * ici que ce qu'elles ne disent pas. Puis, à partir de 1024 px, le
+ * dessin de la référence (madamoon-v7, guide des prix).
+ *
+ * Tout est écrit sous « .page » : deux classes l'emportent sur les
+ * classes du site, quelle que soit l'ordre des feuilles.
+ */
+
+/* ——————————————————————————————————— téléphone et tablette ————— */
+
+.page .titre {
+  max-width: 24ch;
+  font-size: clamp(2.125rem, 4.4vw, 4rem);
+  text-wrap: balance;
+}
+
+.page .reponse {
+  background: var(--color-craie);
+}
+.page .reponseQuestion,
+.page .reponseTexte,
+.page .retenirLigne {
+  color: var(--color-encre);
+}
+.page .retenirBloc {
+  border-color: var(--color-encre);
+}
+.page .tiret {
+  color: var(--color-action);
+}
+
+/* Ce qui n'appartient qu'au dessin d'ordinateur. */
+.page .surtitre,
+.page .descendre,
+.page .ouvertureImage,
+.page .ouverturePied,
+.page .visuel,
+.page .numero,
+.page .filet,
+.page .rang,
+.page .rendezvousOrdi,
+.page .fin {
+  display: none;
+}
+
+/* ——————————————————————————————————————————— ordinateur ————— */
+
+@media (min-width: 1024px) {
+  .page {
+    color: var(--color-encre);
+    background: var(--color-ivoire);
+  }
+
+  /* Les petites mentions en capitales : repères, numéros, pieds. */
+  .page .ouverturePied,
+  .page .numero,
+  .page .fin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: var(--color-plomb);
+  }
+
+  /* Un titre en deux lignes, la seconde en italique. */
+  .page .ligne {
+    display: block;
+  }
+  .page .italique {
+    font-style: italic;
+  }
+
+  /* ——— l'ouverture ——— */
+  .page .ouverture {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.91fr 1.09fr;
+    min-height: min(760px, calc(100svh - 7rem));
+    padding: calc(var(--entete) + clamp(2rem, 5vw, 5rem)) var(--gouttiere) 4rem;
+    overflow: hidden;
+  }
+  .page .ouvertureTexte {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.5rem 0 4rem;
+  }
+  .page .retour {
+    margin-bottom: clamp(2.5rem, 6vw, 5rem);
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: none;
+    color: var(--color-plomb);
+  }
+  .page .retour:hover {
+    color: var(--color-action);
+  }
+  .page .surtitre {
+    display: block;
+    margin: 0 0 1.4rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-plomb);
+  }
+  .page .titre {
+    max-width: none;
+    margin: 0;
+    font-family: var(--font-serif);
+    /* Le corps de la référence, tant que la plus longue ligne tient dans
+     * la colonne ; au-delà, il se réduit à sa mesure. */
+    font-size: max(2.25rem, min(clamp(3.2rem, 6.8vw, 6.2rem), calc(41vw / (var(--n) * 0.37))));
+    font-weight: 400;
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    text-transform: none;
+    text-wrap: balance;
+  }
+  .page .chapo {
+    max-width: 34rem;
+    margin: 2rem 0 0;
+    font-family: var(--font-sans);
+    font-size: clamp(0.94rem, 1.15vw, 1.06rem);
+    line-height: 1.8;
+    color: var(--color-plomb);
+  }
+  .page .descendre {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: clamp(2.5rem, 5vw, 4.5rem);
+    font-size: 0.61rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .page .descendre span {
+    color: var(--color-plomb);
+    font-weight: 600;
+  }
+  .page .descendre b {
+    padding-left: 0.3rem;
+    color: var(--color-plomb);
+    font-size: 1rem;
+    font-weight: 400;
+    transition: transform 0.5s var(--ease-doux);
+  }
+  .page .descendre:hover b {
+    transform: translateY(0.25rem);
+  }
+
+  .page .ouvertureImage {
+    position: relative;
+    display: block;
+    min-height: 540px;
+    margin: 0 -3vw 0 1.5rem;
+  }
+  .page .ouverturePhoto {
+    position: absolute;
+    inset: 0 7% 2% 8%;
+    width: 85%;
+    height: 98%;
+    object-fit: cover;
+  }
+  /* La photographie se fond dans la page par ses quatre bords. */
+  .page .ouvertureImage::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    background:
+      linear-gradient(90deg, var(--color-ivoire) 0%, transparent 25%, transparent 78%, var(--color-ivoire) 100%),
+      linear-gradient(0deg, var(--color-ivoire) 0%, transparent 15%, transparent 88%, var(--color-ivoire) 100%);
+    pointer-events: none;
+  }
+  .page .orbites {
+    position: absolute;
+    z-index: 1;
+    inset: 8% 0 5% 3%;
+    pointer-events: none;
+  }
+  .page .orbites i {
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgb(255 255 255 / 55%);
+    border-radius: 50%;
+    transform: rotate(-24deg) scaleX(0.66);
+  }
+  .page .orbites i:nth-child(2) {
+    inset: 7% -2%;
+    transform: rotate(25deg) scaleX(0.72);
+    border-color: rgb(255 255 255 / 38%);
+  }
+  .page .orbites i:nth-child(3) {
+    inset: 17% -5%;
+    transform: rotate(5deg) scaleX(0.78);
+    border-style: dashed;
+    border-color: rgb(255 255 255 / 42%);
+  }
+  .page .sceau {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: clamp(150px, 18vw, 240px);
+    aspect-ratio: 1;
+    padding: 1rem;
+    border: 1px solid var(--color-encre);
+    border-radius: 50%;
+    background: var(--color-ivoire);
+    text-align: center;
+  }
+  .page .sceau > span,
+  .page .sceau small {
+    font-size: 0.52rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-plomb);
+  }
+  .page .sceau strong {
+    margin: 0.8rem 0;
+    font-family: var(--font-serif);
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    font-weight: 400;
+    line-height: 1.05;
+  }
+  .page .sceau small {
+    letter-spacing: 0.1em;
+  }
+  .page .repere {
+    position: absolute;
+    z-index: 2;
+    right: 7%;
+    bottom: 1%;
+    font-size: 0.56rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--color-plomb);
+  }
+  .page .ouverturePied {
+    position: absolute;
+    right: var(--gouttiere);
+    bottom: 1.35rem;
+    left: var(--gouttiere);
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--color-fil);
+  }
+
+  /* ——— la réponse courte, en bandeau ——— */
+  .page .reponseBord {
+    padding: 0;
+  }
+  .page .reponse {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.75fr) 1fr;
+    gap: 2rem;
+    align-items: baseline;
+    padding: 2rem var(--gouttiere);
+    border-top: 1px solid var(--color-fil);
+    border-bottom: 1px solid var(--color-fil);
+    border-radius: 0;
+    background: var(--color-blanc);
+  }
+  .page .reponseQuestion {
+    margin: 0;
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  .page .reponseTexte {
+    max-width: 70ch;
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--color-plomb);
+  }
+
+  /* ——— les chapitres ——— */
+  .page .corps {
+    padding: 0;
+  }
+  .page .chapitre {
+    margin-top: 0;
+    scroll-margin-top: var(--entete);
+  }
+  .page .numero {
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .page .texteBloc > :global(.texte) {
+    max-width: 47ch;
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--color-plomb);
+  }
+  .page .texteBloc > :global(.texte) + :global(.texte) {
+    margin-top: 1rem;
+  }
+  .page .liste {
+    max-width: 47ch;
+    margin-top: 1.75rem;
+  }
+  .page .liste :global(.texte) {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-encre);
+  }
+  .page .liste .tiret {
+    color: var(--color-plomb);
+  }
+  .page .rendezvousOrdi {
+    display: block;
+    margin-top: 2.25rem;
+  }
+
+  /* 1 · le cercle : un anneau à gauche, le texte à droite. */
+  .page .cercle {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: clamp(3rem, 10vw, 10rem);
+    padding: clamp(7rem, 12vw, 10.5rem) max(var(--gouttiere), calc((100% - 1180px) / 2)) clamp(5rem, 10vw, 9rem);
+    background: var(--color-craie);
+  }
+  .page .cercle .numero {
+    position: absolute;
+    top: clamp(5rem, 10vw, 9rem);
+    left: var(--gouttiere);
+  }
+  .page .cercle .visuel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px;
+  }
+  .page .anneau {
+    position: absolute;
+    width: min(100%, 350px);
+    aspect-ratio: 1;
+    border: 1px solid var(--color-fil);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .page .anneau::after {
+    position: absolute;
+    inset: 8%;
+    border: 1px solid color-mix(in srgb, var(--color-encre) 8%, transparent);
+    border-radius: 50%;
+    content: "";
+  }
+  /* La photographie, ronde, tient dans l'anneau intérieur. */
+  .page .cercle .visuel picture {
+    display: block;
+    width: min(84%, 294px);
+  }
+  .page .cercle .visuelPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .page .chiffre {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .page .chiffre > span,
+  .page .chiffre > b {
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: var(--color-plomb);
+  }
+  .page .chiffre > strong {
+    margin: 0.3rem 0;
+    font-family: var(--font-serif);
+    font-size: clamp(5rem, 11vw, 9rem);
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+  }
+  .page .cercle .ligne {
+    display: inline;
+  }
+  .page .cercle .intertitre {
+    margin: 0 0 1.3rem;
+    font-size: clamp(2rem, 3.5vw, 3.4rem);
+    line-height: 1.02;
+    text-wrap: balance;
+  }
+
+  /* 2 · la photographie : l'image à gauche, bord à bord, le texte à droite. */
+  .page .photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 680px;
+  }
+  .page .photo .visuel {
+    position: relative;
+    display: block;
+    min-height: 550px;
+    overflow: hidden;
+    background: var(--color-sable);
+  }
+  .page .photo .visuelPhoto {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .page .photo .repere {
+    right: 2rem;
+    bottom: 1.5rem;
+    color: #fff;
+    text-shadow: 0 1px 6px rgb(0 0 0 / 55%);
+  }
+  .page .photo .copie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(3rem, 7vw, 7.5rem);
+  }
+  .page .photo .intertitre {
+    margin: 3rem 0 2rem;
+    font-size: max(1.9rem, min(clamp(2.8rem, 5.7vw, 5.4rem), calc(35vw / (var(--n) * 0.37))));
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  /* 3 · la grande phrase : le titre en grand, un filet, le texte. */
+  .page .phrase {
+    position: relative;
+    padding: clamp(5rem, 10vw, 9rem) var(--gouttiere);
+    background: var(--color-craie);
+  }
+  .page .phrase::before {
+    position: absolute;
+    top: 1.75rem;
+    left: var(--gouttiere);
+    font-family: var(--font-serif);
+    font-size: 7rem;
+    line-height: 1;
+    color: rgb(181 150 105 / 55%);
+    content: "“";
+  }
+  .page .phrase .copie {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    column-gap: clamp(2rem, 6vw, 6rem);
+  }
+  .page .phrase .numero {
+    grid-column: 1 / -1;
+    margin-bottom: 2.5rem;
+  }
+  .page .phrase .intertitre {
+    margin: 0;
+    font-size: max(1.9rem, min(clamp(2.2rem, 5.4vw, 5rem), calc(38vw / (var(--n) * 0.37))));
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  .page .phrase .italique {
+    font-style: normal;
+  }
+  .page .phrase .filet {
+    display: block;
+    width: 1px;
+    height: 150px;
+    background: var(--color-fil);
+  }
+
+  /* ——— à retenir ——— */
+  .page .retenir {
+    margin-top: 0;
+    padding: clamp(5rem, 9vw, 8rem) var(--gouttiere);
+    border-top: 1px solid var(--color-fil);
+    background: var(--color-craie);
+  }
+  .page .retenirBloc {
+    padding-top: 0;
+    border-top: 0;
+  }
+  .page .retenirTitre {
+    margin: 2rem 0 3rem;
+    font-family: var(--font-serif);
+    font-size: clamp(2.3rem, 4.5vw, 4.5rem);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--color-encre);
+  }
+  .page .retenirListe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 4rem;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .page .retenirLigne {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-fil);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .page .retenirLigne .tiret {
+    display: none;
+  }
+  .page .rang {
+    display: block;
+    padding-top: 0.3em;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    color: var(--color-plomb);
+  }
+  .page .rendezvousDoigt {
+    display: none;
+  }
+
+  /* Pour aller plus loin : la même liste, où chaque ligne est un lien. */
+  .page .plusLoin {
+    max-width: 1120px;
+    margin: clamp(3.5rem, 6vw, 5rem) auto 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+  .page .plusLoinListe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 4rem;
+    margin-top: 1.5rem;
+  }
+  .page .plusLoinListe li {
+    border-top: 1px solid var(--color-fil);
+  }
+  .page .plusLoinListe a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-encre);
+    text-decoration: none;
+    transition: color 0.3s var(--ease-doux);
+  }
+  .page .plusLoinListe a::after {
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    color: var(--color-plomb);
+    content: "↗";
+    transition: transform 0.4s var(--ease-doux), color 0.3s var(--ease-doux);
+  }
+  .page .plusLoinListe a:hover {
+    color: var(--color-action);
+  }
+  .page .plusLoinListe a:hover::after {
+    color: var(--color-action);
+    transform: translate(0.15rem, -0.15rem);
+  }
+
+  /* ——— les autres guides, la sortie, le pied ——— */
+  .page .autres {
+    border-top: 0;
+  }
+  .page .autresTitre {
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .page .sortie {
+    padding-top: clamp(1rem, 2vw, 2rem);
+  }
+  .page .fin {
+    padding: 1.5rem var(--gouttiere);
+    border-top: 1px solid var(--color-fil);
+  }
+}
+
+@media (min-width: 1024px) and (prefers-reduced-motion: reduce) {
+  .page .descendre b,
+  .page .plusLoinListe a,
+  .page .plusLoinListe a::after {
+    transition: none;
+  }
+}
