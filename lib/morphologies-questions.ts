@@ -842,7 +842,7 @@ export const QUESTIONS_MORPHO: Partial<Record<Lettre, QuestionMorpho[]>> = {
           titre: "L'encolure bateau et le bustier droit",
           texte: [
             "Tous deux tracent, d'une épaule à l'autre, une ligne horizontale qui élargit le haut du corps. Ce sont les encolures que nous vous conseillons d'abord pour une morphologie en A.",
-            "Aucune de nos robes n'est décrite avec une encolure bateau. Nirali, de Watters Designs, a en revanche un décolleté droit ; Fortune, un bustier.",
+            "L'encolure bateau, c'est celle d'Enid, de Bondi, de Pendant et de Zina. Nirali, de Watters Designs, a un décolleté droit ; Fortune, un bustier.",
           ],
         },
         {

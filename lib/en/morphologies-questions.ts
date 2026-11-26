@@ -785,7 +785,7 @@ export const QUESTIONS_MORPHO_EN: Partial<Record<Lettre, QuestionMorpho[]>> = {
           titre: "The bateau neckline and the straight bodice",
           texte: [
             "Both draw a horizontal line from one shoulder to the other, which widens the upper body. They are the necklines the boutique recommends first for an A body shape.",
-            "No dress in the catalogue is described with a bateau neckline. Nirali, by Watters Designs, has a straight neckline; Fortune, a strapless bodice.",
+            "Enid, Bondi, Pendant and Zina have a bateau neckline. Nirali, by Watters Designs, has a straight neckline; Fortune, a strapless bodice.",
           ],
         },
         {

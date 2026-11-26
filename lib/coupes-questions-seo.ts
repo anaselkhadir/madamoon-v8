@@ -77,7 +77,7 @@ export const QUESTIONS_COUPES_SEO: Record<string, QuestionCoupe[]> = {
         {
           titre: "Avec des paillettes ou des strass",
           texte: [
-            "Pour l'éclat, Fancy et Aleida sont des sirènes aux détails scintillants ; Solana, un trapèze aux appliqués de dentelle et sequins mats ; Angel, un trapèze de perles et de paillettes. Aucune de nos princesses, en revanche, n'est décrite avec des strass : autant vous le dire simplement.",
+            "Pour l'éclat, Fancy et Aleida sont des sirènes aux détails scintillants ; Solana, une trapèze aux appliqués de dentelle et sequins mats ; Angel, une trapèze de perles et de paillettes. Aucune de nos princesses, en revanche, n'est décrite avec des strass : autant vous le dire simplement.",
           ],
         },
       ],

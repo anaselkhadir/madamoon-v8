@@ -6,8 +6,8 @@ Base : 13025 expressions  dont 6187 ciblées sur 39 pages (32 construites). Volu
 |---|---:|---:|---:|
 | Verbatim sur la page cible | 181 | 3% | 118 560 |
 | Verbatim quelque part sur le site | 280 | 5% | 149 790 |
-| Vocabulaire complet sur la page cible | 4110 | 66% | 406 490 |
-| **Couvertes (verbatim ou vocabulaire)** | **4111** | **66%** | **406 880** |
+| Vocabulaire complet sur la page cible | 4111 | 66% | 406 490 |
+| **Couvertes (verbatim ou vocabulaire)** | **4112** | **66%** | **406 880** |
 
 ## Par page
 
@@ -28,7 +28,7 @@ Base : 13025 expressions  dont 6187 ciblées sur 39 pages (32 construites). Volu
 | `/en/dresses/` | non | 49 | 0 | 0 | 0 | 7 230 |
 | `/createurs/` | oui | 93 | 2 | 72 | 72 | 6 790 |
 | `/details/bustier/` | oui | 174 | 4 | 145 | 145 | 6 310 |
-| `/matieres/satin/` | oui | 119 | 3 | 99 | 99 | 5 590 |
+| `/matieres/satin/` | oui | 119 | 3 | 100 | 100 | 5 590 |
 | `/morphologies/grande-taille/` | oui | 177 | 7 | 152 | 152 | 5 290 |
 | `/details/dos-nu/` | oui | 126 | 7 | 110 | 110 | 4 950 |
 | `/guides/acheter-ou-louer-sa-robe-de-mariee/` | non | 33 | 0 | 0 | 0 | 4 310 |
@@ -331,7 +331,7 @@ Mots manquants les plus fréquents : cou (2), bouffante (1), froufrou (1), jaune
 - robe bustier mariage vert (0, non vérifié)
 - robe de mariée col cheminée (0, non vérifié)
 
-### `/matieres/satin/` — 20 non couvertes
+### `/matieres/satin/` — 19 non couvertes
 
 Mots manquants les plus fréquents : satinee (1), white (1), classique (1), asymetrique (1), carre (1), drapee (1), ba (1), femme (1), jaune (1), mi (1), orange (1), bouffante (1)
 

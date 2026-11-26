@@ -298,7 +298,7 @@ export const QUESTIONS: Record<Lettre, Question[]> = {
     },
     {
       q: "Faut-il éviter les robes princesse avec une morphologie en O ?",
-      r: "Non, et le mot « éviter » n'a pas cours ici. Un bustier travaillé porte le regard vers le haut, et l'ampleur de la jupe répond au buste sans le charger. La princesse vient simplement après le fluide et le trapèze dans l'ordre des essayages.",
+      r: "Non, et le mot « éviter » n'a pas cours ici. Un bustier travaillé porte le regard vers le haut, et l'ampleur de la jupe répond au buste sans le charger. La princesse vient simplement après la fluide et la trapèze dans l'ordre des essayages.",
     },
   ],
   A: [

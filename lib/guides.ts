@@ -240,7 +240,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Choisir la coupe",
         texte: [
-          "Nos coupes : la sirène, qui épouse le corps jusqu'aux genoux ; la princesse, au corsage ajusté et à la jupe ample ; le trapèze, qui s'évase doucement depuis la taille ; la fluide, qui tombe et bouge ; et les deux-en-un, dont la surjupe détachable change l'allure entre la cérémonie et la fête. Quelques robes courtes — Elin, River, Clover — reprennent ces coupes, pour la mairie.",
+          "Nos coupes : la sirène, qui épouse le corps jusqu'aux genoux ; la princesse, au corsage ajusté et à la jupe ample ; la trapèze, qui s'évase doucement depuis la taille ; la fluide, qui tombe et bouge ; et les deux-en-un, dont la surjupe détachable change l'allure entre la cérémonie et la fête. Quelques robes courtes — Elin, River, Clover — reprennent ces coupes, pour la mairie.",
         ],
       },
       {
@@ -577,7 +577,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Traîne légère, ou pas de traîne",
         texte: [
-          "Maribel s'achève sur une traîne légère ; Mira « s'ouvre délicatement sur une douce traîne ». Les robes bohèmes — Hélène, Murielle, Ryle — préfèrent une traîne courte, ou aucune : une robe faite pour marcher dans l'herbe ne s'encombre pas. Les robes courtes, Elin, River, Clover et Gabriel, n'en ont pas, par définition.",
+          "Maribel s'achève sur une traîne légère ; Mira « s'ouvre délicatement sur une douce traîne ». Les robes bohèmes — Hélène, Murielle — préfèrent une traîne courte, ou aucune : une robe faite pour marcher dans l'herbe ne s'encombre pas. Les robes courtes, Elin, River, Clover et Gabriel, n'en ont pas, par définition.",
         ],
       },
       {
@@ -643,7 +643,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Les coupes qui vont à toutes : trapèze et fluide",
         texte: [
-          "Le trapèze s'ouvre en A depuis la taille et va à toutes les morphologies : Charlotte en dentelle, Hera en satin, Calla en tulle souple. La fluide suit le mouvement sans jamais contraindre : Marie, « ligne intemporelle » chez Monica Loretti, ou Adularia, en charmeuse. Une sirène en crêpe, comme Bondi ou Milan, dessine le corps sans le serrer. Ce que l'on évite, au fond, ce n'est pas une coupe : c'est le volume dont on ne veut pas.",
+          "La trapèze s'ouvre en A depuis la taille et va à toutes les morphologies : Charlotte en dentelle, Hera en satin, Calla en tulle souple. La fluide suit le mouvement sans jamais contraindre : Marie, « ligne intemporelle » chez Monica Loretti, ou Adularia, en charmeuse. Une sirène en crêpe, comme Bondi ou Milan, dessine le corps sans le serrer. Ce que l'on évite, au fond, ce n'est pas une coupe : c'est le volume dont on ne veut pas.",
         ],
       },
       {

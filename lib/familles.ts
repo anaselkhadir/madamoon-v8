@@ -456,14 +456,14 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée à manches longues à Paris : dentelle, satin, manches amovibles. Pendant, Montana, Chastity, Bella… au showroom MADAMOON, Paris 10e.",
     note: "Dentelle, satin, manches amovibles",
     chapo:
-      "Une robe de mariée à manches longues habille le bras sans jamais alourdir la silhouette : des manches en dentelle sur un trapèze comme Pendant, sur une sirène en satin mat comme Montana, sur une princesse comme Seraphina, ou en satin perlé comme Bella. Chez MADAMOON, la robe de mariée avec manches s'essaie au showroom du 10ᵉ, à Paris, et se confectionne à vos mesures.",
+      "Une robe de mariée à manches longues habille le bras sans jamais alourdir la silhouette : des manches en dentelle sur une trapèze comme Pendant, sur une sirène en satin mat comme Montana, sur une princesse comme Seraphina, ou en satin perlé comme Bella. Chez MADAMOON, la robe de mariée avec manches s'essaie au showroom du 10ᵉ, à Paris, et se confectionne à vos mesures.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
       robes: {
         titre: "Nos robes de mariée à manches longues",
         liste: [
-          { slug: "pendant", texte: "Un trapèze signé Watters Designs. Robe de mariée, manches longues, dentelle : tout y est, et elle va à toutes." },
+          { slug: "pendant", texte: "Une trapèze signée Watters Designs. Robe de mariée, manches longues, dentelle : tout y est, et elle va à toutes." },
           { slug: "montana", texte: "Une sirène en satin mat, des manches longues en dentelle, un dos illusion : la délicatesse des manches en dentelle, sur une robe unie." },
           { slug: "chastity", texte: "Dentelle, col montant, longue traîne : la dentelle recouvre le corsage et les longues manches, pour un charme traditionnel." },
           { slug: "seraphina", texte: "Une princesse en dentelle brodée, manches longues et dos nu. Les manches habillent, le dos respire." },
@@ -496,7 +496,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       echo: {
         titre: "Des manches ballon",
         texte:
-          "Ryle, de Watters Designs, est une fluide aux manches ballon et au décolleté en V profond, dans une charmeuse légère. La manche bouffante donne du volume à l'épaule sans couvrir le bras : c'est la manche des mariages bohèmes.",
+          "Ryle, de Watters Designs, est une fluide aux manches ballon et au décolleté en V profond, dans une charmeuse légère. La manche bouffante donne du volume à l'épaule, sans couvrir le bras.",
         robe: "ryle",
         voir: "Voir Ryle",
       },
@@ -527,7 +527,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Manches longues avec bustier, col bateau, grande taille ou petite : quelles robes ?",
-            r: "Un bustier à manches n'existe pas : les manches tiennent au corsage, comme chez Montana, Pendant ou Seraphina, et Chastity monte jusqu'au col. Le col bateau et le col carré à manches ne font pas partie de notre sélection ; Hera et Enid, elles, se portent épaules dénudées, sans manche. Grande taille ou petite taille, femme ronde ou mince : chaque robe est faite à vos mesures.",
+            r: "Un bustier à manches n'existe pas : les manches tiennent au corsage, comme chez Montana, Pendant ou Seraphina, et Chastity monte jusqu'au col. Le col bateau à manches longues, épaules dénudées, c'est Pendant ; Enid, Bondi et Zina en portent un aussi. Le col carré à manches, lui, ne fait pas partie de notre sélection. Grande taille ou petite taille, femme ronde ou mince : chaque robe est faite à vos mesures.",
           },
           {
             q: "Peut-on raccourcir ou élargir les manches ?",
@@ -591,7 +591,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "hera",
             texte:
-              "Un trapèze en satin, un décolleté Bardot aux bretelles tombantes, une fente : romantique, moderne et intemporelle.",
+              "Une trapèze en satin, un décolleté Bardot aux bretelles tombantes, une fente : romantique, moderne et intemporelle.",
           },
           {
             slug: "finell",
@@ -661,7 +661,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Satin pour un mariage civil, col bateau, blanc ou ivoire : quel tissu exactement ?",
-            r: "Le satin est un tissu lisse et lumineux. Le satin mat, celui de Dove et de Montana, l'est un peu moins ; le satin de soie d'Addison, davantage ; la charmeuse d'Adularia est un satin léger, idéal pour un mariage civil. Le col bateau ne fait pas partie de notre sélection : Hera se porte épaules dénudées.",
+            r: "Le satin est un tissu lisse et lumineux. Le satin mat, celui de Dove et de Montana, l'est un peu moins ; le satin de soie d'Addison, davantage ; la charmeuse d'Adularia est un satin léger, idéal pour un mariage civil. Pour un col bateau en satin, regardez Zina, en georgette stretch et satin mat ; Hera, elle, se porte épaules dénudées.",
           },
           {
             q: "Robe en satin blanche, ivoire, champagne ou verte : quelles couleurs, et quel prix ?",
@@ -686,7 +686,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée bustier à Paris : décolleté cœur, corset, bretelles amovibles. Sheridan, Finell, Fortune, Charlotte… au showroom MADAMOON, Paris 10e.",
     note: "Le buste dessiné, les épaules libres",
     chapo:
-      "Une robe de mariée bustier tient sans bretelles : tout repose sur le corsage, baleiné ou structuré, qui dessine le buste et marque la taille. Décolleté cœur, droit ou en V, sur une sirène, une princesse ou un trapèze — parfois avec de fines bretelles amovibles, pour changer d'allure au fil de la journée. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
+      "Une robe de mariée bustier tient sans bretelles : tout repose sur le corsage, baleiné ou structuré, qui dessine le buste et marque la taille. Décolleté cœur, droit ou en V, sur une sirène, une princesse ou une trapèze — parfois avec de fines bretelles amovibles, pour changer d'allure au fil de la journée. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
     morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
     style: {
       voirLaCoupe: "Toutes les robes",
@@ -759,7 +759,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Col carré, col bateau, épaules dénudées",
           texte:
-            "Le bustier ne vous tente pas ? Regardez nos autres encolures : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Quant au col bateau, qui court d'une épaule à l'autre, c'est parmi ces épaules dénudées qu'il se cherche.",
+            "Le bustier ne vous tente pas ? Regardez nos autres encolures : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Quant au col bateau, qui court d'une épaule à l'autre, c'est celui d'Enid, de Bondi, de Pendant et de Zina.",
         },
       ],
       echo: {
@@ -792,7 +792,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Quelle robe bustier pour un mariage, et quel décolleté ?",
-            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau et le décolleté américain ne font pas partie de notre sélection ; Enid et Hera, en col bardot, épaules dénudées, en ont l'esprit. Blanche ou ivoire ? Les coloris de chaque modèle se découvrent au showroom.",
+            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau, c'est celui d'Enid, de Bondi, de Pendant ou de Zina ; le décolleté américain, lui, ne fait pas partie de notre sélection. Blanche ou ivoire ? Les coloris de chaque modèle se découvrent au showroom.",
           },
           {
             q: "Où essayer une robe de mariée bustier à Paris ?",
@@ -886,7 +886,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "carrie",
             texte:
-              "Un trapèze pailleté, de fines bretelles et un corset perlé à la main : « un rêve de conte de fées ».",
+              "Une trapèze pailletée, de fines bretelles et un corset perlé à la main : « un rêve de conte de fées ».",
           },
           {
             slug: "lovia",
@@ -1036,7 +1036,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "emerald",
             texte:
-              "Un dos en V qui prolonge le décolleté, un corsage perlé, une jupe de tulle ou de satin : la sensualité subtile d'un trapèze.",
+              "Un dos en V qui prolonge le décolleté, un corsage perlé, une jupe de tulle ou de satin : la sensualité subtile d'une trapèze.",
           },
         ],
       },
@@ -1141,7 +1141,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "pendant",
             texte:
-              "Un trapèze en dentelle, manches longues et épaules dénudées, indiqué pour toutes les morphologies.",
+              "Une trapèze en dentelle, manches longues et épaules dénudées, indiquée pour toutes les morphologies.",
           },
           {
             slug: "charlotte",
@@ -1181,7 +1181,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "aster",
             texte:
-              "Un trapèze en dentelle de Chantilly et satin, taille naturelle et corsage drapé, avec des manches amovibles.",
+              "Une trapèze en dentelle de Chantilly et satin, taille naturelle et corsage drapé, avec des manches amovibles.",
           },
         ],
       },
@@ -1325,7 +1325,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           {
             slug: "hera",
             texte:
-              "Un trapèze en satin au décolleté Bardot, et une fente sur le devant qui répond au « volume romantique de la jupe » : romantique, moderne, intemporelle.",
+              "Une trapèze en satin au décolleté Bardot, et une fente sur le devant qui répond au « volume romantique de la jupe » : romantique, moderne, intemporelle.",
           },
         ],
       },
@@ -1369,7 +1369,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         liste: [
           {
             q: "Quelle coupe pour une robe de mariée romantique ?",
-            r: "Toutes, pourvu que les matières du romantique soient là. La princesse en est l'image la plus attendue — Santana, Seraphina ; le trapèze l'allège — Charlotte, Calla, Carrie ; la sirène la rapproche du corps — Summer. Le style est dans la dentelle et le tulle, pas dans la coupe.",
+            r: "Toutes, pourvu que les matières du romantique soient là. La princesse en est l'image la plus attendue — Santana, Seraphina ; la trapèze l'allège — Charlotte, Calla, Carrie ; la sirène la rapproche du corps — Summer. Le style est dans la dentelle et le tulle, pas dans la coupe.",
           },
           {
             q: "Qu'est-ce qu'une robe de mariée féerique ?",
@@ -1381,7 +1381,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Où essayer une robe de mariée romantique à Paris ?",
-            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer une princesse en tulle, un trapèze en dentelle et une sirène, côte à côte.`,
+            r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer une princesse en tulle, une trapèze en dentelle et une sirène, côte à côte.`,
           },
           {
             q: "Robe de mariée romantique à paillettes, fleurie, pour un mariage civil ?",
@@ -1528,7 +1528,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Où acheter sa robe de mariage civil, et dans quelle longueur ?",
-            r: "Au showroom, notre seul magasin, pour une femme qui se marie en octobre comme en juin. Courte ou longue : la mi-longue ne fait pas partie de notre sélection. Pour un style tailleur ou un jacquard, regardez Monica, un trapèze en jacquard floral. Et si vous cherchez un petit prix, sachez qu'ici tout est fait sur mesure.",
+            r: "Au showroom, notre seul magasin, pour une femme qui se marie en octobre comme en juin. Courte ou longue : la mi-longue ne fait pas partie de notre sélection. Pour un style tailleur ou un jacquard, regardez Monica, une trapèze en jacquard floral. Et si vous cherchez un petit prix, sachez qu'ici tout est fait sur mesure.",
           },
         ],
         toutes: "Tous les guides",
