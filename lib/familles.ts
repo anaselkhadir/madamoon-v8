@@ -64,7 +64,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
     slug: "boheme",
     titre: "Robe de mariée bohème à Paris",
     description:
-      "Robe de mariée bohème à Paris : mousseline, dentelle florale, manches légères. Hélène, Murielle, Ryle, et Tessa pour une touche vintage, au showroom MADAMOON.",
+      "Robe de mariée bohème à Paris : mousseline, dentelle florale, manches légères. Hélène, Murielle, Calla, Mathilda et Mitra, au showroom MADAMOON, Paris 10e.",
     note: "Souple, légère, champêtre",
     chapo:
       "Une robe de mariée bohème ne se pose pas : elle respire. Une mousseline qui suit vos pas, une dentelle florale, des manches si légères qu'on les devine à peine. Chez MADAMOON, cet esprit bohème chic s'essaie en toute intimité, dans notre showroom du 10ᵉ, à Paris.",
@@ -86,9 +86,19 @@ export const PAGES_FAMILLES: PageFamille[] = [
               "Dentelle florale et mousseline, décolleté en V, manches illusion, une fente qui libère le pas : la robe de mariée bohème en dentelle, signée Monica Loretti.",
           },
           {
-            slug: "ryle",
+            slug: "calla",
             texte:
-              "Des manches ballon, un décolleté en V profond, une charmeuse au tombé léger. Une robe faite pour danser.",
+              "Un tulle très souple et la délicate dentelle Highclare, un décolleté arrondi, un corsage structuré façon corset : une allure douce et aérienne, légère et naturelle.",
+          },
+          {
+            slug: "mathilda",
+            texte:
+              "Fluide et romantique, pensée pour la femme enceinte : des manches courtes, une silhouette douce, élégante et intemporelle, chez Monica Loretti.",
+          },
+          {
+            slug: "mitra",
+            texte:
+              "Une trapèze à taille basse, une dentelle Cassie appliquée à la main et de délicats rubans de velours : un look à la fois féerique et élégant.",
           },
         ],
       },
@@ -106,7 +116,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "En dentelle, dos nu, manches légères",
           texte:
-            "Vous l'imaginez en dentelle ? Murielle est une robe de mariée bohème en dentelle, florale, transparente aux manches. Vous pensez au dos ? Hélène et Murielle se découvrent aussi de dos, sur leurs pages. Aux manches ? Ryle les porte ballon. Quant à l'allure hippie chic, elle tient à la coiffure et aux accessoires, bien plus qu'à la robe.",
+            "Vous l'imaginez en dentelle ? Murielle est une robe de mariée bohème en dentelle, florale, transparente aux manches. Vous pensez au dos ? Hélène et Murielle se découvrent aussi de dos, sur leurs pages. Aux manches ? Mathilda les porte courtes. Quant à l'allure hippie chic avec une robe bohème, cela repose surtout sur le choix des accessoires, et le style de votre mise en beauté.",
         },
         {
           titre: "Bohème, mais pas négligé",
@@ -117,14 +127,14 @@ export const PAGES_FAMILLES: PageFamille[] = [
       echo: {
         titre: "Une touche vintage",
         texte:
-          "Envie d'un bohème aux accents vintage ? Tessa, de Casablanca Bridal, cultive un « charme vintage-chic » : une sirène au corset structuré, une surjupe détachable, des bretelles amovibles. Une deux-en-un, à essayer aux côtés de nos robes bohèmes.",
-        robe: "tessa",
-        voir: "Voir Tessa",
+          "Envie d'un bohème aux accents vintage ? Calla, de Watters Designs, est notre bohème vintage : un tulle très souple, la délicate dentelle Highclare, un décolleté arrondi et un corsage structuré façon corset.",
+        robe: "calla",
+        voir: "Voir Calla",
       },
       pourQui: {
         titre: "À qui elle va",
         texte:
-          "La coupe fluide est notre premier conseil pour les morphologies en O, en V, en H, en 8 et en X, et mérite l'essai pour une morphologie en A. Hélène et Murielle vont à toutes les morphologies ; Ryle, à toutes sauf la morphologie en O. Et parce que chaque robe est réalisée à vos mesures, la robe bohème grande taille n'est pas un rayon à part : c'est la vôtre.",
+          "La coupe fluide est notre premier conseil pour les morphologies en O, en V, en H, en 8 et en X, et mérite l'essai pour une morphologie en A. Hélène, Murielle, Calla, Mathilda et Mitra vont à toutes les morphologies. Et parce que chaque robe est réalisée à vos mesures, la robe bohème grande taille n'est pas un rayon à part : c'est la vôtre.",
         toutes: "Toutes les morphologies",
       },
       questions: {
@@ -136,7 +146,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Quelle robe de mariée pour un mariage champêtre ?",
-            r: "Une robe qui bouge et qui ne pèse rien : mousseline, dentelle florale, pas de longue traîne. Hélène, Murielle et Ryle ont cet esprit ; pour un mariage champêtre chic, le corsage perlé d'Hélène fait toute la différence.",
+            r: "Une robe qui bouge et qui ne pèse rien : mousseline, dentelle florale, pas de longue traîne. Hélène et Murielle ont cet esprit ; pour un mariage champêtre chic, le corsage perlé d'Hélène fait toute la différence.",
           },
           {
             q: "Une robe bohème convient-elle à un mariage civil ?",
@@ -144,23 +154,19 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Quelle robe pour un mariage champêtre, et à quel prix ?",
-            r: "Une robe pour mariage champêtre est d'abord une robe légère : Hélène, Murielle, Ryle. Son prix dépend du modèle choisi : chaque robe est confectionnée à vos mesures, à partir de 1 500 €, retouches comprises. Une robe bohème pas chère, au sens du prêt-à-porter, n'est donc pas ce que nous proposons ; une robe faite pour vous, oui.",
-          },
-          {
-            q: "Bohème romantique ou bohème épuré ?",
-            r: "Le style bohème se marie volontiers au romantique, avec les fleurs en relief d'Hélène, ou au plus simple : Adularia, en charmeuse, pour une bohémienne qui aime les lignes nettes. Rock ou romantique, une belle robe bohème reste originale quand elle vous ressemble.",
+            r: "Une robe pour mariage champêtre est d'abord une robe légère, comme Hélène ou Murielle. Son prix dépend du modèle choisi : chaque robe est confectionnée à vos mesures, à partir de 1 500 €, retouches comprises. Une robe bohème pas chère, au sens du prêt-à-porter, n'est donc pas ce que nous proposons ; une robe faite pour vous, oui.",
           },
           {
             q: "Quelle robe bohème pour un mariage en hiver, ou sur le thème nature ?",
-            r: "En hiver comme en été, pour un mariage sur le thème bohème ou nature, la robe pour un mariage champêtre reste blanche ou ivoire : le vert sauge et les couleurs se glissent dans le bouquet, jamais sur la robe. Selon la saison, vous choisirez un dos nu ou des manches — et, toujours, une robe confectionnée sur mesure, pour chaque femme.",
+            r: "Pour un mariage hivernal, privilégiez une robe de mariée bohème à manches longues, en dentelle de Chantilly ou en crêpe, éventuellement accompagnée d'une cape, d'un boléro ou d'une étole pour apporter une touche de chaleur et d'élégance.",
           },
           {
             q: "Existe-t-il une robe bohème rose, fleurie ou mi-longue ?",
-            r: "Nos robes bohèmes sont toutes longues, et toutes blanches ou ivoire : jamais rose. Fleurie, en revanche, oui, par la dentelle florale et les fleurs en relief. Bustier ou col en V : cela se décide à l'essayage.",
+            r: "Nos robes bohèmes sont aujourd'hui longues, et blanches ou ivoire : pas de rose ni de vert sauge dans nos collections actuelles, la couleur se confie au bouquet. Fleurie, en revanche, oui, par la dentelle florale et les fleurs en relief. Bustier ou col en V : cela se décide à l'essayage.",
           },
           {
             q: "Enceinte ou ronde, puis-je porter une robe de mariée bohème ?",
-            r: "Bien sûr. Mathilda, chez Monica Loretti, est pensée pour la grossesse. Et pour une femme ronde comme pour toute mariée, la règle est la même : votre robe est réalisée à vos mesures.",
+            r: "Bien sûr. Mathilda, chez Monica Loretti, est pensée pour la grossesse. Et pour une femme ronde comme pour toute mariée, la règle est la même : la robe est réalisée à vos mesures, avec les éventuelles personnalisations nécessaires pour sublimer votre morphologie.",
           },
           {
             q: "Où essayer une robe de mariée bohème à Paris ?",
@@ -336,15 +342,11 @@ export const PAGES_FAMILLES: PageFamille[] = [
       "Robe de mariée en dentelle à Paris : Chantilly, Alençon, Caterina. Oksana, Summer, Uma, Seraphina… à essayer au showroom MADAMOON, Paris 10e.",
     note: "Chantilly, Alençon, Caterina",
     chapo:
-      "De la plus fine Chantilly à la dentelle brodée à la main, aucune matière n'habille autant de nos robes. Votre robe de mariée en dentelle peut être une sirène comme Oksana ou Summer, un trapèze comme Charlotte, une princesse comme Seraphina : toutes s'essaient au showroom du 10ᵉ, à Paris, et se confectionnent à vos mesures.",
+      "De la plus fine Chantilly à la dentelle brodée à la main, aucune matière n'habille autant de nos robes. Votre robe de mariée en dentelle peut être une sirène comme Oksana ou Summer, une trapèze comme Charlotte, une princesse comme Seraphina : toutes s'essaient au showroom du 10ᵉ, à Paris, et se confectionnent à vos mesures.",
     morphos: { premieres: ["O", "A", "V", "H", "8", "X"], secondes: [] },
-    /* Film envoyé par Anas le 18 novembre 2026, porté de 720p à 1080p
-     * par scripts/film/ameliorer.swift. */
-    film: {
-      src: "/film/dentelle.mp4",
-      affiche: "film-dentelle",
-      alt: "Une mariée en robe de dentelle à fines bretelles, dans un salon clair",
-    },
+    /* Pas de film : celui du 18 novembre 2026, généré, a été retiré à la
+     * demande de Mouna (25 nov.) — la dentelle y paraissait retouchée.
+     * La page s'ouvre sur la photographie d'Oksana. */
     style: {
       voirLaCoupe: "Toutes les robes",
       robes: {
@@ -353,7 +355,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
           { slug: "oksana", texte: "Une sirène en dentelle de Chantilly, au corset basque en pointe. La dentelle dans ce qu'elle a de plus français." },
           { slug: "summer", texte: "Une sirène en dentelle d'Alençon, décolleté en V et longue traîne : toute la beauté de la dentelle française, sur une silhouette féminine." },
           { slug: "uma", texte: "Une sirène en dentelle au dos illusion, signée Watters Designs. Ici, la dentelle habille le dos autant que le devant." },
-          { slug: "pendant", texte: "Un trapèze en dentelle, aux manches longues : la robe de mariée en dentelle à manches longues par excellence." },
+          { slug: "pendant", texte: "Une trapèze en dentelle, col bateau et manches longues : la robe de mariée en dentelle à manches longues par excellence." },
           { slug: "montana", texte: "Une sirène en satin mat, des manches longues en dentelle, un dos illusion. La dentelle en touche précieuse, sur une matière unie." },
           { slug: "seraphina", texte: "Une princesse en dentelle brodée, dos nu et manches longues, chez Olya Mak." },
           { slug: "murielle", texte: "Dentelle florale, décolleté plongeant, manches illusion et fente : la dentelle version bohème, chez Monica Loretti." },
@@ -370,7 +372,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Dentelle et manches longues",
           texte:
-            "La robe de mariée en dentelle à manches longues se décline en trapèze avec Pendant, en sirène avec Montana, en princesse avec Seraphina, en col montant avec Chastity. Aster, elle, porte des manches amovibles en dentelle : avec pour la cérémonie, sans pour la fête.",
+            "La robe de mariée en dentelle à manches longues, qui habille les bras sans les cacher, se décline en trapèze avec Pendant, en sirène avec Montana, en princesse avec Seraphina, en col montant avec Chastity. Aster, elle, porte des manches amovibles en dentelle : avec pour la cérémonie, sans pour la fête.",
         },
         {
           titre: "Dentelle et bustier",
@@ -386,7 +388,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
       echo: {
         titre: "Avec une cape en dentelle",
         texte:
-          "Sheridan, de Casablanca Bridal, est une sirène en satin mat et dentelle qui arrive avec sa cape assortie : une mousseline drapée sur l'épaule, qui tombe jusqu'au sol avec la traîne. La cape de mariée en dentelle se porte pour la cérémonie, et se retire pour la fête.",
+          "Sheridan, de Casablanca Bridal, est une sirène en satin mat et dentelle qui arrive avec sa cape assortie. En tulle souple et avec une petite touche de dentelle, elle est drapée sur l'épaule et tombe jusqu'au sol avec la traîne. La cape de mariée en dentelle se porte pour la cérémonie, et se retire pour la fête. Une très belle alternative au voile de mariée.",
         robe: "sheridan",
         voir: "Voir Sheridan",
       },
@@ -425,15 +427,15 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Une dentelle scintillante, à paillettes ou à strass, cela existe ?",
-            r: "Oui : Fancy, toute de « dentelle florale scintillante », est notre dentelle brillante, à paillettes. Pour une dentelle transparente sur les bras, regardez les manches longues de Pendant, de Montana et de Seraphina : plus classique, et toujours aussi classe.",
+            r: "Oui : Fancy, toute de « dentelle florale scintillante », est notre dentelle brillante, sublimée par de petites perles délicates.",
           },
           {
             q: "Quel est le prix d'une robe de mariée en dentelle ?",
-            r: "Il suit la dentelle, à partir de 1 500 €, confection sur mesure comprise. Une fleur brodée à la main ne sera jamais « pas cher » ; elle est, en revanche, faite pour vous. Pour un mariage civil, pensez à une dentelle légère, à bretelles fines.",
+            r: "À partir de 1 500 €, tous types de dentelle confondus, et à partir de 1 900 € pour les dentelles françaises, confection sur mesure comprise. Une fleur brodée à la main ne sera jamais « pas cher » ; elle est, en revanche, faite pour vous. Pour un mariage civil, pensez à une dentelle légère, à bretelles fines.",
           },
           {
-            q: "Dentelle de Calais, crochet, col bateau : les trouve-t-on chez MADAMOON ?",
-            r: "Le crochet et le col bateau, non. Quant aux dentelles, nos robes nomment la Chantilly, l'Alençon, la Caterina et la Highclare — pas la dentelle de Calais-Caudry.",
+            q: "Dentelle de Calais, crochet : les trouve-t-on chez MADAMOON ?",
+            r: "Le crochet, non. Quant aux dentelles, nos robes nomment la Chantilly, l'Alençon, la Caterina et la Highclare — pas la dentelle de Calais-Caudry.",
           },
         ],
         toutes: "Tous les guides",
