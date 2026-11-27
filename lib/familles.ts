@@ -43,7 +43,10 @@ export type PageFamille = {
    * ce que montre l'image, sans nommer de robe : ce film n'est pas celui
    * d'un modèle du catalogue. */
   film?: { src: string; affiche: NomScene; alt: string };
-  style: Style;
+  /* « pourQui » est facultatif : le bustier n'a pas de section sur les
+   * morphologies, à la demande de la maison (27 nov. 2026) — la poitrine
+   * et bien d'autres paramètres comptent plus que la lettre. */
+  style: Omit<Style, "pourQui"> & { pourQui?: Style["pourQui"] };
 };
 
 export const FAMILLES: Record<Famille, { segment: string; label: string }> = {
@@ -687,7 +690,8 @@ export const PAGES_FAMILLES: PageFamille[] = [
     note: "Le buste dessiné, les épaules libres",
     chapo:
       "Une robe de mariée bustier tient sans bretelles : tout repose sur le corsage, baleiné ou structuré, qui dessine le buste et marque la taille. Décolleté cœur, droit ou en V, sur une sirène, une princesse ou une trapèze — parfois avec de fines bretelles amovibles, pour changer d'allure au fil de la journée. Toutes s'essaient au showroom MADAMOON, dans le 10ᵉ, à Paris.",
-    morphos: { premieres: ["V", "H", "8", "X"], secondes: ["O", "A"] },
+    /* Pas de morphologies ici : voir « pourQui », plus bas. */
+    morphos: { premieres: [], secondes: [] },
     style: {
       voirLaCoupe: "Toutes les robes",
       robes: {
@@ -749,7 +753,7 @@ export const PAGES_FAMILLES: PageFamille[] = [
         {
           titre: "Comment tient une robe de mariée bustier ?",
           texte:
-            "Par le corsage, jamais par les épaules : des baleines, une doublure ajustée, parfois un laçage dans le dos. C'est pourquoi la confection à vos mesures compte plus encore sur un bustier que sur une robe à manches — et pourquoi, au dernier essayage, nous vous demandons de lever les bras, et de danser.",
+            "Par le corsage et non par les épaules : des baleines, une doublure ajustée, parfois un laçage dans le dos. C'est pourquoi la confection à vos mesures compte plus encore sur un bustier que sur une robe à manches — et pourquoi, au dernier essayage, nous vous demandons de lever les bras, et de danser.",
         },
         {
           titre: "Bretelles amovibles : deux robes en une",
@@ -757,9 +761,9 @@ export const PAGES_FAMILLES: PageFamille[] = [
             "Plusieurs de nos robes se portent avec ou sans bretelles : Oksana, Addison et Tessa ont des bretelles amovibles. De fines bretelles pour la cérémonie, un bustier pour la soirée — sans changer de robe.",
         },
         {
-          titre: "Col carré, col bateau, épaules dénudées",
+          titre: "Col carré, col en V, col en cœur, épaules dénudées",
           texte:
-            "Le bustier ne vous tente pas ? Regardez nos autres encolures : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Quant au col bateau, qui court d'une épaule à l'autre, c'est celui d'Enid, de Bondi, de Pendant et de Zina.",
+            "Le bustier ne vous tente pas ? Regardez nos autres encolures : le col carré de Dolores, de Clover et de River ; les épaules dénudées, ou décolleté Bardot, de Hera, Dove, Kensington et Trinity ; le col montant de Chastity. Pensez aussi au col en V, qui dessine une pointe sur le décolleté, et au col en cœur, les arrondis du bustier portés cette fois avec des bretelles ou des manches.",
         },
       ],
       echo: {
@@ -769,12 +773,8 @@ export const PAGES_FAMILLES: PageFamille[] = [
         robe: "dolores",
         voir: "Voir Dolores",
       },
-      pourQui: {
-        titre: "À qui elle va",
-        texte:
-          "Le bustier met le buste et les épaules en lumière : il va d'abord aux morphologies en V, en H, en 8 et en X, et s'essaie pour celles en O et en A avec une jupe trapèze ou princesse, qui équilibre. Finell, Fortune, Charlotte et Sienna conviennent à toutes les morphologies ; Meredith, à celles en V, en H, en 8 et en X. Pour une forte poitrine, nous regardons ensemble le maintien du corsage à l'essayage — et des bretelles amovibles rassurent.",
-        toutes: "Toutes les morphologies",
-      },
+      /* Pas de section « À qui elle va » : il n'y a pas de notion de
+       * morphologie sur le bustier (Mouna, 27 nov. 2026). */
       questions: {
         titre: "Les questions",
         liste: [
@@ -784,23 +784,23 @@ export const PAGES_FAMILLES: PageFamille[] = [
           },
           {
             q: "Quelle lingerie sous une robe de mariée bustier ?",
-            r: "Un corsage structuré se porte souvent sans soutien-gorge, ou avec un bustier sans bretelles, couleur chair et sans coutures. Apportez-le dès le deuxième essayage : la robe s'ajustera avec.",
+            r: "Un corsage structuré se porte souvent sans soutien-gorge.",
           },
           {
             q: "Une robe bustier a-t-elle toujours un corset ?",
-            r: "Un corsage qui tient, toujours — baleiné, doublé, parfois lacé. On parle de corset quand il est structuré au point de se voir, comme sur Guinevere ou Oksana. Les robes dont le corset fait tout le style — lacé, transparent, perlé, avec ou sans bretelles — ont leur propre page.",
+            r: "Un corsage qui tient, toujours — baleiné, doublé, parfois lacé. On parle de corset quand il est structuré, comme sur Guinevere ou Oksana. Les robes dont le corset fait tout le style — lacé, transparent, perlé, avec ou sans bretelles — ont leur propre page.",
           },
           {
             q: "Quelle robe bustier pour un mariage, et quel décolleté ?",
-            r: "Pour un mariage, la robe bustier se choisit par son décolleté : en cœur chez Sheridan et Charlotte, en pointe chez Guinevere, carré chez Dolores. Le col bateau, c'est celui d'Enid, de Bondi, de Pendant ou de Zina ; le décolleté américain, lui, ne fait pas partie de notre sélection. Blanche ou ivoire ? Les coloris de chaque modèle se découvrent au showroom.",
+            r: "Pour un mariage, la robe bustier se choisit par son décolleté. Le bustier cœur dessine deux arrondis sur le buste ; le bustier droit trace une ligne horizontale, nette ; le bustier en pointe creuse le cœur en V, au milieu du décolleté. Blanche ou ivoire ? Les coloris de chaque modèle se découvrent au showroom.",
           },
           {
             q: "Où essayer une robe de mariée bustier à Paris ?",
             r: `Au showroom MADAMOON, ${ADRESSE}, dans le 10ᵉ arrondissement, sur rendez-vous. Le showroom est privatisé pour vous pendant une heure : le temps de comparer un décolleté cœur, un décolleté droit et un col carré.`,
           },
           {
-            q: "Bustier pour un mariage civil, en cœur, rond ou asymétrique ?",
-            r: "Pour un mariage civil, un bustier simple : Enid, à porter en bustier ou en col bardot. Ou une robe courte à larges bretelles, comme River. Le décolleté en cœur est le plus fréquent — Sheridan, Charlotte ; le décolleté rond, c'est Calla. Le bénitier et l'asymétrique, eux, ne font pas partie de notre sélection.",
+            q: "Quelle robe bustier pour un mariage civil ?",
+            r: "Pour un mariage civil, c'est le style de la robe qui doit s'accorder au moment, bien plus que son encolure. Bustier en cœur, droit, rond ou asymétrique : le décolleté apporte peu ; une robe simple, à l'allure juste pour la mairie, fait l'essentiel. Le reste se décide à l'essayage.",
           },
           {
             q: "Bustier à strass, en dentelle, drapé ou brodé : lequel choisir ?",

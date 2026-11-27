@@ -193,37 +193,39 @@ export default function PageFamille({ page, langue }: { page: Page; langue: Lang
         </section>
       )}
 
-      <section
-        aria-labelledby="pour-qui"
-        className="gouttiere py-[clamp(3rem,6vw,5rem)]"
-        style={{ background: "var(--color-gris)" }}
-      >
-        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3">
-          <h2 id="pour-qui" className="phrase">
-            {S.pourQui.titre}
-          </h2>
-          <Link href="/morphologies" className="lien-nav souligne text-action">
-            {S.pourQui.toutes}
-          </Link>
-        </div>
-        <p className="texte mesure-l mt-4">{S.pourQui.texte}</p>
-        <ul className="mt-7 flex flex-wrap gap-3">
-          {[...premieres.map((m) => ({ m, plein: true })), ...secondes.map((m) => ({ m, plein: false }))].map(
-            ({ m, plein }) => (
-              <li key={m.lettre}>
-                <Link
-                  href={`/morphologies/${m.lettre.toLowerCase()}`}
-                  aria-label={morphoNom(m, langue)}
-                  className={`${plein ? "bouton" : "bouton-trait"} min-w-[2.75rem] !px-4`}
-                  style={{ fontFamily: "var(--font-serif)", fontSize: "1.125rem", fontWeight: 400 }}
-                >
-                  {m.lettre}
-                </Link>
-              </li>
-            ),
-          )}
-        </ul>
-      </section>
+      {S.pourQui && (
+        <section
+          aria-labelledby="pour-qui"
+          className="gouttiere py-[clamp(3rem,6vw,5rem)]"
+          style={{ background: "var(--color-gris)" }}
+        >
+          <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3">
+            <h2 id="pour-qui" className="phrase">
+              {S.pourQui.titre}
+            </h2>
+            <Link href="/morphologies" className="lien-nav souligne text-action">
+              {S.pourQui.toutes}
+            </Link>
+          </div>
+          <p className="texte mesure-l mt-4">{S.pourQui.texte}</p>
+          <ul className="mt-7 flex flex-wrap gap-3">
+            {[...premieres.map((m) => ({ m, plein: true })), ...secondes.map((m) => ({ m, plein: false }))].map(
+              ({ m, plein }) => (
+                <li key={m.lettre}>
+                  <Link
+                    href={`/morphologies/${m.lettre.toLowerCase()}`}
+                    aria-label={morphoNom(m, langue)}
+                    className={`${plein ? "bouton" : "bouton-trait"} min-w-[2.75rem] !px-4`}
+                    style={{ fontFamily: "var(--font-serif)", fontSize: "1.125rem", fontWeight: 400 }}
+                  >
+                    {m.lettre}
+                  </Link>
+                </li>
+              ),
+            )}
+          </ul>
+        </section>
+      )}
 
       <section aria-labelledby="questions-style" className="gouttiere py-[clamp(3.5rem,7vw,6rem)]">
         <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3 lg:mx-auto lg:max-w-[52rem]">

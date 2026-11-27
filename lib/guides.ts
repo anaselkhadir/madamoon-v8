@@ -31,7 +31,7 @@ export const GUIDES: Guide[] = [
     description:
       "Prix d'une robe de mariée à Paris : à partir de 1 500 € sur mesure, retouches comprises, chez MADAMOON. Ce que le prix comprend, et ce qui le fait varier.",
     chapo:
-      "« Combien coûte une robe de mariée ? » C'est la première question que l'on nous pose, et elle mérite une réponse claire plutôt qu'une promesse de robe pas chère. Ce que le prix comprend chez MADAMOON, ce qui le fait varier d'un modèle à l'autre, la façon dont se passe le paiement : tout est dit ici, simplement.",
+      "« Combien coûte une robe de mariée ? » C'est la première question que l'on nous pose, et elle mérite une réponse claire plutôt qu'une promesse de robe de mariée pas chère. Ce que le prix comprend chez MADAMOON, ce qui le fait varier d'un modèle à l'autre, la façon dont se passe le paiement : tout est dit ici, simplement.",
     sections: [
       {
         titre: "Ce que le prix comprend",
@@ -43,41 +43,33 @@ export const GUIDES: Guide[] = [
       {
         titre: "Ce qui fait varier le prix d'une robe de mariée",
         texte: [
-          "Trois choses, pour l'essentiel. La matière, d'abord : une dentelle de Chantilly ou d'Alençon, un satin de soie, un crêpe, un tulle brodé n'appellent pas le même travail. La maison, ensuite : Watters Designs, Casablanca Bridal, Olya Mak et Monica Loretti ont chacune leur gamme. Le modèle, enfin : un corset perlé à la main, une traîne, des manches amovibles ou une surjupe détachable se retrouvent dans le prix de la confection.",
-          "Une robe simple n'est donc pas forcément moins chère qu'une robe en dentelle : sur une matière unie, rien ne cache l'ajustement, et c'est précisément lui que l'on paie.",
+          "Trois choses, pour l'essentiel. La matière, d'abord : une dentelle de Chantilly ou d'Alençon, un satin de soie, un crêpe, un tulle brodé n'appellent pas le même travail. La maison, ensuite : Watters Designs, Casablanca Bridal, Olya Mak et Monica Loretti ont chacune leur gamme. Le modèle, enfin : un corset perlé à la main, une très grande traîne, des manches amovibles ou une surjupe détachable se retrouvent dans le prix de la confection.",
         ],
       },
       {
         titre: "Comment se passe le paiement",
         texte: [
-          "Vous versez un acompte le jour de la prise de vos mensurations, au moment où la confection est lancée. Le solde se règle le jour des retouches. Le montant de l'acompte et les moyens de paiement vous sont précisés au showroom.",
-        ],
-      },
-      {
-        titre: "Robe de mariée pas chère, déstockage, soldes : ce que vous trouverez ici",
-        texte: [
-          "Vous ne trouverez sur ce site ni déstockage en ligne ni robe soldée : MADAMOON ne vend rien en ligne, et chaque robe est confectionnée pour vous, à vos mesures. Son prix n'est pas celui d'une robe en rayon : c'est celui d'une robe faite pour une seule personne.",
-          "Si votre budget est une contrainte, dites-le dès le premier rendez-vous : le modèle et la matière se choisissent avec vous, et c'est le chemin le plus sûr vers une robe de mariée au bon prix. Une robe de mariée pas cher, un outlet, un petit prix ou un tarif soldé : ce n'est pas ce que nous proposons, et nous préférons vous le dire avant le rendez-vous. Pour une location, posez-nous la question au showroom.",
+          "Vous versez un acompte le jour de la prise de vos mensurations, au moment où la confection est lancée. Le solde se règle au moment du retrait de la robe de mariée, après retouches. Le montant de l'acompte et les moyens de paiement vous sont précisés au showroom.",
         ],
       },
       {
         titre: "Quand réserver, pour tenir le budget et les délais",
         texte: [
-          "Prévoyez idéalement votre premier essayage huit à neuf mois avant la date du mariage : c'est le temps que demandent la confection à vos mesures, les essayages et les retouches. Si le temps vous manque, dites-le nous : nous trouvons presque toujours une solution.",
+          "Prévoyez idéalement votre premier essayage neuf mois à un an avant la date du mariage : c'est le temps que demandent la confection à vos mesures, les essayages et les retouches. Si le temps vous manque, dites-le nous : nous trouvons presque toujours une solution.",
         ],
       },
       {
         titre: "Pas cher, location, outlet : les mots que l'on tape",
         texte: [
-          "« Robe de mariée pas cher Paris », « location robe de mariée Paris », « outlet », « abordable », « petit prix » : ces recherches mènent souvent jusqu'ici. Nous proposons une robe sur mesure, à Paris, en France, à partir de 1 500 €, retouches comprises, et rien d'autre : ni location, ni outlet, ni pressing. Quel prix pour quelle robe ? Celui qui vous est donné au showroom, modèle par modèle. Un prix moyen ? Il n'y a pas de moyenne utile : chaque maison, chaque marque, chaque tissu a le sien, et notre catalogue en ligne n'affiche pas de prix ; l'ourlet et le jupon, eux, sont compris dans les retouches. Une robe dégriffée, à 500 euros, à proximité : non. Une robe sur mesure et de qualité : oui.",
+          "« Robe de mariée pas cher Paris », « location robe de mariée Paris », « outlet », « déstockage », « abordable », « petit prix » : ces recherches mènent souvent jusqu'ici. Nous proposons une robe sur mesure, à partir de 1 500 €, retouches comprises. Quel prix pour quelle robe ? Celui qui vous est donné au showroom, modèle par modèle. Un prix moyen ? Autour de 2 500 €.",
         ],
       },
     ],
     aRetenir: [
       `À partir de ${MAISON.prixDepart}, confection sur mesure, retouches comprises.`,
-      "Le prix tient à la matière, à la maison et au modèle ; il vous est donné au showroom.",
-      "Acompte à la prise des mensurations, solde le jour des retouches.",
-      "Rien ne se vend en ligne : tout commence par l'essayage privé.",
+      "Le prix dépend de la matière, de la maison et du modèle ; il vous est donné au showroom.",
+      "Acompte à la prise des mensurations, solde au retrait de la robe, après retouches.",
+      "Aucune vente en ligne : tout commence par l'essayage privé.",
     ],
     liens: [
       { href: "/rendez-vous", label: "Prendre rendez-vous pour un essayage" },
@@ -158,7 +150,7 @@ export const GUIDES: Guide[] = [
     slug: "essayage-robe-de-mariee",
     titre: "Comment se passe un essayage de robe de mariée",
     q: "Comment se passe un essayage de robe de mariée ?",
-    r: "Chez MADAMOON, sur rendez-vous : le showroom est privatisé pour vous pendant une heure. Vous venez sans maquillage, accompagnée de qui vous voulez, vous essayez quelques robes dans des coupes différentes et, si votre choix se fait, nous prenons vos mensurations le jour même.",
+    r: "Chez MADAMOON, sur rendez-vous : le showroom est privatisé pour vous pendant une heure. Vous venez sans maquillage, accompagnée de deux personnes (ou plus), vous essayez les robes qui correspondent à votre goût, à votre morphologie et à l'esprit de votre mariage. Et quand votre choix est fait, nous prenons vos mensurations pour lancer la confection de votre robe de mariée.",
     description:
       "Comment se passe un essayage de robe de mariée : rendez-vous, showroom privatisé une heure, quoi apporter, qui emmener. MADAMOON, Paris 10e.",
     chapo:
@@ -167,7 +159,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Avant : prendre rendez-vous",
         texte: [
-          "Notre showroom reçoit uniquement sur rendez-vous, parce qu'il est privatisé pour chaque mariée. Le rendez-vous se prend en ligne, en quelques clics, ou par téléphone, idéalement huit à neuf mois avant le mariage. D'ici là, repérez quelques coupes et quelques-unes de nos robes qui vous plaisent : le rendez-vous n'en sera que plus efficace.",
+          "Notre showroom reçoit uniquement sur rendez-vous, parce qu'il est privatisé pour chaque mariée. Le rendez-vous se prend en ligne, en quelques clics, ou par téléphone, idéalement huit mois à un an avant le mariage. D'ici là, repérez quelques coupes et quelques-unes de nos robes qui vous plaisent : le rendez-vous n'en sera que plus efficace.",
         ],
       },
       {
@@ -190,7 +182,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Qui emmener",
         texte: [
-          "Celles dont l'avis compte vraiment pour vous, et qui vous aident à y voir clair : une mère, une sœur, une amie qui vous connaît bien. Le showroom étant privatisé, vos proches sont les bienvenues tout au long de l'essayage. Trop d'avis finissent par brouiller le vôtre : quelques personnes suffisent.",
+          "Celles dont l'avis compte vraiment pour vous, et qui vous aident à y voir clair : une mère, une sœur, une amie qui vous connaît bien. Le showroom étant privatisé, vos proches sont les bienvenus tout au long de l'essayage. Trop d'avis finissent par brouiller le vôtre : quelques personnes suffisent.",
         ],
       },
       {
@@ -202,7 +194,7 @@ export const GUIDES: Guide[] = [
       {
         titre: "Après : les mensurations, puis deux autres essayages",
         texte: [
-          "Si votre choix est fait, nous prenons vos mensurations le jour même pour lancer la confection à l'atelier, et vous versez un acompte. Vous reviendrez essayer la robe lorsqu'elle sera prête, puis une dernière fois après les retouches, faites sur place et comprises. Si vous hésitez entre plusieurs robes, un nouveau rendez-vous vous permet de réessayer vos finalistes — en gardant un œil sur le calendrier.",
+          "Si votre choix est fait, nous prenons vos mensurations le jour même pour lancer la confection à l'atelier, et vous versez un acompte. Vous reviendrez essayer la robe lorsqu'elle sera prête, puis une dernière fois après les retouches, faites sur place. Si vous hésitez entre plusieurs robes, un nouveau rendez-vous vous permet de réessayer vos finalistes — en gardant un œil sur le calendrier.",
         ],
       },
     ],
